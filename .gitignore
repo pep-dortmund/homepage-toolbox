@@ -1,0 +1,16 @@
+
+# Custom
+
+_site/
+_cache/
+site
+
+# Haskell
+
+dist
+cabal-dev
+*.o
+*.hi
+*.chi
+*.chs.h
+.virthualenv
