@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
+    <!-- Le meta -->
     <meta charset="utf-8">
     <title>Pep et al. Toolbox-Workshop 2013</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,55 +9,55 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-    <link href="../css/bootstrap.min.css" rel="stylesheet">
-    <style type="text/css">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <style>
       body {
-        padding-top: 20px;
-        padding-bottom: 40px;
+        padding: 60px 0;
       }
 
-      /* Custom container */
-      .container-narrow {
-        margin: 0 auto;
-        max-width: 700px;
-      }
-      .container-narrow > hr {
-        margin: 30px 0;
+      .container {
+        width: auto;
+        max-width: 680px;
+        padding: 0 15px;
       }
 
+      .github {
+        padding-left: 32px;
+        background-image: url('../img/octocat-small.png');
+        background-repeat: no-repeat;
+        background-position: 8px center;
+      }
     </style>
-    <link href="../css/bootstrap-responsive.min.css" rel="stylesheet">
+
     <link rel="shortcut icon" href="../img/favicon.png">
   </head>
 
   <body>
+    <div class="container">
 
-    <div class="container-narrow">
-
-      <div class="masthead">
-        <ul class="nav nav-pills pull-right">
-          <li class="active"><a href="#">About</a></li>
-          <li><a href="#">Skript</a></li>
-          <li><a href="#">Kontakt</a></li>
-        </ul>
-        <h3 class="muted">PeP et al. Toolbox-Workshop 2013</h3>
+      <div class="page-header">
+        <h1>PeP et al. Toolbox Workshop 2013 <small>$title$</small></h1>
       </div>
 
-      <hr>
+      <div class="navbar navbar-fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">PeP Toolbox</a>
+          <div class="nav-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class=""><a href="#">Über</a></li>
+              <li><a href="#">Skript</a></li>
+              <li><a href="#">Beispiele</a></li>
+            </ul>
+            <a href="https://github.com/ibab/toolbox.pep-dortmund.de" class="btn btn-default navbar-btn pull-right github">GitHub</a>
+          </div>
+        </div> <!-- /container -->
+      </div> <!-- /navbar -->
 
       $body$
 
-      <hr>
-
-      <div class="footer">
-        <p>Powered by Hakyll and Bootstrap</p>
-      </div>
-
     </div> <!-- /container -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Le javascript -->
     <script src="../js/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
   </body>
