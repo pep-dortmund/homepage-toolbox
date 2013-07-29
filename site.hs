@@ -22,14 +22,20 @@ main = hakyllWith defaultConfiguration $ do
     route   idRoute
     compile copyFileCompiler
 
-  match "index.html" $ do
+  match "templates/*" $ compile templateCompiler
+
+  match "*.html" $ do
     route idRoute
     compile $ do
       getResourceBody
         >>= loadAndApplyTemplate "templates/default.html" postCtx
         >>= relativizeUrls
 
-  match "templates/*" $ compile templateCompiler
+  match "*.md" $ do
+    route $ setExtension "html"
+    compile $  myPandocC
+      >>= loadAndApplyTemplate "templates/default.html" postCtx
+      >>= relativizeUrls
 
 postCtx :: Context String
 postCtx = mconcat
