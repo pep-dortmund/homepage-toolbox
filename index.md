@@ -2,11 +2,16 @@
 title: Startseite
 ---
 
-<p class="lead">Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physikstudierende an. Dieser wird voraussichtlich in der ersten Oktoberwoche stattfinden.</p>
+<p class="lead">
+Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physikstudierende an der TU Dortmund an.
+</p>
 
-Zur Zeit befinden wir uns in der Planungsphase. An dieser Stelle werden Informationen zum Zeitrahmen und zu den Inhalten des Workshops veröffentlicht, sobald diese feststehen.
+<p class="lead">
+Der Kurs wird Werkzeuge behandeln, die das Auswerten von Versuchen vereinfachen.
+</p>
 
-Um die Planung zu vereinfachen, werden wir ein Formular einrichten, mit dessen Hilfe interessierte Studierende sich in eine Liste eintragen können. Bitte nutzt diese Möglichkeit, damit wir den Workshop optimal auf eure Bedürfnisse abstimmen können.
+Er richtet sich vorranging an die kommenden Drittsemester und soll beim Einstieg in das Anfängerpraktikum helfen.
+Trotzdem sind natürlich auch andere Interessenten eingeladen, mitzumachen.
 
 <div class="container">
 <table class="table table-hover">
@@ -45,5 +50,8 @@ Um die Planung zu vereinfachen, werden wir ein Formular einrichten, mit dessen H
 </table>
 </div>
 
-<a href="#" disabled="disabled" class="btn btn-primary btn-large pull-right">Zum Anmeldeformular</a>
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
+Daher geben wir euch an dieser Stelle die Möglichkeit, Interesse am Workshop anzumelden und einige kurze Fragen zu beantworten.
+
+<a href="#" disabled="disabled" class="btn btn-primary btn-large pull-right">Interesse anmelden</a>
 
