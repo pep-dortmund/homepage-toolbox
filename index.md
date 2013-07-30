@@ -52,41 +52,9 @@ Er ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dor
 </table>
 </div>
 
-<iframe src="https://docs.google.com/forms/d/1jwsShefaa-8EaEv908DNOftL4_KIegGkKELOnQ4ttw4/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Wird geladen...</iframe>
-
-<!--Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
+## Umfrage
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
 
 Es wäre daher schön, wenn ihr die folgenden Fragen beantworten könntet, damit wir den Workshop optimal an eure Bedürftnisse anpassen können.
 
-<div class="container">
-<form>
-<div class="form-group">
-    <legend>
-      Meine Programmierkenntnisse
-    </legend>
-    <div class="radio">
-      <label>
-        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1">
-        Habe noch nie programmiert
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-        Habe bereits in einer Sprache außer Python programmiert
-      </label>
-    </div>
-    <div class="radio">
-      <label>
-        <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-        Habe bereits in Python programmiert
-      </label>
-    </div>
-    <legend>
-      Weitere Anmerkungen
-    </legend>
-    <textarea class="form-control" rows="3"></textarea>
-  </div>
-</form>
-    <a href="#" disabled="disabled" class="btn btn-primary btn-large pull-right">Interesse anmelden</a>
-</div> -->
+<a class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1jwsShefaa-8EaEv908DNOftL4_KIegGkKELOnQ4ttw4/viewform">Zur Umfrage</a>
