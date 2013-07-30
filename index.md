@@ -10,10 +10,7 @@ Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-W
 Der Kurs vermittelt den Umgang mit Werkzeugen, die das Auswerten von Versuchen vereinfachen.
 </p>
 
-Er richtet sich vorranging an die kommenden Drittsemester und soll beim Einstieg in das Anfängerpraktikum helfen.
-Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
-
-Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dortmund.de/apkurs/) gedacht.
+Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dortmund.de/apkurs/) gedacht und richtet sich damit vorranging an die kommenden Drittsemester. Er soll beim Einstieg in das Anfängerpraktikum helfen. Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
 
 <div class="container">
 <table class="table table-hover">
