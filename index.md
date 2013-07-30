@@ -13,10 +13,9 @@ Der Kurs vermittelt den Umgang mit Werkzeugen, die das Auswerten von Versuchen v
 Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dortmund.de/apkurs/) gedacht und richtet sich damit vorranging an die kommenden Drittsemester. Er soll beim Einstieg in das Anfängerpraktikum helfen. Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
 
 ## Umfrage
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt. Wir haben daher einen kleinen Fragebogen (bei Google Docs) zusammengestellt. Wir möchten euch bitten, die Fragen zu beantworten, damit wir den Workshop optimal an eure Bedürftnisse anpassen können.
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt. Wir haben daher einen kleinen Fragebogen (bei Google Docs) zusammengestellt und möchten euch bitten ihn auszufüllen, damit wir den Workshop optimal an eure Bedürftnisse anpassen können.
 
 <a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1jwsShefaa-8EaEv908DNOftL4_KIegGkKELOnQ4ttw4/viewform">Zur Umfrage</a>
-
 <div class="clearfix"></div>
 
 ## Ablaufplan <small><span class="label label-warning">vorläufig</span></small>
