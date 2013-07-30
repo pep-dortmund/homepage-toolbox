@@ -17,6 +17,8 @@ Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bere
 
 <a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1jwsShefaa-8EaEv908DNOftL4_KIegGkKELOnQ4ttw4/viewform">Zur Umfrage</a>
 
+<div class="clearfix"></div>
+
 ## Ablaufplan <small><span class="label label-warning">vorläufig</span></small>
 <div class="container">
 <table class="table table-hover">
