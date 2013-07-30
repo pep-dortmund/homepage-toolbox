@@ -22,6 +22,10 @@ main = hakyllWith defaultConfiguration $ do
     route   idRoute
     compile copyFileCompiler
 
+  match "files/*" $ do
+    route   idRoute
+    compile copyFileCompiler
+
   match "templates/*" $ compile templateCompiler
 
   match "*.html" $ do
