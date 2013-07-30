@@ -52,7 +52,9 @@ Er ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dor
 </table>
 </div>
 
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
+<iframe src="https://docs.google.com/forms/d/1jwsShefaa-8EaEv908DNOftL4_KIegGkKELOnQ4ttw4/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Wird geladen...</iframe>
+
+<!--Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
 
 Es wäre daher schön, wenn ihr die folgenden Fragen beantworten könntet, damit wir den Workshop optimal an eure Bedürftnisse anpassen können.
 
@@ -87,4 +89,4 @@ Es wäre daher schön, wenn ihr die folgenden Fragen beantworten könntet, damit
   </div>
 </form>
     <a href="#" disabled="disabled" class="btn btn-primary btn-large pull-right">Interesse anmelden</a>
-</div>
+</div> -->
