@@ -3,7 +3,7 @@ title: Startseite
 ---
 
 <p class="lead">
-Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physik- und Medizinphysikstudierende an der TU Dortmund an.
+Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an.
 </p>
 
 <p class="lead">
