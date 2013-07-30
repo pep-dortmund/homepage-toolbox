@@ -1,14 +1,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Control.Applicative
-import Control.Monad
-import Data.Monoid ((<>), mappend, mconcat)
-import Data.Maybe
-import qualified Data.Map
+import Data.Monoid (mconcat)
 
-import Text.Pandoc
 import Hakyll
-import Hakyll.Web.Pandoc
 
 main = hakyllWith defaultConfiguration $ do
   match "img/*" $ do
@@ -37,7 +32,7 @@ main = hakyllWith defaultConfiguration $ do
 
 
 context = mconcat
-  [ field "navbar" $ navbarCompiler
+  [ field "navbar" navbarCompiler
   , defaultContext
   ]
 
