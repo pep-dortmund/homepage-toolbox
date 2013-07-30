@@ -3,7 +3,7 @@ title: Startseite
 ---
 
 <p class="lead">
-Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physikstudierende an der TU Dortmund an.
+Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physik- und Medizinphysikstudierende an der TU Dortmund an.
 </p>
 
 <p class="lead">
@@ -13,7 +13,7 @@ Der Kurs vermittelt den Umgang mit Werkzeugen, die das Auswerten von Versuchen v
 Er richtet sich vorranging an die kommenden Drittsemester und soll beim Einstieg in das Anfängerpraktikum helfen.
 Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
 
-Er ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dortmund.de/apkurs/) gedacht.
+Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dortmund.de/apkurs/) gedacht.
 
 <div class="container">
 <table class="table table-hover">
