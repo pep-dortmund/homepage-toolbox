@@ -12,6 +12,7 @@ Der Kurs vermittelt den Umgang mit Werkzeugen, die das Auswerten von Versuchen v
 
 Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.physik.tu-dortmund.de/apkurs/) gedacht und richtet sich damit vorranging an die kommenden Drittsemester. Er soll beim Einstieg in das Anfängerpraktikum helfen. Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
 
+## Ablaufplan <small><span class="label label-warning">vorläufig</span></small>
 <div class="container">
 <table class="table table-hover">
 <thead>
