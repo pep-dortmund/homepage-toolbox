@@ -3,6 +3,7 @@
 import Control.Applicative
 import Control.Monad
 import Data.Monoid ((<>), mappend, mconcat)
+import Data.Maybe
 import qualified Data.Map
 
 import Text.Pandoc
@@ -28,53 +29,32 @@ main = hakyllWith defaultConfiguration $ do
 
   match "templates/*" $ compile templateCompiler
 
-  match "*.html" $ do
-    route idRoute
-    compile $ do
-      getResourceBody
-        >>= loadAndApplyTemplate "templates/default.html" postCtx
-        >>= relativizeUrls
-
-  match "*.md" $ do
+  match ("*.md" .&&. complement "README.md") $ do
     route $ setExtension "html"
-    compile $  myPandocC
-      >>= loadAndApplyTemplate "templates/default.html" postCtx
+    compile $ pandocCompiler
+      >>= loadAndApplyTemplate "templates/default.html" context
       >>= relativizeUrls
 
-postCtx :: Context String
-postCtx = mconcat
-  [ mathjaxCtx
-  , dateField "date" "%B %e, %Y"
+
+context = mconcat
+  [ field "navbar" $ navbarCompiler
   , defaultContext
   ]
 
-myPandocC = pandocCompilerWith defaultHakyllReaderOptions pandocOptions
+navbar =  [ ("Über",     "/about.html")
+          , ("Material", "/notes.html")
+          , ("Archiv",   "/archive.html")
+          ]
 
-postList :: ([Item String] -> Compiler [Item String]) -> Compiler String
-postList sortFilter = do
-  posts    <- loadAll "posts/*"
-  filtered <- sortFilter posts
-  itemTpl  <- loadBody "templates/post-item.html"
-  list     <- applyTemplateList itemTpl postCtx filtered
-  return list
+navbarCompiler item = do
+  -- Get the url of this page
+  url <- fmap (maybe empty toUrl) $ getRoute $ itemIdentifier item
+  return $ generateNavbar url
 
-pandocOptions = defaultHakyllWriterOptions
-  { writerHTMLMathMethod = MathJax ""
-  }
-
-myFeedConfiguration = FeedConfiguration
-    { feedTitle       = "PeP et al. Toolbox-Workshop"
-    , feedDescription = "Der Toolbox-Workshop"
-    , feedAuthorName  = "Igor Babuschkin"
-    , feedAuthorEmail = "igor@babushk.in"
-    , feedRoot        = "http://toolbox.pep-dortmund.de/"
-    }
-
-mathjaxCtx = field "mathjax" $ \item -> do
-  metadata <- getMetadata (itemIdentifier item)
-  return $ case Data.Map.lookup "math" metadata of
-    Just "true" -> "<script type=\"text/x-mathjax-config\">MathJax.Hub.Config({messageStyle: \"none\",});</script>\
-                   \<script type=\"text/javascript\" src=\"http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML\" />"
-    Just _ -> ""
-    Nothing -> ""
-  
+generateNavbar url = concat $ do
+  (t, l) <- navbar
+  -- if the url matches, this tab is active
+  let cl = if l == url
+        then "class=\"active\""
+        else ""
+  return $ concat ["<li ", cl, "><a href=\"", l, "\">", t, "</a></li>\n"]
