@@ -45,7 +45,9 @@ Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bere
     <td>Stressfrei Kollaborieren mit [git](http://git-scm.com)</td>
   </tr>
   <tr class="warning">
-    <td colspan=3> Feiertag </td>
+    <td>Donnerstag, 3.10.2013</td>
+    <td></td>
+    <td> Feiertag </td>
   </tr>
   <tr>
     <td>Freitag, 4.10.2013</td>
