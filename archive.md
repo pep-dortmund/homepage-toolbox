@@ -10,6 +10,6 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
  * [Folien](files/toolbox_folien_2012.pdf)
  * [Skript](files/toolbox_skript_2012.pdf) <span class="label label-warning">unfertig</span>
  * [Git Repository mit Skript und Folien](https://github.com/ibab/toolbox-workshop-2012)
- * [Git Repository mit Aufgaben und Beispielen](https://github.com/kdungs/toolbox)
+ * [Git Repository mit Aufgaben und Beispielen](https://github.com/pep-dortmund/toolbox-examples-2012)
 
 Der Programm-Code befindet sich unter der [MIT-Lizenz](http://opensource.org/licenses/MIT), die Texte unter [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/).
