@@ -24,7 +24,7 @@ Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bere
   <tr>
     <th>Tag</th>
     <th>Zeit</th>
-    <td>Raum</th>
+    <th>Raum</th>
     <th>Thema</th>
   </tr>
 </thead>
