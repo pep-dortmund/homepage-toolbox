@@ -77,7 +77,7 @@ Die Installation kann auf folgende Weise getestet werden:
 Einfach alle drei Archive mit 7-Zip in den Installationspfad von Git Bash entpacken (im Beispiel oben `C:\Program Files (x86)\Git`).
 Man muss dabei die Archive zweimal öffnen, da das äußere Archiv jeweils ein inneres Archiv enthält.
 Jeweils muss der Ordner bin entpackt werden, dabei sollte Windows fragen, ob die Ordner fusioniert werden sollen (Antwort: ja).
-Make sollte jetzt unter Git Bash benutzbar sein, ausprobieren kann man es, indem man make in Git Bash eingibt.
+Make sollte jetzt unter Git Bash benutzbar sein, ausprobieren kann man es, indem man `make` in Git Bash eingibt.
 Dabei sollte folgende Ausgabe erscheinen:
 
     make: *** No targets specified and no makefile found.  Stop.
