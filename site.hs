@@ -36,9 +36,10 @@ context = mconcat
   , defaultContext
   ]
 
-navbar =  [ ("Über",     "/about.html")
-          , ("Material", "/notes.html")
-          , ("Archiv",   "/archive.html")
+navbar =  [ ("Über",         "/about.html")
+          , ("Installation", "/install.html")
+          , ("Material",     "/notes.html")
+          , ("Archiv",       "/archive.html")
           ]
 
 navbarCompiler item = do
