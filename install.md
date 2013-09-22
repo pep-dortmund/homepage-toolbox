@@ -7,9 +7,7 @@ title: Installation
 - [Linux](#linux)
 - [Arch Linux](#arch)
 
-<a id="windows"></a>
-
-## Windows 7
+## <a id="windows"></a>Windows 7
 
 ### Nützliche Programme
 - 7-Zip, Entpacker: [http://www.7-zip.org/](http://www.7-zip.org/)
@@ -83,14 +81,8 @@ Dabei sollte folgende Ausgabe erscheinen:
 
     make: *** No targets specified and no makefile found.  Stop.
 
-<a id="osx"></a>
+## <a id="osx"></a>OS X
 
-## OS X
+## <a id="linux"></a>Linux
 
-<a id="linux"></a>
-
-## Linux
-
-<a id="arch"></a>
-
-## Arch Linux
+## <a id="arch"></a>Arch Linux
