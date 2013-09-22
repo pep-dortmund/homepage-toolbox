@@ -85,6 +85,50 @@ Dabei sollte folgende Ausgabe erscheinen:
 
 ## <a id="linux"></a>Linux
 
+### Git
+- Debian, Ubuntu, Mint:
+
+        apt-get install git
+
+- Fedora:
+
+        yum install git-core
+
+- OpenSUSE:
+
+        zypper in git
+
+### Anaconda
+- Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
+    - [Version 1.7.0, 32-bit](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Linux-x86.sh)
+    - [Version 1.7.0, 64-bit](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Linux-x86_64.sh)
+- Im Terminal:
+
+        bash Anaconda-1.7.0-Linux-x86_64.sh
+        <Enter>
+        yes
+        <Enter>
+        yes
+
+Nach der Installation muss man einen neuen Terminal öffnen, damit Ananconda gefunden wird.
+
+### Uncertainties (optional)
+
+    pip install uncertainties
+
+### Make (optional)
+- Debian, Ubuntu, Mint:
+
+        apt-get install make
+
+- Fedora:
+
+        yum install make
+
+- OpenSUSE:
+
+        zypper in make
+
 ## <a id="arch"></a>Arch Linux
 
 ### Git
