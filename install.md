@@ -6,6 +6,7 @@ title: Installation
 - [OS X](#osx)
 - [Linux](#linux)
 - [Arch Linux](#arch)
+- [Testen](#test)
 
 ## <a id="windows"></a>Windows 7
 
@@ -43,28 +44,17 @@ Diesen Installationspfad muss man sich merken, falls man auch Python 3 ausprobie
 So ist die Verwendung am bequemsten:  
 ![](img/anaconda2.png)
 
-### Test
+### Terminal
 
 Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rechten Maustaste auf eine leere Stelle des Desktops oder eines Explorer-Fensters klickt (für die Windows-Konsole dabei Shift gedrückt halten), dann erscheint ein ähnliches Menü:  
 ![](img/menu.png)  
 Die Windows-Konsole befindet sich über dem Punkt "Einfügen".
-
-Die Installation kann auf folgende Weise getestet werden:
-
-- Git Bash öffnen
-- `git` eingeben, es sollte die git-Hilfe erscheinen
-- `ipython` eingeben
-- `%matplotlib` eingeben
-- `import matplotlib.pyplot as plt` eingeben
-- `plt.plot([1, 2, 4])` eingeben, es sollte ein Fenster mit einem Plot erscheinen
+Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
 
 ### Uncertainties (optional)
 - Uncertainties, Python-Bibliothek, automatisiert Fehlerrechnung
 - Windows-Konsole öffnen
 - `pip install uncertainties` eingeben
-- Git Bash öffnen
-- `ipython` eingeben
-- `import uncertainties` eingeben, es sollte keine Fehlermeldung erscheinen
 
 ### Make (optional)
 - Make, automatisiert Abläufe: [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
@@ -76,10 +66,6 @@ Die Installation kann auf folgende Weise getestet werden:
 Einfach alle drei Archive mit 7-Zip in den Installationspfad von Git Bash entpacken (im Beispiel oben `C:\Program Files (x86)\Git`).
 Man muss dabei die Archive zweimal öffnen, da das äußere Archiv jeweils ein inneres Archiv enthält.
 Jeweils muss der Ordner bin entpackt werden, dabei sollte Windows fragen, ob die Ordner fusioniert werden sollen (Antwort: ja).
-Make sollte jetzt unter Git Bash benutzbar sein; ausprobieren kann man es, indem man `make` in Git Bash eingibt.
-Dabei sollte folgende Ausgabe erscheinen:
-
-    make: *** No targets specified and no makefile found.  Stop.
 
 ## <a id="osx"></a>OS X
 
@@ -162,3 +148,35 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 ### Make (optional)
 
     pacman -S make
+
+## <a id="test"></a>Testen
+
+### Git
+Im Terminal:
+
+- `git`
+- es sollte die Git-Hilfe erscheinen.
+
+### Python
+Im Terminal:
+
+- `ipython`
+- `%matplotlib`
+- `import matplotlib.pyplot as plt`
+- `plt.plot([1, 2, 4])`
+- es sollte ein Fenster mit einem Plot erscheinen
+
+### Uncertainties (optional)
+Im Terminal:
+
+- `ipython`
+- `import uncertainties`
+- es sollte keine Fehlermeldung erscheinen
+
+### Make (optional)
+Im Terminal:
+
+- `make`
+- es sollte folgende Ausgabe erscheinen:
+
+        make: *** No targets specified and no makefile found.  Stop.
