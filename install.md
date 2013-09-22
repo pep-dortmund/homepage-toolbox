@@ -86,3 +86,35 @@ Dabei sollte folgende Ausgabe erscheinen:
 ## <a id="linux"></a>Linux
 
 ## <a id="arch"></a>Arch Linux
+
+### Git
+
+    pacman -S git
+
+### Python und Basisbibliotheken
+
+    pacman -S python2 python2-numpy python2-scipy python2-matplotlib ipython2 twisted python2-pexpect python2-pyqt4 python2-sip python2-pygments python2-pyzmq python2-tornado python2-jinja
+
+### Sympy (optional)
+
+    pacman -S python2-sympy
+
+### Uncertainties (optional)
+Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
+
+- Mit [`yaourt`](https://wiki.archlinux.org/index.php/Yaourt):
+
+        yaourt -S python2-uncertainties
+
+- Manuell:
+
+        wget https://aur.archlinux.org/packages/py/python2-uncertainties/python2-uncertainties.tar.gz
+        tar xfvz python2-uncertainties.tar.gz
+        cd python2-uncertainties
+        makepkg -si
+        cd ..
+        rm -rf python2-uncertainties
+
+### Make (optional)
+
+    pacman -S make
