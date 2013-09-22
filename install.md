@@ -161,7 +161,7 @@ Im Terminal:
 Im Terminal:
 
 - `ipython`
-- `%matplotlib`
+- `%matplotlib qt`
 - `import matplotlib.pyplot as plt`
 - `plt.plot([1, 2, 4])`
 - es sollte ein Fenster mit einem Plot erscheinen
