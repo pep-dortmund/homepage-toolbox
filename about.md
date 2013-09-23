@@ -12,4 +12,6 @@ Der Verein versteht sich als Einrichtung für Absolventen, Studierende, Mitarbei
 Mehr zu PeP et al. ist auf der Website [www.pep-dortmund.org](http://pep-dortmund.org/) zu finden.
 
 ## Die Organisatoren
-Mit der Unterstützung von Tobias Brambach, Christophe Cauet, Christian Gerhorst, Peter Lorenz und Julian Wishahi wird der Workshop von Igor Babuschkin, Kevin Dungs und Ismo Toijala organisiert. Die Organisatoren sind über ihre Unimailadressen (Vorname.Name@udo.edu) zu erreichen.
+Der Workshop wird von Igor Babuschkin, Kevin Dungs und Ismo Toijala organisiert.
+Die Organisatoren sind über ihre Unimailadressen (Vorname.Name@udo.edu) zu erreichen.
+Die Organisation wird unterstützt von Tobias Brambach, Christophe Cauet, Christian Gerhorst, Peter Lorenz und Julian Wishahi.
