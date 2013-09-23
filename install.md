@@ -73,6 +73,19 @@ Jeweils muss der Ordner bin entpackt werden, dabei sollte Windows fragen, ob die
 
 ## <a id="osx"></a>OS X
 
+### XCode Tools
+Die Installation von XCode erfolgt über den AppStore. Danach sollten in XCode die Kommandozeilentools nach installiert werden.
+
+### Anaconda
+Die Firma Continuum Analytics bietet einen Installer an, der Python und alle benötigten Bibliotheken installiert. Dieses Programm heißt Anaconda und kann hier heruntergeladen werden.
+
+ * [Anaconda](http://www.continuum.io/downloads)
+ * [Direkter Download (>=10.7)](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79
+
+#### Uncertainties
+Die Pythonbibliothek zur automatisierten Fehlerrechnung kann mit dem Befehl `pip install uncertainties` installiert werden.
+
+
 ## <a id="linux"></a>Linux
 
 ### Git
