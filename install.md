@@ -51,6 +51,10 @@ Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rec
 Die Windows-Konsole befindet sich über dem Punkt "Einfügen".
 Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
 
+Um die Installation von Anaconda zu vervollständigen, öffnet man die Windows-Konsole und gibt ein:
+
+    copy C:\Anaconda\python.exe C:\Anaconda\python2.exe
+
 ### Uncertainties (optional)
 - Uncertainties, Python-Bibliothek, automatisiert Fehlerrechnung
 - Windows-Konsole öffnen
