@@ -37,19 +37,19 @@ Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bere
   <tr>
     <td>Mo, 30.9.2013</td>
     <td>12.15 - 15.45 Uhr</td>
-    <td>HS2 HGII</td>
+    <td>HS4 HGII</td>
     <td>Professionelle Plots Erstellen mit [matplotlib](http://matplotlib.org)</td>
   </tr>
   <tr>
     <td>Di, 1.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
-    <td>HS2 HGII</td>
+    <td>HS4 HGII</td>
     <td>Effektiv Auswerten mit [Python](http://python.org)</td>
   </tr>
   <tr>
     <td>Mi, 2.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
-    <td>HS2 HGII</td>
+    <td>HS4 HGII</td>
     <td>Stressfrei Kollaborieren mit [git](http://git-scm.com)</td>
   </tr>
   <tr class="warning">
@@ -61,7 +61,7 @@ Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bere
   <tr>
     <td>Fr, 4.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
-    <td>HS2 HGII</td>
+    <td>HS4 HGII</td>
     <td>Konkrete Auswertungen</td>
   </tr>
 </tbody>
