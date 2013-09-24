@@ -76,7 +76,7 @@ Jeweils muss der Ordner bin entpackt werden, dabei sollte Windows fragen, ob die
 ### XCode Tools
 Die Installation von XCode erfolgt über den AppStore.
 Danach sollten in XCode die Kommandozeilentools nach installiert werden.
-Insbesondere sind darin git und make enthalten.
+Insbesondere sind darin git und make enthalten. Um die Kommandozeilentools zu installieren, öffnet man das Einstellungsfenster (CMD + ,) und wählt den Tab "Downloads" aus.
 
 ### Anaconda
 Die Firma Continuum Analytics bietet einen Installer an, der Python und alle benötigten Bibliotheken installiert.
