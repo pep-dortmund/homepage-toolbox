@@ -18,10 +18,8 @@ Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.phy
 - Bei Problemen per [Email](about.html#die-organisatoren) melden
 
 ## Umfrage
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt. Wir haben daher einen kleinen Fragebogen (bei Google Docs) zusammengestellt und möchten euch bitten ihn auszufüllen, damit wir den Workshop optimal an eure Bedürftnisse anpassen können.
+Die Umfrage ist abgeschlossen. Vielen Dank an alle, die teilgenommen haben. Wir werden versuchen, den Kurs euren Wünschen entsprechend auszurichten.
 
-<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1jwsShefaa-8EaEv908DNOftL4_KIegGkKELOnQ4ttw4/viewform">Zur Umfrage</a>
-<div class="clearfix"></div>
 
 ## Ablaufplan <small><span class="label label-success">Termine stehen fest</span></small>
 <table class="table table-hover">
