@@ -176,6 +176,11 @@ Im Terminal:
 - `git`
 - es sollte die Git-Hilfe erscheinen.
 
+Git einstellen (nicht optional, git funktioniert ohne nicht):
+
+- `git config --global user.name "Max Mustermann"`
+- `git config --global user.email "max.mustermann@udo.edu"`
+
 ### Python
 Im Terminal:
 
