@@ -190,6 +190,12 @@ Im Terminal:
 - `plt.plot([1, 2, 4])`
 - es sollte ein Fenster mit einem Plot erscheinen
 
+Falls eine Fehlermeldung bei `%matplotlib qt` kommt (besonders bei OS X oder Linux), kann man
+
+    echo "backend.qt4: PySide" >> ~/.matplotlib/matplotlibrc
+
+im Terminal eingeben und es nochmal probieren.
+
 ### Uncertainties (optional)
 Im Terminal:
 
