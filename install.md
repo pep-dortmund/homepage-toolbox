@@ -55,12 +55,12 @@ Um die Installation von Anaconda zu vervollständigen, öffnet man die Windows-K
 
     copy C:\Anaconda\python.exe C:\Anaconda\python2.exe
 
-### Uncertainties (optional)
+### Uncertainties
 - Uncertainties, Python-Bibliothek, automatisiert Fehlerrechnung
 - Windows-Konsole öffnen
 - `pip install uncertainties` eingeben
 
-### Make (optional)
+### Make
 - Make, automatisiert Abläufe: [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
     - Make für Git Bash, hier braucht man alle drei Dateien:
     - [libiconv](http://sourceforge.net/projects/mingw/files/MSYS/Base/libiconv/libiconv-1.14-1/libiconv-1.14-1-msys-1.0.17-dll-2.tar.lzma/download)
@@ -117,11 +117,11 @@ Die Pythonbibliothek zur automatisierten Fehlerrechnung kann mit dem Befehl `pip
 
 Nach der Installation muss man einen neuen Terminal öffnen, damit Ananconda gefunden wird.
 
-### Uncertainties (optional)
+### Uncertainties
 
     pip install uncertainties
 
-### Make (optional)
+### Make
 - Debian, Ubuntu, Mint:
 
         apt-get install make
@@ -144,11 +144,11 @@ Nach der Installation muss man einen neuen Terminal öffnen, damit Ananconda gef
 
     pacman -S python2 python2-numpy python2-scipy python2-matplotlib ipython2 twisted python2-pexpect python2-pyqt4 python2-sip python2-pygments python2-pyzmq python2-tornado python2-jinja
 
-### Sympy (optional)
+### Sympy
 
     pacman -S python2-sympy
 
-### Uncertainties (optional)
+### Uncertainties
 Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 
 - Mit [`yaourt`](https://wiki.archlinux.org/index.php/Yaourt):
@@ -164,7 +164,7 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
         cd ..
         rm -rf python2-uncertainties
 
-### Make (optional)
+### Make
 
     pacman -S make
 
@@ -196,14 +196,14 @@ Falls eine Fehlermeldung bei `%matplotlib qt` kommt (besonders bei OS X oder Lin
 
 im Terminal eingeben und es nochmal probieren.
 
-### Uncertainties (optional)
+### Uncertainties
 Im Terminal:
 
 - `ipython`
 - `import uncertainties`
 - es sollte keine Fehlermeldung erscheinen
 
-### Make (optional)
+### Make
 Im Terminal:
 
 - `make`
