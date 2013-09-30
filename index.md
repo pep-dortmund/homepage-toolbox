@@ -32,7 +32,7 @@ Die Umfrage ist abgeschlossen. Vielen Dank an alle, die teilgenommen haben. Wir 
   </tr>
 </thead>
 <tbody>
-  <tr>
+  <tr class="success">
     <td>Mo, 30.9.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
