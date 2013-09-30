@@ -36,19 +36,19 @@ Die Umfrage ist abgeschlossen. Vielen Dank an alle, die teilgenommen haben. Wir 
     <td>Mo, 30.9.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
-    <td>Professionelle Plots Erstellen mit [matplotlib](http://matplotlib.org)</td>
+    <td>Plots erstellen mit [matplotlib](http://matplotlib.org)/<br>Einführung in [Python](http://python.org)</td>
   </tr>
   <tr>
     <td>Di, 1.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
-    <td>Effektiv Auswerten mit [Python](http://python.org)</td>
+    <td>Wissenschaftliches Arbeiten mit Python/<br>Fehlerrechnung automatisieren</td>
   </tr>
   <tr>
     <td>Mi, 2.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
-    <td>Stressfrei Kollaborieren mit [git](http://git-scm.com)</td>
+    <td>Umgang mit der Unix-Kommandozeile/<br>Benutzung von [git](http://git-scm.com)</td>
   </tr>
   <tr class="warning">
     <td>Do, 3.10.2013</td>
@@ -60,7 +60,7 @@ Die Umfrage ist abgeschlossen. Vielen Dank an alle, die teilgenommen haben. Wir 
     <td>Fr, 4.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
-    <td>Konkrete Auswertungen</td>
+    <td>Konkrete Beispiele und Auswertungen</td>
   </tr>
 </tbody>
 </table>

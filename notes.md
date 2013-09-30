@@ -2,6 +2,10 @@
 title: Material
 ---
 
-<p class="lead">An dieser Stelle wird das Material des diesjährigen Workshops veröffentlicht, sobald es fertig ist.</p>
+# Erster Tag (Montag, 30.9.2013)
 
-Der Fortschritt kann auf [GitHub](https://github.com/pep-dortmund/toolbox-workshop-2013) verfolgt werden.
+- [Skript für Matplotlib](/files/Matplotlib.html)
+
+- [Skript für Python](/files/Python.html)
+
+- Aufgaben für den ersten Tag: [aufgaben.zip](/files/aufgaben.zip)
