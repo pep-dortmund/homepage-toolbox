@@ -10,7 +10,7 @@ title: Material
 
 - Aufgaben für den ersten Tag: [aufgaben.zip](/files/aufgaben.zip)
 
-# Zweiter Tag (Montag, 1.10.2013)
+# Zweiter Tag (Dienstag, 1.10.2013)
 
 - [Skript für Numpy/Scipy](/files/ScientificPython.html)
 
