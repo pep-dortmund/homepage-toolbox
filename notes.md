@@ -17,3 +17,7 @@ title: Material
 - [Skript für Fehlerrechnung](/files/AutomatisierenVonFehlerrechnung.html)
 
 - Aufgaben für den zweiten Tag: [aufgaben2.zip](/files/aufgaben2.zip)
+
+# Dritter Tag (Mittwoch, 2.10.2013)
+
+- Aufgaben für den dritten Tag: [aufgaben3.zip](/files/aufgaben3.zip)
