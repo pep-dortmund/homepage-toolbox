@@ -20,4 +20,6 @@ title: Material
 
 ## Dritter Tag (Mittwoch, 2.10.2013)
 
+- [Folien](/files/slides.pdf)
+
 - Aufgaben für den dritten Tag: [aufgaben3.zip](/files/aufgaben3.zip)
