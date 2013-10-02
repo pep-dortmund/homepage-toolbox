@@ -44,7 +44,7 @@ Die Umfrage ist abgeschlossen. Vielen Dank an alle, die teilgenommen haben. Wir 
     <td>HS4 HGII</td>
     <td>Wissenschaftliches Arbeiten mit Python/<br>Fehlerrechnung automatisieren</td>
   </tr>
-  <tr class="success">
+  <tr>
     <td>Mi, 2.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
