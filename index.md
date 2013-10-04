@@ -20,7 +20,9 @@ Der Workshop ist als Ergänzung zum [Kurs der Fachschaft](http://project.het.phy
 ## Feedback
 Um den Workshop in den nächsten Jahren besser gestalten zu können, möchten wir euch bitten, uns ein wenig Feedback zum Kurs zu geben. Wir haben zu diesem Zweck ein Formular eingerichtet.
 
-<a class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1GY2P4yY1UU53p8ha8ueu0K6_iqz_l8eCDvpG_35JxIM/viewform">Zum Feedbackformular</a>
+<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1GY2P4yY1UU53p8ha8ueu0K6_iqz_l8eCDvpG_35JxIM/viewform">Zum Feedbackformular</a>
+
+<div class="clearfix"></div>
 
 
 ## Ablaufplan <small><span class="label label-success">Termine stehen fest</span></small>
