@@ -23,3 +23,8 @@ title: Material
 - [Folien](/files/slides.pdf)
 
 - Aufgaben für den dritten Tag: [aufgaben3.zip](/files/aufgaben3.zip)
+
+## Vierter Tag (Freitag, 4.10.2013)
+
+- Aufgaben: Lade das Repository `https://github.com/pep-dortmund/toolbox-workshop-2013` mit `git clone` herunter.
+  Die Aufgaben befinden sich im Ordner `exercises/8-all`.
