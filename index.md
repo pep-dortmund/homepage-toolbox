@@ -55,7 +55,7 @@ Um den Workshop in den nächsten Jahren besser gestalten zu können, möchten wi
     <td></td>
     <td> Feiertag </td>
   </tr>
-  <tr>
+  <tr class="success">
     <td>Fr, 4.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
