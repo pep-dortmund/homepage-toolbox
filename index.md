@@ -20,7 +20,7 @@ Um den Workshop in den nächsten Jahren besser gestalten zu können, möchten wi
 <div class="clearfix"></div>
 
 
-## Ablaufplan <small><span class="label label-success">Termine stehen fest</span></small>
+## Ablaufplan
 <table class="table table-hover">
 <thead>
   <tr>
@@ -55,7 +55,7 @@ Um den Workshop in den nächsten Jahren besser gestalten zu können, möchten wi
     <td></td>
     <td> Feiertag </td>
   </tr>
-  <tr class="success">
+  <tr>
     <td>Fr, 4.10.2013</td>
     <td>12.15 - 15.45 Uhr</td>
     <td>HS4 HGII</td>
