@@ -2,6 +2,9 @@
 title: Installation
 ---
 
+Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
+
+<!--
 - [Windows 7](#windows)
 - [OS X](#osx)
 - [Linux](#linux)
@@ -210,3 +213,4 @@ Im Terminal:
 - es sollte folgende Ausgabe erscheinen:
 
         make: *** No targets specified and no makefile found.  Stop.
+-->
