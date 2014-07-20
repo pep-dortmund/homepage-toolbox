@@ -10,7 +10,7 @@ Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-W
 Der Kurs vermittelt den Umgang mit Werkzeugen, die das Praktikum angenehmer machen.
 </p>
 
-Der Workshop ist als Hilfe fürs Praktkum gedacht und richtet sich damit vorranging an die kommenden Drittsemester; er soll beim Einstieg in das Anfängerpraktikum helfen.
+Der Workshop ist als Hilfe fürs Praktikum gedacht und richtet sich damit vorranging an die kommenden Drittsemester; er soll beim Einstieg in das Anfängerpraktikum helfen.
 Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
 
 LaTeX ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
