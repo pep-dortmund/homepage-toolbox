@@ -49,31 +49,31 @@ Orte, Zeiten und genauere Themen werden demnächst bekanntgegeben.
   <tr>
     <td>Mo, 22.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>Python</td>
   </tr>
   <tr>
     <td>Di, 23.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>Python</td>
   </tr>
   <tr>
     <td>Mi, 24.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>Python, git, make</td>
   </tr>
   <tr>
     <td>Do, 25.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>Python, git, make</td>
   </tr>
   <tr>
     <td>Fr, 26.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>Python, git, make</td>
   </tr>
   <tr>
@@ -85,25 +85,25 @@ Orte, Zeiten und genauere Themen werden demnächst bekanntgegeben.
   <tr>
     <td>Mo, 29.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>LaTeX</td>
   </tr>
   <tr>
     <td>Di, 30.9.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>LaTeX</td>
   </tr>
   <tr>
     <td>Mi, 1.10.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>LaTeX</td>
   </tr>
   <tr>
     <td>Do, 2.10.2014</td>
     <td>13–17 Uhr</td>
-    <td></td>
+    <td>Chemie HS 3</td>
     <td>LaTeX</td>
   </tr>
 </tbody>
