@@ -34,8 +34,6 @@ Näheres zur Vorbereitung wird demnächst bekanntgegeben.
 
 ## Ablaufplan
 
-Orte, Zeiten und genauere Themen werden demnächst bekanntgegeben.
-
 <table class="table table-hover">
 <thead>
   <tr>
