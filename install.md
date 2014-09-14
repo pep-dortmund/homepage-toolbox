@@ -5,11 +5,14 @@ title: Installation
 Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
 
 <!--
+Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
+
 - [Windows 7](#windows)
 - [OS X](#osx)
 - [Linux](#linux)
 - [Arch Linux](#arch)
 - [Testen](#test)
+- [Pflegen, Aktualisieren](#update)
 
 ## <a id="windows"></a>Windows 7
 
@@ -18,11 +21,11 @@ Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
     - [Version 9.20, 32-bit](http://downloads.sourceforge.net/sevenzip/7z920.exe)
     - [Version 9.20, 64-bit](http://downloads.sourceforge.net/sevenzip/7z920-x64.msi)
 - Notepad++, Texteditor: [http://notepad-plus-plus.org/download/](http://notepad-plus-plus.org/download/)
-    - [Version 6.4.5](http://download.tuxfamily.org/notepadplus/6.4.5/npp.6.4.5.Installer.exe)
+    - [Version 6.6.9](http://download.tuxfamily.org/notepadplus/6.6.9/npp.6.6.9.Installer.exe)
 
 ### Git Bash
 - Git Bash: [http://git-scm.com/download/win](http://git-scm.com/download/win)
-    - [Version 1.8.4](https://msysgit.googlecode.com/files/Git-1.8.4-preview20130916.exe)
+    - [Version 1.9.4](https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140815/Git-1.9.4-preview20140815.exe)
 
 Den Installationspfad merken, falls man Make installieren möchte:  
 ![](img/git1.png)
@@ -38,8 +41,8 @@ Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder
 
 ### Anaconda
 - Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
-    - [Version 1.7.0, 32-bit](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Windows-x86.exe)
-    - [Version 1.7.0, 64-bit](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Windows-x86_64.exe)
+    - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86.exe)
+    - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86_64.exe)
 
 Diesen Installationspfad muss man sich merken, falls man auch Python 3 ausprobieren will:  
 ![](img/anaconda1.png)
@@ -74,6 +77,8 @@ Einfach alle drei Archive mit 7-Zip in den Installationspfad von Git Bash entpac
 Man muss dabei die Archive zweimal öffnen, da das äußere Archiv jeweils ein inneres Archiv enthält.
 Jeweils muss der Ordner bin entpackt werden, dabei sollte Windows fragen, ob die Ordner fusioniert werden sollen (Antwort: ja).
 
+### TeX
+
 ## <a id="osx"></a>OS X
 
 ### XCode Tools
@@ -85,34 +90,37 @@ Insbesondere sind darin git und make enthalten. Um die Kommandozeilentools zu in
 Die Firma Continuum Analytics bietet einen Installer an, der Python und alle benötigten Bibliotheken installiert.
 Dieses Programm heißt Anaconda und kann hier heruntergeladen werden.
 
-* [Anaconda](http://www.continuum.io/downloads)
-* [Direkter Download (>=10.7)](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-MacOSX-x86_64.pkg)
+- Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
+    - [Version 2.0.1 (OS X ≥ 10.7)](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-2.0.1-MacOSX-x86_64.pkg)
 
 ### Uncertainties (otional)
 Die Pythonbibliothek zur automatisierten Fehlerrechnung kann mit dem Befehl `pip install uncertainties` installiert werden.
 
+### TeX
+
 ## <a id="linux"></a>Linux
+Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
 ### Git
 - Debian, Ubuntu, Mint:
 
-        apt-get install git
+        (sudo) apt-get install git
 
 - Fedora:
 
-        yum install git-core
+        (sudo) yum install git-core
 
 - OpenSUSE:
 
-        zypper in git
+        (sudo) zypper in git
 
 ### Anaconda
 - Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
-    - [Version 1.7.0, 32-bit](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Linux-x86.sh)
-    - [Version 1.7.0, 64-bit](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-1.7.0-Linux-x86_64.sh)
+    - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86.sh)
+    - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86_64.sh)
 - Im Terminal:
 
-        bash Anaconda-1.7.0-Linux-x86_64.sh
+        bash Anaconda3-2.0.1-Linux-x86_64.sh
         <Enter>
         yes
         <Enter>
@@ -127,49 +135,50 @@ Nach der Installation muss man einen neuen Terminal öffnen, damit Ananconda gef
 ### Make
 - Debian, Ubuntu, Mint:
 
-        apt-get install make
+        (sudo) apt-get install make
 
 - Fedora:
 
-        yum install make
+        (sudo) yum install make
 
 - OpenSUSE:
 
-        zypper in make
+        (sudo) zypper in make
+
+### TeX
 
 ## <a id="arch"></a>Arch Linux
+Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
 ### Git
 
-    pacman -S git
+    (sudo) pacman -S git
 
-### Python und Basisbibliotheken
+### Python und Bibliotheken
 
-    pacman -S python2 python2-numpy python2-scipy python2-matplotlib ipython2 twisted python2-pexpect python2-pyqt4 python2-sip python2-pygments python2-pyzmq python2-tornado python2-jinja
-
-### Sympy
-
-    pacman -S python2-sympy
+    (sudo) pacman -S python python-numpy python-scipy python-matplotlib python-sympy ipython python-twisted python-pyqt4 python-sip python-pygments python-pyzmq python-tornado python-jinja
 
 ### Uncertainties
 Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 
 - Mit [`yaourt`](https://wiki.archlinux.org/index.php/Yaourt):
 
-        yaourt -S python2-uncertainties
+        yaourt -S python-uncertainties
 
 - Manuell:
 
-        wget https://aur.archlinux.org/packages/py/python2-uncertainties/python2-uncertainties.tar.gz
-        tar xfvz python2-uncertainties.tar.gz
-        cd python2-uncertainties
+        wget https://aur.archlinux.org/packages/py/python-uncertainties/python-uncertainties.tar.gz
+        tar xfvz python-uncertainties.tar.gz
+        cd python-uncertainties
         makepkg -si
         cd ..
-        rm -rf python2-uncertainties
+        rm -rf python-uncertainties
 
 ### Make
 
     pacman -S make
+
+### TeX
 
 ## <a id="test"></a>Testen
 
@@ -213,4 +222,8 @@ Im Terminal:
 - es sollte folgende Ausgabe erscheinen:
 
         make: *** No targets specified and no makefile found.  Stop.
+
+### TeX
+
+## <a id="update"></a>Pflegen, Aktualisieren
 -->
