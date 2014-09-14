@@ -23,6 +23,11 @@ Getestet auf Windows 7, funktioniert wahrscheinlich auch für Vista und 8.
     - [Version 9.20, 64-bit](http://downloads.sourceforge.net/sevenzip/7z920-x64.msi)
 - Notepad++, Texteditor: [http://notepad-plus-plus.org/download/](http://notepad-plus-plus.org/download/)
     - [Version 6.6.9](http://download.tuxfamily.org/notepadplus/6.6.9/npp.6.6.9.Installer.exe)
+- Sublime Text 2, Texteditor: [http://www.sublimetext.com/](http://www.sublimetext.com/)
+    - [Version 2.0.2][Download Windows 64-Bit](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20x64%20Setup.exe)
+    - [Version 2.0.2][Download Windows 32-Bit](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%202.0.2%20Setup.exe)
+- ConEmu, deutlich bessere Konsole für Windows: 
+    - [https://code.google.com/p/conemu-maximus5/](https://code.google.com/p/conemu-maximus5/)
 
 ### Git Bash
 - Git Bash: [http://git-scm.com/download/win](http://git-scm.com/download/win)
@@ -45,8 +50,9 @@ Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder
     - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86.exe)
     - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86_64.exe)
 
-Diesen Installationspfad muss man sich merken, falls man auch Python 3 ausprobieren will:  
+Diesen Installationspfad sollte man sich merken: 
 ![](img/anaconda1.png)
+
 
 So ist die Verwendung am bequemsten:  
 ![](img/anaconda2.png)
@@ -58,23 +64,31 @@ Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rec
 Die Windows-Konsole befindet sich über dem Punkt "Einfügen".
 Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
 
+Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht. Deutlich besser geht dies mit ConEmu.
+Hier steht wie ihr ConEmu für GitBash einrichtet:
+
+- [ConEmu mit GitBash im Kontext-Menü](http://superuser.com/a/454381)    
+
 ### Uncertainties
 - Uncertainties, Python-Bibliothek, automatisiert Fehlerrechnung
-- Windows-Konsole öffnen
+- Windows-Konsole öffnen mit Adminrechten öffnen (Start-Menü -> cmd.exe ins Suchfeld eingeben -> Rechtsklick -> mit Adminrechten ausführen) 
 - `pip install uncertainties` eingeben
 
 ### Make
 - Make, automatisiert Abläufe: [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
-    - Make für Git Bash, hier braucht man alle drei Dateien:
-    - [libiconv](http://sourceforge.net/projects/mingw/files/MSYS/Base/libiconv/libiconv-1.14-1/libiconv-1.14-1-msys-1.0.17-dll-2.tar.lzma/download)
-    - [libintl](http://sourceforge.net/projects/mingw/files/MSYS/Base/gettext/gettext-0.18.1.1-1/libintl-0.18.1.1-1-msys-1.0.17-dll-8.tar.lzma/download)
-    - [make](http://sourceforge.net/projects/mingw/files/MSYS/Base/make/make-3.81-3/make-3.81-3-msys-1.0.13-bin.tar.lzma/download)
-
-Einfach alle drei Archive mit 7-Zip in den Installationspfad von Git Bash entpacken (im Beispiel oben `C:\Program Files (x86)\Git`).
-Man muss dabei die Archive zweimal öffnen, da das äußere Archiv jeweils ein inneres Archiv enthält.
-Jeweils muss der Ordner bin entpackt werden, dabei sollte Windows fragen, ob die Ordner fusioniert werden sollen (Antwort: ja).
-
+    - [Version 3.81] [http://gnuwin32.sourceforge.net/downlinks/make.php](http://gnuwin32.sourceforge.net/downlinks/make.php)
+    - Nach der Installation muss der Pfad in der die `make.exe` liegt (Standard: C:/Programs/GnuWin32/bin) zum Path hinzugefügt werden.
+        - Rechtsklick auf `Computer` -> `Eigenschaften` -> `Erweiterte Systemeinstellungen` -> Umgebungsvariablen
+        - unter `Systemvariablen` nach `Path` suchen -> Doppelklick
+        - den Make-Pfad an den Anfang der Liste sietzen und mit einem ";" vom nächsten Eintrag trennen
+        
 ### TeX
+
+- TexLive 2014: [Installationsanleitung](https://www.tug.org/texlive/windows.html)
+    - [Download](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe) 
+    - `install-tl-windows.exe` als Administrator ausführen
+    - __Achtung__ während des Installationsvorgangs werden ca. 4 GB Dateien heruntergeladen
+    - einfach durchklicken, Standardeinstellungen sind OK.
 
 ## <a id="osx"></a>OS X
 
@@ -222,4 +236,5 @@ Im Terminal:
 ### TeX
 
 ## <a id="update"></a>Pflegen, Aktualisieren
+
 -->
