@@ -7,14 +7,15 @@ Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
 <!--
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 
-- [Windows 7](#windows)
-- [OS X](#osx)
-- [Linux](#linux)
-- [Arch Linux](#arch)
-- [Testen](#test)
-- [Pflegen, Aktualisieren](#update)
+1. Installieren
+    - [Windows](#windows)
+    - [OS X](#osx)
+    - [Linux](#linux)
+2. [Testen](#test)
+3. [Pflegen, Aktualisieren](#update)
 
-## <a id="windows"></a>Windows 7
+## <a id="windows"></a>Windows
+Getestet auf Windows 7, funktioniert wahrscheinlich auch für Vista und 8.
 
 ### Nützliche Programme
 - 7-Zip, Entpacker: [http://www.7-zip.org/](http://www.7-zip.org/)
@@ -110,7 +111,13 @@ Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
         (sudo) zypper in git
 
-### Anaconda
+- Arch Linux:
+
+        (sudo) pacman -S git
+
+### Python
+
+#### Linux
 - Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
     - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86.sh)
     - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86_64.sh)
@@ -124,37 +131,17 @@ Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
 Nach der Installation muss man einen neuen Terminal öffnen, damit Ananconda gefunden wird.
 
-### Uncertainties
-
-    pip install uncertainties
-
-### Make
-- Debian, Ubuntu, Mint:
-
-        (sudo) apt-get install make
-
-- Fedora:
-
-        (sudo) yum install make
-
-- OpenSUSE:
-
-        (sudo) zypper in make
-
-### TeX
-
-## <a id="arch"></a>Arch Linux
-Manche Befehle brauchen unter Umständen vorne ein `sudo`.
-
-### Git
-
-    (sudo) pacman -S git
-
-### Python und Bibliotheken
+#### Arch Linux
 
     (sudo) pacman -S python python-numpy python-scipy python-matplotlib python-sympy ipython python-twisted python-pyqt4 python-sip python-pygments python-pyzmq python-tornado python-jinja
 
 ### Uncertainties
+
+#### Linux
+
+    pip install uncertainties
+
+#### Arch Linux
 Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 
 - Mit [`yaourt`](https://wiki.archlinux.org/index.php/Yaourt):
@@ -171,8 +158,21 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
         rm -rf python-uncertainties
 
 ### Make
+- Debian, Ubuntu, Mint:
 
-    pacman -S make
+        (sudo) apt-get install make
+
+- Fedora:
+
+        (sudo) yum install make
+
+- OpenSUSE:
+
+        (sudo) zypper in make
+
+- Arch Linux:
+
+        (sudo) pacman -S make
 
 ### TeX
 
