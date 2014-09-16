@@ -11,6 +11,12 @@ Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nich
 
 __Es sollten alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
+Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive/MacTeX optional.
+Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
+
+Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Notepad++ (oder einen anderen Texteditor) und TeXLive/MacTeX installieren.
+Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
+
 1. Installieren
     - [Windows](#windows)
     - [OS X](#osx)
@@ -136,7 +142,7 @@ Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht
 ### XCode Tools
 
 Die Installation von XCode erfolgt über den AppStore.
-Danach sollten in XCode die Kommandozeilentools nach installiert werden.
+Danach sollten in XCode die Kommandozeilentools nachinstalliert werden.
 Insbesondere sind darin git und make enthalten.
 Um die Kommandozeilentools zu installieren, öffnet man das Einstellungsfenster (CMD + ,) und wählt den Tab "Downloads" aus.
 
