@@ -243,9 +243,9 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 Im Terminal:
 
 - `git`
-- es sollte die Git-Hilfe erscheinen.
+- es sollte die Git-Hilfe erscheinen
 
-Git einstellen (nicht optional, git funktioniert ohne nicht):
+Git einstellen: im Terminal:
 
 - `git config --global user.name "Max Mustermann"`
 - `git config --global user.email "max.mustermann@udo.edu"`
@@ -290,7 +290,14 @@ Im Terminal:
 Im Terminal:
 
 - `luatex` (mit Strg-C beenden)
+- es sollte folgende Ausgabe erscheinen:
+
+        This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)
+         restricted \write18 enabled.
+        **
+
 - `biber`
+- es sollte die Biber-Hilfe erscheinen
 
 TeXLive einstellen: in der Konsole:
 
