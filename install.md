@@ -298,6 +298,8 @@ Im Terminal:
 
 - `biber`
 - es sollte die Biber-Hilfe erscheinen
+- `texdoc texlive`
+- es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Viewer)
 
 TeXLive einstellen: in der Konsole:
 
