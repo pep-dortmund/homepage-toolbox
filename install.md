@@ -9,6 +9,8 @@ Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betrie
 
 Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
 
+__Es sollten alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
+
 1. Installieren
     - [Windows](#windows)
     - [OS X](#osx)
@@ -110,7 +112,7 @@ __Alternative 2__:
 - [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/windows.html)
     - [Version 2014](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
     - `install-tl-windows.exe` als Administrator ausführen (mit Rechtsklick)
-    - __Achtung__ während des Installationsvorgangs werden ca. 4 GB Dateien heruntergeladen
+    - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
 
 Die einfache Installation genügt:  
 ![](img/texlive1.png)
@@ -135,23 +137,23 @@ Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht
 
 Die Installation von XCode erfolgt über den AppStore.
 Danach sollten in XCode die Kommandozeilentools nach installiert werden.
-Insbesondere sind darin git und make enthalten. Um die Kommandozeilentools zu installieren, öffnet man das Einstellungsfenster (CMD + ,) und wählt den Tab "Downloads" aus.
+Insbesondere sind darin git und make enthalten.
+Um die Kommandozeilentools zu installieren, öffnet man das Einstellungsfenster (CMD + ,) und wählt den Tab "Downloads" aus.
 
 ### Anaconda
 
-Die Firma Continuum Analytics bietet einen Installer an, der Python und alle benötigten Bibliotheken installiert.
-Dieses Programm heißt Anaconda und kann hier heruntergeladen werden.
-
-- Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
+- [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
     - [Version 2.0.1 (OS X ≥ 10.7)](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-2.0.1-MacOSX-x86_64.pkg)
 
-### Uncertainties (otional)
+### Uncertainties
 
-Die Pythonbibliothek zur automatisierten Fehlerrechnung kann mit dem Befehl `pip install uncertainties` installiert werden.
+- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
+- `pip install uncertainties` im Terminal eingeben
 
-### TeXLive
+### MacTeX
 
 ## <a id="linux"></a>Linux
+
 Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
 ### Git
@@ -174,9 +176,7 @@ Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
 ### Python
 
-#### Linux
-
-- Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
+- [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
     - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86.sh)
     - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86_64.sh)
 - Im Terminal:
@@ -184,22 +184,20 @@ Manche Befehle brauchen unter Umständen vorne ein `sudo`.
         bash Anaconda3-2.0.1-Linux-x86_64.sh
         <Enter>
         yes
-        <Enter>
+        ~/.local/anaconda3
         yes
 
-Nach der Installation muss man einen neuen Terminal öffnen, damit Ananconda gefunden wird.
+Nach der Installation muss man einen neuen Terminal öffnen, damit Anaconda gefunden wird.
 
-#### Arch Linux
+#### Arch Linux (optionale Alternative)
 
     (sudo) pacman -S python python-numpy python-scipy python-matplotlib python-sympy ipython python-twisted python-pyqt4 python-sip python-pygments python-pyzmq python-tornado python-jinja
 
 ### Uncertainties
 
-#### Linux
-
     pip install uncertainties
 
-#### Arch Linux
+#### Arch Linux (optionale Alternative)
 
 Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 
@@ -235,6 +233,17 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
         (sudo) pacman -S make
 
 ### TeXLive
+
+- [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/quickinstall.html)
+    - [Version 2014](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
+    - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
+
+Im Terminal:
+
+    tar xvzf install-tl-unx.tar.gz
+    TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-20140916/install-tl
+    I
+    echo export PATH=\"$(echo ~/.local/texlive/2014/bin/*):\$PATH\" >> ~/.bashrc
 
 ## <a id="test"></a>Testen
 
@@ -325,5 +334,5 @@ Im Terminal:
 
 In der Konsole:
 
-- `tlmgr update --all`
+- `tlmgr update --self --all`
 -->
