@@ -7,12 +7,14 @@ Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
 <!--
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 
+Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
+
 1. Installieren
     - [Windows](#windows)
     - [OS X](#osx)
     - [Linux](#linux)
 2. [Testen](#test)
-3. [Pflegen, Aktualisieren](#update)
+3. [Aktualisieren](#update)
 
 ## <a id="windows"></a>Windows
 
@@ -20,20 +22,37 @@ Getestet auf Windows 7, funktioniert wahrscheinlich auch für Vista und 8.
 
 <span style="color: red; font-size: xx-large;">Die angegebenen Installationspfade nutzen! (C:\\Toolbox\\…)</span>
 
-### Nützliche Programme (nicht optional)
+Nach jedem Installationsschritt sollte ein neues Terminal geöffnet werden (falls eins gebraucht wird).
 
-- 7-Zip, Entpacker: [http://www.7-zip.org/](http://www.7-zip.org/)
-    - [Version 9.20, 32-bit](http://downloads.sourceforge.net/sevenzip/7z920.exe)
-    - [Version 9.20, 64-bit](http://downloads.sourceforge.net/sevenzip/7z920-x64.msi)
-- Notepad++, Texteditor: [http://notepad-plus-plus.org/download/](http://notepad-plus-plus.org/download/)
+### Anaconda
+
+- [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
+    - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86.exe)
+    - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86_64.exe)
+
+Für alle Nutzer installieren:  
+![](img/anaconda1.png)
+
+Auf den Pfad achten:  
+![](img/anaconda2.png)
+
+So ist die Verwendung am bequemsten:  
+![](img/anaconda3.png)
+
+### Notepad++
+
+- [Notepad++](http://notepad-plus-plus.org/download/): Texteditor
     - [Version 6.6.9](http://download.tuxfamily.org/notepadplus/6.6.9/npp.6.6.9.Installer.exe)
+
+Auf den Pfad achten:  
+![](img/notepadpp.png)
 
 ### Git Bash
 
-- Git Bash: [http://git-scm.com/download/win](http://git-scm.com/download/win)
+- [Git Bash](http://git-scm.com/download/win): Versionskontrolle und Unix-Kommandozeile
     - [Version 1.9.4](https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140815/Git-1.9.4-preview20140815.exe)
 
-Den Installationspfad merken, falls man Make installieren möchte:  
+Auf den Pfad achten:  
 ![](img/git1.png)
 
 Da wir in der Konsole arbeiten werden, ist es eine gute Idee, schönere Fonts dafür einstellen zu lassen (letzter Punkt):  
@@ -45,53 +64,68 @@ So bleibt das System schön sauber:
 Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder Linux verwenden:  
 ![](img/git4.png)
 
-### Anaconda
-
-- Anaconda, Python und Bibliotheken: [http://www.continuum.io/downloads](http://www.continuum.io/downloads)
-    - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86.exe)
-    - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86_64.exe)
-
-Diesen Installationspfad sollte man sich merken:  
-![](img/anaconda1.png)
-
-So ist die Verwendung am bequemsten:  
-![](img/anaconda2.png)
-
 ### Terminal
 
 Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rechten Maustaste auf eine leere Stelle des Desktops oder eines Explorer-Fensters klickt (für die Windows-Konsole dabei Shift gedrückt halten), dann erscheint ein ähnliches Menü:  
 ![](img/menu.png)  
-Die Windows-Konsole befindet sich über dem Punkt "Einfügen".
+Die Windows-Konsole befindet sich neben dem Punkt "Einfügen".
+
 Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
+
+Eine Administrator-Konsole bekommt man so: Start → `cmd.exe` eingeben → Rechtsklick → Als Administrator ausführen
+
+### Git-Einstellung
+
+Im Terminal (auf Anführungszeichen achten):
+
+    git config --global core.editor "'C:/Toolbox/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
 
 ### Uncertainties
 
-- Uncertainties, Python-Bibliothek, automatisiert Fehlerrechnung
-- Windows-Konsole öffnen mit Adminrechten öffnen (Start-Menü -> cmd.exe ins Suchfeld eingeben -> Rechtsklick -> mit Adminrechten ausführen)
-- `pip install uncertainties` eingeben
+- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
+- `pip install uncertainties` im Terminal eingeben
 
 ### Make
 
-- Make, automatisiert Abläufe: [https://www.gnu.org/software/make/](https://www.gnu.org/software/make/)
-    - [Version 3.81] [http://gnuwin32.sourceforge.net/downlinks/make.php](http://gnuwin32.sourceforge.net/downlinks/make.php)
-    - Nach der Installation muss der Pfad in der die `make.exe` liegt (Standard: C:/Programs/GnuWin32/bin) zum Path hinzugefügt werden.
-        - Rechtsklick auf `Computer` -> `Eigenschaften` -> `Erweiterte Systemeinstellungen` -> Umgebungsvariablen
-        - unter `Systemvariablen` nach `Path` suchen -> Doppelklick
-        - den Make-Pfad an den Anfang der Liste sietzen und mit einem ";" vom nächsten Eintrag trennen
+- [Make](https://www.gnu.org/software/make/): automatisiert Abläufe
+    - [Version 3.81](http://gnuwin32.sourceforge.net/downlinks/make.php)
 
-### TeX
+Auf den Pfad achten:  
+![](img/make.png)
 
-- TexLive 2014: [Installationsanleitung](https://www.tug.org/texlive/windows.html)
-    - [Download](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
-    - `install-tl-windows.exe` als Administrator ausführen
+Nach der Installation muss der Pfad in der die `make.exe` liegt (C:\\Toolbox\\GnuWin32\\bin) zum Path hinzugefügt werden:
+
+__Alternative 1__:
+
+- Rechtsklick auf `Computer` -> `Eigenschaften` -> `Erweiterte Systemeinstellungen` -> Umgebungsvariablen
+- unter `Systemvariablen` nach `Path` suchen -> Doppelklick
+- den Make-Pfad an den Anfang der Liste setzen und mit einem ";" vom nächsten Eintrag trennen
+- Beispiel: `C:\Toolbox\GnuWin32\bin;C:\Windows\…`
+
+__Alternative 2__:
+`setx PATH "C:\Toolbox\GnuWin32\bin;%PATH%" /m` in einer Administrator-Konsole eingeben.
+
+### TeXLive
+
+- [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/windows.html)
+    - [Version 2014](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
+    - `install-tl-windows.exe` als Administrator ausführen (mit Rechtsklick)
     - __Achtung__ während des Installationsvorgangs werden ca. 4 GB Dateien heruntergeladen
-    - einfach durchklicken, Standardeinstellungen sind OK.
 
-### ConEmu (optional)
+Die einfache Installation genügt:  
+![](img/texlive1.png)
+
+Auf den Pfad achten:  
+![](img/texlive2.png)
+
+Die Standardeinstellungen sind ok:  
+![](img/texlive3.png)
+
+### ConEmu (optional, für erfahrere Nutzer)
 
 Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht. Deutlich besser geht dies mit ConEmu.
 
-- ConEmu, deutlich bessere Konsole für Windows: [https://code.google.com/p/conemu-maximus5/](https://code.google.com/p/conemu-maximus5/)
+- [ConEmu](https://code.google.com/p/conemu-maximus5/): deutlich bessere Konsole für Windows
     - [Version 140814](http://www.fosshub.com/download/ConEmuSetup.140814.exe)
     - [ConEmu mit Git Bash im Kontext-Menü](http://superuser.com/a/454381)
 
@@ -115,7 +149,7 @@ Dieses Programm heißt Anaconda und kann hier heruntergeladen werden.
 
 Die Pythonbibliothek zur automatisierten Fehlerrechnung kann mit dem Befehl `pip install uncertainties` installiert werden.
 
-### TeX
+### TeXLive
 
 ## <a id="linux"></a>Linux
 Manche Befehle brauchen unter Umständen vorne ein `sudo`.
@@ -200,7 +234,7 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 
         (sudo) pacman -S make
 
-### TeX
+### TeXLive
 
 ## <a id="test"></a>Testen
 
@@ -216,25 +250,23 @@ Git einstellen (nicht optional, git funktioniert ohne nicht):
 - `git config --global user.name "Max Mustermann"`
 - `git config --global user.email "max.mustermann@udo.edu"`
 
-#### Windows
-
-    git config --global core.editor "'C:/Toolbox/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
-
 ### Python
 
 Im Terminal:
 
 - `ipython`
-- `%matplotlib qt`
+- `%matplotlib`
 - `import matplotlib.pyplot as plt`
 - `plt.plot([1, 2, 4])`
 - es sollte ein Fenster mit einem Plot erscheinen
 
+<!---
 Falls eine Fehlermeldung bei `%matplotlib qt` kommt (besonders bei OS X oder Linux), kann man
 
     echo "backend.qt4: PySide" >> ~/.matplotlib/matplotlibrc
 
 im Terminal eingeben und es nochmal probieren.
+-->
 
 ### Uncertainties
 
@@ -255,5 +287,34 @@ Im Terminal:
 
 ### TeX
 
-## <a id="update"></a>Pflegen, Aktualisieren
+Im Terminal:
+
+- `luatex` (mit Strg-C beenden)
+- `biber`
+
+TeXLive einstellen: in der Konsole:
+
+- `tlmgr option autobackup -- -1`
+- `tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet`
+
+## <a id="update"></a>Aktualisieren
+
+### Anaconda
+
+Im Terminal:
+
+- `conda update conda`
+- `conda update anaconda`
+
+### Uncertainties
+
+Im Terminal:
+
+- `pip install -U uncertainties`
+
+### TeXLive
+
+In der Konsole:
+
+- `tlmgr update --all`
 -->
