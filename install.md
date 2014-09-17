@@ -167,7 +167,7 @@ $
 
 - [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
     - Download Anaconda3 [Version 2.0.1 (OS X ≥ 10.7)](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-MacOSX-x86_64.pkg) (beinhaltet python3, etc.)
-    - Einfach `.dmg` öffnen und Paket installieren
+    - Paket installieren
 
 ### Uncertainties
 
