@@ -4,7 +4,7 @@ title: Installation
 
 Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
 
-<!--
+
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 
 Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
@@ -176,8 +176,8 @@ $
 
 ### MacTeX
 
-- [MacTex](https://tug.org/mactex/): Umfassende LaTeX-Distribution
-- MacTeX.pkg herunterladen, die `.dmg` öffnen und das Paket installieren
+- [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
+- MacTeX.pkg [herunterladen](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) und das Paket installieren
 
 ## <a id="linux"></a>Linux
 
