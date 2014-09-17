@@ -140,6 +140,7 @@ Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht
 
 
 ### Terminal
+
 - Das Terminal sollte in jeder OS X Distribution enthalten sein
 - Im Spotlight nach "Terminal" suchen
 - Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`
@@ -177,6 +178,13 @@ $
 
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
 - MacTeX.pkg [herunterladen](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) und das Paket installieren
+
+### Sublime Text
+
+- [Sublime Text](http://www.sublimetext.com/3) ist ein leichter Texteditor, der durch viele Pakete erweitert werden kann
+- Download @ [sublimetext.com](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203065.dmg)
+  - Nach dem Download die `.dmg` einbinden und die App installieren
+- **Hinweis:** es handelt sich bei diesem Editor um proprietäre Software
 
 ## <a id="linux"></a>Linux
 
