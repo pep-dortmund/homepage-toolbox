@@ -4,7 +4,6 @@ title: Installation
 
 Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
 
-<!--
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 
 Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
@@ -354,4 +353,3 @@ Im Terminal:
 In der Konsole:
 
 - `tlmgr update --self --all`
--->
