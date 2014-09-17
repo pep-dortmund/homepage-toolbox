@@ -168,13 +168,6 @@ $
 - [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
     - Download Anaconda3 [Version 2.0.1 (OS X ≥ 10.7)](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-MacOSX-x86_64.pkg) (beinhaltet python3, etc.)
     - Einfach `.dmg` öffnen und Paket installieren
-- Nach der Installation kann in einem neuen Terminal-Fenster gestested werden, ob alles korrekt installiert wurde. Der Befehl
-`$ which python` sollte auf die gerade installierte python-Version zeigen. Etwa
-
-```
-$ which python
-/Users/devel/anaconda/bin/python
-```
 
 ### Uncertainties
 
@@ -184,7 +177,7 @@ $ which python
 ### MacTeX
 
 - [MacTex](https://tug.org/mactex/): Umfassende LaTeX-Distribution
-- MacTeX.pkg herunterladen und gewöhnlich installieren
+- MacTeX.pkg herunterladen, die `.dmg` öffnen und das Paket installieren
 
 ## <a id="linux"></a>Linux
 
