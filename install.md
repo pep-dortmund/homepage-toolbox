@@ -179,7 +179,7 @@ $
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
 - MacTeX.pkg [herunterladen](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) und das Paket installieren
 
-### Sublime Text
+### Sublime Text (optional)
 
 - [Sublime Text](http://www.sublimetext.com/3) ist ein leichter Texteditor, der durch viele Pakete erweitert werden kann
 - Download @ [sublimetext.com](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203065.dmg)
