@@ -103,14 +103,14 @@ Auf den Pfad achten:
 Nach der Installation muss der Pfad in der die `make.exe` liegt (C:\\Toolbox\\GnuWin32\\bin) zum Path hinzugefügt werden:
 
 __Alternative 1__:
+`setx PATH "C:\Toolbox\GnuWin32\bin;%PATH%" /m` in einer Administrator-Konsole eingeben.
+
+__Alternative 2__:
 
 - Rechtsklick auf `Computer` -> `Eigenschaften` -> `Erweiterte Systemeinstellungen` -> Umgebungsvariablen
 - unter `Systemvariablen` nach `Path` suchen -> Doppelklick
 - den Make-Pfad an den Anfang der Liste setzen und mit einem ";" vom nächsten Eintrag trennen
 - Beispiel: `C:\Toolbox\GnuWin32\bin;C:\Windows\…`
-
-__Alternative 2__:
-`setx PATH "C:\Toolbox\GnuWin32\bin;%PATH%" /m` in einer Administrator-Konsole eingeben.
 
 ### TeXLive
 
@@ -280,7 +280,7 @@ Im Terminal:
 - `git`
 - es sollte die Git-Hilfe erscheinen
 
-Git einstellen: im Terminal:
+Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
 
 - `git config --global user.name "Max Mustermann"`
 - `git config --global user.email "max.mustermann@udo.edu"`
