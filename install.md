@@ -75,7 +75,7 @@ Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder
 ### Terminal
 
 Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rechten Maustaste auf eine leere Stelle des Desktops oder eines Explorer-Fensters klickt (für die Windows-Konsole dabei Shift gedrückt halten), dann erscheint ein ähnliches Menü:  
-![](img/menu.png)
+![](img/menu.png)  
 Die Windows-Konsole befindet sich neben dem Punkt "Einfügen".
 
 Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
