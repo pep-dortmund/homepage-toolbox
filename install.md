@@ -38,13 +38,13 @@ Nach jedem Installationsschritt sollte ein neues Terminal geöffnet werden (fall
     - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86.exe)
     - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86_64.exe)
 
-Für alle Nutzer installieren:  
+Für alle Nutzer installieren:
 ![](img/anaconda1.png)
 
-Auf den Pfad achten:  
+Auf den Pfad achten:
 ![](img/anaconda2.png)
 
-So ist die Verwendung am bequemsten:  
+So ist die Verwendung am bequemsten:
 ![](img/anaconda3.png)
 
 ### Notepad++
@@ -52,7 +52,7 @@ So ist die Verwendung am bequemsten:
 - [Notepad++](http://notepad-plus-plus.org/download/): Texteditor
     - [Version 6.6.9](http://download.tuxfamily.org/notepadplus/6.6.9/npp.6.6.9.Installer.exe)
 
-Auf den Pfad achten:  
+Auf den Pfad achten:
 ![](img/notepadpp.png)
 
 ### Git Bash
@@ -60,22 +60,22 @@ Auf den Pfad achten:
 - [Git Bash](http://git-scm.com/download/win): Versionskontrolle und Unix-Kommandozeile
     - [Version 1.9.4](https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140815/Git-1.9.4-preview20140815.exe)
 
-Auf den Pfad achten:  
+Auf den Pfad achten:
 ![](img/git1.png)
 
-Da wir in der Konsole arbeiten werden, ist es eine gute Idee, schönere Fonts dafür einstellen zu lassen (letzter Punkt):  
+Da wir in der Konsole arbeiten werden, ist es eine gute Idee, schönere Fonts dafür einstellen zu lassen (letzter Punkt):
 ![](img/git2.png)
 
-So bleibt das System schön sauber:  
+So bleibt das System schön sauber:
 ![](img/git3.png)
 
-Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder Linux verwenden:  
+Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder Linux verwenden:
 ![](img/git4.png)
 
 ### Terminal
 
-Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rechten Maustaste auf eine leere Stelle des Desktops oder eines Explorer-Fensters klickt (für die Windows-Konsole dabei Shift gedrückt halten), dann erscheint ein ähnliches Menü:  
-![](img/menu.png)  
+Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rechten Maustaste auf eine leere Stelle des Desktops oder eines Explorer-Fensters klickt (für die Windows-Konsole dabei Shift gedrückt halten), dann erscheint ein ähnliches Menü:
+![](img/menu.png)
 Die Windows-Konsole befindet sich neben dem Punkt "Einfügen".
 
 Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
@@ -98,7 +98,7 @@ Im Terminal (auf Anführungszeichen achten):
 - [Make](https://www.gnu.org/software/make/): automatisiert Abläufe
     - [Version 3.81](http://gnuwin32.sourceforge.net/downlinks/make.php)
 
-Auf den Pfad achten:  
+Auf den Pfad achten:
 ![](img/make.png)
 
 Nach der Installation muss der Pfad in der die `make.exe` liegt (C:\\Toolbox\\GnuWin32\\bin) zum Path hinzugefügt werden:
@@ -120,13 +120,13 @@ __Alternative 2__:
     - `install-tl-windows.exe` als Administrator ausführen (mit Rechtsklick)
     - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
 
-Die einfache Installation genügt:  
+Die einfache Installation genügt:
 ![](img/texlive1.png)
 
-Auf den Pfad achten:  
+Auf den Pfad achten:
 ![](img/texlive2.png)
 
-Die Standardeinstellungen sind ok:  
+Die Standardeinstellungen sind ok:
 ![](img/texlive3.png)
 
 ### ConEmu (optional, für erfahrere Nutzer)
@@ -139,22 +139,42 @@ Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht
 
 ## <a id="osx"></a>OS X
 
+
+### Terminal
+- Das Terminal sollte in jeder OS X Distribution enthalten sein
+- Im Spotlight nach "Terminal" suchen
+- Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`
+
 ### XCode Tools
 
 Die Installation von XCode erfolgt über den AppStore.
-Danach sollten in XCode die Kommandozeilentools nachinstalliert werden.
-Insbesondere sind darin git und make enthalten.
-Um die Kommandozeilentools zu installieren, öffnet man das Einstellungsfenster (CMD + ,) und wählt den Tab "Downloads" aus.
 
-### Terminal
+![](img/osx-appstore.png)
 
-- Im Spotlight suchen
-- befindet sich sonst im Ordner `Programme/Dienstprogramme/Terminal.app`
+Mit XCode sollten die Commandlinetools mit installiert worden sein.
+Insbesondere sind darin **Git** und **make** enthalten.
+Es kann so überprüft werden, ob die Tools vorhanden sind:
+```
+$ gcc
+```
+Wenn alles in Ordnung ist, solltet ihr einen Fehler sehen ;-)
+```
+clang: error: no input files
+$
+```
 
 ### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
-    - [Version 2.0.1 (OS X ≥ 10.7)](http://09c8d0b2229f813c1b93-c95ac804525aac4b6dba79b00b39d1d3.r79.cf1.rackcdn.com/Anaconda-2.0.1-MacOSX-x86_64.pkg)
+    - Download Anaconda3 [Version 2.0.1 (OS X ≥ 10.7)](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-MacOSX-x86_64.pkg) (beinhaltet python3, etc.)
+    - Einfach `.dmg` öffnen und Paket installieren
+- Nach der Installation kann in einem neuen Terminal-Fenster gestested werden, ob alles korrekt installiert wurde. Der Befehl
+`$ which python` sollte auf die gerade installierte python-Version zeigen. Etwa
+
+```
+$ which python
+/Users/devel/anaconda/bin/python
+```
 
 ### Uncertainties
 
@@ -164,7 +184,7 @@ Um die Kommandozeilentools zu installieren, öffnet man das Einstellungsfenster 
 ### MacTeX
 
 - [MacTex](https://tug.org/mactex/): Umfassende LaTeX-Distribution
-    - [Version 2014](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg)
+- MacTeX.pkg herunterladen und gewöhnlich installieren
 
 ## <a id="linux"></a>Linux
 
