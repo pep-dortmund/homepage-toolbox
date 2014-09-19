@@ -3,7 +3,6 @@ title: Linksammlung
 ---
 
 Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Workshops.
-
 <!--
 ## Python
 
@@ -31,11 +30,11 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 
 ## Scientific Python Tutorials:
 - [The Scientific Python lectures ](http://jrjohansson.github.io/)
-    - [Einführung] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
-    - [Python] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
-    - [Numpy] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
-    - [Scipy] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-3-Scipy.ipynb)
-    - [Matplotlib] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
+    - [Einführung](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
+    - [Python](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
+    - [Numpy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
+    - [Scipy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-3-Scipy.ipynb)
+    - [Matplotlib](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 - [Python Scientific Lecture Notes](http://scipy-lectures.github.com/)
 
 ## Unix
