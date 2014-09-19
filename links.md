@@ -14,6 +14,7 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 - [Learn Python The Hard Way (Python 2)](http://learnpythonthehardway.org/)
 - [A Byte of Python (Python 2)](http://www.swaroopch.com/notes/python/)
 
+
 ## Python-Bibliotheken
 
 - [NumPy and SciPy Documentation](http://docs.scipy.org/doc/)
@@ -26,6 +27,15 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 - [Sage](http://www.sagemath.org/)
 - [NumPy Tutorial](http://www.loria.fr/~rougier/teaching/numpy/numpy.html)
 - [matplotlib Tutorial](http://www.loria.fr/~rougier/teaching/matplotlib/)
+
+
+## Scientific Python Tutorials:
+- [The Scientific Python lectures ](http://jrjohansson.github.io/)
+    - [Einführung] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
+    - [Python] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
+    - [Numpy] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
+    - [Scipy] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-3-Scipy.ipynb)
+    - [Matplotlib] (http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
 - [Python Scientific Lecture Notes](http://scipy-lectures.github.com/)
 
 ## Unix
