@@ -3,6 +3,7 @@ title: Linksammlung
 ---
 
 Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Workshops.
+
 <!--
 ## Python
 
@@ -35,6 +36,8 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
     - [Numpy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
     - [Scipy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-3-Scipy.ipynb)
     - [Matplotlib](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
+    - [SymPy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-5-Sympy.ipynb)
+    - [Git](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-7-Revision-Control-Software.ipynb)
 - [Python Scientific Lecture Notes](http://scipy-lectures.github.com/)
 
 ## Unix
