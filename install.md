@@ -25,6 +25,8 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 Getestet auf Windows 7, funktioniert wahrscheinlich auch für Vista und 8.
 
+<span style="font-size: large;">[Dateiendungen einschalten!](https://support.microsoft.com/kb/865219/de)</span>
+
 <span style="color: red; font-size: xx-large;">Die angegebenen Installationspfade nutzen! (C:\\Toolbox\\…)</span>
 
 Nach jedem Installationsschritt sollte ein neues Terminal geöffnet werden (falls eins gebraucht wird).
