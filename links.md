@@ -29,7 +29,8 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 - [matplotlib Tutorial](http://www.loria.fr/~rougier/teaching/matplotlib/)
 
 
-## Scientific Python Tutorials:
+## Scientific Python Tutorials
+
 - [The Scientific Python lectures ](http://jrjohansson.github.io/)
     - [Einführung](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
     - [Python](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
@@ -67,4 +68,9 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 - [Make Documentation](https://www.gnu.org/software/make/manual/make.html)
 
 ## LaTeX
+
+## Verschiedenes
+
+- [Matt Might](http://matt.might.net/articles/)
+- [David A. Wheeler](http://www.dwheeler.com/)
 -->

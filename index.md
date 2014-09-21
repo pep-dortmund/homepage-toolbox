@@ -31,7 +31,6 @@ Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bere
 Wir haben daher kleine Fragebögen (bei Google Docs) zusammengestellt und möchten euch bitten sie auszufüllen, damit wir den Workshop optimal an eure Bedürfnisse anpassen können.
 
 <a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/spreadsheet/viewform?formkey=dFhhWjJOVlN2QXZSdHJhNHVRa1ZCRnc6MA">Zur LaTeX-Umfrage</a>
-<a class="btn btn-large btn-primary pull-right" style="margin-right: 3em;" href="https://docs.google.com/spreadsheet/viewform?formkey=dFlXR3FkQ216SnlLb29EMWFFV3NYUnc6MA">Zur Python-Umfrage</a>
 <div class="clearfix"></div>
 
 ## Ablaufplan
