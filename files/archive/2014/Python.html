@@ -2864,6 +2864,90 @@ Heute ist So
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p>Zwei sehr nützliche Funktionen sind <code>enumerate</code> und <code>zip</code></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[29]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">day</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">weekdays</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">day</span><span class="p">,</span> <span class="s">&quot; ist der &quot;</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="s">&quot;. Tag der Woche&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+Mo ist der 1. Tag der Woche
+Di ist der 2. Tag der Woche
+Mi ist der 3. Tag der Woche
+Do ist der 4. Tag der Woche
+Fr ist der 5. Tag der Woche
+Sa ist der 6. Tag der Woche
+So ist der 7. Tag der Woche
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[30]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="n">english</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;foot&quot;</span><span class="p">,</span> <span class="s">&quot;ball&quot;</span><span class="p">,</span> <span class="s">&quot;goal&quot;</span><span class="p">]</span>
+<span class="n">deutsch</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;Fuß&quot;</span><span class="p">,</span> <span class="s">&quot;Ball&quot;</span><span class="p">,</span> <span class="s">&quot;Tor&quot;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">english</span><span class="p">,</span> <span class="n">deutsch</span><span class="p">):</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+foot Fuß
+ball Ball
+goal Tor
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="eigene-funktionen-definieren-mit-def">Eigene Funktionen definieren mit <code>def</code></h2>
 <p>Bevor man eine Funktion verwenden kann, muss sie erst definiert werden. Das wird wie folgt gemacht. Mit dem Keyword <code>return</code> kann man die Funktion beenden und Ergebnisse zurückgeben.</p>
 </div>
@@ -2872,7 +2956,7 @@ Heute ist So
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[29]:
+In&nbsp;[31]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2892,7 +2976,7 @@ In&nbsp;[29]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[29]:</div>
+    Out[31]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -2919,7 +3003,7 @@ In&nbsp;[29]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[30]:
+In&nbsp;[32]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2956,7 +3040,7 @@ In&nbsp;[30]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[31]:
+In&nbsp;[33]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -2978,7 +3062,7 @@ In&nbsp;[31]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[31]:</div>
+    Out[33]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -3007,7 +3091,7 @@ In&nbsp;[31]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[32]:
+In&nbsp;[34]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3025,7 +3109,7 @@ In&nbsp;[32]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[32]:</div>
+    Out[34]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -3035,7 +3119,6 @@ In&nbsp;[32]:
  &apos;Python.ipynb&apos;,
  &apos;test.txt&apos;,
  &apos;muon_data.txt&apos;,
- &apos;Python.html&apos;,
  &apos;.gitignore&apos;,
  &apos;muon_plot.png&apos;,
  &apos;Matplotlib.ipynb&apos;,
@@ -3069,7 +3152,7 @@ In&nbsp;[32]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[33]:
+In&nbsp;[35]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3087,7 +3170,7 @@ In&nbsp;[33]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[33]:</div>
+    Out[35]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -3114,7 +3197,7 @@ In&nbsp;[33]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[34]:
+In&nbsp;[36]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3141,7 +3224,7 @@ In&nbsp;[34]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[35]:
+In&nbsp;[37]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3159,7 +3242,7 @@ In&nbsp;[35]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[35]:</div>
+    Out[37]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -3193,7 +3276,7 @@ In&nbsp;[35]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[36]:
+In&nbsp;[38]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3258,7 +3341,7 @@ In&nbsp;[36]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[37]:
+In&nbsp;[39]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3299,7 +3382,7 @@ In&nbsp;[37]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[38]:
+In&nbsp;[40]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3315,7 +3398,7 @@ In&nbsp;[38]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[38]:</div>
+    Out[40]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -3343,7 +3426,7 @@ In&nbsp;[38]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[39]:
+In&nbsp;[41]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
@@ -3359,7 +3442,7 @@ In&nbsp;[39]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[39]:</div>
+    Out[41]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
@@ -3388,7 +3471,7 @@ In&nbsp;[39]:
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[40]:
+In&nbsp;[42]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
