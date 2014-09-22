@@ -48,31 +48,31 @@ Näheres zur Vorbereitung wird demnächst bekanntgegeben.
     <td>Mo, 22.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>Python</td>
+    <td>Python, numpy, scipy</td>
   </tr>
   <tr>
     <td>Di, 23.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>Python</td>
+    <td>matplotlib, uncertainties</td>
   </tr>
   <tr>
     <td>Mi, 24.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>Python, git, make</td>
+    <td>Unix, make</td>
   </tr>
   <tr>
     <td>Do, 25.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>Python, git, make</td>
+    <td>git (ist gut!)</td>
   </tr>
   <tr>
     <td>Fr, 26.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>Python, git, make</td>
+    <td>Übungen</td>
   </tr>
   <tr>
     <td></td>
