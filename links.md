@@ -4,7 +4,6 @@ title: Linksammlung
 
 Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Workshops.
 
-<!--
 ## Python
 
 - [Python 3 Documentation](http://docs.python.org/py3k/)
@@ -73,4 +72,3 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 
 - [Matt Might](http://matt.might.net/articles/)
 - [David A. Wheeler](http://www.dwheeler.com/)
--->
