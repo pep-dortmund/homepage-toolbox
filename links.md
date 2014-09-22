@@ -68,6 +68,10 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 
 ## LaTeX
 
+## Editoren
+
+- [The Editor of a Lifetime (Emacs)](http://youtu.be/VADudzQGvU8)
+
 ## Verschiedenes
 
 - [Matt Might](http://matt.might.net/articles/)
