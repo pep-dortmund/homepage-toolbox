@@ -2,8 +2,6 @@
 title: Installation
 ---
 
-Eine aktualisierte Installationsanleitung wird demnächst hier erscheinen.
-
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 
 Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
@@ -26,6 +24,8 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 ## <a id="windows"></a>Windows
 
 Getestet auf Windows 7, funktioniert wahrscheinlich auch für Vista und 8.
+
+<span style="font-size: large;">[Dateiendungen einschalten!](https://support.microsoft.com/kb/865219/de)</span>
 
 <span style="color: red; font-size: xx-large;">Die angegebenen Installationspfade nutzen! (C:\\Toolbox\\…)</span>
 
@@ -179,7 +179,7 @@ $
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
 - MacTeX.pkg [herunterladen](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) und das Paket installieren
 
-### Sublime Text
+### Sublime Text (optional)
 
 - [Sublime Text](http://www.sublimetext.com/3) ist ein leichter Texteditor, der durch viele Pakete erweitert werden kann
 - Download @ [sublimetext.com](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203065.dmg)

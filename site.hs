@@ -39,6 +39,7 @@ context = mconcat
 navbar =  [ ("Über",         "/about.html")
           , ("Installation", "/install.html")
           , ("Material",     "/notes.html")
+          , ("Links",        "/links.html")
           , ("Archiv",       "/archive.html")
           ]
 
