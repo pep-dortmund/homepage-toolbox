@@ -3,7 +3,7 @@
 <head>
 
 <meta charset="utf-8" />
-<title>Python</title>
+<title>uncertainties</title>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
@@ -1680,630 +1680,29 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<div class="figure">
-<img src="https://www.python.org/static/community_logos/python-logo-generic.svg" alt="Python" /><p class="caption">Python</p>
-</div>
+<h1 id="automatisieren-von-fehlerrechnung">Automatisieren von Fehlerrechnung</h1>
+<p><span class="math">\[ \sigma_{f(x_i)} = \sqrt{\sum_{i=1}^m \left( \frac{\partial f}{\partial x_i}\right)^{\!2} \sigma_{x_i}^2} \]</span></p>
 <ul>
-<li>aktuelle Version: Python 3.4</li>
+<li>Gesucht: Fehler von <span class="math">\(f(x_i)\)</span>, wenn <span class="math">\(x_i\)</span> Fehler haben</li>
+<li>Manuelle Fehlerfortpflanzung:</li>
 </ul>
-<p>Hier soll es hingehen: Auswertung von Praktikumsversuchen:</p>
-<div class="figure">
-<img src="muon_plot.png" alt="Plot" /><p class="caption">Plot</p>
-</div>
-<p>Fortgeschrittenen Praktikum, Lebensdauer kosmischer Myonen</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="python">Python</h1>
-<p>Eine Programmiersprache wie Python lässt sich nicht an einem Tag lernen.</p>
-<p>Hier geben wir einen kurzen Überblick über die wichtigsten Konzepte.</p>
-<p>Keine Angst: Zum Erstellen von Plots und für einfache Auswertungen muss man nicht viel Python können!</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="einfachstes-beispiel">Einfachstes Beispiel</h3>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[1]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello, World!&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Hello, World!
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Zum Vergleich: C++</p>
-<pre><code>#include &lt;iostream&gt;
-
-int main(int argc, char *argv[])
-{
-    std::cout &lt;&lt; &quot;Hello, World!&quot; &lt;&lt; std::endl;
-    return 0;
-}</code></pre>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="einfache-datentypen">Einfache Datentypen</h2>
-<p>Python stellt bereit:</p>
+<ol style="list-style-type: decimal">
+<li>Berechne die Ableitungen von <span class="math">\(f\)</span> nach allen fehlerbehafteten Größen <span class="math">\(x_i\)</span></li>
+<li>Ableitungen in die obere Formel einsetzen</li>
+<li>Werte und Fehler der <span class="math">\(x_i\)</span> einsetzen</li>
+</ol>
 <ul>
-<li>Booleans: <code>True, False</code></li>
-<li>Ganze Zahlen (Integer): <code>42</code></li>
-<li>Floating-Point-Zahlen: <code>3.14</code></li>
-<li>Strings (Zeichenketten, Textausschnitte): <code>'Test'</code> oder <code>&quot;Test&quot;</code></li>
-<li>Listen: <code>[1, 2, 3]</code></li>
-<li>Dictionaries: <code>{ 'eins': 1, 'zwei': 2, 'drei': 3 }</code></li>
-<li>Tupel: <code>('test', 1)</code></li>
+<li>Probleme:</li>
+<li>Kompliziert, dauert lange, man macht oft Fehler</li>
+<li>Falsches Ergebnis, wenn <span class="math">\(x_i\)</span> korreliert sind</li>
 </ul>
-<p>Python ist eine dymanisch typisierte Sprache, das heißt, es werden Variablen automatisch Typen zugewiesen. Welchen Typ eine Variable gerade habt erfahrt ihr mit:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[2]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="nb">type</span><span class="p">(</span><span class="bp">True</span><span class="p">),</span> <span class="nb">type</span><span class="p">(</span><span class="mi">1</span><span class="p">),</span> <span class="nb">type</span><span class="p">(</span><span class="mf">1.0</span><span class="p">),</span> <span class="nb">type</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">])</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[2]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-(bool, int, float, list)
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="kommentare">Kommentare</h2>
-<p>Sehr wichtig für die Leute, die mit euch Arbeiten und für euch zwei Wochen später, sind Kommentare, die erklären, was euer Code tut. Alles was in Python hinter einem <code>#</code> steht, wird nicht als Code betrachtet und dient als Kommentar.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[3]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="c"># this just prints &quot;hello World&quot; on the console</span>
-<span class="k">print</span><span class="p">(</span><span class="s">&quot;Hello, World!&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Hello, World!
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="variablen">Variablen</h2>
+<p><span class="math">\[ \operatorname{cov}(\vec{f}) = \mathbf{J} \operatorname{cov}(\vec{x}) \mathbf{J}^\top \]</span></p>
+<p><span class="math">\(\mathbf{J}\)</span> ist Jacobimatrix von <span class="math">\(\vec{f}\)</span> nach <span class="math">\(\vec{x}\)</span>.</p>
+<h2 id="uncertainties"><code>uncertainties</code></h2>
 <ul>
-<li>Man kann einem Objekt einen Namen geben:</li>
+<li>Erlaubt es, Fehlerrechnung automatisch durchzuführen</li>
+<li>Datentyp: <code>ufloat</code>, repräsentiert Wert mit Fehler</li>
 </ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[4]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">2</span>
-<span class="n">b</span> <span class="o">=</span> <span class="mi">3</span>
-
-<span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[4]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-5
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[5]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="c"># Eine Liste:</span>
-<span class="n">namen</span> <span class="o">=</span> <span class="p">[</span><span class="s">&#39;foo&#39;</span><span class="p">,</span> <span class="s">&#39;bar&#39;</span><span class="p">,</span> <span class="s">&#39;baz&#39;</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[6]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">namen</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[6]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-&apos;bar&apos;
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[7]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="c"># Ein Dictionary:</span>
-<span class="n">zahlen</span> <span class="o">=</span> <span class="p">{</span> <span class="s">&#39;eins&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s">&#39;zwei&#39;</span><span class="p">:</span> <span class="mi">2</span><span class="p">,</span> <span class="s">&#39;drei&#39;</span><span class="p">:</span> <span class="mi">3</span> <span class="p">}</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[8]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">zahlen</span><span class="p">[</span><span class="s">&#39;zwei&#39;</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[8]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-2
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Dictionarys sind extrem hilfreich, zum Beispiel um die gleiche Analyse für verschiedene Datensätze durchzuführen:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[9]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">data</span> <span class="o">=</span> <span class="p">{</span><span class="s">&quot;Cu&quot;</span><span class="p">:[</span><span class="mf">1.1</span><span class="p">,</span> <span class="mf">1.2</span><span class="p">,</span> <span class="mf">1.3</span><span class="p">,</span> <span class="mf">1.4</span><span class="p">],</span> <span class="s">&quot;Fe&quot;</span><span class="p">:[</span><span class="mf">0.7</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">,</span> <span class="mf">0.9</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">]}</span>
-<span class="n">data</span><span class="p">[</span><span class="s">&quot;Cu&quot;</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[9]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-[1.1, 1.2, 1.3, 1.4]
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Variablennamen können auch überschrieben werden:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[10]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">42</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">a</span>
-
-<span class="n">a</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="n">b</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[10]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-42
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="rechenoperatoren">Rechenoperatoren</h2>
-<p>Es gibt:</p>
-<ul>
-<li><code>+</code>, <code>-</code>, <code>*</code></li>
-<li><code>**</code> (Potenzieren: <code>2**3</code> → <code>8</code>)</li>
-<li><code>/</code> (<code>3 / 2</code> → <code>1.5</code>)</li>
-<li><code>//</code> (<code>3 // 2</code> → <code>1</code>)</li>
-<li><code>%</code> (Modulo-Operation, Divisionsrest)</li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Listen werden mit <code>+</code> zusammengeführt:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[11]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">]</span> <span class="o">+</span> <span class="p">[</span><span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[11]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-[1, 2, 3, 4, 5]
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="vergleichsoperatoren">Vergleichsoperatoren</h2>
-<p>geben <code>True</code> oder <code>False</code> zurück</p>
-<ul>
-<li><code>==</code>, <code>!=</code></li>
-<li><code>&gt;</code>, <code>&lt;</code>, <code>&gt;=</code>, <code>&lt;=</code></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[12]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="s">&#39;Test&#39;</span> <span class="o">==</span> <span class="mi">42</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[12]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-False
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="logische-operatoren">Logische Operatoren</h2>
-<ul>
-<li><code>and</code>, <code>or</code>, <code>not</code>, <code>in</code></li>
-</ul>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[13]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="bp">True</span> <span class="ow">or</span> <span class="bp">False</span>
-<span class="c"># True and False</span>
-<span class="c"># False and False</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[13]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-True
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[14]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">weekdays</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;Mo&quot;</span><span class="p">,</span> <span class="s">&quot;Di&quot;</span><span class="p">,</span> <span class="s">&quot;Mi&quot;</span><span class="p">,</span> <span class="s">&quot;Do&quot;</span><span class="p">,</span> <span class="s">&quot;Fr&quot;</span><span class="p">,</span> <span class="s">&quot;Sa&quot;</span><span class="p">,</span> <span class="s">&quot;So&quot;</span><span class="p">]</span>
-<span class="s">&quot;Mo&quot;</span> <span class="ow">in</span> <span class="n">weekdays</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[14]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-True
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="funktionen-aufrufen">Funktionen aufrufen</h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Mit Funktionen lässt sich Code leicht wiederverwenden. Eine Funktion nimmt Parameter, verarbeitet sie und gibt Ergebnisse zurück.</p>
 </div>
 </div>
 </div>
@@ -2314,7 +1713,12 @@ In&nbsp;[15]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&#39;Hello!&#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">uncertainties</span> <span class="kn">import</span> <span class="n">ufloat</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">ufloat</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">ufloat</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
 </pre></div>
 
 </div>
@@ -2325,13 +1729,16 @@ In&nbsp;[15]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Hello!
+<div class="output_area"><div class="prompt output_prompt">
+    Out[15]:</div>
 
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+8.0+/-1.4142135623730951
 </pre>
 </div>
+
 </div>
 
 </div>
@@ -2345,7 +1752,12 @@ In&nbsp;[16]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="nb">len</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">])</span>
+<div class="highlight"><pre><span class="c"># Korrelationen werden von uncertainties beachtet:</span>
+<span class="n">x</span> <span class="o">=</span> <span class="n">ufloat</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">ufloat</span><span class="p">(</span><span class="mi">3</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">y</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="o">**</span><span class="mi">2</span> <span class="o">-</span> <span class="n">x</span><span class="p">)</span> <span class="c"># Fehler ist kleiner!</span>
 </pre></div>
 
 </div>
@@ -2356,16 +1768,14 @@ In&nbsp;[16]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">
-    Out[16]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
-5
+6.0+/-6.1
+6.0+/-5.0
+
 </pre>
 </div>
-
 </div>
 
 </div>
@@ -2377,7 +1787,7 @@ In&nbsp;[16]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Viele Funktionen haben mehrere Parameter, einige können sogar beliebig viele haben:</p>
+<p><code>uncertainties.unumpy</code> ergänzt numpy:</p>
 </div>
 </div>
 </div>
@@ -2388,7 +1798,15 @@ In&nbsp;[17]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">)</span>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">uncertainties.unumpy</span> <span class="kn">as</span> <span class="nn">unp</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">5</span><span class="p">]</span>
+<span class="n">err</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">,</span> <span class="mf">0.8</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">]</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">unp</span><span class="o">.</span><span class="n">uarray</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">err</span><span class="p">)</span>
+
+<span class="n">unp</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">unp</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -2399,13 +1817,20 @@ In&nbsp;[17]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-1 2 3 4 5
+<div class="output_area"><div class="prompt output_prompt">
+    Out[17]:</div>
 
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+array([-0.9117339147869651+/-0.11166193174450133,
+       0.4483562418187328+/-1.9814233218473645,
+       0.3285947554325321+/-1.8970207322669204,
+       -0.3706617333977958+/-40.567208903209576,
+       -0.7260031145123346+/-102.06245489729305], dtype=object)
 </pre>
 </div>
+
 </div>
 
 </div>
@@ -2417,7 +1842,7 @@ In&nbsp;[17]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Viele Funktionen haben optionale Parameter mit eigenem Namen, sogenannte &quot;keyword arguments&quot;:</p>
+<p>Zugriff auf Wert und Standardabweichung mit <code>n</code> und <code>s</code>:</p>
 </div>
 </div>
 </div>
@@ -2428,7 +1853,9 @@ In&nbsp;[18]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&#39;, &#39;</span><span class="p">)</span>
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="n">ufloat</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">n</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">x</span><span class="o">.</span><span class="n">s</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -2442,7 +1869,8 @@ In&nbsp;[18]:
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-1, 2, 3
+5.0
+1.0
 
 </pre>
 </div>
@@ -2457,7 +1885,7 @@ In&nbsp;[18]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Objekte haben auch Funktionen (nennt man Methoden):</p>
+<p>Bei <code>unumpy</code> mit <code>nominal_values</code> und <code>std_devs</code></p>
 </div>
 </div>
 </div>
@@ -2468,7 +1896,9 @@ In&nbsp;[19]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="s">&#39;foo bar baz&#39;</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="n">unp</span><span class="o">.</span><span class="n">uarray</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">],</span> <span class="p">[</span><span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.3</span><span class="p">,</span> <span class="mf">0.1</span><span class="p">])</span>
+<span class="k">print</span><span class="p">(</span><span class="n">unp</span><span class="o">.</span><span class="n">nominal_values</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">unp</span><span class="o">.</span><span class="n">std_devs</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -2479,51 +1909,14 @@ In&nbsp;[19]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt output_prompt">
-    Out[19]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
 <pre>
-[&apos;foo&apos;, &apos;bar&apos;, &apos;baz&apos;]
+[ 1.  2.  3.]
+[ 0.3  0.3  0.1]
+
 </pre>
 </div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[20]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">s</span> <span class="o">=</span> <span class="s">&#39;test&#39;</span>
-<span class="n">s</span><span class="o">.</span><span class="n">upper</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[20]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-&apos;TEST&apos;
-</pre>
-</div>
-
 </div>
 
 </div>
@@ -2535,7 +1928,52 @@ In&nbsp;[20]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In IPython kann man wie folgt auf die Dokumentation einer Funktion zugreifen:</p>
+<p>Kann man natürlich auch abkürzen:</p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">
+In&nbsp;[20]:
+</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">uncertainties.unumpy</span> <span class="kn">import</span> <span class="p">(</span><span class="n">nominal_values</span> <span class="k">as</span> <span class="n">noms</span><span class="p">,</span>
+                                  <span class="n">std_devs</span> <span class="k">as</span> <span class="n">stds</span><span class="p">)</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">noms</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">stds</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt"></div>
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+[ 1.  2.  3.]
+[ 0.3  0.3  0.1]
+
+</pre>
+</div>
+</div>
+
+</div>
+</div>
+
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Man muss daran denken, die Funktionen aus unumpy zu benutzen (<code>exp</code>, <code>cos</code>, etc.)</p>
 </div>
 </div>
 </div>
@@ -2546,34 +1984,41 @@ In&nbsp;[21]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="c">#print?</span>
+<div class="highlight"><pre><span class="n">unp</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[21]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+array([0.5403023058681398+/-0.25244129544236893,
+       -0.4161468365471424+/-0.2727892280477045,
+       -0.9899924966004454+/-0.014112000805986721], dtype=object)
+</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing text_cell rendered">
 <div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Ansonsten findet man ausführliche Erklärungen in der offiziellen Dokumentation.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="kontrollstrukturen">Kontrollstrukturen</h2>
-<p>Die Zeilen eines Python-Programms werden nacheinander ausgeführt.</p>
-<p>Sogennante <em>Kontrollstrukturen</em> erlauben es, den Ablauf zu steuern.</p>
-<ul>
-<li><code>if</code>/<code>elif</code>/<code>else</code>: Je nach Bedingung unterschiedliche Befehle ausführen</li>
-</ul>
+<h1 id="korrelierte-werte">korrelierte Werte</h1>
 </div>
 </div>
 </div>
@@ -2584,34 +2029,17 @@ In&nbsp;[22]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">a</span> <span class="o">=</span> <span class="mi">3</span>
+<div class="highlight"><pre><span class="kn">from</span> <span class="nn">uncertainties</span> <span class="kn">import</span> <span class="n">correlated_values</span>
 
-<span class="k">if</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
-    <span class="c"># muss eingerückt werden, 4 spaces:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&#39;foo&#39;</span><span class="p">)</span>
-<span class="k">elif</span> <span class="n">a</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&#39;bar&#39;</span><span class="p">)</span>
-<span class="k">else</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&#39;baz&#39;</span><span class="p">)</span>
+<span class="n">values</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">]</span>
+
+<span class="n">cov</span> <span class="o">=</span> <span class="p">[[</span><span class="mf">0.5</span><span class="p">,</span> <span class="mf">0.25</span><span class="p">],</span>
+       <span class="p">[</span><span class="mf">0.25</span><span class="p">,</span> <span class="mf">0.2</span><span class="p">]]</span>
+
+<span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="o">=</span> <span class="n">correlated_values</span><span class="p">(</span><span class="n">values</span><span class="p">,</span> <span class="n">cov</span><span class="p">)</span>
 </pre></div>
 
 </div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-baz
-
-</pre>
-</div>
-</div>
-
 </div>
 </div>
 
@@ -2621,9 +2049,8 @@ baz
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><code>while</code>-Schleifen: Wiederholen, solange ein bestimmter Ausdruck erfüllt ist.</li>
-</ul>
+<h3 id="vorsicht-bei-fits">Vorsicht bei Fits:</h3>
+<p>korrelierte Fit-Parameter führen zu nichts-sagenden Ergebnissen. Kontrolle: Kovarianzmatrix.</p>
 </div>
 </div>
 </div>
@@ -2634,10 +2061,38 @@ In&nbsp;[23]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
-<span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-    <span class="n">i</span> <span class="o">+=</span> <span class="mi">1</span>
+<div class="highlight"><pre><span class="o">%</span><span class="k">matplotlib</span> <span class="n">inline</span>
+
+<span class="kn">from</span> <span class="nn">numpy.random</span> <span class="kn">import</span> <span class="n">normal</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">&#39;figure.figsize&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">rcParams</span><span class="p">[</span><span class="s">&#39;font.size&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">16</span>
+<span class="kn">from</span> <span class="nn">scipy.optimize</span> <span class="kn">import</span> <span class="n">curve_fit</span>
+<span class="kn">from</span> <span class="nn">uncertainties</span> <span class="kn">import</span> <span class="n">correlated_values</span><span class="p">,</span> <span class="n">correlation_matrix</span>
+
+<span class="k">def</span> <span class="nf">f1</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">b</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
+
+<span class="k">def</span> <span class="nf">f2</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">,</span> <span class="n">c</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">a</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="n">b</span> <span class="o">*</span> <span class="n">x</span> <span class="o">+</span> <span class="n">c</span><span class="p">)</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">2</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="mf">0.5</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">exp</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span> <span class="o">+</span> <span class="n">normal</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="mi">30</span><span class="p">)</span>
+
+
+<span class="n">params</span><span class="p">,</span> <span class="n">cov</span> <span class="o">=</span> <span class="n">curve_fit</span><span class="p">(</span><span class="n">f1</span><span class="p">,</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+<span class="c">#params, cov = curve_fit(f2, x, y)</span>
+
+<span class="n">params</span> <span class="o">=</span> <span class="n">correlated_values</span><span class="p">(</span><span class="n">params</span><span class="p">,</span> <span class="n">cov</span><span class="p">)</span>
+
+<span class="k">for</span> <span class="n">param</span> <span class="ow">in</span> <span class="n">params</span><span class="p">:</span>
+    <span class="k">print</span><span class="p">(</span><span class="n">param</span><span class="p">)</span>
+<span class="k">print</span><span class="p">()</span>
+<span class="k">print</span><span class="p">(</span><span class="n">cov</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">matshow</span><span class="p">(</span><span class="n">correlation_matrix</span><span class="p">(</span><span class="n">params</span><span class="p">))</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">colorbar</span><span class="p">()</span>
 </pre></div>
 
 </div>
@@ -2651,14 +2106,187 @@ In&nbsp;[23]:
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-0
-1
-2
-3
-4
+0.42+/-0.06
+2.10+/-0.07
+
+[[ 0.00311356 -0.00406271]
+ [-0.00406271  0.00539254]]
 
 </pre>
 </div>
+</div>
+
+<div class="output_area"><div class="prompt output_prompt">
+    Out[23]:</div>
+
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&lt;matplotlib.colorbar.Colorbar at 0x7f1a6e943be0&gt;
+</pre>
+</div>
+
+</div>
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+QmCC
+"
+>
+</div>
+
 </div>
 
 </div>
@@ -2670,9 +2298,8 @@ In&nbsp;[23]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<ul>
-<li><code>for</code>-Schleifen: Wiederholen für jedes Element (z.B. einer Liste)</li>
-</ul>
+<h2 id="vorsicht">Vorsicht</h2>
+<p>Man kann keine <code>ufloat</code>s plotten:</p>
 </div>
 </div>
 </div>
@@ -2683,11 +2310,11 @@ In&nbsp;[24]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="n">data</span> <span class="o">=</span> <span class="p">[</span><span class="mi">10</span><span class="p">,</span> <span class="mi">42</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<div class="highlight"><pre><span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">10</span><span class="p">)</span>
+<span class="n">y</span> <span class="o">=</span> <span class="n">unp</span><span class="o">.</span><span class="n">uarray</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">linspace</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="mi">5</span><span class="p">),</span> <span class="mi">1</span><span class="p">)</span>
 
-<span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">data</span><span class="p">:</span>
-    <span class="c"># Wir können auf das jetztige Element als &quot;x&quot; zugreifen</span>
-    <span class="k">print</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">x</span><span class="p">)</span>
+<span class="c">#plt.plot(x, y, &#39;rx&#39;)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">errorbar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">unp</span><span class="o">.</span><span class="n">nominal_values</span><span class="p">(</span><span class="n">y</span><span class="p">),</span> <span class="n">yerr</span><span class="o">=</span><span class="n">unp</span><span class="o">.</span><span class="n">std_devs</span><span class="p">(</span><span class="n">y</span><span class="p">),</span> <span class="n">fmt</span><span class="o">=</span><span class="s">&#39;rx&#39;</span><span class="p">)</span>
 </pre></div>
 
 </div>
@@ -2698,20 +2325,243 @@ In&nbsp;[24]:
 <div class="output">
 
 
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-20
-84
--2
+<div class="output_area"><div class="prompt output_prompt">
+    Out[24]:</div>
 
+
+<div class="output_text output_subarea output_pyout">
+<pre>
+&lt;Container object of 3 artists&gt;
 </pre>
 </div>
+
+</div>
+
+<div class="output_area"><div class="prompt"></div>
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+a9g0aQCAkdjDBQDQ2DYKLrNYAMBem73gKqU8oZRya5Ifzmrv10+XUm4tpXzJ3O8FbK6U8rOllA+V
+Uh6861wAelFKuaaUcstBLTObFhefvrLWek2t9RNrrVfUWj/p4Oe/liSllKtKKS8ppbyplPLGUsor
+SykPmjsP5ldKubaU8sMHf26vK6X8binlh0opn7Dr3Jjm4C9AT8zlD8TQkVLKU0opv15K+e1SyltL
+Ka8upXztrvPiZKWULy6lvOrgv5mvO/hz++pd58XFSilPSfJLSR6QS/z3sZRyz1LKiw7qmNeXUs6X
+Uv725WJvdQ9XKeUeSX4hyf2SPKzW+tAkb05yvpTy8dvMhY38ZFb/J/z8Wuu1SR6b5FFJfqOU8jE7
+zYy1lVJKkh/I6t9FS/6DKKU8O8m3Jrm+1vrIJA9J8q4kVg86Vkp5SJJXJfndWuvfOvhv548leXkp
+5e/tNjsOK6XcK8nXZ/Vc+50Thr40q3/vPr/W+rAkP5fkl0opn3lS/G1vmr8+yRcleVat9QMHrz07
+yZkk37XlXJiuJvmeWut7k6TW+u4k35fkM5J85S4TY5KnJfnTJDfvOhHWU0p5aJJ/meTra61/nCS1
+1vcn+bas/uNPv74qyUcneeGFF2qtP5Lk9iRft6ukuFit9b211i+rtb7jUmNKKV+Q5MlJnl1r/cuD
+3/fiJO9Jcu6k+LsouN5Ra/29Cy/UWt+X5DUHv0bfPq/W+oYjr73z4H/PbDsZpjuYiXxukmfG7NZI
+np7kD4/++1drfXut9XW7SYk1XZhcuPLCCwezzFfGTQEjemKSDyb5lSOvn0/y1Qd/tsfa9h/2tUmO
+24T2tiSfVUr5yO2mwxSHZiUPe3BWM19H/89Hn56V5H/UWl+/60SY5IuTvLWU8rSDzbxvLKX8ainl
+SbtOjMt6WZK3JrmxlPJRB1tr/nmSj8zqcBljuTbJu2qtf3Pk9VuT3CurFZ9jnXjxaQP3y/EF159n
+VfxdleSPt5oRGzuo5L8xyctqrW/edT6c7KBzxDcnefiuc2GyT01y3yRXJHlCVstRT83qFPhVB0tU
+dKjW+qellC9L8uNJ/izJXyf5kySPrbW+ZqfJsYn7ZVWzHHXhtfsmectxv9F0Jqfx3UnumdU+Evr3
+r5O8+GDvHWO5Z5KPSfKdtdY/qyv/IavN2M/dbWqcpJRybZLfTPLqrLZe3C/J85O8wnVJ+2XbBdd7
+ktznmNc/Nqs10du3mw6bKqV8XZJvSPIVFzYO0q9SyiOTPCbJvznul7ecDtP9RVb/jTx6cuq1Se5f
+Svm07afEmp6f5G9qrf+s1nrnQbH8Y1n92f3YjnNjuj/JqmY56sJrf3qp37jtgut1OX5985okv39w
+6obOlVKenNWJqcfWWt+163xYy5dlNUPyxoOLiG9N8q8Ofu1/Hbz2xN2lx2W8KavC+Ghx/MGD/7Va
+0a/PzfFLTL+f5EGllI/bcj6czuuSPKCU8lFHXr8myV8m+YNL/cZt/0v68iSfdPhm61LKRyf5wqzu
+saBzB8XWuSQfPjpbSnl0KeWGnSbGiWqtLzi4jPiaC/8kufBn9qUHr718lzlyoldktX/rc4+8/rAk
+7661vm3rGbGuP07y6ce8/ulJ3pfkvdtNh1P6uaz+XbzuyOtnk/yXWuslL5PedsH1s0l+I8kLSilX
+Hmy6fm6SO3L8UgcdOTgR9bKDf760lPLUUspTk3xNkqt3mRsbKUf+l369NMnrkzy/lHLPJCmlfHmS
+x2V1lyH9+qEk15RSPnzXZCnlcUm+IsmPXuL0N3246L+NtdbfSvIzSb63lHLvJCmlfEuST8hl7uEq
+JxRjTZRSziT5/iSPzmo6/C1JvqPW+tatJsJkpZTbsrpp/uj/CWuSl9Rav2n7WTFVKeW6rB7g98nq
+ZPA7k7w/yWfXWu/cYWqcoJRy/6wuzzybu2ZGXlBr/Zld5sXllVK+KqtDRvfN6r+X70/y75P8cK31
+Q7vMjbsrpbwsq/2u98/qrrTbsppF/sJDYz4qyfOyuvD7A1ntT39mrfX/nBh72wUXAMC+sdESAKAx
+BRcAQGMKLgCAxhRcAACNKbgAABpTcAEANKbgAgBoTMEFANCYggsAoDEFFwBAY/8fBzHaesTijKEA
+AAAASUVORK5CYII=
+"
+>
+</div>
+
 </div>
 
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="sympy">Sympy</h1>
+<p><img src=http://docs.sympy.org/latest/_static/sympylogo.png style="width: 300px;"></img></p>
+<ul>
+<li>Problem: Die Assistenten möchten aber trotzdem, dass man alle Ableitungen in das Protokoll schreibt</li>
+<li>Lösung: Ableitungen automatisch generieren</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>SymPy importieren:</p>
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -2720,34 +2570,22 @@ In&nbsp;[25]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">sympy</span>
 </pre></div>
 
 </div>
 </div>
 </div>
 
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-0
-1
-2
-3
-4
-
-</pre>
+</div>
+<div class="cell border-box-sizing text_cell rendered">
+<div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>Mathematische Variablen erzeugen mit <code>var()</code>:</p>
 </div>
 </div>
-
-</div>
-</div>
-
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -2756,215 +2594,9 @@ In&nbsp;[26]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
+<div class="highlight"><pre><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">z</span> <span class="o">=</span> <span class="n">sympy</span><span class="o">.</span><span class="n">var</span><span class="p">(</span><span class="s">&#39;x y z&#39;</span><span class="p">)</span>
 
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-2
-3
-4
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[27]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">3</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-10
-9
-8
-7
-6
-5
-4
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[28]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">day</span> <span class="ow">in</span> <span class="n">weekdays</span><span class="p">:</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Heute ist&quot;</span><span class="p">,</span> <span class="n">day</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Heute ist Mo
-Heute ist Di
-Heute ist Mi
-Heute ist Do
-Heute ist Fr
-Heute ist Sa
-Heute ist So
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Zwei sehr nützliche Funktionen sind <code>enumerate</code> und <code>zip</code></p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[29]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">day</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">weekdays</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">day</span><span class="p">,</span> <span class="s">&quot; ist der &quot;</span><span class="p">,</span> <span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span> <span class="s">&quot;. Tag der Woche&quot;</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="s">&quot;&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Mo ist der 1. Tag der Woche
-Di ist der 2. Tag der Woche
-Mi ist der 3. Tag der Woche
-Do ist der 4. Tag der Woche
-Fr ist der 5. Tag der Woche
-Sa ist der 6. Tag der Woche
-So ist der 7. Tag der Woche
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[30]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="n">english</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;foot&quot;</span><span class="p">,</span> <span class="s">&quot;ball&quot;</span><span class="p">,</span> <span class="s">&quot;goal&quot;</span><span class="p">]</span>
-<span class="n">deutsch</span> <span class="o">=</span> <span class="p">[</span><span class="s">&quot;Fuß&quot;</span><span class="p">,</span> <span class="s">&quot;Ball&quot;</span><span class="p">,</span> <span class="s">&quot;Tor&quot;</span><span class="p">]</span>
-
-<span class="k">for</span> <span class="n">a</span><span class="p">,</span> <span class="n">b</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">english</span><span class="p">,</span> <span class="n">deutsch</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="n">a</span><span class="p">,</span> <span class="n">b</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-foot Fuß
-ball Ball
-goal Tor
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="eigene-funktionen-definieren-mit-def">Eigene Funktionen definieren mit <code>def</code></h2>
-<p>Bevor man eine Funktion verwenden kann, muss sie erst definiert werden. Das wird wie folgt gemacht. Mit dem Keyword <code>return</code> kann man die Funktion beenden und Ergebnisse zurückgeben.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[31]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">add</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="n">z</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span>
-    <span class="k">return</span> <span class="n">z</span>
-
-<span class="n">add</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">2</span><span class="p">)</span>
+<span class="n">x</span> <span class="o">+</span> <span class="n">y</span> <span class="o">+</span> <span class="n">z</span>
 </pre></div>
 
 </div>
@@ -2976,12 +2608,12 @@ In&nbsp;[31]:
 
 
 <div class="output_area"><div class="prompt output_prompt">
-    Out[31]:</div>
+    Out[26]:</div>
 
 
 <div class="output_text output_subarea output_pyout">
 <pre>
-4
+x + y + z
 </pre>
 </div>
 
@@ -2996,23 +2628,23 @@ In&nbsp;[31]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Man kann auch mehrere Werte zurückgeben:</p>
+<p>Differenzieren mit <code>diff()</code>:</p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[32]:
+In&nbsp;[27]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">divide</span><span class="p">(</span><span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">):</span>
-    <span class="k">return</span> <span class="n">x</span> <span class="o">//</span> <span class="n">y</span><span class="p">,</span> <span class="n">x</span> <span class="o">%</span> <span class="n">y</span>
+<div class="highlight"><pre><span class="n">f</span> <span class="o">=</span> <span class="n">x</span> <span class="o">+</span> <span class="n">y</span><span class="o">**</span><span class="mi">3</span> <span class="o">-</span> <span class="n">sympy</span><span class="o">.</span><span class="n">cos</span><span class="p">(</span><span class="n">z</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span>
 
-<span class="n">n</span><span class="p">,</span> <span class="n">rest</span> <span class="o">=</span> <span class="n">divide</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
-<span class="k">print</span><span class="p">(</span><span class="n">rest</span><span class="p">)</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">x</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">y</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">z</span><span class="p">))</span>
+<span class="k">print</span><span class="p">(</span><span class="n">f</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">z</span><span class="p">,</span> <span class="n">z</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -3027,50 +2659,12 @@ In&nbsp;[32]:
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
 1
-2
+3*y**2
+2*sin(z)*cos(z)
+-8*sin(z)*cos(z)
 
 </pre>
 </div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[33]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">factorial</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
-    <span class="k">if</span> <span class="n">n</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
-        <span class="k">return</span> <span class="mi">1</span>
-    <span class="k">else</span><span class="p">:</span>
-        <span class="k">return</span> <span class="n">n</span> <span class="o">*</span> <span class="n">factorial</span><span class="p">(</span><span class="n">n</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
-
-<span class="n">factorial</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[33]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-24
-</pre>
-</div>
-
 </div>
 
 </div>
@@ -3082,223 +2676,39 @@ In&nbsp;[33]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="module-und-import">Module und <code>import</code></h2>
-<p>In Python kann man Programme in einzelne Module portionieren.</p>
-<p>Es stehen bereits unglaublich viele Module für Python zur Verfügung. Gerade fürs wissenschaftliche Arbeiten ist eigentlich alles da was man braucht und noch viel mehr. Braucht man etwas aus einem anderen Modul, importiert man es:</p>
+<p>Eine Funktion, die automatisch die Fehlerformel generiert:</p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">
-In&nbsp;[34]:
+In&nbsp;[28]:
 </div>
 <div class="inner_cell">
     <div class="input_area">
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">os</span>
+<div class="highlight"><pre><span class="kn">import</span> <span class="nn">sympy</span>
 
-<span class="n">os</span><span class="o">.</span><span class="n">listdir</span><span class="p">()</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[34]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-[&apos;muon_plot.py&apos;,
- &apos;example_data.txt&apos;,
- &apos;Python.ipynb&apos;,
- &apos;test.txt&apos;,
- &apos;muon_data.txt&apos;,
- &apos;.gitignore&apos;,
- &apos;muon_plot.png&apos;,
- &apos;Matplotlib.ipynb&apos;,
- &apos;example2.txt&apos;,
- &apos;plot.pdf&apos;,
- &apos;ScientificPython.ipynb&apos;,
- &apos;matplotlibrc&apos;,
- &apos;uncertainties.ipynb&apos;,
- &apos;README.md&apos;,
- &apos;test_T.txt&apos;,
- &apos;build&apos;,
- &apos;.ipynb_checkpoints&apos;]
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Man kann auch nur einzelne Funktionen importieren:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[35]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="n">join</span>
-<span class="n">outputpath</span> <span class="o">=</span> <span class="s">&quot;Plots&quot;</span>
-<span class="n">join</span><span class="p">(</span><span class="n">outputpath</span><span class="p">,</span> <span class="s">&quot;fig1.pdf&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[35]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-&apos;Plots/fig1.pdf&apos;
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><code>from module import *</code> importiert jede Funktion eines Moduls. Sollte auf Grund von möglichen Mehrfachbelegungen nicht in größeren Programmen verwendet werden</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[36]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="kn">from</span> <span class="nn">os.path</span> <span class="kn">import</span> <span class="o">*</span>
-<span class="n">outputpath</span> <span class="o">=</span> <span class="s">&quot;Plots&quot;</span>
-<span class="k">if</span> <span class="n">exists</span><span class="p">(</span><span class="n">outputpath</span><span class="p">):</span>
-    <span class="k">print</span><span class="p">(</span><span class="s">&quot;Plots exists!&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Den Modulen können mit <code>as</code> neue Namen gegeben werden</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[37]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="kn">import</span> <span class="nn">os.path</span> <span class="kn">as</span> <span class="nn">pa</span>
-
-<span class="n">pa</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">outputpath</span><span class="p">,</span> <span class="s">&quot;fig1.pdf&quot;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[37]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-&apos;Plots/fig1.pdf&apos;
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="auslagern-in-python-dateien">Auslagern in Python-Dateien</h2>
-<ul>
-<li>Python-Dateien haben die Endung <code>.py</code></li>
-<li>Startet man mit <code>python programm.py</code></li>
-<li>Einzelne Python-Dateien (Endung <code>.py</code>) kann man als Module benutzen. Liegt eine Datei <code>test.py</code> im selben Ordner, so kann man <code>import test</code> ausführen.</li>
-</ul>
-<p>Es folgt ein fertiges Python-Programm.</p>
-<p>Speichert es als <code>primes.py</code> ab und startet es aus dem Terminal mit <code>python primes.py</code>.</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[38]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">def</span> <span class="nf">primes</span><span class="p">(</span><span class="n">max_num</span><span class="p">):</span>
-    <span class="c"># Es werden nur Primzahlen kleiner max_num berechnet</span>
-    <span class="n">is_prime</span> <span class="o">=</span> <span class="n">max_num</span> <span class="o">*</span> <span class="p">[</span><span class="bp">True</span><span class="p">]</span>
-    <span class="n">is_prime</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
-    <span class="n">is_prime</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
-
-    <span class="n">primes</span> <span class="o">=</span> <span class="p">[]</span>
-
-    <span class="c"># Sieb von Erathosthenes:</span>
-    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">max_num</span><span class="p">):</span>
-        <span class="k">if</span> <span class="n">is_prime</span><span class="p">[</span><span class="n">i</span><span class="p">]:</span>
-            <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="n">i</span><span class="p">,</span> <span class="n">max_num</span><span class="p">,</span> <span class="n">i</span><span class="p">):</span>
-                <span class="c"># Alle Vielfachen sind keine Primzahl</span>
-                <span class="n">is_prime</span><span class="p">[</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="bp">False</span>
-            <span class="n">primes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+<span class="k">def</span> <span class="nf">error</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="n">err_vars</span><span class="o">=</span><span class="bp">None</span><span class="p">):</span>
+    <span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">Symbol</span><span class="p">,</span> <span class="n">latex</span>
+    <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">latex_names</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
     
-    <span class="k">return</span> <span class="n">primes</span>
+    <span class="k">if</span> <span class="n">err_vars</span> <span class="o">==</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="n">err_vars</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">free_symbols</span>
+        
+    <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">err_vars</span><span class="p">:</span>
+        <span class="n">err</span> <span class="o">=</span> <span class="n">Symbol</span><span class="p">(</span><span class="s">&#39;latex_std_&#39;</span> <span class="o">+</span> <span class="n">v</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
+        <span class="n">s</span> <span class="o">+=</span> <span class="n">f</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">err</span><span class="o">**</span><span class="mi">2</span>
+        <span class="n">latex_names</span><span class="p">[</span><span class="n">err</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;</span><span class="se">\\</span><span class="s">sigma_{&#39;</span> <span class="o">+</span> <span class="n">latex</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;}&#39;</span>
+        
+    <span class="k">return</span> <span class="n">latex</span><span class="p">(</span><span class="n">sympy</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="n">symbol_names</span><span class="o">=</span><span class="n">latex_names</span><span class="p">)</span>
 
-<span class="k">print</span><span class="p">(</span><span class="n">primes</span><span class="p">(</span><span class="mi">100</span><span class="p">))</span>
+<span class="n">E</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="n">sympy</span><span class="o">.</span><span class="n">var</span><span class="p">(</span><span class="s">&#39;E_x q r&#39;</span><span class="p">)</span>
+
+<span class="n">f</span> <span class="o">=</span> <span class="n">E</span> <span class="o">+</span> <span class="n">q</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">r</span>
+
+<span class="k">print</span><span class="p">(</span><span class="n">error</span><span class="p">(</span><span class="n">f</span><span class="p">))</span>
 </pre></div>
 
 </div>
@@ -3312,7 +2722,7 @@ In&nbsp;[38]:
 <div class="output_area"><div class="prompt"></div>
 <div class="output_subarea output_stream output_stdout output_text">
 <pre>
-[2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97]
+\sqrt{\sigma_{E_{x}}^{2} + 4 \sigma_{q}^{2} q^{2} r^{2} + \sigma_{r}^{2} q^{4}}
 
 </pre>
 </div>
@@ -3327,191 +2737,7 @@ In&nbsp;[38]:
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="besonderheiten-bei-strings">Besonderheiten bei Strings</h2>
-<p>Mit <code>\</code> kann man in Strings besondere Anweisungen setzen:</p>
-<ul>
-<li><code>'\n'</code> -&gt; Zeilenumbruch</li>
-<li><code>'\t'</code> -&gt; Tab</li>
-<li><code>'\\'</code> -&gt; normales <code>'\'</code></li>
-</ul>
-<p>Wenn man viele <code>'\'</code> schreiben muss (z.B. in LaTeX-Code), lohnt es sich diese Funktion mit dem Prefix <code>r</code> auszuschalten:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[39]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">r&#39;\Huge\texttt{Python}&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-\Huge\texttt{Python}
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Oft will man Werte oder andere Strings in einen String einsetzen.</p>
-<p>Dafür stellt Python die mächtige <code>format()</code>-Methode bereit:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[40]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="s">&#39;Erster Wert: {}, Zweiter Wert: {}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">42</span><span class="p">,</span> <span class="mi">0</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[40]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-&apos;Erster Wert: 42, Zweiter Wert: 0&apos;
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Die <code>{}</code>-Markierungen werden durch die Parameter von <code>format()</code> ersetzt.</p>
-<p><code>format()</code> hat viele fortgeschrittene Funktionen:</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[41]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="s">&#39;Das Ergebnis ist {:.2f}&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mf">3.2291421</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt output_prompt">
-    Out[41]:</div>
-
-
-<div class="output_text output_subarea output_pyout">
-<pre>
-&apos;Das Ergebnis ist 3.23&apos;
-</pre>
-</div>
-
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p>Ausführliche Beispiele zur Benutzung von Format findet man z.B. in der offiziellen Dokumentation:</p>
-<p><a href="https://docs.python.org/3.1/library/string.html#format-examples">https://docs.python.org/3.1/library/string.html#format-examples</a></p>
-<p>Mit Python 3 kann man standardmäßig beliebige (Unicode-)Schriftzeichen in Strings verwenden (Umlaute!).</p>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">
-In&nbsp;[42]:
-</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class="highlight"><pre><span class="k">print</span><span class="p">(</span><span class="s">&#39;Hällo, Wörld!&#39;</span><span class="p">)</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-<div class="output_wrapper">
-<div class="output">
-
-
-<div class="output_area"><div class="prompt"></div>
-<div class="output_subarea output_stream output_stdout output_text">
-<pre>
-Hällo, Wörld!
-
-</pre>
-</div>
-</div>
-
-</div>
-</div>
-
-</div>
-<div class="cell border-box-sizing text_cell rendered">
-<div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="weiterführende-links">Weiterführende Links:</h2>
-<ul>
-<li><a href="http://docs.python.org/3/">Offizielle Python-Dokumentation</a></li>
-<li><a href="https://docs.python.org/3.4/tutorial/index.html">Offizielles Python-Tutorial</a></li>
-<li><a href="http://www.codecademy.com/en/tracks/python">Codecademy Python</a></li>
-<li><a href="http://www.diveinto.org/python3/">Dive into Python 3</a></li>
-<li><a href="http://www.swaroopch.com/notes/python/">A Byte of Python</a></li>
-</ul>
+<p><span class="math">\[\sqrt{\sigma_{E_{x}}^{2} + 4 \sigma_{q}^{2} q^{2} r^{2} + \sigma_{r}^{2} q^{4}}\]</span></p>
 </div>
 </div>
 </div>
