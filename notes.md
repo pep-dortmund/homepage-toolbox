@@ -11,3 +11,7 @@ title: Material
     - [matplotlib](files/archive/2014/Matplotlib.html)
     - [uncertainties](files/archive/2014/uncertainties.html)
     - [Aufgaben](files/archive/2014/exercises-2.zip)
+- Tag 3
+    - [Unix](files/archive/2014/unix.pdf)
+    - [make](files/archive/2014/make.pdf)
+    - [Aufgabe](files/archive/2014/exercises-3.zip)
