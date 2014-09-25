@@ -23,6 +23,7 @@ Die beiden Wochen sind inhaltlich unabhängig. Es kann auch nur einer der Kurse 
 
 - Die Software vorher [installieren](install.html)
     - Bei Problemen [Mail](about.html) schicken
+- Laptop mitbringen
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
 ## Umfrage
@@ -32,6 +33,16 @@ Wir haben daher kleine Fragebögen (bei Google Docs) zusammengestellt und möcht
 
 <a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/spreadsheet/viewform?formkey=dFhhWjJOVlN2QXZSdHJhNHVRa1ZCRnc6MA">Zur LaTeX-Umfrage</a>
 <div class="clearfix"></div>
+
+<!--
+## Feedback
+
+Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
+Füllt bitte den Feedback-Bogen aus.
+
+<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1SREp9xhFqsTu0ZAVZwj7zQnUSpoFC-oEIQ-kjgJiqRU/viewform">Zum Toolbox-Feedback</a>
+<div class="clearfix"></div>
+-->
 
 ## Ablaufplan
 
