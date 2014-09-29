@@ -26,6 +26,7 @@ Die beiden Wochen sind inhaltlich unabhängig. Es kann auch nur einer der Kurse 
 - Laptop mitbringen
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
+<!--
 ## Umfrage
 
 Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
@@ -33,6 +34,7 @@ Wir haben daher kleine Fragebögen (bei Google Docs) zusammengestellt und möcht
 
 <a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/spreadsheet/viewform?formkey=dFhhWjJOVlN2QXZSdHJhNHVRa1ZCRnc6MA">Zur LaTeX-Umfrage</a>
 <div class="clearfix"></div>
+-->
 
 ## Feedback
 

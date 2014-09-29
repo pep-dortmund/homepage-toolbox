@@ -24,3 +24,7 @@ title: Material
     - [Aufgaben](files/archive/2014/exercises-5.zip)
 
 ## LaTeX
+
+- [Folien](files/archive/2014/latex.pdf)
+- Tag 1
+    - [Aufgaben](files/archive/2014/exercises-latex-1.zip)
