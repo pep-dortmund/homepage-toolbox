@@ -108,7 +108,7 @@ Füllt bitte den Feedback-Bogen aus.
     <td>Mi, 1.10.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>Formelsatz</td>
+    <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
     <td>Do, 2.10.2014</td>
