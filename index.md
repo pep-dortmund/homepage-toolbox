@@ -96,25 +96,25 @@ Füllt bitte den Feedback-Bogen aus.
     <td>Mo, 29.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>LaTeX</td>
+    <td>Einführung in LaTeX</td>
   </tr>
   <tr>
     <td>Di, 30.9.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>LaTeX</td>
+    <td>Formelsatz</td>
   </tr>
   <tr>
     <td>Mi, 1.10.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>LaTeX</td>
+    <td>Formelsatz</td>
   </tr>
   <tr>
     <td>Do, 2.10.2014</td>
     <td>13–17 Uhr</td>
     <td>Chemie HS 3</td>
-    <td>LaTeX</td>
+    <td>Nützliche Tipps und Ausblick</td>
   </tr>
 </tbody>
 </table>
