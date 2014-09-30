@@ -68,6 +68,11 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 
 ## LaTeX
 
+- TeXBook
+- [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf)
+- [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)
+- [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
+
 ## Editoren
 
 - [The Editor of a Lifetime (Emacs)](http://youtu.be/VADudzQGvU8)
