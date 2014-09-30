@@ -25,6 +25,8 @@ title: Material
 
 ## LaTeX
 
-- [Folien](files/archive/2014/latex.pdf)
+- [Folien](files/archive/2014/latex.pdf) (30.09.2014)
 - Tag 1
     - [Aufgaben](files/archive/2014/exercises-latex-1.zip)
+- Tag 2
+    - [Aufgaben](files/archive/2014/exercises-latex-2.zip)
