@@ -41,7 +41,8 @@ Wir haben daher kleine Fragebögen (bei Google Docs) zusammengestellt und möcht
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen aus.
 
-<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1SREp9xhFqsTu0ZAVZwj7zQnUSpoFC-oEIQ-kjgJiqRU/viewform">Zum Toolbox-Feedback</a>
+<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1Ba-D64CClSTL6vQBrYxsRhbOr-QxF7ciWxHX8MeY-Bk/viewform">Zum LaTeX-Feedback</a>
+<a class="btn btn-large btn-primary pull-right" style="margin-right: 3em;" href="https://docs.google.com/forms/d/1SREp9xhFqsTu0ZAVZwj7zQnUSpoFC-oEIQ-kjgJiqRU/viewform">Zum Toolbox-Feedback</a>
 <div class="clearfix"></div>
 
 ## Ablaufplan
