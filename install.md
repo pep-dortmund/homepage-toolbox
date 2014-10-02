@@ -275,7 +275,7 @@ Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
 Im Terminal:
 
     tar xvzf install-tl-unx.tar.gz
-    TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-20140916/install-tl
+    TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
     I
     echo export PATH=\"$(echo ~/.local/texlive/2014/bin/*):\$PATH\" >> ~/.bashrc
 
