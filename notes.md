@@ -15,7 +15,7 @@ title: Material
     - [Aufgaben](files/archive/2014/exercises-2.zip)
 - Tag 3
     - [Unix](files/archive/2014/unix.pdf)
-    - [make](files/archive/2014/make.pdf)
+    - [make](files/archive/2014/make.pdf) (03.10.2014)
     - [Aufgabe](files/archive/2014/exercises-3.zip)
 - Tag 4
     - [git](files/archive/2014/git.pdf)
@@ -25,7 +25,7 @@ title: Material
 
 ## LaTeX
 
-- [Folien](files/archive/2014/latex.pdf)
+- [Folien](files/archive/2014/latex.pdf) (03.10.2014)
 - [LaTeX-Vorlage für Protokolle](files/archive/2014/latex-template.zip)
 - Tag 1
     - [Aufgaben](files/archive/2014/exercises-latex-1.zip)
