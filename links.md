@@ -2,8 +2,6 @@
 title: Linksammlung
 ---
 
-Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Workshops.
-
 ## Python
 
 - [Python 3 Documentation](http://docs.python.org/py3k/)
@@ -12,7 +10,6 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 - [Dive Into Python 3](http://www.diveintopython3.net/)
 - [Learn Python The Hard Way (Python 2)](http://learnpythonthehardway.org/)
 - [A Byte of Python (Python 2)](http://www.swaroopch.com/notes/python/)
-
 
 ## Python-Bibliotheken
 
@@ -26,7 +23,6 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 - [Sage](http://www.sagemath.org/)
 - [NumPy Tutorial](http://www.loria.fr/~rougier/teaching/numpy/numpy.html)
 - [matplotlib Tutorial](http://www.loria.fr/~rougier/teaching/matplotlib/)
-
 
 ## Scientific Python Tutorials
 
@@ -80,5 +76,8 @@ Hier entsteht demnächst eine Sammlung nützlicher Links zu den Themen des Works
 
 ## Verschiedenes
 
+- [The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/)
+- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/)
+- [The Unix Koans of Master Foo](http://www.catb.org/~esr/writings/unix-koans/)
 - [Matt Might](http://matt.might.net/articles/)
 - [David A. Wheeler](http://www.dwheeler.com/)
