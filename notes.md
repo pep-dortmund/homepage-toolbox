@@ -25,8 +25,8 @@ title: Material
 
 ## LaTeX
 
-- [Folien](files/archive/2014/latex.pdf) (05.10.2014)
-- [LaTeX-Vorlage für Protokolle](files/archive/2014/latex-template.zip)
+- [Folien](files/archive/2014/latex.pdf) (14.10.2014)
+- [LaTeX-Vorlage für Protokolle](files/archive/2014/latex-template.zip) (14.10.2014)
 - Tag 1
     - [Aufgaben](files/archive/2014/exercises-latex-1.zip)
 - Tag 2
