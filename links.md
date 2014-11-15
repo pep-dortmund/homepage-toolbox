@@ -81,3 +81,8 @@ title: Linksammlung
 - [The Unix Koans of Master Foo](http://www.catb.org/~esr/writings/unix-koans/)
 - [Matt Might](http://matt.might.net/articles/)
 - [David A. Wheeler](http://www.dwheeler.com/)
+
+## Allgemein
+
+- [Software Carpentry Lessons](http://software-carpentry.org/lessons.html)
+
