@@ -69,6 +69,7 @@ title: Linksammlung
 - [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)
 - [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
 - [Mathematical Typography](http://www.ams.org/journals/bull/1979-01-02/S0273-0979-1979-14598-1/S0273-0979-1979-14598-1.pdf)
+- [Symbols, Units, Nomenclature and Fundamental Constants in Physics](http://iupap.org/wp-content/uploads/2014/05/A4.pdf)
 
 ## Editoren
 
