@@ -57,6 +57,7 @@ title: Linksammlung
 - [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
 - [Git pretty](http://justinhileman.info/article/git-pretty/)
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
+- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
 - [Mögliche Nachteile von Git](http://youtu.be/CDeG4S-mJts)
 
 ## Make
