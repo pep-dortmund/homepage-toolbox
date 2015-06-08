@@ -76,7 +76,11 @@ title: Linksammlung
 
 ## Editoren
 
-- [The Editor of a Lifetime (Emacs)](http://youtu.be/VADudzQGvU8)
+- [Atom - A hackable text editor for the 21st Century](https://atom.io/)
+- [Notepad++ - Notepad plus plus (Windows only)](https://notepad-plus-plus.org/download/)
+- [Sublime Text - a sophisticated text editor for code, markup and prose](http://www.sublimetext.com/3)
+- [Vim - The power tool for everyone!](http://www.vim.org/)
+- [Emacs - The Editor of a Lifetime (if you have no other life)](http://youtu.be/VADudzQGvU8)
 
 ## Verschiedenes
 
