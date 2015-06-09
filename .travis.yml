@@ -1,0 +1,15 @@
+language: haskell
+ghc: 7.10
+branches:
+  only:
+  - master
+install:
+- cabal install -j hakyll
+- pip install --user ghp-import
+script:
+- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
+notifications:
+  email: false
+env:
+  global:
+    secure: H4cVmx8HVfDRoS69Y5SxM7uCWPfB8Wz+/7Pxtn/08OzYtJJGFd+K+Dd43Y8G+MHwK221dLXNd8TOzpZCF3UyaWDaXFpGb8j4hF6gSxIyC2WVSl6/LMyJm9yT+lW0vFYM0/GVrJ9Xolxk3HZ/Mbr8PGs85FvxQL6U0SF2wL6+6Sw=
