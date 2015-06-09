@@ -1,10 +1,10 @@
 language: haskell
-ghc: 7.10
+ghc: 7.8
 branches:
   only:
   - master
 install:
-  - sudo apt-get install libghc-hakyll-dev
+  - cabal install -j hakyll-4.6.7.1
   - pip install --user ghp-import
 script:
   - ghc site
