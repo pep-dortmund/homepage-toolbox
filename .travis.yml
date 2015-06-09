@@ -4,10 +4,10 @@ branches:
   only:
   - master
 install:
-- cabal install -j hakyll
-- pip install --user ghp-import
+  - sudo apt-get install libghc-hakyll-dev
+  - pip install --user ghp-import
 script:
-- '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
+  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
 notifications:
   email: false
 env:
