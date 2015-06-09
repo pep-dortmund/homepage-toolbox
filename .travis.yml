@@ -7,6 +7,8 @@ install:
   - sudo apt-get install libghc-hakyll-dev
   - pip install --user ghp-import
 script:
+  - ghc site
+  - ./site build
   - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
 notifications:
   email: false
