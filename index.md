@@ -39,7 +39,6 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
 <div class="text-center">
 <div class="btn-group">
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1bN6eSBKlDGPh3O4SMXsS0L1rHPdJbmiutZhpjZtQFes/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
-
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1x1bBFS4QKeyWXlPUaUi0KZf0DY18keI0dg4QWuHFix4/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
 </div>
 <div class="clearfix"></div>
@@ -61,78 +60,78 @@ Füllt bitte den Feedback-Bogen aus.
 <table class="table table-hover">
 <thead>
   <tr>
-    <th>Tag</th>
-    <th>Zeit</th>
-    <th>Raum</th>
-    <th>Thema</th>
+  <th>Tag</th>
+  <th>Zeit</th>
+  <th>Raum</th>
+  <th>Thema</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td>Mo, 5.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Python, numpy, scipy</td>
+  <td>Mo, 5.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Python, numpy, scipy</td>
   </tr>
   <tr>
-    <td>Di, 6.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>matplotlib, uncertainties</td>
+  <td>Di, 6.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>matplotlib, uncertainties</td>
   </tr>
   <tr>
-    <td>Mi, 7.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Unix, make</td>
+  <td>Mi, 7.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Unix, make</td>
   </tr>
   <tr>
-    <td>Do, 8.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Versionskontrolle mit git</td>
+  <td>Do, 8.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Versionskontrolle mit git</td>
   </tr>
   <tr>
-    <td>Fr, 9.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Übungen</td>
+  <td>Fr, 9.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Übungen</td>
   </tr>
   <tr>
-    <td></td>
-    <td></td>
-    <td></td>
-    <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
   </tr>
   <tr>
-    <td>Mo, 12.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Einführung in LaTeX</td>
+  <td>Mo, 12.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-    <td>Di, 13.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Formelsatz</td>
+  <td>Di, 13.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Formelsatz</td>
   </tr>
   <tr>
-    <td>Mi, 14.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
+  <td>Mi, 14.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-    <td>Do, 15.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Nützliche Tipps und Ausblick</td>
+  <td>Do, 15.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Nützliche Tipps und Ausblick</td>
   </tr>
   <tr>
-    <td>Fr, 16.10.2015</td>
-    <td>13–17 Uhr</td>
-    <td>???</td>
-    <td>Übungen</td>
+  <td>Fr, 16.10.2015</td>
+  <td>13–17 Uhr</td>
+  <td>???</td>
+  <td>Übungen</td>
   </tr>
 </tbody>
 </table>
