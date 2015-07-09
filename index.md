@@ -30,12 +30,15 @@ Die beiden Wochen sind inhaltlich unabhängig. Es kann auch nur einer der Kurse 
 
 Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
 Wir haben daher kleine Fragebögen (bei Google Docs) zusammengestellt und möchten euch bitten sie auszufüllen, damit wir den Workshop optimal an eure Bedürfnisse anpassen können.
-Den Link werden wir hier in Kürze veröffentlichen.
 
-<!--
-<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/spreadsheet/viewform?formkey=dFhhWjJOVlN2QXZSdHJhNHVRa1ZCRnc6MA">Zur LaTeX-Umfrage</a>
+<div class="text-center">
+<div class="btn-group">
+<a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1bN6eSBKlDGPh3O4SMXsS0L1rHPdJbmiutZhpjZtQFes/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
+
+<a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1x1bBFS4QKeyWXlPUaUi0KZf0DY18keI0dg4QWuHFix4/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
+</div>
 <div class="clearfix"></div>
---!>
+</div>
 
 <!--
 ## Feedback
