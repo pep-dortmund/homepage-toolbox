@@ -37,10 +37,8 @@ Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese
 So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center">
-<div class="btn-group">
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1bN6eSBKlDGPh3O4SMXsS0L1rHPdJbmiutZhpjZtQFes/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1x1bBFS4QKeyWXlPUaUi0KZf0DY18keI0dg4QWuHFix4/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
-</div>
 <div class="clearfix"></div>
 </div>
 
