@@ -7,29 +7,34 @@ Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-W
 </p>
 
 <p class="lead">
-Der Kurs vermittelt den Umgang mit Werkzeugen, die das Praktikum angenehmer machen.
+Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern
 </p>
 
-Der Workshop ist als Hilfe fürs Praktikum gedacht und richtet sich damit vorranging an die kommenden Drittsemester; er soll beim Einstieg in das Anfängerpraktikum helfen.
-Trotzdem sind natürlich auch alle anderen Interessenten eingeladen.
+Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
+Damit richtet er sich vorrangig and die kommenden Drittsemester.
+Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-LaTeX ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
-Python, git und make sind Standardwerkzeuge, die häufig innerhalb und außerhalb der Wissenschaft eingesetzt werden.
-Daher sind beide Teile des Kurses nicht nur fürs Praktikum interessant, sondern auch für das weitere Leben.
+**Python**, **git** und **make** sind Standardwerkzeuge, die häufig innerhalb und außerhalb der Wissenschaft eingesetzt werden.
+**LaTeX** ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
+Beide Teile des Kurses sind also nicht nur für das Praktikum interessant, sondern auch für den weiteren Erfolg während und nach des Studiums.
 
-Die beiden Wochen sind inhaltlich unabhängig. Es kann auch nur einer der Kurse besucht werden.
+Die beiden Wochen sind unabhängig voneinander gestaltet.
+Es kann also auch nur einer der beiden Kurse besucht werden.
 
 ## Vorbereitung
 
+Bitte beachtet die folgenden Schritte:
+
 - Die Software vorher [installieren](install.html)
     - Bei Problemen können wir gerne per [Mail](about.html) oder persönlich helfen
-- Laptop mitbringen
+- Einen Laptop mitbringen
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
 ## Umfrage
 
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen im Programmieren gesammelt habt.
-Wir haben daher kleine Fragebögen (bei Google Docs) zusammengestellt und möchten euch bitten sie auszufüllen, damit wir den Workshop optimal an eure Bedürfnisse anpassen können.
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
+Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
+So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center">
 <div class="btn-group">
