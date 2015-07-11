@@ -2,6 +2,8 @@
 title: Installation
 ---
 
+<span style="color: red; font-size: xx-large;">Die Installationsanleitung wurde noch nicht für 2015 aktualisiert.</span>
+
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 
 Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
