@@ -19,5 +19,4 @@ Die Organisatoren sind dieses Jahr
   - Maximilian Nöthe
   - Ismo Toijala
 
-Ihr könnt uns über die folgende Mail-Adresse erreichen: toolbox-pep-dortmund@googlegroups.com
-
+Ihr könnt uns über die folgende Mail-Adresse erreichen: [toolbox-pep-dortmund@googlegroups.com](mailto:toolbox-pep-dortmund@googlegroups.com).
