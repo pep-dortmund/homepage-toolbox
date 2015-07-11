@@ -7,7 +7,7 @@ Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-W
 </p>
 
 <p class="lead">
-Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern
+Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
 </p>
 
 Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
