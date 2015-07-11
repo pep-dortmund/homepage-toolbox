@@ -39,7 +39,6 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
 <div class="text-center">
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1bN6eSBKlDGPh3O4SMXsS0L1rHPdJbmiutZhpjZtQFes/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1x1bBFS4QKeyWXlPUaUi0KZf0DY18keI0dg4QWuHFix4/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
-<div class="clearfix"></div>
 </div>
 
 <!--
@@ -48,9 +47,10 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen aus.
 
-<a class="btn btn-large btn-primary pull-right" href="https://docs.google.com/forms/d/1Ba-D64CClSTL6vQBrYxsRhbOr-QxF7ciWxHX8MeY-Bk/viewform">Zum LaTeX-Feedback</a>
-<a class="btn btn-large btn-primary pull-right" style="margin-right: 3em;" href="https://docs.google.com/forms/d/1SREp9xhFqsTu0ZAVZwj7zQnUSpoFC-oEIQ-kjgJiqRU/viewform">Zum Toolbox-Feedback</a>
-<div class="clearfix"></div>
+<div class="text-center">
+<a type="button" class="btn btn-large btn-primary" href="">Zur Toolbox-Umfrage (erste Woche)</a>
+<a type="button" class="btn btn-large btn-primary" href="">Zur LaTeX-Umfrage (zweite Woche)</a>
+</div>
 -->
 
 ## Ablaufplan
