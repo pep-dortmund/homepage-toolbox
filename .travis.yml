@@ -5,7 +5,7 @@ branches:
 install:
   - pip install --user ghp-import
 script:
-    - git checkout hakyll-bin ./site
+  - git checkout hakyll-bin ./site
   - ./site build
   - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
 notifications:
