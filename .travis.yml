@@ -3,7 +3,7 @@ branches:
   only:
   - master
 install:
-  - cabal install -j hakyll-4.6.7.1
+  - cabal install -j hakyll
   - pip install --user ghp-import
 script:
   - ghc site
