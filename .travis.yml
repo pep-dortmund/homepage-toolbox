@@ -1,12 +1,13 @@
 language: haskell
+sudo: false
 branches:
   only:
   - master
 install:
   - pip install --user ghp-import
 script:
-  - git checkout hakyll-bin ./site
-  - ./site build
+  - git clone --branch=hakyll-bin https://github.com/pep-dortmund/toolbox.pep-dortmund.de repo-bin
+  - ./repo-bin/site build
   - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
 notifications:
   email: false
