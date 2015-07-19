@@ -4,29 +4,29 @@ title: Linksammlung
 
 ## Python
 
-- [Python 3 Documentation](http://docs.python.org/py3k/)
-    - [Python Tutorial](https://docs.python.org/3.4/tutorial/index.html)
-    - [PEP 8 – Style Guide for Python Code](http://www.python.org/dev/peps/pep-0008/)
-- [Dive Into Python 3](http://www.diveintopython3.net/)
-- [Learn Python The Hard Way (Python 2)](http://learnpythonthehardway.org/)
-- [A Byte of Python (Python 2)](http://www.swaroopch.com/notes/python/)
+- [Python 3 Documentation](https://docs.python.org/3/)
+    - [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
+    - [PEP 8 – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/): Man sollte sich angewöhnen, seinen Code nach den üblichen Regeln zu formatieren
+- [Dive Into Python 3](http://www.diveintopython3.net/): Kostenloses Buch über Python 3
+- [Learn Python The Hard Way](http://learnpythonthehardway.org/): Kostenloses Buch über Python 2(!)
+- [A Byte of Python](http://www.swaroopch.com/notes/python/): Kostenloses Buch über Python 2(!)
 
 ## Python-Bibliotheken
 
 - [NumPy and SciPy Documentation](http://docs.scipy.org/doc/)
     - [Tentative NumPy Tutorial](http://www.scipy.org/Tentative_NumPy_Tutorial)
 - [matplotlib Documentation](http://matplotlib.org/contents.html)
-    - [matplotlib Gallery](http://matplotlib.org/gallery.html)
-    - [Farben, Linienstile, Markerstile](http://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes.plot)
+    - [matplotlib Gallery](http://matplotlib.org/gallery.html): Beispielplots mit Code
+    - [Farben, Linienstile, Markerstile](http://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes.plot): Liste aller Stile
 - [Uncertainties](https://pythonhosted.org/uncertainties/)
-- [SymPy](http://sympy.org/en/index.html)
-- [Sage](http://www.sagemath.org/)
+- [SymPy](http://sympy.org/en/index.html): Für symbolische Berechnungen (Integrale, Differentialgleichungen, …)
+- [Sage](http://www.sagemath.org/): Kombiniert viele Pakete zu einem allgemeinen mathematischen Werkzeug
 - [NumPy Tutorial](http://www.loria.fr/~rougier/teaching/numpy/numpy.html)
 - [matplotlib Tutorial](http://www.loria.fr/~rougier/teaching/matplotlib/)
 
 ## Scientific Python Tutorials
 
-- [The Scientific Python lectures ](http://jrjohansson.github.io/)
+- [The Scientific Python lectures](http://jrjohansson.github.io/)
     - [Einführung](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
     - [Python](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
     - [Numpy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
@@ -38,59 +38,54 @@ title: Linksammlung
 
 ## Unix
 
-- [Learn CLI The Hard Way](http://cli.learncodethehardway.org/book/)
+- `man bash`
+- [Learn CLI The Hard Way](http://cli.learncodethehardway.org/): Kostenloses Buch über die Kommandozeile
 - [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html)
-- [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html)
-- [To understand the command line…](http://geekblog.oneandoneis2.org/index.php/2012/09/30/to-understand-the-command-line)
-- [The Unix-Haters Handbook](http://richard.esplins.org/static/downloads/unix-haters-handbook.pdf)
-- [Beginning with the Shell (Video)](http://youtu.be/Sye3mu-EoTI)
-- [Zsh Manual](http://zsh.sourceforge.net/Doc/Release/zsh_toc.html)
+- [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html): Wenn man googelt, landet man häufig hier
+- [To understand the command line…](http://geekblog.oneandoneis2.org/index.php/2012/09/30/to-understand-the-command-line): Über die Logik der Shell
+- [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line): Liste von Dingen, die man können sollte
+- [The Unix-Haters Handbook](http://richard.esplins.org/static/downloads/unix-haters-handbook.pdf): Satire
 
 ## Git
 
 - `man git`
-- `man gittutorial`
-- [Git Documentation](http://git-scm.com/doc)
-- [Pro Git](http://git-scm.com/book)
-- [Git Immersion](http://gitimmersion.com/)
-- [Easy Version Control with Git](http://net.tutsplus.com/tutorials/other/easy-version-control-with-git/)
-- [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html)
-- [Git pretty](http://justinhileman.info/article/git-pretty/)
-- [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out)
-- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/)
-- [Mögliche Nachteile von Git](http://youtu.be/CDeG4S-mJts)
+- `man gittutorial`, `man gittutorial-2`
+- [Git Documentation](https://git-scm.com/doc)
+- [Pro Git](https://git-scm.com/book/en/v2): Kostenloses Buch über Git (sehr gut)
+- [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html): Interaktive Anleitung zum Korrigieren von Fehlern
+- [Git pretty](http://justinhileman.info/article/git-pretty/): Flowchart für Fehlerbehebung
+- [How to undo (almost) anything with Git](https://github.com/blog/2019-how-to-undo-almost-anything-with-git)
+- [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out): Erklärt, wie `git` intern arbeitet
+- [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/): Einführung in die `git`-Innereien
+- [Mögliche Nachteile von Git](https://youtu.be/CDeG4S-mJts): Satire
 
 ## Make
 
 - [Make Documentation](https://www.gnu.org/software/make/manual/make.html)
-- [Makefile basics](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
 
 ## LaTeX
 
-- TeXBook
-- [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf)
+- TeXBook von Don Knuth: Das Buch über TeX
+- [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf): Kurs von Don Knuth
 - [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)
 - [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
-- [Mathematical Typography](http://www.ams.org/journals/bull/1979-01-02/S0273-0979-1979-14598-1/S0273-0979-1979-14598-1.pdf)
+- [Mathematical Typography](http://www.ams.org/journals/bull/1979-01-02/S0273-0979-1979-14598-1/S0273-0979-1979-14598-1.pdf): Gründe von Knuth, TeX zu entwickeln
 - [Symbols, Units, Nomenclature and Fundamental Constants in Physics](http://iupap.org/wp-content/uploads/2014/05/A4.pdf)
+- ISO 80000: Regeln für mathematische Typographie in der Wissenschaft (Google hilft…)
 
 ## Editoren
 
-- [Atom - A hackable text editor for the 21st Century](https://atom.io/)
-- [Notepad++ - Notepad plus plus (Windows only)](https://notepad-plus-plus.org/download/)
-- [Sublime Text - a sophisticated text editor for code, markup and prose](http://www.sublimetext.com/3)
-- [Vim - The power tool for everyone!](http://www.vim.org/)
-- [Emacs - The Editor of a Lifetime (if you have no other life)](http://youtu.be/VADudzQGvU8)
+- [Vim](http://www.vim.org/): Moden-basierter Editor, schwierige Lernphase, danach hervorragend
+- [Emacs](https://www.gnu.org/software/emacs/emacs.html): Der erweiterbarste Editor
+- [Notepad++](https://notepad-plus-plus.org/) (Windows): einfacher Editor, schnell zu lernen
+- [Atom](https://atom.io/): Neuer Editor von GitHub, geschrieben in HTML und JavaScript
+- [Sublime Text](http://www.sublimetext.com/3) (kommerziell): Neuerer Editor
+- [neovim](http://neovim.io/): Modernisierung von vim
 
 ## Verschiedenes
 
-- [The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/)
-- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/)
-- [The Unix Koans of Master Foo](http://www.catb.org/~esr/writings/unix-koans/)
-- [Matt Might](http://matt.might.net/articles/)
-- [David A. Wheeler](http://www.dwheeler.com/)
-
-## Allgemein
-
-- [Software Carpentry Lessons](http://software-carpentry.org/lessons.html)
-
+- [Software Carpentry Lessons](http://software-carpentry.org/lessons.html): Kurs mit ähnlichen Zielen zu diesem
+- [The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/) [(PDF)](http://www.catb.org/esr/writings/taoup/html/graphics/taoup.pdf): Erklärt, warum Unix so ist, wie es ist
+- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/): Sehr bekanntes Werk über open source
+- [The Unix Koans of Master Foo](http://www.catb.org/~esr/writings/unix-koans/): Kurzgeschichten
+- [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
