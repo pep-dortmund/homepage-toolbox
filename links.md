@@ -66,6 +66,7 @@ title: Linksammlung
 ## LaTeX
 
 - TeXBook von Don Knuth: Das Buch über TeX
+- [How to Typeset Equations in LaTeX](http://moser-isi.ethz.ch/docs/typeset_equations.pdf): Gute Einführung in IEEEeqnarray (mächtigere Alternative zu den amsmath-Umgebungen)
 - [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf): Kurs von Don Knuth
 - [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)
 - [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
