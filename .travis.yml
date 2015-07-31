@@ -7,7 +7,9 @@ install:
   - pip install --user ghp-import
 script:
   - git clone --branch=hakyll-bin https://github.com/pep-dortmund/toolbox.pep-dortmund.de repo-bin
-  - ./repo-bin/site build
+  - xz -cdf repo-bin/site.xz > site
+  - chmod +x site
+  - ./site build
   - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh > /dev/null 2>&1 || true'
 notifications:
   email: false
