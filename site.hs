@@ -6,10 +6,6 @@ import Data.Monoid (mconcat)
 import Hakyll
 
 main = hakyllWith defaultConfiguration $ do
-  match "CNAME" $ do
-    route idRoute
-    compile copyFileCompiler
-
   match "img/*" $ do
     route   idRoute
     compile copyFileCompiler
