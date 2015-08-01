@@ -62,6 +62,8 @@ title: Linksammlung
 ## Make
 
 - [Make Documentation](https://www.gnu.org/software/make/manual/make.html)
+- [Recursive Make Considered Harmful](http://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=6C8DF5B6B13CBFD5FCFCD59C2B8703B6?doi=10.1.1.20.2572&rep=rep1&type=pdf): Berühmtes Paper zu einem verbreiteten Problem
+- [Make](http://www.ploxiln.net/make.html): Gute Einführung in gut-strukturierte Makefiles
 
 ## LaTeX
 
