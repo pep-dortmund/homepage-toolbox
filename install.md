@@ -159,7 +159,7 @@ Es kann so überprüft werden, ob die Tools vorhanden sind:
 ```
 $ gcc
 ```
-Wenn alles in Ordnung ist, solltet ein Fehler erscheinen ;-)
+Wenn alles in Ordnung ist, sollte ein Fehler erscheinen ;-)
 ```
 clang: error: no input files
 $
