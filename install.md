@@ -225,30 +225,9 @@ Manche Befehle brauchen unter Umständen vorne ein `sudo`.
 
 Nach der Installation muss man einen neuen Terminal öffnen, damit Anaconda gefunden wird.
 
-#### Arch Linux (optionale Alternative)
-
-    (sudo) pacman -S python python-numpy python-scipy python-matplotlib python-sympy ipython python-twisted python-pyqt4 python-sip python-pygments python-pyzmq python-tornado python-jinja
-
 ### Uncertainties
 
     pip install uncertainties
-
-#### Arch Linux (optionale Alternative)
-
-Aus [AUR](https://wiki.archlinux.org/index.php/Arch_User_Repository)
-
-- Mit [`yaourt`](https://wiki.archlinux.org/index.php/Yaourt):
-
-        yaourt -S python-uncertainties
-
-- Manuell:
-
-        wget https://aur.archlinux.org/packages/py/python-uncertainties/python-uncertainties.tar.gz
-        tar xfvz python-uncertainties.tar.gz
-        cd python-uncertainties
-        makepkg -si
-        cd ..
-        rm -rf python-uncertainties
 
 ### Make
 
