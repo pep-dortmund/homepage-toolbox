@@ -5,15 +5,16 @@ title: Installation
 <span style="color: red; font-size: xx-large;">Die Installationsanleitung wurde noch nicht für 2015 aktualisiert.</span>
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
+Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
 
 Für OS X und Linux sind Konsole und Terminal gleichbedeutend, für Windows nicht.
 
-__Es sollten alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
+__Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
 Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive/MacTeX optional.
 Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Notepad++ (oder einen anderen Texteditor) und TeXLive/MacTeX installieren.
+Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und Atom (oder einen anderen Texteditor) und TeXLive/MacTeX installieren.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 1. Installieren
@@ -25,121 +26,158 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 ## <a id="windows"></a>Windows
 
-Getestet auf Windows 7, funktioniert wahrscheinlich auch für Vista und 8.
+Getestet auf Windows 7, funktioniert wahrscheinlich auch für 8 und 10.
 
 <span style="font-size: large;">[Dateiendungen einschalten!](https://support.microsoft.com/kb/865219/de)</span>
 
-<span style="color: red; font-size: xx-large;">Die angegebenen Installationspfade nutzen! (C:\\Toolbox\\…)</span>
+### Sumatra PDF
 
-Nach jedem Installationsschritt sollte ein neues Terminal geöffnet werden (falls eins gebraucht wird).
+- [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html): PDF-Betrachter
+
+Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
+
+Unter Options kann er als Standard-Programm für PDFs eingestellt werden:  
+![](img/sumatra.png)
+
+### Atom
+
+- [Atom](https://atom.io/): Texteditor
+
+Hier sind Einstellungen weder nötig noch möglich.
 
 ### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
-    - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86.exe)
-    - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Windows-x86_64.exe)
 
-Für alle Nutzer installieren:  
-![](img/anaconda1.png)
+[Hier](https://repo.continuum.io/archive/index.html) die neueste (unten auf der Seite) Version aussuchen.
+Richtig ist `Anaconda3-*-Windows-x86_64.exe` für 64-bit und `Anaconda3-*-Windows-x86.exe` für 32-bit.
+__Wichtig__: `Anaconda3` und nicht nur `Anaconda` auswählen (wir wollen Python 3).
 
-Auf den Pfad achten:  
-![](img/anaconda2.png)
+Die Standardeinstellung ist ok:  
+![](img/anaconda-1.png)
 
-So ist die Verwendung am bequemsten:  
-![](img/anaconda3.png)
+Der Standardpfad ist ok:  
+![](img/anaconda-2.png)
 
-### Notepad++
+So ist die Verwendung am bequemsten (auch die Standardeinstellungen):  
+![](img/anaconda-3.png)
 
-- [Notepad++](http://notepad-plus-plus.org/download/): Texteditor
-    - [Version 6.6.9](http://download.tuxfamily.org/notepadplus/6.6.9/npp.6.6.9.Installer.exe)
+### ConEmu
 
-Auf den Pfad achten:  
-![](img/notepadpp.png)
+- [ConEmu](https://github.com/Maximus5/ConEmu/releases): Mächtiger Ersatz für die Windows-Konsole
 
-### Git Bash
+Richtig ist die Datei `ConEmuSetup.*.exe`.
 
-- [Git Bash](http://git-scm.com/download/win): Versionskontrolle und Unix-Kommandozeile
-    - [Version 1.9.4](https://github.com/msysgit/msysgit/releases/download/Git-1.9.4-preview20140815/Git-1.9.4-preview20140815.exe)
+Hier `x64` für 64-bit oder `x86` für 32-bit auswählen:  
+![](img/conemu-1.png)
 
-Auf den Pfad achten:  
-![](img/git1.png)
+Die Standardeinstellungen sind ok:  
+![](img/conemu-2.png)
 
-Da wir in der Konsole arbeiten werden, ist es eine gute Idee, schönere Fonts dafür einstellen zu lassen (letzter Punkt):  
-![](img/git2.png)
+Einmal ConEmu (vom Desktop oder aus dem Startmenü) starten und die Standardeinstellungen absegnen:  
+![](img/conemu-3.png)
 
-So bleibt das System schön sauber:  
-![](img/git3.png)
+### Git
+
+- [Git](http://git-scm.com/download/win): Versionskontrolle
+
+Der Standardpfad ist ok:  
+![](img/git-1.png)
+
+Hier "Git Bash Here" und "Associate .sh files to be run with Bash" abwählen:  
+![](img/git-2.png)
+
+So ist git bequem nutzbar:  
+![](img/git-3.png)
 
 Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder Linux verwenden:  
-![](img/git4.png)
+![](img/git-4.png)
 
-### Terminal
+Damit Python auch funktioniert:  
+![](img/git-5.png)
 
-Die Windows-Konsole und Git Bash können geöffnet werden, indem man mit der rechten Maustaste auf eine leere Stelle des Desktops oder eines Explorer-Fensters klickt (für die Windows-Konsole dabei Shift gedrückt halten), dann erscheint ein ähnliches Menü:  
-![](img/menu.png)  
-Die Windows-Konsole befindet sich neben dem Punkt "Einfügen".
+### Unix-Kommandozeilentools und Make
 
-Im folgenden (z.B. im Abschnitt [Testen](#test)) wird Git Bash als Terminal bezeichnet.
+- [MSys2](https://msys2.github.io/): Unix-Kommandozeilentools und Make
 
-Eine Administrator-Konsole bekommt man so: Start → `cmd.exe` eingeben → Rechtsklick → Als Administrator ausführen
+`x86_64` ist für 64-bit, `i686` für 32-bit.
+Nicht von "Download"-Knöpfen verwirren lassen, Ab-Blocker wird empfohlen.
+
+Der Standardpfad ist ok:  
+![](img/msys2-1.png)
+
+Das geöffnete schwarze Fenster kann man einfach schließen.
+
+ConEmu starten und über die drei Balken in der rechten oberen Ecke das Einstellungsfenster öffnen:  
+![](img/msys-2.png)
+
+Unter "Startup" / "Specified named task" `{Bash::Msys2-*}` auswählen:  
+![](img/msys2-3.png)
+
+Unter "Integration" die obere Hälfte in die angezeigte Form bearbeiten und dann "Register" drücken (dabei den Eintragsnamen angeben, den man im letzten Schritt ausgewählt hat (für 32-bit)) (gegebenenfalls `Program Files` durch `Programme` oder ähnliches ersetzen):  
+![](img/msys2-4.png)
+
+Mit "Save settings" unten das Fenster schließen und auch das Hauptfenster schließen.
+
+Jetzt sollte über Rechtsklick auf eine leere Stelle des Desktops oder eines Explorer-Fensters der Eintrag "Bash Here" ConEmu öffnen:  
+![](img/msys2-5.png)
+
+Ab jetzt ist mit Terminal genau das gemeint.
+
+Jetzt kann Make installiert werden.
+Zuerst wird der Paketmanager aktualisiert.
+Im geöffneten Terminal eingeben (Rechstklick auf das Terminal zum Einfügen von kopiertem Text):
+
+    pacman -Sy
+    pacman --needed -S bash pacman pacman-mirrors msys2-runtime
+
+Jetzt das Terminal neustarten:
+
+    update-core
+
+Falls weitere Pakete aktualisiert wurden, nochmal das Terminal neustarten.
+Jetzt werden alle installierten Pakete aktualisiert:
+
+    pacman -Su
+
+Make installieren:
+
+    pacman -S man-db make
+
+Eine Windows-Konsole kann man über ConEmu öffnen:  
+![](img/msys2-6.png)
 
 ### Git-Einstellung
 
 Im Terminal (auf Anführungszeichen achten):
 
-    git config --global core.editor "'C:/Toolbox/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"
+    git config --global core.editor "atom --wait"
 
 ### Uncertainties
 
 - [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
-- `pip install uncertainties` im Terminal eingeben
 
-### Make
+Im Terminal eingeben
 
-- [Make](https://www.gnu.org/software/make/): automatisiert Abläufe
-    - [Version 3.81](http://gnuwin32.sourceforge.net/downlinks/make.php)
-
-Auf den Pfad achten:  
-![](img/make.png)
-
-Nach der Installation muss der Pfad in der die `make.exe` liegt (C:\\Toolbox\\GnuWin32\\bin) zum Path hinzugefügt werden:
-
-__Alternative 1__:
-`setx PATH "C:\Toolbox\GnuWin32\bin;%PATH%" /m` in einer Administrator-Konsole eingeben.
-
-__Alternative 2__:
-
-- Rechtsklick auf `Computer` -> `Eigenschaften` -> `Erweiterte Systemeinstellungen` -> Umgebungsvariablen
-- unter `Systemvariablen` nach `Path` suchen -> Doppelklick
-- den Make-Pfad an den Anfang der Liste setzen und mit einem ";" vom nächsten Eintrag trennen
-- Beispiel: `C:\Toolbox\GnuWin32\bin;C:\Windows\…`
+    pip install uncertainties
 
 ### TeXLive
 
 - [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/windows.html)
-    - [Version 2014](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
-    - `install-tl-windows.exe` als Administrator ausführen (mit Rechtsklick)
-    - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
+    - [Versionsunabhängiger Link (install-tl-windows.exe)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
+    - __Achtung__: während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen.
+    - Es wird empfohlen, den Virenscanner für die Dauer der Installation abzuschalten, falls es zu Problemen kommt.
 
 Die einfache Installation genügt:  
-![](img/texlive1.png)
+![](img/texlive-1.png)
 
-Auf den Pfad achten:  
-![](img/texlive2.png)
+Der Standardpfad ist ok:  
+![](img/texlive-2.png)
 
-Die Standardeinstellungen sind ok:  
-![](img/texlive3.png)
-
-### ConEmu (optional, für erfahrere Nutzer)
-
-Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht. Deutlich besser geht dies mit ConEmu.
-
-- [ConEmu](https://code.google.com/p/conemu-maximus5/): deutlich bessere Konsole für Windows
-    - [Version 140814](http://www.fosshub.com/download/ConEmuSetup.140814.exe)
-    - [ConEmu mit Git Bash im Kontext-Menü](http://superuser.com/a/454381)
+Wir brauchen TeXworks nicht:  
+![](img/texlive-3.png)
 
 ## <a id="osx"></a>OS X
-
 
 ### Terminal
 
@@ -149,108 +187,81 @@ Die Windows-Konsole hat einige einschränkungen, vor Allem was Copy+Paste angeht
 
 ### XCode Tools
 
-Die Installation von XCode erfolgt über den AppStore.
-
+Die Installation von XCode erfolgt über den AppStore:  
 ![](img/osx-appstore.png)
 
 Mit XCode sollten die Commandlinetools mit installiert worden sein.
-Insbesondere sind darin **Git** und **make** enthalten.
-Es kann so überprüft werden, ob die Tools vorhanden sind:
-```
-$ gcc
-```
-Wenn alles in Ordnung ist, sollte ein Fehler erscheinen ;-)
-```
-clang: error: no input files
-$
-```
+Insbesondere sind darin `git` und `make` enthalten.
 
 ### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
-    - Download Anaconda3 [Version 2.0.1 (OS X ≥ 10.7)](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-MacOSX-x86_64.pkg) (beinhaltet python3, etc.)
-    - Paket installieren
+
+[Hier](https://repo.continuum.io/archive/index.html) die neueste (unten auf der Seite) Version aussuchen.
+Richtig ist `Anaconda3-*-MacOSX-x86_64.pkg`.
+__Wichtig__: `Anaconda3` und nicht nur `Anaconda` auswählen (wir wollen Python 3).
+Das Paket installieren.
 
 ### Uncertainties
 
 - [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
-- `pip install uncertainties` im Terminal eingeben
+
+Im terminal:
+
+    pip install uncertainties
 
 ### MacTeX
 
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
-- MacTeX.pkg [herunterladen](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) und das Paket installieren
 
-### Sublime Text (optional)
-
-- [Sublime Text](http://www.sublimetext.com/3) ist ein leichter Texteditor, der durch viele Pakete erweitert werden kann
-- Download @ [sublimetext.com](http://c758482.r82.cf2.rackcdn.com/Sublime%20Text%20Build%203065.dmg)
-  - Nach dem Download die `.dmg` einbinden und die App installieren
-- **Hinweis:** es handelt sich bei diesem Editor um proprietäre Software
+[MacTeX.pkg](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) herunterladen und das Paket installieren.
 
 ## <a id="linux"></a>Linux
 
-Manche Befehle brauchen unter Umständen vorne ein `sudo`.
-
-### Git
+### Git und Make
 
 - Debian, Ubuntu, Mint:
 
-        (sudo) apt-get install git
+        sudo apt-get install git make
 
 - Fedora:
 
-        (sudo) yum install git-core
+        sudo yum install git-core make
 
 - OpenSUSE:
 
-        (sudo) zypper in git
+        sudo zypper in git make
 
 - Arch Linux:
 
-        (sudo) pacman -S git
+        sudo pacman -S git make
 
-### Python
+### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
-    - [Version 2.0.1, 32-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86.sh)
-    - [Version 2.0.1, 64-bit](http://repo.continuum.io/anaconda3/Anaconda3-2.0.1-Linux-x86_64.sh)
-- Im Terminal:
 
-        bash Anaconda3-2.0.1-Linux-x86_64.sh
-        <Enter>
-        yes
-        ~/.local/anaconda3
-        yes
+[Hier](https://repo.continuum.io/archive/index.html) die neueste (unten auf der Seite) Version aussuchen.
+Richtig ist `Anaconda3-*-Linux-x86_64.sh` für 64-bit und `Anaconda3-*-Linux-x86.sh` für 32-bit.
+__Wichtig__: `Anaconda3` und nicht nur `Anaconda` auswählen (wir wollen Python 3).
 
-Nach der Installation muss man einen neuen Terminal öffnen, damit Anaconda gefunden wird.
+Im Terminal:
+
+    bash Anaconda3-*-Linux-*.sh
+    <Enter>
+    yes
+    ~/.local/anaconda3
+    yes
+
+Nach der Installation muss man ein neues Terminal öffnen, damit Anaconda gefunden wird.
 
 ### Uncertainties
 
     pip install uncertainties
 
-### Make
-
-- Debian, Ubuntu, Mint:
-
-        (sudo) apt-get install make
-
-- Fedora:
-
-        (sudo) yum install make
-
-- OpenSUSE:
-
-        (sudo) zypper in make
-
-- Arch Linux:
-
-        (sudo) pacman -S make
-
 ### TeXLive
 
 - [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/quickinstall.html)
-    - [Version 2014](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
+    - [Versionsunabhängiger Link (install-tl-unx.tar.gz)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
     - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
 
 Im Terminal:
@@ -258,7 +269,7 @@ Im Terminal:
     tar xvzf install-tl-unx.tar.gz
     TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
     I
-    echo export PATH=\"$(echo ~/.local/texlive/2014/bin/*):\$PATH\" >> ~/.bashrc
+    echo export PATH=\"$(echo ~/.local/texlive/*/bin/*):\$PATH\" >> ~/.bashrc
 
 ## <a id="test"></a>Testen
 
@@ -266,61 +277,74 @@ Im Terminal:
 
 Im Terminal:
 
-- `git`
-- es sollte die Git-Hilfe erscheinen
+    git
+
+Es sollte die Git-Hilfe erscheinen.
 
 Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
 
-- `git config --global user.name "Max Mustermann"`
-- `git config --global user.email "max.mustermann@udo.edu"`
+    git config --global user.name "Max Mustermann"
+    git config --global user.email "max.mustermann@udo.edu"
+    git config --global pull.rebase true
+    git config --global rebase.stat true
+    git config --global merge.conflictstyle diff3
 
 ### Python
 
 Im Terminal:
 
-- `ipython`
-- `%matplotlib`
-- `import matplotlib.pyplot as plt`
-- `plt.plot([1, 2, 4])`
-- es sollte ein Fenster mit einem Plot erscheinen
+    ipython
+    %matplotlib
+    import matplotlib.pyplot as plt
+    plt.plot([1, 2, 4])
+
+Es sollte ein Fenster mit einem Plot erscheinen.
 
 ### Uncertainties
 
 Im Terminal:
 
-- `ipython`
-- `import uncertainties`
-- es sollte keine Fehlermeldung erscheinen
+    ipython
+    import uncertainties
+
+Es sollte keine Fehlermeldung erscheinen.
 
 ### Make
 
 Im Terminal:
 
-- `make`
-- es sollte folgende Ausgabe erscheinen:
+    make
 
-        make: *** No targets specified and no makefile found.  Stop.
+Es sollte folgende Ausgabe erscheinen:
+
+    make: *** No targets specified and no makefile found.  Stop.
 
 ### TeX
 
 Im Terminal:
 
-- `luatex` (mit Strg-C beenden)
-- es sollte folgende Ausgabe erscheinen:
+    luatex
 
-        This is LuaTeX, Version beta-0.79.1 (TeX Live 2014) (rev 4971)
-         restricted \write18 enabled.
-        **
+Es sollte folgende Ausgabe erscheinen:
 
-- `biber`
-- es sollte die Biber-Hilfe erscheinen
-- `texdoc texlive`
-- es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Viewer)
+    This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)
+     restricted \write18 enabled.
+    **
+
+Mit Strg-C beenden.
+
+    biber
+
+Es sollte die Biber-Hilfe erscheinen.
+
+    texdoc texlive
+
+Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
 TeXLive einstellen: in der Konsole:
 
-- `tlmgr option autobackup -- -1`
-- `tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet`
+    tlmgr option autobackup -- -1
+    tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
@@ -328,17 +352,26 @@ TeXLive einstellen: in der Konsole:
 
 Im Terminal:
 
-- `conda update conda`
-- `conda update anaconda`
+    conda update anaconda
+
+### Unix-Tools und Make (Windows)
+
+Im Terminal:
+
+    update-core
+
+Falls Pakete aktualisiert wurden, Terminal neustarten.
+
+    pacman -Su
 
 ### Uncertainties
 
 Im Terminal:
 
-- `pip install -U uncertainties`
+    pip install -U uncertainties
 
 ### TeXLive
 
 In der Konsole:
 
-- `tlmgr update --self --all`
+    tlmgr update --self --all
