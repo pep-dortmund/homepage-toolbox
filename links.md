@@ -44,6 +44,7 @@ title: Linksammlung
 - [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html): Wenn man googelt, landet man häufig hier
 - [To understand the command line…](http://geekblog.oneandoneis2.org/index.php/2012/09/30/to-understand-the-command-line): Über die Logik der Shell
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line): Liste von Dingen, die man können sollte
+- [Learn Enough Command Line to Be Dangerous](http://www.learnenough.com/command-line): Einführung in die Kommandozeile
 - Bash Materialien:
     - [Einführung in Bash-Programmierung](http://mywiki.wooledge.org/BashGuide)
     - [Bash-Fallen](http://mywiki.wooledge.org/BashPitfalls)
