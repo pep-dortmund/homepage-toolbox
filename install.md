@@ -47,11 +47,9 @@ Hier sind Einstellungen weder nötig noch möglich.
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
+- [Anaconda](http://www.continuum.io/downloads#_windows): Python und Bibliotheken
 
-[Hier](https://repo.continuum.io/archive/index.html) die neueste (unten auf der Seite) Version aussuchen.
-Richtig ist `Anaconda3-*-Windows-x86_64.exe` für 64-bit und `Anaconda3-*-Windows-x86.exe` für 32-bit.
-__Wichtig__: `Anaconda3` und nicht nur `Anaconda` auswählen (wir wollen Python 3).
+__Wichtig__: Wir wollen Python 3 (rechte Seite).
 
 Die Standardeinstellung ist ok:  
 ![](img/anaconda-1.png)
@@ -195,11 +193,9 @@ Insbesondere sind darin `git` und `make` enthalten.
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
+- [Anaconda](http://www.continuum.io/downloads#_macosx): Python und Bibliotheken
 
-[Hier](https://repo.continuum.io/archive/index.html) die neueste (unten auf der Seite) Version aussuchen.
-Richtig ist `Anaconda3-*-MacOSX-x86_64.pkg`.
-__Wichtig__: `Anaconda3` und nicht nur `Anaconda` auswählen (wir wollen Python 3).
+__Wichtig__: Wir wollen Python 3 (rechte Seite).
 Das Paket installieren.
 
 ### Uncertainties
@@ -238,11 +234,9 @@ Im terminal:
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads): Python und Bibliotheken
+- [Anaconda](http://www.continuum.io/downloads#_unix): Python und Bibliotheken
 
-[Hier](https://repo.continuum.io/archive/index.html) die neueste (unten auf der Seite) Version aussuchen.
-Richtig ist `Anaconda3-*-Linux-x86_64.sh` für 64-bit und `Anaconda3-*-Linux-x86.sh` für 32-bit.
-__Wichtig__: `Anaconda3` und nicht nur `Anaconda` auswählen (wir wollen Python 3).
+__Wichtig__: Wir wollen Python 3 (rechte Seite).
 
 Im Terminal:
 
