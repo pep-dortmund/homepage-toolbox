@@ -68,31 +68,31 @@ Füllt bitte den Feedback-Bogen aus.
   <tr>
   <td>Mo, 5.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Python, numpy, scipy</td>
   </tr>
   <tr>
   <td>Di, 6.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>matplotlib, uncertainties</td>
   </tr>
   <tr>
   <td>Mi, 7.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Unix, make</td>
   </tr>
   <tr>
   <td>Do, 8.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Versionskontrolle mit git</td>
   </tr>
   <tr>
   <td>Fr, 9.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Übungen</td>
   </tr>
   <tr>
@@ -104,31 +104,31 @@ Füllt bitte den Feedback-Bogen aus.
   <tr>
   <td>Mo, 12.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di, 13.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi, 14.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do, 15.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Nützliche Tipps und Ausblick</td>
   </tr>
   <tr>
   <td>Fr, 16.10.2015</td>
   <td>13–17 Uhr</td>
-  <td>???</td>
+  <td>Chemie HS 2</td>
   <td>Übungen</td>
   </tr>
 </tbody>
