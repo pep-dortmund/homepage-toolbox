@@ -25,7 +25,7 @@ Es kann also auch nur einer der beiden Kurse besucht werden.
 
 Bitte beachtet die folgenden Schritte:
 
-- Die Software vorher [installieren](install.html) (Aktualisierung der Anleitung abwarten)
+- Die Software vorher [installieren](install.html)
     - Bei Problemen können wir gerne per [Mail](about.html) oder persönlich helfen
 - Einen Laptop mitbringen
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)

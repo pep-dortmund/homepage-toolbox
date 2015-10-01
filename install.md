@@ -2,8 +2,6 @@
 title: Installation
 ---
 
-<span style="color: red; font-size: xx-large;">Die Installationsanleitung wurde noch nicht für 2015 aktualisiert.</span>
-
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
 
