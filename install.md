@@ -198,6 +198,15 @@ Insbesondere sind darin `git` und `make` enthalten.
 __Wichtig__: Wir wollen Python 3 (rechte Seite).
 Das Paket installieren.
 
+### Atom
+
+- [Atom](https://atom.io/): Texteditor. 'Download for Mac' wählen und die Heruntergeladene Datei öffnen. Die `Atom.app` wird dann extrahiert und muss nach `Programme` verschoben werden.
+Zum Test einmal die App öffnen.
+
+Um git beizubringen, Atom zu benutzen, Im terminal:
+
+    git config --global core.editor "atom --wait"
+
 ### Uncertainties
 
 - [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
@@ -210,7 +219,7 @@ Im terminal:
 
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
 
-[MacTeX.pkg](http://mirror.ctan.org/systems/mac/mactex/MacTeX.pkg) herunterladen und das Paket installieren.
+[MacTeX.pkg](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen und das Paket installieren.
 
 ## <a id="linux"></a>Linux
 
