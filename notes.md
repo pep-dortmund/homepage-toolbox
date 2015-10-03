@@ -10,11 +10,11 @@ Das Material von 2015 wird parallel zum Kurs veröffentlicht.
 
 - Tag 1
     - Intro-Folien <!--[Intro-Folien](files/archive/2015/intro.pdf)-->
-    - Python <!--[Python](files/archive/2015/Python.html)-->
-    - Scientific Python <!--[Scientific Python](files/archive/2015/ScientificPython.html)-->
+    - Python <!--[Python](files/archive/2015/python.html)-->
+    - Scientific Python <!--[Scientific Python](files/archive/2015/scientific-python.html)-->
     - Aufgaben <!--[Aufgaben](files/archive/2015/exercises-toolbox-1.zip)-->
 - Tag 2
-    - matplotlib <!--[matplotlib](files/archive/2015/Matplotlib.html)-->
+    - matplotlib <!--[matplotlib](files/archive/2015/matplotlib.html)-->
     - uncertainties <!--[uncertainties](files/archive/2015/uncertainties.html)-->
     - Aufgaben <!--[Aufgaben](files/archive/2015/exercises-toolbox-2.zip)-->
 - Tag 3
