@@ -173,6 +173,8 @@ Der Standardpfad ist ok:
 Wir brauchen TeXworks nicht:  
 ![](img/texlive-3.png)
 
+__Jetzt noch die Installation [testen](#test)!__
+
 ## <a id="osx"></a>OS X
 
 ### Terminal
@@ -219,12 +221,15 @@ Im terminal:
 
 [MacTeX.pkg](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen und das Paket installieren.
 
+__Jetzt noch die Installation [testen](#test)!__
+
 ## <a id="linux"></a>Linux
 
 ### Git und Make
 
 - Debian, Ubuntu, Mint:
 
+        sudo apt-get update
         sudo apt-get install git make
 
 - Fedora:
@@ -271,6 +276,8 @@ Im Terminal:
     TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
     I
     echo export PATH=\"$(echo ~/.local/texlive/*/bin/*):\$PATH\" >> ~/.bashrc
+
+__Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
