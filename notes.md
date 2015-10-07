@@ -15,17 +15,17 @@ Das Material von 2015 wird parallel zum Kurs veröffentlicht.
     - [Aufgaben](files/archive/2015/exercises-toolbox-1.zip)
 - Tag 2
     - [matplotlib](files/archive/2015/matplotlib.html)
-    - [uncertainties](files/archive/2015/uncertainties.html)
     - [Aufgaben](files/archive/2015/exercises-toolbox-2.zip)
 - Tag 3
-    - Unix <!--[Unix](files/archive/2015/unix.pdf)-->
-    - Make <!--[make](files/archive/2015/make.pdf)-->
+    - [uncertainties](files/archive/2015/uncertainties.html)
+    - [Unix](files/archive/2015/unix.pdf)
     - [Aufgabe](files/archive/2015/exercises-toolbox-3.zip)
 - Tag 4
+    - Make <!--[make](files/archive/2015/make.pdf)-->
+    - [Aufgaben](files/archive/2015/exercises-toolbox-5.zip)
+- Tag 5
     - git <!--[git](files/archive/2015/git.pdf)-->
     - [Aufgabe](files/archive/2015/exercises-toolbox-4.zip)
-- Tag 5
-    - [Aufgaben](files/archive/2015/exercises-toolbox-5.zip)
 
 ### LaTeX
 

@@ -77,25 +77,25 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
   <td>Di, 6.10.2015</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
-  <td>matplotlib, uncertainties</td>
+  <td>matplotlib</td>
   </tr>
   <tr>
   <td>Mi, 7.10.2015</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
-  <td>Unix, make</td>
+  <td>uncertainties, Unix</td>
   </tr>
   <tr>
   <td>Do, 8.10.2015</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
-  <td>Versionskontrolle mit git</td>
+  <td>Make, Übungen</td>
   </tr>
   <tr>
   <td>Fr, 9.10.2015</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
-  <td>Übungen</td>
+  <td>Versionskontrolle mit git</td>
   </tr>
   <tr>
   <td></td>
