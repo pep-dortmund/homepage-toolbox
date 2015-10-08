@@ -43,6 +43,16 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 
 Hier sind Einstellungen weder nötig noch möglich.
 
+- Mit der deutschen Tastatur ist die Eingabe von einigen Sonderzeichen
+nicht möglich (z. B. `\`), um dies zu lösen müssen folgende Änderungen nötig:
+	- öffnet mit `File → Open your Keymap` eure Tastatureinstellungen
+	- fügt ganz unten diese Zeilen hinzu:
+	```{cson}
+	'.platform-win32 .editor':
+	  'ctrl-alt-[': 'unset!'
+	  'ctrl-alt-q': 'unset!'
+	```
+
 ### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads#_windows): Python und Bibliotheken
