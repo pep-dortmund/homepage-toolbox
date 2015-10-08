@@ -41,8 +41,6 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 
 - [Atom](https://atom.io/): Texteditor
 
-Hier sind Einstellungen weder nötig noch möglich.
-
 - Mit der deutschen Tastatur ist die Eingabe von einigen Sonderzeichen
 nicht möglich (z. B. `\`), um dies zu lösen müssen folgende Änderungen nötig:
 	- öffnet mit `File → Open your Keymap` eure Tastatureinstellungen
