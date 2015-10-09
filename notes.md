@@ -24,7 +24,7 @@ Das Material von 2015 wird parallel zum Kurs veröffentlicht.
     - [make](files/archive/2015/make.pdf)
     - [Aufgaben](files/archive/2015/exercises-toolbox-5.zip)
 - Tag 5
-    - git <!--[git](files/archive/2015/git.pdf)-->
+    - [git](files/archive/2015/git.pdf)
     - [Aufgabe](files/archive/2015/exercises-toolbox-4.zip)
 
 ### LaTeX
