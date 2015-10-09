@@ -155,7 +155,7 @@ Eine Windows-Konsole kann man über ConEmu öffnen:
 
 Im Terminal (auf Anführungszeichen achten):
 
-    git config --global core.editor "atom --wait"
+    git config --global core.editor "'atom --wait'"
 
 ### Uncertainties
 
@@ -213,7 +213,7 @@ Zum Test einmal die App öffnen.
 
 Um git beizubringen, Atom zu benutzen, Im terminal:
 
-    git config --global core.editor "atom --wait"
+    git config --global core.editor "'atom --wait'"
 
 ### Uncertainties
 
