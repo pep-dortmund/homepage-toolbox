@@ -29,10 +29,10 @@ Das Material von 2015 wird parallel zum Kurs veröffentlicht.
 
 ### LaTeX
 
-- Folien <!--[Folien](files/archive/2015/latex.pdf)-->
+- [Folien](files/archive/2015/latex.pdf)
 - LaTeX-Vorlage für Protokolle <!--[LaTeX-Vorlage für Protokolle](files/archive/2015/latex-template.zip)-->
 - Tag 1
-    - Aufgaben <!--[Aufgaben](files/archive/2015/exercises-latex-1.zip)-->
+    - [Aufgaben](files/archive/2015/exercises-latex-1.zip)
 - Tag 2
     - Aufgaben <!--[Aufgaben](files/archive/2015/exercises-latex-2.zip)-->
 - Tag 3
