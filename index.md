@@ -50,9 +50,7 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1fuD11Kumx0yZ2B6OEtLBU9LerMROqN9FJS4y-kIUqR4/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<!--
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1fyXsoQ5ZtEujbtzVxcu5ydZqW3-zotNKyOv0PQedntY/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
--->
 </div>
 
 ## Ablaufplan
