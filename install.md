@@ -40,16 +40,13 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 ### Atom
 
 - [Atom](https://atom.io/): Texteditor
-
-- Mit der deutschen Tastatur ist die Eingabe von einigen Sonderzeichen
-nicht möglich (z. B. `\`), um dies zu lösen müssen folgende Änderungen nötig:
-	- öffnet mit `File → Open your Keymap` eure Tastatureinstellungen
-	- fügt ganz unten diese Zeilen hinzu:
-	```{cson}
-	'.platform-win32 .editor':
-	  'ctrl-alt-[': 'unset!'
-	  'ctrl-alt-q': 'unset!'
-	```
+- Um Probleme mit dem deutschen Tastaturlayout zu vermeiden, muss noch das Plugin 'keyboard-localization' installiert werden
+  - Klicke auf Edit -> Preferences
+  - Wähle 'Install' in der Leiste aus
+  - Suche nach dem Paket 'keyboard-localization'
+  - Installiere es mit einem Klick auf 'Install'
+- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin 'language-latex' installiert werden
+  - Dazu wie oben verfahren
 
 ### Anaconda
 
@@ -214,6 +211,11 @@ Zum Test einmal die App öffnen.
 Um git beizubringen, Atom zu benutzen, Im terminal:
 
     git config --global core.editor "atom --wait"
+
+- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin 'language-latex' installiert werden
+ - Dazu in den Einstellungen (Unter Edit -> Preferences) auf 'Install' klicken
+ - Nach 'language-latex' suchen
+ - Auf 'Install' klicken
 
 ### Uncertainties
 
