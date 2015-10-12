@@ -41,12 +41,12 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 
 - [Atom](https://atom.io/): Texteditor
 - Um Probleme mit dem deutschen Tastaturlayout zu vermeiden, muss noch das Plugin 'keyboard-localization' installiert werden
-  - Klicke auf Edit -> Preferences
-  - Wähle 'Install' in der Leiste aus
-  - Suche nach dem Paket 'keyboard-localization'
-  - Installiere es mit einem Klick auf 'Install'
+    - Klicke auf `Edit → Preferences`
+    - Wähle `Install` in der Leiste aus
+    - Suche nach dem Paket `keyboard-localization`
+    - Installiere es mit einem Klick auf `Install`
 - Damit Atom LaTeX-Code besser darstellen kann muss das Plugin 'language-latex' installiert werden
-  - Dazu wie oben verfahren
+    - Dazu wie oben verfahren
 
 ### Anaconda
 
@@ -212,10 +212,10 @@ Um git beizubringen, Atom zu benutzen, Im terminal:
 
     git config --global core.editor "atom --wait"
 
-- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin 'language-latex' installiert werden
- - Dazu in den Einstellungen (Unter Edit -> Preferences) auf 'Install' klicken
- - Nach 'language-latex' suchen
- - Auf 'Install' klicken
+- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex` installiert werden
+    - Dazu in den Einstellungen (Unter `Edit → Preferences`) auf `Install` klicken
+    - Nach `language-latex` suchen
+    - Auf `Install` klicken
 
 ### Uncertainties
 
