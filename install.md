@@ -359,7 +359,9 @@ Es sollte die Biber-Hilfe erscheinen.
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
-TeXLive einstellen: in der Konsole:
+### TeXLive einstellen: 
+
+<span style="color: red;">Auf Windows:</span> `cmd.exe` oder ein `cmd`-Terminal in ConEmu benutzen
 
     tlmgr option autobackup -- -1
     tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
@@ -368,7 +370,7 @@ TeXLive einstellen: in der Konsole:
 
 ### Anaconda
 
-Im Terminal:
+Im Terminal (Bash):
 
     conda update anaconda
 
@@ -390,6 +392,6 @@ Im Terminal:
 
 ### TeXLive
 
-In der Konsole:
+<span style="color: red;">Auf Windows:</span> `cmd.exe` oder ein `cmd`-Terminal in ConEmu benutzen
 
-    tlmgr update --self --all
+    tlmgr update --self --all --reinstall-forcibly-removed
