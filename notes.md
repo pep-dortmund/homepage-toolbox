@@ -37,8 +37,6 @@ Das Material von 2015 wird parallel zum Kurs veröffentlicht.
     - [Aufgaben](files/archive/2015/exercises-latex-2.zip)
 - Tag 3
     - [Aufgaben](files/archive/2015/exercises-latex-3.zip)
-- Tag 4
-    - Aufgaben <!--[Aufgaben](files/archive/2015/exercises-latex-4.zip)-->
 - Tag 5
     - Aufgaben <!--[Aufgaben](files/archive/2015/exercises-latex-5.zip)-->
 

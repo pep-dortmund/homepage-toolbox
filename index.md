@@ -123,13 +123,13 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
   <td>Do, 15.10.2015</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
-  <td>Nützliche Tipps und Ausblick</td>
+  <td>Fortgeschritten</td>
   </tr>
   <tr>
   <td>Fr, 16.10.2015</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
-  <td>Übungen</td>
+  <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
 </tbody>
 </table>
