@@ -29,7 +29,7 @@ Das Material von 2015 wird parallel zum Kurs veröffentlicht.
 
 ### LaTeX
 
-- [Folien](files/archive/2015/latex.pdf) (Stand 15.10.2015)
+- [Folien](files/archive/2015/latex.pdf) (Stand 16.10.2015)
 - [LaTeX-Vorlage für Protokolle](files/archive/2015/latex-template.zip) (Stand 16.10.2015)
 - Tag 1
     - [Aufgaben](files/archive/2015/exercises-latex-1.zip)
