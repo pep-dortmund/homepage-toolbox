@@ -29,8 +29,8 @@ title: Material
 
 ### LaTeX
 
-- [Folien](files/archive/2015/latex.pdf) (Stand 17.10.2015, TEXINPUTS auf Windows)
-- [LaTeX-Vorlage für Protokolle](files/archive/2015/latex-template.zip) (Stand 17.10.2015, TEXINPUTS auf Windows)
+- [Folien](files/archive/2015/latex.pdf) (Stand 18.10.2015, TEXINPUTS auf Windows, Padding für mehrere Subplots)
+- [LaTeX-Vorlage für Protokolle](files/archive/2015/latex-template.zip) (Stand 18.10.2015, TEXINPUTS auf Windows, Padding für mehrere Subplots)
 - Tag 1
     - [Aufgaben](files/archive/2015/exercises-latex-1.zip) (Stand 17.10.2015)
 - Tag 2
@@ -38,6 +38,6 @@ title: Material
 - Tag 3
     - [Aufgaben](files/archive/2015/exercises-latex-3.zip) (Stand 17.10.2015)
 - Tag 5
-    - [Aufgaben](files/archive/2015/exercises-latex-5.zip) (Stand 17.10.2015, TEXINPUTS auf Windows)
+    - [Aufgaben](files/archive/2015/exercises-latex-5.zip) (Stand 18.10.2015, TEXINPUTS auf Windows, Padding für mehrere Subplots)
 
 Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
