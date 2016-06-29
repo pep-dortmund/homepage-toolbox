@@ -67,7 +67,7 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 
 - [Atom](https://atom.io/): Texteditor
 - Um Probleme mit dem deutschen Tastaturlayout zu vermeiden, muss noch das Plugin 'keyboard-localization' installiert werden
-    - Klicke auf `File → Preferences`
+    - Klicke auf `File → Settings`
     - Wähle `Install` in der Leiste aus
     - Suche nach dem Paket `keyboard-localization`
     - Installiere es mit einem Klick auf `Install`
@@ -128,7 +128,6 @@ Damit Python auch funktioniert:
 - [MSys2](https://msys2.github.io/): Unix-Kommandozeilentools und Make
 
 `x86_64` ist für 64-bit, `i686` für 32-bit.
-Nicht von "Download"-Knöpfen verwirren lassen, Ab-Blocker wird empfohlen.
 
 Der Standardpfad ist ok:  
 ![](img/msys2-1.png)
