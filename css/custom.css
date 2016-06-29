@@ -30,3 +30,5 @@
 .navbar-default .navbar-nav>.active>a:hover {
   background-color: #d5d5d5;
 }
+
+ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
