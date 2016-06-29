@@ -15,12 +15,38 @@ Dann kann man allerdings kein TeX in matplotlib benutzen (f√ºhrt zu weniger sch√
 Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und Atom (oder einen anderen Texteditor) und TeXLive/MacTeX installieren.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
-1. Installieren
-    - [Windows](#windows)
-    - [OS X](#osx)
-    - [Linux](#linux)
-2. [Testen](#test)
-3. [Aktualisieren](#update)
+<div class="row" style="padding: 10px">
+  <div class="col-md-4" align="center">
+  <a href="#windows" class="btn btn-primary btn-lg btn-block" role="button">
+  Windows
+  </a>
+  </div>
+  <div class="col-md-4" align="center">
+  <a href="#mac" class="btn btn-primary btn-lg btn-block" role="button">
+  MacOS
+  </a>
+  </div>
+  <div class="col-md-4" align="center">
+  <a href="#linux" class="btn btn-primary btn-lg btn-block" role="button">
+  Linux
+  </a>
+  </div>
+</div>
+<div class="row" style="padding: 10px">
+  <div class="col-md-1" align="center"></div>
+  <div class="col-md-4" align="center">
+  <a href="#test" class="btn btn-primary btn-lg btn-block" role="button">
+  Testen
+  </a>
+  </div>
+  <div class="col-md-2" align="center"></div>
+  <div class="col-md-4" align="center">
+  <a href="#update" class="btn btn-primary btn-lg btn-block" role="button">
+  Aktualisieren 
+  </a>
+  </div>
+  <div class="col-md-1" align="center"></div>
+</div>
 
 ## <a id="windows"></a>Windows
 
@@ -180,7 +206,7 @@ Wir brauchen TeXworks nicht:
 
 __Jetzt noch die Installation [testen](#test)!__
 
-## <a id="osx"></a>OS X
+## <a id="mac"></a>Mac OS
 
 ### Terminal
 
