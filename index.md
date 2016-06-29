@@ -3,11 +3,15 @@ title: PeP et al. Toolbox Workshop
 ---
 
 <p class="lead">
-Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an.
+Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an. Dieser wird in den letzten beiden Wochen der Semesterferien stattfinden.
 </p>
 
 <p class="lead">
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
+</p>
+
+<p class="lead">
+In der ersten Woche wird es um die Auswertung der Versuche mithilfe von Python gehen und um die Versioskontrolle mit Git. In der zweiten Woche findet der LaTeX Kurs statt.
 </p>
 
 Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
