@@ -1,5 +1,5 @@
 ---
-title: Startseite
+title: PeP et al. Toolbox Workshop 
 ---
 
 <p class="lead">
@@ -66,34 +66,28 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 </thead>
 <tbody>
   <tr>
-  <td>Mo, 5.10.2015</td>
+  <td>Di, 4.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
+  <td>Chemie HS 3</td>
   <td>Python, numpy, scipy</td>
   </tr>
   <tr>
-  <td>Di, 6.10.2015</td>
+  <td>Mi, 5.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
-  <td>matplotlib</td>
+  <td>Chemie HS 3</td>
+  <td>matplotlib, uncertainties</td>
   </tr>
   <tr>
-  <td>Mi, 7.10.2015</td>
+  <td>Do, 6.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
-  <td>uncertainties, Unix</td>
+  <td>Chemie HS 3</td>
+  <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Do, 8.10.2015</td>
+  <td>Fr, 7.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
-  <td>Make, Übungen</td>
-  </tr>
-  <tr>
-  <td>Fr, 9.10.2015</td>
-  <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
-  <td>Versionskontrolle mit git</td>
+  <td>Chemie HS 3</td>
+  <td>Versionskontrolle mit Git</td>
   </tr>
   <tr>
   <td></td>
@@ -102,31 +96,31 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
   <td></td>
   </tr>
   <tr>
-  <td>Mo, 12.10.2015</td>
+  <td>Mo, 10.10.2016</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 13.10.2015</td>
+  <td>Di, 11.10.2016</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 14.10.2015</td>
+  <td>Mi, 12.10.2016</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 15.10.2015</td>
+  <td>Do, 13.10.2016</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
   <td>Fortgeschritten</td>
   </tr>
   <tr>
-  <td>Fr, 16.10.2015</td>
+  <td>Fr, 14.10.2016</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 2</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
