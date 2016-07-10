@@ -209,42 +209,49 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ### Terminal
 
-- Das Terminal sollte in jeder OS X Distribution enthalten sein
+- Das Terminal ist in jeder OS X Distribution enthalten
 - Im Spotlight nach "Terminal" suchen
 - Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`
 
-### XCode Tools
+### Command Line Tools
 
-Die Installation von XCode erfolgt über den AppStore:  
-![](img/osx-appstore.png)
-
-Mit XCode sollten die Commandlinetools mit installiert worden sein.
-Insbesondere sind darin `git` und `make` enthalten.
+Die command line tools beinhalten unter anderem Git und einen C/C++ Compiler.
+Zur installation folgendes im Terminal eingeben
+```bash
+xcode-select --install
+```
+Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#_macosx): Python und Bibliotheken
+- [Anaconda](http://www.continuum.io/downloads#_macosx): Python und
+  Bibliotheken
 
-__Wichtig__: Wir wollen Python 3 (rechte Seite).
-Das Paket installieren.
+__Wichtig__: Wir wollen Python 3 (rechte Seite).  Das Paket installieren.
 
 ### Atom
 
-- [Atom](https://atom.io/): Texteditor. 'Download for Mac' wählen und die Heruntergeladene Datei öffnen. Die `Atom.app` wird dann extrahiert und muss nach `Programme` verschoben werden.
-Zum Test einmal die App öffnen.
+- [Atom](https://atom.io/): Texteditor. 'Download for Mac' wählen und die
+  Heruntergeladene Datei öffnen. Die `Atom.app` wird dann extrahiert und muss
+  nach `Programme` verschoben werden.  Zum Test einmal die App öffnen.
 
 Um git beizubringen, Atom zu benutzen, Im terminal:
 
-    git config --global core.editor "atom --wait"
+```bash
+git config --global core.editor "atom --wait"
+```
 
-- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex` installiert werden
-    - Dazu in den Einstellungen (Unter `Atom → Preferences`) auf `Install` klicken
+- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex`
+  installiert werden
+    - Dazu in den Einstellungen (Unter `Atom → Preferences`) auf `Install`
+      klicken
     - Nach `language-latex` suchen
     - Auf `Install` klicken
 
 ### Uncertainties
 
-- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
+- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek
+  für automatisierte Fehlerrechnung
 
 Im terminal:
 
@@ -254,7 +261,8 @@ Im terminal:
 
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
 
-[MacTeX.pkg](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen und das Paket installieren.
+[MacTeX.pkg](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen
+und das Paket installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
 
