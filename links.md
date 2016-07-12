@@ -7,9 +7,8 @@ title: Linksammlung
 - [Python 3 Documentation](https://docs.python.org/3/)
     - [Python Tutorial](https://docs.python.org/3/tutorial/index.html)
     - [PEP 8 – Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/): Man sollte sich angewöhnen, seinen Code nach den üblichen Regeln zu formatieren
+- [A Byte of Python](http://www.swaroopch.com/notes/python/): Kostenloses Buch über Python
 - [Dive Into Python 3](http://www.diveintopython3.net/): Kostenloses Buch über Python 3
-- [Learn Python The Hard Way](http://learnpythonthehardway.org/): Kostenloses Buch über Python 2(!)
-- [A Byte of Python](http://www.swaroopch.com/notes/python/): Kostenloses Buch über Python 2(!)
 
 ## Python-Bibliotheken
 
