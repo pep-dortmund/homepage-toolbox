@@ -287,6 +287,21 @@ __Jetzt noch die Installation [testen](#test)!__
 
         sudo pacman -S git make
 
+### Atom
+
+- Debian, Ubuntu, Mint:
+  - Download der .deb Datei hier: [http://atom.io](http://atom.io)
+  - installieren mit `sudo apt-get install /path/to/atom-amd64.deb`
+  - Hinweis: es muss ein absoluter Pfad angegeben werden
+
+- Fedora
+  - Download der .rpm Datei hier: [http://atom.io](http://atom.io)
+  - installieren mit `rpm -i /path/to/atom.x86_64.rpm`
+
+- Arch Linux:
+  - atom gibt es im AUR, Installation mit dem Lieblings-AUR tool
+  - z. B. `yaourt -S atom-editor-bin` oder `sudo aura -A atom-editor-bin`
+
 ### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads#_unix): Python und Bibliotheken
