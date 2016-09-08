@@ -50,6 +50,9 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 ## <a id="windows"></a>Windows
 
+Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt. Das geht mit Rechtsklick 
+auf `Computer` (Windows 7) bzw. `Dieser PC` (Windows 10) und dann Eigenschaften.
+
 Getestet auf Windows 7, funktioniert wahrscheinlich auch für 8 und 10.
 
 <span style="font-size: large;">[Dateiendungen einschalten!](https://support.microsoft.com/kb/865219/de)</span>
@@ -58,10 +61,12 @@ Getestet auf Windows 7, funktioniert wahrscheinlich auch für 8 und 10.
 
 - [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html): PDF-Betrachter
 
+Für 64-Bit Systeme die Datei unter `64-bit builds` herunterladen!
+
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 
 Unter Options kann er als Standard-Programm für PDFs eingestellt werden:  
-![](img/sumatra.png)
+<img alt="" src="img/sumatra.png" style="width: 100%;" />
 
 ### Atom
 
@@ -76,18 +81,18 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#_windows): Python und Bibliotheken
+- [Anaconda](http://www.continuum.io/downloads#windows): Python und Bibliotheken
 
-__Wichtig__: Wir wollen Python 3 (rechte Seite).
+__Wichtig__: Wir wollen Python 3.5 (oben). Richtige Version (32-bit / 64-bit) auswählen.
 
 Die Standardeinstellung ist ok:  
-![](img/anaconda-1.png)
+<img alt="" src="img/anaconda-1.png" style="width: 100%;" />
 
 Der Standardpfad ist ok:  
-![](img/anaconda-2.png)
+<img alt="" src="img/anaconda-2.png" style="width: 100%;" />
 
 So ist die Verwendung am bequemsten (auch die Standardeinstellungen):  
-![](img/anaconda-3.png)
+<img alt="" src="img/anaconda-3.png" style="width: 100%;" />
 
 ### ConEmu
 
@@ -96,32 +101,35 @@ So ist die Verwendung am bequemsten (auch die Standardeinstellungen):
 Richtig ist die Datei `ConEmuSetup.*.exe`.
 
 Hier `x64` für 64-bit oder `x86` für 32-bit auswählen:  
-![](img/conemu-1.png)
+<img alt="" src="img/conemu-1.png" style="width: 100%;" />
 
 Die Standardeinstellungen sind ok:  
-![](img/conemu-2.png)
+<img alt="" src="img/conemu-2.png" style="width: 100%;" />
 
 Einmal ConEmu (vom Desktop oder aus dem Startmenü) starten und die Standardeinstellungen absegnen:  
-![](img/conemu-3.png)
+<img alt="" src="img/conemu-3.png" style="width: 100%;" />
 
 ### Git
 
 - [Git](http://git-scm.com/download/win): Versionskontrolle
 
 Der Standardpfad ist ok:  
-![](img/git-1.png)
+<img alt="" src="img/git-1.png" style="width: 100%;" />
 
 Hier "Git Bash Here" und "Associate .sh files to be run with Bash" abwählen:  
-![](img/git-2.png)
+<img alt="" src="img/git-2.png" style="width: 100%;" />
 
 So ist git bequem nutzbar:  
-![](img/git-3.png)
+<img alt="" src="img/git-3.png" style="width: 100%;" />
 
 Das ist besonders wichtig, falls man mit anderen zusammenarbeitet, die OS X oder Linux verwenden:  
-![](img/git-4.png)
+<img alt="" src="img/git-4.png" style="width: 100%;" />
 
 Damit Python auch funktioniert:  
-![](img/git-5.png)
+<img alt="" src="img/git-5.png" style="width: 100%;" />
+
+Auch hier die Standardeinstellungen übernehmen und auf `install` klicken:
+<img alt="" src="img/git-6.png" style="width: 100%;" />
 
 ### Unix-Kommandozeilentools und Make
 
@@ -130,23 +138,34 @@ Damit Python auch funktioniert:
 `x86_64` ist für 64-bit, `i686` für 32-bit.
 
 Der Standardpfad ist ok:  
-![](img/msys2-1.png)
+<img alt="" src="img/msys2-1.png" style="width: 100%;" />
 
 Das geöffnete schwarze Fenster kann man einfach schließen.
 
+Damit die installierten Programme wie Git und Python gefunden werden, muss noch eine
+Umgebungsvariable angelegt werden.
+* Rechtsklick auf `Computer` → `Eigenschaften`
+* durchklicken: `Erweiterte Systemeinstellungen` → `Umgebungsvariablen`
+* Unter `Benutzervariablen` auf `Neu` klicken
+* Name: `MSYS2_PATH_TYPE`, Wert: `inherit`
+
+<img alt="" src="img/msys2-env.png" style="width: 50%;" />
+
 ConEmu starten und über die drei Balken in der rechten oberen Ecke das Einstellungsfenster öffnen:  
-![](img/msys-2.png)
+<img alt="" src="img/msys2-2.png" style="width: 100%;" />
 
-Unter "Startup" / "Specified named task" `{Bash::Msys2-*}` auswählen:  
-![](img/msys2-3.png)
+Unter `Startup` / `Specified named task` `{Bash::Msys2-*}` (entweder 32 oder 64 statt *) auswählen:  
+<img alt="" src="img/msys2-3.png" style="width: 100%;" />
 
-Unter "Integration" die obere Hälfte in die angezeigte Form bearbeiten und dann "Register" drücken (dabei den Eintragsnamen angeben, den man im letzten Schritt ausgewählt hat (für 32-bit)) (gegebenenfalls `Program Files` durch `Programme` oder ähnliches ersetzen):  
-![](img/msys2-4.png)
+Unter "Integration" die obere Hälfte in die angezeigte Form bringen und dann "Register" drücken
+(dabei den Eintragsnamen angeben, den man im letzten Schritt ausgewählt hat (für 32-bit))
+(gegebenenfalls `Program Files` durch `Programme` oder ähnliches ersetzen):  
+<img alt="" src="img/msys-integration.png" style="width: 100%;" />
 
 Mit "Save settings" unten das Fenster schließen und auch das Hauptfenster schließen.
 
 Jetzt sollte über Rechtsklick auf eine leere Stelle des Desktops oder eines Explorer-Fensters der Eintrag "Bash Here" ConEmu öffnen:  
-![](img/msys2-5.png)
+<img alt="" src="img/msys2-5.png" style="width: 30%;" />
 
 Ab jetzt ist mit Terminal genau das gemeint.
 
@@ -154,19 +173,9 @@ Jetzt kann Make installiert werden.
 Zuerst wird der Paketmanager aktualisiert.
 Im geöffneten Terminal eingeben (Rechstklick auf das Terminal zum Einfügen von kopiertem Text):
 
-    pacman -Sy
-    pacman --needed -S bash pacman pacman-mirrors msys2-runtime
+    pacman -Syu
 
-Jetzt das Terminal neustarten:
-
-    update-core
-
-Falls weitere Pakete aktualisiert wurden, nochmal das Terminal neustarten.
-Jetzt werden alle installierten Pakete aktualisiert:
-
-    pacman -Su
-
-Make installieren:
+Hilfedateien und Make installieren:
 
     pacman -S man-db make
 
@@ -224,10 +233,10 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#_macosx): Python und
+- [Anaconda](http://www.continuum.io/downloads#osx): Python und
   Bibliotheken
 
-__Wichtig__: Wir wollen Python 3 (rechte Seite).  Das Paket installieren.
+__Wichtig__: Wir wollen Python 3.5 Graphical Installer (oben).  Das Paket installieren.
 
 ### Atom
 
@@ -304,7 +313,7 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#_unix): Python und Bibliotheken
+- [Anaconda](http://www.continuum.io/downloads#linux): Python und Bibliotheken
 
 __Wichtig__: Wir wollen Python 3 (rechte Seite).
 
