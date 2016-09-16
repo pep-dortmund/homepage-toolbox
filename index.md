@@ -71,6 +71,12 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 <tbody>
   <tr>
   <td>Di, 4.10.2016</td>
+  <td>9 Uhr</td>
+  <td>CP-03-150</td>
+  <td>Betreutes Installieren falls es Probleme gab / Umstieg auf Linux für Interessenten</td>
+  </tr>
+  <tr>
+  <td>Di, 4.10.2016</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 3</td>
   <td>Python, numpy, scipy</td>
