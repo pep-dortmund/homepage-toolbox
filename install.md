@@ -160,7 +160,7 @@ Unter `Startup` / `Specified named task` `{Bash::Msys2-*}` (entweder 32 oder 64 
 Unter "Integration" die obere Hälfte in die angezeigte Form bringen und dann "Register" drücken
 (dabei den Eintragsnamen angeben, den man im letzten Schritt ausgewählt hat (für 32-bit))
 (gegebenenfalls `Program Files` durch `Programme` oder ähnliches ersetzen):  
-<img alt="" src="img/msys-integration.png" style="width: 100%;" />
+<img alt="" src="img/msys2-integration.png" style="width: 100%;" />
 
 Mit "Save settings" unten das Fenster schließen und auch das Hauptfenster schließen.
 
