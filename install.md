@@ -435,11 +435,7 @@ Im Terminal (Bash):
 
 Im Terminal:
 
-    update-core
-
-Falls Pakete aktualisiert wurden, Terminal neustarten.
-
-    pacman -Su
+    pacman -Syu
 
 ### Uncertainties
 
