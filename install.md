@@ -418,7 +418,9 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ### TeXLive einstellen: 
 
-<span style="color: red;">Auf Windows:</span> `cmd.exe` oder ein `cmd`-Terminal in ConEmu benutzen
+<span style="color: red;">Auf Windows:</span> `cmd.exe` oder ein `cmd`-Terminal in ConEmu benutzen.
+
+<span style="color: red;">Auf Mac OSX:</span> `tlmgr` braucht root-Rechte, also ein `sudo`voranstellen.
 
     tlmgr option autobackup -- -1
     tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
