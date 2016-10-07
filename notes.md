@@ -22,3 +22,11 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
     - [Unix](files/archive/2016/unix.pdf) (Stand 6.10.2016)
     - [make](files/archive/2016/make.pdf) (Stand 6.10.2016)
     - [Aufgaben](files/archive/2016/exercises-toolbox-3.zip) (Stand 6.10.2016)
+- Tag 4
+    - [git](files/archive/2016/git.pdf) (Stand 7.10.2016)
+    - [Aufgaben](files/archive/2016/exercises-toolbox-4.zip) (Stand 7.10.2016)
+
+- Allgemeine Aufgaben:
+    - [Aufgaben](files/archive/2016/exercises-toolbox-5.zip) (Stand 7.10.2016)
+
+
