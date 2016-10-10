@@ -108,31 +108,31 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
   <tr>
   <td>Mo, 10.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
+  <td>Chemie HS 3</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di, 11.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
+  <td>Chemie HS 3</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi, 12.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
+  <td>Chemie HS 3</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do, 13.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
+  <td>Chemie HS 3</td>
   <td>Fortgeschritten</td>
   </tr>
   <tr>
   <td>Fr, 14.10.2016</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 2</td>
+  <td>Chemie HS 3</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
 </tbody>
