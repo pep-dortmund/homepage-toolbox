@@ -30,3 +30,8 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
     - [Aufgaben](files/archive/2016/exercises-toolbox-5.zip) (Stand 7.10.2016)
 
 
+### LaTeX
+
+- [Folien](files/archive/2016/latex.pdf) (Stand 10.10.2016)
+- Tag 1
+    - [Aufgaben](files/archive/2016/exercises-latex-1.zip) (Stand 10.10.2016)
