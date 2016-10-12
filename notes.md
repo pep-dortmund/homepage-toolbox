@@ -32,10 +32,12 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
 
 ### LaTeX
 
-- [Folien](files/archive/2016/latex.pdf) (Stand 10.10.2016)
+- [Folien](files/archive/2016/latex.pdf) (Stand 12.10.2016)
 - Tag 1
     - [Aufgaben](files/archive/2016/exercises-latex-1.zip) (Stand 10.10.2016)
 - Tag 2
     - [Aufgaben](files/archive/2016/exercises-latex-2.zip) (Stand 10.10.2016)
 - Tag 3
     - [Aufgaben](files/archive/2016/exercises-latex-3.zip) (Stand 11.10.2016)
+- Tag 5
+    - [Aufgaben](files/archive/2016/exercises-latex-5.zip) (Stand 11.10.2016)
