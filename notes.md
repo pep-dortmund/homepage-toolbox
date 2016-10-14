@@ -41,3 +41,5 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
     - [Aufgaben](files/archive/2016/exercises-latex-3.zip) (Stand 11.10.2016)
 - Tag 5
     - [Aufgaben](files/archive/2016/exercises-latex-5.zip) (Stand 11.10.2016)
+
+- [LaTeX-Vorlage für Protokolle](files/archive/2016/latex-template.zip) (Stand 14.10.2016)
