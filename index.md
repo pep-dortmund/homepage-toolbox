@@ -41,20 +41,20 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
 <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfpIg-QhZjlpSTqW_Q9s1v2a0ZEVc5zS0DUtUYyFYWYz8vQrQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<!-- <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1tLZZX3SszfFR0j5SLea3S5EydgRl2c7oETuB1PCufZM/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
+<a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1tLZZX3SszfFR0j5SLea3S5EydgRl2c7oETuB1PCufZM/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
 </div>
 
 
-## Umfrage
+<!-- ## Umfrage -->
 
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
-So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+<!-- Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt. -->
+<!-- Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen. -->
+<!-- So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen. -->
 
-<div class="text-center">
+<!-- <div class="text-center"> -->
 <!-- <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1EjwILEBg2srYLmK0eX4bqFGrOUbz_-OY7kZVqYqMtOg/viewform">Zur Toolbox-Umfrage (erste Woche)</a> -->
-<a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1826xTNGhO6ekyQwNEbrXPZHZlqZZ6CtJvTGHQjY_QG8/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
-</div>
+<!-- <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1826xTNGhO6ekyQwNEbrXPZHZlqZZ6CtJvTGHQjY_QG8/viewform">Zur LaTeX-Umfrage (zweite Woche)</a> -->
+<!-- </div> -->
 
 
 ## Ablaufplan
