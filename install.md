@@ -71,19 +71,17 @@ Unter Options kann er als Standard-Programm für PDFs eingestellt werden:
 ### Atom
 
 - [Atom](https://atom.io/): Texteditor
-- Um Probleme mit dem deutschen Tastaturlayout zu vermeiden, muss noch das Plugin 'keyboard-localization' installiert werden
+- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex` installiert werden
     - Klicke auf `File → Settings`
     - Wähle `Install` in der Leiste aus
-    - Suche nach dem Paket `keyboard-localization`
+    - Suche nach dem Paket `language-latex`
     - Installiere es mit einem Klick auf `Install`
-- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin 'language-latex' installiert werden
-    - Dazu wie oben verfahren
 
 ### Anaconda
 
 - [Anaconda](http://www.continuum.io/downloads#windows): Python und Bibliotheken
 
-__Wichtig__: Wir wollen Python 3.5 (oben). Richtige Version (32-bit / 64-bit) auswählen.
+__Wichtig__: Wir wollen Python 3.6 (oben). Richtige Version (32-bit / 64-bit) für `X86` auswählen.
 
 Die Standardeinstellung ist ok:  
 <img alt="" src="img/anaconda-1.png" style="width: 100%;" />
