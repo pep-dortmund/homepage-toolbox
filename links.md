@@ -57,6 +57,7 @@ title: Linksammlung
 - `man gittutorial`, `man gittutorial-2`
 - [Git Documentation](https://git-scm.com/doc)
 - [Learn Git Branching](http://learngitbranching.js.org/)
+- [Interactive Git-Visualization (Sandbox)](http://git-school.github.io/visualizing-git/#free)
 - [Pro Git](https://git-scm.com/book/en/v2): Kostenloses Buch über Git (sehr gut)
 - [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html): Interaktive Anleitung zum Korrigieren von Fehlern
 - [Git pretty](http://justinhileman.info/article/git-pretty/): Flowchart für Fehlerbehebung
