@@ -234,7 +234,7 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 - [Anaconda](http://www.continuum.io/downloads#osx): Python und
   Bibliotheken
 
-__Wichtig__: Wir wollen Python 3.5 Graphical Installer (oben).  Das Paket installieren.
+__Wichtig__: Wir wollen Python 3.6 Graphical Installer (oben).  Das Paket installieren.
 
 ### Atom
 
