@@ -1,22 +1,9 @@
-language: haskell
-sudo: false
-branches:
-  only:
-  - master
-install:
-  - pip install --user ghp-import
+language: ruby
+rvm:
+  - 2.3.2
+
 script:
-  - git clone --branch=hakyll-bin https://github.com/pep-dortmund/toolbox.pep-dortmund.de repo-bin
-  - xz -cdf repo-bin/site.xz > site
-  - chmod +x site
-  - ./site build
+  - bundle exec jekyll build
+
 after_success:
-  - openssl aes-256-cbc -K $encrypted_6a537145ae27_key -iv $encrypted_6a537145ae27_iv -in .travis/github_deploy_key.enc -out ~/.ssh/id_rsa -d
-  - chmod 600 ~/.ssh/id_rsa
-  - '[ "${TRAVIS_PULL_REQUEST}" = "false" ] && sh publish.sh'
-notifications:
-  email: false
-env:
-  global:
-    - secure: H4cVmx8HVfDRoS69Y5SxM7uCWPfB8Wz+/7Pxtn/08OzYtJJGFd+K+Dd43Y8G+MHwK221dLXNd8TOzpZCF3UyaWDaXFpGb8j4hF6gSxIyC2WVSl6/LMyJm9yT+lW0vFYM0/GVrJ9Xolxk3HZ/Mbr8PGs85FvxQL6U0SF2wL6+6Sw=
-    - secure: i93BdEnPZ8HBKWt+HwiGJi2HaqYVYl3BeL0WcU9dUCKRYxRfOE1tmHafCbch1VflDQ3e3Q+0cQYCSYB3tZggvYCcm7WLBeOJsQF2EIB0/imU746wJVJYBe4ha7z3GttTpxvpnydQAk3J2ZDEduoaVRE3D4EY8RFMJY+PrJrMyec=
+  - bash ./.deploy_site.sh
