@@ -1,0 +1,9 @@
+# Site settings
+title: PeP et al. e.V. Toolbox Workshop
+email: toolbox-pep-dortmund@googlegroups.com
+description: > # this means to ignore newlines until "baseurl:"
+  Grundlagen des wissenschaftlichen Arbeits: LaTeX, Python, Make, Git, Unix
+baseurl: '' # the subpath of your site, e.g. /blog
+# the base hostname & protocol for your site
+url: https://toolbox.pep-dortmund.org
+markdown: kramdown
