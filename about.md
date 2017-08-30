@@ -5,7 +5,7 @@ title: Über den Workshop
 <p class="lead">Im Rahmen der [PeP et al. Sommerakademie](http://pep-dortmund.org/vereinsleben/soak.html) 2012 entstand die Idee für einen Workshop um Physikstudierenden die Unix-Kommandozeile, die Versionskontrolle mit git und Python mit diversen Bibliotheken näher zu bringen.</p>
 
 Seitdem organisieren wir jährlich einen Workshop während der Sommer-Semesterferien.
-2014 fand zum ersten Mal auch der LateX-Kurs im Rahmen des Workshops statt.
+2014 fand zum ersten Mal auch der LaTeX-Kurs im Rahmen des Workshops statt.
 
 ## PeP et al. e.V.
 Der Verein versteht sich als Einrichtung für Absolventen, Studierende, Mitarbeiter sowie für Freunde und Förderer der Fakultät Physik der TU Dortmund.
