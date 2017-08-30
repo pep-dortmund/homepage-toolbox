@@ -2,44 +2,13 @@
 title: Material
 ---
 
+
+## Wintersemester 2017/18
+
+Das Material für den diesjährigen Kurs wird kurz vor oder während des
+Kurses veröffentlich.
+
+
+## Vergangene Kurse
+
 Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
-
-## Wintersemester 2016/17
-
-### Toolbox
-
-- Tag 1
-    - [Intro-Folien](files/archive/2016/intro.pdf) (Stand 4.10.2016)
-    - [Python](files/archive/2016/python.html) (Stand 4.10.2016)
-    - [Scientific Python](files/archive/2016/scientific-python.html) (Stand 4.10.2016)
-    - [Aufgaben](files/archive/2016/exercises-toolbox-1.zip) (Stand 4.10.2016)
-
-- Tag 2
-    - [matplotlib](files/archive/2016/matplotlib.html) (Stand 5.10.2016)
-    - [Aufgaben](files/archive/2016/exercises-toolbox-2.zip) (Stand 5.10.2015)
-- Tag 3
-    - [uncertainties](files/archive/2016/uncertainties.html) (Stand 6.10.2016)
-    - [Unix](files/archive/2016/unix.pdf) (Stand 6.10.2016)
-    - [make](files/archive/2016/make.pdf) (Stand 6.10.2016)
-    - [Aufgaben](files/archive/2016/exercises-toolbox-3.zip) (Stand 6.10.2016)
-- Tag 4
-    - [git](files/archive/2016/git.pdf) (Stand 7.10.2016)
-    - [Aufgaben](files/archive/2016/exercises-toolbox-4.zip) (Stand 7.10.2016)
-
-- Allgemeine Aufgaben:
-    - [Aufgaben](files/archive/2016/exercises-toolbox-5.zip) (Stand 7.10.2016)
-
-
-### LaTeX
-
-- [Folien](files/archive/2016/latex.pdf) (Stand 12.10.2016)
-- Tag 1
-    - [Aufgaben](files/archive/2016/exercises-latex-1.zip) (Stand 10.10.2016)
-- Tag 2
-    - [Aufgaben](files/archive/2016/exercises-latex-2.zip) (Stand 10.10.2016)
-- Tag 3
-    - [Aufgaben](files/archive/2016/exercises-latex-3.zip) (Stand 11.10.2016)
-- Tag 5
-    - [Aufgaben](files/archive/2016/exercises-latex-5.zip) (Stand 11.10.2016)
-
-- [LaTeX-Vorlage für Protokolle](files/archive/2016/latex-template.zip) (Stand 14.10.2016)
