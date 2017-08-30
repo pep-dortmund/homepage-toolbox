@@ -20,7 +20,7 @@
           <ul class="dropdown-menu">
             {% for sublink in navlink.submenu %}
             <li>
-              <a href="{{ navlink.subdirectory }}/{{ sublink.link }}">
+              <a href="/{{ navlink.subdirectory }}/{{ sublink.link }}">
                 {{ sublink.title }}
               </a>
             </li>
@@ -28,7 +28,7 @@
             </ul>
           </li>
           {% else %}
-          <a href="{{ navlink.link }}">{{ navlink.title }}</a>
+          <a href="/{{ navlink.link }}">{{ navlink.title }}</a>
           {% endif %}
         </li>
         {% endfor %}

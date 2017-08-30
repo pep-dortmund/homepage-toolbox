@@ -2,7 +2,14 @@
   link: about.html
 
 - title: Installation
-  link: install.html
+  subdirectory: install
+  submenu:
+    - title: Windows
+      link: windows.html
+    - title: macOS
+      link: macos.html
+    - title: Linux
+      link: linux.html
 
 - title: Material
   link: notes.html
