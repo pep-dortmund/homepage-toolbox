@@ -7,3 +7,11 @@ baseurl: '' # the subpath of your site, e.g. /blog
 # the base hostname & protocol for your site
 url: https://toolbox.pep-dortmund.org
 markdown: kramdown
+exclude:
+  - "deploy_key"
+  - "deploy_key.enc"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "publish.sh"
+  - "README.md"
