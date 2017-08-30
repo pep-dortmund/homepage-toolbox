@@ -12,25 +12,26 @@
     <div class="collapse navbar-collapse" id="pep-navbar-1">
       <ul class="nav navbar-nav">
         {% for navlink in site.data.navigation %}
-        <li>
           {% if navlink.submenu %}
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{navlink.title}}
-          <span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            {% for sublink in navlink.submenu %}
-            <li>
-              <a href="/{{ navlink.subdirectory }}/{{ sublink.link }}">
-                {{ sublink.title }}
-              </a>
-            </li>
-            {% endfor %}
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              {{navlink.title}}<span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              {% for sublink in navlink.submenu %}
+              <li>
+                <a href="{{ navlink.subdirectory }}/{{ sublink.link }}">
+                  {{ sublink.title }}
+                </a>
+              </li>
+              {% endfor %}
             </ul>
           </li>
           {% else %}
-          <a href="/{{ navlink.link }}">{{ navlink.title }}</a>
+          <li {% if page.url == navlink.link %} class="active" {% endif %} >
+            <a href="{{ navlink.link }}">{{ navlink.title }}</a>
+          </li>
           {% endif %}
-        </li>
         {% endfor %}
       </ul>
       <a href="https://github.com/pep-dortmund/toolbox-workshop" class="btn btn-default navbar-btn pull-right github">GitHub</a>

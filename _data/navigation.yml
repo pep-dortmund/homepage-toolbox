@@ -1,8 +1,8 @@
 - title: Über
-  link: about.html
+  link: /about.html
 
 - title: Installation
-  subdirectory: install
+  subdirectory: /install
   submenu:
     - title: Windows
       link: windows.html
@@ -12,10 +12,10 @@
       link: linux.html
 
 - title: Material
-  link: notes.html
+  link: /notes.html
 
 - title: Links
-  link: links.html
+  link: /links.html
 
 - title: Archiv
-  link: archive.html
+  link: /archive.html
