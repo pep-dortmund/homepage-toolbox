@@ -2,6 +2,7 @@
   link: /about.html
 
 - title: Installation
+  link: /install
   subdirectory: /install
   submenu:
     - title: Windows

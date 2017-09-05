@@ -14,7 +14,7 @@
         {% for navlink in site.data.navigation %}
           {% if navlink.submenu %}
           <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+          <a href="{% if navlink.link %}{{ navlink.link }}{% else %}#{% endif %}">
               {{navlink.title}}<span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
