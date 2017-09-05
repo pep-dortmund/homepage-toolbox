@@ -42,8 +42,8 @@ Bitte beachtet die folgenden Schritte:
 <!-- Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus. -->
 
 <!-- <div class="text-center"> -->
-<!-- <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfpIg-QhZjlpSTqW_Q9s1v2a0ZEVc5zS0DUtUYyFYWYz8vQrQ/viewform">Zum Toolbox-Feedback (erste Woche)</a> -->
-<!-- <a type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/1tLZZX3SszfFR0j5SLea3S5EydgRl2c7oETuB1PCufZM/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
+<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfpIg-QhZjlpSTqW_Q9s1v2a0ZEVc5zS0DUtUYyFYWYz8vQrQ/viewform">Zum Toolbox-Feedback (erste Woche)</a> -->
+<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/1tLZZX3SszfFR0j5SLea3S5EydgRl2c7oETuB1PCufZM/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
 <!-- </div> -->
 
 
@@ -54,8 +54,8 @@ Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese
 So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center">
-<a target="_blank" type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScoOqa2yMIBS2hLY20VkBOue7ZV2S6KNt2r10CsuVs5rA5Zaw/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
-<a target="_blank" type="button" class="btn btn-large btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfv9U-9KBKhI5TikwEnbbjrYmYs7ZKkOu-gTw8lxoKXkwX0ew/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
+<a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLScoOqa2yMIBS2hLY20VkBOue7ZV2S6KNt2r10CsuVs5rA5Zaw/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
+<a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfv9U-9KBKhI5TikwEnbbjrYmYs7ZKkOu-gTw8lxoKXkwX0ew/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
 </div>
 
 
