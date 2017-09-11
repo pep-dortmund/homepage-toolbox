@@ -93,6 +93,7 @@ title: Linksammlung
 - [Atom](https://atom.io/): Neuer Editor von GitHub, geschrieben in HTML und JavaScript
 - [Sublime Text](http://www.sublimetext.com/3) (kommerziell): Neuerer Editor
 - [neovim](http://neovim.io/): Modernisierung von vim
+- [Visual Studio Code](https://code.visualstudio.com/): Open Source Editor von Microsoft, sehr ähnlich zu Atom
 
 ## Verschiedenes
 
