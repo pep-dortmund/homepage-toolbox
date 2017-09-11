@@ -81,13 +81,13 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
   <td>Mo, 25.09.2017</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 3</td>
-  <td>Python, numpy, scipy</td>
+  <td>Python, numpy, matplotlib</td>
   </tr>
   <tr>
   <td>Di, 26.09.2017</td>
   <td>13–17 Uhr</td>
   <td>Chemie HS 3</td>
-  <td>matplotlib, uncertainties</td>
+  <td>scipy, uncertainties</td>
   </tr>
   <tr>
   <td>Mi, 27.09.2017</td>
