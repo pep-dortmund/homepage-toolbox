@@ -31,6 +31,8 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Atom (oder ei
 
 ## <a id="Installation"></a>Installation
 
+**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
+
 ### Terminal
 
 - Das Terminal ist in jeder OS X Distribution enthalten

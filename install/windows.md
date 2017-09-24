@@ -38,6 +38,8 @@ auf `Computer` (Windows 7) bzw. `Dieser PC` (Windows 10) und dann Eigenschaften.
 
 Getestet auf Windows 10, funktioniert ähnlich auch für 8 und 7.
 
+**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
+
 
 ### Dateiendungen einschalten
 
