@@ -26,5 +26,10 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
 
 - Tag 2
     - [Scientific Python](files/archive/2017/scientific-python.html) (Stand 26.09.2017)
-    - [uncertainties](files/archive/2017/uncertainties.html) (Stand 26.09.2017)
     - [Aufgaben](files/archive/2017/exercises-toolbox-2.zip) (Stand 26.09.2017)
+
+- Tag 3
+    - [uncertainties](files/archive/2017/uncertainties.html) (Stand 26.09.2016)
+    - [Unix](files/archive/2017/unix.pdf) (Stand 6.10.2016)
+    - [make](files/archive/2017/make.pdf) (Stand 6.10.2016)
+    - [Aufgaben](files/archive/2017/exercises-toolbox-3.zip) (Stand 6.10.2016)
