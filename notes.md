@@ -29,7 +29,7 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
     - [Aufgaben](files/archive/2017/exercises-toolbox-2.zip) (Stand 26.09.2017)
 
 - Tag 3
-    - [uncertainties](files/archive/2017/uncertainties.html) (Stand 26.09.2016)
-    - [Unix](files/archive/2017/unix.pdf) (Stand 6.10.2016)
-    - [make](files/archive/2017/make.pdf) (Stand 6.10.2016)
-    - [Aufgaben](files/archive/2017/exercises-toolbox-3.zip) (Stand 6.10.2016)
+    - [uncertainties](files/archive/2017/uncertainties.html) (Stand 26.09.2017)
+    - [Unix](files/archive/2017/unix.pdf) (Stand 27.09.2017)
+    - [make](files/archive/2017/make.pdf) (Stand 27.09.2017)
+    - [Aufgaben](files/archive/2017/exercises-toolbox-3.zip) (Stand 27.09.2017)
