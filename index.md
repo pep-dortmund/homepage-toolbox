@@ -36,27 +36,27 @@ Bitte beachtet die folgenden Schritte:
 - Einen Laptop mitbringen
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
-<!-- ## Feedback -->
+## Feedback
 
-<!-- Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können. -->
-<!-- Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus. -->
-
-<!-- <div class="text-center"> -->
-<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfpIg-QhZjlpSTqW_Q9s1v2a0ZEVc5zS0DUtUYyFYWYz8vQrQ/viewform">Zum Toolbox-Feedback (erste Woche)</a> -->
-<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/1tLZZX3SszfFR0j5SLea3S5EydgRl2c7oETuB1PCufZM/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
-<!-- </div> -->
-
-
-## Umfrage
-
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
-So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
+Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
-<a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLScoOqa2yMIBS2hLY20VkBOue7ZV2S6KNt2r10CsuVs5rA5Zaw/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
-<a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfv9U-9KBKhI5TikwEnbbjrYmYs7ZKkOu-gTw8lxoKXkwX0ew/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
+<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfH49biien8FyB3dbWgTKqjhkKnMXJ7I2GBGl_RYAa0cROoCQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
+<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/1tLZZX3SszfFR0j5SLea3S5EydgRl2c7oETuB1PCufZM/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
 </div>
+
+
+<!-- ## Umfrage -->
+
+<!-- Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt. -->
+<!-- Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen. -->
+<!-- So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen. -->
+
+<!-- <div class="text-center"> -->
+<!-- <a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLScoOqa2yMIBS2hLY20VkBOue7ZV2S6KNt2r10CsuVs5rA5Zaw/viewform">Zur Toolbox-Umfrage (erste Woche)</a> -->
+<!-- <a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfv9U-9KBKhI5TikwEnbbjrYmYs7ZKkOu-gTw8lxoKXkwX0ew/viewform">Zur LaTeX-Umfrage (zweite Woche)</a> -->
+<!-- </div> -->
 
 
 ## Ablaufplan
