@@ -17,24 +17,19 @@ title: Linksammlung
     - [Tentative NumPy Tutorial](http://www.scipy.org/Tentative_NumPy_Tutorial)
 - [matplotlib Documentation](http://matplotlib.org/contents.html)
     - [matplotlib Gallery](http://matplotlib.org/gallery.html): Beispielplots mit Code
-    - [Farben, Linienstile, Markerstile](http://matplotlib.org/api/axes_api.html#matplotlib.axes.Axes.plot): Liste aller Stile
 - [Uncertainties](https://pythonhosted.org/uncertainties/)
 - [SymPy](http://sympy.org/en/index.html): Für symbolische Berechnungen (Integrale, Differentialgleichungen, …)
-- [Sage](http://www.sagemath.org/): Kombiniert viele Pakete zu einem allgemeinen mathematischen Werkzeug
-- [NumPy Tutorial](http://www.loria.fr/~rougier/teaching/numpy/numpy.html)
-- [matplotlib Tutorial](http://www.loria.fr/~rougier/teaching/matplotlib/)
+
+### Nicht im Kurs vorgestellt, aber nützlich
+
+- [Pint](https://pypi.python.org/pypi/Pint/) Rechnen mit Einheiten in python
+- [pandas](http://pandas.pydata.org/) DAS Standardtool für Datenanalyse in python
 
 ## Scientific Python Tutorials
 
-- [The Scientific Python lectures](http://jrjohansson.github.io/)
-    - [Einführung](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-0-Scientific-Computing-with-Python.ipynb)
-    - [Python](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-1-Introduction-to-Python-Programming.ipynb)
-    - [Numpy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-2-Numpy.ipynb)
-    - [Scipy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-3-Scipy.ipynb)
-    - [Matplotlib](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-4-Matplotlib.ipynb)
-    - [SymPy](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-5-Sympy.ipynb)
-    - [Git](http://nbviewer.ipython.org/github/jrjohansson/scientific-python-lectures/blob/master/Lecture-7-Revision-Control-Software.ipynb)
-- [Python Scientific Lecture Notes](http://scipy-lectures.github.com/)
+- [The Scientific Python lectures](https://github.com/jrjohansson/scientific-python-lectures)
+- [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook)
+- [Vortrag: The Unexpected Effectiveness of Python in Science](https://www.youtube.com/watch?v=ZyjCqQEUa8o&t=10s)
 
 ## Unix
 
@@ -54,11 +49,7 @@ title: Linksammlung
 
 ## Git
 
-- `man git`
-- `man gittutorial`, `man gittutorial-2`
-- [Git Documentation](https://git-scm.com/doc)
 - [Learn Git Branching](http://learngitbranching.js.org/)
-- [Interactive Git-Visualization (Sandbox)](http://git-school.github.io/visualizing-git/#free)
 - [Pro Git](https://git-scm.com/book/en/v2): Kostenloses Buch über Git (sehr gut)
 - [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html): Interaktive Anleitung zum Korrigieren von Fehlern
 - [Git pretty](http://justinhileman.info/article/git-pretty/): Flowchart für Fehlerbehebung
