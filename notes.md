@@ -37,3 +37,6 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
 - Tag 4
     - [git](files/archive/2017/git.pdf) (Stand 28.09.2017)
     - [Aufgaben](files/archive/2017/exercises-toolbox-4.zip) (Stand 28.09.2017)
+
+- Tag 5
+    - [Aufgaben](files/archive/2017/exercises-toolbox-3.zip) (Stand 29.09.2017)
