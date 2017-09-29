@@ -67,10 +67,10 @@ title: Linksammlung
 ## LaTeX
 
 - TeXBook von Don Knuth: Das Buch über TeX
+- [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
 - [How to Typeset Equations in LaTeX](http://moser-isi.ethz.ch/docs/typeset_equations.pdf): Gute Einführung in IEEEeqnarray (mächtigere Alternative zu den amsmath-Umgebungen)
 - [Mathematical Writing](http://tex.loria.fr/typographie/mathwriting.pdf): Kurs von Don Knuth
 - [Guide for the Use of the International System of Units (SI)](http://physics.nist.gov/cuu/pdf/sp811.pdf)
-- [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
 - [Mathematical Typography](http://www.ams.org/journals/bull/1979-01-02/S0273-0979-1979-14598-1/S0273-0979-1979-14598-1.pdf): Gründe von Knuth, TeX zu entwickeln
 - [Symbols, Units, Nomenclature and Fundamental Constants in Physics](http://iupap.org/wp-content/uploads/2014/05/A4.pdf)
 - [Der korrekte Umgang mit Größen, Einheiten und Gleichungen](http://karriere.rohde-schwarz.de/fileadmin/customer/downloads/PDF/Der_korrekte_Umgang_mit_Groessen_Einheiten_und_Gleichungen_bro_de_01.pdf)
