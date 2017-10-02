@@ -102,6 +102,8 @@ Im Terminal:
     I
     echo export PATH=\"$(echo ~/.local/texlive/*/bin/*):\$PATH\" >> ~/.bashrc
 
+Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
+
 __Jetzt noch die Installation [testen](#test)!__
 
 
@@ -210,4 +212,4 @@ Im Terminal:
 
 Im Terminal:
 
-    sudo tlmgr update --self --all --reinstall-forcibly-removed
+    tlmgr update --self --all --reinstall-forcibly-removed
