@@ -60,6 +60,13 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 - Debian, Ubuntu, Mint:
   - Download der .deb Datei hier: [http://atom.io](http://atom.io)
   - Doppelklick auf die Datei und im Software-Center installieren
+    - Manchmal klappt die Installation über das software center nicht,
+    dann kann über die Kommandozeile installiert werden:
+
+    ```
+    sudo dkpg -i /path/to/atom/download
+    sudo apt install -f
+    ```
 
 - Fedora
   - Download der .rpm Datei hier: [http://atom.io](http://atom.io)
