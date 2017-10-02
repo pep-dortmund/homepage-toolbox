@@ -40,3 +40,10 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
 
 - Tag 5
     - [Aufgaben](files/archive/2017/exercises-toolbox-5.zip) (Stand 29.09.2017)
+
+
+### LaTeX
+
+- [Folien](files/archive/2017/latex.pdf) (Stand 02.10.2017)
+- Tag 1
+    - [Aufgaben](files/archive/2017/exercises-latex-1.zip) (Stand 02.10.2017)
