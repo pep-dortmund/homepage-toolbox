@@ -47,3 +47,5 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
 - [Folien](files/archive/2017/latex.pdf) (Stand 02.10.2017)
 - Tag 1
     - [Aufgaben](files/archive/2017/exercises-latex-1.zip) (Stand 02.10.2017)
+- Tag 2
+    - [Aufgaben](files/archive/2017/exercises-latex-2.zip) (Stand 02.10.2017)
