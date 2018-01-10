@@ -11,6 +11,8 @@
       link: macos.html
     - title: Linux
       link: linux.html
+    - title: Linux/Windows DualBoot
+      link: dualboot.html
 
 - title: Material
   link: /notes.html
