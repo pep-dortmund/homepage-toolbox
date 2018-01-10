@@ -62,5 +62,6 @@ To use syntax highlighting, you can use jekylls highlight feature like this:
 
 ```
 {% highlight python %}
-{% print("Hello World") %}
+print("Hello World")
+{% endhighlight %}
 ```
