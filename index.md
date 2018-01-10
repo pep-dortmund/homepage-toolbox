@@ -25,7 +25,7 @@ Alle im Kurs vorgestellten Programme sind [Free and Open Source Software](https:
 
 ### 1. Woche: Versuche auswerten
 
-* **Python** ist eine der beliebtesten Programmiersprachen in der Wissenschaft und, ist einfach zu lernen und bietet zahlreiche Bibliotheken für die Datenauswertung und zur Darstellung dieser Daten.
+* **Python** ist eine der beliebtesten Programmiersprachen in der Wissenschaft, ist einfach zu lernen und bietet zahlreiche Bibliotheken für die Datenauswertung und zur Darstellung dieser Daten.
 
   Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile gegenüber Alternativen wie Tabellenkalkulationssoftware.
 
