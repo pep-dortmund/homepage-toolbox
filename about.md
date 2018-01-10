@@ -3,7 +3,7 @@ layout: default
 title: Über den Workshop
 ---
 
-<p class="lead">Im Rahmen der [PeP et al. Sommerakademie](http://pep-dortmund.org/vereinsleben/soak.html) 2012 entstand die Idee für einen Workshop um Physikstudierenden die Unix-Kommandozeile, die Versionskontrolle mit git und Python mit diversen Bibliotheken näher zu bringen.</p>
+<p class="lead">Im Rahmen der <a href="https://pep-dortmund.org/vereinsleben/soak.html">PeP et al. Sommerakademie</a> 2012 entstand die Idee für einen Workshop um Physikstudierenden die Unix-Kommandozeile, die Versionskontrolle mit git und Python mit diversen Bibliotheken näher zu bringen.</p>
 
 Seitdem organisieren wir jährlich einen Workshop während der Sommer-Semesterferien.
 2014 fand zum ersten Mal auch der LaTeX-Kurs im Rahmen des Workshops statt.
