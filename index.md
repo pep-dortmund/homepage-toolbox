@@ -4,28 +4,44 @@ title: PeP et al. Toolbox Workshop
 ---
 
 <p class="lead" markdown="1">
-Auch in diesem Jahr bietet [PeP et al.](http://pep-dortmund.org) einen Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an. Dieser wird in den letzten beiden Wochen der Semesterferien stattfinden.
+Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet [PeP et al.](http://pep-dortmund.org) den Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an.
 </p>
 
-<p class="lead">
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
-</p>
-
-<p class="lead">
-In der ersten Woche wird es um die Auswertung der Versuche mithilfe von Python gehen und um die Versioskontrolle mit Git.
-In der zweiten Woche findet der LaTeX Kurs statt.
-</p>
 
 Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-**Python**, **git** und **make** sind Standardwerkzeuge, die häufig innerhalb und außerhalb der Wissenschaft eingesetzt werden.
-**LaTeX** ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
-Beide Teile des Kurses sind also nicht nur für das Praktikum interessant, sondern auch für den weiteren Erfolg während und nach des Studiums.
+## Themen
 
 Die beiden Wochen sind unabhängig voneinander gestaltet.
 Es kann also auch nur einer der beiden Kurse besucht werden.
+Für die zweite Woche sind allerdings Grundkenntnisse zur Kommandozeile hilfreich.
+Beide Teile des Kurses sind nicht nur für das Praktikum interessant, sondern auch für den weiteren Erfolg während und nach des Studiums.
+
+Alle im Kurs vorgestellten Programme sind [Free and Open Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"}.
+
+
+### 1. Woche: Versuche auswerten
+
+* **Python** ist eine der beliebtesten Programmiersprachen in der Wissenschaft und, ist einfach zu lernen und bietet zahlreiche Bibliotheken für die Datenauswertung und zur Darstellung dieser Daten.
+
+  Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile gegenüber Alternativen wie Tabellenkalkulationssoftware.
+
+* **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte guten wissenschaftlichen Arbeitens. 
+  Git ist das Standardwerkzeug für Versionskontrolle, welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren, Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
+
+* **Make**: Das Standardtool zur automatiserten Ausführung von komplexeren Aufgaben.
+  Es kommt häufig vor, das mehrere Auswertungsschritte in einer bestimmten Reihenfolge ausgeführt werden müssen und spätere Schritte von den Ergebnissen vorheriger Schritte abhängen. Diese Schritte manuell auszuführen ist fehleranfällig und nicht einfach zu dokumentieren. Make macht dies einfacher und führt zu besserer Reproduzierbarkeit.
+
+* **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen Betriebssystemen ist eine wichtige Vorraussetzung für wissenschaftliches Arbeiten. Wir bringen euch die Grundlagen bei.
+
+
+### 2. Woche: LaTeX
+
+**LaTeX** ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
+Es bietet hervorragenden Formelsatz, automatisiertes erstellen von Inhaltsverzeichnissen und Bibliographie, Trennung von Form und Inhalt, Hyperlinks und vieles mehr.
 
 ## Vorbereitung
 
@@ -33,10 +49,10 @@ Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
     - Bei Problemen können wir gerne per [Mail](about.html) oder persönlich helfen
-- Einen Laptop mitbringen
+- Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
-## Feedback
+## Feedback 2017
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
@@ -59,7 +75,7 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 <!-- </div> -->
 
 
-## Ablaufplan
+## Ablaufplan 2017
 
 <table class="table table-hover">
 <thead>
