@@ -2,9 +2,10 @@
   link: /about.html
 
 - title: Installation
-  link: /install
   subdirectory: /install
   submenu:
+    - title: Überblick
+      link: index.html
     - title: Windows
       link: windows.html
     - title: macOS
