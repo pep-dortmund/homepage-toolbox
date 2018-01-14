@@ -35,3 +35,10 @@
 .post + .post {
   margin-top: 20px;
 }
+
+pre.highlight {
+  background-color: #eee;
+  border-radius: 10px;
+  border-color: #ddd;
+  padding: 5px;
+}
