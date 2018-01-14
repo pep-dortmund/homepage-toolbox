@@ -31,15 +31,7 @@
   background-color: #d5d5d5;
 }
 
-ul.nav li.dropdown:hover ul.dropdown-menu{ display: block; }
 
-.box.post {
-  padding: 10px;
-  border-radius: 5px;
-  background: #f5f5f5;
-}
-
-.post-header-sep {
-  margin-top: 0.2em;
-  margin-bottom: 0.2em;
+.post + .post {
+  margin-top: 20px;
 }
