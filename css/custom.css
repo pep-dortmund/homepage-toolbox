@@ -39,6 +39,8 @@
 pre.highlight {
   background-color: #eee;
   border-radius: 10px;
+  border-width: thin;
+  border-style: solid;
   border-color: #ddd;
   padding: 5px;
 }
