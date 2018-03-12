@@ -44,7 +44,7 @@ Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
 
 ### LaTeX
 
-- [Folien](files/archive/2017/latex.pdf) (Stand 02.10.2017)
+- [Folien](files/archive/2017/latex.pdf) (Stand 12.03.2018)
 - [LaTeX Vorlage für Protokolle](files/archive/2017/latex-template.zip)
 - Tag 1
     - [Aufgaben](files/archive/2017/exercises-latex-1.zip) (Stand 02.10.2017)
