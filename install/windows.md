@@ -15,6 +15,9 @@ Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger sch�
 Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und Atom (oder einen anderen Texteditor) und TeXLive installieren.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
+Diese Installation verwendet das [_Linux Subsystem for Windows_](https://docs.microsoft.com/en-us/windows/wsl/install-win10), um auf eine Ubuntu Installation
+verwenden zu können ohne ein neues Betriebsystem installieren zu müssen.
+
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
   <a href="#installation" class="btn btn-secondary btn-lg btn-block" role="button">
@@ -37,9 +40,9 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 ## <a id="Installation"></a>Installation
 
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt. Das geht mit Rechtsklick 
-auf `Computer` (Windows 7) bzw. `Dieser PC` (Windows 10) und dann Eigenschaften.
+auf `Dieser PC` (Windows 10) und dann Eigenschaften.
 
-Getestet auf Windows 10, funktioniert ähnlich auch für 8 und 7.
+Getestet auf Windows 10.
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
