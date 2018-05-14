@@ -3,6 +3,10 @@ layout: default
 title: Alte Windows-Installation
 ---
 
+__Diese Installationsanleitung ist hier nur noch der Vollständigkeit halber aufgeführt.__   
+__Wir empfehlen dringend, auf ein aktuelles Betriebsystem z.B. Windows 10__
+__zu wechseln und die entsprechende Installationsanleitung zu verwenden.__
+
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
 
