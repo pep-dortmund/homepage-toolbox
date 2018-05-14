@@ -6,12 +6,14 @@
   submenu:
     - title: Überblick
       link: index.html
-    - title: Windows
+    - title: Windows 10
       link: windows.html
     - title: macOS
       link: macos.html
     - title: Linux
       link: linux.html
+    - title: Windows (älter)
+      link: windows_old.html
 
 - title: Material
   link: /notes.html
