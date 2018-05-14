@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Windows-Installation
+title: Alte Windows-Installation
 ---
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
