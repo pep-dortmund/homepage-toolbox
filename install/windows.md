@@ -60,6 +60,11 @@ gestartet werden.
 
 <img alt="" src="/img/wsl-1.png" style="width: 100%;" />
 
+In den meisten Fällen wird das folgende Fenster erscheinen. Dieser kann einfach _Ja_ bestätigt werden.
+Es ist kein Problem, wenn dieses Fenster nicht erscheint.
+
+<img alt="" src="/img/wsl-2.png" style="width: 100%;" />
+
 
 
 
