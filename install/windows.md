@@ -15,7 +15,7 @@ Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger sch�
 Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und Atom (oder einen anderen Texteditor) und TeXLive installieren.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
-Diese Installation verwendet das [_Linux Subsystem for Windows_](https://docs.microsoft.com/en-us/windows/wsl/install-win10), um auf eine Ubuntu Installation
+Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10), um auf eine Ubuntu Installation
 verwenden zu können ohne ein neues Betriebsystem installieren zu müssen.
 
 <div class="row" style="padding: 10px">
@@ -45,6 +45,22 @@ auf `Dieser PC` (Windows 10) und dann Eigenschaften.
 Getestet auf Windows 10.
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
+
+### Windows Subsystem for Linux
+
+Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
+bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
+_Powershell_ eingegeben wird. 
+
+<img alt="" src="/img/wsl-0.png" style="width: 100%;" />
+
+Mit einem `Rechtsklick` auf _Windows PowerShell_
+das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_ 
+gestartet werden.
+
+<img alt="" src="/img/wsl-1.png" style="width: 100%;" />
+
+
 
 
 ### Dateiendungen einschalten
