@@ -16,19 +16,22 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und A
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 <div class="row" style="padding: 10px">
-  <div class="col-md-1" align="center"></div>
+  <div class="col-md-4" align="center">
+  <a href="#installation" class="btn btn-secondary btn-lg btn-block" role="button">
+  Installation
+  </a>
+  </div>
   <div class="col-md-4" align="center">
   <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
   Testen
   </a>
   </div>
-  <div class="col-md-2" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
   Aktualisieren 
   </a>
   </div>
-  <div class="col-md-1" align="center"></div>
+  <div class="col-md-2" align="center"></div>
 </div>
 
 ## <a id="Installation"></a>Installation
