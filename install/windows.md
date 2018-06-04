@@ -67,6 +67,10 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl-2.png" style="width: 100%;" />
 
+Nun öffnet sich eine Fenster wie unten zusehen, dies ist die Powershell Konsole.
+Um sicher zugehen, dass eine Powershell mit Administrator-Rechten geöffnet wurde,
+kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
+
 <img alt="" src="/img/wsl-3.png" style="width: 100%;" />
 
 <img alt="" src="/img/wsl-4.png" style="width: 100%;" />
