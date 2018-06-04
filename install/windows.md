@@ -46,8 +46,9 @@ Getestet auf Windows 10.
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
-### Windows Subsystem for Linux
+### Windows Subsystem for Linux (WSL)
 
+#### Aktivierung des WSL
 Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
 bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
 _Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
@@ -93,6 +94,8 @@ Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert.
 Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem 
 Subsystem installiert werden soll.
 
+#### Installation der Linux Variante Ubuntu
+
 Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:   
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store).
 
@@ -118,6 +121,8 @@ auf die Schaltfläche _Starten_ gestartet werden.
 Auch diese Installation kann einige Minuten in Anspruch nehmen.
 
 <img alt="" src="/img/wsl-11.png" style="width: 100%;" />
+
+#### Einrichten eines Benutzerskontos
 
 Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
 das Linux-Betriebssystem einzugeben.
