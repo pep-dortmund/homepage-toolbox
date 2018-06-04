@@ -50,7 +50,9 @@ Getestet auf Windows 10.
 
 Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
 bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
-_Powershell_ eingegeben wird. 
+_Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
+gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche nachdem man einen
+Buchstaben über die Tastatur eingibt.
 
 <img alt="" src="/img/wsl-0.png" style="width: 100%;" />
 
