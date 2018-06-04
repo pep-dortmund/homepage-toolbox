@@ -76,21 +76,42 @@ kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_
 In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
 ```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux   
 ```
-
-
 <img alt="" src="/img/wsl-4.png" style="width: 100%;" />
+
+Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
 <img alt="" src="/img/wsl-5.png" style="width: 100%;" />
 
+Die darauf folgende Abfrage ob der Computer neugestartet werden soll,
+kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
+
 <img alt="" src="/img/wsl-6.png" style="width: 100%;" />
+
+Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert. 
+Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem 
+Subsystem installiert werden soll.
+
+Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:   
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store).
+
+Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
+Dies ist jedoch kein Problem, denn die im Folgenden verwendete Variante ist die Oberste,
+__Ubuntu__. Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
 
 <img alt="" src="/img/wsl-7.png" style="width: 100%;" />
 
+Es öffnet sich ein neues Fenster des Microsoft-Stores. Durch `Linksklick` auf die
+Schaltfläche _Herunterladen_ wird der Download begonnen.  
+
 <img alt="" src="/img/wsl-8.png" style="width: 100%;" />
 
+Der Download lädt einige 100 Megabyte an Daten herunter und kann einige Minuten in Anspruch nehmen.
 <img alt="" src="/img/wsl-9.png" style="width: 100%;" />
+
+Nachdem der Download abgeschlossen ist, kann die Installation, durch einen `Linksklick`
+auf die Schaltfläche _Starten_ gestartet werden.
 
 <img alt="" src="/img/wsl-10.png" style="width: 100%;" />
 
