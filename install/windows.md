@@ -73,6 +73,13 @@ kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_
 
 <img alt="" src="/img/wsl-3.png" style="width: 100%;" />
 
+In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
+und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
+
 <img alt="" src="/img/wsl-4.png" style="width: 100%;" />
 
 <img alt="" src="/img/wsl-5.png" style="width: 100%;" />
