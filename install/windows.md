@@ -115,15 +115,45 @@ auf die Schaltfläche _Starten_ gestartet werden.
 
 <img alt="" src="/img/wsl-10.png" style="width: 100%;" />
 
+Auch diese Installation kann einige Minuten in Anspruch nehmen.
+
 <img alt="" src="/img/wsl-11.png" style="width: 100%;" />
+
+Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
+das Linux-Betriebssystem einzugeben.
 
 <img alt="" src="/img/wsl-12.png" style="width: 100%;" />
 
+Dieser Linux-Benutzername kann frei gewählt werden. 
+Der Linux-Benutzername __kann, muss aber nicht,__
+mit dem Windows-Benutzernamen übereinstimmen. 
+Die Eingabe des Benutzernames wird mit Drücken der `Enter`-Taste bestätigt.
+
 <img alt="" src="/img/wsl-13.png" style="width: 100%;" />
+
+Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssytem gefragt.
+Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
+Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 
 <img alt="" src="/img/wsl-14.png" style="width: 100%;" />
 
+Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
+Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
+Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
+so muss dieses erneut (zweimal) eingegeben werden.
 <img alt="" src="/img/wsl-15.png" style="width: 100%;" />
+
+Ist die Installation erfolgreich durchgeführt worden, 
+erhält man die im Screenshot gezeigte Ausgabe.
+Die unterste Zeile besteht aus zwei Teilen.   
+Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen. 
+Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
+Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion 
+mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während 
+des Workshops, im Folgenden wird diese jedoch schon zur
+Installation der benötigten Software verwendet.
+
+<img alt="" src="/img/wsl-16.png" style="width: 100%;" />
 
 
 
