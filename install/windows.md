@@ -169,13 +169,16 @@ Installation der benötigten Software verwendet.
 
 ### Sumatra PDF
 
-- [Sumatra](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}: PDF-Betrachter
+Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
+Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, 
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
+Den Download findet man unter dem folgenden Link.
 
-Für 64-Bit Systeme die Datei unter `64-bit builds` herunterladen!
+[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
 
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 
 Unter Options kann er als Standard-Programm für PDFs eingestellt werden:  
+
 <img alt="" src="/img/sumatra.png" style="width: 100%;" />
 
 ### Atom
