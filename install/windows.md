@@ -176,6 +176,10 @@ Den Download findet man unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
 
+Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
+hervorgehobenen Link heruntergeladen werden.
+<img alt="" src="/img/sumatra-1.png" style="width: 100%;" />
+
 
 Unter Options kann er als Standard-Programm für PDFs eingestellt werden:  
 
