@@ -160,6 +160,27 @@ Installation der benötigten Software verwendet.
 
 <img alt="" src="/img/wsl-16.png" style="width: 100%;" />
 
+### X-Server
+Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
+um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem 
+folgenden Link heruntergeladen werden.
+
+[X-Server Download](https://sourceforge.net/projects/xming/)
+
+<img alt="" src="/img/xserver-0.png" style="width: 100%;" />
+
+
+Durch einen doppelten `Linksklick` kann die heruntergeladen Datei ausgeführt werden.
+Infolgedessen kann das folgende Fenster erscheinen, welches mit einem `Linksklick` auf
+_Ja_ bestätigt werden muss.
+
+<img alt="" src="/img/xserver-2.png" style="width: 100%;" />
+
+Auch das nachfolgende Fenster kann durch einen `Linksklick` auf _Next_ bestätigt werden.
+<img alt="" src="/img/xserver-3.png" style="width: 100%;" />
+
+
+
 
 
 
