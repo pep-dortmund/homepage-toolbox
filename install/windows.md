@@ -206,7 +206,7 @@ Nach der Installation kann diese mit einem `Linksklick` auf _Finish_ abgeschloss
 Durch den gesetzten Haken kann _Xming_ gestartet werden, um zu testen ob die Installation erfolgreich war.
 <img alt="" src="/img/xserver-9.png" style="width: 100%;" />
 
-Vor dem ersten Ausführen kann folgendes Fenster erscheinen, dieses muss mit einem `Linksklick` auf
+Nach dem ersten Ausführen kann folgendes Fenster erscheinen, dieses muss mit einem `Linksklick` auf
 _Abbrechen_ abgelehnt werden.
 <img alt="" src="/img/xserver-10.png" style="width: 100%;" />
 
