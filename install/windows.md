@@ -659,7 +659,7 @@ bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbind
 an Daten heruntergeladen werden. Entsprechend kann diese Installation mitunter sehr viel Zeit in Anspruch nehmen.
 <img alt="" src="/img/texlive-4.png" style="width: 100%;" />
 
-Nachfolgend wird die LaTeX und alle zugehörigen Pakete heruntergeladen und installiert.
+Nachfolgend wird nun LaTeX selbst und alle zugehörigen Pakete heruntergeladen und installiert.
 <img alt="" src="/img/texlive-5.png" style="width: 100%;" />
 
 Nach erfolgreicher Installation wird folgender Text ausgegeben.
