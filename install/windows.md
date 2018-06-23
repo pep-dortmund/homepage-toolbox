@@ -484,12 +484,13 @@ und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kan
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
 <img alt="" src="/img/unix-tools-3.png" style="width: 100%;" />
 
-
 #### Git-Einstellung
 
-Im Terminal (auf Anführungszeichen achten):
-
-    git config --global core.editor "atom --wait"
+Für Git muss noch eine Einstellung vorgenommen werden. Dafür wird in die Bash-Kommandozeile wie zuvor
+der folgende Befehle eingegeben und mit der `Entertaste` bestätigt.
+```
+git config --global core.editor "atom --wait"
+```
 
 ### Uncertainties
 
