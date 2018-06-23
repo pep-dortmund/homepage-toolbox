@@ -165,56 +165,72 @@ Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Program
 um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem 
 folgenden Link heruntergeladen werden.
 
-[X-Server Download](https://sourceforge.net/projects/xming/)
+[X-Server Download](https://sourceforge.net/projects/vcxsrv/)
 
+Dies wird mit einem `Linksklick` auf die unten hervorgehobene Schaltfläche _Download_ erreicht.
 <img alt="" src="/img/xserver-0.png" style="width: 100%;" />
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladen Datei ausgeführt werden.
 Infolgedessen kann das folgende Fenster erscheinen, welches mit einem `Linksklick` auf
 _Ja_ bestätigt werden muss.
+<img alt="" src="/img/xserver-1.png" style="width: 100%;" />
 
+Im nachfolgenden Fenster kann nun der Umfang der Installation ausgewählt werden. Hier ist _Full_ auszuwählen. 
+Die Auswahl wird durch einen `Linksklick` auf _Next_ bestätigt.
 <img alt="" src="/img/xserver-2.png" style="width: 100%;" />
 
-Auch das nachfolgende Fenster kann durch einen `Linksklick` auf _Next_ bestätigt werden.
+Im folgenden Fenster kann der Installationspfad angepasst werden. Dies ist optional und der bereits
+eingetragene Pfad kann durch einen `Linksklick` auf _Install_ unverändert bestätigt werden.
 <img alt="" src="/img/xserver-3.png" style="width: 100%;" />
 
-Im folgenden Fenster kann der Installationspfad angepasst werden. Dies ist optional und der bereits
-eingetragene Pfad kann durch einen `Linsksklick` auf _Next_ bestätigt werden.
+Nach vollständiger Installation, kann diese mit einem `Linksklick` auf _Close_ abgeschlossen werden.
 <img alt="" src="/img/xserver-4.png" style="width: 100%;" />
 
-Auch im nachfolgenden Fenster können optionale Einstellungen vorgenommen werden.
-Die standardmäßig eingestellte _Full installation_ kann mit einem `Linksklick`
-auf _Next_ bestätigt werden.
+Auf dem Desktop befindet sich nun die unter dargestellte Verknüpfung mit dem Namen _XLaunch_.
+Durch einen doppelten `Linksklick` kann das Programm nun gestartet werden.
 <img alt="" src="/img/xserver-5.png" style="width: 100%;" />
 
-Nun kann der Name des Startmenu-Eintrags ausgewählt werden auch hier wird der Standard mit `Linksklick`
-auf _Next_ bestätigt.
+Vor dem Start des Progamms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
+_Multiple Window_ ausgewählt und mit einem `Linksklick` auf _Weiter_ bestätigt.
 <img alt="" src="/img/xserver-6.png" style="width: 100%;" />
 
-Sollten Desktopverknüpfungen oder Verknüpfungen in der Taskleiste gewünscht sein, können diese 
-mit dem jeweiligen Haken ausgewählt werden. Das Programm welches für die Darstellung der GUIs verwendet wird
-ist _Xming_, die Verknüpfungen für _XLaunch_ werden nicht gebraucht. Die Auswahl wird mit einem `Linksklick` 
-auf _Next_ bestätigt.
+Im nächsten Fenster wird die Option _Start no client_ ausgewählt und ebenfalls mit einem `Linksklick`
+auf _Weiter_ bestätigt.
 <img alt="" src="/img/xserver-7.png" style="width: 100%;" />
 
-Abschließend können alle vorgenommenen Einstellungen noch einmal überprüft und
-mit einem `Linksklick` auf _Install_ bestätigt werden.
-<img alt="" src="/img/xserver-8.png" style="width: 100%;" />
-
-Nach der Installation kann diese mit einem `Linksklick` auf _Finish_ abgeschlossen werden. 
-Durch den gesetzten Haken kann _Xming_ gestartet werden, um zu testen ob die Installation erfolgreich war.
+Im letzten Einstellungs-Fenster werden alle vier Optionen ausgewählt und abschließend mit einem 
+`Linksklick` auf _Weiter_ bestätigt.
 <img alt="" src="/img/xserver-9.png" style="width: 100%;" />
 
-Nach dem ersten Ausführen kann folgendes Fenster erscheinen, dieses muss mit einem `Linksklick` auf
-_Abbrechen_ abgelehnt werden.
+Nun können die vorgenommenen Einstellungen gespeichert werden. Der entsprechende Dialog wird 
+durch einen `Linksklick` auf _Save configuration_ geöffnet.
 <img alt="" src="/img/xserver-10.png" style="width: 100%;" />
 
-Das das Programm _Xming_ läuft erkennt man an einem Icon in der Taskleiste, es wird kein neues Fenster geöffnet.
+Die entsprechende Datei kann nach eigenem Belieben bennant werden und auch der Speicherort ist freiwählbar.
+Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
+<img alt="" src="/img/xserver-11.png" style="width: 100%;" />
+
+Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen 
+und das Programm gestartet werden.
+<img alt="" src="/img/xserver-12.png" style="width: 100%;" />
 
 
+Nach dem ersten Ausführen kann folgendes Fenster erscheinen,
+dieses muss mit einem `Linksklick` auf _Abbrechen_ abgelehnt werden.
+<img alt="" src="/img/xserver-13.png" style="width: 100%;" />
+
+Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Das das Programm gestartet wurde lässt
+sich an einem Icon in der Taskleiste (in der Nähe der Uhrzeit) erkennen. Sollte das Icon nicht
+zusehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein. 
+<img alt="" src="/img/xserver-14.png" style="width: 100%;" />
 
 
+Am zuvor ausgewählten Speicherort für die Einstellungen, 
+befindet sich die unten hervorgehobene Datei mit dem zuvor ausgewählten Namen.
+Mit einem doppelten `Linksklick` auf diese Datei kann von nun an das Programm _XLaunch_
+gestartet werden ohne die Einstellungen erneut vornehmen zu müssen. 
+<img alt="" src="/img/xserver-15.png" style="width: 100%;" />
 
 
 
