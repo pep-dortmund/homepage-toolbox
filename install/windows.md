@@ -484,6 +484,7 @@ und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kan
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
 <img alt="" src="/img/unix-tools-3.png" style="width: 100%;" />
 
+
 #### Git-Einstellung
 
 Für Git muss noch eine Einstellung vorgenommen werden. Dafür wird in die Bash-Kommandozeile wie zuvor
@@ -494,6 +495,96 @@ git config --global core.editor "atom --wait"
 Hier wurde absichtlich kein Screenshot eingefügt, um zu testen ob der grundsätzliche Umgang mit der Bash-Kommandozeile
 verstanden wurde. Falls noch Unsicherheit darüber besteht was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann im Anschluss mit mehr Sicherheit nachgeholt werden.
+
+
+### Anaconda
+
+Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
+Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
+
+[Anaconda Download](http://www.continuum.io/downloads#linux){:target="_blank"}
+
+Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
+Außerdem soll die _x64-Bit_ Version der Python Version 3.6 verwendet werden. Diese findet sich
+unter dem hervorgehobenen Link. Der Download kann einige Minuten in Anspruch nehmen.
+<img alt="" src="/img/anaconda-0.png" style="width: 100%;" />
+
+Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
+deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
+<img alt="" src="/img/anaconda-1.png" style="width: 100%;" />
+
+Im Anschluss wird mit ConEmu erneut eine Bash-Kommandozeile geöffnet.
+In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
+`Entertaste` bestätigt.
+```
+cd Desktop
+```
+```
+ls
+```
+Der erste Befehl ändert den aktuellen Pfad auf den Desktop. 
+Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
+(Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
+so ist der erste Befehl nicht mehr notwendig.)
+
+Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
+In dieser Liste muss sich auch die zuvor auf den Desktop
+kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
+
+<img alt="" src="/img/anaconda-4.png" style="width: 100%;" />
+
+
+Nachfolgend wird der Befehl 
+```
+bash Anaconda3-5.2.0-Linux-x86_64.sh
+```
+verwendet, um die Installation zu starten. **Wichtig** ist zu beachten, dass der zweite Teil des
+Befehls der Name der Installationsdatei ist, sollte dieser sich von dem hier gezeigten unterscheiden
+muss der Befehl entsprechend angepasst werden. Wie zuvor wird auch dieser Befehl durch drücken der
+`Entertaste` bestätigt.
+
+<img alt="" src="/img/anaconda-5.png" style="width: 100%;" />
+
+
+Zunächst wird die _Endnutzervereinbarung_ angezeigt. Dies muss (wie angezeigt) mit der
+`Entertaste` bestätigt werden.
+<img alt="" src="/img/anaconda-6.png" style="width: 100%;" />
+
+Nachfolgend wird der Text der _Endnutzervereinbarung_ angezeigt. Dieser kann mit mehrmaligem Drücken 
+auf die Entertaste durchgescrollt werden.
+<img alt="" src="/img/anaconda-7.png" style="width: 100%;" />
+
+Am Ende der Vereinbarung wird wie folgt um Zustimmung zu dieser Vereinbarung gebeten.
+<img alt="" src="/img/anaconda-8.png" style="width: 100%;" />
+
+Diese Zustimmung wird mit eingabe des Wortes `yes` und drücken der `Entertaste` gegeben.
+<img alt="" src="/img/anaconda-9.png" style="width: 100%;" />
+
+Nun beginnt die Installation von Anaconda. Die erste Einstellung die vorgenommen werden muss ist 
+die Anpassung des Installationspfades dieser lautet wie folgt:
+```
+~/.local/anaconda3
+``` 
+Dieser Pfad ist hinter die `>>>` einzugeben. (Dabei ist `~` eine Abkürzung für `/home/<Benutzername>`, 
+wobei `<Benutzername>` den jeweiligen Linux-Benutzernamen darstellt.)
+Die Eingabe des Pfads wird wie immer mit der `Entertaste` bestätigt.
+<img alt="" src="/img/anaconda-11.png" style="width: 100%;" />
+
+Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
+<img alt="" src="/img/anaconda-13.png" style="width: 100%;" />
+
+
+Im Anschluss an die Installation wird noch eine Anfrage gestellt die mit `yes` und 
+drücken der `Entertaste` bestätigt wird.
+<img alt="" src="/img/anaconda-15.png" style="width: 100%;" />
+
+
+Nach erfolgreich durchgeführter Installation wird in einer weiteren Anfrage gefragt,
+ob _Visual Studio Code_ installiert werden soll. Bei diesem Programm handelt es sich um einen 
+Text-Editor. Dieser wird zum jetzigen Zeitpunkt jedoch nicht benötigt, deswegen wird die Anfrage 
+mit `no` und drücken der `Entertaste` abgelehnt.
+<img alt="" src="/img/anaconda-18.png" style="width: 100%;" />
+
 
 ### Uncertainties
 
