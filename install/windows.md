@@ -309,19 +309,132 @@ So ist die Verwendung am bequemsten (auch die Standardeinstellungen):
 
 ### ConEmu
 
-- Mächtiger Ersatz für die Windows-Konsole
-- [Download ConEmu](https://github.com/Maximus5/ConEmu/releases)
+Das Programm ConEmu stellt einen Ersatz der standard WSL-Kommandozeile dar. Nachvollgend ist die
+Website verlinkt.
 
-Richtig ist die Datei `ConEmuSetup.*.exe`.
+[ConEmu Download](https://github.com/Maximus5/ConEmu/releases)
 
-Hier `x64` für 64-bit oder `x86` für 32-bit auswählen:  
+#### Download und Installation
+
+Auf der verlinkten Website kann die hervorgehobene Installationsdatei herunter geladen werden.
+Im unten dargestellten Screenshot wurde die neuste Version am 06.05.2018 veröffentlicht.
+Das Datum der Veröffentlichung der entsprechenden Version ist dabei immer die jeweilige Überschrift
+(aus 06.05.2018 wird beispielsweise _180506_).   
+Es ist zu beachten, dass immer die aktuellste Version der Software verwendet werden sollte.
+Die Installationsdatei verbirgt sich jeweils hinter dem zweite Link unter _Assets_, beginnt mit 
+_**ConEmuSetup**_ und besitzt die Dateiendung _**.exe**_.
+<img alt="" src="/img/conemu--2.png" style="width: 100%;" />
+ 
+
+Nach erfolgreichem Download und einem doppelten `Linksklick` auf die heruntergeladene Datei
+muss das folgende Fenster mit einem `Linksklick` auf _Ausführen_ bestätigt werden.
+<img alt="" src="/img/conemu-0.png" style="width: 100%;" />
+
+
+Im folgenden Fenster muss zwischen _x64_ für 64-bit PCs oder _x86_ für 32-bit PCs ausgewählt werden.
+Die meisten PCs sind heutzutage 64-bit. Bei einem einigermaßen neuen PC kann also _x64_ ausgewählt werden.
 <img alt="" src="/img/conemu-1.png" style="width: 100%;" />
 
-Die Standardeinstellungen sind ok:  
+
+Es kann folgenden Fenster erscheinen indem die Installation noch mit einem `Linksklick` auf _Ja_ 
+erlaubt werden muss.
 <img alt="" src="/img/conemu-2.png" style="width: 100%;" />
 
-Einmal ConEmu (vom Desktop oder aus dem Startmenü) starten und die Standardeinstellungen absegnen:  
+Das nachvollgende Fenster wird lediglich mit einem `Linksklick` auf _Next_ bestätigt.
 <img alt="" src="/img/conemu-3.png" style="width: 100%;" />
+
+Im Folgenden Fenster muss mit einem  `Linksklick` in die Checkbox zunächst die _Endnutzervereinbarung_  bestätigt werden.
+Diese Auswahl wird mit einem `Linksklick` auf _Next_ bestätigt.
+<img alt="" src="/img/conemu-4.png" style="width: 100%;" />
+
+Nun kann der Umfang der Installation bearbeitet werden, dies ist jedoch optional und wird mit einem
+`Linksklick` auf _Next_ übersprungen.
+<img alt="" src="/img/conemu-5.png" style="width: 100%;" />
+
+Nun kann die Installation von ConEmu mit einem `Linksklick` _Install_ gestartet werden.
+<img alt="" src="/img/conemu-7.png" style="width: 100%;" />
+
+Nach erfolgreicher Installation wird diese durch einen `Linksklick` auf _Finish_ abgeschlossen.
+<img alt="" src="/img/conemu-8.png" style="width: 100%;" />
+
+Auf dem Desktop befindet sich nun die unten hervorgehobene Verknüpfung mit dem Namen _ConEmu (x64)_.
+Mit einem doppelten `Linksklick` auf diese Verknüpfung kann nun ConEmu gestartet werden.
+<img alt="" src="/img/conemu-9.png" style="width: 100%;" />
+
+#### Einrichtung des Bash-Kommandozeile
+
+Nach dem Starten von ConEmu öffnet sich das Programm mit dem unten dargestellten Fenster. Standardmäßig
+öffnet ConEmu die Windows-Kommandozeile (_cmd_) diese Einstellung wird im Folgenden verändert.
+Dazu wird mit einem `Rechtsklick` auf die hervorgehoben Schaltfläche oben rechts (drei horizontale Balken)
+das Einstellungsmenü geöffnet.
+
+<img alt="" src="/img/conemu-10.png" style="width: 100%;" />
+
+In diesem Menü wird zunächst das Untermenü _Tasks_ durch einen `Linksklick` geöffnet.
+In der Liste sollte sich der (hier unter 13) dargestellte Eintrag _{Bash::bash}_ befinden.
+Ist dieser nicht vorhanden, kann dieser mit einem `Linksklick` auf die Schaltfläche _Add/refresh tasks_
+nachgeladen werden. Um die folgenden Einstellungen vorzunehmen wird der Eintrag _{Bash::bash}_ mit 
+einem `Linksklick` ausgewählt.
+
+<img alt="" src="/img/conemu-14.png" style="width: 100%;" />
+
+
+In den Einstellung befinden sich die zwei hervorgehobenen Textboxen.
+Die obere Textbox muss **nicht** angepasst werden.
+In die untere der beiden Textboxen muss folgender Text enthalten sein.
+
+```
+set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" & %ConEmuBaseDirShort%\conemu-cyg-64.exe --wsl -cur_console:pm:/mnt
+```
+Eine Anpassung kann durch Löschung des in der Textbox vorhanden Textes und durch Kopieren und Einfügen des obigen Textes erfolgen.
+
+<img alt="" src="/img/conemu-15.png" style="width: 100%;" />
+
+Die nächste Einstellung wird unter dem Untermenü _Startup_ vorgenommen. Hier wird aus der Liste unter
+_Specified named task_ erneut _{Bash::bash}_ ausgewählt. Die Auswahlliste wird dabei durch einen `Linksklick` 
+auf die Auswahlbox ausgeklappt.
+<img alt="" src="/img/conemu-17.png" style="width: 100%;" />
+
+Die letzten Einstellungen wird unter dem Untermenü _Integration_ vorgenommen. Hier wird in die Textboxen
+(von oben nach unten) folgender Inhalt eingetragen. Der bereits vorhandene Text in den ersten beiden 
+Textboxen muss zunächst gelöscht werden.
+
++ _Menu Item:_ `Bash Here`
++ _Command:_ `/single /single -run {Bash::bash}`
+
+Der Inhalt der Textbox nach _Icon file:_ kann bei behalten werden.
+Diese Einstellung wird zunachst mit einem `Linksklick` auf _Register_ bestätigt und anschließend
+mit einem `Linksklick` auf _Save settings_ abgeschlossen.
+
+<img alt="" src="/img/conemu-21.png" style="width: 100%;" />
+
+Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wie folgt mit der 
+Bash-Kommandozeile öffenen. Diese ist an dem charakteristischen _`$`_ vor dem Cursor zu erkennen,
+die Windows-Kommandozeile zeigt hier ein _`>`_.
+<img alt="" src="/img/conemu-19.png" style="width: 100%;" />
+
+Eine der zuvor vorgenommenen Einstellungen vereinfacht das Öffnen einer Bash-Kommandozeile in einmem 
+beliebigen Ordner. Was genau das heißt wird im Laufe des Workshops erklärt, hier soll nur auf die 
+Auswirkung der Einstellung aufmerksam gemacht werden. Wird auf dem Desktop (oder in einem anderen
+Ordner) ein `Rechtsklick` ausgeführt, so öffnet sich das unten dargestellte Kontextmenü. In diesem 
+befindet sich der hervorgehobene Eintrag _Bash Here_. Wird dieser mit einem `Linksklick` ausgewählt
+öffnet sich ConEmu. 
+<img alt="" src="/img/conemu-22.png" style="width: 100%;" />
+
+Die Unterschied zu vorher ist der Pfad an dem die Konsole geöffnet wird, dies ist jetzt der _Desktop_.
+Zuvor stand in der Zeile ver dem Cursor:
+```
+luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh$
+```
+(Dabei ist zu beachten, dass sowohl `luckyjosh` als auch `josh` durch die entsprechenden Benutzernamen ersetzt sein werden.)
+
+Nun steht dort:
+```
+luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh/Desktop$
+```
+
+<img alt="" src="/img/conemu-23.png" style="width: 100%;" />
+
 
 ### Git
 
