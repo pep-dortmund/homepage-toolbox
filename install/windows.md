@@ -491,6 +491,9 @@ der folgende Befehle eingegeben und mit der `Entertaste` bestätigt.
 ```
 git config --global core.editor "atom --wait"
 ```
+Hier wurde absichtlich kein Screenshot eingefügt, um zu testen ob der grundsätzliche Umgang mit der Bash-Kommandozeile
+verstanden wurde. Falls noch Unsicherheit darüber besteht was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
+der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 ### Uncertainties
 
