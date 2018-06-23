@@ -283,12 +283,58 @@ und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
 
 ### Atom
 
-- Texteditor
-- [Download Atom](https://atom.io/){:target="_blank"}
+Atom ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten 
+in LaTeX geeignet ist. Dieser kann unter dem folgenden Link heruntergeladen werden
+
+[Download Atom](https://atom.io/){:target="_blank"}
+
+Auf der Website befindet sich zu diesem Zweck die Schaltfläche _Download_, welche mit 
+einem `Linksklick` bedient werden kann. 
+
+<img alt="" src="/img/atom-0.png" style="width: 100%;" />
+
+Durch einem doppleten `Linksklick` kann die heruntgeladene Datei ausgeführt werdn.
+Die Installation wird im folgenden Fenster mit einem `Linksklick` auf _Ausführen_ gestartet.
+<img alt="" src="/img/atom-1.png" style="width: 100%;" />
+
+Während der Installation wird dieses (animierte) Fenster angezeigt.
+<img alt="" src="/img/atom-2.png" style="width: 100%;" />
+
+Nach der Installation öffnet sich Atom automatisch. Beim ersten Öffnen kann folgende Anfrage angezeigt werden.
+Diese kann mit einem `Linksklick` auf _No_ abgelehnt werden. (Die Antwort auf diese Anfrage ist optional, wenn
+gewünscht kann auch _yes_ gewählt werden. Diese Entscheidung hat keinen Einfluss auf die Verwendung von Atom 
+für diesen Workshop.)
+<img alt="" src="/img/atom-3.png" style="width: 100%;" />
+
+#### Zusatzpaket für LaTeX
+
+Im Atom Fenster wird nun mit einem `Linksklick` auf _File_ das Datei-Menü geöffnet.
+<img alt="" src="/img/atom-4.png" style="width: 100%;" />
+
+Dort kann mit einem `Linksklick` auf _Settings_ das Einstellungsmenü geöffnet werden.
+<img alt="" src="/img/atom-5.png" style="width: 100%;" />
+
+In diesem wird nun das Untermenü _Install_ mit einem `Linksklick` ausgewählt.
+<img alt="" src="/img/atom-6.png" style="width: 100%;" />
+
+In das Suchfeld wird nun 
+```
+language-latex
+```
+eingegeben und mit einem `Linksklick` auf die Schaltfläche _Packages_ wird nach diesem Paket gesucht.
+Das entsprechende Paket kann im Anschluss mit einem `Linksklick` auf die Schlaltfläche _Install_ installiert werden.
+<img alt="" src="/img/atom-9.png" style="width: 100%;" />
+
+Nach erfolgreicher Installation sieht die Anzeige wie folgt aus.
+<img alt="" src="/img/atom-10.png" style="width: 100%;" />
+
+
+
+
 - Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex` installiert werden
     - Klicke auf `File → Settings`
     - Wähle `Install` in der Leiste aus
-    - Suche nach dem Paket `language-latex`
+    - Suche nach dem Paket ``
     - Installiere es mit einem Klick auf `Install`
 
 
