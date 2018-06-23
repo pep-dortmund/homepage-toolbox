@@ -436,6 +436,57 @@ luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh/Desktop$
 <img alt="" src="/img/conemu-23.png" style="width: 100%;" />
 
 
+### Git, Make und weiteres
+
+Für die Installation der beiden Programme git und und make muss zunächst eine
+Bash-Kommandozeile unter Verwendung von ConEmu geöffnet werden, zum Beispiel
+über den oben beschriebenen Eintrag im Kontextmenü.   
+Wie unten gezeigt wird in dieses Fenster nun der Befehl
+```
+sudo apt update
+```
+eingetragen. Und mit drücken der `Entertaste` bestätigt.
+Die Ausführung dieses Befehls kann einige Zeit in anspruch nehmen und setzt eine
+Internetverbindung vorraus über die einige 100MB große Datenmengen heruntergeladen
+werden können.
+
+<img alt="" src="/img/unix-tools-0.png" style="width: 100%;" />
+
+Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
+das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden. 
+<img alt="" src="/img/unix-tools-01.png" style="width: 100%;" />
+
+
+Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch wird die ausgegebene Liste der Programme die geupdated
+werden können beim ersten Ausführen wesentlich länger sein.
+<img alt="" src="/img/unix-tools-02.png" style="width: 100%;" />
+
+Die Updates müssen nun noch installiert werden, denn bisher wurden diese nur heruntergeladen.
+Dies erfolgt durch Eingabe des Befehls
+```
+sudo apt upgrade
+```
+und auch dieser Befehl wird mit der `Entertaste` bestätigt.
+<img alt="" src="/img/unix-tools-1.png" style="width: 100%;" />
+
+Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
+`Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
+<img alt="" src="/img/unix-tools-03.png" style="width: 100%;" />
+
+Nun können die beiden Programme git und make installiert werde. Dies erfolgt durch die Eingabe des
+Befehls
+```
+sudo apt install git make
+```
+und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
+<img alt="" src="/img/unix-tools-2.png" style="width: 100%;" />
+
+Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
+<img alt="" src="/img/unix-tools-3.png" style="width: 100%;" />
+
+
+
+
 ### Git
 
 - Werkzeug für Versionskontrolle und Kollaboratives Arbeiten an Code
