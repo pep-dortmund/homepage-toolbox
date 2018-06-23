@@ -675,15 +675,6 @@ Im Terminal eingeben
     pip install uncertainties
 
 
-Die einfache Installation genügt:  
-![](/img/texlive-1.png)
-
-Der Standardpfad ist ok:  
-![](/img/texlive-2.png)
-
-Wir brauchen TeXworks nicht:  
-![](/img/texlive-3.png)
-
 __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
