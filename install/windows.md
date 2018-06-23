@@ -608,6 +608,64 @@ mit `no` und drücken der `Entertaste` abgelehnt.
 <img alt="" src="/img/anaconda-18.png" style="width: 100%;" />
 
 
+### TeXLive
+
+TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weiter Informationen und 
+eine detailierte Installationsanleitung können unter den folgenden Links eingesehen werden.
++ [TeXLive Website](https://www.tug.org/texlive/)
++ [Installationsanleitung](https://www.tug.org/texlive/windows.html)
+
+Für diese (Kurz-) Anleitung kann die Datei unter dem folgenden Link verwendet werden.
+[TeXLive Download](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
+
+Um die Installationsbeschreibung zu vereinfachen, sollte die heruntergeladen Datei auf den Desktop kopiert werden.
+Für die Installation wird erneut die Bash-Kommandozeile (mit ConEmu) verwendet. 
+In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
+`Entertaste` bestätigt.
+```
+cd Desktop
+```
+```
+ls
+```
+```
+tar xvzf install-tl-unx.tar.gz
+```
+
+Der erste Befehl ändert den aktuellen Pfad auf den Desktop. 
+Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
+(Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
+so ist der erste Befehl nicht mehr notwendig.)
+
+Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
+In dieser Liste muss sich auch die zuvor auf den Desktop
+kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
+
+Der dritte Befehl entpackt die heruntergladene Datei (`.tar.gz` Dateien sind ähnlich zu `.zip` Dateien)
+in einen gleichnamigen Ordner.
+
+<img alt="" src="/img/texlive-0.png" style="width: 100%;" />
+
+Nachdem alle Dateien entpackt wurden muss folgender Befehl eigegeben und mit drücken der `Entertaste`
+bestätigt werden.
+```
+TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
+```
+Dieser Befehl setzt den Installationspfad (erster Teil) und startet das Installationprogramm (zweiter Teil).
+<img alt="" src="/img/texlive-2.png" style="width: 100%;" />
+
+Um die Installation zu starten muss die folgende Anfrage mit `I` und einem druck auf die `Entertaste`
+bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die ca. 4GB 
+an Daten heruntergeladen werden. Entsprechend kann diese Installation mitunter sehr viel Zeit in Anspruch nehmen.
+<img alt="" src="/img/texlive-4.png" style="width: 100%;" />
+
+Nachfolgend wird die LaTeX und alle zugehörigen Pakete heruntergeladen und installiert.
+<img alt="" src="/img/texlive-5.png" style="width: 100%;" />
+
+Nach erfolgreicher Installation wird folgender Text ausgegeben.
+<img alt="" src="/img/texlive-6.png" style="width: 100%;" />
+
+
 ### Uncertainties
 
 - [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
@@ -616,12 +674,6 @@ Im Terminal eingeben
 
     pip install uncertainties
 
-### TeXLive
-
-- [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/windows.html)
-    - [Versionsunabhängiger Link (install-tl-windows.exe)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
-    - __Achtung__: während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen.
-    - Es wird empfohlen, den Virenscanner für die Dauer der Installation abzuschalten, falls es zu Problemen kommt.
 
 Die einfache Installation genügt:  
 ![](/img/texlive-1.png)
