@@ -329,15 +329,6 @@ Nach erfolgreicher Installation sieht die Anzeige wie folgt aus.
 <img alt="" src="/img/atom-10.png" style="width: 100%;" />
 
 
-
-
-- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex` installiert werden
-    - Klicke auf `File → Settings`
-    - Wähle `Install` in der Leiste aus
-    - Suche nach dem Paket ``
-    - Installiere es mit einem Klick auf `Install`
-
-
 ### ConEmu
 
 Das Programm ConEmu stellt einen Ersatz der standard WSL-Kommandozeile dar. Nachvollgend ist die
