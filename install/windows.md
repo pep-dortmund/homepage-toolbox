@@ -421,8 +421,8 @@ befindet sich der hervorgehobene Eintrag _Bash Here_. Wird dieser mit einem `Lin
 öffnet sich ConEmu. 
 <img alt="" src="/img/conemu-22.png" style="width: 100%;" />
 
-Die Unterschied zu vorher ist der Pfad an dem die Konsole geöffnet wird, dies ist jetzt der _Desktop_.
-Zuvor stand in der Zeile ver dem Cursor:
+Der Unterschied zu vorher ist der Pfad an dem die Konsole geöffnet wird, dies ist jetzt der _Desktop_.
+Zuvor stand in der Zeile vor dem Cursor:
 ```
 luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh$
 ```
