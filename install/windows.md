@@ -291,21 +291,6 @@ und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
     - Suche nach dem Paket `language-latex`
     - Installiere es mit einem Klick auf `Install`
 
-### Anaconda
-
-- Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten
-
-- [Download Anaconda](http://www.continuum.io/downloads#windows){:target="_blank"}
-  (__Wichtig__: Wir wollen Python 3.6. Richtige Version (32-bit / 64-bit) für `X86` auswählen.)
-
-Die Standardeinstellung ist ok:  
-<img alt="" src="/img/anaconda-1.png" style="width: 100%;" />
-
-Der Standardpfad ist ok:  
-<img alt="" src="/img/anaconda-2.png" style="width: 100%;" />
-
-So ist die Verwendung am bequemsten (auch die Standardeinstellungen):  
-<img alt="" src="/img/anaconda-3.png" style="width: 100%;" />
 
 ### ConEmu
 
