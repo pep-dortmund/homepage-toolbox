@@ -726,6 +726,13 @@ Nachfolgend wird nun LaTeX selbst und alle zugehörigen Pakete heruntergeladen u
 Nach erfolgreicher Installation wird folgender Text ausgegeben.
 <img alt="" src="/img/texlive-6.png" style="width: 100%;" />
 
+Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der 
+`Entertaste` bestätigt wird.
+```
+echo 'export PATH="~/.local/texlive/2018/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+```
+<img alt="" src="/img/texlive-7.png" style="width: 100%;" />
+
 
 
 __Jetzt noch die Installation [testen](#test)!__
