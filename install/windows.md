@@ -472,6 +472,22 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 <img alt="" src="/img/xserver-15.png" style="width: 100%;" />
 
 
+Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
+vorgenommen werden. In diese werden nacheinander die folgenden Befehle eingegeben und mit 
+einem Druck auf die `Entertaste` bestätigt.
+```
+echo "DISPLAY=:0.0" >> ~/.bashrc
+```
+```
+echo "export DISPLAY" >> ~/.bashrc
+```
+<img alt="" src="/img/xserver-16.png" style="width: 100%;" />
+
+
+
+
+
+
 ### Git, Make und weiteres
 
 Für die Installation der beiden Programme git und und make muss zunächst eine
