@@ -318,7 +318,7 @@ Auch die Standardeinstellung für den Startmenü-Eintrag können einfach mit ein
 _Weiter_ akzeptiert werden.
 <img alt="" src="/img/vscode-6.png" style="width: 100%;" />
 
-Im Letzten Einstellungsfenster werden alle vier Optionen durch einen jeweiligen `Linksklick` ausgewählt
+Im Letzten Einstellungsfenster werden alle fünf Optionen durch einen jeweiligen `Linksklick` ausgewählt
 und mit einem weiteren `Linksklick` auf _Weiter_ bestätigt.
 <img alt="" src="/img/vscode-7.png" style="width: 100%;" />
 
