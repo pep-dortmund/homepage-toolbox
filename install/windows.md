@@ -733,6 +733,19 @@ echo 'export PATH="~/.local/texlive/2018/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 <img alt="" src="/img/texlive-7.png" style="width: 100%;" />
 
+Im Anschluss muss das Fenster mit der Bash-Kommandozeile geschlossen und erneut geöffnet werden.
+Die letzte Einstellung für TexLive erfolgt durch Eingabe der folgenden Befehle und jeweiliger
+Bestätigung mit der `Entertaste`.
+```
+tlmgr option autobackup -- -1
+```
+```
+tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+```
+<img alt="" src="/img/texlive-8.png" style="width: 100%;" />
+
+
+
 
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -790,34 +803,57 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
     make: *** No targets specified and no makefile found.  Stop.
 ```
 
-### TeX
+### TeXLive
 
-In ConEmu:
+Die TeXLive Installation wird ebenfalls unter Verwendung der Bash-Kommandozeile getestet.
+In diese wird der folgende Befehl eingegeben.
 
-    luatex
+```
+luatex
+```
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.0.4 (TeX Live 2017) 
-    restricted system commands enabled.
-    **
+```
+This is LuaTeX, Version 1.0.4 (TeX Live 2017) 
+restricted system commands enabled.
+**
+```
 
-Mit Strg-C beenden.
-
-    biber
+Diese kann mit drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
+Nun wird ein weiteres Program getestet, das von LaTeX verwendet wird. Dies wird durch 
+Eingabe des Befehls
+```
+biber
+```
+erreicht.
 
 Es sollte die Biber-Hilfe erscheinen.
+```
+Usage:
+      biber [options] file[.bcf]
+      biber [options] --tool <datasource>
 
-    texdoc texlive
+      Creates "file.bbl" using control file "file.bcf" (".bcf" extension is
+      optional). Normally use with biblatex requires no options as they are
+      all set in biblatex and passed via the ".bcf" file
 
-Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
+      In "tool" mode (see B<--tool> option), takes a datasource (defaults to
+      "bibtex" datasource) and outputs a copy of the datasource with any command-line
+      or config file options applied.
 
-### TeXLive einstellen: 
+      Please run "biber --help" for option details
+```
 
-`cmd.exe` oder ein `cmd`-Terminal in ConEmu benutzen
+Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
+Für diesen Test muss das Programm XLaunch gestartet worden sein.   
+Der Test-Befehl lautet:
+```
+texdoc texlive
+```
 
-    tlmgr option autobackup -- -1
-    tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+Es sollte nun die Dokumentation von TeXLive in einem PDF-Betrachter geöffnet werden.
+
 
 ## <a id="update"></a>Aktualisieren
 
