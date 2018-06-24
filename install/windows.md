@@ -854,29 +854,38 @@ texdoc texlive
 
 Es sollte nun die Dokumentation von TeXLive in einem PDF-Betrachter geöffnet werden.
 
-
 ## <a id="update"></a>Aktualisieren
 
 ### Anaconda
 
-In ConEmu (Bash):
-
-    conda update anaconda
-
-### Unix-Tools und Make (Windows)
-
-In ConEmu:
-
-    pacman -Syu
-
+Um Updates für Anaconda zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
+```
+conda update anaconda
+```
 ### Uncertainties
 
-In ConEmu:
+Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in eine Bash-Kommandozeile eingegeben.
 
+```
     pip install -U uncertainties
+```
+
+### Git, Make und weitere Unix-Tools 
+
+Um Updates für dies sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
+müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
+Bash-Kommandozeile eingegeben werden. 
+```
+sudo apt update
+```
+```
+sudo apt upgrade
+```
+
 
 ### TeXLive
 
-`cmd.exe` oder ein `cmd` Terminal in ConEmu benutzen
-
-    tlmgr update --self --all --reinstall-forcibly-removed
+Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
+```
+tlmgr update --self --all --reinstall-forcibly-removed
+```
