@@ -738,10 +738,15 @@ Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Lini
 
 ### Uncertainties
 
-Ebenfalls in ConEmu:
+Auch Uncertainties wird über die Bash-Kommandozeile getestet. In diese werden die folgenden Befehle
+nacheinander eingegeben. Nach Eingabe des ersten Befehls wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
 
-    ipython
-    import uncertainties
+```
+ipython
+```
+```
+import uncertainties
+```
 
 Es sollte keine Fehlermeldung erscheinen.
 
