@@ -339,29 +339,6 @@ dargestellte Information angezeigt werden. Diese kann durch einen  `Linksklick` 
 Tabs, welche am oberen Rand aufgereiht sind, durch einen `Linksklick` auf das `X` geschlossen werden.
 <img alt="" src="/img/vscode-11.png" style="width: 100%;" />
 
-#### Zusatzpaket für LaTeX
-
-Im Atom Fenster wird nun mit einem `Linksklick` auf _File_ das Datei-Menü geöffnet.
-<img alt="" src="/img/atom-4.png" style="width: 100%;" />
-
-Dort kann mit einem `Linksklick` auf _Settings_ das Einstellungsmenü geöffnet werden.
-<img alt="" src="/img/atom-5.png" style="width: 100%;" />
-
-In diesem wird nun das Untermenü _Install_ mit einem `Linksklick` ausgewählt.
-<img alt="" src="/img/atom-6.png" style="width: 100%;" />
-
-In das Suchfeld wird nun 
-```
-language-latex
-```
-eingegeben und mit einem `Linksklick` auf die Schaltfläche _Packages_ wird nach diesem Paket gesucht.
-Das entsprechende Paket kann im Anschluss mit einem `Linksklick` auf die Schlaltfläche _Install_ installiert werden.
-<img alt="" src="/img/atom-9.png" style="width: 100%;" />
-
-Nach erfolgreicher Installation sieht die Anzeige wie folgt aus.
-<img alt="" src="/img/atom-10.png" style="width: 100%;" />
-
-
 ### ConEmu
 
 Das Programm ConEmu stellt einen Ersatz der standard WSL-Kommandozeile dar. Nachvollgend ist die
