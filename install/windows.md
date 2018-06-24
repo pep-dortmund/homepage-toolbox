@@ -632,6 +632,22 @@ Text-Editor. Dieser wird zum jetzigen Zeitpunkt jedoch nicht benötigt, deswegen
 mit `no` und drücken der `Entertaste` abgelehnt.
 <img alt="" src="/img/anaconda-18.png" style="width: 100%;" />
 
+### Uncertainties
+
+Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationenen
+können auf der verlinkten Website gefunden werden.
+
+[Uncertainties Website](http://pythonhosted.org/uncertainties/)
+
+Installiert werden kann Uncertainties über die Bash-Kommandozeile. In diese muss der folgende Befehl
+eingetragen werden.
+
+```
+pip install uncertainties
+```
+<img alt="" src="/img/uncertainties-0.png" style="width: 100%;" />
+
+
 
 ### TeXLive
 
@@ -691,13 +707,7 @@ Nach erfolgreicher Installation wird folgender Text ausgegeben.
 <img alt="" src="/img/texlive-6.png" style="width: 100%;" />
 
 
-### Uncertainties
 
-- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek für automatisierte Fehlerrechnung
-
-Im Terminal eingeben
-
-    pip install uncertainties
 
 
 __Jetzt noch die Installation [testen](#test)!__
