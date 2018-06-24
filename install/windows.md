@@ -708,22 +708,33 @@ Nach erfolgreicher Installation wird folgender Text ausgegeben.
 
 
 
-
-
 __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
 ### Python
 
-Ebenfalls in ConEmu:
+Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
+geschlossen und ein neues geöffnet werden.
+Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden.
 
-    ipython
-    %matplotlib
-    import matplotlib.pyplot as plt
-    plt.plot([1, 2, 4])
+In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
+wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
 
-Es sollte ein Fenster mit einem Plot erscheinen.
+```
+ipython
+```
+```
+%matplotlib
+```
+```
+import matplotlib.pyplot as plt
+```
+```
+plt.plot([1, 2, 4])
+```
+
+Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
 
 ### Uncertainties
 
