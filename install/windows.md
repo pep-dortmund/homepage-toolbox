@@ -517,16 +517,22 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 <img alt="" src="/img/unix-tools-3.png" style="width: 100%;" />
 
 
-#### Git-Einstellung
+#### Git-Einstellungen
 
-Für Git muss noch eine Einstellung vorgenommen werden. Dafür wird in die Bash-Kommandozeile wie zuvor
-der folgende Befehle eingegeben und mit der `Entertaste` bestätigt.
+Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
+die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
+
+Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene Email Adresse** verwendet werden!
 ```
-git config --global core.editor "atom --wait"
+git config --global user.name "Max Mustermann"
 ```
-Hier wurde absichtlich kein Screenshot eingefügt, um zu testen ob der grundsätzliche Umgang mit der Bash-Kommandozeile
-verstanden wurde. Falls noch Unsicherheit darüber besteht was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
-der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann im Anschluss mit mehr Sicherheit nachgeholt werden.
+```
+git config --global user.email "max.mustermann@tu-dortmund.de"
+```
+
+Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
+Falls noch Unsicherheit darüber besteht was mit den obigen Befehl angestellt werden soll, kann zunächst mit
+der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
 ### Anaconda
