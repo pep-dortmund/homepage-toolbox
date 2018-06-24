@@ -529,6 +529,15 @@ git config --global user.name "Max Mustermann"
 ```
 git config --global user.email "max.mustermann@tu-dortmund.de"
 ```
+```
+git config --global pull.rebase true
+```
+```
+git config --global rebase.stat true
+```
+```
+git config --global merge.conflictstyle diff3
+```
 
 Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
 Falls noch Unsicherheit darüber besteht was mit den obigen Befehl angestellt werden soll, kann zunächst mit
@@ -695,22 +704,6 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
-### Git
-
-ConEmu mit einer MSys2 Shell öffnen, zum Beispiel auf dem Desktop über `Rechtsklick → Bash Here`
-
-    git
-
-Es sollte die Git-Hilfe erscheinen.
-
-Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
-
-    git config --global user.name "Max Mustermann"
-    git config --global user.email "max.mustermann@udo.edu"
-    git config --global pull.rebase true
-    git config --global rebase.stat true
-    git config --global merge.conflictstyle diff3
-
 ### Python
 
 Ebenfalls in ConEmu:
@@ -733,13 +726,16 @@ Es sollte keine Fehlermeldung erscheinen.
 
 ### Make
 
-Ebenfalls in ConEmu:
+Make kann durch öffnen einer Bash-Kommandozeile und durch eingeben des folgenden Befehls getestet werden.
 
-    make
+```
+make
+```
 
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
-
+```
     make: *** No targets specified and no makefile found.  Stop.
+```
 
 ### TeX
 
