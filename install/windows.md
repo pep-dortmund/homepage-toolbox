@@ -664,6 +664,11 @@ echo 'conda activate' >> ~/.bashrc
 ```
 <img alt="" src="/img/anaconda-19.png" style="width: 100%;" />
 
+Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
+so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
+
+<img alt="" src="/img/anaconda-20.png" style="width: 100%;" />
+
 
 
 ### Uncertainties
