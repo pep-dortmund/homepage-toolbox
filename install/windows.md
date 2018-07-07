@@ -641,16 +641,30 @@ Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 <img alt="" src="/img/anaconda-13.png" style="width: 100%;" />
 
 
-Im Anschluss an die Installation wird noch eine Anfrage gestellt die mit `yes` und 
+Im Anschluss an die Installation wird noch eine Anfrage gestellt die mit der Eingabe von `no` und 
 drücken der `Entertaste` bestätigt wird.
 <img alt="" src="/img/anaconda-15.png" style="width: 100%;" />
 
 
 Nach erfolgreich durchgeführter Installation wird in einer weiteren Anfrage gefragt,
-ob _Visual Studio Code_ installiert werden soll. Bei diesem Programm handelt es sich um einen 
-Text-Editor. Dieser wird zum jetzigen Zeitpunkt jedoch nicht benötigt, deswegen wird die Anfrage 
-mit `no` und drücken der `Entertaste` abgelehnt.
+ob _Visual Studio Code_ installiert werden soll. Da die Windows Version dieses Editors bereits 
+installiert wurde, kann die Anfrage mit der Eingabe `no` und drücken der `Entertaste` abgelehnt werden.
 <img alt="" src="/img/anaconda-18.png" style="width: 100%;" />
+
+Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben 
+und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
+eingehalten werden. Da hier besonders darauf geachtet werden muss, keinen Tippfehler zu machen,
+empfiehlt es sich hier (mehr als sonst), die Befehle zu kopieren und einzufügen.
+
+```
+echo '. "~/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
+```
+```
+echo 'conda activate' >> ~/.bashrc
+```
+<img alt="" src="/img/anaconda-19.png" style="width: 100%;" />
+
+
 
 ### Uncertainties
 
@@ -845,7 +859,7 @@ Usage:
       Please run "biber --help" for option details
 ```
 
-Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
+Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.9
 Für diesen Test muss das Programm XLaunch gestartet worden sein.   
 Der Test-Befehl lautet:
 ```
