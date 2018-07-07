@@ -657,7 +657,7 @@ eingehalten werden. Da hier besonders darauf geachtet werden muss, keinen Tippfe
 empfiehlt es sich hier (mehr als sonst), die Befehle zu kopieren und einzufügen.
 
 ```
-echo '. "~/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
+echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
 ```
 ```
 echo 'conda activate' >> ~/.bashrc
