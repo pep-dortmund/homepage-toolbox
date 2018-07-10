@@ -13,6 +13,18 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
+## Umfrage
+
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
+Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
+So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+
+<div class="text-center mb-3">
+<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSctNnj7e8kDkmcdauqA57w9AfHs__Emdq7FVNsF5rLsdpnX-A/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd9mwsUy8JGnQuUlSeFDdiJdal4ITm0HUdccu2BldNXHn1teg/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
+</div>
+
+
 ## Themen
 
 Die beiden Wochen sind unabhängig voneinander gestaltet.
@@ -52,30 +64,18 @@ Bitte beachtet die folgenden Schritte:
 - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
-## Feedback 2017
+<!-- ## Feedback 2017 -->
 
-Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
-Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
-
-<div class="text-center">
-<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfH49biien8FyB3dbWgTKqjhkKnMXJ7I2GBGl_RYAa0cROoCQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeYbdCOD8rBPSMHZwAFmV_KfS4UkykkqyOl7gGfgRPxxi5mVQ/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
-</div>
-
-
-<!-- ## Umfrage -->
-
-<!-- Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt. -->
-<!-- Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen. -->
-<!-- So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen. -->
+<!-- Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können. -->
+<!-- Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus. -->
 
 <!-- <div class="text-center"> -->
-<!-- <a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLScoOqa2yMIBS2hLY20VkBOue7ZV2S6KNt2r10CsuVs5rA5Zaw/viewform">Zur Toolbox-Umfrage (erste Woche)</a> -->
-<!-- <a target="_blank" type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfv9U-9KBKhI5TikwEnbbjrYmYs7ZKkOu-gTw8lxoKXkwX0ew/viewform">Zur LaTeX-Umfrage (zweite Woche)</a> -->
+<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfH49biien8FyB3dbWgTKqjhkKnMXJ7I2GBGl_RYAa0cROoCQ/viewform">Zum Toolbox-Feedback (erste Woche)</a> -->
+<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeYbdCOD8rBPSMHZwAFmV_KfS4UkykkqyOl7gGfgRPxxi5mVQ/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
 <!-- </div> -->
 
 
-## Ablaufplan 2017
+## Ablaufplan 2018
 
 <table class="table table-hover">
 <thead>
@@ -88,39 +88,39 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 </thead>
 <tbody>
   <tr>
-  <td>Mo, 25.09.2017</td>
+  <td>Mo, 24.09.2018</td>
   <td>9 Uhr</td>
   <td>CP-03-150</td>
   <td>Betreutes Installieren falls es Probleme gab / Umstieg auf Linux für Interessenten</td>
   </tr>
   <tr>
-  <td>Mo, 25.09.2017</td>
+  <td>Mo, 24.09.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Python, numpy, matplotlib</td>
   </tr>
   <tr>
-  <td>Di, 26.09.2017</td>
+  <td>Di, 25.09.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>scipy, uncertainties</td>
   </tr>
   <tr>
-  <td>Mi, 27.09.2017</td>
+  <td>Mi, 26.09.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Do, 28.09.2017</td>
+  <td>Do, 27.09.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Versionskontrolle mit Git</td>
   </tr>
   <tr>
-  <td>Fr, 29.09.2017</td>
+  <td>Fr, 28.09.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Ausführliche Übungen</td>
   </tr>
   <tr>
@@ -130,27 +130,27 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
   <td></td>
   </tr>
   <tr>
-  <td>Mo, 02.10.2017</td>
+  <td>Mo, 01.10.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Mi, 04.10.2017</td>
+  <td>Di, 02.10.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Do, 05.10.2017</td>
+  <td>Do, 04.10.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Fr, 06.10.2017</td>
+  <td>Fr, 05.10.2018</td>
   <td>13–17 Uhr</td>
-  <td>Chemie HS 3</td>
+  <td>CT-ZB ZE01</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
 </tbody>
