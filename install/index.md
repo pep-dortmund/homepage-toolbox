@@ -3,6 +3,8 @@ layout: default
 title: Installation
 ---
 
+<span style="color: crimson;"><em>Wir updaten die Installationsanleitung im Moment für 2018, schaut am besten Anfang September noch einmal vorbei</em></span>
+
 <div class="row">
   <div class="col-md-4">
     <a class="btn btn-outline-dark btn-block" href="/install/linux.html" role="button">
