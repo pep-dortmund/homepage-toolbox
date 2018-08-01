@@ -111,6 +111,7 @@ Schaltfläche _Herunterladen_ wird der Download begonnen.
 <img alt="" src="/img/wsl-8.png" style="width: 100%;" />
 
 Der Download lädt einige 100 Megabyte an Daten herunter und kann einige Minuten in Anspruch nehmen.
+
 <img alt="" src="/img/wsl-9.png" style="width: 100%;" />
 
 Nachdem der Download abgeschlossen ist, kann die Installation, durch einen `Linksklick`
@@ -146,6 +147,7 @@ Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschl
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss dieses erneut (zweimal) eingegeben werden.
+
 <img alt="" src="/img/wsl-15.png" style="width: 100%;" />
 
 Ist die Installation erfolgreich durchgeführt worden, 
@@ -210,6 +212,7 @@ das Optionsmenü geöffnet.
 Im Optionsmenü kann Sumatra PDF zum Standard-PDF-Betrachter gemacht werden. Dafür muss zunächst
 mit einem `Linksklick` auf _Standardmäßig PDF-Dateien mit SumatraPDF öffnen_ diese Einstellung vorgenommen
 und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
+
 <img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
 
 
@@ -229,45 +232,56 @@ einem `Linksklick` bedient werden kann.
 
 Durch einem doppleten `Linksklick` kann die heruntgeladene Datei ausgeführt werdn.
 Die Installation wird im folgenden Fenster mit einem `Linksklick` auf _Ausführen_ gestartet.
+
 <img alt="" src="/img/vscode-1.png" style="width: 100%;" />
 
 Vor der Installation kann dieses Fenster entscheiden, welches mit einem `Linksklick` auf _Ja_ bestätigt werden muss.
+
 <img alt="" src="/img/vscode-2.png" style="width: 100%;" />
 
 Die Installations-Einstellungen werden durch einen `Linksklick` auf _Weiter_ begonnen.
+
 <img alt="" src="/img/vscode-3.png" style="width: 100%;" />
 
 Zunächst muss die _Endnutzervereinbarung_ durch `Linksklick` auf die obere Auswahl und einen weiteren
 `Linksklick` auf _Weiter_ akzeptiert werden.
+
 <img alt="" src="/img/vscode-4.png" style="width: 100%;" />
 
 Im folgenden Fentster kann der Installationspfad angepasst werden, dies ist jedoch optional und der
 Standardpfad kann mit einem `Linksklick` auf _Weiter_ verwendet werden.
+
 <img alt="" src="/img/vscode-5.png" style="width: 100%;" />
 
 Auch die Standardeinstellung für den Startmenü-Eintrag können einfach mit einem `Linksklick` auf
 _Weiter_ akzeptiert werden.
+
 <img alt="" src="/img/vscode-6.png" style="width: 100%;" />
 
 Im Letzten Einstellungsfenster werden alle fünf Optionen durch einen jeweiligen `Linksklick` ausgewählt
 und mit einem weiteren `Linksklick` auf _Weiter_ bestätigt.
+
 <img alt="" src="/img/vscode-7.png" style="width: 100%;" />
 
 Im Folgenden können die gemachten Einstellungen noch mal überprüft und die Installation mit einem 
 `Linksklick` auf _Installieren_ gestartet. 
+
 <img alt="" src="/img/vscode-8.png" style="width: 100%;" />
 
 Nachfolgend wird VSCode installiert.
+
 <img alt="" src="/img/vscode-9.png" style="width: 100%;" />
 
 Mit einem `Linksklick` auf _Fertigstellen_ kann die Installation abgeschlossen werden.
 Ist _Visual Studio Code starten_ ausgewählt, wird im Anschluss VSCode gestartet. 
+
 <img alt="" src="/img/vscode-10.png" style="width: 100%;" />
 
 Beim Öffnen nach der Installation öffnet sich außerdem auch die Website mit der VSCode
 Dokumentation. Letztere kann ohne Bedenken geschlossen werden. Im Fenster von VSCode kann in der unteren rechten Ecke die
 dargestellte Information angezeigt werden. Diese kann durch einen  `Linksklick` auf das `X` geschlossen werden. Genauso können die 
 Tabs, welche am oberen Rand aufgereiht sind, durch einen `Linksklick` auf das `X` geschlossen werden.
+
 <img alt="" src="/img/vscode-11.png" style="width: 100%;" />
 
 ### ConEmu
@@ -286,42 +300,52 @@ Das Datum der Veröffentlichung der entsprechenden Version ist dabei immer die j
 Es ist zu beachten, dass immer die aktuellste Version der Software verwendet werden sollte.
 Die Installationsdatei verbirgt sich jeweils hinter dem zweite Link unter _Assets_, beginnt mit 
 _**ConEmuSetup**_ und besitzt die Dateiendung _**.exe**_.
+
 <img alt="" src="/img/conemu--2.png" style="width: 100%;" />
  
 
 Nach erfolgreichem Download und einem doppelten `Linksklick` auf die heruntergeladene Datei
 muss das folgende Fenster mit einem `Linksklick` auf _Ausführen_ bestätigt werden.
+
 <img alt="" src="/img/conemu-0.png" style="width: 100%;" />
 
 
 Im folgenden Fenster muss zwischen _x64_ für 64-bit PCs oder _x86_ für 32-bit PCs ausgewählt werden.
 Die meisten PCs sind heutzutage 64-bit. Bei einem einigermaßen neuen PC kann also _x64_ ausgewählt werden.
+
 <img alt="" src="/img/conemu-1.png" style="width: 100%;" />
 
 
 Es kann folgenden Fenster erscheinen indem die Installation noch mit einem `Linksklick` auf _Ja_ 
 erlaubt werden muss.
+
 <img alt="" src="/img/conemu-2.png" style="width: 100%;" />
 
 Das nachvollgende Fenster wird lediglich mit einem `Linksklick` auf _Next_ bestätigt.
+
 <img alt="" src="/img/conemu-3.png" style="width: 100%;" />
 
 Im Folgenden Fenster muss mit einem  `Linksklick` in die Checkbox zunächst die _Endnutzervereinbarung_  bestätigt werden.
 Diese Auswahl wird mit einem `Linksklick` auf _Next_ bestätigt.
+
 <img alt="" src="/img/conemu-4.png" style="width: 100%;" />
 
 Nun kann der Umfang der Installation bearbeitet werden, dies ist jedoch optional und wird mit einem
 `Linksklick` auf _Next_ übersprungen.
+
 <img alt="" src="/img/conemu-5.png" style="width: 100%;" />
 
 Nun kann die Installation von ConEmu mit einem `Linksklick` _Install_ gestartet werden.
+
 <img alt="" src="/img/conemu-7.png" style="width: 100%;" />
 
 Nach erfolgreicher Installation wird diese durch einen `Linksklick` auf _Finish_ abgeschlossen.
+
 <img alt="" src="/img/conemu-8.png" style="width: 100%;" />
 
 Auf dem Desktop befindet sich nun die unten hervorgehobene Verknüpfung mit dem Namen _ConEmu (x64)_.
 Mit einem doppelten `Linksklick` auf diese Verknüpfung kann nun ConEmu gestartet werden.
+
 <img alt="" src="/img/conemu-9.png" style="width: 100%;" />
 
 #### Einrichtung des Bash-Kommandozeile
@@ -356,6 +380,7 @@ Eine Anpassung kann durch Löschung des in der Textbox vorhanden Textes und durc
 Die nächste Einstellung wird unter dem Untermenü _Startup_ vorgenommen. Hier wird aus der Liste unter
 _Specified named task_ erneut _{Bash::bash}_ ausgewählt. Die Auswahlliste wird dabei durch einen `Linksklick` 
 auf die Auswahlbox ausgeklappt.
+
 <img alt="" src="/img/conemu-17.png" style="width: 100%;" />
 
 Die letzten Einstellungen wird unter dem Untermenü _Integration_ vorgenommen. Hier wird in die Textboxen
@@ -374,6 +399,7 @@ mit einem `Linksklick` auf _Save settings_ abgeschlossen.
 Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wie folgt mit der 
 Bash-Kommandozeile öffenen. Diese ist an dem charakteristischen _`$`_ vor dem Cursor zu erkennen,
 die Windows-Kommandozeile zeigt hier ein _`>`_.
+
 <img alt="" src="/img/conemu-19.png" style="width: 100%;" />
 
 Eine der zuvor vorgenommenen Einstellungen vereinfacht das Öffnen einer Bash-Kommandozeile in einmem 
@@ -382,6 +408,7 @@ Auswirkung der Einstellung aufmerksam gemacht werden. Wird auf dem Desktop (oder
 Ordner) ein `Rechtsklick` ausgeführt, so öffnet sich das unten dargestellte Kontextmenü. In diesem 
 befindet sich der hervorgehobene Eintrag _Bash Here_. Wird dieser mit einem `Linksklick` ausgewählt
 öffnet sich ConEmu. 
+
 <img alt="" src="/img/conemu-22.png" style="width: 100%;" />
 
 Der Unterschied zu vorher ist der Pfad an dem die Konsole geöffnet wird, dies ist jetzt der _Desktop_.
@@ -407,61 +434,76 @@ folgenden Link heruntergeladen werden.
 [X-Server Download](https://sourceforge.net/projects/vcxsrv/)
 
 Dies wird mit einem `Linksklick` auf die unten hervorgehobene Schaltfläche _Download_ erreicht.
+
 <img alt="" src="/img/xserver-0.png" style="width: 100%;" />
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladen Datei ausgeführt werden.
 Infolgedessen kann das folgende Fenster erscheinen, welches mit einem `Linksklick` auf
 _Ja_ bestätigt werden muss.
+
 <img alt="" src="/img/xserver-1.png" style="width: 100%;" />
 
 Im nachfolgenden Fenster kann nun der Umfang der Installation ausgewählt werden. Hier ist _Full_ auszuwählen. 
 Die Auswahl wird durch einen `Linksklick` auf _Next_ bestätigt.
+
 <img alt="" src="/img/xserver-2.png" style="width: 100%;" />
 
 Im folgenden Fenster kann der Installationspfad angepasst werden. Dies ist optional und der bereits
 eingetragene Pfad kann durch einen `Linksklick` auf _Install_ unverändert bestätigt werden.
+
+
 <img alt="" src="/img/xserver-3.png" style="width: 100%;" />
 
 Nach vollständiger Installation, kann diese mit einem `Linksklick` auf _Close_ abgeschlossen werden.
+
 <img alt="" src="/img/xserver-4.png" style="width: 100%;" />
 
 Auf dem Desktop befindet sich nun die unter dargestellte Verknüpfung mit dem Namen _XLaunch_.
 Durch einen doppelten `Linksklick` kann das Programm nun gestartet werden.
+
 <img alt="" src="/img/xserver-5.png" style="width: 100%;" />
 
 Vor dem Start des Progamms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
 _Multiple Window_ ausgewählt und mit einem `Linksklick` auf _Weiter_ bestätigt.
+
 <img alt="" src="/img/xserver-6.png" style="width: 100%;" />
 
 Im nächsten Fenster wird die Option _Start no client_ ausgewählt und ebenfalls mit einem `Linksklick`
 auf _Weiter_ bestätigt.
+
 <img alt="" src="/img/xserver-7.png" style="width: 100%;" />
 
 Im letzten Einstellungs-Fenster werden alle vier Optionen ausgewählt und abschließend mit einem 
 `Linksklick` auf _Weiter_ bestätigt.
+
 <img alt="" src="/img/xserver-9.png" style="width: 100%;" />
 
 Nun können die vorgenommenen Einstellungen gespeichert werden. Der entsprechende Dialog wird 
 durch einen `Linksklick` auf _Save configuration_ geöffnet.
+
 <img alt="" src="/img/xserver-10.png" style="width: 100%;" />
 
 Die entsprechende Datei kann nach eigenem Belieben bennant werden und auch der Speicherort ist freiwählbar.
 Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
+
 <img alt="" src="/img/xserver-11.png" style="width: 100%;" />
 
 Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen 
 und das Programm gestartet werden.
+
 <img alt="" src="/img/xserver-12.png" style="width: 100%;" />
 
 
 Nach dem ersten Ausführen kann folgendes Fenster erscheinen,
 dieses muss mit einem `Linksklick` auf _Abbrechen_ abgelehnt werden.
+
 <img alt="" src="/img/xserver-13.png" style="width: 100%;" />
 
 Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Das das Programm gestartet wurde lässt
 sich an einem Icon in der Taskleiste (in der Nähe der Uhrzeit) erkennen. Sollte das Icon nicht
 zusehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein. 
+
 <img alt="" src="/img/xserver-14.png" style="width: 100%;" />
 
 
@@ -469,6 +511,7 @@ Am zuvor ausgewählten Speicherort für die Einstellungen,
 befindet sich die unten hervorgehobene Datei mit dem zuvor ausgewählten Namen.
 Mit einem doppelten `Linksklick` auf diese Datei kann von nun an das Programm _XLaunch_
 gestartet werden ohne die Einstellungen erneut vornehmen zu müssen. 
+
 <img alt="" src="/img/xserver-15.png" style="width: 100%;" />
 
 
@@ -481,6 +524,7 @@ echo "DISPLAY=:0.0" >> ~/.bashrc
 ```
 echo "export DISPLAY" >> ~/.bashrc
 ```
+
 <img alt="" src="/img/xserver-16.png" style="width: 100%;" />
 
 
@@ -506,11 +550,13 @@ werden können.
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden. 
+
 <img alt="" src="/img/unix-tools-01.png" style="width: 100%;" />
 
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch wird die ausgegebene Liste der Programme die geupdated
 werden können beim ersten Ausführen wesentlich länger sein.
+
 <img alt="" src="/img/unix-tools-02.png" style="width: 100%;" />
 
 Die Updates müssen nun noch installiert werden, denn bisher wurden diese nur heruntergeladen.
@@ -519,10 +565,12 @@ Dies erfolgt durch Eingabe des Befehls
 sudo apt upgrade
 ```
 und auch dieser Befehl wird mit der `Entertaste` bestätigt.
+
 <img alt="" src="/img/unix-tools-1.png" style="width: 100%;" />
 
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
 `Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
+
 <img alt="" src="/img/unix-tools-03.png" style="width: 100%;" />
 
 Nun können die beiden Programme git und make installiert werde. Dies erfolgt durch die Eingabe des
@@ -531,9 +579,11 @@ Befehls
 sudo apt install git make
 ```
 und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
+
 <img alt="" src="/img/unix-tools-2.png" style="width: 100%;" />
 
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
+
 <img alt="" src="/img/unix-tools-3.png" style="width: 100%;" />
 
 
@@ -574,10 +624,12 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
 Außerdem soll die _x64-Bit_ Version der Python Version 3.6 verwendet werden. Diese findet sich
 unter dem hervorgehobenen Link. Der Download kann einige Minuten in Anspruch nehmen.
+
 <img alt="" src="/img/anaconda-0.png" style="width: 100%;" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
+
 <img alt="" src="/img/anaconda-1.png" style="width: 100%;" />
 
 Im Anschluss wird mit ConEmu erneut eine Bash-Kommandozeile geöffnet.
@@ -615,16 +667,20 @@ muss der Befehl entsprechend angepasst werden. Wie zuvor wird auch dieser Befehl
 
 Zunächst wird die _Endnutzervereinbarung_ angezeigt. Dies muss (wie angezeigt) mit der
 `Entertaste` bestätigt werden.
+
 <img alt="" src="/img/anaconda-6.png" style="width: 100%;" />
 
 Nachfolgend wird der Text der _Endnutzervereinbarung_ angezeigt. Dieser kann mit mehrmaligem Drücken 
 auf die Entertaste durchgescrollt werden.
+
 <img alt="" src="/img/anaconda-7.png" style="width: 100%;" />
 
 Am Ende der Vereinbarung wird wie folgt um Zustimmung zu dieser Vereinbarung gebeten.
+
 <img alt="" src="/img/anaconda-8.png" style="width: 100%;" />
 
 Diese Zustimmung wird mit eingabe des Wortes `yes` und drücken der `Entertaste` gegeben.
+
 <img alt="" src="/img/anaconda-9.png" style="width: 100%;" />
 
 Nun beginnt die Installation von Anaconda. Die erste Einstellung die vorgenommen werden muss ist 
@@ -635,20 +691,24 @@ die Anpassung des Installationspfades dieser lautet wie folgt:
 Dieser Pfad ist hinter die `>>>` einzugeben. (Dabei ist `~` eine Abkürzung für `/home/<Benutzername>`, 
 wobei `<Benutzername>` den jeweiligen Linux-Benutzernamen darstellt.)
 Die Eingabe des Pfads wird wie immer mit der `Entertaste` bestätigt.
+
 <img alt="" src="/img/anaconda-11.png" style="width: 100%;" />
 
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
+
 <img alt="" src="/img/anaconda-13.png" style="width: 100%;" />
 
 
 Im Anschluss an die Installation wird noch eine Anfrage gestellt die mit der Eingabe von `no` und 
 drücken der `Entertaste` bestätigt wird.
+
 <img alt="" src="/img/anaconda-15.png" style="width: 100%;" />
 
 
 Nach erfolgreich durchgeführter Installation wird in einer weiteren Anfrage gefragt,
 ob _Visual Studio Code_ installiert werden soll. Da die Windows Version dieses Editors bereits 
 installiert wurde, kann die Anfrage mit der Eingabe `no` und drücken der `Entertaste` abgelehnt werden.
+
 <img alt="" src="/img/anaconda-18.png" style="width: 100%;" />
 
 Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben 
@@ -662,6 +722,7 @@ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
 ```
 echo 'conda activate' >> ~/.bashrc
 ```
+
 <img alt="" src="/img/anaconda-19.png" style="width: 100%;" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
@@ -684,6 +745,7 @@ eingetragen werden.
 ```
 pip install uncertainties
 ```
+
 <img alt="" src="/img/uncertainties-0.png" style="width: 100%;" />
 
 
@@ -732,17 +794,21 @@ bestätigt werden.
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
 ```
 Dieser Befehl setzt den Installationspfad (erster Teil) und startet das Installationprogramm (zweiter Teil).
+
 <img alt="" src="/img/texlive-2.png" style="width: 100%;" />
 
 Um die Installation zu starten muss die folgende Anfrage mit `I` und einem druck auf die `Entertaste`
 bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die ca. 4GB 
 an Daten heruntergeladen werden. Entsprechend kann diese Installation mitunter sehr viel Zeit in Anspruch nehmen.
+
 <img alt="" src="/img/texlive-4.png" style="width: 100%;" />
 
 Nachfolgend wird nun LaTeX selbst und alle zugehörigen Pakete heruntergeladen und installiert.
+
 <img alt="" src="/img/texlive-5.png" style="width: 100%;" />
 
 Nach erfolgreicher Installation wird folgender Text ausgegeben.
+
 <img alt="" src="/img/texlive-6.png" style="width: 100%;" />
 
 Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der 
@@ -750,6 +816,7 @@ Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingeg
 ```
 echo 'export PATH="~/.local/texlive/2018/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
+
 <img alt="" src="/img/texlive-7.png" style="width: 100%;" />
 
 Im Anschluss muss das Fenster mit der Bash-Kommandozeile geschlossen und erneut geöffnet werden.
@@ -761,6 +828,7 @@ tlmgr option autobackup -- -1
 ```
 tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 ```
+
 <img alt="" src="/img/texlive-8.png" style="width: 100%;" />
 
 
