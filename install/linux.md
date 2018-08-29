@@ -57,56 +57,61 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 
         sudo pacman -S git make
 
-### Atom
+### Visual Studio Code
 
-- Debian, Ubuntu, Mint:
-  - Download der .deb Datei hier: [http://atom.io](http://atom.io)
-  - Über die Kommandozeile installiert werden (Es muss der absolute Pfad eingegeben werden):
 
-    ```
-    sudo apt install /path/to/atom/download
-    ```
+Gute Installationsanleitung hier: <https://code.visualstudio.com/docs/setup/linux>
 
-- Fedora
-  - Download der .rpm Datei hier: [http://atom.io](http://atom.io)
-  - installieren mit `rpm -i /path/to/atom.x86_64.rpm`
-
-- Arch Linux:
-  - atom gibt es im AUR, Installation mit dem Lieblings-AUR tool
-  - z. B. `yaourt -S atom-editor-bin` oder `sudo aura -A atom-editor-bin`
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#linux): Python und Bibliotheken
-
 __Wichtig__: Wir wollen Python 3.6.
 
-Im Terminal:
+- [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
 
-    bash Anaconda3-*-Linux-*.sh
-    <Enter>
-    yes
-    ~/.local/anaconda3
-    yes
+Im Terminal im Ordner mit der heruntergeladenen Datei:
 
-Nach der Installation muss man ein neues Terminal öffnen, damit Anaconda gefunden wird.
+```
+$ bash Anaconda3-5.2.0-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+```
+
+Öffnet die Datei `~/.bashrc` und fügt diese beiden Zeilen am Ende hinzu:
+
+```
+. $HOME/.local/anaconda3/etc/profile.d/conda.sh
+conda activate
+```
+
+Schließt die aktuelle Konsole und öffnet eine neue.
+Am Anfang eures Prompts sollte ein `(base)` stehen.
 
 ### Uncertainties
 
-    pip install uncertainties
+```
+$ pip install uncertainties
+```
 
 ### TeXLive
 
 - [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/quickinstall.html)
     - [Versionsunabhängiger Link (install-tl-unx.tar.gz)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
-    - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
+    - __Achtung__ während des Installationsvorgangs werden ca. 5 GiB Dateien heruntergeladen
 
 Im Terminal:
 
-    tar xvzf install-tl-unx.tar.gz
-    TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
-    I
-    echo export PATH=\"$(echo ~/.local/texlive/*/bin/*):\$PATH\" >> ~/.bashrc
+```
+$ cd ~/.local
+$ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
+```
+
+Die Installition startet man mit `I` und `Enter`.
+
+Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
+
+```
+export PATH="$HOME/.local/texlive/2018/bin/x86_64-linux:$PATH"
+```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
 
