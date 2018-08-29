@@ -38,24 +38,24 @@ Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu
 
 Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit einem `sudo` Befehl sollte penibel geprüft werden.
 
-### Git und Make
+### Git,Make, curl
 
 - Debian, Ubuntu, Mint:
 
         sudo apt-get update
-        sudo apt-get install git make
+        sudo apt-get install git make curl
 
 - Fedora:
 
-        sudo yum install git-core make
+        sudo yum install git-core make curl
 
 - OpenSUSE:
 
-        sudo zypper in git make
+        sudo zypper in git make curl
 
 - Arch Linux:
 
-        sudo pacman -S git make
+        sudo pacman -S git make curl
 
 ### Visual Studio Code
 
