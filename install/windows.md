@@ -284,6 +284,37 @@ Tabs, welche am oberen Rand aufgereiht sind, durch einen `Linksklick` auf das `X
 
 <img alt="" src="/img/vscode-11.png" style="width: 100%;" />
 
+Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
+um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das 
+(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt 
+für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
+
+Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_ Menü.
+
+<img alt="" src="/img/vscode-12.png" style="width: 100%;" />
+
+In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die 
+in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
+dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
+Es ist möglich das die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
+
+Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt werden,
+indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
+Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
+
+<img alt="" src="/img/vscode-13.png" style="width: 100%;" />
+
+Nach der Installation von neuen Extensions muss VSCode geschlossen und neugestartet werden.
+Dies lässt sich durch `Linksklick` auf die Schaltfläche _Reload_ erledigen.
+
+<img alt="" src="/img/vscode-14.png" style="width: 100%;" />
+
+Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
+in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
+
+<img alt="" src="/img/vscode-15.png" style="width: 100%;" />
+
+
 ### ConEmu
 
 Das Programm ConEmu stellt einen Ersatz der standard WSL-Kommandozeile dar. Nachvollgend ist die
