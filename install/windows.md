@@ -271,6 +271,29 @@ in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der
 
 <img alt="" src="/img/vscode-15.png" style="width: 100%;" />
 
+Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein Software mit englischen Spracheinstellungen
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern müssen die folgenden Schritte befolgt werden.
+Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
+Sprache nicht gewünscht ist.
+
+Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
+Eingabefenster in dem nach Einstellungen gesucht werden kann.
+
+<img alt="" src="/img/vscode-16.png" style="width: 100%;" />
+
+Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch drücken
+der `Entertaste` ausgewählt werden.
+ 
+<img alt="" src="/img/vscode-17.png" style="width: 100%;" />
+
+Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
+Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
+`"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
+werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
+
+<img alt="" src="/img/vscode-18.png" style="width: 100%;" />
+
+
 
 ### ConEmu
 
