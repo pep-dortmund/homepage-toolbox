@@ -142,6 +142,10 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
 Ebenfalls im Terminal:
 
     $ ipython
+
+Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
+nummerierten Prompt, nun folgende Befehle eingeben.
+
     [1] %matplotlib
     [2] import matplotlib.pyplot as plt
     [3] plt.plot([1, 2, 4])
