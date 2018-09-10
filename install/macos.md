@@ -13,7 +13,7 @@ __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt wer
 Falls man nicht am LaTeX-Kurs teilnimmt, ist MacTeX optional.
 Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Atom (oder einen anderen Texteditor) und MacTeX installieren.
+Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Code (oder einen anderen Texteditor) und MacTeX installieren.
 
 <div class="row" style="padding: 10px">
   <div class="col-md-1" align="center"></div>
@@ -67,7 +67,7 @@ Um git beizubringen, VS Code zu benutzen, Im Terminal:
 git config --global core.editor "code --wait"
 ```
 
-- Damit VS Code LaTeX-Code besser darstellen kann muss das Plugin `LaTeX language support`
+- Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
   installiert werden
     - Mit `Shift+cmd+x` die Extensions öffnen
     - `LaTeX language support` suchen
