@@ -31,7 +31,7 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und A
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle Zeile für Zeile eingeben und mit Enter bestätigen**
+**Wichtig: Befehle die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben und mit Enter bestätigen**
 
 Es werden die Installationen für die verbreitetsten Distributionen angegeben.
 Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu) ausführen.
@@ -42,20 +42,20 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 
 - Debian, Ubuntu, Mint:
 
-        sudo apt-get update
-        sudo apt-get install git make curl
+        $ sudo apt-get update
+        $ sudo apt-get install git make curl
 
 - Fedora:
 
-        sudo yum install git-core make curl
+        $ sudo yum install git-core make curl
 
 - OpenSUSE:
 
-        sudo zypper in git make curl
+        $ sudo zypper in git make curl
 
 - Arch Linux:
 
-        sudo pacman -S git make curl
+        $ sudo pacman -S git make curl
 
 ### Visual Studio Code
 
@@ -125,37 +125,37 @@ __Jetzt noch die Installation [testen](#test)!__
 
 Terminal öffnen
 
-    git
+    $ git
 
 Es sollte die Git-Hilfe erscheinen.
 
 Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
 
-    git config --global user.name "Max Mustermann"
-    git config --global user.email "max.mustermann@udo.edu"
-    git config --global pull.rebase true
-    git config --global rebase.stat true
-    git config --global merge.conflictstyle diff3
+    $ git config --global user.name "Max Mustermann"
+    $ git config --global user.email "max.mustermann@udo.edu"
+    $ git config --global pull.rebase true
+    $ git config --global rebase.stat true
+    $ git config --global merge.conflictstyle diff3
 
 ### Python
 
 Ebenfalls im Terminal:
 
-    ipython
-    %matplotlib
-    import matplotlib.pyplot as plt
-    plt.plot([1, 2, 4])
+    $ ipython
+    [1] %matplotlib
+    [2] import matplotlib.pyplot as plt
+    [3] plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit  
 
-    quit
+    [4] quit
 
 ### Uncertainties
 
 Ebenfalls im Terminal:
 
-    ipython
-    import uncertainties
+    $ ipython
+    [1] import uncertainties
 
 Es sollte keine Fehlermeldung erscheinen.
 
@@ -165,7 +165,7 @@ Beenden mit `quit`
 
 Ebenfalls im Terminal:
 
-    make
+    $ make
 
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
@@ -175,7 +175,7 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
 Im Terminal:
 
-    luatex
+    $ luatex
 
 Es sollte folgende Ausgabe erscheinen:
 
@@ -185,11 +185,11 @@ Es sollte folgende Ausgabe erscheinen:
 
 Mit Strg-C beenden.
 
-    biber
+    $ biber
 
 Es sollte die Biber-Hilfe erscheinen.
 
-    texdoc texlive
+    $ texdoc texlive
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
@@ -197,8 +197,8 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 Im Terminal:
 
-    tlmgr option autobackup -- -1
-    tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+    $ tlmgr option autobackup -- -1
+    $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
@@ -206,22 +206,16 @@ Im Terminal:
 
 Im Terminal:
 
-    conda update anaconda
-
-### Unix-Tools und Make (Windows)
-
-Im Terminal:
-
-    pacman -Syu
+    $ conda update anaconda
 
 ### Uncertainties
 
 Im Terminal:
 
-    pip install -U uncertainties
+    $ pip install -U uncertainties
 
 ### TeXLive
 
 Im Terminal:
 
-    tlmgr update --self --all --reinstall-forcibly-removed
+    $ tlmgr update --self --all --reinstall-forcibly-removed
