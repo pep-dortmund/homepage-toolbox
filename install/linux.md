@@ -144,20 +144,20 @@ Ebenfalls im Terminal:
 Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
 nummerierten Prompt, nun folgende Befehle eingeben.
 
-    [1] %matplotlib
-    [2] import matplotlib.pyplot as plt
-    [3] plt.plot([1, 2, 4])
+    In [1]: %matplotlib
+    In [2]: import matplotlib.pyplot as plt
+    In [3]: plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit  
 
-    [4] quit
+    In [4]: quit
 
 ### Uncertainties
 
 Ebenfalls im Terminal:
 
     $ ipython
-    [1] import uncertainties
+    In [1]: import uncertainties
 
 Es sollte keine Fehlermeldung erscheinen.
 
