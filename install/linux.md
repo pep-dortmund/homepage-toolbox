@@ -3,8 +3,6 @@ layout: default
 title: Linux-Installation
 ---
 
-<span style="color: crimson;"><em>Wir updaten die Installationsanleitung im Moment für 2018, schaut am besten Anfang September noch einmal vorbei</em></span>
-
 __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
 Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
