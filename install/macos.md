@@ -67,7 +67,7 @@ Um git beizubringen, VS Code zu benutzen, Im Terminal:
 git config --global core.editor "code --wait"
 ```
 
-- Damit VS Code LaTeX-Code besser darstellen kann muss das Plugin `LaTeX Language support`
+- Damit VS Code LaTeX-Code besser darstellen kann muss das Plugin `LaTeX language support`
   installiert werden
     - Mit `Shift+cmd+x` die Extensions öffnen
     - `LaTeX language support` suchen
