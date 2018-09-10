@@ -60,7 +60,7 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 
 Gute Installationsanleitung hier: <https://code.visualstudio.com/docs/setup/linux>
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support” und „Python”, installiert jeweils mit klick auf den `install` Button die Pakete.
+Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support”,  installiert die Extension mit klick auf den `install` Button.
 
 ### Anaconda
 
