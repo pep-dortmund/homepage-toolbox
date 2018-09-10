@@ -25,7 +25,7 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Atom (oder ei
   <div class="col-md-2" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren 
+  Aktualisieren
   </a>
   </div>
   <div class="col-md-1" align="center"></div>
@@ -52,29 +52,27 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#osx): Python und
+- [Anaconda](https://www.anaconda.com/download/#macos): Python und
   Bibliotheken
 
 __Wichtig__: Wir wollen Python 3.6 Graphical Installer (oben).  Das Paket installieren.
 
-### Atom
+### VS Code
 
-- [Atom](https://atom.io/): Texteditor. 'Download for Mac' wählen und die
-  Heruntergeladene Datei öffnen. Die `Atom.app` wird dann extrahiert und muss
-  nach `Programme` verschoben werden.  Zum Test einmal die App öffnen.
+- [VS Code](https://code.visualstudio.com/download): Texteditor. Den Mac-Download auswählen. Das Programm "Visual Studio Code.app" befindet sich dann im Downloadordner und muss nach `Programme` verschoben werden. Die App öffnen und mit `Shift+cmd+p` die Kommando Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal "code" eingeben wird.
 
-Um git beizubringen, Atom zu benutzen, Im terminal:
+Um git beizubringen, VS Code zu benutzen, Im Terminal:
 
 ```bash
-git config --global core.editor "atom --wait"
+git config --global core.editor "code --wait"
 ```
 
-- Damit Atom LaTeX-Code besser darstellen kann muss das Plugin `language-latex`
+- Damit VS Code LaTeX-Code besser darstellen kann muss das Plugin `LaTeX Language support`
   installiert werden
-    - Dazu in den Einstellungen (Unter `Atom → Preferences`) auf `Install`
-      klicken
-    - Nach `language-latex` suchen
-    - Auf `Install` klicken
+    - Mit `Shift+cmd+x` die Extensions öffnen
+    - `LaTeX language support` suchen
+    - `install` anklicken
+    - VS Code neustarten
 
 ### Uncertainties
 
@@ -153,7 +151,7 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.0.4 (TeX Live 2017) 
+    This is LuaTeX, Version 1.0.4 (TeX Live 2017)
     restricted system commands enabled.
     **
 
@@ -167,7 +165,7 @@ Es sollte die Biber-Hilfe erscheinen.
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
-### TeXLive einstellen: 
+### TeXLive einstellen:
 
 Im Terminal:
 
