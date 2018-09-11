@@ -3,8 +3,6 @@ layout: default
 title: Linux-Installation
 ---
 
-<span style="color: crimson;"><em>Wir updaten die Installationsanleitung im Moment für 2018, schaut am besten Anfang September noch einmal vorbei</em></span>
-
 __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
 Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
@@ -31,82 +29,88 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und A
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle Zeile für Zeile eingeben und mit Enter bestätigen**
+**Wichtig: Befehle die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben und mit Enter bestätigen**
 
 Es werden die Installationen für die verbreitetsten Distributionen angegeben.
 Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu) ausführen.
 
 Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit einem `sudo` Befehl sollte penibel geprüft werden.
 
-### Git und Make
+### Git,Make, curl
 
 - Debian, Ubuntu, Mint:
 
-        sudo apt-get update
-        sudo apt-get install git make
+        $ sudo apt-get update
+        $ sudo apt-get install git make curl
 
 - Fedora:
 
-        sudo yum install git-core make
+        $ sudo yum install git-core make curl
 
 - OpenSUSE:
 
-        sudo zypper in git make
+        $ sudo zypper in git make curl
 
 - Arch Linux:
 
-        sudo pacman -S git make
+        $ sudo pacman -S git make curl
 
-### Atom
+### Visual Studio Code
 
-- Debian, Ubuntu, Mint:
-  - Download der .deb Datei hier: [http://atom.io](http://atom.io)
-  - Über die Kommandozeile installiert werden (Es muss der absolute Pfad eingegeben werden):
 
-    ```
-    sudo apt install /path/to/atom/download
-    ```
+Gute Installationsanleitung hier: <https://code.visualstudio.com/docs/setup/linux>
 
-- Fedora
-  - Download der .rpm Datei hier: [http://atom.io](http://atom.io)
-  - installieren mit `rpm -i /path/to/atom.x86_64.rpm`
-
-- Arch Linux:
-  - atom gibt es im AUR, Installation mit dem Lieblings-AUR tool
-  - z. B. `yaourt -S atom-editor-bin` oder `sudo aura -A atom-editor-bin`
+Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support”,  installiert die Extension mit klick auf den `install` Button.
 
 ### Anaconda
 
-- [Anaconda](http://www.continuum.io/downloads#linux): Python und Bibliotheken
-
 __Wichtig__: Wir wollen Python 3.6.
 
-Im Terminal:
+- [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
 
-    bash Anaconda3-*-Linux-*.sh
-    <Enter>
-    yes
-    ~/.local/anaconda3
-    yes
+Im Terminal im Ordner mit der heruntergeladenen Datei:
 
-Nach der Installation muss man ein neues Terminal öffnen, damit Anaconda gefunden wird.
+```
+$ bash Anaconda3-5.2.0-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+```
+
+Öffnet die Datei `~/.bashrc` und fügt diese beiden Zeilen am Ende hinzu:
+
+```
+. $HOME/.local/anaconda3/etc/profile.d/conda.sh
+conda activate
+```
+
+Schließt die aktuelle Konsole und öffnet eine neue.
+Am Anfang eures Prompts sollte ein `(base)` stehen.
 
 ### Uncertainties
 
-    pip install uncertainties
+```
+$ pip install uncertainties
+```
 
 ### TeXLive
 
 - [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/quickinstall.html)
     - [Versionsunabhängiger Link (install-tl-unx.tar.gz)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
-    - __Achtung__ während des Installationsvorgangs werden ca. 4 GiB Dateien heruntergeladen
+    - __Achtung__ während des Installationsvorgangs werden ca. 5 GiB Dateien heruntergeladen
 
 Im Terminal:
 
-    tar xvzf install-tl-unx.tar.gz
-    TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
-    I
-    echo export PATH=\"$(echo ~/.local/texlive/*/bin/*):\$PATH\" >> ~/.bashrc
+```
+$ cd ~/.local
+$ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
+```
+
+Die Installition startet man mit `I` und `Enter`.
+
+Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
+
+```
+export PATH="$HOME/.local/texlive/2018/bin/x86_64-linux:$PATH"
+```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
 
@@ -119,37 +123,41 @@ __Jetzt noch die Installation [testen](#test)!__
 
 Terminal öffnen
 
-    git
+    $ git
 
 Es sollte die Git-Hilfe erscheinen.
 
 Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
 
-    git config --global user.name "Max Mustermann"
-    git config --global user.email "max.mustermann@udo.edu"
-    git config --global pull.rebase true
-    git config --global rebase.stat true
-    git config --global merge.conflictstyle diff3
+    $ git config --global user.name "Max Mustermann"
+    $ git config --global user.email "max.mustermann@udo.edu"
+    $ git config --global pull.rebase true
+    $ git config --global rebase.stat true
+    $ git config --global merge.conflictstyle diff3
 
 ### Python
 
 Ebenfalls im Terminal:
 
-    ipython
-    %matplotlib
-    import matplotlib.pyplot as plt
-    plt.plot([1, 2, 4])
+    $ ipython
+
+Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
+nummerierten Prompt, nun folgende Befehle eingeben.
+
+    In [1]: %matplotlib
+    In [2]: import matplotlib.pyplot as plt
+    In [3]: plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit  
 
-    quit
+    In [4]: quit
 
 ### Uncertainties
 
 Ebenfalls im Terminal:
 
-    ipython
-    import uncertainties
+    $ ipython
+    In [1]: import uncertainties
 
 Es sollte keine Fehlermeldung erscheinen.
 
@@ -159,7 +167,7 @@ Beenden mit `quit`
 
 Ebenfalls im Terminal:
 
-    make
+    $ make
 
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
@@ -169,7 +177,7 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
 Im Terminal:
 
-    luatex
+    $ luatex
 
 Es sollte folgende Ausgabe erscheinen:
 
@@ -179,11 +187,11 @@ Es sollte folgende Ausgabe erscheinen:
 
 Mit Strg-C beenden.
 
-    biber
+    $ biber
 
 Es sollte die Biber-Hilfe erscheinen.
 
-    texdoc texlive
+    $ texdoc texlive
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
@@ -191,8 +199,8 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 Im Terminal:
 
-    tlmgr option autobackup -- -1
-    tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+    $ tlmgr option autobackup -- -1
+    $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
@@ -200,22 +208,16 @@ Im Terminal:
 
 Im Terminal:
 
-    conda update anaconda
-
-### Unix-Tools und Make (Windows)
-
-Im Terminal:
-
-    pacman -Syu
+    $ conda update anaconda
 
 ### Uncertainties
 
 Im Terminal:
 
-    pip install -U uncertainties
+    $ pip install -U uncertainties
 
 ### TeXLive
 
 Im Terminal:
 
-    tlmgr update --self --all --reinstall-forcibly-removed
+    $ tlmgr update --self --all --reinstall-forcibly-removed
