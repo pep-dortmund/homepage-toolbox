@@ -783,6 +783,8 @@ Der zweite Befehl lädt das Installationsdateien für TeXLive herunter.
 
 Der dritte Befehl installiert TeXLive.
 
+<img alt="" src="/img/texlive-0.png" style="width: 100%;" />
+
 Um die Installation zu starten muss die folgende Anfrage mit `I` und einem druck auf die `Entertaste`
 bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die mehr als 5GB 
 an Daten heruntergeladen werden. Entsprechend kann diese Installation mitunter sehr viel Zeit in Anspruch nehmen.
