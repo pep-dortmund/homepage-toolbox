@@ -820,6 +820,9 @@ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 
 <img alt="" src="/img/texlive-8.png" style="width: 100%;" />
 
+
+__Jetzt noch die Installation [testen](#test)!__
+
 ## <a id="test"></a>Testen
 
 ### Python
