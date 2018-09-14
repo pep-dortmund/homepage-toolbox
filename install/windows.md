@@ -575,7 +575,7 @@ einem Druck auf die `Entertaste` bestätigt.
 ```
 echo "export DISPLAY=:0.0" >> ~/.bashrc
 ```
-
+<img alt="" src="/img/xserver-16.png" style="width: 100%;" />
 
 
 
