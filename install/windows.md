@@ -706,7 +706,7 @@ kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgeho
 
 Nachfolgend wird der Befehl 
 ```
-bash Anaconda3-5.2.0-Linux-x86_64.sh
+bash Anaconda3-5.2.0-Linux-X86_64.sh -p ~/.local/anaconda3 -b
 ```
 verwendet, um die Installation zu starten. **Wichtig** ist zu beachten, dass der zweite Teil des
 Befehls der Name der Installationsdatei ist, sollte dieser sich von dem hier gezeigten unterscheiden
@@ -715,52 +715,9 @@ muss der Befehl entsprechend angepasst werden. Wie zuvor wird auch dieser Befehl
 
 <img alt="" src="/img/anaconda-5.png" style="width: 100%;" />
 
-
-Zunächst wird die _Endnutzervereinbarung_ angezeigt. Dies muss (wie angezeigt) mit der
-`Entertaste` bestätigt werden.
-
-<img alt="" src="/img/anaconda-6.png" style="width: 100%;" />
-
-Nachfolgend wird der Text der _Endnutzervereinbarung_ angezeigt. Dieser kann mit mehrmaligem Drücken 
-auf die Entertaste durchgescrollt werden.
-
-<img alt="" src="/img/anaconda-7.png" style="width: 100%;" />
-
-Am Ende der Vereinbarung wird wie folgt um Zustimmung zu dieser Vereinbarung gebeten.
-
-<img alt="" src="/img/anaconda-8.png" style="width: 100%;" />
-
-Diese Zustimmung wird mit eingabe des Wortes `yes` und drücken der `Entertaste` gegeben.
-
-<img alt="" src="/img/anaconda-9.png" style="width: 100%;" />
-
-Nun beginnt die Installation von Anaconda. Die erste Einstellung die vorgenommen werden muss ist 
-die Anpassung des Installationspfades dieser lautet wie folgt:
-```
-~/.local/anaconda3
-``` 
-Dieser Pfad ist hinter die `>>>` einzugeben. (Dabei ist `~` eine Abkürzung für `/home/<Benutzername>`, 
-wobei `<Benutzername>` den jeweiligen Linux-Benutzernamen darstellt.)
-Die Eingabe des Pfads wird wie immer mit der `Entertaste` bestätigt.
-
-<img alt="" src="/img/anaconda-11.png" style="width: 100%;" />
-
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 
 <img alt="" src="/img/anaconda-13.png" style="width: 100%;" />
-
-
-Im Anschluss an die Installation wird noch eine Anfrage gestellt die mit der Eingabe von `no` und 
-drücken der `Entertaste` bestätigt wird.
-
-<img alt="" src="/img/anaconda-15.png" style="width: 100%;" />
-
-
-Nach erfolgreich durchgeführter Installation wird in einer weiteren Anfrage gefragt,
-ob _Visual Studio Code_ installiert werden soll. Da die Windows Version dieses Editors bereits 
-installiert wurde, kann die Anfrage mit der Eingabe `no` und drücken der `Entertaste` abgelehnt werden.
-
-<img alt="" src="/img/anaconda-18.png" style="width: 100%;" />
 
 Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben 
 und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
