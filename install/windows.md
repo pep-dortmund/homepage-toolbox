@@ -736,7 +736,8 @@ so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 
 <img alt="" src="/img/anaconda-20.png" style="width: 100%;" />
 
-
+Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-5.2.0-Linux-X86_64.sh_
+vom Desktop gelöscht werden.
 
 ### Uncertainties
 
