@@ -147,4 +147,6 @@ War dies erfolgreich, wählt die Option `Install along-side Windows 10`.
 
 1. Wählt die korrekte Zeitzone
 
-1. Wartet bis die
+1. Wartet bis die Installation abgeschlossen ist, dann startet den Rechner neu und entfernt den USB Stick.
+
+1. Beim Neustart solltet ihr ein neues Menü vorfinden, das euch zwischen Linux und Windows wählen lässt.
