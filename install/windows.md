@@ -478,20 +478,6 @@ und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
 
 <img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
 
-Um SumatraPDF auch aus der Bash-Kommandozeile des WSL heraus starten zu können muss mit folgendem
-ein neuer Kommandozeilenbefehl `sumatrapdf` definiert werden. Dies kann durch die Eingabe des folgenden 
-Befehls in der Bash-Kommandozeile im ConEmu und anschließendem drücken der `Entertaste` durchgeführt werden.   
-**Wichtig:** Der Installationspfad der für Sumatra gewählt wurde, ist Teil dieses Befehls. Der Standardpfad
-ist `"c/Program Files/SumatraPDF"`, dieser wurde hier eingetragen. Sollte der Standardpfad während der Installation
-verändert worden sein, muss dieser Pfad angepasst werden!   
-**Wichtig:** In dem Befehl unten kommen viele Sonderzeichen vor, die alle notwendig sind. 
-Es ist zu empfehlen, den Befehl zu kopieren z.B. via `Strg + C` und mit Hilfe eines `Rechtsklicks`
-in die Bash-Kommandozeile einzufügen.
-
-```
-    echo 'alias sumatrapdf="\"/mnt/c/Program Files/SumatraPDF/SumatraPDF.exe\""' >> ~/.bashrc
-```
-
 
 
 ### X-Server
