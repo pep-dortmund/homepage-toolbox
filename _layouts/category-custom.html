@@ -4,21 +4,24 @@ layout: default
 <section id="main" class="container posts">
   {{ content }}
   {% for post in site.categories[page.category] %}
-    <div class="box post" id="{{ post.id | replace: '/','-' | remove_first: '-' }}">
-      <div>
+    <div class="card post" id="{{ post.id | replace: '/','-' | remove_first: '-' }}">
+      <div class="card-header">
+        {% if post.title %}
+        <h1>{{ post.title }}</h1>
+        {% endif %}
+      </div>
+      {% if post.image %}
+      <img class="card-img-top" src="{{ post.image }}" alt="">
+      {% endif %}
+      <div class="card-body">
+        {{ post.content }}
+      </div>
+      <div class="card-footer">
           {{ post.date | date: "%d.%m.%y" }}
           {% if post.author %}
           von {{ post.author }}
           {% endif %}
       </div>
-      <hr class="post-header-sep">
-      {% if post.image %}
-      <span class="image featured"><img src="{{ post.image }}" alt=""></span>
-      {% endif %}
-      {% if post.title %}
-      <h1>{{ post.title }}</h1>
-      {% endif %}
-      {{ post.content }}
     </div>
   {% endfor %}
 </section>

@@ -18,6 +18,7 @@ Mehr zu PeP et al. findet ihr auf der Website: [www.pep-dortmund.org](http://pep
 Die Organisatoren sind dieses Jahr
 
   - Maximilian Nöthe
+  - Joshua Luckey
   - Kevin Heinicke
 
 Ihr könnt uns über die folgende Mail-Adresse erreichen: [toolbox-pep-dortmund@googlegroups.com](mailto:toolbox-pep-dortmund@googlegroups.com).
