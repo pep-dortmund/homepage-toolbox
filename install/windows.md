@@ -699,9 +699,6 @@ Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
 In dieser Liste muss sich auch die zuvor auf den Desktop
 kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
 
-<img alt="" src="/img/anaconda-4.png" style="width: 100%;" />
-
-
 Nachfolgend wird der Befehl 
 ```
 bash Anaconda3-5.2.0-Linux-X86_64.sh -p ~/.local/anaconda3 -b
