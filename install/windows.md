@@ -765,45 +765,27 @@ eine detailierte Installationsanleitung können unter den folgenden Links einges
 + [TeXLive Website](https://www.tug.org/texlive/)
 + [Installationsanleitung](https://www.tug.org/texlive/windows.html)
 
-Für diese (Kurz-) Anleitung kann die Datei unter dem folgenden Link verwendet werden.
-[TeXLive Download](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
 
-Um die Installationsbeschreibung zu vereinfachen, sollte die heruntergeladen Datei auf den Desktop kopiert werden.
 Für die Installation wird erneut die Bash-Kommandozeile (mit ConEmu) verwendet. 
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
+
 ```
-cd Desktop
-```
-```
-ls
+cd ~/.local
 ```
 ```
-tar xvzf install-tl-unx.tar.gz
+curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+```
+```
+TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Der erste Befehl ändert den aktuellen Pfad auf den Desktop. 
-Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
-so ist der erste Befehl nicht mehr notwendig.)
+Der erste Befehl ändert den aktuellen Pfad auf den Ordner in den TeXLive installiert werden soll. 
+Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/.local` enden.
 
-Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
-In dieser Liste muss sich auch die zuvor auf den Desktop
-kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
+Der zweite Befehl lädt das Installationsdateien für TeXLive herunter.
 
-Der dritte Befehl entpackt die heruntergladene Datei (`.tar.gz` Dateien sind ähnlich zu `.zip` Dateien)
-in einen gleichnamigen Ordner.
-
-<img alt="" src="/img/texlive-0.png" style="width: 100%;" />
-
-Nachdem alle Dateien entpackt wurden muss folgender Befehl eigegeben und mit drücken der `Entertaste`
-bestätigt werden.
-```
-TEXLIVE_INSTALL_PREFIX=~/.local/texlive install-tl-*/install-tl
-```
-Dieser Befehl setzt den Installationspfad (erster Teil) und startet das Installationprogramm (zweiter Teil).
-
-<img alt="" src="/img/texlive-2.png" style="width: 100%;" />
+Der dritte Befehl installiert TeXLive.
 
 Um die Installation zu starten muss die folgende Anfrage mit `I` und einem druck auf die `Entertaste`
 bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die ca. 4GB 
@@ -828,7 +810,7 @@ echo 'export PATH="~/.local/texlive/2018/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 <img alt="" src="/img/texlive-7.png" style="width: 100%;" />
 
 Im Anschluss muss das Fenster mit der Bash-Kommandozeile geschlossen und erneut geöffnet werden.
-Die letzte Einstellung für TexLive erfolgt durch Eingabe der folgenden Befehle und jeweiliger
+Die letzte Einstellung für TeXLive erfolgt durch Eingabe der folgenden Befehle und jeweiliger
 Bestätigung mit der `Entertaste`.
 ```
 tlmgr option autobackup -- -1
