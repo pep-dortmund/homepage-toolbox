@@ -624,10 +624,10 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 <img alt="" src="/img/unix-tools-03.png" style="width: 100%;" />
 
-Nun können die beiden Programme git und make installiert werde. Dies erfolgt durch die Eingabe des
+Nun können die beiden Programme `git`, `make` und `curl` installiert werde. Dies erfolgt durch die Eingabe des
 Befehls
 ```
-sudo apt install git make
+sudo apt install git make curl
 ```
 und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
 
