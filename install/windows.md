@@ -3,8 +3,6 @@ layout: default
 title: Windows-Installation
 ---
 
-<span style="color: crimson;"><em>Wir updaten die Installationsanleitung im Moment für 2018, schaut am besten Anfang September noch einmal vorbei</em></span>
-
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
 
