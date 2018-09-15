@@ -12,6 +12,8 @@
       link: macos.html
     - title: Linux
       link: linux.html
+    - title: Linux/Windows DualBoot
+      link: dualboot.html
     - title: Windows (älter)
       link: windows_old.html
 
