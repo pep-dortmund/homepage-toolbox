@@ -6,6 +6,47 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 
 <p class="lead">Hier befinden sich die Materialien vergangener Veranstaltungen.</p>
 
+
+## Wintersemester 2017/18
+
+- Tag 1
+    - [Intro-Folien](files/archive/2017/intro.pdf) (Stand 25.09.2017)
+    - [Python](files/archive/2017/python.html) (Stand 25.09.2017)
+    - [Aufgaben](files/archive/2017/exercises-toolbox-1.zip) (Stand 25.09.2017)
+    - [Numeric Python](files/archive/2017/numeric-python.html) (Stand 25.09.2017)
+    - [matplotlib](files/archive/2017/matplotlib.html) (Stand 25.09.2017)
+
+- Tag 2
+    - [Scientific Python](files/archive/2017/scientific-python.html) (Stand 26.09.2017)
+    - [Aufgaben](files/archive/2017/exercises-toolbox-2.zip) (Stand 26.09.2017)
+
+- Tag 3
+    - [uncertainties](files/archive/2017/uncertainties.html) (Stand 26.09.2017)
+    - [Unix](files/archive/2017/unix.pdf) (Stand 27.09.2017)
+    - [make](files/archive/2017/make.pdf) (Stand 27.09.2017)
+    - [Aufgaben](files/archive/2017/exercises-toolbox-3.zip) (Stand 27.09.2017)
+
+- Tag 4
+    - [git](files/archive/2017/git.pdf) (Stand 28.09.2017)
+    - [Aufgaben](files/archive/2017/exercises-toolbox-4.zip) (Stand 28.09.2017)
+
+- Tag 5
+    - [Aufgaben](files/archive/2017/exercises-toolbox-5.zip) (Stand 29.09.2017)
+
+
+### LaTeX
+
+- [Folien](files/archive/2017/latex.pdf) (Stand 12.03.2018)
+- [LaTeX Vorlage für Protokolle](files/archive/2017/latex-template.zip)
+- Tag 1
+    - [Aufgaben](files/archive/2017/exercises-latex-1.zip) (Stand 02.10.2017)
+- Tag 2
+    - [Aufgaben](files/archive/2017/exercises-latex-2.zip) (Stand 02.10.2017)
+- Tag 3
+    - [Aufgaben](files/archive/2017/exercises-latex-3.zip) (Stand 03.10.2017)
+- Tag 4
+    - [Aufgaben](files/archive/2017/exercises-latex-4.zip) (Stand 04.10.2017)
+
 ## Wintersemester 2016/17
 
 ### Toolbox
