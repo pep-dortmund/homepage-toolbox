@@ -773,7 +773,7 @@ cd ~/.local
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 ```
 ```
-TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
+TEXLIVE_INSTALL_PREFIX=$HOME/.local/texlive ./install-tl-*/install-tl
 ```
 
 Der erste Befehl ändert den aktuellen Pfad auf den Ordner in den TeXLive installiert werden soll. 
@@ -802,7 +802,7 @@ Nach erfolgreicher Installation wird folgender Text ausgegeben.
 Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der 
 `Entertaste` bestätigt wird.
 ```
-echo 'export PATH="~/.local/texlive/2018/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2018/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 <img alt="" src="/img/texlive-7.png" style="width: 100%;" />
