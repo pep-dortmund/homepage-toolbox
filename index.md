@@ -20,8 +20,18 @@ Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese
 So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSctNnj7e8kDkmcdauqA57w9AfHs__Emdq7FVNsF5rLsdpnX-A/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
+<!-- <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSctNnj7e8kDkmcdauqA57w9AfHs__Emdq7FVNsF5rLsdpnX-A/viewform">Zur Toolbox-Umfrage (erste Woche)</a> -->
 <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd9mwsUy8JGnQuUlSeFDdiJdal4ITm0HUdccu2BldNXHn1teg/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
+</div>
+
+## Feedback 2017
+
+Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
+Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
+
+<div class="text-center">
+<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
+<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeYbdCOD8rBPSMHZwAFmV_KfS4UkykkqyOl7gGfgRPxxi5mVQ/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
 </div>
 
 
@@ -64,15 +74,6 @@ Bitte beachtet die folgenden Schritte:
 - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
 
-<!-- ## Feedback 2017 -->
-
-<!-- Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können. -->
-<!-- Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus. -->
-
-<!-- <div class="text-center"> -->
-<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSfH49biien8FyB3dbWgTKqjhkKnMXJ7I2GBGl_RYAa0cROoCQ/viewform">Zum Toolbox-Feedback (erste Woche)</a> -->
-<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeYbdCOD8rBPSMHZwAFmV_KfS4UkykkqyOl7gGfgRPxxi5mVQ/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
-<!-- </div> -->
 
 
 ## Ablaufplan 2018
@@ -97,19 +98,19 @@ Bitte beachtet die folgenden Schritte:
   <td>Mo, 24.09.2018</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>Python, numpy, matplotlib</td>
+  <td>Python</td>
   </tr>
   <tr>
   <td>Di, 25.09.2018</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>scipy, uncertainties</td>
+  <td>numpy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi, 26.09.2018</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>Unix, Make</td>
+  <td>scipy, uncertainties, Unix, Make</td>
   </tr>
   <tr>
   <td>Do, 27.09.2018</td>
