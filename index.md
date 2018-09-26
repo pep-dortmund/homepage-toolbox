@@ -30,7 +30,7 @@ Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal 
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
-<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
+<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
 <!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeYbdCOD8rBPSMHZwAFmV_KfS4UkykkqyOl7gGfgRPxxi5mVQ/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
 </div>
 
