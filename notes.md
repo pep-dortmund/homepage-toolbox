@@ -28,6 +28,10 @@ Kurses veröffentlich.
     - [make](files/archive/2018/make.pdf) (Stand 26.09.2018)
     - [Aufgaben](files/archive/2018/exercises-toolbox-3.zip) (Stand 26.09.2018)
 
+- Tag 4
+    - [Git](files/archive/2018/git.pdf) (Stand 27.09.2018)
+    - [Aufgaben](files/archive/2018/exercises-toolbox-4.zip) (Stand 27.09.2018)
+
 
 ## Vergangene Kurse
 
