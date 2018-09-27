@@ -24,7 +24,7 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
 <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd9mwsUy8JGnQuUlSeFDdiJdal4ITm0HUdccu2BldNXHn1teg/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
 </div>
 
-## Feedback 2017
+## Feedback 2018
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
