@@ -39,9 +39,8 @@ Kurses veröffentlich.
 ### LaTeX
 
 - [Folien](files/archive/2018/latex.pdf) (Stand 01.10.2018)
-
-- Tag 1
-    - [Aufgaben](files/archive/2018/exercises-latex-1.zip) (Stand 01.10.2018)
+- [Aufgaben Tag 1](files/archive/2018/exercises-latex-1.zip) (Stand 01.10.2018)
+- [Aufgaben Tag 2](files/archive/2018/exercises-latex-2.zip) (Stand 01.10.2018)
 
 ## Vergangene Kurse
 
