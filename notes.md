@@ -36,6 +36,13 @@ Kurses veröffentlich.
   - [Aufgaben](files/archive/2018/exercises-toolbox-5.zip) (Stand 27.09.2018)
 
 
+### LaTeX
+
+- [Folien](files/archive/2018/latex.pdf) (Stand 12.03.2018)
+
+- Tag 1
+    - [Aufgaben](files/archive/2018/exercises-latex-1.zip) (Stand 02.10.2017)
+
 ## Vergangene Kurse
 
 Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
