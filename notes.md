@@ -39,6 +39,7 @@ Kurses veröffentlich.
 ### LaTeX
 
 - [Folien](files/archive/2018/latex.pdf) (Stand 01.10.2018)
+- [Vorlage für Praktikumnsprotokolle](files/archive/2018/latex-template.zip) (Stand 05.10.2018)
 - [Aufgaben Tag 1](files/archive/2018/exercises-latex-1.zip) (Stand 01.10.2018)
 - [Aufgaben Tag 2](files/archive/2018/exercises-latex-2.zip) (Stand 01.10.2018)
 - [Aufgaben Tag 4](files/archive/2018/exercises-latex-4.zip) (Stand 04.10.2018)
