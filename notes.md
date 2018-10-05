@@ -42,6 +42,7 @@ Kurses veröffentlich.
 - [Aufgaben Tag 1](files/archive/2018/exercises-latex-1.zip) (Stand 01.10.2018)
 - [Aufgaben Tag 2](files/archive/2018/exercises-latex-2.zip) (Stand 01.10.2018)
 - [Aufgaben Tag 4](files/archive/2018/exercises-latex-4.zip) (Stand 04.10.2018)
+- [Aufgaben Tag 5](files/archive/2018/exercises-latex-5.zip) (Stand 05.10.2018)
 
 ## Vergangene Kurse
 
