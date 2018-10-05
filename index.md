@@ -31,7 +31,7 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
 <a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
+<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
 </div>
 
 
