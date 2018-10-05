@@ -13,16 +13,16 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-## Umfrage
+<!-- ## Umfrage -->
 
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
-So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+<!-- Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt. -->
+<!-- Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen. -->
+<!-- So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen. -->
 
-<div class="text-center mb-3">
+<!-- <div class="text-center mb-3"> -->
 <!-- <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSctNnj7e8kDkmcdauqA57w9AfHs__Emdq7FVNsF5rLsdpnX-A/viewform">Zur Toolbox-Umfrage (erste Woche)</a> -->
-<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd9mwsUy8JGnQuUlSeFDdiJdal4ITm0HUdccu2BldNXHn1teg/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
-</div>
+<!-- <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd9mwsUy8JGnQuUlSeFDdiJdal4ITm0HUdccu2BldNXHn1teg/viewform">Zur LaTeX-Umfrage (zweite Woche)</a> -->
+<!-- </div> -->
 
 ## Feedback 2018
 
@@ -31,7 +31,7 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
 <a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<!-- <a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSeYbdCOD8rBPSMHZwAFmV_KfS4UkykkqyOl7gGfgRPxxi5mVQ/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
+<a type="button" class="btn btn-large btn-default" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
 </div>
 
 
