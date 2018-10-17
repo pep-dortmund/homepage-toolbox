@@ -827,7 +827,7 @@ __Jetzt noch die Installation [testen](#test)!__
 
 Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
 geschlossen und ein neues geöffnet werden.
-Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden. Wenn dieses Programm nicht gestartet wurde wird beim Ausführen der
+Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden. Wenn dieses Programm nicht gestartet wurde, wird beim Ausführen der
 Tests folgender Fehler angezeigt:
 
 ```
