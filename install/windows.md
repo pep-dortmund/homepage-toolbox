@@ -828,7 +828,12 @@ __Jetzt noch die Installation [testen](#test)!__
 
 Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
 geschlossen und ein neues geöffnet werden.
-Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden.
+Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden. Wenn dieses Programm nicht gestartet wurde wird beim Ausführen der
+Tests folgender Fehler angezeigt:
+
+```
+Could not connect to any X display.
+```
 
 In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
@@ -847,6 +852,22 @@ plt.plot([1, 2, 4])
 ```
 
 Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
+
+An dieser Stelle kann ein Fehler auftreten, der mit den folgenden Zeilen (oder ähnlichen) endet:
+
+```
+from PyQt5 import QtCore, QtGui, QtWidget
+ImportError: libGL.so.1 connot open shared object file: No such file or directory
+```
+Dieser Fehler kann durch das Installieren einer Software Bibiliothek behoben werden.
+Dazu müssen folgende Befehle nacheinander in die Bash-Kommandozeile eingegeben werden.
+
+```
+sudo apt update
+```
+```
+sudo apt install qt5-default
+```
 
 ### Uncertainties
 
