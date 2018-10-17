@@ -859,7 +859,7 @@ An dieser Stelle kann ein Fehler auftreten, der mit den folgenden Zeilen (oder √
 from PyQt5 import QtCore, QtGui, QtWidget
 ImportError: libGL.so.1 connot open shared object file: No such file or directory
 ```
-Dieser Fehler kann durch das Installieren einer Software Bibiliothek behoben werden.
+Dieser Fehler kann durch die Installation einer Software Bibiliothek behoben werden.
 Dazu m√ºssen folgende Befehle nacheinander in die Bash-Kommandozeile eingegeben werden.
 
 ```
