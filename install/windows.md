@@ -855,7 +855,7 @@ Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Lini
 An dieser Stelle kann ein Fehler auftreten, der mit der folgenden Zeile (oder einer ähnlichen) endet:
 
 ```
-ImportError: libGL.so.1 connot open shared object file: No such file or directory
+ImportError: libGL.so.1 cannot open shared object file: No such file or directory
 ```
 Dieser Fehler kann durch die Installation einer Software Bibiliothek behoben werden.
 Dazu müssen folgende Befehle nacheinander in die Bash-Kommandozeile eingegeben werden.
