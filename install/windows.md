@@ -856,7 +856,6 @@ Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Lini
 An dieser Stelle kann ein Fehler auftreten, der mit den folgenden Zeilen (oder ähnlichen) endet:
 
 ```
-from PyQt5 import QtCore, QtGui, QtWidget
 ImportError: libGL.so.1 connot open shared object file: No such file or directory
 ```
 Dieser Fehler kann durch die Installation einer Software Bibiliothek behoben werden.
