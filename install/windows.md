@@ -852,7 +852,7 @@ plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
 
-An dieser Stelle kann ein Fehler auftreten, der mit den folgenden Zeilen (oder ähnlichen) endet:
+An dieser Stelle kann ein Fehler auftreten, der mit der folgenden Zeile (oder einer ähnlichen) endet:
 
 ```
 ImportError: libGL.so.1 connot open shared object file: No such file or directory
