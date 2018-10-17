@@ -857,7 +857,7 @@ An dieser Stelle kann ein Fehler auftreten, der mit der folgenden Zeile (oder ei
 ```
 ImportError: libGL.so.1 cannot open shared object file: No such file or directory
 ```
-Dieser Fehler kann durch die Installation einer Software Bibiliothek behoben werden.
+Dieser Fehler kann durch die Installation einer Software-Bibiliothek behoben werden.
 Dazu müssen folgende Befehle nacheinander in die Bash-Kommandozeile eingegeben werden.
 
 ```
