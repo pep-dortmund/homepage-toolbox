@@ -479,7 +479,6 @@ und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
 <img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
 
 
-
 ### X-Server
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
 um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem 
@@ -937,14 +936,28 @@ Usage:
       Please run "biber --help" for option details
 ```
 
-Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.9
+Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
 Für diesen Test muss das Programm XLaunch gestartet worden sein.   
 Der Test-Befehl lautet:
 ```
 texdoc texlive
 ```
-
 Es sollte nun die Dokumentation von TeXLive in einem PDF-Betrachter geöffnet werden.
+
+Sollte an dieser Stelle kann ein Fehler mit folgendem Wortlaut auftreten:
+
+```
+error: no "view" mailcap rules found for type "application/pdf"
+```
+
+Dieser tritt auf, da SumatraPDF über die Bash-Kommandozeile nicht
+verwendet werden kann und noch kein anderer PDF-Betrachter installiert ist.
+Dieser Fehler kann durch Installation des PDF-Betrachters `evince` behoben werden.
+Dazu muss folgender Befehl in die Bash-Kommandozeile eingegeben werden:
+
+```
+sudo apt install evince
+```
 
 ## <a id="update"></a>Aktualisieren
 
