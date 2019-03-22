@@ -14,8 +14,6 @@
       link: linux.html
     - title: Linux/Windows DualBoot
       link: dualboot.html
-    - title: Windows (älter)
-      link: windows_old.html
 
 - title: Material
   link: /notes.html

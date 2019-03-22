@@ -45,11 +45,4 @@ eines Windows/Linux Dual Boot Systems geschrieben, falls ihr es selbst versuchen
       macOS
     </a>
   </div>
-  <div class="col-md-4"></div>
-  <div class="col-md-4">
-    <a class="btn btn-outline-dark btn-block" href="/install/windows_old.html" role="button">
-      <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
-      Windows (ältere)
-    </a>
-  </div>
 </div>
