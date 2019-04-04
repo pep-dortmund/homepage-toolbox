@@ -649,9 +649,6 @@ git config --global user.name "Max Mustermann"
 git config --global user.email "max.mustermann@tu-dortmund.de"
 ```
 ```
-git config --global pull.rebase true
-```
-```
 git config --global rebase.stat true
 ```
 ```

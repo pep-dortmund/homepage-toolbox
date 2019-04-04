@@ -106,7 +106,6 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
 
     git config --global user.name "Max Mustermann"
     git config --global user.email "max.mustermann@udo.edu"
-    git config --global pull.rebase true
     git config --global rebase.stat true
     git config --global merge.conflictstyle diff3
 
