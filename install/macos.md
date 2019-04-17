@@ -56,9 +56,11 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
 __Wichtig__: Wir wollen Python 3.6 Graphical Installer (oben).  Das Paket installieren.
 
-### VS Code
+### VS Codium
 
-- [VS Code](https://code.visualstudio.com/download): Texteditor. Den Mac-Download auswählen. Das Programm "Visual Studio Code.app" befindet sich dann im Downloadordner und muss nach `Programme` verschoben werden. Die App öffnen und mit `Shift+cmd+p` die Kommando Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal "code" eingeben wird.
+- [VS Codium](https://github.com/VSCodium/vscodium/releases): Texteditor.
+   Download der Datei `VsCodium-darwin-<VERSION>.zip`.
+   Das Programm "VSCodium.app" befindet sich dann in der zip Datei im Downloadordner und muss nach `Programme` verschoben werden. Die App öffnen und mit `Shift+cmd+p` die Kommando Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal "code" eingeben wird.
 
 Um git beizubringen, VS Code zu benutzen, Im Terminal:
 

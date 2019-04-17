@@ -47,24 +47,36 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 
         $ sudo yum install git-core make curl
 
-- OpenSUSE:
-
-        $ sudo zypper in git make curl
-
 - Arch Linux:
 
         $ sudo pacman -S git make curl
 
 ### Visual Studio Code
 
+Die Binärdateien, die Microsoft zur Verfügung stellt, haben eine Closed Source
+Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
-Gute Installationsanleitung hier: <https://code.visualstudio.com/docs/setup/linux>
+
+- Debian, Ubuntu, Mint:
+
+  Ladet die Datei `vscodium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
+  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`
+
+- Fedora 
+
+  Ladet die Datei `vscodium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
+  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
+
+
+- Arch Linux
+
+      $ sudo pacman -S code
 
 Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support”,  installiert die Extension mit klick auf den `install` Button.
 
 ### Anaconda
 
-__Wichtig__: Wir wollen Python 3.6.
+__Wichtig__: Wir wollen Python 3.7.
 
 - [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
 
