@@ -713,7 +713,7 @@ cd ~/.local
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 ```
 ```
-TEXLIVE_INSTALL_PREFIX=$HOME/.local/texlive ./install-tl-*/install-tl
+TEXLIVE_INSTALL_PREFIX=$HOME/.local/texlive ./install-tl-*/install-tl --persistent-downloads
 ```
 
 Der erste Befehl ändert den aktuellen Pfad auf den Ordner in den TeXLive installiert werden soll. 

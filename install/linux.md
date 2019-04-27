@@ -113,7 +113,7 @@ Im Terminal:
 ```
 $ cd ~/.local
 $ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
-$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
+$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl --persistent-downloads
 ```
 
 Die Installition startet man mit `I` und `Enter`.
