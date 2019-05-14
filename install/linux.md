@@ -121,7 +121,7 @@ Die Installition startet man mit `I` und `Enter`.
 Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
 
 ```
-export PATH="$HOME/.local/texlive/2018/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/texlive/2019/bin/x86_64-linux:$PATH"
 ```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
