@@ -145,7 +145,7 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Mi, 02.10.2019</td>
   <td>13–17 Uhr</td>
-  <td><span style="color:red"> Chemie HS03 </span></td>
+  <td><span style="color:crimson"> Chemie HS03 </span></td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
