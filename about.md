@@ -20,5 +20,6 @@ Die Organisatoren sind dieses Jahr
   - Maximilian Nöthe
   - Joshua Luckey
   - Kevin Heinicke
+  - Christian Beckmann
 
 Ihr könnt uns über die folgende Mail-Adresse erreichen: [toolbox-pep-dortmund@googlegroups.com](mailto:toolbox-pep-dortmund@googlegroups.com).
