@@ -1,6 +1,6 @@
 ---
 layout: default
-title: PeP et al. Toolbox Workshop 
+title: PeP et al. Toolbox Workshop
 ---
 
 <p class="lead" markdown="1">
@@ -13,18 +13,18 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-<!-- ## Umfrage -->
+## Umfrage
 
-<!-- Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt. -->
-<!-- Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen. -->
-<!-- So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen. -->
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
+Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
+So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
-<!-- <div class="text-center mb-3"> -->
-<!-- <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSctNnj7e8kDkmcdauqA57w9AfHs__Emdq7FVNsF5rLsdpnX-A/viewform">Zur Toolbox-Umfrage (erste Woche)</a> -->
-<!-- <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd9mwsUy8JGnQuUlSeFDdiJdal4ITm0HUdccu2BldNXHn1teg/viewform">Zur LaTeX-Umfrage (zweite Woche)</a> -->
-<!-- </div> -->
+<div class="text-center mb-3">
+<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScEiJAjZ15GwU1AlUHxKDMy1EVIZyJLLSalU44yJ5okiLycGQ/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScqaghd0MRwaSJRCZTTSN1_hFqM0SZqVhLAQ27XtKj0MsbDCA/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
+</div>
 
-## Feedback 2018
+<!-- ## Feedback 2019
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
@@ -32,7 +32,7 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 <div class="text-center">
 <a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
 <a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
-</div>
+</div> -->
 
 
 ## Themen
@@ -51,7 +51,7 @@ Alle im Kurs vorgestellten Programme sind [Free and Open Source Software](https:
 
   Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile gegenüber Alternativen wie Tabellenkalkulationssoftware.
 
-* **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte guten wissenschaftlichen Arbeitens. 
+* **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte guten wissenschaftlichen Arbeitens.
   Git ist das Standardwerkzeug für Versionskontrolle, welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren, Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
 
 * **Make**: Das Standardtool zur automatiserten Ausführung von komplexeren Aufgaben.
@@ -76,7 +76,7 @@ Bitte beachtet die folgenden Schritte:
 
 
 
-## Ablaufplan 2018
+## Ablaufplan 2019
 
 <table class="table table-hover">
 <thead>
@@ -89,37 +89,37 @@ Bitte beachtet die folgenden Schritte:
 </thead>
 <tbody>
   <tr>
-  <td>Mo, 24.09.2018</td>
+  <td>Mo, 23.09.2019</td>
   <td>9 Uhr</td>
   <td>CP-03-150</td>
   <td>Betreutes Installieren falls es Probleme gab / Umstieg auf Linux für Interessenten</td>
   </tr>
   <tr>
-  <td>Mo, 24.09.2018</td>
+  <td>Mo, 23.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 25.09.2018</td>
+  <td>Di, 24.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>numpy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 26.09.2018</td>
+  <td>Mi, 25.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>scipy, uncertainties, Unix, Make</td>
   </tr>
   <tr>
-  <td>Do, 27.09.2018</td>
+  <td>Do, 26.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>Versionskontrolle mit Git</td>
   </tr>
   <tr>
-  <td>Fr, 28.09.2018</td>
+  <td>Fr, 27.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>Ausführliche Übungen</td>
@@ -131,25 +131,25 @@ Bitte beachtet die folgenden Schritte:
   <td></td>
   </tr>
   <tr>
-  <td>Mo, 01.10.2018</td>
+  <td>Mo, 30.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 02.10.2018</td>
+  <td>Di, 01.10.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Do, 04.10.2018</td>
+  <td>Mi, 02.10.2019</td>
   <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td><span style="color:red"> Chemie HS03 </span></td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Fr, 05.10.2018</td>
+  <td>Fr, 04.10.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
