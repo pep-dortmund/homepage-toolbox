@@ -60,7 +60,7 @@ Diese drei Distributionen nutzen das gleiche Betriebssystem, aber unterschiedlic
 
 
 
-Der aktuelle Release von (K,X)Ubuntu ist die Version `18.04`, es erscheinen halbjährlich
+Der aktuelle Release von (K,X)Ubuntu ist die Version `19.04`, es erscheinen halbjährlich
 im April und Oktober neue Versionen.
 Alle zwei Jahre erscheint eine neue Version mit längerem (5 Jahre) Support für Updates (LTS Version), 18.04 ist die aktuelle LTS Version.
 
