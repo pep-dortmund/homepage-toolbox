@@ -40,7 +40,8 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 ## <a id="Installation"></a>Installation
 
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
-Das steht unter `Einstellungen` → `System` → `Info` → `Systemtyp`.
+Hierfür klickt man auf das Windows-Symbol und dann auf das Zahnrad, um die Einstellungen zu öffnen.
+Dann kann mit `System` → `Info` unter dem Punkt `Systemtyp` die Art des Betriebssystem gesehen werden.
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
