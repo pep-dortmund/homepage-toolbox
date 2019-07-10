@@ -31,7 +31,7 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
   </div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren 
+  Aktualisieren
   </a>
   </div>
   <div class="col-md-2" align="center"></div>
@@ -39,8 +39,8 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ## <a id="Installation"></a>Installation
 
-Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt. Das geht mit Rechtsklick 
-auf `Dieser PC` (Windows 10) und dann Eigenschaften.
+Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
+Das steht unter `Einstellungen` → `System` → `Info` → `Systemtyp`.
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
@@ -56,7 +56,7 @@ Buchstaben über die Tastatur eingibt.
 <img alt="" src="/img/wsl-0.png" style="width: 100%;" />
 
 Mit einem `Rechtsklick` auf _Windows PowerShell_
-das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_ 
+das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_
 gestartet werden.
 
 <img alt="" src="/img/wsl-1.png" style="width: 100%;" />
@@ -81,15 +81,13 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-<img alt="" src="/img/wsl-5.png" style="width: 100%;" />
-
 Die darauf folgende Abfrage ob der Computer neugestartet werden soll,
 kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
 
 <img alt="" src="/img/wsl-6.png" style="width: 100%;" />
 
-Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert. 
-Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem 
+Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert.
+Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem
 Subsystem installiert werden soll.
 
 #### Installation der Linux Variante Ubuntu
@@ -98,8 +96,9 @@ Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store).
 
 Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
-Dies ist jedoch kein Problem, denn die im Folgenden verwendete Variante ist die Oberste,
-__Ubuntu__. Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
+Dies ist jedoch kein Problem, die im Folgenden verwendete Variante ist __Ubuntu__.
+(Stand 10.07.2019 ist die neueste Version: __Ubuntu 18.04 LTS__)
+Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
 
 <img alt="" src="/img/wsl-7.png" style="width: 100%;" />
 
@@ -128,9 +127,9 @@ das Linux-Betriebssystem einzugeben.
 
 <img alt="" src="/img/wsl-12.png" style="width: 100%;" />
 
-Dieser Linux-Benutzername kann frei gewählt werden. 
+Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
-mit dem Windows-Benutzernamen übereinstimmen. 
+mit dem Windows-Benutzernamen übereinstimmen.
 Die Eingabe des Benutzernames wird mit Drücken der `Enter`-Taste bestätigt.
 
 <img alt="" src="/img/wsl-13.png" style="width: 100%;" />
@@ -148,13 +147,13 @@ so muss dieses erneut (zweimal) eingegeben werden.
 
 <img alt="" src="/img/wsl-15.png" style="width: 100%;" />
 
-Ist die Installation erfolgreich durchgeführt worden, 
+Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
 Die unterste Zeile besteht aus zwei Teilen.   
-Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen. 
+Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
-Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion 
-mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während 
+Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
+mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während
 des Workshops, im Folgenden wird diese jedoch schon zur
 Installation der benötigten Software verwendet.
 
@@ -167,7 +166,7 @@ Installation der benötigten Software verwendet.
 
 ### Dateiendungen einschalten
 
-<span style="font-size: large;">[Anleitung](https://support.microsoft.com/kb/865219/de)</span>
+<span style="font-size: large;">[Anleitung](http://techmixx.de/windows-10-dateiendungen-anzeigen-oder-ausblenden/)</span>
 
 
 
@@ -180,18 +179,20 @@ Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgende
 
 [Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
 
-
+In dem aufploppenden Setup-Fenster stehen mehrere Optionen.
+Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
+Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
 
 Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
-um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das 
-(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt 
+um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
+(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
 für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
 
 Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_ Menü.
 
 <img alt="" src="/img/vscode-12.png" style="width: 100%;" />
 
-In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die 
+In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
 in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
 dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
 Es ist möglich das die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
@@ -224,7 +225,7 @@ Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch drücken
 der `Entertaste` ausgewählt werden.
- 
+
 <img alt="" src="/img/vscode-17.png" style="width: 100%;" />
 
 Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
@@ -250,11 +251,11 @@ Im unten dargestellten Screenshot wurde die neuste Version am 06.05.2018 veröff
 Das Datum der Veröffentlichung der entsprechenden Version ist dabei immer die jeweilige Überschrift
 (aus 06.05.2018 wird beispielsweise _180506_).   
 Es ist zu beachten, dass immer die aktuellste Version der Software verwendet werden sollte.
-Die Installationsdatei verbirgt sich jeweils hinter dem zweite Link unter _Assets_, beginnt mit 
+Die Installationsdatei verbirgt sich jeweils hinter dem zweite Link unter _Assets_, beginnt mit
 _**ConEmuSetup**_ und besitzt die Dateiendung _**.exe**_.
 
 <img alt="" src="/img/conemu--2.png" style="width: 100%;" />
- 
+
 
 Nach erfolgreichem Download und einem doppelten `Linksklick` auf die heruntergeladene Datei
 muss das folgende Fenster mit einem `Linksklick` auf _Ausführen_ bestätigt werden.
@@ -268,7 +269,7 @@ Die meisten PCs sind heutzutage 64-bit. Bei einem einigermaßen neuen PC kann al
 <img alt="" src="/img/conemu-1.png" style="width: 100%;" />
 
 
-Es kann folgenden Fenster erscheinen indem die Installation noch mit einem `Linksklick` auf _Ja_ 
+Es kann folgenden Fenster erscheinen indem die Installation noch mit einem `Linksklick` auf _Ja_
 erlaubt werden muss.
 
 <img alt="" src="/img/conemu-2.png" style="width: 100%;" />
@@ -312,7 +313,7 @@ das Einstellungsmenü geöffnet.
 In diesem Menü wird zunächst das Untermenü _Tasks_ durch einen `Linksklick` geöffnet.
 In der Liste sollte sich der (hier unter 13) dargestellte Eintrag _{Bash::bash}_ befinden.
 Ist dieser nicht vorhanden, kann dieser mit einem `Linksklick` auf die Schaltfläche _Add/refresh tasks_
-nachgeladen werden. Um die folgenden Einstellungen vorzunehmen wird der Eintrag _{Bash::bash}_ mit 
+nachgeladen werden. Um die folgenden Einstellungen vorzunehmen wird der Eintrag _{Bash::bash}_ mit
 einem `Linksklick` ausgewählt.
 
 <img alt="" src="/img/conemu-14.png" style="width: 100%;" />
@@ -330,13 +331,13 @@ Eine Anpassung kann durch Löschung des in der Textbox vorhanden Textes und durc
 <img alt="" src="/img/conemu-15.png" style="width: 100%;" />
 
 Die nächste Einstellung wird unter dem Untermenü _Startup_ vorgenommen. Hier wird aus der Liste unter
-_Specified named task_ erneut _{Bash::bash}_ ausgewählt. Die Auswahlliste wird dabei durch einen `Linksklick` 
+_Specified named task_ erneut _{Bash::bash}_ ausgewählt. Die Auswahlliste wird dabei durch einen `Linksklick`
 auf die Auswahlbox ausgeklappt.
 
 <img alt="" src="/img/conemu-17.png" style="width: 100%;" />
 
 Die letzten Einstellungen wird unter dem Untermenü _Integration_ vorgenommen. Hier wird in die Textboxen
-(von oben nach unten) folgender Inhalt eingetragen. Der bereits vorhandene Text in den ersten beiden 
+(von oben nach unten) folgender Inhalt eingetragen. Der bereits vorhandene Text in den ersten beiden
 Textboxen muss zunächst gelöscht werden.
 
 + _Menu Item:_ `Bash Here`
@@ -348,18 +349,18 @@ mit einem `Linksklick` auf _Save settings_ abgeschlossen.
 
 <img alt="" src="/img/conemu-21.png" style="width: 100%;" />
 
-Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wie folgt mit der 
+Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wie folgt mit der
 Bash-Kommandozeile öffenen. Diese ist an dem charakteristischen _`$`_ vor dem Cursor zu erkennen,
 die Windows-Kommandozeile zeigt hier ein _`>`_.
 
 <img alt="" src="/img/conemu-19.png" style="width: 100%;" />
 
-Eine der zuvor vorgenommenen Einstellungen vereinfacht das Öffnen einer Bash-Kommandozeile in einmem 
-beliebigen Ordner. Was genau das heißt wird im Laufe des Workshops erklärt, hier soll nur auf die 
+Eine der zuvor vorgenommenen Einstellungen vereinfacht das Öffnen einer Bash-Kommandozeile in einmem
+beliebigen Ordner. Was genau das heißt wird im Laufe des Workshops erklärt, hier soll nur auf die
 Auswirkung der Einstellung aufmerksam gemacht werden. Wird auf dem Desktop (oder in einem anderen
-Ordner) ein `Rechtsklick` ausgeführt, so öffnet sich das unten dargestellte Kontextmenü. In diesem 
+Ordner) ein `Rechtsklick` ausgeführt, so öffnet sich das unten dargestellte Kontextmenü. In diesem
 befindet sich der hervorgehobene Eintrag _Bash Here_. Wird dieser mit einem `Linksklick` ausgewählt
-öffnet sich ConEmu. 
+öffnet sich ConEmu.
 
 <img alt="" src="/img/conemu-22.png" style="width: 100%;" />
 
@@ -380,7 +381,7 @@ luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh/Desktop$
 ### Sumatra PDF
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert, 
+Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
 sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
 Den Download findet man unter dem folgenden Link.
 
@@ -394,7 +395,7 @@ hervorgehobenen Link heruntergeladen werden.
 
 Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
 Infolgedessen öffet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
-die _Optionen_ geöffnet. 
+die _Optionen_ geöffnet.
 
 <img alt="" src="/img/sumatra-2.png" style="width: 100%;" />
 
@@ -410,7 +411,7 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 <img alt="" src="/img/sumatra-5.png" style="width: 100%;" />
 
 Vor der Verwendung von Sumatra PDF muss noch Einstellung vorgenommen werden.
-Dafür wird mit einem `Linksklick` auf _Einstellungen_ und einem weitern `Linksklick` auf _Optionen..._ 
+Dafür wird mit einem `Linksklick` auf _Einstellungen_ und einem weitern `Linksklick` auf _Optionen..._
 das Optionsmenü geöffnet.
 
 <img alt="" src="/img/sumatra-6.png" style="width: 100%;" />
@@ -425,7 +426,7 @@ und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
 
 ### X-Server
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
-um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem 
+um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem
 folgenden Link heruntergeladen werden.
 
 [X-Server Download](https://sourceforge.net/projects/vcxsrv/)
@@ -441,7 +442,7 @@ _Ja_ bestätigt werden muss.
 
 <img alt="" src="/img/xserver-1.png" style="width: 100%;" />
 
-Im nachfolgenden Fenster kann nun der Umfang der Installation ausgewählt werden. Hier ist _Full_ auszuwählen. 
+Im nachfolgenden Fenster kann nun der Umfang der Installation ausgewählt werden. Hier ist _Full_ auszuwählen.
 Die Auswahl wird durch einen `Linksklick` auf _Next_ bestätigt.
 
 <img alt="" src="/img/xserver-2.png" style="width: 100%;" />
@@ -471,12 +472,12 @@ auf _Weiter_ bestätigt.
 
 <img alt="" src="/img/xserver-7.png" style="width: 100%;" />
 
-Im letzten Einstellungs-Fenster werden alle vier Optionen ausgewählt und abschließend mit einem 
+Im letzten Einstellungs-Fenster werden alle vier Optionen ausgewählt und abschließend mit einem
 `Linksklick` auf _Weiter_ bestätigt.
 
 <img alt="" src="/img/xserver-9.png" style="width: 100%;" />
 
-Nun können die vorgenommenen Einstellungen gespeichert werden. Der entsprechende Dialog wird 
+Nun können die vorgenommenen Einstellungen gespeichert werden. Der entsprechende Dialog wird
 durch einen `Linksklick` auf _Save configuration_ geöffnet.
 
 <img alt="" src="/img/xserver-10.png" style="width: 100%;" />
@@ -486,7 +487,7 @@ Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ au
 
 <img alt="" src="/img/xserver-11.png" style="width: 100%;" />
 
-Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen 
+Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen
 und das Programm gestartet werden.
 
 <img alt="" src="/img/xserver-12.png" style="width: 100%;" />
@@ -499,21 +500,21 @@ dieses muss mit einem `Linksklick` auf _Abbrechen_ abgelehnt werden.
 
 Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Das das Programm gestartet wurde lässt
 sich an einem Icon in der Taskleiste (in der Nähe der Uhrzeit) erkennen. Sollte das Icon nicht
-zusehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein. 
+zusehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein.
 
 <img alt="" src="/img/xserver-14.png" style="width: 100%;" />
 
 
-Am zuvor ausgewählten Speicherort für die Einstellungen, 
+Am zuvor ausgewählten Speicherort für die Einstellungen,
 befindet sich die unten hervorgehobene Datei mit dem zuvor ausgewählten Namen.
 Mit einem doppelten `Linksklick` auf diese Datei kann von nun an das Programm _XLaunch_
-gestartet werden ohne die Einstellungen erneut vornehmen zu müssen. 
+gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
 <img alt="" src="/img/xserver-15.png" style="width: 100%;" />
 
 
 Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
-vorgenommen werden. In diese werden nacheinander die folgenden Befehle eingegeben und mit 
+vorgenommen werden. In diese werden nacheinander die folgenden Befehle eingegeben und mit
 einem Druck auf die `Entertaste` bestätigt.
 ```
 echo "export DISPLAY=:0.0" >> ~/.bashrc
@@ -541,7 +542,7 @@ werden können.
 <img alt="" src="/img/unix-tools-0.png" style="width: 100%;" />
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
-das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden. 
+das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix-tools-01.png" style="width: 100%;" />
 
@@ -608,13 +609,13 @@ der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung ka
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
 Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 
-[Anaconda Download](http://www.continuum.io/downloads#linux){:target="_blank"}
+[Anaconda Download](https://www.anaconda.com/distribution/){:target="_blank"}
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.6 verwendet werden. Diese findet sich
-unter dem hervorgehobenen Link. Der Download kann einige Minuten in Anspruch nehmen.
+Außerdem soll die _x64-Bit_ Version der Python Version 3.7 verwendet werden. Diese findet sich
+unter dem linken Downloadknopf. Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-0.png" style="width: 100%;" />
+<img alt="" src="/img/anaconda-0-1.png" style="width: 100%;" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
@@ -630,7 +631,7 @@ cd Desktop
 ```
 ls
 ```
-Der erste Befehl ändert den aktuellen Pfad auf den Desktop. 
+Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
 Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
 (Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
 so ist der erste Befehl nicht mehr notwendig.)
@@ -639,7 +640,7 @@ Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
 In dieser Liste muss sich auch die zuvor auf den Desktop
 kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
 
-Nachfolgend wird der Befehl 
+Nachfolgend wird der Befehl
 ```
 bash Anaconda3-5.2.0-Linux-X86_64.sh -p ~/.local/anaconda3 -b
 ```
@@ -654,7 +655,7 @@ Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 
 <img alt="" src="/img/anaconda-13.png" style="width: 100%;" />
 
-Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben 
+Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben
 und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
 eingehalten werden. Da hier besonders darauf geachtet werden muss, keinen Tippfehler zu machen,
 empfiehlt es sich hier (mehr als sonst), die Befehle zu kopieren und einzufügen.
@@ -696,13 +697,13 @@ pip install uncertainties
 
 ### TeXLive
 
-TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weiter Informationen und 
+TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weitere Informationen und
 eine detailierte Installationsanleitung können unter den folgenden Links eingesehen werden.
 + [TeXLive Website](https://www.tug.org/texlive/)
 + [Installationsanleitung](https://www.tug.org/texlive/windows.html)
 
 
-Für die Installation wird erneut die Bash-Kommandozeile (mit ConEmu) verwendet. 
+Für die Installation wird erneut die Bash-Kommandozeile (mit ConEmu) verwendet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
 
@@ -716,7 +717,7 @@ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar
 TEXLIVE_INSTALL_PREFIX=$HOME/.local/texlive ./install-tl-*/install-tl
 ```
 
-Der erste Befehl ändert den aktuellen Pfad auf den Ordner in den TeXLive installiert werden soll. 
+Der erste Befehl ändert den aktuellen Pfad auf den Ordner in den TeXLive installiert werden soll.
 Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/.local` enden.
 
 Der zweite Befehl lädt das Installationsdateien für TeXLive herunter.
@@ -726,7 +727,7 @@ Der dritte Befehl installiert TeXLive.
 <img alt="" src="/img/texlive-0.png" style="width: 100%;" />
 
 Um die Installation zu starten muss die folgende Anfrage mit `I` und einem druck auf die `Entertaste`
-bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die mehr als 5GB 
+bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die mehr als 5GB
 an Daten heruntergeladen werden. Entsprechend kann diese Installation mitunter sehr viel Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/texlive-4.png" style="width: 100%;" />
@@ -739,7 +740,7 @@ Nach erfolgreicher Installation wird folgender Text ausgegeben.
 
 <img alt="" src="/img/texlive-6.png" style="width: 100%;" />
 
-Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der 
+Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der
 `Entertaste` bestätigt wird.
 ```
 echo 'export PATH="$HOME/.local/texlive/2019/bin/x86_64-linux:$PATH"' >> ~/.bashrc
@@ -787,6 +788,11 @@ plt.plot([1, 2, 4])
 ```
 
 Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
+Mit
+```
+quit
+```
+kann das Programm _ipython_ beendet werden
 
 ### Uncertainties
 
@@ -827,13 +833,13 @@ luatex
 Es sollte folgende Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.0.4 (TeX Live 2017) 
+This is LuaTeX, Version 1.0.4 (TeX Live 2017)
 restricted system commands enabled.
 **
 ```
 
 Diese kann mit drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
-Nun wird ein weiteres Program getestet, das von LaTeX verwendet wird. Dies wird durch 
+Nun wird ein weiteres Program getestet, das von LaTeX verwendet wird. Dies wird durch
 Eingabe des Befehls
 ```
 biber
@@ -882,11 +888,11 @@ Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in e
     pip install -U uncertainties
 ```
 
-### Git, Make und weitere Unix-Tools 
+### Git, Make und weitere Unix-Tools
 
 Um Updates für dies sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
 müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
-Bash-Kommandozeile eingegeben werden. 
+Bash-Kommandozeile eingegeben werden.
 ```
 sudo apt update
 ```
