@@ -139,13 +139,13 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Di, 01.10.2019</td>
   <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td><span style="color:red"> Chemie HS01 </span></td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi, 02.10.2019</td>
   <td>13–17 Uhr</td>
-  <td><span style="color:red"> Chemie HS03 </span></td>
+  <td>CT-ZB ZE01</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
