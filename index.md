@@ -139,7 +139,7 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Di, 01.10.2019</td>
   <td>13–17 Uhr</td>
-  <td><span style="color:red"> Chemie HS01 </span></td>
+  <td><span style="color:crimson"> Chemie HS01 </span></td>
   <td>Formelsatz</td>
   </tr>
   <tr>
