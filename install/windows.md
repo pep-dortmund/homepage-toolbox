@@ -41,7 +41,13 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
 Hierfür klickt man auf das Windows-Symbol und dann auf das Zahnrad, um die Einstellungen zu öffnen.
-Dann kann mit `System` → `Info` unter dem Punkt `Systemtyp` die Art des Betriebssystem gesehen werden.
+
+<img alt="" src="/img/windows-installation/windows-0.PNG" style="width: 100%;" />
+
+Dann wählt man den ersten Punkt `System` aus. In der Liste am linken Rand lautet der letzte Punkt `Info`.
+Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystem gesehen werden.
+
+<img alt="" src="/img/windows-installation/windows-1.PNG" style="width: 100%;" />
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
@@ -101,7 +107,7 @@ Dies ist jedoch kein Problem, die im Folgenden verwendete Variante ist __Ubuntu_
 (Stand 10.07.2019 ist die neueste Version: __Ubuntu 18.04 LTS__)
 Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
 
-<img alt="" src="/img/wsl-7.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-2.PNG" style="width: 100%;" />
 
 Es öffnet sich ein neues Fenster des Microsoft-Stores. Durch `Linksklick` auf die
 Schaltfläche _Herunterladen_ wird der Download begonnen.  
@@ -167,9 +173,16 @@ Installation der benötigten Software verwendet.
 
 ### Dateiendungen einschalten
 
-<span style="font-size: large;">[Anleitung](http://techmixx.de/windows-10-dateiendungen-anzeigen-oder-ausblenden/)</span>
+Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
+Diese können und sollen aktiviert werden.
 
+Dafür wird in der Taskleiste auf das Windows-Symbol, oder die Lupe geklickt und `Dateien` eingegeben.
 
+<img alt="" src="/img/windows-installation/windows-3.PNG" style="width: 100%;" />
+
+In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden.
+
+<img alt="" src="/img/windows-installation/windows-4.PNG" style="width: 100%;" />
 
 
 ### Visual Studio Code
@@ -180,7 +193,7 @@ Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgende
 
 [Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
 
-In dem aufploppenden Setup-Fenster stehen mehrere Optionen.
+In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusätzliche Aufgaben auswählen` die Standard-Optionen gewählt werden.
 Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
 Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
 
@@ -205,9 +218,6 @@ Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _I
 <img alt="" src="/img/vscode-13.png" style="width: 100%;" />
 
 Nach der Installation von neuen Extensions muss VSCode geschlossen und neugestartet werden.
-Dies lässt sich durch `Linksklick` auf die Schaltfläche _Reload_ erledigen.
-
-<img alt="" src="/img/vscode-14.png" style="width: 100%;" />
 
 Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
 in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
@@ -248,14 +258,14 @@ Website verlinkt.
 #### Download und Installation
 
 Auf der verlinkten Website kann die hervorgehobene Installationsdatei herunter geladen werden.
-Im unten dargestellten Screenshot wurde die neuste Version am 06.05.2018 veröffentlicht.
+Im unten dargestellten Screenshot wurde die neuste Version am 14.07.2019 veröffentlicht.
 Das Datum der Veröffentlichung der entsprechenden Version ist dabei immer die jeweilige Überschrift
-(aus 06.05.2018 wird beispielsweise _180506_).   
+(aus 14.07.2019 wird beispielsweise _190714_).   
 Es ist zu beachten, dass immer die aktuellste Version der Software verwendet werden sollte.
 Die Installationsdatei verbirgt sich jeweils hinter dem zweite Link unter _Assets_, beginnt mit
 _**ConEmuSetup**_ und besitzt die Dateiendung _**.exe**_.
 
-<img alt="" src="/img/conemu--2.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-5.PNG" style="width: 100%;" />
 
 
 Nach erfolgreichem Download und einem doppelten `Linksklick` auf die heruntergeladene Datei
@@ -304,38 +314,19 @@ Mit einem doppelten `Linksklick` auf diese Verknüpfung kann nun ConEmu gestarte
 
 #### Einrichtung des Bash-Kommandozeile
 
-Nach dem Starten von ConEmu öffnet sich das Programm mit dem unten dargestellten Fenster. Standardmäßig
-öffnet ConEmu die Windows-Kommandozeile (_cmd_) diese Einstellung wird im Folgenden verändert.
-Dazu wird mit einem `Rechtsklick` auf die hervorgehoben Schaltfläche oben rechts (drei horizontale Balken)
-das Einstellungsmenü geöffnet.
+Nach dem Starten von ConEmu öffnet sich das Programm mit dem unten dargestellten Fenster.
+Standardmäßig öffnet ConEmu die Windows-Kommandozeile (_cmd_) diese Einstellung wird im Folgenden verändert.
+Dazu wird im zweiten Textfeld mit dem Pfeil runter `{Bash::bash}` ausgewählt.
 
-<img alt="" src="/img/conemu-10.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-6.PNG" style="width: 100%;" />
 
-In diesem Menü wird zunächst das Untermenü _Tasks_ durch einen `Linksklick` geöffnet.
-In der Liste sollte sich der (hier unter 13) dargestellte Eintrag _{Bash::bash}_ befinden.
-Ist dieser nicht vorhanden, kann dieser mit einem `Linksklick` auf die Schaltfläche _Add/refresh tasks_
-nachgeladen werden. Um die folgenden Einstellungen vorzunehmen wird der Eintrag _{Bash::bash}_ mit
-einem `Linksklick` ausgewählt.
+Dann wird ConEmu ausgeführt. Das Fenster sollte so aussehen, wie im Folgenden Bild.
+Abgesehen vom Nutzernamen `toolbox` und dem Namen des PC `DESKTOP-JRL90OH`.
 
-<img alt="" src="/img/conemu-14.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-7.PNG" style="width: 100%;" />
 
-
-In den Einstellung befinden sich die zwei hervorgehobenen Textboxen.
-Die obere Textbox muss **nicht** angepasst werden.
-In die untere der beiden Textboxen muss folgender Text enthalten sein.
-
-```
-set "PATH=%ConEmuBaseDirShort%\wsl;%PATH%" & %ConEmuBaseDirShort%\conemu-cyg-64.exe --wsl -cur_console:pm:/mnt
-```
-Eine Anpassung kann durch Löschung des in der Textbox vorhanden Textes und durch Kopieren und Einfügen des obigen Textes erfolgen.
-
-<img alt="" src="/img/conemu-15.png" style="width: 100%;" />
-
-Die nächste Einstellung wird unter dem Untermenü _Startup_ vorgenommen. Hier wird aus der Liste unter
-_Specified named task_ erneut _{Bash::bash}_ ausgewählt. Die Auswahlliste wird dabei durch einen `Linksklick`
-auf die Auswahlbox ausgeklappt.
-
-<img alt="" src="/img/conemu-17.png" style="width: 100%;" />
+Mit einem Klick auf die drei waagerechten Balken in der rechten oberen Ecke,
+kann mit dem Punkt `Settings` das Einstellungsmenü geöffnet werden.
 
 Die letzten Einstellungen wird unter dem Untermenü _Integration_ vorgenommen. Hier wird in die Textboxen
 (von oben nach unten) folgender Inhalt eingetragen. Der bereits vorhandene Text in den ersten beiden
@@ -354,30 +345,8 @@ Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wi
 Bash-Kommandozeile öffenen. Diese ist an dem charakteristischen _`$`_ vor dem Cursor zu erkennen,
 die Windows-Kommandozeile zeigt hier ein _`>`_.
 
-<img alt="" src="/img/conemu-19.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-7.PNG" style="width: 100%;" />
 
-Eine der zuvor vorgenommenen Einstellungen vereinfacht das Öffnen einer Bash-Kommandozeile in einmem
-beliebigen Ordner. Was genau das heißt wird im Laufe des Workshops erklärt, hier soll nur auf die
-Auswirkung der Einstellung aufmerksam gemacht werden. Wird auf dem Desktop (oder in einem anderen
-Ordner) ein `Rechtsklick` ausgeführt, so öffnet sich das unten dargestellte Kontextmenü. In diesem
-befindet sich der hervorgehobene Eintrag _Bash Here_. Wird dieser mit einem `Linksklick` ausgewählt
-öffnet sich ConEmu.
-
-<img alt="" src="/img/conemu-22.png" style="width: 100%;" />
-
-Der Unterschied zu vorher ist der Pfad an dem die Konsole geöffnet wird, dies ist jetzt der _Desktop_.
-Zuvor stand in der Zeile vor dem Cursor:
-```
-luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh$
-```
-(Dabei ist zu beachten, dass sowohl `luckyjosh` als auch `josh` durch die entsprechenden Benutzernamen ersetzt sein werden.)
-
-Nun steht dort:
-```
-luckyjosh@DESKTOP-0LSK6R6:/mnt/c/Users/josh/Desktop$
-```
-
-<img alt="" src="/img/conemu-23.png" style="width: 100%;" />
 
 ### Sumatra PDF
 
