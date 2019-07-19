@@ -321,9 +321,9 @@ Dazu wird im zweiten Textfeld mit dem Pfeil runter `{Bash::bash}` ausgewählt.
 <img alt="" src="/img/windows-installation/windows-6.PNG" style="width: 100%;" />
 
 Dann wird ConEmu ausgeführt. Das Fenster sollte so aussehen, wie im Folgenden Bild.
-Abgesehen vom Nutzernamen `toolbox` und dem Namen des PC `DESKTOP-JRL90OH`.
+Abgesehen vom Nutzernamen `luckyjosh` und dem Namen des PC `DESKTOP-0LSK6R6`.
 
-<img alt="" src="/img/windows-installation/windows-7.PNG" style="width: 100%;" />
+<img alt="" src="/img/conemu-19.png" style="width: 100%;" />
 
 Mit einem Klick auf die drei waagerechten Balken in der rechten oberen Ecke,
 kann mit dem Punkt `Settings` das Einstellungsmenü geöffnet werden.
@@ -345,7 +345,7 @@ Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wi
 Bash-Kommandozeile öffenen. Diese ist an dem charakteristischen _`$`_ vor dem Cursor zu erkennen,
 die Windows-Kommandozeile zeigt hier ein _`>`_.
 
-<img alt="" src="/img/windows-installation/windows-7.PNG" style="width: 100%;" />
+<img alt="" src="/img/conemu-19.png" style="width: 100%;" />
 
 
 ### Sumatra PDF
@@ -370,10 +370,10 @@ die _Optionen_ geöffnet.
 <img alt="" src="/img/sumatra-2.png" style="width: 100%;" />
 
 In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben. Zum anderen sollten die beiden hervorgehobenen
+bereits eingetragene Dateipfad ist kann unverändert bleiben. Zum anderen sollten die drei möglichen
 Haken gesetzt sein. Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
 
-<img alt="" src="/img/sumatra-3.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-8.PNG" style="width: 100%;" />
 
 Nach einer erfolgreichen Installation wird das folgende Fenster angezeigt. Mit einem `Linksklick`
 auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
@@ -381,10 +381,10 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 <img alt="" src="/img/sumatra-5.png" style="width: 100%;" />
 
 Vor der Verwendung von Sumatra PDF muss noch Einstellung vorgenommen werden.
-Dafür wird mit einem `Linksklick` auf _Einstellungen_ und einem weitern `Linksklick` auf _Optionen..._
-das Optionsmenü geöffnet.
+Dafür wird mit einem `Linksklick` auf die drei waagerechten Balken in der linken oberen Ecke
+der Menüpunkt _Einstellungen_ → _Optionen_ mit einem weitern `Linksklick`ausgewählt.
 
-<img alt="" src="/img/sumatra-6.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-9.PNG" style="width: 100%;" />
 
 Im Optionsmenü kann Sumatra PDF zum Standard-PDF-Betrachter gemacht werden. Dafür muss zunächst
 mit einem `Linksklick` auf _Standardmäßig PDF-Dateien mit SumatraPDF öffnen_ diese Einstellung vorgenommen
@@ -455,7 +455,7 @@ durch einen `Linksklick` auf _Save configuration_ geöffnet.
 Die entsprechende Datei kann nach eigenem Belieben bennant werden und auch der Speicherort ist freiwählbar.
 Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
 
-<img alt="" src="/img/xserver-11.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-10.PNG" style="width: 100%;" />
 
 Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen
 und das Programm gestartet werden.
@@ -582,8 +582,8 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 [Anaconda Download](https://www.anaconda.com/distribution/){:target="_blank"}
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.7 verwendet werden. Diese findet sich
-unter dem linken Downloadknopf. Der Download kann einige Minuten in Anspruch nehmen.
+Außerdem soll die _x64-Bit_ Version der Python Version 3.7 verwendet werden. Diese kann mit einem
+`Linksklick` auf den linken Downloadknopf heruntergeladen werden. Der Download kann einige Minuten in Anspruch nehmen.
 
 <img alt="" src="/img/anaconda-0-1.png" style="width: 100%;" />
 
@@ -612,18 +612,18 @@ kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgeho
 
 Nachfolgend wird der Befehl
 ```
-bash Anaconda3-5.2.0-Linux-X86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2019.03-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 verwendet, um die Installation zu starten. **Wichtig** ist zu beachten, dass der zweite Teil des
 Befehls der Name der Installationsdatei ist, sollte dieser sich von dem hier gezeigten unterscheiden
 muss der Befehl entsprechend angepasst werden. Wie zuvor wird auch dieser Befehl durch drücken der
 `Entertaste` bestätigt.
 
-<img alt="" src="/img/anaconda-5.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-11.PNG" style="width: 100%;" />
 
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 
-<img alt="" src="/img/anaconda-13.png" style="width: 100%;" />
+<img alt="" src="/img/windows-installation/windows-12.PNG" style="width: 100%;" />
 
 Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben
 und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
@@ -833,7 +833,7 @@ Usage:
       Please run "biber --help" for option details
 ```
 
-Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.9
+Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
 Für diesen Test muss das Programm XLaunch gestartet worden sein.   
 Der Test-Befehl lautet:
 ```
@@ -841,6 +841,13 @@ texdoc texlive
 ```
 
 Es sollte nun die Dokumentation von TeXLive in einem PDF-Betrachter geöffnet werden.
+Falls das nicht der Fall ist und die Fehlermeldung
+_error: no "view" mailcap rules found for type "application/pdf"_
+erscheint, kann dieser Fehler mit der Eingabe des Befehls
+```
+sudo apt install evince
+```
+behoben werden.
 
 ## <a id="update"></a>Aktualisieren
 
