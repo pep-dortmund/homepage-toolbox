@@ -76,14 +76,14 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 
 ### Anaconda
 
-__Wichtig__: Wir wollen Python 3.7.
+__Wichtig__: Wir wollen Python 3.7 für Linux.
 
 - [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
 
 Im Terminal im Ordner mit der heruntergeladenen Datei:
 
 ```
-$ bash Anaconda3-5.2.0-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2019.03-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Öffnet die Datei `~/.bashrc` und fügt diese beiden Zeilen am Ende hinzu:
