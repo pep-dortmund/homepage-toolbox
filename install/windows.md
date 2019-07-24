@@ -484,14 +484,12 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
 
 Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
-vorgenommen werden. In diese werden nacheinander die folgenden Befehle eingegeben und mit
-einem Druck auf die `Entertaste` bestätigt.
+vorgenommen werden.
+Dafür wird _ConEmu_ geöffnet und der Befehl
 ```
-echo "export DISPLAY=:0.0" >> ~/.bashrc
+echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
 ```
-<img alt="" src="/img/xserver-16.png" style="width: 100%;" />
-
-
+eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
 
 
@@ -509,7 +507,6 @@ Die Ausführung dieses Befehls kann einige Zeit in anspruch nehmen und setzt ein
 Internetverbindung vorraus über die einige 100MB große Datenmengen heruntergeladen
 werden können.
 
-<img alt="" src="/img/unix-tools-0.png" style="width: 100%;" />
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
@@ -644,7 +641,7 @@ so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 
 <img alt="" src="/img/anaconda-20.png" style="width: 100%;" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-5.2.0-Linux-X86_64.sh_
+Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2019.03-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
 ### Uncertainties
@@ -883,4 +880,21 @@ sudo apt upgrade
 Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
+```
+
+## Trouble Shooting
+_matplotlib_ wird nicht mit dem backend qt5 verwendet:
+```
+sudo apt install qt5-default
+```
+`texdoc texlive` wirft einen Fehler, dass kein pdf-viewer verlinkt ist:
+```
+sudo apt install evince
+```
+Beim abspeichern von matplotlib-Figuren
+kommt ein Fehler ähnlich zu
+**ghostscript-9.00 required**
+```
+sudo apt update
+sudo apt install ghostscript
 ```
