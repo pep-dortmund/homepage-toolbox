@@ -21,7 +21,7 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und A
   <div class="col-md-2" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren 
+  Aktualisieren
   </a>
   </div>
   <div class="col-md-1" align="center"></div>
@@ -62,7 +62,7 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
   Ladet die Datei `vscodium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
   dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`
 
-- Fedora 
+- Fedora
 
   Ladet die Datei `vscodium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
   dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
@@ -83,7 +83,7 @@ __Wichtig__: Wir wollen Python 3.7 für Linux.
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2019.03-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2019.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
@@ -208,7 +208,7 @@ Es sollte die Biber-Hilfe erscheinen.
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
-### TeXLive einstellen: 
+### TeXLive einstellen:
 
 Im Terminal:
 
