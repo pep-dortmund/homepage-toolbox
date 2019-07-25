@@ -609,7 +609,7 @@ kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgeho
 
 Nachfolgend wird der Befehl
 ```
-bash Anaconda3-2019.03-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2019.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 verwendet, um die Installation zu starten. **Wichtig** ist zu beachten, dass der zweite Teil des
 Befehls der Name der Installationsdatei ist, sollte dieser sich von dem hier gezeigten unterscheiden
