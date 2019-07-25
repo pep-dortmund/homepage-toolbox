@@ -7,7 +7,7 @@ If you want to build the site locally, install ruby, node and some optional depe
 ### Ubuntu
 
 ```
-$ sudo apt install ruby-dev nodejs-legacy libxml2-dev libxslt-dev
+$ sudo apt install ruby-dev nodejs libxml2-dev libxslt-dev
 $ sudo gem install bundler
 ```
 
