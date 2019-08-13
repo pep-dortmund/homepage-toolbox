@@ -89,6 +89,12 @@ Bitte beachtet die folgenden Schritte:
 </thead>
 <tbody>
   <tr>
+  <td><span style="color:crimson"> Fr, 20.09.2019</span></td>
+  <td><span style="color:crimson"> 10:15 Uhr</span></td>
+  <td><span style="color:crimson"> CP-03-150</span></td>
+  <td><span style="color:crimson"> Betreutes Installieren sämtlicher Programme / Umstieg auf Linux für Interessenten</span></td>
+  </tr>
+  <tr>
   <td>Mo, 23.09.2019</td>
   <td>9 Uhr</td>
   <td>CP-03-150</td>
