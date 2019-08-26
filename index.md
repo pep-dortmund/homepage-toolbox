@@ -73,7 +73,9 @@ Bitte beachtet die folgenden Schritte:
     - Bei Problemen können wir gerne per [Mail](about.html) oder persönlich helfen
 - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
-
+- Bei Interesse am betreuten Installieren am Freitag eine kurze [Mail](mailto:toolbox-pep-dortmund@googlegroups.com) an uns mit dem Grund der Teilnahme: 
+    - Programme Installieren: Windows/Mac/Linux
+    - Dualboot
 
 
 ## Ablaufplan 2019
