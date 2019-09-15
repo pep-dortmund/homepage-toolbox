@@ -872,7 +872,11 @@ Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bas
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
 
-## Trouble Shooting
+## Problembehandlung
+
+Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
+gesammelt.
+
 _matplotlib_ wird nicht mit dem backend qt5 verwendet:
 ```
 sudo apt install qt5-default
