@@ -722,6 +722,8 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
+Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#Problembehandlung) helfen.
+
 ### Python
 
 Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
@@ -750,6 +752,8 @@ Mit
 quit
 ```
 kann das Programm _ipython_ beendet werden
+
+
 
 ### Uncertainties
 
