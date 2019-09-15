@@ -73,9 +73,10 @@ Bitte beachtet die folgenden Schritte:
     - Bei Problemen können wir gerne per [Mail](about.html) oder persönlich helfen
 - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden
 - Verlängerungskabel/Merfachstecker mitbringen (falls möglich)
-- Bei Interesse am betreuten Installieren am Freitag eine kurze [Mail](mailto:toolbox-pep-dortmund@googlegroups.com) an uns mit dem Grund der Teilnahme: 
+
+<!-- - Bei Interesse am betreuten Installieren am Freitag eine kurze [Mail](mailto:toolbox-pep-dortmund@googlegroups.com) an uns mit dem Grund der Teilnahme:
     - Programme Installieren: Windows/Mac/Linux
-    - Dualboot
+    - Dualboot -->
 
 
 ## Ablaufplan 2019
@@ -90,12 +91,12 @@ Bitte beachtet die folgenden Schritte:
   </tr>
 </thead>
 <tbody>
-  <tr>
+<!--  <tr>
   <td><span style="color:crimson"> Fr, 20.09.2019</span></td>
   <td><span style="color:crimson"> 10:15 Uhr</span></td>
   <td><span style="color:crimson"> CP-03-150</span></td>
   <td><span style="color:crimson"> Betreutes Installieren sämtlicher Programme / Umstieg auf Linux für Interessenten</span></td>
-  </tr>
+  </tr> -->
   <tr>
   <td>Mo, 23.09.2019</td>
   <td>9 Uhr</td>
