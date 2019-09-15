@@ -881,7 +881,17 @@ tlmgr update --self --all --reinstall-forcibly-removed
 Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
 gesammelt.
 
-_matplotlib_ wird nicht mit dem backend qt5 verwendet:
+Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
+der mit den folgenden Zeilen (oder ähnlichen) endet:
+
+```
+from PyQt5 import QtCore, QtGui, QtWidget
+ImportError: libGL.so.1 connot open shared object file: No such file or directory
+```
+
+Dieser Fehler kann durch das Installieren einer Software Bibiliothek behoben werden.
+Dazu müssen folgende Befehle nacheinander in die Bash-Kommandozeile eingegeben werden.
+
 ```
 sudo apt install qt5-default
 ```
