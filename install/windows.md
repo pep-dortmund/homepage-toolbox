@@ -631,7 +631,7 @@ so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2019.03-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
-__Jetzt noch die Installation [updaten](#Aktualisieren) und anschließend [testen](#test)!__
+__Jetzt noch die Installation [updaten](#update) und anschließend [testen](#test)!__
 
 
 ### Uncertainties
@@ -722,7 +722,7 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
-Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#Problembehandlung) helfen.
+Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.
 
 ### Python
 
@@ -876,7 +876,7 @@ Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bas
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
 
-## Problembehandlung
+## <a id="troubleshooting"></a> Problembehandlung
 
 Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
 gesammelt.
