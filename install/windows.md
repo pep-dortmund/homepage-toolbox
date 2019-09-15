@@ -881,10 +881,7 @@ _matplotlib_ wird nicht mit dem backend qt5 verwendet:
 ```
 sudo apt install qt5-default
 ```
-`texdoc texlive` wirft einen Fehler, dass kein pdf-viewer verlinkt ist:
-```
-sudo apt install evince
-```
+
 Beim abspeichern von matplotlib-Figuren
 kommt ein Fehler ähnlich zu
 **ghostscript-9.00 required**
