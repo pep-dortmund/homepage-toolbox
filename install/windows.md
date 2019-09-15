@@ -380,19 +380,6 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 
 <img alt="" src="/img/sumatra-5.png" style="width: 100%;" />
 
-Vor der Verwendung von Sumatra PDF muss noch Einstellung vorgenommen werden.
-Dafür wird mit einem `Linksklick` auf die drei waagerechten Balken in der linken oberen Ecke
-der Menüpunkt _Einstellungen_ → _Optionen_ mit einem weitern `Linksklick`ausgewählt.
-
-<img alt="" src="/img/windows-installation/windows-9.PNG" style="width: 100%;" />
-
-Im Optionsmenü kann Sumatra PDF zum Standard-PDF-Betrachter gemacht werden. Dafür muss zunächst
-mit einem `Linksklick` auf _Standardmäßig PDF-Dateien mit SumatraPDF öffnen_ diese Einstellung vorgenommen
-und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
-
-<img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
-
-
 
 ### X-Server
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
