@@ -881,6 +881,12 @@ tlmgr update --self --all --reinstall-forcibly-removed
 Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
 gesammelt.
 
+
+Die folgende Fehlermeldung bedeutet, dass noch kein *XServer* gestartet wurde:
+```
+Could not connect to any X display.
+```
+
 Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
 der mit den folgenden Zeilen (oder ähnlichen) endet:
 
