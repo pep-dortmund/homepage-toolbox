@@ -882,27 +882,24 @@ Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lö
 gesammelt.
 
 
-Die folgende Fehlermeldung bedeutet, dass noch kein *XServer* gestartet wurde:
++ Die folgende Fehlermeldung bedeutet, dass noch kein *XServer* gestartet wurde:
 ```
 Could not connect to any X display.
 ```
 
-Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
-der mit den folgenden Zeilen (oder ähnlichen) endet:
-
++ Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
+  der mit den folgenden Zeilen (oder ähnlichen) endet:
 ```
 from PyQt5 import QtCore, QtGui, QtWidget
 ImportError: libGL.so.1 connot open shared object file: No such file or directory
 ```
-
 Dieser Fehler kann durch das Installieren einer Software Bibiliothek behoben werden.
 Dazu müssen folgende Befehle nacheinander in die Bash-Kommandozeile eingegeben werden.
-
 ```
 sudo apt install qt5-default
 ```
 
-Beim abspeichern von matplotlib-Figuren
++ Beim abspeichern von matplotlib-Figuren
 kommt ein Fehler ähnlich zu
 **ghostscript-9.00 required**
 ```
