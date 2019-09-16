@@ -113,25 +113,25 @@ Bitte beachtet die folgenden Schritte:
   <td>Di, 24.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>numpy, matplotlib</td>
+  <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi, 25.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>scipy, uncertainties, Unix, Make</td>
+  <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do, 26.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>Versionskontrolle mit Git</td>
+  <td>Unix, Make</td>
   </tr>
   <tr>
   <td>Fr, 27.09.2019</td>
   <td>13–17 Uhr</td>
   <td>CT-ZB ZE01</td>
-  <td>Ausführliche Übungen</td>
+  <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
   <td></td>
