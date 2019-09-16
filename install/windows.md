@@ -636,7 +636,7 @@ __Jetzt noch die Installation [updaten](#update) und anschließend [testen](#tes
 
 ### Uncertainties
 
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationenen
+Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationen
 können auf der verlinkten Website gefunden werden.
 
 [Uncertainties Website](http://pythonhosted.org/uncertainties/)
