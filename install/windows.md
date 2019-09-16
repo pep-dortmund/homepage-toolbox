@@ -631,7 +631,7 @@ so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2019.03-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
-__Jetzt noch die Installation [updaten](#update) und anschließend [testen](#test)!__
+__Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
 
 
 ### Uncertainties
