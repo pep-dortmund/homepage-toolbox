@@ -380,19 +380,6 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 
 <img alt="" src="/img/sumatra-5.png" style="width: 100%;" />
 
-Vor der Verwendung von Sumatra PDF muss noch Einstellung vorgenommen werden.
-Dafür wird mit einem `Linksklick` auf die drei waagerechten Balken in der linken oberen Ecke
-der Menüpunkt _Einstellungen_ → _Optionen_ mit einem weitern `Linksklick`ausgewählt.
-
-<img alt="" src="/img/windows-installation/windows-9.PNG" style="width: 100%;" />
-
-Im Optionsmenü kann Sumatra PDF zum Standard-PDF-Betrachter gemacht werden. Dafür muss zunächst
-mit einem `Linksklick` auf _Standardmäßig PDF-Dateien mit SumatraPDF öffnen_ diese Einstellung vorgenommen
-und mit einem weiteren `Linksklick` auf _OK_ bestätigt werden.
-
-<img alt="" src="/img/sumatra-7.png" style="width: 100%;" />
-
-
 
 ### X-Server
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
@@ -644,9 +631,12 @@ so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2019.03-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
+__Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
+
+
 ### Uncertainties
 
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationenen
+Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationen
 können auf der verlinkten Website gefunden werden.
 
 [Uncertainties Website](http://pythonhosted.org/uncertainties/)
@@ -732,6 +722,8 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
+Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.
+
 ### Python
 
 Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
@@ -760,6 +752,8 @@ Mit
 quit
 ```
 kann das Programm _ipython_ beendet werden
+
+
 
 ### Uncertainties
 
@@ -882,16 +876,30 @@ Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bas
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
 
-## Trouble Shooting
-_matplotlib_ wird nicht mit dem backend qt5 verwendet:
+## <a id="troubleshooting"></a> Problembehandlung
+
+Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
+gesammelt.
+
+
++ Die folgende Fehlermeldung bedeutet, dass noch kein *XServer* gestartet wurde:
+```
+Could not connect to any X display.
+```
+
++ Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
+  der mit den folgenden Zeilen (oder ähnlichen) endet:
+```
+from PyQt5 import QtCore, QtGui, QtWidget
+ImportError: libGL.so.1 connot open shared object file: No such file or directory
+```
+Dieser Fehler kann durch das Installieren einer Software Bibiliothek behoben werden.
+Dazu muss der folgende Befehl in die Bash-Kommandozeile eingegeben werden.
 ```
 sudo apt install qt5-default
 ```
-`texdoc texlive` wirft einen Fehler, dass kein pdf-viewer verlinkt ist:
-```
-sudo apt install evince
-```
-Beim abspeichern von matplotlib-Figuren
+
++ Beim abspeichern von matplotlib-Figuren
 kommt ein Fehler ähnlich zu
 **ghostscript-9.00 required**
 ```
