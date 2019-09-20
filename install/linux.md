@@ -41,7 +41,7 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 - Debian, Ubuntu, Mint:
 
         $ sudo apt update
-	$ sudo apt upgrade
+        $ sudo apt upgrade
         $ sudo apt install git make curl
 
 - Fedora:
