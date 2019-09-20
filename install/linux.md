@@ -8,7 +8,7 @@ __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt wer
 Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
 Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und Atom (oder einen anderen Texteditor) und TeXLive installieren.
+Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio Code (oder einen anderen Texteditor) und TeXLive installieren.
 
 
 <div class="row" style="padding: 10px">
@@ -36,12 +36,12 @@ Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu
 
 Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit einem `sudo` Befehl sollte penibel geprüft werden.
 
-### Git,Make, curl
+### Git, Make, curl
 
 - Debian, Ubuntu, Mint:
 
-        $ sudo apt-get update
-        $ sudo apt-get install git make curl
+        $ sudo apt update
+        $ sudo apt install git make curl
 
 - Fedora:
 
