@@ -16,6 +16,11 @@ Kurses veröffentlich.
     - [Python](files/archive/2019/python.html) (Stand 23.09.2019)
     - [Aufgaben](files/archive/2019/exercises-toolbox-1.zip) (Stand 23.09.2019)
 
+- Tag 2
+    - [Numeric Python](files/archive/2019/numeric-python.html) (Stand 24.09.2019)
+    - [matplotlib](files/archive/2019/matplotlib.html) (Stand 24.09.2019)
+    - [Aufgaben](files/archive/2019/exercises-toolbox-2.zip) (Stand 24.09.2019)
+
 
 ## Vergangene Kurse
 
