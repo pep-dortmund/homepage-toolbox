@@ -21,6 +21,11 @@ Kurses veröffentlich.
     - [matplotlib](files/archive/2019/matplotlib.html) (Stand 24.09.2019)
     - [Aufgaben](files/archive/2019/exercises-toolbox-2.zip) (Stand 24.09.2019)
 
+- Tag 3
+    - [Scientific Python](files/archive/2019/scientific-python.html) (Stand 25.09.2019)
+    - [uncertainties](files/archive/2019/uncertainties.html) (Stand 25.09.2019)
+    - [Aufgaben](files/archive/2019/exercises-toolbox-3.zip) (Stand 25.09.2019)
+
 
 ## Vergangene Kurse
 
