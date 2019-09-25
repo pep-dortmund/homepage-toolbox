@@ -129,6 +129,12 @@ export PATH="$HOME/.local/texlive/2019/bin/x86_64-linux:$PATH"
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
 
+In dem neuen Terminal die folgenden Befehle eingeben:
+
+    $ tlmgr option autobackup -- -1
+    $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+
+
 __Jetzt noch die Installation [testen](#test)!__
 
 
@@ -209,13 +215,6 @@ Es sollte die Biber-Hilfe erscheinen.
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
-### TeXLive einstellen:
-
-Im Terminal:
-
-    $ tlmgr option autobackup -- -1
-    $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
-
 ## <a id="update"></a>Aktualisieren
 
 ### Anaconda
@@ -235,3 +234,18 @@ Im Terminal:
 Im Terminal:
 
     $ tlmgr update --self --all --reinstall-forcibly-removed
+
+## W-Lan
+
+Um das eduroam-Netz an der TU Dortmund einzurichten können folgende Optionen verwendet werden:
+ - Wi-Fi security: WPA- & WPA2-Enterprise
+ - Authentication: Geschütztes EAP (PEAP)
+ - Anonymous Identity: telesec@tu-dortmund.de
+ - Domain: tu-dortmund.de
+ - CA-Zertifikat: T-TeleSec_GlobalRoot_Class_2.crt
+    - zu finden in usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
+ - PEAP-Version: Automatisch
+ - Inner authentication: MSCHAPv2
+ - Username: smxxxx@udo.edu
+ - Passwort: ******* (W-Lan Passwort)
+
