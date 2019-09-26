@@ -26,6 +26,9 @@ Kurses veröffentlich.
     - [uncertainties](files/archive/2019/uncertainties.html) (Stand 25.09.2019)
     - [Aufgaben](files/archive/2019/exercises-toolbox-3.zip) (Stand 25.09.2019)
 
+- Tag 4
+    - [Unix](files/archive/2019/unix.pdf) (Stand 26.09.2019)
+    - [Make](files/archive/2019/make.pdf) (Stand 26.09.2019)
 
 ## Vergangene Kurse
 
