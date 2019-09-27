@@ -1,4 +1,4 @@
-# PeP et al. Toolbox Workshop website
+# PeP et al. Toolbox Workshop website [![Build Status](https://travis-ci.org/pep-dortmund/homepage-toolbox.svg?branch=master)](https://travis-ci.org/pep-dortmund/homepage-toolbox)
 
 We use jekyll to build static html pages from markdown and travis to deploy the site.
 
