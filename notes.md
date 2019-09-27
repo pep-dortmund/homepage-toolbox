@@ -29,6 +29,7 @@ Kurses veröffentlich.
 - Tag 4
     - [Unix](files/archive/2019/unix.pdf) (Stand 26.09.2019)
     - [Make](files/archive/2019/make.pdf) (Stand 26.09.2019)
+    - [Aufgaben](files/archive/2019/exercises-toolbox-4.zip) (Stand 27.09.2019)
 
 - Tag 5 
     - [git](files/archive/2019/git.pdf) (Stand 27.09.2019)
