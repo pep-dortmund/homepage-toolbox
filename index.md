@@ -13,7 +13,7 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-## Umfrage
+<!-->## Umfrage
 
 Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
 Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
@@ -23,16 +23,17 @@ So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und könne
 <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScEiJAjZ15GwU1AlUHxKDMy1EVIZyJLLSalU44yJ5okiLycGQ/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
 <a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScqaghd0MRwaSJRCZTTSN1_hFqM0SZqVhLAQ27XtKj0MsbDCA/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
 </div>
+-->
 
-<!-- ## Feedback 2019
+## Feedback 2019
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
-<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSc5dYL7wM42coOvVd2aXZqs47foXydzhmRgow2M2cCngc6hXQ/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
-</div> -->
+<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScbo52AI3tE_TDHuqLhgmOiQe3hki2Eaa45OAY4KhBu7w0ZYA/viewform">Zum Toolbox-Feedback (erste Woche)</a>
+<!-- <a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
+</div>
 
 
 ## Themen
