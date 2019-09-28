@@ -62,10 +62,10 @@ __Wichtig__: Wir wollen Python 3.7 Graphical Installer (oben).  Das Paket instal
    Download der Datei `VsCodium-darwin-<VERSION>.zip`.
    Das Programm "VSCodium.app" befindet sich dann in der zip Datei im Downloadordner und muss nach `Programme` verschoben werden. Die App öffnen und mit `Shift+cmd+p` die Kommando Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal "code" eingeben wird.
 
-Um git beizubringen, VS Code zu benutzen, Im Terminal:
+Um git beizubringen, VSCodium zu benutzen, Im Terminal:
 
 ```bash
-git config --global core.editor "code --wait"
+git config --global core.editor "codium --wait"
 ```
 
 - Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
