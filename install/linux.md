@@ -60,12 +60,12 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
 - Debian, Ubuntu, Mint:
 
-  Ladet die Datei `vscodium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
+  Ladet die Datei `codium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
   dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`
 
 - Fedora
 
-  Ladet die Datei `vscodium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
+  Ladet die Datei `codium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
   dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
 
 
