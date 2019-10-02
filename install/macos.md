@@ -68,12 +68,17 @@ Um git beizubringen, VSCodium zu benutzen, Im Terminal:
 git config --global core.editor "codium --wait"
 ```
 
-- Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
+- Damit VS Code LaTeX-Code besser darstellen kann, muss die Extension `LaTeX Workshop`
   installiert werden
     - Mit `Shift+cmd+x` die Extensions öffnen
-    - `LaTeX language support` suchen
-    - `install` anklicken
-    - VS Code neustarten
+    - `LaTeX Workshop` suchen
+    - `LaTeX Workshop` von James Yu anklicken
+    - `Install` anklicken
+    - WICHTIG: Keine weiteren LaTeX-Addons installieren!
+    - In den Einstellungen muss jetzt noch das automatische Kompilieren der Extension ausgestellt werden, damit die Vorlagen des Toolbox-Workshop auch problemlos bauen.
+    - Dazu in die `Settings` gehen (`File`->`Preferences`->`Settings` oder Zahnrad links unten anklicken und `Settings` wählen.)
+    - `latex auto build clean and retry` suchen und Häkchen entfernen
+    - `latex auto build run` suchen und im Drop-Down-Menü `never` einstellen 
 
 ### Uncertainties
 

@@ -73,7 +73,17 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
       $ sudo pacman -S code
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support”,  installiert die Extension mit klick auf den `install` Button.
+- Damit VS Code LaTeX-Code besser darstellen kann, muss die Extension `LaTeX Workshop`
+  installiert werden
+    - Mit `ctr+shift+x` (oder mit dem Icon in der linken Leiste) die Extensions öffnen
+    - `LaTeX Workshop` suchen
+    - `LaTeX Workshop` von James Yu anklicken
+    - `Install` anklicken
+    - WICHTIG: Keine weiteren LaTeX-Addons installieren!
+    - In den Einstellungen muss jetzt noch das automatische Kompilieren der Extension ausgestellt werden, damit die Vorlagen des Toolbox-Workshop auch problemlos bauen.
+    - Dazu in die `Settings` gehen (`File`->`Preferences`->`Settings` oder Zahnrad links unten anklicken und `Settings` wählen.)
+    - `latex auto build clean and retry` suchen und Häkchen entfernen
+    - `latex auto build run` suchen und im Drop-Down-Menü `never` einstellen 
 
 ### Anaconda
 
