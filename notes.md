@@ -41,6 +41,7 @@ Kurses veröffentlich.
 - [Folien](files/archive/2019/latex.pdf) (Stand 30.09.2019)
 - [Aufgaben Tag 1](files/archive/2019/exercises-latex-1.zip) (Stand 30.09.2019)
 - [Aufgaben Tag 2](files/archive/2019/exercises-latex-2.zip) (Stand 01.10.2019)
+- [Aufgaben Tag 3](files/archive/2019/exercises-latex-3.zip) (Stand 02.10.2019)
 
 ## Vergangene Kurse
 
