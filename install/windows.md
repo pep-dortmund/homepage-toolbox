@@ -1,17 +1,8 @@
 ---
 layout: default
 title: Windows-Installation
+collapse: True
 ---
-
-<script src="./windows_collapse.js"></script>
-<style>
-  @rotate
-  
-  h3 {
-    cursor: pointer;
-  }
-
-</style>
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
