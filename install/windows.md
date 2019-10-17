@@ -174,6 +174,7 @@ Installation der benötigten Software verwendet.
 
 
 ### Dateiendungen einschalten
+{: .collapses}
 
 Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
 Diese können und sollen aktiviert werden.
