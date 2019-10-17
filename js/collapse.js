@@ -2,7 +2,8 @@ const elem = "h3";
 const until_add = "h2";
 $(document).ready(() => {
     // Insert the overall accordion
-    $(elem).nextAll().addBack().wrapAll('<div class="accordion" id="accordion"></div>');
+    // Don't insert it on the second thought, this would result in jumping with large sections....
+    // $(elem).nextAll().addBack().wrapAll('<div class="accordion" id="accordion"></div>');
     $(elem).each(function (index) {
         // add the whole card diff
         $(this).nextUntil(elem + "," + until_add).add(this).wrapAll("<div class='card'></div>");
