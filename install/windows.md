@@ -644,6 +644,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 
 
 ### Uncertainties
+{: .collapses}
 
 Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationen
 können auf der verlinkten Website gefunden werden.
