@@ -354,6 +354,7 @@ die Windows-Kommandozeile zeigt hier ein _`>`_.
 
 
 ### Sumatra PDF
+{: .collapses}
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
