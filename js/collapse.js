@@ -8,7 +8,7 @@ $(document).ready(() => {
         // add the whole card diff
         $(this).nextUntil(elem + "," + until_add).add(this).wrapAll("<div class='card'></div>");
         // mark what should be collapsed
-        $(this).nextUntil(elem + "," + until_add).wrapAll("<div id='collapse" + index.toString() + "' class='collapse' aria-labelledby='heading" + index.toString() + "' data-parent='#accordion'></div>");
+        $(this).filter(".collapses").nextUntil(elem + "," + until_add).wrapAll("<div id='collapse" + index.toString() + "' class='collapse' aria-labelledby='heading" + index.toString() + "' data-parent='#accordion'></div>");
     });
     // add the header, which than can be clicked to collapse
     $(elem).wrap(function (index) {
