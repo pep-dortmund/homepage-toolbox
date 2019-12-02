@@ -12,19 +12,21 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio
 
 
 <div class="row" style="padding: 10px">
-  <div class="col-md-1" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
   Testen
   </a>
   </div>
-  <div class="col-md-2" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
   Aktualisieren
   </a>
   </div>
-  <div class="col-md-1" align="center"></div>
+  <div class="col-md-4" align="center">
+  <a href="#w-lan" class="btn btn-secondary btn-lg btn-block" role="button">
+  W-Lan
+  </a>
+  </div>
 </div>
 
 ## <a id="Installation"></a>Installation
@@ -154,7 +156,7 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
     $ git config --global user.email "max.mustermann@udo.edu"
     $ git config --global rebase.stat true
     $ git config --global merge.conflictstyle diff3
- 
+
 
 Um git beizubringen, VSCodium als Editor zu benutzen:
 
@@ -241,9 +243,9 @@ Im Terminal:
 
     $ tlmgr update --self --all --reinstall-forcibly-removed
 
-## W-Lan
+## <a id="w-lan"></a>W-Lan
 
-Um das eduroam-Netz an der TU Dortmund einzurichten können folgende Optionen verwendet werden:
+Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
  - Wi-Fi security: WPA- & WPA2-Enterprise
  - Authentication: Geschütztes EAP (PEAP)
  - Anonymous Identity: telesec@tu-dortmund.de
@@ -254,4 +256,3 @@ Um das eduroam-Netz an der TU Dortmund einzurichten können folgende Optionen ve
  - Inner authentication: MSCHAPv2
  - Username: smxxxx@udo.edu
  - Passwort: ******* (W-Lan Passwort)
-
