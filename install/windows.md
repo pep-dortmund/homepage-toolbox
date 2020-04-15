@@ -700,7 +700,7 @@ Nach erfolgreicher Installation wird folgender Text ausgegeben.
 Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der
 `Entertaste` bestätigt wird.
 ```
-echo 'export PATH="$HOME/.local/texlive/2019/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2020/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 <img alt="" src="/img/texlive-7.png" style="width: 100%;" />
