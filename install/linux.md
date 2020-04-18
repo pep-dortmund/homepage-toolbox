@@ -86,7 +86,7 @@ __Wichtig__: Wir wollen Python 3.7 für Linux.
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2019.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2020.02-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
@@ -126,7 +126,7 @@ Die Installition startet man mit `I` und `Enter`.
 Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
 
 ```
-export PATH="$HOME/.local/texlive/2019/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/texlive/2020/bin/x86_64-linux:$PATH"
 ```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
