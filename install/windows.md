@@ -167,6 +167,30 @@ Installation der benötigten Software verwendet.
 <img alt="" src="/img/wsl-16.png" style="width: 100%;" />
 
 
+### Windows Terminal
+
+Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation 
+des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version 
+unter Start/Einstellungen/System/Info überprüfen. Falls eure Version zu alt ist, könnt ihr unter 
+Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen. 
+
+Das Windows Terminal könnt ihr unter folgendem Link herunter laden und anschließend installieren: 
+
+[Windows Terminal](https://www.microsoft.com/de-de/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
+
+Nach der Installation startet das Programm. Erscheint folgendes Fenster:
+
+<img alt="" src="/img/windows_terminal_01.png" style="width: 100%;" />
+
+Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
+klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü: 
+
+<img alt="" src="/img/windows_terminal_02.png" style="width: 100%;" />
+
+Klickt auf Ubuntu um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal 
+standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website: 
+
+[https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31).
 
 
 
