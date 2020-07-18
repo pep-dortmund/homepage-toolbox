@@ -6,10 +6,10 @@ title: Installation eines Dual-Boot-Systems
 Dual-Boot-System meint die Installation von zwei Betriebssystemen auf dem gleichen Rechner.
 Dies ist nützlich, wenn man auf beide Betriebssysteme angewiesen ist.
 Man kann dann bei jedem Neustart auswählen, welches Betriebssystem gestartet werden soll.
-Es lassen sich auch Festplatten-Partitionen einrichten, auf die beide Betriebsysteme 
+Es lassen sich auch Festplatten-Partitionen einrichten, auf die beide Betriebsysteme
 zugreifen können.
 
-Während Linux für das wissenschaftliche Arbeiten zahlreiche Vorteile bietet, 
+Während Linux für das wissenschaftliche Arbeiten zahlreiche Vorteile bietet,
 gibt es einige wichtige Programme, die nicht für Linux verfügbar sind.
 Zugriff auf diese Programme ist der Hauptgrund für ein Dual-Boot-System aus Windows und Linux.
 
@@ -24,7 +24,7 @@ Bei der Installation eines Windows/Linux-Dual-Boot Systems muss Windows als erst
 werden.
 
 Weiterhin geht diese Anleitung davon aus, dass euer Rechner [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
-verwendet. 
+verwendet.
 Dies sollte für alle modernen Rechner die Regel sein, es kann aber vorkommen,
 das Windows um sogennanten *Legacy-Bios* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
 
@@ -49,7 +49,7 @@ ihr weitermacht.
 ## Sich für eine Linux-Distributionen entscheiden
 
 Hinter dem Begriff Linux verbirgt sich „nur” der absolute Kern des Betriebssystems.
-Darauf aufbauend gibt es viele verschiedene „Distributionen”, die verschiedene 
+Darauf aufbauend gibt es viele verschiedene „Distributionen”, die verschiedene
 Programme vorinstallieren.
 Hauptunterschiede sind die verwendete grafische Benutzeroberfläche und der Paketmanager.
 
@@ -60,9 +60,9 @@ Diese drei Distributionen nutzen das gleiche Betriebssystem, aber unterschiedlic
 
 
 
-Der aktuelle Release von (K,X)Ubuntu ist die Version `19.10`, es erscheinen halbjährlich
+Der aktuelle Release von (K,X)Ubuntu ist die Version `20.04`, es erscheinen halbjährlich
 im April und Oktober neue Versionen.
-Alle zwei Jahre erscheint eine neue Version mit längerem (5 Jahre) Support für Updates (LTS Version), 18.04 ist die aktuelle LTS Version.
+Alle zwei Jahre erscheint eine neue Version mit längerem (5 Jahre) Support für Updates (LTS Version), 20.04 ist die aktuelle LTS Version.
 
 Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
 
@@ -79,7 +79,7 @@ Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
 Eine Linux Installation erfordert ca. 10 GB Speicherplatz, um wirklich gut
 damit arbeiten zu können, empfehlen wir mindestens 30 GB, besser 100 GB.
 
-Um Linux auf die gleiche Festplatte wie Windows zu installieren, müsst ihr als 
+Um Linux auf die gleiche Festplatte wie Windows zu installieren, müsst ihr als
 erstes eine Partion auf dieser Festplatte verkleinern.
 
 Öffnet hierzu die Datenträgerverwaltung (`Rechtsklick aufs Startmenü → Datenträgerverwaltung`),
@@ -106,7 +106,7 @@ und setzt den Wert auf `1`.
 ## Fast-Boot deaktivieren
 
 Der Fast-Boot-Modus von Windows 10 cached Dateinen um beim nächsten Start schneller
-betriebsbereit zu sein. 
+betriebsbereit zu sein.
 Dies verträgt sich aber nicht mit zwei Betriebssystemen, die auf die gleichen Dateisysteme zugreifen.
 
 `Rechtsklick auf Start → Energieoptionen → Auswählen was beim Drücken des Netzschalters geschehen soll`
@@ -124,6 +124,19 @@ und dann das Häkchen bei Fast-Boot entfernen.
 1. Schreibt mit Rufus das heruntergeladene Image auf den Stick.
 
 ## Linux installieren
+
+Personen mit einem Acer-Laptop befolgen bitte gleichzeitig
+<https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner>.
+Also tatsächlich herunterfahren, den Stick einstecken,
+dann hochfahren und während das Acer-Logo zu sehen ist `F2` drücken.
+Unter dem Punkt `Main` das `F12 Boot Menu` auf `enabled` setzen.
+Nun die ersten 10 Punkte durchgehen.
+Nach dem verlassen des Menüs beim erneuten anzeigen des Acer-Logos `F12`
+drücken.
+Mit den Pfeiltasten kann jetzt der Stick ausgewählt werden.
+Dann die Installation hier ab 4. starten.
+Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
+
 
 1. Klickt mit `Shift` auf `Neustarten`.
 

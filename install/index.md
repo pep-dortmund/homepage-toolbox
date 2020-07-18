@@ -12,8 +12,17 @@ funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht W
 
 ## Windows-Linux Dual-Boot
 
-Der Kurs ist zwar auch auf mit einem Windows-Rechner zu absolvieren, 
-aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch, 
+### Anmerkung 2020
+Eine Dual-Boot Installation ist beim ersten Mal nicht unbedingt trivial.
+Da aufgrund der aktuellen Situation eine Hilfe direkt am Laptop nicht möglich ist,
+sollte hier jeder selber entscheiden ob er das tun möchte.
+(Bei Acer-Laptops dann noch viel dazu lesen.)
+Dadurch das Windows immer mehr in Richtung Linux steuert,
+ist der Unterschied nicht mehr so groß wie er mal war.
+
+
+Der Kurs ist zwar auch auf mit einem Windows-Rechner zu absolvieren,
+aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch,
 parallel auf eurem Rechner Linux zu installieren.
 So könnt ihr beim hochfahren zwischen den beiden Betriebssystemen wählen.
 

@@ -79,7 +79,7 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 
 ### Anaconda
 
-__Wichtig__: Wir wollen Python 3.7 für Linux.
+__Wichtig__: Wir wollen Python 3.7 für Linux. [64-Bit (x86) Installer]
 
 - [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
 
@@ -209,7 +209,7 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version beta-1.0.4 (TeX Live 2017)
+    This is LuaTeX, Version 1.12.0 (TeX Live 2020)
      restricted \write18 enabled.
     **
 
