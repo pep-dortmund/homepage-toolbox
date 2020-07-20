@@ -104,7 +104,7 @@ Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:
 
 Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
 Dies ist jedoch kein Problem, die im Folgenden verwendete Variante ist __Ubuntu__.
-(Stand 10.07.2019 ist die neueste Version: __Ubuntu 18.04 LTS__)
+(Stand 20.07.2020 ist die neueste Version: __Ubuntu 20.04 LTS__)
 Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
 
 <img alt="" src="/img/windows-installation/windows-2.PNG" style="width: 100%;" />
