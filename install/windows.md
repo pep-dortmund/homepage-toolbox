@@ -396,7 +396,7 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
 Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
 vorgenommen werden.
-Dafür wird _ConEmu_ geöffnet und der Befehl
+Dafür wird Windows Terminal geöffnet und der Befehl
 ```
 echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
 ```
@@ -407,7 +407,7 @@ eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 ### Git, Make und weiteres
 
 Für die Installation der beiden Programme git und und make muss zunächst eine
-Bash-Kommandozeile unter Verwendung von ConEmu geöffnet werden, zum Beispiel
+Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
 über den oben beschriebenen Eintrag im Kontextmenü.   
 Wie unten gezeigt wird in dieses Fenster nun der Befehl
 ```
@@ -500,7 +500,7 @@ deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop 
 
 <img alt="" src="/img/anaconda-1.png" style="width: 100%;" />
 
-Im Anschluss wird mit ConEmu erneut eine Bash-Kommandozeile geöffnet.
+Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
 ```
@@ -584,7 +584,7 @@ eine detailierte Installationsanleitung können unter den folgenden Links einges
 + [Installationsanleitung](https://www.tug.org/texlive/windows.html)
 
 
-Für die Installation wird erneut die Bash-Kommandozeile (mit ConEmu) verwendet.
+Für die Installation wird erneut die Bash-Kommandozeile (mit Windows Terminal) verwendet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
 
