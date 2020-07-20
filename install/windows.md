@@ -169,13 +169,13 @@ Installation der benötigten Software verwendet.
 
 ### Windows Terminal
 
-Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation 
-des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version 
-unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Windows-Spezifikationen eine Nummer 
-neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter 
-Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen. 
+Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation
+des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version
+unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Windows-Spezifikationen eine Nummer
+neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter
+Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen.
 
-Das Windows Terminal könnt ihr unter folgendem Link herunter laden und anschließend installieren: 
+Das Windows Terminal könnt ihr unter folgendem Link herunter laden und anschließend installieren:
 
 [Windows Terminal](https://www.microsoft.com/de-de/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
 
@@ -184,12 +184,12 @@ Nach der Installation startet das Programm. Erscheint folgendes Fenster:
 <img alt="" src="/img/windows_terminal_01.png" style="width: 100%;" />
 
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
-klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü: 
+klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü:
 
 <img alt="" src="/img/windows_terminal_02.png" style="width: 100%;" />
 
-Klickt auf Ubuntu um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal 
-standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website: 
+Klickt auf Ubuntu um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal
+standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website:
 
 [https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31).
 
@@ -421,7 +421,7 @@ werden können.
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
-(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht aus euers. 
+(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht als euers.
 Bis 2020 wurde das Programm ConEmu statt Windows Terminal verwendet)
 
 <img alt="" src="/img/unix-tools-01.png" style="width: 100%;" />
@@ -493,9 +493,10 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
 Außerdem soll die _x64-Bit_ Version der Python Version 3.7 verwendet werden. Diese kann mit einem
-`Linksklick` auf den linken Downloadknopf heruntergeladen werden. Der Download kann einige Minuten in Anspruch nehmen.
+`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (522 MB)` heruntergeladen werden.
+Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-0-1.png" style="width: 100%;" />
+<img alt="" src="/img/anaconda-0-2.png" style="width: 100%;" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
@@ -804,7 +805,7 @@ tlmgr update --self --all --reinstall-forcibly-removed
 
 ## <a id="troubleshooting"></a> Problembehandlung
 
-Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
+Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen
 gesammelt.
 
 
@@ -813,7 +814,7 @@ gesammelt.
 Could not connect to any X display.
 ```
 
-+ Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
++ Bei der Verwendung von matplotlib kann ein Fehler auftreten,
   der mit den folgenden Zeilen (oder ähnlichen) endet:
 ```
 from PyQt5 import QtCore, QtGui, QtWidget
