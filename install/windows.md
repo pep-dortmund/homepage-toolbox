@@ -195,7 +195,6 @@ standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website:
 
 
 
-
 ### Dateiendungen einschalten
 
 Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
@@ -422,6 +421,8 @@ werden können.
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
+(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht aus euers. 
+Bis 2020 wurde das Programm ConEmu statt Windows Terminal verwendet)
 
 <img alt="" src="/img/unix-tools-01.png" style="width: 100%;" />
 
