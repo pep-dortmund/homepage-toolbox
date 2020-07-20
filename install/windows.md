@@ -16,7 +16,7 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und V
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
-um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebsystem installieren zu müssen.
+um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
@@ -88,12 +88,12 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-Die darauf folgende Abfrage ob der Computer neugestartet werden soll,
+Die darauf folgende Abfrage ob der Computer neu gestartet werden soll,
 kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
 
 <img alt="" src="/img/wsl-6.png" style="width: 100%;" />
 
-Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert.
+Nachdem der Computer neu gestartet wurde ist das WSL nun aktiviert.
 Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem
 Subsystem installiert werden soll.
 
@@ -137,11 +137,11 @@ das Linux-Betriebssystem einzugeben.
 Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
-Die Eingabe des Benutzernames wird mit Drücken der `Enter`-Taste bestätigt.
+Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
 <img alt="" src="/img/wsl-13.png" style="width: 100%;" />
 
-Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssytem gefragt.
+Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
 Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 
@@ -160,7 +160,7 @@ Die unterste Zeile besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
-mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während
+mit dem Linux-Betriebssystem verwendet wird. Eine Einführung in den Umgang erfolgt während
 des Workshops, im Folgenden wird diese jedoch schon zur
 Installation der benötigten Software verwendet.
 
@@ -212,7 +212,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 ### Visual Studio Code
 
 Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
-Drüberhinaus hat dieser auch noch viele weitere Funktionen.
+Drüber hinaus hat dieser auch noch viele weitere Funktionen.
 Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
 
 [Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
@@ -241,7 +241,7 @@ Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _I
 
 <img alt="" src="/img/vscode-13.png" style="width: 100%;" />
 
-Nach der Installation von neuen Extensions muss VSCode geschlossen und neugestartet werden.
+Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
 
 Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
 in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
@@ -288,7 +288,7 @@ hervorgehobenen Link heruntergeladen werden.
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
-Infolgedessen öffet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
+Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
 die _Optionen_ geöffnet.
 
 <img alt="" src="/img/sumatra-2.png" style="width: 100%;" />
@@ -343,7 +343,7 @@ Durch einen doppelten `Linksklick` kann das Programm nun gestartet werden.
 
 <img alt="" src="/img/xserver-5.png" style="width: 100%;" />
 
-Vor dem Start des Progamms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
+Vor dem Start des Programms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
 _Multiple Window_ ausgewählt und mit einem `Linksklick` auf _Weiter_ bestätigt.
 
 <img alt="" src="/img/xserver-6.png" style="width: 100%;" />
@@ -363,7 +363,7 @@ durch einen `Linksklick` auf _Save configuration_ geöffnet.
 
 <img alt="" src="/img/xserver-10.png" style="width: 100%;" />
 
-Die entsprechende Datei kann nach eigenem Belieben bennant werden und auch der Speicherort ist freiwählbar.
+Die entsprechende Datei kann nach eigenem Belieben benannt werden und auch der Speicherort ist freiwählbar.
 Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
 
 <img alt="" src="/img/windows-installation/windows-10.PNG" style="width: 100%;" />
@@ -414,8 +414,8 @@ Wie unten gezeigt wird in dieses Fenster nun der Befehl
 sudo apt update
 ```
 eingetragen. Und mit drücken der `Entertaste` bestätigt.
-Die Ausführung dieses Befehls kann einige Zeit in anspruch nehmen und setzt eine
-Internetverbindung vorraus über die einige 100MB große Datenmengen heruntergeladen
+Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
+Internetverbindung voraus über die einige 100MB große Datenmengen heruntergeladen
 werden können.
 
 
@@ -560,7 +560,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 
 ### Uncertainties
 
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationen
+Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
 können auf der verlinkten Website gefunden werden.
 
 [Uncertainties Website](http://pythonhosted.org/uncertainties/)
@@ -579,7 +579,7 @@ pip install uncertainties
 ### TeXLive
 
 TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weitere Informationen und
-eine detailierte Installationsanleitung können unter den folgenden Links eingesehen werden.
+eine detaillierte Installationsanleitung können unter den folgenden Links eingesehen werden.
 + [TeXLive Website](https://www.tug.org/texlive/)
 + [Installationsanleitung](https://www.tug.org/texlive/windows.html)
 
@@ -652,7 +652,7 @@ Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#
 
 Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
 geschlossen und ein neues geöffnet werden.
-Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden.
+Zusätzlich muss auch das Programm XLaunch über die zuvor angelegte Datei _Praktikum.xlaunch_ gestartet werden.
 
 In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
