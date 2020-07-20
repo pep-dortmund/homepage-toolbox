@@ -171,7 +171,8 @@ Installation der benötigten Software verwendet.
 
 Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation 
 des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version 
-unter Start/Einstellungen/System/Info überprüfen. Falls eure Version zu alt ist, könnt ihr unter 
+unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Windows-Spezifikationen eine Nummer 
+neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter 
 Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen. 
 
 Das Windows Terminal könnt ihr unter folgendem Link herunter laden und anschließend installieren: 
