@@ -16,7 +16,7 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und V
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
-um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebsystem installieren zu müssen.
+um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
@@ -88,12 +88,12 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-L
 
 Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-Die darauf folgende Abfrage ob der Computer neugestartet werden soll,
+Die darauf folgende Abfrage ob der Computer neu gestartet werden soll,
 kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
 
 <img alt="" src="/img/wsl-6.png" style="width: 100%;" />
 
-Nachdem der Computer neugestartet wurde ist das WSL nun aktiviert.
+Nachdem der Computer neu gestartet wurde ist das WSL nun aktiviert.
 Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem
 Subsystem installiert werden soll.
 
@@ -104,7 +104,7 @@ Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:
 
 Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
 Dies ist jedoch kein Problem, die im Folgenden verwendete Variante ist __Ubuntu__.
-(Stand 10.07.2019 ist die neueste Version: __Ubuntu 18.04 LTS__)
+(Stand 20.07.2020 ist die neueste Version: __Ubuntu 20.04 LTS__)
 Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
 
 <img alt="" src="/img/windows-installation/windows-2.PNG" style="width: 100%;" />
@@ -137,11 +137,11 @@ das Linux-Betriebssystem einzugeben.
 Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
-Die Eingabe des Benutzernames wird mit Drücken der `Enter`-Taste bestätigt.
+Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
 <img alt="" src="/img/wsl-13.png" style="width: 100%;" />
 
-Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssytem gefragt.
+Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
 Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 
@@ -160,14 +160,38 @@ Die unterste Zeile besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
-mit dem Linux-Betriebsystem verwendet wird. Eine Einführung in den Umgang erfolgt während
+mit dem Linux-Betriebssystem verwendet wird. Eine Einführung in den Umgang erfolgt während
 des Workshops, im Folgenden wird diese jedoch schon zur
 Installation der benötigten Software verwendet.
 
 <img alt="" src="/img/wsl-16.png" style="width: 100%;" />
 
 
+### Windows Terminal
 
+Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation
+des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version
+unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Windows-Spezifikationen eine Nummer
+neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter
+Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen.
+
+Das Windows Terminal könnt ihr unter folgendem Link herunter laden und anschließend installieren:
+
+[Windows Terminal](https://www.microsoft.com/de-de/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
+
+Nach der Installation startet das Programm. Erscheint folgendes Fenster:
+
+<img alt="" src="/img/windows_terminal_01.png" style="width: 100%;" />
+
+Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
+klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü:
+
+<img alt="" src="/img/windows_terminal_02.png" style="width: 100%;" />
+
+Klickt auf Ubuntu um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal
+standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website:
+
+[https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31).
 
 
 
@@ -188,7 +212,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 ### Visual Studio Code
 
 Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
-Drüberhinaus hat dieser auch noch viele weitere Funktionen.
+Drüber hinaus hat dieser auch noch viele weitere Funktionen.
 Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
 
 [Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
@@ -217,7 +241,7 @@ Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _I
 
 <img alt="" src="/img/vscode-13.png" style="width: 100%;" />
 
-Nach der Installation von neuen Extensions muss VSCode geschlossen und neugestartet werden.
+Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
 
 Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
 in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
@@ -248,106 +272,6 @@ werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten 
 
 
 
-### ConEmu
-
-Das Programm ConEmu stellt einen Ersatz der standard WSL-Kommandozeile dar. Nachvollgend ist die
-Website verlinkt.
-
-[ConEmu Download](https://github.com/Maximus5/ConEmu/releases)
-
-#### Download und Installation
-
-Auf der verlinkten Website kann die hervorgehobene Installationsdatei herunter geladen werden.
-Im unten dargestellten Screenshot wurde die neuste Version am 14.07.2019 veröffentlicht.
-Das Datum der Veröffentlichung der entsprechenden Version ist dabei immer die jeweilige Überschrift
-(aus 14.07.2019 wird beispielsweise _190714_).   
-Es ist zu beachten, dass immer die aktuellste Version der Software verwendet werden sollte.
-Die Installationsdatei verbirgt sich jeweils hinter dem zweite Link unter _Assets_, beginnt mit
-_**ConEmuSetup**_ und besitzt die Dateiendung _**.exe**_.
-
-<img alt="" src="/img/windows-installation/windows-5.PNG" style="width: 100%;" />
-
-
-Nach erfolgreichem Download und einem doppelten `Linksklick` auf die heruntergeladene Datei
-muss das folgende Fenster mit einem `Linksklick` auf _Ausführen_ bestätigt werden.
-
-<img alt="" src="/img/conemu-0.png" style="width: 100%;" />
-
-
-Im folgenden Fenster muss zwischen _x64_ für 64-bit PCs oder _x86_ für 32-bit PCs ausgewählt werden.
-Die meisten PCs sind heutzutage 64-bit. Bei einem einigermaßen neuen PC kann also _x64_ ausgewählt werden.
-
-<img alt="" src="/img/conemu-1.png" style="width: 100%;" />
-
-
-Es kann folgenden Fenster erscheinen indem die Installation noch mit einem `Linksklick` auf _Ja_
-erlaubt werden muss.
-
-<img alt="" src="/img/conemu-2.png" style="width: 100%;" />
-
-Das nachvollgende Fenster wird lediglich mit einem `Linksklick` auf _Next_ bestätigt.
-
-<img alt="" src="/img/conemu-3.png" style="width: 100%;" />
-
-Im Folgenden Fenster muss mit einem  `Linksklick` in die Checkbox zunächst die _Endnutzervereinbarung_  bestätigt werden.
-Diese Auswahl wird mit einem `Linksklick` auf _Next_ bestätigt.
-
-<img alt="" src="/img/conemu-4.png" style="width: 100%;" />
-
-Nun kann der Umfang der Installation bearbeitet werden, dies ist jedoch optional und wird mit einem
-`Linksklick` auf _Next_ übersprungen.
-
-<img alt="" src="/img/conemu-5.png" style="width: 100%;" />
-
-Nun kann die Installation von ConEmu mit einem `Linksklick` _Install_ gestartet werden.
-
-<img alt="" src="/img/conemu-7.png" style="width: 100%;" />
-
-Nach erfolgreicher Installation wird diese durch einen `Linksklick` auf _Finish_ abgeschlossen.
-
-<img alt="" src="/img/conemu-8.png" style="width: 100%;" />
-
-Auf dem Desktop befindet sich nun die unten hervorgehobene Verknüpfung mit dem Namen _ConEmu (x64)_.
-Mit einem doppelten `Linksklick` auf diese Verknüpfung kann nun ConEmu gestartet werden.
-
-<img alt="" src="/img/conemu-9.png" style="width: 100%;" />
-
-#### Einrichtung des Bash-Kommandozeile
-
-Nach dem Starten von ConEmu öffnet sich das Programm mit dem unten dargestellten Fenster.
-Standardmäßig öffnet ConEmu die Windows-Kommandozeile (_cmd_) diese Einstellung wird im Folgenden verändert.
-Dazu wird im zweiten Textfeld mit dem Pfeil runter `{Bash::bash}` ausgewählt.
-
-<img alt="" src="/img/windows-installation/windows-6.PNG" style="width: 100%;" />
-
-Dann wird ConEmu ausgeführt. Das Fenster sollte so aussehen, wie im Folgenden Bild.
-Abgesehen vom Nutzernamen `luckyjosh` und dem Namen des PC `DESKTOP-0LSK6R6`.
-
-<img alt="" src="/img/conemu-19.png" style="width: 100%;" />
-
-Mit einem Klick auf die drei waagerechten Balken in der rechten oberen Ecke,
-kann mit dem Punkt `Settings` das Einstellungsmenü geöffnet werden.
-
-Die letzten Einstellungen wird unter dem Untermenü _Integration_ vorgenommen. Hier wird in die Textboxen
-(von oben nach unten) folgender Inhalt eingetragen. Der bereits vorhandene Text in den ersten beiden
-Textboxen muss zunächst gelöscht werden.
-
-+ _Menu Item:_ `Bash Here`
-+ _Command:_ `/single /single -run {Bash::bash}`
-
-Der Inhalt der Textbox nach _Icon file:_ kann bei behalten werden.
-Diese Einstellung wird zunachst mit einem `Linksklick` auf _Register_ bestätigt und anschließend
-mit einem `Linksklick` auf _Save settings_ abgeschlossen.
-
-<img alt="" src="/img/conemu-21.png" style="width: 100%;" />
-
-Wird ConEmu nun geschlossen und erneut gestartet, sollte sich das Fenster nun wie folgt mit der
-Bash-Kommandozeile öffenen. Diese ist an dem charakteristischen _`$`_ vor dem Cursor zu erkennen,
-die Windows-Kommandozeile zeigt hier ein _`>`_.
-
-<img alt="" src="/img/conemu-19.png" style="width: 100%;" />
-
-
 ### Sumatra PDF
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
@@ -364,7 +288,7 @@ hervorgehobenen Link heruntergeladen werden.
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
-Infolgedessen öffet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
+Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
 die _Optionen_ geöffnet.
 
 <img alt="" src="/img/sumatra-2.png" style="width: 100%;" />
@@ -419,7 +343,7 @@ Durch einen doppelten `Linksklick` kann das Programm nun gestartet werden.
 
 <img alt="" src="/img/xserver-5.png" style="width: 100%;" />
 
-Vor dem Start des Progamms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
+Vor dem Start des Programms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
 _Multiple Window_ ausgewählt und mit einem `Linksklick` auf _Weiter_ bestätigt.
 
 <img alt="" src="/img/xserver-6.png" style="width: 100%;" />
@@ -439,7 +363,7 @@ durch einen `Linksklick` auf _Save configuration_ geöffnet.
 
 <img alt="" src="/img/xserver-10.png" style="width: 100%;" />
 
-Die entsprechende Datei kann nach eigenem Belieben bennant werden und auch der Speicherort ist freiwählbar.
+Die entsprechende Datei kann nach eigenem Belieben benannt werden und auch der Speicherort ist freiwählbar.
 Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
 
 <img alt="" src="/img/windows-installation/windows-10.PNG" style="width: 100%;" />
@@ -472,7 +396,7 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
 Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
 vorgenommen werden.
-Dafür wird _ConEmu_ geöffnet und der Befehl
+Dafür wird Windows Terminal geöffnet und der Befehl
 ```
 echo "export DISPLAY=localhost:0.0" >> ~/.bashrc
 ```
@@ -483,20 +407,22 @@ eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 ### Git, Make und weiteres
 
 Für die Installation der beiden Programme git und und make muss zunächst eine
-Bash-Kommandozeile unter Verwendung von ConEmu geöffnet werden, zum Beispiel
+Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
 über den oben beschriebenen Eintrag im Kontextmenü.   
 Wie unten gezeigt wird in dieses Fenster nun der Befehl
 ```
 sudo apt update
 ```
 eingetragen. Und mit drücken der `Entertaste` bestätigt.
-Die Ausführung dieses Befehls kann einige Zeit in anspruch nehmen und setzt eine
-Internetverbindung vorraus über die einige 100MB große Datenmengen heruntergeladen
+Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
+Internetverbindung voraus über die einige 100MB große Datenmengen heruntergeladen
 werden können.
 
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
+(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht als euers.
+Bis 2020 wurde das Programm ConEmu statt Windows Terminal verwendet)
 
 <img alt="" src="/img/unix-tools-01.png" style="width: 100%;" />
 
@@ -567,16 +493,17 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
 Außerdem soll die _x64-Bit_ Version der Python Version 3.7 verwendet werden. Diese kann mit einem
-`Linksklick` auf den linken Downloadknopf heruntergeladen werden. Der Download kann einige Minuten in Anspruch nehmen.
+`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (522 MB)` heruntergeladen werden.
+Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-0-1.png" style="width: 100%;" />
+<img alt="" src="/img/anaconda-0-2.png" style="width: 100%;" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
 
 <img alt="" src="/img/anaconda-1.png" style="width: 100%;" />
 
-Im Anschluss wird mit ConEmu erneut eine Bash-Kommandozeile geöffnet.
+Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
 ```
@@ -636,7 +563,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 
 ### Uncertainties
 
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detailierte Informationen
+Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
 können auf der verlinkten Website gefunden werden.
 
 [Uncertainties Website](http://pythonhosted.org/uncertainties/)
@@ -655,12 +582,12 @@ pip install uncertainties
 ### TeXLive
 
 TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weitere Informationen und
-eine detailierte Installationsanleitung können unter den folgenden Links eingesehen werden.
+eine detaillierte Installationsanleitung können unter den folgenden Links eingesehen werden.
 + [TeXLive Website](https://www.tug.org/texlive/)
 + [Installationsanleitung](https://www.tug.org/texlive/windows.html)
 
 
-Für die Installation wird erneut die Bash-Kommandozeile (mit ConEmu) verwendet.
+Für die Installation wird erneut die Bash-Kommandozeile (mit Windows Terminal) verwendet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
 
@@ -728,7 +655,7 @@ Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#
 
 Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
 geschlossen und ein neues geöffnet werden.
-Zusätzlich muss auch das Programm XLaunch über die zuvor anglegte Datei _Praktikum.xlaunch_ gestartet werden.
+Zusätzlich muss auch das Programm XLaunch über die zuvor angelegte Datei _Praktikum.xlaunch_ gestartet werden.
 
 In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
@@ -878,7 +805,7 @@ tlmgr update --self --all --reinstall-forcibly-removed
 
 ## <a id="troubleshooting"></a> Problembehandlung
 
-Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen 
+Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lösungen zu diesen Problemen
 gesammelt.
 
 
@@ -887,7 +814,7 @@ gesammelt.
 Could not connect to any X display.
 ```
 
-+ Bei der Verwendung von matplotlib kann ein Fehler auftreten, 
++ Bei der Verwendung von matplotlib kann ein Fehler auftreten,
   der mit den folgenden Zeilen (oder ähnlichen) endet:
 ```
 from PyQt5 import QtCore, QtGui, QtWidget
