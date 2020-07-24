@@ -13,20 +13,25 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
+<!--
 ## Umfrage
 Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
 Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
 So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
-Die dritte Umfrage befasst sich mit der Zeit, zu der der Workshop an den Tagen
-stattfinden soll.
 
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/cAYRw6sBSdZbJFL9A">Zur Toolbox-Umfrage (erste Woche)</a>
 <a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/bdp9cmjj8RqJs6TAA">Zur LaTeX-Umfrage (zweite Woche)</a>
 </div>
+-->
+## Anmeldung
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
+Wir haben daher die Anmeldung mit einen Fragebogen kombioniert und möchten euch bitten diesen auszufüllen.
+So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/j4kGHNXQnMQLVvRa6">Zur Zeit-Umfrage (beide Wochen)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="??">Anmeldung</a>
 </div>
 
 
@@ -79,8 +84,8 @@ Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
     - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
-    - Während des Workshops werden wir [Zoom](https://tu-dortmund.zoom.us/) und
-      [Discord](https://discord.com/new/download) verwenden.
+    - Während des Workshops werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} und
+      [Discord](https://discord.com/new/download){:target="_blank"} verwenden.
 <!-- - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden -->
 <!--  - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich) -->
 
@@ -90,7 +95,7 @@ Bitte beachtet die folgenden Schritte:
 
 
 ## Ablaufplan 2020
-Die Links zu den Zoom-Räumen werden hinzugefügt wenn die Zeiten feststehen.
+Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail geschickt.
 <table class="table table-hover">
 <thead>
   <tr>
@@ -102,7 +107,7 @@ Die Links zu den Zoom-Räumen werden hinzugefügt wenn die Zeiten feststehen.
 </thead>
 <tbody>
   <tr>
-  <td>Do, 15.10.2020</td>
+  <td>Do, 08.10.2020</td>
   <td>9 Uhr</td>
   <td>Zoom</td>
   <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
@@ -110,31 +115,31 @@ Die Links zu den Zoom-Räumen werden hinzugefügt wenn die Zeiten feststehen.
    </td>
   </tr>
   <tr>
-  <td>Mo, 19.10.2020</td>
+  <td>Mo, 12.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 20.10.2020</td>
+  <td>Di, 13.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 21.10.2020</td>
+  <td>Mi, 14.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 22.10.2020</td>
+  <td>Do, 15.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 23.10.2020</td>
+  <td>Fr, 16.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Git und abschließende Übungen</td>
@@ -146,31 +151,31 @@ Die Links zu den Zoom-Räumen werden hinzugefügt wenn die Zeiten feststehen.
   <td></td>
   </tr>
   <tr>
-  <td>Mo, 26.10.2020</td>
+  <td>Mo, 19.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 27.10.2020</td>
+  <td>Di, 20.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 28.10.2020</td>
+  <td>Mi, 21.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 29.10.2020</td>
+  <td>Do, 22.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
-  <td>Fr, 30.10.2020</td>
+  <td>Fr, 23.10.2020</td>
   <td>tba Uhr</td>
   <td>Zoom</td>
   <td>Ausführliche Übungen über alles</td>
