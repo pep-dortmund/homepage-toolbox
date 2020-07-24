@@ -12,15 +12,19 @@ funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht W
 
 ## Windows-Linux Dual-Boot
 
-### Anmerkung 2020
 Eine Dual-Boot Installation ist beim ersten Mal nicht unbedingt trivial.
 Da aufgrund der aktuellen Situation eine Hilfe direkt am Laptop nicht möglich ist,
 sollte hier jeder selber entscheiden ob er das tun möchte.
-(Bei Acer-Laptops dann noch viel dazu lesen.)
+(Bei Acer-Laptops ist noch viel dazu lesen.)
 Dadurch das Windows immer mehr in Richtung Linux steuert,
 ist der Unterschied nicht mehr so groß wie er mal war.
 
+Wer eine Dual Boot Installation durchführen möchte,
+kann gerne unserer [Anleitung](dualboot.html) folgen.
+Dual Boot bedeutet, dass ihr beim Start des Laptop/Rechners entscheiden könnt,
+ob ihr Windows oder Linux starten möchtet.
 
+<!--
 Der Kurs ist zwar auch auf mit einem Windows-Rechner zu absolvieren,
 aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch,
 parallel auf eurem Rechner Linux zu installieren.
@@ -31,7 +35,7 @@ oder kommt vorbei.
 
 Außerdem haben wir eine  [Anleitung](dualboot.html) zur Installation
 eines Windows/Linux Dual Boot Systems geschrieben, falls ihr es selbst versuchen möchtet.
-
+-->
 
 ## Anleitungen
 
