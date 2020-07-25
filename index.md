@@ -13,27 +13,22 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-<!--
-## Umfrage
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
-So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
 
+## Umfrage & Anmeldung
+Wir würden gerne wissen, wie viel Interesse am Workshop besteht
+und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
+Wir haben daher einen Fragebogen zusammengestellt und möchten euch bitten diesen auszufüllen.
+So haben wir einen Eindruck davon,
+wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+Zudem wird der Link zum Zoomraum nur per Mail an `@tu-dortmund.de`-Adressen verschickt.
 
-<div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/cAYRw6sBSdZbJFL9A">Zur Toolbox-Umfrage (erste Woche)</a>
-<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/bdp9cmjj8RqJs6TAA">Zur LaTeX-Umfrage (zweite Woche)</a>
-</div>
--->
-## Anmeldung
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher die Anmeldung mit einen Fragebogen kombioniert und möchten euch bitten diesen auszufüllen.
-So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+Die zweite Umfrage befasst sich damit zu welchen Uhrzeiten der Workshop
+für euch am besten stattfinden soll.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="??">Anmeldung</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/TJ8VKZe4uk1n7KrV7">Zur Umfrage (Anmeldung)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/kA4DSByw7Tcd8fi8A">Zur Zeit-Umfrage</a>
 </div>
-
 
 <!--
 ## Feedback 2020
