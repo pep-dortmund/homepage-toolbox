@@ -20,13 +20,13 @@ und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
 Wir haben daher einen Fragebogen zusammengestellt und möchten euch bitten diesen auszufüllen.
 So haben wir einen Eindruck davon,
 wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
-Zudem wird der Link zum Zoomraum nur per Mail an `@tu-dortmund.de`-Adressen verschickt.
+Zudem wird der Link zum Zoomraum nur per Mail verschickt.
 
 Die zweite Umfrage befasst sich damit zu welchen Uhrzeiten der Workshop
 für euch am besten stattfinden soll.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/TJ8VKZe4uk1n7KrV7">Zur Umfrage (Anmeldung)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/4/registration/">Zur Anmeldung (Umfrage)</a>
 <a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/kA4DSByw7Tcd8fi8A">Zur Zeit-Umfrage</a>
 </div>
 
