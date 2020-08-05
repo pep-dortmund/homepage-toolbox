@@ -4,13 +4,13 @@ title: Material
 ---
 
 
-## Wintersemester 2019/20
+## Wintersemester 2020
 
 Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlich.
 
 ### Toolbox
-
+<!--
 - Tag 1
     - [Intro-Folien](files/archive/2019/intro.pdf) (Stand 23.09.2019)
     - [Python](files/archive/2019/python.html) (Stand 23.09.2019)
@@ -31,7 +31,7 @@ Kurses veröffentlich.
     - [Make](files/archive/2019/make.pdf) (Stand 26.09.2019)
     - [Aufgaben](files/archive/2019/exercises-toolbox-4.zip) (Stand 27.09.2019)
 
-- Tag 5 
+- Tag 5
     - [git](files/archive/2019/git.pdf) (Stand 27.09.2019)
     - [Aufgaben](files/archive/2019/exercises-toolbox-5.zip) (Stand 27.09.2019)
 
@@ -44,7 +44,7 @@ Kurses veröffentlich.
 - [Aufgaben Tag 2](files/archive/2019/exercises-latex-2.zip) (Stand 01.10.2019)
 - [Aufgaben Tag 3](files/archive/2019/exercises-latex-3.zip) (Stand 02.10.2019)
 - [Aufgaben Tag 5](files/archive/2019/exercises-latex-5.zip) (Stand 04.10.2019)
-
+--->
 ## Vergangene Kurse
 
 Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
