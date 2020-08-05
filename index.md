@@ -14,15 +14,22 @@ Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
 
-## Umfrage & Anmeldung
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht
-und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
+## Anmeldung & Umfrage
+Die Anmeldung mit Angabe einer E-Mail Adresse ist 2020 verpflichtend,
+der Link zum Zoomraum wird nur an die anmgemeldeten Personen geschickt.
+
+Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
+So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
+und können den Workshop optimal an eure Bedürfnisse anpassen.
+<!--
+Zudem würden wir gerne wissen, wie viel Interesse am Workshop besteht und
+ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
 Wir haben daher einen Fragebogen zusammengestellt und möchten euch bitten diesen auszufüllen.
 So haben wir einen Eindruck davon,
 wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
-Zudem wird der Link zum Zoomraum nur per Mail verschickt.
+-->
 
-Die zweite Umfrage befasst sich damit zu welchen Uhrzeiten der Workshop
+Die zweite Umfrage befasst sich damit, zu welchen Uhrzeiten der Workshop
 für euch am besten stattfinden soll.
 
 <div class="text-center mb-3">
