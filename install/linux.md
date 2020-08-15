@@ -79,7 +79,7 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 
 ### Anaconda
 
-__Wichtig__: Wir wollen Python 3.7 für Linux. [64-Bit (x86) Installer]
+__Wichtig__: Wir wollen Python 3.8 für Linux. [64-Bit (x86) Installer]
 
 - [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
 

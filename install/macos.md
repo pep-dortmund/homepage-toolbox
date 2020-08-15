@@ -54,7 +54,7 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 - [Anaconda](https://www.anaconda.com/download/#macos): Python und
   Bibliotheken
 
-__Wichtig__: Wir wollen Python 3.7 Graphical Installer (oben).  Das Paket installieren.
+__Wichtig__: Wir wollen Python 3.8 Graphical Installer (oben).  Das Paket installieren.
 
 ### VS Codium
 
