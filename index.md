@@ -27,14 +27,12 @@ ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
 Wir haben daher einen Fragebogen zusammengestellt und möchten euch bitten diesen auszufüllen.
 So haben wir einen Eindruck davon,
 wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
--->
-
 Die zweite Umfrage befasst sich damit, zu welchen Uhrzeiten der Workshop
 für euch am besten stattfinden soll.
+-->
 
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/4/registration/">Zur Anmeldung (Umfrage)</a>
-<a target="_blank" role="button" class="btn btn-primary" href="https://forms.gle/kA4DSByw7Tcd8fi8A">Zur Zeit-Umfrage</a>
 </div>
 
 <!--
@@ -118,31 +116,31 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   </tr>
   <tr>
   <td>Mo, 12.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di, 13.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi, 14.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do, 15.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
   <td>Fr, 16.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Git und abschließende Übungen</td>
   </tr>
@@ -154,31 +152,31 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   </tr>
   <tr>
   <td>Mo, 19.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di, 20.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi, 21.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do, 22.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
   <td>Fr, 23.10.2020</td>
-  <td>tba Uhr</td>
+  <td>10-14 Uhr</td>
   <td>Zoom</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
