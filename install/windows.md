@@ -492,8 +492,8 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 [Anaconda Download](https://www.anaconda.com/distribution/){:target="_blank"}
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.7 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (522 MB)` heruntergeladen werden.
+Außerdem soll die _x64-Bit_ Version der Python Version 3.8 verwendet werden. Diese kann mit einem
+`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (550 MB)` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
 
 <img alt="" src="/img/anaconda-0-2.png" style="width: 100%;" />
