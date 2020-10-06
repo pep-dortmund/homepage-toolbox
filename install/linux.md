@@ -86,7 +86,7 @@ __Wichtig__: Wir wollen Python 3.8 für Linux. [64-Bit (x86) Installer]
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2020.02-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2020.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
