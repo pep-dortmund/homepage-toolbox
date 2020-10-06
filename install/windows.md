@@ -521,7 +521,7 @@ Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
 In dieser Liste muss sich auch die zuvor auf den Desktop
 kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
 
-Zum installieren muss der olgende Befehl ausgeführt werden.
+Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an sollte dies nicht der Fall sein.
 ```
