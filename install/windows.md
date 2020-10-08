@@ -521,14 +521,14 @@ Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
 In dieser Liste muss sich auch die zuvor auf den Desktop
 kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
 
-Nachfolgend wird der Befehl
+Zum Installieren muss der folgende Befehl ausgeführt werden.
+**Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
+Passt den Befehl an sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2019.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2020.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
-verwendet, um die Installation zu starten. **Wichtig** ist zu beachten, dass der zweite Teil des
-Befehls der Name der Installationsdatei ist, sollte dieser sich von dem hier gezeigten unterscheiden
-muss der Befehl entsprechend angepasst werden. Wie zuvor wird auch dieser Befehl durch drücken der
-`Entertaste` bestätigt.
+
+Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
 
 <img alt="" src="/img/windows-installation/windows-11.PNG" style="width: 100%;" />
 
