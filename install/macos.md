@@ -151,7 +151,7 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.0.7 (TeX Live 2018)
+    This is LuaTeX, Version 1.X.X (TeX Live 2020)
     restricted system commands enabled.
     **
 
