@@ -68,12 +68,12 @@ Um git beizubringen, VSCodium zu benutzen, Im Terminal:
 git config --global core.editor "codium --wait"
 ```
 
-- Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
+- Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX Workshop`
   installiert werden
     - Mit `Shift+cmd+x` die Extensions öffnen
-    - `LaTeX language support` suchen
+    - `LaTeX Workshop` suchen
     - `install` anklicken
-    - VS Code neustarten
+    - VS Codium neustarten
 
 ### Uncertainties
 
