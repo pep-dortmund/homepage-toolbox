@@ -60,7 +60,7 @@ __Wichtig__: Wir wollen Python 3.8 Graphical Installer (unten auf der Seite).  D
 
 - [VS Codium](https://github.com/VSCodium/vscodium/releases): Texteditor.
    Download der Datei `VsCodium-darwin-<VERSION>.zip`.
-   Das Programm "VSCodium.app" befindet sich dann in der zip Datei im Downloadordner und muss nach `Programme` verschoben werden. Die App öffnen und mit `Shift+cmd+p` die Kommando Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal "code" eingeben wird.
+   Das Programm "VSCodium.app" befindet sich dann in der zip Datei im Downloadordner und muss nach `Programme` verschoben werden. Die App öffnen und mit `Shift+cmd+p` die Kommando Palette öffnen und `Shell Command: Install 'codium' command in PATH` ausführen. Nun wird VS Codium auch geöffnet, wenn im Terminal "codium" eingeben wird.
 
 Um git beizubringen, VSCodium zu benutzen, Im Terminal:
 
