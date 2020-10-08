@@ -49,6 +49,15 @@ xcode-select --install
 ```
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
+ ### Git einstellen:
+Im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
+
+    git config --global user.name "Max Mustermann"
+    git config --global user.email "max.mustermann@udo.edu"
+    git config --global rebase.stat true
+    git config --global merge.conflictstyle diff3
+
+
 ### Anaconda
 
 - [Anaconda](https://www.anaconda.com/download/#macos): Python und
@@ -104,12 +113,6 @@ Terminal öffnen
 
 Es sollte die Git-Hilfe erscheinen.
 
-Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
-
-    git config --global user.name "Max Mustermann"
-    git config --global user.email "max.mustermann@udo.edu"
-    git config --global rebase.stat true
-    git config --global merge.conflictstyle diff3
 
 ### Python
 
@@ -190,7 +193,7 @@ Im Terminal:
 
 Im Terminal:
 
-    pip install -U uncertainties
+    pip3 install -U uncertainties
 
 ### TeXLive
 
