@@ -11,7 +11,7 @@ Kurses veröffentlich.
 
 ### Toolbox
 - Tag 1
-    - [Intro-Folien](files/archive/2020/intro.pdf) (Stand 11.10.2020)
+    - [Intro-Folien](files/archive/2020/intro.pdf) (Stand 12.10.2020)
     - [Python](files/archive/2020/python.html) (Stand 11.10.2020)
     - [Aufgaben](files/archive/2020/exercises-toolbox-1.zip) (Stand 11.10.2020)
 
