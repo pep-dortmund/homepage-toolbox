@@ -122,7 +122,7 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   </tr>
   <tr>
   <td>Di, 13.10.2020</td>
-  <td>10-14 Uhr</td>
+  <td><span style="color:crimson"> 14-18 Uhr </span></td>
   <td>Zoom</td>
   <td>NumPy, matplotlib</td>
   </tr>
@@ -134,7 +134,7 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   </tr>
   <tr>
   <td>Do, 15.10.2020</td>
-  <td>10-14 Uhr</td>
+  <td><span style="color:crimson"> 14-18 Uhr </span></td>
   <td>Zoom</td>
   <td>Unix, Make</td>
   </tr>
