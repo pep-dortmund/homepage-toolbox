@@ -49,7 +49,7 @@ xcode-select --install
 ```
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
- ### Git einstellen:
+### Git einstellen:
 Im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
 
     git config --global user.name "Max Mustermann"
@@ -78,18 +78,24 @@ git config --global core.editor "codium --wait"
 ```
 
 - Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX Workshop`
-  installiert werden
+  installiert werden:
     - Mit `Shift+cmd+x` die Extensions öffnen
     - `LaTeX Workshop` suchen
     - `install` anklicken
     - VS Codium neustarten
+
+- Um LaTex Workshop für für uns richtig einzustellen:
+    - Settings aufrufen `File -> Preferences -> Settings`
+    - Hacken bei `latex auto build clean and retry` entfernen
+    - Bei `latex auto build run` im Drop-Down-Menü `never` aufwählen
+
 
 ### Uncertainties
 
 - [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek
   für automatisierte Fehlerrechnung
 
-Im terminal:
+Im Terminal:
 
     pip3 install uncertainties
 
