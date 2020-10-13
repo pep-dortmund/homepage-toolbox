@@ -674,7 +674,7 @@ In [2]: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-<us
 ```
 könnt ihr _ipython_ mit `quit` beenden, und folgende Befehle in das Terminal eintragen
 ```
-echo "mkdir -p /run/user/1000" >> ~/.bashrc
+echo "mkdir -p /tmp/user/1000" >> ~/.bashrc
 echo "export XDG_RUNTIME_DIR=/tmp/user/1000" >> ~/.bashrc
 ```
 Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur "Using matplotlib backend: Qt5Agg` sein.  
