@@ -15,12 +15,12 @@ Kurses veröffentlich.
     - [Python](files/archive/2020/python.html) (Stand 11.10.2020)
     - [Aufgaben](files/archive/2020/exercises-toolbox-1.zip) (Stand 11.10.2020)
 
-<!--
 - Tag 2
-    - [Numeric Python](files/archive/2020/numeric-python.html) (Stand 24.10.2020)
-    - [matplotlib](files/archive/2020/matplotlib.html) (Stand 24.10.2020)
-    - [Aufgaben](files/archive/2020/exercises-toolbox-2.zip) (Stand 24.10.2020)
+    - [Numeric Python](files/archive/2020/numeric-python.html) (Stand 13.10.2020)
+    - [matplotlib](files/archive/2020/matplotlib.html) (Stand 13.10.2020)
+    - [Aufgaben](files/archive/2020/exercises-toolbox-2.zip) (Stand 13.10.2020)
 
+<!--
 - Tag 3
     - [Scientific Python](files/archive/2020/scientific-python.html) (Stand 25.10.2020)
     - [uncertainties](files/archive/2020/uncertainties.html) (Stand 25.10.2020)
