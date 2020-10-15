@@ -21,15 +21,6 @@ der Link zum Zoomraum wird nur an die anmgemeldeten Personen geschickt.
 Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
 So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an eure Bedürfnisse anpassen.
-<!--
-Zudem würden wir gerne wissen, wie viel Interesse am Workshop besteht und
-ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher einen Fragebogen zusammengestellt und möchten euch bitten diesen auszufüllen.
-So haben wir einen Eindruck davon,
-wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
-Die zweite Umfrage befasst sich damit, zu welchen Uhrzeiten der Workshop
-für euch am besten stattfinden soll.
--->
 
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/4/registration/">Zur Anmeldung (Umfrage)</a>
@@ -114,11 +105,8 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
    <!---/ Umstieg auf Linux für Interessenten--->
    </td>
   </tr>
- <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <tr>
+  <td colspan="4"></td>
   </tr>
   <tr>
   <td>Mo, 12.10.2020</td>
@@ -151,10 +139,7 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td colspan="4"></td>
   </tr>
   <tr>
   <td>Mo, 19.10.2020</td>
