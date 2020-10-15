@@ -114,6 +114,12 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
    <!---/ Umstieg auf Linux für Interessenten--->
    </td>
   </tr>
+ <tr>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  </tr>
   <tr>
   <td>Mo, 12.10.2020</td>
   <td>10-14 Uhr</td>
@@ -158,7 +164,7 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   </tr>
   <tr>
   <td>Di, 20.10.2020</td>
-  <td>10-14 Uhr</td>
+  <td><span style="color:crimson"> 14-18 Uhr </span></td>
   <td>Zoom</td>
   <td>Formelsatz</td>
   </tr>
@@ -170,7 +176,7 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
   </tr>
   <tr>
   <td>Do, 22.10.2020</td>
-  <td>10-14 Uhr</td>
+  <td><span style="color:crimson"> 14-18 Uhr </span></td>
   <td>Zoom</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
