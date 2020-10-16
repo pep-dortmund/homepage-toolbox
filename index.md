@@ -35,16 +35,18 @@ für euch am besten stattfinden soll.
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/4/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
 
-<!--
 ## Feedback 2020
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
-<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScbo52AI3tE_TDHuqLhgmOiQe3hki2Eaa45OAY4KhBu7w0ZYA/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd03lt-KjCkZ7ZwH6X9zeWAfoXzHD9yUwfRwVM2I785-LLpPw/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
+<a type="button" class="btn btn-primary" href="https://forms.gle/yv6WmVy45EMXotUs8">Zum Toolbox-Feedback (erste Woche)</a>
 </div>
+
+
+<!--
+<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd03lt-KjCkZ7ZwH6X9zeWAfoXzHD9yUwfRwVM2I785-LLpPw/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
 -->
 
 
