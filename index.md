@@ -13,7 +13,7 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-
+<!--
 ## Anmeldung & Umfrage
 Die Anmeldung mit Angabe einer E-Mail Adresse ist 2020 verpflichtend,
 der Link zum Zoomraum wird nur an die anmgemeldeten Personen geschickt.
@@ -25,6 +25,7 @@ und können den Workshop optimal an eure Bedürfnisse anpassen.
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/4/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
+-->
 
 ## Feedback 2020
 
@@ -33,12 +34,8 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
 <a type="button" class="btn btn-primary" href="https://forms.gle/yv6WmVy45EMXotUs8">Zum Toolbox-Feedback (erste Woche)</a>
+<a type="button" class="btn btn-primary" href="https://forms.gle/QKcGtLqHAkWvGw6FA">Zum LaTeX-Feedback (zweite Woche)</a>
 </div>
-
-
-<!--
-<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSd03lt-KjCkZ7ZwH6X9zeWAfoXzHD9yUwfRwVM2I785-LLpPw/viewform">Zum LaTeX-Feedback (zweite Woche)</a>
--->
 
 
 ## Themen
