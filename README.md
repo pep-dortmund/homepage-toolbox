@@ -7,8 +7,12 @@ If you want to build the site locally, install ruby, node and some optional depe
 ### Ubuntu
 
 ```
-$ sudo apt install ruby-dev nodejs libxml2-dev libxslt-dev
+$ sudo apt install ruby-dev nodejs libxml2-dev libxslt1-dev
 $ sudo gem install bundler
+```
+Für WSL noch
+```
+$ sudo apt install build-essential
 ```
 
 
@@ -30,7 +34,8 @@ $ gem install bundler
 
 Install the necessary gems
 ```
-$ bundle install --path vendor/bundle
+$ bundle config set path 'vendor/bundle'
+$ bundle install
 ```
 
 Build and serve the site locally, automatically updates if you make changes.
