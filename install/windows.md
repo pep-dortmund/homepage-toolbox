@@ -489,11 +489,11 @@ der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung ka
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
 Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 
-[Anaconda Download](https://www.anaconda.com/distribution/){:target="_blank"}
+[Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
 Außerdem soll die _x64-Bit_ Version der Python Version 3.8 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (550 MB)` heruntergeladen werden.
+`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (529 MB)` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
 
 <img alt="" src="/img/anaconda-0-2.png" style="width: 100%;" />
@@ -525,7 +525,7 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2020.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
@@ -555,7 +555,7 @@ so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 
 <img alt="" src="/img/anaconda-20.png" style="width: 100%;" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2019.03-Linux-x86_64.sh_
+Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2020.11-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
 __Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
@@ -627,7 +627,7 @@ Nach erfolgreicher Installation wird folgender Text ausgegeben.
 Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der
 `Entertaste` bestätigt wird.
 ```
-echo 'export PATH="$HOME/.local/texlive/2020/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 <img alt="" src="/img/texlive-7.png" style="width: 100%;" />
@@ -677,7 +677,7 @@ könnt ihr _ipython_ mit `quit` beenden, und folgende Befehle in das Terminal ei
 echo "mkdir -p /tmp/user/1000" >> ~/.bashrc
 echo "export XDG_RUNTIME_DIR=/tmp/user/1000" >> ~/.bashrc
 ```
-Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur "Using matplotlib backend: Qt5Agg` sein.  
+Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur `Using matplotlib backend: Qt5Agg` sein.  
 ```
 import matplotlib.pyplot as plt
 ```
@@ -733,7 +733,7 @@ luatex
 Es sollte folgende Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.0.4 (TeX Live 2017)
+This is LuaTeX, Version 1.12.0 (TeX Live 2021)
 restricted system commands enabled.
 **
 ```

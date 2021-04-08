@@ -51,7 +51,7 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
 
 ### Anaconda
 
-- [Anaconda](https://www.anaconda.com/download/#macos): Python und
+- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
   Bibliotheken
 
 __Wichtig__: Wir wollen Python 3.8 Graphical Installer (unten auf der Seite).  Das Paket installieren.
