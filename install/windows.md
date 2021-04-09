@@ -733,7 +733,7 @@ luatex
 Es sollte folgende Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.12.0 (TeX Live 2021)
+This is LuaTeX, Version 1.13.0 (TeX Live 2021)
 restricted system commands enabled.
 **
 ```

@@ -209,8 +209,8 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.12.0 (TeX Live 2021)
-     restricted \write18 enabled.
+    This is LuaTeX, Version 1.13.0 (TeX Live 2021)
+     restricted system commands enabled.
     **
 
 Mit Strg-C beenden.
