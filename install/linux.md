@@ -81,12 +81,12 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 
 __Wichtig__: Wir wollen Python 3.8 für Linux. [64-Bit (x86) Installer]
 
-- [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
+- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und Bibliotheken
 
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2020.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
@@ -126,7 +126,7 @@ Die Installition startet man mit `I` und `Enter`.
 Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
 
 ```
-export PATH="$HOME/.local/texlive/2020/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
 ```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
@@ -209,8 +209,8 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.12.0 (TeX Live 2020)
-     restricted \write18 enabled.
+    This is LuaTeX, Version 1.13.0 (TeX Live 2021)
+     restricted system commands enabled.
     **
 
 Mit Strg-C beenden.
