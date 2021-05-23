@@ -15,4 +15,4 @@ welches Symbol es für das Mikro nutzen soll:
 \sisetup{math-micro=\text{µ},text-micro=µ}
 ```
 
-Das Symbol ist [https://www.fileformat.info/info/unicode/char/00b5/index.htm](Unicode Character 'MICRO SIGN (U+00B5)')
+Das Symbol ist [Unicode Character 'MICRO SIGN (U+00B5)'](https://www.fileformat.info/info/unicode/char/00b5/index.htm)
