@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Windows-Installation
+collapse: True
 ---
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
@@ -17,6 +18,14 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
+
+__Die Installationsanleitung wirkt lang, das liegt daran, dass
+wir jeden Schritt erklären und fast immer Screenshots eingefügt haben.__
+
+__Lest euch jeden Schritt durch, stellt sicher,
+dass Befehle richtig kopiert oder abgetippt wurden.
+Falls etwas nicht funktioniert findet ihr unter [Hilfe](/problem)
+die Hinweise wie ihr uns am besten kontaktieren könnt.__
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
@@ -52,6 +61,7 @@ Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystem gesehen werden.
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
 ### Windows Subsystem for Linux (WSL)
+{: .collapses}
 
 #### Aktivierung des WSL
 Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
@@ -168,6 +178,7 @@ Installation der benötigten Software verwendet.
 
 
 ### Windows Terminal
+{: .collapses}
 
 Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation
 des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version
@@ -189,13 +200,14 @@ klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein D
 <img alt="" src="/img/windows_terminal_02.png" style="width: 100%;" />
 
 Klickt auf Ubuntu um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal
-standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website:
-
-[https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31).
+standardmäßig Ubuntu öffnet.
+Mit `Strg + ,` können die Einstellungen geöffnet werden,
+der erste Punkt ist _Default profile_, dort kann auf *Ubuntu* gewechselt werden.
 
 
 
 ### Dateiendungen einschalten
+{: .collapses}
 
 Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
 Diese können und sollen aktiviert werden.
@@ -210,6 +222,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 
 
 ### Visual Studio Code
+{: .collapses}
 
 Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
 Drüber hinaus hat dieser auch noch viele weitere Funktionen.
@@ -273,6 +286,7 @@ werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten 
 
 
 ### Sumatra PDF
+{: .collapses}
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
@@ -306,6 +320,8 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 
 
 ### X-Server
+{: .collapses}
+
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
 um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem
 folgenden Link heruntergeladen werden.
@@ -405,6 +421,7 @@ eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
 
 ### Git, Make und weiteres
+{: .collapses}
 
 Für die Installation der beiden Programme git und und make muss zunächst eine
 Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
@@ -461,6 +478,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 
 
 #### Git-Einstellungen
+{: .collapses}
 
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
@@ -485,6 +503,7 @@ der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung ka
 
 
 ### Anaconda
+{: .collapses}
 
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
 Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
@@ -562,6 +581,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 
 
 ### Uncertainties
+{: .collapses}
 
 Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
 können auf der verlinkten Website gefunden werden.
@@ -580,6 +600,7 @@ pip install uncertainties
 
 
 ### TeXLive
+{: .collapses}
 
 TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weitere Informationen und
 eine detaillierte Installationsanleitung können unter den folgenden Links eingesehen werden.
