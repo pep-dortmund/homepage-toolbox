@@ -97,7 +97,7 @@ git config --global core.editor "codium --wait"
 
 Im Terminal:
 
-    pip3 install uncertainties
+    pip install uncertainties
 
 ### MacTeX
 
