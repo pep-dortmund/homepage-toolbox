@@ -21,4 +21,4 @@ Die Organisatoren sind dieses Jahr
   - Joshua Luckey
   - Christian Beckmann
 
-Ihr könnt uns über die folgende Mail-Adresse erreichen: [Pep-toolbox.physik@lists.tu-dortmund.de](mailto:Pep-toolbox.physik@lists.tu-dortmund.de).
+Ihr könnt uns über die folgende Mail-Adresse erreichen: [pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de).
