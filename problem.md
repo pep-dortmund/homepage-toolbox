@@ -19,7 +19,7 @@ kann nach dem Fehler gesucht werden, wie kann so etwas aussehen:
 
 Sollte dieses nicht helfen, könnt ihr uns eine Mail an
 
-[toolbox-pep-dortmund@googlegroups.com](mailto:toolbox-pep-dortmund@googlegroups.com)
+[Pep-toolbox.physik@lists.tu-dortmund.de](mailto:Pep-toolbox.physik@lists.tu-dortmund.de)
 
 schreiben.
 
