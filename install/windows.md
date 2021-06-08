@@ -23,7 +23,7 @@ wir jeden Schritt erklären und fast immer Screenshots eingefügt haben.__
 
 __Lest euch jeden Schritt durch, stellt sicher,
 dass Befehle richtig kopiert oder abgetippt wurden.
-Falls etwas nicht funktioniert findet ihr unter [Hilfe](/problem)
+Falls etwas nicht funktioniert findet ihr unter [Hilfe](/problem.html)
 die Hinweise wie ihr uns am besten kontaktieren könnt.__
 
 <div class="row" style="padding: 10px">
