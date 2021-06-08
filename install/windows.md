@@ -18,6 +18,14 @@ Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
 
+__Die Installationsanleitung wirkt lang, das liegt daran, dass
+wir jeden Schritt erklären und fast immer Screenshots eingefügt haben.__
+
+__Lest euch jeden Schritt durch, stellt sicher,
+dass Befehle richtig kopiert oder abgetippt wurden.
+Falls etwas nicht funktioniert findet ihr unter [Hilfe](/problem)
+die Hinweise wie ihr uns am besten kontaktieren könnt.__
+
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
   <a href="#installation" class="btn btn-secondary btn-lg btn-block" role="button">
@@ -189,9 +197,9 @@ klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein D
 <img alt="" src="/img/windows_terminal_02.png" style="width: 100%;" />
 
 Klickt auf Ubuntu um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal
-standardmäßig Ubuntu öffnet. Folgt dazu der Anleitung auf folgender Website:
-
-[https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31](https://medium.com/@callback.insanity/windows-terminal-changing-the-default-shell-c4f5987c31).
+standardmäßig Ubuntu öffnet.
+Mit `Strg + ,` können die Einstellungen geöffnet werden,
+der erste Punkt ist _Default profile_, dort kann auf *Ubuntu* gewechselt werden.
 
 
 
