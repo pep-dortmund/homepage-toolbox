@@ -13,21 +13,21 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-<!--
 ## Anmeldung & Umfrage
-Die Anmeldung mit Angabe einer E-Mail Adresse ist 2020 verpflichtend,
-der Link zum Zoomraum wird nur an die anmgemeldeten Personen geschickt.
+Die Anmeldung mit Angabe einer E-Mail Adresse ist 2021 verpflichtend,
+wir wissen noch nicht in welcher Form der Toolbox-Workshop stattfinden kann.
+So können wir euch dann per E-Mail informieren und ihr kriegt auf jeden Fall alle Informationen.
 
 Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
 So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/4/registration/">Zur Anmeldung (Umfrage)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/11/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
--->
 
-## Feedback 2020
+<!--
+## Feedback 2021
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
@@ -36,6 +36,7 @@ Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 <a type="button" class="btn btn-primary" href="https://forms.gle/yv6WmVy45EMXotUs8">Zum Toolbox-Feedback (erste Woche)</a>
 <a type="button" class="btn btn-primary" href="https://forms.gle/QKcGtLqHAkWvGw6FA">Zum LaTeX-Feedback (zweite Woche)</a>
 </div>
+-->
 
 
 ## Themen
@@ -74,18 +75,14 @@ Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
     - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
-    - Während des Workshops werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} und
+    - Falls der Workshop digital stattfindet, werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} und
       [Discord](https://discord.com/new/download){:target="_blank"} verwenden.
 <!-- - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden -->
 <!--  - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich) -->
 
-<!-- - Bei Interesse am betreuten Installieren am Freitag eine kurze [Mail](mailto:toolbox-pep-dortmund@googlegroups.com) an uns mit dem Grund der Teilnahme:
-    - Programme Installieren: Windows/Mac/Linux
-    - Dualboot -->
 
+## Ablaufplan 2021
 
-## Ablaufplan 2020
-Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail geschickt.
 <table class="table table-hover">
 <thead>
   <tr>
@@ -97,77 +94,77 @@ Die Links zu den Zoom-Räumen werden an die angemeldeten Personen per E-Mail ges
 </thead>
 <tbody>
   <tr>
-  <td>Do, 08.10.2020</td>
+  <td>Do, 23.09.2021</td>
   <td>9 Uhr</td>
-  <td>Zoom</td>
+  <td><span style="color:crimson"> tba </span></td>
   <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
-   <!---/ Umstieg auf Linux für Interessenten--->
+   / Umstieg auf Linux für Interessenten
    </td>
   </tr>
   <tr>
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 12.10.2020</td>
-  <td>10-14 Uhr</td>
-  <td>Zoom</td>
+  <td>Mo, 27.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 13.10.2020</td>
-  <td><span style="color:crimson"> 14-18 Uhr </span></td>
-  <td>Zoom</td>
+  <td>Di, 28.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 14.10.2020</td>
-  <td>10-14 Uhr</td>
-  <td>Zoom</td>
+  <td>Mi, 29.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 15.10.2020</td>
-  <td><span style="color:crimson"> 14-18 Uhr </span></td>
-  <td>Zoom</td>
+  <td>Do, 30.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 16.10.2020</td>
-  <td>10-14 Uhr</td>
-  <td>Zoom</td>
+  <td>Fr, 01.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 19.10.2020</td>
-  <td>10-14 Uhr</td>
-  <td>Zoom</td>
+  <td>Mo, 04.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 20.10.2020</td>
-  <td><span style="color:crimson"> 14-18 Uhr </span></td>
-  <td>Zoom</td>
+  <td>Di, 05.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 21.10.2020</td>
-  <td>10-14 Uhr</td>
-  <td>Zoom</td>
+  <td>Mi, 06.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 22.10.2020</td>
-  <td><span style="color:crimson"> 14-18 Uhr </span></td>
-  <td>Zoom</td>
+  <td>Do, 07.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
-  <td>Fr, 23.10.2020</td>
-  <td>10-14 Uhr</td>
-  <td>Zoom</td>
+  <td>Fr, 08.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
 </tbody>
