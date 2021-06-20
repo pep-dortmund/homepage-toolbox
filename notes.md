@@ -10,8 +10,8 @@ Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlich.
 
 ### Toolbox
-- Tag 1
 <!--
+- Tag 1
     - [Intro-Folien](files/archive/2020/intro.pdf) (Stand 27.09.2021)
     - [Python](files/archive/2020/python.html) (Stand 27.09.2021)
     - [Aufgaben](files/archive/2020/exercises-toolbox-1.zip) (Stand 11.10.2021)
@@ -34,9 +34,9 @@ Kurses veröffentlich.
 - Tag 5
     - [git](files/archive/2020/git.pdf) (Stand 16.10.2021)
     - [Aufgaben](files/archive/2020/exercises-toolbox-5.zip) (Stand 16.10.2021)
-
+-->
 ### LaTeX
-
+<!--
 - [Folien](files/archive/2020/latex.pdf) (Stand 23.10.2021)
 - [Aufgaben Tag 1](files/archive/2020/exercises-latex-1.zip) (Stand 18.10.2021)
 - [Aufgaben Tag 2](files/archive/2020/exercises-latex-2.zip) (Stand 20.10.2021)
