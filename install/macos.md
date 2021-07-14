@@ -84,7 +84,7 @@ git config --global core.editor "codium --wait"
     - `install` anklicken
     - VS Codium neustarten
 
-- Um LaTex Workshop für für uns richtig einzustellen:
+- Um LaTeX Workshop für für uns richtig einzustellen:
     - Settings aufrufen `File -> Preferences -> Settings`
     - Hacken bei `latex auto build clean and retry` entfernen
     - Bei `latex auto build run` im Drop-Down-Menü `never` aufwählen
