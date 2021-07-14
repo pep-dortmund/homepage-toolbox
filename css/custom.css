@@ -1,6 +1,6 @@
 .container {
   width: auto;
-  max-width: 680px;
+  max-width: 80rem;
   padding: 0 15px;
 }
 
@@ -43,4 +43,9 @@ pre.highlight {
   border-style: solid;
   border-color: #ddd;
   padding: 5px;
+}
+
+.screenshot {
+ 	max-width: 100%;
+	max-height: 400px;
 }
