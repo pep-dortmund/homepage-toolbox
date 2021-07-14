@@ -12,19 +12,21 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio
 
 
 <div class="row" style="padding: 10px">
-  <div class="col-md-1" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
   Testen
   </a>
   </div>
-  <div class="col-md-2" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
   Aktualisieren
   </a>
   </div>
-  <div class="col-md-1" align="center"></div>
+  <div class="col-md-4" align="center">
+  <a href="#w-lan" class="btn btn-secondary btn-lg btn-block" role="button">
+  W-Lan
+  </a>
+  </div>
 </div>
 
 ## <a id="Installation"></a>Installation
@@ -60,12 +62,12 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
 - Debian, Ubuntu, Mint:
 
-  Ladet die Datei `vscodium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
+  Ladet die Datei `codium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
   dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`
 
 - Fedora
 
-  Ladet die Datei `vscodium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
+  Ladet die Datei `codium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
   dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
 
 
@@ -77,14 +79,14 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 
 ### Anaconda
 
-__Wichtig__: Wir wollen Python 3.7 für Linux.
+__Wichtig__: Wir wollen Python 3.8 für Linux. [64-Bit (x86) Installer]
 
-- [Anaconda](http://www.anaconda.com/download/#linux): Python und Bibliotheken
+- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und Bibliotheken
 
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2019.07-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
@@ -124,7 +126,7 @@ Die Installition startet man mit `I` und `Enter`.
 Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
 
 ```
-export PATH="$HOME/.local/texlive/2019/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
 ```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
@@ -154,6 +156,12 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
     $ git config --global user.email "max.mustermann@udo.edu"
     $ git config --global rebase.stat true
     $ git config --global merge.conflictstyle diff3
+
+
+Um git beizubringen, VSCodium als Editor zu benutzen:
+
+    $ git config --global core.editor "codium --wait"
+
 
 ### Python
 
@@ -201,8 +209,8 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version beta-1.0.4 (TeX Live 2017)
-     restricted \write18 enabled.
+    This is LuaTeX, Version 1.13.0 (TeX Live 2021)
+     restricted system commands enabled.
     **
 
 Mit Strg-C beenden.
@@ -235,9 +243,9 @@ Im Terminal:
 
     $ tlmgr update --self --all --reinstall-forcibly-removed
 
-## W-Lan
+## <a id="w-lan"></a>W-Lan
 
-Um das eduroam-Netz an der TU Dortmund einzurichten können folgende Optionen verwendet werden:
+Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
  - Wi-Fi security: WPA- & WPA2-Enterprise
  - Authentication: Geschütztes EAP (PEAP)
  - Anonymous Identity: telesec@tu-dortmund.de
@@ -248,4 +256,3 @@ Um das eduroam-Netz an der TU Dortmund einzurichten können folgende Optionen ve
  - Inner authentication: MSCHAPv2
  - Username: smxxxx@udo.edu
  - Passwort: ******* (W-Lan Passwort)
-

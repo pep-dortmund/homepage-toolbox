@@ -2,7 +2,6 @@
 deploy_key
 deploy_key.pub
 vendor
-Gemfile.lock
 .bundle
 .sass-cache
 # OSX

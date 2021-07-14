@@ -13,29 +13,30 @@ Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
 Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
-<!-- 
-## Umfrage
-Wir würden gerne wissen, wie viel Interesse am Workshop besteht und ob ihr bereits Erfahrungen mit den Werkzeugen gesammelt habt.
-Wir haben daher zwei Fragebögen zusammengestellt und möchten euch bitten diese auszufüllen.
-So haben wir einen Eindruck davon, wie viele Teilnehmer es geben wird und können den Workshop optimal an eure Bedürfnisse anpassen.
+## Anmeldung & Umfrage
+Die Anmeldung mit Angabe einer E-Mail Adresse ist 2021 verpflichtend,
+wir wissen noch nicht in welcher Form der Toolbox-Workshop stattfinden kann.
+So können wir euch dann per E-Mail informieren und ihr kriegt auf jeden Fall alle Informationen.
+
+Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
+So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
+und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScEiJAjZ15GwU1AlUHxKDMy1EVIZyJLLSalU44yJ5okiLycGQ/viewform">Zur Toolbox-Umfrage (erste Woche)</a>
-<a target="_blank" role="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScqaghd0MRwaSJRCZTTSN1_hFqM0SZqVhLAQ27XtKj0MsbDCA/viewform">Zur LaTeX-Umfrage (zweite Woche)</a>
-</div>  
--->
+<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/11/registration/">Zur Anmeldung (Umfrage)</a>
+</div>
 
-
-
-## Feedback 2019
+<!--
+## Feedback 2021
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
 
 <div class="text-center">
-<a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLScbo52AI3tE_TDHuqLhgmOiQe3hki2Eaa45OAY4KhBu7w0ZYA/viewform">Zum Toolbox-Feedback (erste Woche)</a>
-<!-- <a type="button" class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSdFGdAdXCpa9KmN0R17I5qEWwlSS7t4UDjZOzcZugsAeoGaVg/viewform">Zum LaTeX-Feedback (zweite Woche)</a> -->
+<a type="button" class="btn btn-primary" href="https://forms.gle/yv6WmVy45EMXotUs8">Zum Toolbox-Feedback (erste Woche)</a>
+<a type="button" class="btn btn-primary" href="https://forms.gle/QKcGtLqHAkWvGw6FA">Zum LaTeX-Feedback (zweite Woche)</a>
 </div>
+-->
 
 
 ## Themen
@@ -73,16 +74,14 @@ Es bietet hervorragenden Formelsatz, automatisiertes erstellen von Inhaltsverzei
 Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
-    - Bei Problemen können wir gerne per [Mail](about.html) oder persönlich helfen
-- Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden
-- Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich)
-
-<!-- - Bei Interesse am betreuten Installieren am Freitag eine kurze [Mail](mailto:toolbox-pep-dortmund@googlegroups.com) an uns mit dem Grund der Teilnahme:
-    - Programme Installieren: Windows/Mac/Linux
-    - Dualboot -->
+    - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
+    - Falls der Workshop digital stattfindet, werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} und
+      [Discord](https://discord.com/new/download){:target="_blank"} verwenden.
+<!-- - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden -->
+<!--  - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich) -->
 
 
-## Ablaufplan 2019
+## Ablaufplan 2021
 
 <table class="table table-hover">
 <thead>
@@ -94,77 +93,79 @@ Bitte beachtet die folgenden Schritte:
   </tr>
 </thead>
 <tbody>
-<!--  <tr>
-  <td><span style="color:crimson"> Fr, 20.09.2019</span></td>
-  <td><span style="color:crimson"> 10:15 Uhr</span></td>
-  <td><span style="color:crimson"> CP-03-150</span></td>
-  <td><span style="color:crimson"> Betreutes Installieren sämtlicher Programme / Umstieg auf Linux für Interessenten</span></td>
-  </tr> -->
   <tr>
-  <td>Mo, 23.09.2019</td>
+  <td>Do, 23.09.2021</td>
   <td>9 Uhr</td>
-  <td>CP-03-150</td>
-  <td>Betreutes Installieren falls es Probleme gab / Umstieg auf Linux für Interessenten</td>
+  <td><span style="color:crimson"> tba </span></td>
+  <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
+   / Umstieg auf Linux für Interessenten
+   </td>
   </tr>
   <tr>
-  <td>Mo, 23.09.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td colspan="4"></td>
+  </tr>
+  <tr>
+  <td>Mo, 27.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 24.09.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Di, 28.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 25.09.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Mi, 29.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 26.09.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Do, 30.09.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 27.09.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Fr, 01.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
-  <td></td>
-  <td></td>
-  <td></td>
-  <td></td>
+  <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 30.09.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Mo, 04.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 01.10.2019</td>
-  <td>13–17 Uhr</td>
-  <td><span style="color:crimson"> Chemie HS01 </span></td>
+  <td>Di, 05.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 02.10.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Mi, 06.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Fr, 04.10.2019</td>
-  <td>13–17 Uhr</td>
-  <td>CT-ZB ZE01</td>
+  <td>Do, 07.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
+  </tr>
+  <tr>
+  <td>Fr, 08.10.2021</td>
+  <td>13-17 Uhr</td>
+  <td>tba</td>
+  <td>Ausführliche Übungen über alles</td>
   </tr>
 </tbody>
 </table>

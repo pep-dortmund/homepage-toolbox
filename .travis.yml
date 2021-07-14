@@ -1,9 +1,0 @@
-language: ruby
-rvm:
-  - 2.3.2
-
-script:
-  - bundle exec jekyll build
-
-after_success:
-  - bash ./.deploy_site.sh
