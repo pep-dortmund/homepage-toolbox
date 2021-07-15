@@ -109,11 +109,11 @@ $ pip install uncertainties
 
 ### TeXLive
 
-- [TeXLive](https://www.tug.org/texlive/): [Installationsanleitung](https://www.tug.org/texlive/quickinstall.html)
-    - [Versionsunabhängiger Link (install-tl-unx.tar.gz)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
+- TeXLive:
+    - [Download Link für die aktuellste Version (install-tl-unx.tar.gz)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
     - __Achtung__ während des Installationsvorgangs werden ca. 5 GiB Dateien heruntergeladen
 
-Im Terminal:
+Es reichen folgende Befehle im Terminal:
 
 ```
 $ cd ~/.local
