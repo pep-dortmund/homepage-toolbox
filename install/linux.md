@@ -109,17 +109,25 @@ $ pip install uncertainties
 
 ### TeXLive
 
-Unser Installationsskript [herunterladen](downloads/toolbox-latex-install.sh)
+Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
 
-Das Skript ausführbar machen und starten:
+Für die Installation werden ca. 600Mb Speicherplatz gebraucht.
+
+Zuerst das Skript herunterladen:
+
 ```
-$ cd ~/Downloads
+$ curl toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install.sh
+```
+Aus Sicherheitsgründen müssen Skripte erst ausführbar gemacht werden. Genaueres werdet ihr im Unix-Teil  des Workshops lernen
+ ```
 $ chmod +x toolbox-latex-install.sh
+```
+Zuletzt das Skript noch ausführen:
+```
 $ ./toolbox-latex-install.sh
 ```
-Es werden ca. 600Mb Speicherplatz gebraucht.
 
-Vor der Nutzung muss das Terminal neugestartet werden.
+Bevor ihr LaTeX nutzen könnt, muss das Terminal neugestartet werden.
 
 __Jetzt noch die Installation [testen](#test)!__
 
