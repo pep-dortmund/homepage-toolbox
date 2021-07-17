@@ -109,33 +109,17 @@ $ pip install uncertainties
 
 ### TeXLive
 
-- TeXLive:
-    - [Download Link für die aktuellste Version (install-tl-unx.tar.gz)](http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz)
-    - __Achtung__ während des Installationsvorgangs werden ca. 5 GiB Dateien heruntergeladen
+Unser Installationsskript [herunterladen](downloads/toolbox-latex-install.sh)
 
-Es reichen folgende Befehle im Terminal:
-
+Das Skript ausführbar machen und starten:
 ```
-$ cd ~/.local
-$ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
-$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
+$ cd ~/Downloads
+$ chmod +x toolbox-latex-install.sh
+$ ./toolbox-latex-install.sh
 ```
+Es werden ca. 600Mb Speicherplatz gebraucht.
 
-Die Installition startet man mit `I` und `Enter`.
-
-Öffnet die Datei `~/.bashrc` und fügt folgendeZeile am Ende hinzu:
-
-```
-export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
-```
-
-Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
-
-In dem neuen Terminal die folgenden Befehle eingeben:
-
-    $ tlmgr option autobackup -- -1
-    $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
-
+Vor der Nutzung muss das Terminal neugestartet werden.
 
 __Jetzt noch die Installation [testen](#test)!__
 
