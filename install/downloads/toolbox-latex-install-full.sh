@@ -4,8 +4,9 @@ set -euo pipefail
 
 
 # download installer
+tmpdir=$(mktemp -d)
 
-cd ~/tmp
+cd $tmpdir
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 
 # create profile
