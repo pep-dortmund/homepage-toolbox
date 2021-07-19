@@ -113,18 +113,14 @@ Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschriebe
 
 Für die Installation werden ca. 600Mb Speicherplatz gebraucht.
 
-Zuerst das Skript herunterladen:
+Zuerst das Skript herunterladen ...
 
 ```
-$ curl toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install.sh
+$ curl -O toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install.sh
 ```
-Aus Sicherheitsgründen müssen Skripte erst ausführbar gemacht werden. Genaueres werdet ihr im Unix-Teil  des Workshops lernen
- ```
-$ chmod +x toolbox-latex-install.sh
+... und dann ausführen:
 ```
-Zuletzt das Skript noch ausführen:
-```
-$ ./toolbox-latex-install.sh
+$ bash ./toolbox-latex-install.sh
 ```
 
 Bevor ihr LaTeX nutzen könnt, muss das Terminal neugestartet werden.
