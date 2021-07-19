@@ -75,8 +75,8 @@ Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
     - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
-    - Falls der Workshop digital stattfindet, werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} und
-      [Discord](https://discord.com/new/download){:target="_blank"} verwenden.
+    - Falls der Workshop digital stattfindet, werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} (und
+      [Discord](https://discord.com/new/download){:target="_blank"}) verwenden.
 <!-- - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden -->
 <!--  - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich) -->
 
@@ -95,8 +95,8 @@ Bitte beachtet die folgenden Schritte:
 <tbody>
   <tr>
   <td>Do, 23.09.2021</td>
-  <td>9 Uhr</td>
-  <td><span style="color:crimson"> tba </span></td>
+  <td>ab 9 Uhr</td>
+  <td><span style="color:crimson"> Hybrid </span></td>
   <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
    / Umstieg auf Linux für Interessenten
    </td>
@@ -107,31 +107,31 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Mo, 27.09.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di, 28.09.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi, 29.09.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do, 30.09.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
   <td>Fr, 01.10.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
@@ -140,31 +140,31 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Mo, 04.10.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di, 05.10.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi, 06.10.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do, 07.10.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
   <td>Fr, 08.10.2021</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>Zoom</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
 </tbody>
