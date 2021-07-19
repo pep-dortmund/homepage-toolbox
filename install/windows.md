@@ -429,8 +429,6 @@ werden können.
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
-(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht als euers.
-Bis 2020 wurde das Programm ConEmu statt Windows Terminal verwendet)
 
 <img alt="" src="/img/unix-tools-01.png" class="screenshot" />
 
@@ -447,12 +445,12 @@ sudo apt upgrade
 ```
 und auch dieser Befehl wird mit der `Entertaste` bestätigt.
 
-<img alt="" src="/img/unix-tools-1.png" class="screenshot" />
+<img alt="" src="/img/unix-tools-03.png" class="screenshot" />
 
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
 `Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
-<img alt="" src="/img/unix-tools-03.png" class="screenshot" />
+<img alt="" src="/img/unix-tools-04.png" class="screenshot" />
 
 Nun können die beiden Programme `git`, `make` und `curl` installiert werde. Dies erfolgt durch die Eingabe des
 Befehls
@@ -461,11 +459,11 @@ sudo apt install git make curl
 ```
 und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
 
-<img alt="" src="/img/unix-tools-2.png" class="screenshot" />
+<img alt="" src="/img/unix-tools-05.png" class="screenshot" />
 
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
 
-<img alt="" src="/img/unix-tools-3.png" class="screenshot" />
+<img alt="" src="/img/unix-tools-05.png" class="screenshot" />
 
 
 #### Git-Einstellungen
