@@ -463,7 +463,7 @@ und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kan
 
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
 
-<img alt="" src="/img/unix-tools-05.png" class="screenshot" />
+<img alt="" src="/img/unix-tools-06.png" class="screenshot" />
 
 
 #### Git-Einstellungen
@@ -502,12 +502,12 @@ Außerdem soll die _x64-Bit_ Version der Python Version 3.8 verwendet werden. Di
 `Linksklick` auf den Schriftzug `64-Bit (x86) Installer (529 MB)` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-0-2.png" class="screenshot" />
+<img alt="" src="/img/anaconda-01.png" class="screenshot" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
 
-<img alt="" src="/img/anaconda-1.png" class="screenshot" />
+<img alt="" src="/img/anaconda-02.png" class="screenshot" />
 
 Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
@@ -531,16 +531,14 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
 
-<img alt="" src="/img/windows-installation/windows-11.PNG" class="screenshot" />
+<img alt="" src="/img/anaconda-03.png" class="screenshot" />
 
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
-
-<img alt="" src="/img/windows-installation/windows-12.PNG" class="screenshot" />
 
 Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben
 und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
@@ -554,14 +552,14 @@ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
 echo 'conda activate' >> ~/.bashrc
 ```
 
-<img alt="" src="/img/anaconda-19.png" class="screenshot" />
+<img alt="" src="/img/anaconda-04.png" class="screenshot" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
 so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 
-<img alt="" src="/img/anaconda-20.png" class="screenshot" />
+<img alt="" src="/img/anaconda-05.png" class="screenshot" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2020.11-Linux-x86_64.sh_
+Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2021.11-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
 __Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
@@ -581,7 +579,7 @@ eingetragen werden.
 pip install uncertainties
 ```
 
-<img alt="" src="/img/uncertainties-0.png" class="screenshot" />
+<img alt="" src="/img/uncertainties-01.png" class="screenshot" />
 
 
 
