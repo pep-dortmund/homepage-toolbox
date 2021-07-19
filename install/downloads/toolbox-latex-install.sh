@@ -3,7 +3,7 @@
 
 # download installer
 
-cd ~/.local
+cd ~/tmp
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 
 # create profile
@@ -16,11 +16,13 @@ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl -profile toolb
 echo 'export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"' >> $HOME/.bashrc
 
 # install packages
-./texlive/2021/bin/x86_64-linux/tlmgr install babel \
+cd $HOME/.local/.texlive/2021/bin/x86_64-linux
+
+./tlmgr install babel \
        	babel-english \
 	babel-french \
 	babel-german \
-       	beamer \
+    beamer \
 	biber \
 	biblatex \
 	blindtext \
@@ -84,6 +86,6 @@ echo 'export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"' >> $HOME/.
 	xstring
 
 # set options
-./texlive/2021/bin/x86_64-linux/tlmgr option autobackup -- -1
-./texlive/2021/bin/x86_64-linux/tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+./tlmgr option autobackup -- -1
+./tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 
