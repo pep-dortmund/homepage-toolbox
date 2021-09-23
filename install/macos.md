@@ -180,12 +180,6 @@ Im Terminal:
 
     conda update anaconda
 
-### Unix-Tools und Make (Windows)
-
-Im Terminal:
-
-    pacman -Syu
-
 ### Uncertainties
 
 Im Terminal:
