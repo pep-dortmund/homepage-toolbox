@@ -13,7 +13,7 @@ Kurses veröffentlich.
 - Tag 1
     - [Intro-Folien](files/archive/2021/intro.pdf) (Stand 27.09.2021)
     - [Python](files/archive/2021/python.html) (Stand 27.09.2021)
-    - [Aufgaben](files/archive/2021/exercises-toolbox-1.zip) (Stand 11.10.2021)
+    - [Aufgaben](files/archive/2021/exercises-toolbox-1.zip) (Stand 27.09.2021)
 
 
 <!--
