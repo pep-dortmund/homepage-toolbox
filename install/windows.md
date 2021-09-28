@@ -278,7 +278,12 @@ werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten 
 
 <img alt="" src="/img/vscode-18.png" class="screenshot" />
 
+Mit `Strg + Shift + ö` oder über den Punkt _Terminal_ → _Neues Terminal_ kann ein Terminal in VSCodium geöffnet werden.
+Klickt rechts auf den Pfeil nach unten, neben dem `+`,
+und wählt den Punkt _Select Default Profile_ aus.
+Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
+<img alt="" src="/img/vscode-19.png" style="width: 100%;" />
 
 ### Sumatra PDF
 
