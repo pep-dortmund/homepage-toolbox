@@ -504,10 +504,10 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
 Außerdem soll die _x64-Bit_ Version der Python Version 3.8 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (529 MB)` heruntergeladen werden.
+`Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-01.png" class="screenshot" />
+<img alt="" src="/img/anaconda-0-2.png" class="screenshot" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
