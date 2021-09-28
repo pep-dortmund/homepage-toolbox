@@ -15,7 +15,7 @@ Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger sch�
 Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und VSCode (oder einen anderen Texteditor) und TeXLive installieren.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
-Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
+Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"},
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 __Die Installationsanleitung wirkt lang, das liegt daran, dass
@@ -108,7 +108,7 @@ Subsystem installiert werden soll.
 #### Installation der Linux Variante Ubuntu
 
 Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:   
-[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store).
+[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store){:target="_blank"}.
 
 Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
 Dies ist jedoch kein Problem, die im Folgenden verwendete Variante ist __Ubuntu__.
@@ -323,7 +323,7 @@ Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Program
 um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem
 folgenden Link heruntergeladen werden.
 
-[X-Server Download](https://sourceforge.net/projects/vcxsrv/)
+[X-Server Download](https://sourceforge.net/projects/vcxsrv/){:target="_blank"}
 
 Dies wird mit einem `Linksklick` auf die unten hervorgehobene Schaltfläche _Download_ erreicht.
 
