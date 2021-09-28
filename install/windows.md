@@ -185,7 +185,7 @@ Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durch
 
 Das Windows Terminal könnt ihr unter folgendem Link herunter laden und anschließend installieren:
 
-[Windows Terminal](https://www.microsoft.com/de-de/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab).
+[Windows Terminal](https://www.microsoft.com/de-de/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab){:target="_blank"}
 
 Nach der Installation startet das Programm. Erscheint folgendes Fenster:
 
