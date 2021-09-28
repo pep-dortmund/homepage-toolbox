@@ -283,7 +283,7 @@ Klickt rechts auf den Pfeil nach unten, neben dem `+`,
 und wählt den Punkt _Select Default Profile_ aus.
 Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
-<img alt="" src="/img/vscode-19.png" style="width: 100%;" />
+<img alt="" src="/img/vscode-19.png" class="screenshot" />
 
 ### Sumatra PDF
 
