@@ -74,7 +74,7 @@ Es bietet hervorragenden Formelsatz, automatisiertes erstellen von Inhaltsverzei
 Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
-    - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
+    - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen
     - Der Workshop wird digital stattfinden, dazu werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} (und
       [Discord](https://discord.com/new/download){:target="_blank"}) verwenden.
 <!-- - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden -->
