@@ -31,11 +31,10 @@ Kurses veröffentlich.
     - [Make](files/archive/2021/make.pdf) (Stand 30.09.2021)
     - [Aufgaben](files/archive/2021/exercises-toolbox-4.zip) (Stand 30.09.2021)
 
-<!--
 - Tag 5
-    - [git](files/archive/2020/git.pdf) (Stand 16.10.2021)
-    - [Aufgaben](files/archive/2020/exercises-toolbox-5.zip) (Stand 16.10.2021)
--->
+    - [git](files/archive/2021/git.pdf) (Stand 01.10.2021)
+    - [Aufgaben](files/archive/2021/exercises-toolbox-5.zip) (Stand 01.10.2021)
+
 ### LaTeX
 <!--
 - [Folien](files/archive/2020/latex.pdf) (Stand 23.10.2021)
