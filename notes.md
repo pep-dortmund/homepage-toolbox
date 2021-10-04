@@ -38,6 +38,7 @@ Kurses veröffentlich.
 ### LaTeX
 - [Folien](files/archive/2020/latex.pdf) (Stand 04.10.2021)
 - [Aufgaben Tag 1](files/archive/2020/exercises-latex-1.zip) (Stand 04.10.2021)
+
 <!--
 - [Aufgaben Tag 2](files/archive/2020/exercises-latex-2.zip) (Stand 20.10.2021)
 - [Aufgaben Tag 3](files/archive/2020/exercises-latex-3.zip) (Stand 21.10.2021)
