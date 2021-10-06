@@ -411,7 +411,7 @@ Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung 
 vorgenommen werden.
 Dafür wird Windows Terminal geöffnet und der Befehl
 ```
-echo "export DISPLAY=$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0" >> ~/.bashrc
+echo 'export DISPLAY="$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print $4}'):0.0"' >> ~/.bashrc
 ```
 eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
