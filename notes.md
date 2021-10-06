@@ -39,9 +39,9 @@ Kurses veröffentlich.
 - [Folien](files/archive/2021/latex.pdf) (Stand 05.10.2021)
 - [Aufgaben Tag 1](files/archive/2021/exercises-latex-1.zip) (Stand 05.10.2021)
 - [Aufgaben Tag 2](files/archive/2021/exercises-latex-2.zip) (Stand 05.10.2021)
+- [Aufgaben Tag 3](files/archive/2021/exercises-latex-3.zip) (Stand 06.10.2021)
 
 <!--
-- [Aufgaben Tag 3](files/archive/2020/exercises-latex-3.zip) (Stand 21.10.2021)
 - [Aufgaben Tag 5](files/archive/2020/exercises-latex-5.zip) (Stand 23.10.2021)
 - [LaTeX Vorlage für Protokolle](files/archive/2020/latex-template.zip) (Stand 23.10.2021)
 -->
