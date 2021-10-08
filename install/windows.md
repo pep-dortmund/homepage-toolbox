@@ -536,7 +536,7 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2021.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
