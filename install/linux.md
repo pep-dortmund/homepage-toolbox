@@ -111,30 +111,31 @@ $ pip install uncertainties
 
 Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
 
-Ihr habt die Wahl zwischen einer kompletten (~7Gb) oder einer minimierten (~600Mb) Installation.
-Fürs Praktikum sollte die minimierte Version reichen, falls ihr die Möglichkeit habt empfehlen wir aber die komplette Version.
-Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet.
+Ihr habt die Wahl zwischen einer kompletten (≈7Gb) und einer minimierten (≈600Mb) Installation.
+Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
+**Es muss nur eine Version installiert werden!**
+Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet und ausführt.
 
-#### Komplett TexLive
+#### TeXLive Komplett
 
-Zuerst das Skript herunterladen ...
+Zuerst das Skript im Terminal herunterladen
 
 ```
 $ curl -O toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-full.sh
 ```
-... und dann ausführen:
+und dann ausführen:
 ```
 $ bash ./toolbox-latex-install-full.sh
 ```
 
-#### Mini TexLive
+#### TeXLive Mini
 
-Zuerst das Skript herunterladen ...
+Zuerst das Skript im Terminal herunterladen
 
 ```
 $ curl -O toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
 ```
-... und dann ausführen:
+und dann ausführen:
 ```
 $ bash ./toolbox-latex-install-mini.sh
 ```
