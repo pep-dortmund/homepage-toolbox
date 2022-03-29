@@ -8,6 +8,8 @@
       link: index.html
     - title: Windows 10
       link: windows.html
+    - title: Windows 11
+      link: windows-11.html
     - title: macOS
       link: macos.html
     - title: Linux
