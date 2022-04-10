@@ -17,8 +17,9 @@ Mehr zu PeP et al. findet ihr auf der Website: [www.pep-dortmund.org](http://pep
 ## Die Organisatoren
 Die Organisatoren sind dieses Jahr
 
+  - Christian Beckmann
+  - Sebastian Lütge
   - Maximilian Nöthe
   - Joshua Luckey
-  - Christian Beckmann
 
 Ihr könnt uns über die folgende Mail-Adresse erreichen: [pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de).
