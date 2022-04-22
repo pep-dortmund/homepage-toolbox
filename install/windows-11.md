@@ -319,7 +319,7 @@ bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 
 Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
 
-<img alt="" src="/img/windows-installation/anaconda-03.png" class="screenshot" />
+<img alt="" src="/img/anaconda-03.png" class="screenshot" />
 
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 
