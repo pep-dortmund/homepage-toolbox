@@ -6,7 +6,7 @@ title: Windows-11-Installation α-build
 *Dies ist eine vorläufige Version für die Installation unter Windows 11.
 Für Rückmeldungen zur Verständlichkeit und Fragen bei Problemen erreicht ihr uns am besten per [E-Mail](mailto:pep-toolbox.physik@lists.tu-dortmund.de).*
 
-__Es treten vermehrt Probleme in der Internetanknüpfung vom WSL2 unter Windows 11 auf, wenn möglich erstmal auf Windows 10 bleiben.__ 
+__Es treten vermehrt Probleme in der Internetanknüpfung vom WSL2 unter Windows 11 auf, wenn möglich erstmal auf Windows 10 bleiben.__
 
 __Es müssen alle drei Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
@@ -51,20 +51,20 @@ die Hinweise wie ihr uns am besten kontaktieren könnt.__
 
 Mit `Win + x` öffnet sich eine Auswahlliste.
 Wählt `Windows-Terminal (Administrator)` aus.
-Wenn im Fenster oben nicht _Windows Powershell_, kann über den Pfeil nach unten die `Windows PowerShell` geöffnet werden. 
+Wenn im Fenster oben nicht _Windows Powershell_, kann über den Pfeil nach unten die `Windows PowerShell` geöffnet werden.
 Trage
 ```
 wsl --install -d Ubuntu
 ```
 ein und führe den _Befehl_ mit `Enter` aus.
-Tritt der Fehler _0x80370102_ auf, folgt den Hinweisen auf [dieser Seite]( 
+Tritt der Fehler _0x80370102_ auf, folgt den Hinweisen auf [dieser Seite](
 https://thefilibusterblog.com/ispravit-oshibku-0x80370102-wsl2-ne-zapuskaet-ubuntu-v-windows-11/).
 Der Rechner muss nach erfolgreicher Installation neugestartet werden.
 
 #### Einrichten eines Benutzerskontos
 
 Nach dem Neustart erscheint folgendes Fenster mit der Aufforderung einen Benutzernamen für
-das Linux-Betriebssystem einzugeben. Erscheint dieses Fenster nicht automatisch, muss `Win + s` gedrückt werden, dann `Ubuntu` eingeben und mit `Enter` starten. 
+das Linux-Betriebssystem einzugeben. Erscheint dieses Fenster nicht automatisch, muss `Win + s` gedrückt werden, dann `Ubuntu` eingeben und mit `Enter` starten.
 
 <img alt="" src="/img/wsl-12.png" class="screenshot" />
 
@@ -156,7 +156,7 @@ werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten 
 
 Mit `Strg + Shift + ö` oder über den Punkt _Terminal → Neues Terminal_
 kann ein Terminal in VSCodium geöffnet werden. Klickt rechts auf den Pfeil nach unten,
-neben dem `+`, und wählt den Punkt _Select Default Profile_ aus. 
+neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
 Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
 <img alt="" src="/img/vscode-18.png" class="screenshot" />
@@ -533,7 +533,7 @@ conda update anaconda
 Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in eine Bash-Kommandozeile eingegeben.
 
 ```
-    pip install -U uncertainties
+pip install -U uncertainties
 ```
 
 ### Git, Make und weitere Unix-Tools
