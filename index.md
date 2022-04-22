@@ -14,20 +14,20 @@ Damit richtet er sich vorrangig and die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
 ## Anmeldung & Umfrage
-Die Anmeldung mit Angabe einer E-Mail Adresse ist 2021 verpflichtend,
-wir wissen noch nicht in welcher Form der Toolbox-Workshop stattfinden kann.
-So können wir euch dann per E-Mail informieren und ihr kriegt auf jeden Fall alle Informationen.
+Die Anmeldung mit Angabe einer E-Mail Adresse ist 2022 verpflichtend,
+wir hoffen den Toolbox-Workshop wieder in Präsenz durchführen zu können.
+Ein Hörsaal steht noch nicht fest, wenn dieser feststeht erfahrt ihr es hier oder per E-Mail.
 
 Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
 So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an eure Bedürfnisse anpassen.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/11/registration/">Zur Anmeldung (Umfrage)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/14/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
 
 <!--
-## Feedback 2021
+## Feedback 2022
 
 Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
 Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
@@ -74,14 +74,14 @@ Es bietet hervorragenden Formelsatz, automatisiertes erstellen von Inhaltsverzei
 Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
-    - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
-    - Falls der Workshop digital stattfindet, werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} und
-      [Discord](https://discord.com/new/download){:target="_blank"} verwenden.
-<!-- - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden -->
-<!--  - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich) -->
+  - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
+<!--    - Der Workshop wird digital stattfinden, dazu werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} (und
+      [Discord](https://discord.com/new/download){:target="_blank"}) verwenden. -->
+  - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
+  - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich)
 
 
-## Ablaufplan 2021
+## Ablaufplan 2022
 
 <table class="table table-hover">
 <thead>
@@ -94,9 +94,9 @@ Bitte beachtet die folgenden Schritte:
 </thead>
 <tbody>
   <tr>
-  <td>Do, 23.09.2021</td>
-  <td>9 Uhr</td>
-  <td><span style="color:crimson"> tba </span></td>
+  <td>Do, 15.09.2022</td>
+  <td>ab 9 Uhr</td>
+  <td><span style="color:crimson"> Hybrid </span></td>
   <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
    / Umstieg auf Linux für Interessenten
    </td>
@@ -105,66 +105,66 @@ Bitte beachtet die folgenden Schritte:
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 27.09.2021</td>
+  <td>Mo, 19.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 28.09.2021</td>
+  <td>Di, 20.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 29.09.2021</td>
+  <td>Mi, 21.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 30.09.2021</td>
+  <td>Do, 22.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 01.10.2021</td>
+  <td>Fr, 23.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 04.10.2021</td>
+  <td>Mo, 26.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 05.10.2021</td>
+  <td>Di, 27.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 06.10.2021</td>
+  <td>Mi, 28.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 07.10.2021</td>
+  <td>Do, 29.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
-  <td>Fr, 08.10.2021</td>
+  <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tba</td>
+  <td>tbd</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
 </tbody>

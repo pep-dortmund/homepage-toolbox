@@ -16,10 +16,10 @@ echo "selected_scheme scheme-basic" > toolbox.profile
 TEXLIVE_INSTALL_PREFIX=$HOME/.local/texlive ./install-tl-*/install-tl -profile toolbox.profile
 
 # add to PATH
-echo 'export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"' >> $HOME/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> $HOME/.bashrc
 
 # install packages
-cd $HOME/.local/texlive/2021/bin/x86_64-linux
+cd $HOME/.local/texlive/2022/bin/x86_64-linux
 
 ./tlmgr install babel \
        	babel-english \
@@ -78,6 +78,7 @@ cd $HOME/.local/texlive/2021/bin/x86_64-linux
 	tcolorbox \
 	texdoc \
 	threeparttable \
+	tikz \
 	tikz-feynman \
 	trimspaces \
 	type1cm \
