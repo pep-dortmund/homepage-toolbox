@@ -129,7 +129,7 @@ Bitte beachtet die folgenden Schritte:
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 23.10.2022</td>
+  <td>Fr, 23.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Git und abschließende Übungen</td>
@@ -138,31 +138,31 @@ Bitte beachtet die folgenden Schritte:
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 26.10.2022</td>
+  <td>Mo, 26.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 27.10.2022</td>
+  <td>Di, 27.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 28.10.2022</td>
+  <td>Mi, 28.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 29.10.2022</td>
+  <td>Do, 29.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
-  <td>Fr, 30.10.2022</td>
+  <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Ausführliche Übungen über alles</td>
