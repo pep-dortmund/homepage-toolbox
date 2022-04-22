@@ -590,69 +590,38 @@ pip install uncertainties
 
 ### TeXLive
 
-TeXLive ist die TeX-Distribution, welche in diesem Workshop verwendet wird. Weitere Informationen und
-eine detaillierte Installationsanleitung können unter den folgenden Links eingesehen werden.
-+ [TeXLive Website](https://www.tug.org/texlive/)
-+ [Installationsanleitung](https://www.tug.org/texlive/windows.html)
+Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
 
+Ihr habt die Wahl zwischen einer kompletten (≈7Gb) und einer minimierten (≈600Mb) Installation.
+Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
+**Es muss nur eine Version installiert werden!**
+Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet und ausführt.
 
-Für die Installation wird erneut die Bash-Kommandozeile (mit Windows Terminal) verwendet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
-`Entertaste` bestätigt.
+#### TeXLive Komplett
+
+Zuerst das Skript im Terminal herunterladen
 
 ```
-cd ~/.local
+$ curl -O toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-full.sh
 ```
+und dann ausführen:
 ```
-curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
-```
-```
-TEXLIVE_INSTALL_PREFIX=$HOME/.local/texlive ./install-tl-*/install-tl
+$ bash ./toolbox-latex-install-full.sh
 ```
 
-Der erste Befehl ändert den aktuellen Pfad auf den Ordner in den TeXLive installiert werden soll.
-Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/.local` enden.
+#### TeXLive Mini
 
-Der zweite Befehl lädt das Installationsdateien für TeXLive herunter.
+Zuerst das Skript im Terminal herunterladen
 
-Der dritte Befehl installiert TeXLive.
-
-<img alt="" src="/img/texlive-0.png" class="screenshot" />
-
-Um die Installation zu starten muss die folgende Anfrage mit `I` und einem druck auf die `Entertaste`
-bestätigt werden. **Achtung:** Dies Installation benötigt eine Internetverbindung über die mehr als 5GB
-an Daten heruntergeladen werden. Entsprechend kann diese Installation mitunter sehr viel Zeit in Anspruch nehmen.
-
-<img alt="" src="/img/texlive-4.png" class="screenshot" />
-
-Nachfolgend wird nun LaTeX selbst und alle zugehörigen Pakete heruntergeladen und installiert.
-
-<img alt="" src="/img/texlive-5.png" class="screenshot" />
-
-Nach erfolgreicher Installation wird folgender Text ausgegeben.
-
-<img alt="" src="/img/texlive-6.png" class="screenshot" />
-
-Nun muss noch eine Einstellung vorgenommen werden, indem folgender Befehl eingegeben und mit der
-`Entertaste` bestätigt wird.
 ```
-echo 'export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ curl -O toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
+```
+und dann ausführen:
+```
+$ bash ./toolbox-latex-install-mini.sh
 ```
 
-<img alt="" src="/img/texlive-7.png" class="screenshot" />
-
-Im Anschluss muss das Fenster mit der Bash-Kommandozeile geschlossen und erneut geöffnet werden.
-Die letzte Einstellung für TeXLive erfolgt durch Eingabe der folgenden Befehle und jeweiliger
-Bestätigung mit der `Entertaste`.
-```
-tlmgr option autobackup -- -1
-```
-```
-tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
-```
-
-<img alt="" src="/img/texlive-8.png" class="screenshot" />
-
+Egal welche Version ihr installiert habt, um LaTeX nutzen zu können, muss das Terminal neugestartet werden.
 
 __Jetzt noch die Installation [testen](#test)!__
 
