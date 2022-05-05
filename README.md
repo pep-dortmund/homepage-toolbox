@@ -1,4 +1,4 @@
-# PeP et al. Toolbox Workshop website [![Build Status](https://travis-ci.org/pep-dortmund/homepage-toolbox.svg?branch=master)](https://travis-ci.org/pep-dortmund/homepage-toolbox)
+# PeP et al. Toolbox Workshop website [![Upload](https://github.com/pep-dortmund/homepage/actions/workflows/deploy.yml/badge.svg)](https://github.com/pep-dortmund/homepage/actions/workflows/deploy.yml)
 
 We use jekyll to build static html pages from markdown and travis to deploy the site.
 
@@ -7,20 +7,25 @@ If you want to build the site locally, install ruby, node and some optional depe
 ### Ubuntu
 
 ```
-$ sudo apt install ruby-dev nodejs libxml2-dev libxslt1-dev
+$ sudo apt install ruby-dev nodejs libxml2-dev libxslt1-dev build-essential
 $ sudo gem install bundler
 ```
-Für WSL noch
+And add this to your bashrc/zshrc/.profile/...:
 ```
-$ sudo apt install build-essential
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
 ```
-
 
 ### Arch Linux
 
 ```
 $ sudo pacman -S ruby nodejs libxml2 libxslt
 $ sudo gem install bundler
+```
+And add this to your bashrc/zshrc/.profile/...:
+```
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
 ```
 
 ### macOS
