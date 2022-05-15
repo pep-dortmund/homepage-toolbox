@@ -580,11 +580,11 @@ Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunt
 Zuerst das Skript im Terminal herunterladen
 
 ```
-$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-full.sh
+curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-full.sh
 ```
 und dann ausführen:
 ```
-$ bash ./toolbox-latex-install-full.sh
+bash ./toolbox-latex-install-full.sh
 ```
 
 #### TeXLive Mini
@@ -592,11 +592,11 @@ $ bash ./toolbox-latex-install-full.sh
 Zuerst das Skript im Terminal herunterladen
 
 ```
-$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
+curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
 ```
 und dann ausführen:
 ```
-$ bash ./toolbox-latex-install-mini.sh
+bash ./toolbox-latex-install-mini.sh
 ```
 
 Egal welche Version ihr installiert habt, um LaTeX nutzen zu können, muss das Terminal neugestartet werden.
