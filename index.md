@@ -94,7 +94,7 @@ Bitte beachtet die folgenden Schritte:
 </thead>
 <tbody>
   <tr>
-  <td>Do, 15.09.2022</td>
+  <td>Do, 22.09.2022</td>
   <td>ab 9 Uhr</td>
   <td><span style="color:crimson"> Hybrid </span></td>
   <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
@@ -105,31 +105,31 @@ Bitte beachtet die folgenden Schritte:
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 19.09.2022</td>
+  <td>Mo, 26.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 20.09.2022</td>
+  <td>Di, 27.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 21.09.2022</td>
+  <td>Mi, 28.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 22.09.2022</td>
+  <td>Do, 29.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 23.09.2022</td>
+  <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Git und abschließende Übungen</td>
@@ -138,34 +138,42 @@ Bitte beachtet die folgenden Schritte:
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 26.09.2022</td>
+  <td>Mo, 03.10.2022</td>
+  <td></td>
+  <td></td>
+  <td>Feiertag</td>
+  </tr>
+  <tr>
+  <td>Di, 04.10.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 27.09.2022</td>
+  <td>Mi, 05.10.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 28.09.2022</td>
+  <td>Do, 06.10.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 29.09.2022</td>
+  <td>Fr, 07.10.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
+<!--
   <tr>
   <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
+-->
 </tbody>
 </table>
