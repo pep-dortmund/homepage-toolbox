@@ -83,6 +83,9 @@ Bitte beachtet die folgenden Schritte:
 
 ## Ablaufplan 2022
 
+An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf)).
+Der Eingang befindet sich gegenüber vom Hörsaalgebäude II.
+
 <table class="table table-hover">
 <thead>
   <tr>
@@ -107,31 +110,31 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Mo, 26.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di, 27.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi, 28.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td><span style="color:crimson"> ZE HS 02</span></td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do, 29.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
   <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
@@ -146,25 +149,25 @@ Bitte beachtet die folgenden Schritte:
   <tr>
   <td>Di, 04.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 15</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Mi, 05.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 15</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Do, 06.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 15</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Fr, 07.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td><span style="color:crimson"> ZE HS 01</span></td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
 <!--
