@@ -591,7 +591,7 @@ pip install uncertainties
 ### TeXLive
 
 Im Terminal werden mit folgenden drei Befehlen das Installationsskript
-herunterladen und ausgeführt.
+Heruntergeladen und Ausgeführt.
 ```
 cd ~/.local
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
