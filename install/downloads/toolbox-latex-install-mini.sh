@@ -1,7 +1,7 @@
 #!/bin/bash
 
+# Manage error handling
 set -euo pipefail
-
 
 # download installer
 tmpdir=$(mktemp -d)
@@ -92,4 +92,3 @@ cd $HOME/.local/texlive/2022/bin/x86_64-linux
 # set options
 ./tlmgr option autobackup -- -1
 ./tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
-

@@ -109,38 +109,35 @@ $ pip install uncertainties
 
 ### TeXLive
 
-Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
-
-Ihr habt die Wahl zwischen einer kompletten (≈7Gb) und einer minimierten (≈600Mb) Installation.
-Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
-**Es muss nur eine Version installiert werden!**
-Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet und ausführt.
-
-#### TeXLive Komplett
-
-Zuerst das Skript im Terminal herunterladen
-
+Im Terminal werden mit folgenden drei Befehlen das Installationsskript
+herunterladen und ausgeführt.
 ```
-$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-full.sh
-```
-und dann ausführen:
-```
-$ bash ./toolbox-latex-install-full.sh
+$ cd ~/.local
+$ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-#### TeXLive Mini
+Die Installation startet man mit `I` und `Enter`.
 
-Zuerst das Skript im Terminal herunterladen
+Öffnet die Datei `~/.bashrc` und fügt folgende Zeile am Ende hinzu:
 
 ```
-$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
-```
-und dann ausführen:
-```
-$ bash ./toolbox-latex-install-mini.sh
+export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
 ```
 
-Egal welche Version ihr installiert habt, um LaTeX nutzen zu können, muss das Terminal neugestartet werden.
+Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
+
+In dem neuen Terminal die folgenden Befehle eingeben:
+
+```
+$ tlmgr option autobackup -- -1
+$ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+```
+
+Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
+gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
+TeXLive zu installieren.
+
 
 __Jetzt noch die Installation [testen](#test)!__
 
