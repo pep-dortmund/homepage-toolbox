@@ -10,13 +10,13 @@ Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet [PeP et
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
 
 Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
-Damit richtet er sich vorrangig and die kommenden Drittsemester.
+Damit richtet er sich vorrangig an die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
 ## Anmeldung & Umfrage
-Die Anmeldung mit Angabe einer E-Mail Adresse ist 2022 verpflichtend,
+Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2022 verpflichtend,
 wir hoffen den Toolbox-Workshop wieder in Präsenz durchführen zu können.
-Ein Hörsaal steht noch nicht fest, wenn dieser feststeht erfahrt ihr es hier oder per E-Mail.
+Ein Hörsaal steht noch nicht fest, wenn dieser feststeht, erfahrt ihr es hier oder per E-Mail.
 
 Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
 So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
@@ -58,10 +58,10 @@ Alle im Kurs vorgestellten Programme sind [Free and Open Source Software](https:
 * **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte guten wissenschaftlichen Arbeitens.
   Git ist das Standardwerkzeug für Versionskontrolle, welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren, Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
 
-* **Make**: Das Standardtool zur automatiserten Ausführung von komplexeren Aufgaben.
+* **Make**: Das Standardtool zur automatisierten Ausführung von komplexeren Aufgaben.
   Es kommt häufig vor, das mehrere Auswertungsschritte in einer bestimmten Reihenfolge ausgeführt werden müssen und spätere Schritte von den Ergebnissen vorheriger Schritte abhängen. Diese Schritte manuell auszuführen ist fehleranfällig und nicht einfach zu dokumentieren. Make macht dies einfacher und führt zu besserer Reproduzierbarkeit.
 
-* **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen Betriebssystemen ist eine wichtige Vorraussetzung für wissenschaftliches Arbeiten. Wir bringen euch die Grundlagen bei.
+* **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen Betriebssystemen ist eine wichtige Voraussetzung für wissenschaftliches Arbeiten. Wir bringen euch die Grundlagen bei.
 
 
 ### 2. Woche: LaTeX

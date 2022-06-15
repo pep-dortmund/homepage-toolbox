@@ -75,7 +75,7 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
       $ sudo pacman -S code
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support”,  installiert die Extension mit klick auf den `install` Button.
+Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit klick auf den `install` Button.
 
 ### Anaconda
 
@@ -140,7 +140,7 @@ und dann ausführen:
 $ bash ./toolbox-latex-install-mini.sh
 ```
 
-Egal welche Version ihr installiert habt, um LaTeX nutzen zu können, muss das Terminal neugestartet werden.
+Egal welche Version ihr installiert habt, um LaTeX nutzen zu können, muss das Terminal neu gestartet werden.
 
 __Jetzt noch die Installation [testen](#test)!__
 

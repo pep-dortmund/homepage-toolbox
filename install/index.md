@@ -3,10 +3,10 @@ layout: default
 title: Installation
 ---
 
-Hier findet ihr Anleitungen für die drei verbreitesten Betriebssysteme: Windows, macOS und
+Hier findet ihr Anleitungen für die drei verbreitetsten Betriebssysteme: Windows, macOS und
 die verschiedenen Linux-Distributionen.
 
-Viele der Programme die wir hier benutzen werden und noch mehr weitergehende Software
+Viele der Programme, die wir hier benutzen werden und noch mehr weitergehende Software
 funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht Windows.
 
 
@@ -14,7 +14,7 @@ funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht W
 
 Eine Dual-Boot Installation ist beim ersten Mal nicht unbedingt trivial.
 Da aufgrund der aktuellen Situation eine Hilfe direkt am Laptop nicht möglich ist,
-sollte hier jeder selber entscheiden ob er das tun möchte.
+sollte hier jeder selber entscheiden, ob er das tun möchte.
 (Bei Acer-Laptops ist noch viel dazu lesen.)
 Dadurch das Windows immer mehr in Richtung Linux steuert,
 ist der Unterschied nicht mehr so groß wie er mal war.
