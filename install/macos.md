@@ -47,7 +47,7 @@ Zur Installation folgendes im Terminal eingeben
 ```bash
 xcode-select --install
 ```
-Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130MB.
+Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
 ### Anaconda
 
@@ -60,7 +60,7 @@ __Wichtig__: Wir wollen Python 3.8 Graphical Installer (unten auf der Seite). Da
 
 - [VSCodium](https://github.com/VSCodium/vscodium/releases).
    Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` herunter.
--  Das Programm "VSCodium.app" befindet sich dann in der zip Datei im Downloadordner und muss nach `Programme` verschoben werden.
+-  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner und muss nach `Programme` verschoben werden.
 -  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start und man muss zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit" auf den "Dennoch öffen" Button klicken.
 -  In VSCodium mit `Shift+cmd+p` die Kommando-Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal `codium` eingeben wird.
 

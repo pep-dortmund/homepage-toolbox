@@ -1,5 +1,5 @@
 ---
-title: Fortgeschrittene vscode-Extension für LaTeX
+title: Fortgeschrittene VSCode-Extension für LaTeX
 author: Ludwig Neste
 ---
 In der Installationsanleitung wird die LaTeX-Extension `LaTeX language support` installiert.
@@ -19,7 +19,7 @@ Da wir jedoch immer noch die im Toolbox-Workshop gelernte Toolchain benutzen wol
 - `Install` anklicken
 - **WICHTIG**: Immer nur eine einzige LaTeX-Extension installieren!
     - Falls ihr noch eine andere installiert habt: Nach dieser Suchen, oder Suchtext entfernen und dann bekommt ihr alle installierten Extensions angezeigt. Anschließend die nicht gewünschte entfernen.
-- In den Einstellungen muss jetzt noch das automatische Kompilieren der Extension ausgestellt werden, damit die Vorlagen des Toolbox-Workshop auch problemlos bauen.
+- In den Einstellungen muss jetzt noch das automatische Kompilieren der Extension ausgestellt werden, damit die Vorlagen des Toolbox-Workshops auch problemlos bauen.
 - Dazu in die `Settings` gehen (`File`->`Preferences`->`Settings` oder Zahnrad links unten anklicken und `Settings` wählen.)
 - `latex auto build clean and retry` suchen und Häkchen entfernen
 - `latex auto build run` suchen und im Drop-Down-Menü `never` einstellen

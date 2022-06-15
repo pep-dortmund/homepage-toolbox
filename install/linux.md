@@ -111,7 +111,7 @@ $ pip install uncertainties
 
 Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
 
-Ihr habt die Wahl zwischen einer kompletten (≈7Gb) und einer minimierten (≈600Mb) Installation.
+Ihr habt die Wahl zwischen einer kompletten (≈7 GB) und einer minimierten (≈600 MB) Installation.
 Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
 **Es muss nur eine Version installiert werden!**
 Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet und ausführt.

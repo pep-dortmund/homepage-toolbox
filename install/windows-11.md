@@ -204,7 +204,7 @@ sudo apt update
 ```
 eingetragen. Und mit Drücken der `Entertaste` bestätigt.
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
-Internetverbindung voraus über die einige 100MB große Datenmengen heruntergeladen
+Internetverbindung voraus über die einige 100 MB große Datenmengen heruntergeladen
 werden können.
 
 
@@ -254,7 +254,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
 
-Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene Email Adresse** verwendet werden!
+Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
 ```
 git config --global user.name "Max Mustermann"
 ```
@@ -370,7 +370,7 @@ pip install uncertainties
 
 Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
 
-Ihr habt die Wahl zwischen einer kompletten (≈7Gb) und einer minimierten (≈600Mb) Installation.
+Ihr habt die Wahl zwischen einer kompletten (≈7 GB) und einer minimierten (≈600 MB) Installation.
 Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
 **Es muss nur eine Version installiert werden!**
 Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet und ausführt.
