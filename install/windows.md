@@ -90,7 +90,7 @@ kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_
 In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
 ```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux   
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 <img alt="" src="/img/wsl-4.png" class="screenshot" />
 
@@ -107,7 +107,7 @@ Subsystem installiert werden soll.
 
 #### Installation der Linux Variante Ubuntu
 
-Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:   
+Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:
 [https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store){:target="_blank"}.
 
 Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
@@ -118,7 +118,7 @@ Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneint
 <img alt="" src="/img/windows-installation/windows-2.PNG" class="screenshot" />
 
 Es öffnet sich ein neues Fenster des Microsoft-Stores. Durch `Linksklick` auf die
-Schaltfläche _Herunterladen_ wird der Download begonnen.  
+Schaltfläche _Herunterladen_ wird der Download begonnen.
 
 <img alt="" src="/img/wsl-8.png" class="screenshot" />
 
@@ -156,7 +156,7 @@ Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 <img alt="" src="/img/wsl-14.png" class="screenshot" />
 
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
-Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
+Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss dieses erneut (zweimal) eingegeben werden.
 
@@ -164,7 +164,7 @@ so muss dieses erneut (zweimal) eingegeben werden.
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
-Die unterste Zeile besteht aus zwei Teilen.   
+Die unterste Zeile besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
@@ -289,7 +289,7 @@ Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 Den Download findet man unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
@@ -421,7 +421,7 @@ eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
 Für die Installation der beiden Programme git und und make muss zunächst eine
 Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
-über den oben beschriebenen Eintrag im Kontextmenü.   
+über den oben beschriebenen Eintrag im Kontextmenü.
 Wie unten gezeigt wird in dieses Fenster nun der Befehl
 ```
 sudo apt update
@@ -655,7 +655,7 @@ könnt ihr _ipython_ mit `quit` beenden, und folgende Befehle in das Terminal ei
 echo "mkdir -p /tmp/user/1000" >> ~/.bashrc
 echo "export XDG_RUNTIME_DIR=/tmp/user/1000" >> ~/.bashrc
 ```
-Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur `Using matplotlib backend: Qt5Agg` sein.  
+Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur `Using matplotlib backend: Qt5Agg` sein.
 ```
 import matplotlib.pyplot as plt
 ```
@@ -742,7 +742,7 @@ Usage:
 ```
 
 Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
-Für diesen Test muss das Programm XLaunch gestartet worden sein.   
+Für diesen Test muss das Programm XLaunch gestartet worden sein.
 Der Test-Befehl lautet:
 ```
 texdoc texlive

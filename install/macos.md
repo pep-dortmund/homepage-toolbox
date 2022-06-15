@@ -122,7 +122,7 @@ Ebenfalls im Terminal:
     import matplotlib.pyplot as plt
     plt.plot([1, 2, 4])
 
-Es sollte ein Fenster mit einem Plot erscheinen, beenden mit  
+Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
     quit
 

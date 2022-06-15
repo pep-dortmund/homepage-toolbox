@@ -181,7 +181,7 @@ nummerierten Prompt, nun folgende Befehle eingeben.
     In [2]: import matplotlib.pyplot as plt
     In [3]: plt.plot([1, 2, 4])
 
-Es sollte ein Fenster mit einem Plot erscheinen, beenden mit  
+Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
     In [4]: quit
 
