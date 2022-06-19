@@ -1,42 +1,42 @@
 <nav class="navbar navbar-expand-md bg-secondary fixed-top text-uppercase" id="mainNav">
-    <div class="container">
-        <a class="navbar-brand js-scroll-trigger text-uppercase bg-secondary text-white rounded" href="/">
-            Toolbox Workshop
-        </a>
+  <div class="container">
+    <a class="navbar-brand js-scroll-trigger text-uppercase bg-secondary text-white rounded" href="/">
+      Toolbox Workshop
+    </a>
 
-        <button class="navbar-toggler text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse"
-            data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <i class="fas fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+    <button class="navbar-toggler text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse"
+      data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <i class="fas fa-bars"></i>
+    </button>
 
-            <ul class="navbar-nav ml-auto">
-                {% for navlink in site.data.navigation %}
-                {% if navlink.submenu %}
-                <li class="nav-item mx-1 mx-lg-1 dropdown">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-center dropdown-toggle" href="#"
-                        id="installDropdown" role="button" data-toggle="dropdown">
-                        {{navlink.title}}
-                    </a>
-                    <div class="dropdown-menu">
-                        {% for sublink in navlink.submenu %}
-                        <a class="dropdown-item" href="{{ navlink.subdirectory }}/{{ sublink.link }}">
-                            {{ sublink.title }}
-                        </a>
-                        {% endfor %}
-                    </div>
-                </li>
-                {% else %}
-                <li class="nav-item mx-1 mx-lg-1 {% if page.url == navlink.link %} active {% endif %}">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-center"
-                        href="{{ navlink.link }}">{{ navlink.title }}</a>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
-            <a href="https://github.com/pep-dortmund/toolbox-workshop"
-                class="btn btn-default navbar-btn pull-right github">GitHub</a>
-        </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        {% for navlink in site.data.navigation %}
+        {% if navlink.submenu %}
+        <li class="nav-item mx-1 mx-lg-1 dropdown">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-center" href="#" id="installDropdown"
+            role="button" data-toggle="dropdown">
+            {{navlink.title}}
+          </a>
+          <div class="dropdown-menu">
+            {% for sublink in navlink.submenu %}
+            <a class="dropdown-item" href="{{ navlink.subdirectory }}/{{ sublink.link }}">
+              {{ sublink.title }}
+            </a>
+            {% endfor %}
+          </div>
+        </li>
+        {% else %}
+        <li class="nav-item mx-1 mx-lg-1 {% if page.url == navlink.link %} active {% endif %}">
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-center" href="{{ navlink.link }}">{{
+            navlink.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      <a href="https://github.com/pep-dortmund/toolbox-workshop"
+        class="btn btn-default navbar-btn pull-right github">GitHub</a>
     </div>
+  </div>
 </nav>
