@@ -83,6 +83,9 @@ Bitte beachtet die folgenden Schritte:
 
 ## Ablaufplan 2022
 
+An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf)).
+Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
+
 <table class="table table-hover">
 <thead>
   <tr>
@@ -94,7 +97,7 @@ Bitte beachtet die folgenden Schritte:
 </thead>
 <tbody>
   <tr>
-  <td>Do, 15.09.2022</td>
+  <td>Do, 22.09.2022</td>
   <td>ab 9 Uhr</td>
   <td><span style="color:crimson"> Hybrid </span></td>
   <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
@@ -105,67 +108,75 @@ Bitte beachtet die folgenden Schritte:
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 19.09.2022</td>
+  <td>Mo, 26.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 20.09.2022</td>
+  <td>Di, 27.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 21.09.2022</td>
+  <td>Mi, 28.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td><span style="color:crimson"> ZE HS 02</span></td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 22.09.2022</td>
+  <td>Do, 29.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 23.09.2022</td>
+  <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
   <td colspan="4"></td>
   </tr>
   <tr>
-  <td>Mo, 26.09.2022</td>
+  <td>Mo, 03.10.2022</td>
+  <td></td>
+  <td></td>
+  <td>Feiertag</td>
+  </tr>
+  <tr>
+  <td>Di, 04.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 15</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Di, 27.09.2022</td>
+  <td>Mi, 05.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 15</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Mi, 28.09.2022</td>
+  <td>Do, 06.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 15</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Do, 29.09.2022</td>
+  <td>Fr, 07.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td><span style="color:crimson"> ZE HS 01</span></td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
+<!--
   <tr>
   <td>Fr, 30.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
+-->
 </tbody>
 </table>
