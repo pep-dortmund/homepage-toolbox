@@ -59,9 +59,9 @@ wsl --install -d Ubuntu
 ein und führe den _Befehl_ mit `Enter` aus.
 Tritt der Fehler _0x80370102_ auf, folgt den Hinweisen auf [dieser Seite](
 https://thefilibusterblog.com/ispravit-oshibku-0x80370102-wsl2-ne-zapuskaet-ubuntu-v-windows-11/).
-Der Rechner muss nach erfolgreicher Installation neu gestartet werden.
+Der Rechner muss nach erfolgreicher Installation neugestartet werden.
 
-#### Einrichten eines Benutzerkontos
+#### Einrichten eines Benutzerskontos
 
 Nach dem Neustart erscheint folgendes Fenster mit der Aufforderung einen Benutzernamen für
 das Linux-Betriebssystem einzugeben. Erscheint dieses Fenster nicht automatisch, muss `Win + s` gedrückt werden, dann `Ubuntu` eingeben und mit `Enter` starten.
@@ -103,7 +103,7 @@ Installation der benötigten Software verwendet.
 ### Windows Terminal
 Das Windows Terminal stellt einen Ersatz der Standard WSL-Kommandozeile dar.
 Wir haben es ganz zu Anfang der Anleitung schon benutzt.
-Starte es erneut und öffne mit `Strg + ,` oder über den Pfeil nach unten die Einstellungen. Dort muss unter dem Punkt _Standardprofil_ `Ubuntu` ausgewählt werden.
+Starte es erneut und öffne mit `Strg + ,` oder über den Pfeil nach unten die Einstellungen. Dort muss unter dem  Punkt _Standardprofil_ `Ubuntu` ausgewählt werden.
 
 <img alt="" src="/img/windows_terminal_02.png" class="screenshot" />
 
@@ -132,8 +132,8 @@ In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusä
 Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
 Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
 
-Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
-zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
+Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein Software mit englischen Spracheinstellungen
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern müssen die folgenden Schritte befolgt werden.
 Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
 Sprache nicht gewünscht ist.
 
@@ -142,7 +142,7 @@ Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
 <img alt="" src="/img/vscode-16.png" class="screenshot" />
 
-Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
+Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch drücken
 der `Entertaste` ausgewählt werden.
 
 <img alt="" src="/img/vscode-17.png" class="screenshot" />
@@ -195,22 +195,22 @@ auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
 
 ### Git, Make und weiteres
 
-Für die Installation der beiden Programme git und make muss zunächst eine
+Für die Installation der beiden Programme git und und make muss zunächst eine
 Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
 über den oben beschriebenen Eintrag im Kontextmenü.   
 Wie unten gezeigt wird in dieses Fenster nun der Befehl
 ```
 sudo apt update
 ```
-eingetragen. Und mit Drücken der `Entertaste` bestätigt.
+eingetragen. Und mit drücken der `Entertaste` bestätigt.
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
-Internetverbindung voraus über die einige 100 MB große Datenmengen heruntergeladen
+Internetverbindung voraus über die einige 100MB große Datenmengen heruntergeladen
 werden können.
 
 
-Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
+Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
-(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht als eures.
+(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht als euers.
 Bis 2020 wurde das Programm ConEmu statt Windows Terminal verwendet)
 
 <img alt="" src="/img/unix-tools-01.png" class="screenshot" />
@@ -240,7 +240,7 @@ Befehls
 ```
 sudo apt install git make curl
 ```
-und anschließende Bestätigung mit der `Entertaste`. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
+und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/unix-tools-05.png" class="screenshot" />
 
@@ -254,7 +254,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
 
-Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
+Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene Email Adresse** verwendet werden!
 ```
 git config --global user.name "Max Mustermann"
 ```
@@ -269,14 +269,14 @@ git config --global merge.conflictstyle diff3
 ```
 
 Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
-Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
+Falls noch Unsicherheit darüber besteht was mit den obigen Befehl angestellt werden soll, kann zunächst mit
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
 ### Anaconda
 
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
-Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
+Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 
 [Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
@@ -293,7 +293,7 @@ deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop 
 <img alt="" src="/img/anaconda-02.png" class="screenshot" />
 
 Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
+In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
 `Entertaste` bestätigt.
 ```
 cd Desktop
@@ -302,8 +302,8 @@ cd Desktop
 ls
 ```
 Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
-Der aktuelle Pfad wird in Blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das Öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
+Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
+(Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
 so ist der erste Befehl nicht mehr notwendig.)
 
 Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
@@ -312,12 +312,12 @@ kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgeho
 
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
-Passt den Befehl an, sollte dies nicht der Fall sein.
+Passt den Befehl an sollte dies nicht der Fall sein.
 ```
 bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
-Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
+Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
 
 <img alt="" src="/img/anaconda-03.png" class="screenshot" />
 
@@ -338,7 +338,7 @@ echo 'conda activate' >> ~/.bashrc
 <img alt="" src="/img/anaconda-04.png" class="screenshot" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
-so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
+so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 
 <img alt="" src="/img/anaconda-05.png" class="screenshot" />
 
@@ -368,38 +368,34 @@ pip install uncertainties
 
 ### TeXLive
 
-Im Folgenden wird ein Installationsskript benutzt. Dieses ist von uns geschrieben.
-
-Ihr habt die Wahl zwischen einer kompletten (≈7 GB) und einer minimierten (≈600 MB) Installation.
-Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
-**Es muss nur eine Version installiert werden!**
-Der Installationsprozess unterscheidet sich nur darin, welches Skript ihr herunterladet und ausführt.
-
-#### TeXLive Komplett
-
-Zuerst das Skript im Terminal herunterladen
-
+Im Terminal werden mit folgenden drei Befehlen das Installationsskript
+Heruntergeladen und Ausgeführt.
 ```
-$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-full.sh
-```
-und dann ausführen:
-```
-$ bash ./toolbox-latex-install-full.sh
+cd ~/.local
+curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-#### TeXLive Mini
+Die Installation startet man mit `I` und `Enter`.
 
-Zuerst das Skript im Terminal herunterladen
+Öffnet die Datei `~/.bashrc` und fügt folgende Zeile am Ende hinzu:
 
 ```
-$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
-```
-und dann ausführen:
-```
-$ bash ./toolbox-latex-install-mini.sh
+export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
 ```
 
-Egal welche Version ihr installiert habt, um LaTeX nutzen zu können, muss das Terminal neu gestartet werden.
+Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
+
+In dem neuen Terminal die folgenden Befehle eingeben:
+
+```
+tlmgr option autobackup -- -1
+tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+```
+
+Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
+gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
+TeXLive zu installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
 
@@ -449,7 +445,7 @@ Es sollte keine Fehlermeldung erscheinen.
 
 ### Make
 
-Make kann durch Öffnen einer Bash-Kommandozeile und durch Eingeben des folgenden Befehls getestet werden.
+Make kann durch öffnen einer Bash-Kommandozeile und durch eingeben des folgenden Befehls getestet werden.
 
 ```
 make
@@ -477,8 +473,8 @@ restricted system commands enabled.
 **
 ```
 
-Diese kann mit Drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
-Nun wird ein weiteres Programm getestet, das von LaTeX verwendet wird. Dies wird durch
+Diese kann mit drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
+Nun wird ein weiteres Program getestet, das von LaTeX verwendet wird. Dies wird durch
 Eingabe des Befehls
 ```
 biber
@@ -536,7 +532,7 @@ pip install -U uncertainties
 
 ### Git, Make und weitere Unix-Tools
 
-Um Updates für diese sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten,
+Um Updates für dies sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
 müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
 Bash-Kommandozeile eingegeben werden.
 ```
@@ -549,7 +545,7 @@ sudo apt upgrade
 
 ### TeXLive
 
-Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
+Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
