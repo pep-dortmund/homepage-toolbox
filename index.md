@@ -100,8 +100,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>Do, 22.09.2022</td>
   <td>ab 9 Uhr</td>
   <td><span style="color:crimson"> Hybrid </span></td>
-  <td>Betreutes Installieren, Fragen stellen falls es Probleme gab
-   / Umstieg auf Linux für Interessenten
+  <td>Lösung von Installationsproblemen / Umstieg auf Linux für Interessierte
    </td>
   </tr>
   <tr>
