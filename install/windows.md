@@ -62,9 +62,9 @@ Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystems gesehen werden
 ### Windows Subsystem for Linux (WSL)
 
 #### Aktivierung des WSL
-Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
+Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
 bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
-_Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
+_PowerShell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
 gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche, nachdem man einen
 Buchstaben über die Tastatur eingibt.
 
@@ -81,14 +81,14 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/wsl-2.png" class="screenshot" />
 
-Nun öffnet sich ein Fenster wie unten zu sehen; dies ist die Powershell Konsole.
-Um sicher zugehen, dass eine Powershell mit Administrator-Rechten geöffnet wurde,
+Nun öffnet sich ein Fenster wie unten zu sehen; dies ist die PowerShell Konsole.
+Um sicher zugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
 <img alt="" src="/img/wsl/wsl-3.png" class="screenshot" />
 
-In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
+In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
+und eingefügt werden, einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
@@ -167,7 +167,7 @@ neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eur
 Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen.
 
 Das Windows Terminal könnt ihr aus dem Microsoft Store installieren.
-Sucht dafür nach Terminal:
+Sucht dafür nach _Terminal_:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-1.png" class="screenshot" />
 
@@ -180,7 +180,7 @@ klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein D
 
 <img alt="" src="/img/windows-terminal/windows-terminal-3.png" class="screenshot" />
 
-Klickt auf _Einstellungen_/_Settings_ um die Einstellungen zu öffnen.
+Klickt auf _Einstellungen_/_Settings_, um die Einstellungen zu öffnen.
 Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
 standardmäßig Ubuntu öffnet.
 Unter dem Punkt _Startup_ → _Default Profile_ muss _Ubuntu_ ausgewählt werden.
@@ -481,7 +481,7 @@ Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
 
 [Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
-Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
+Auf der Website ist es wichtig, dass die Installationsdatei für **Linux** ausgewählt wird.
 Außerdem soll die _x64-Bit_ Version der Python Version 3.9 verwendet werden. Diese kann mit einem
 `Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
@@ -569,7 +569,7 @@ pip install uncertainties
 ### TeXLive
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
-Heruntergeladen und Ausgeführt.
+heruntergeladen und ausgeführt.
 ```
 cd ~/.local
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
@@ -594,8 +594,8 @@ tlmgr option autobackup -- -1
 tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 ```
 
-Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
-gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
+Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
+gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
 
 

@@ -51,7 +51,7 @@ die Hinweise wie ihr uns am besten kontaktieren könnt.__
 
 Mit `Win + x` öffnet sich eine Auswahlliste.
 Wählt `Windows-Terminal (Administrator)` aus.
-Wenn im Fenster oben nicht _Windows Powershell_, kann über den Pfeil nach unten die `Windows PowerShell` geöffnet werden.
+Wenn im Fenster oben nicht _Windows PowerShell_, kann über den Pfeil nach unten die `Windows PowerShell` geöffnet werden.
 Trage
 ```
 wsl --install -d Ubuntu
@@ -59,11 +59,11 @@ wsl --install -d Ubuntu
 ein und führe den _Befehl_ mit `Enter` aus.
 Tritt der Fehler _0x80370102_ auf, folgt den Hinweisen auf [dieser Seite](
 https://thefilibusterblog.com/ispravit-oshibku-0x80370102-wsl2-ne-zapuskaet-ubuntu-v-windows-11/).
-Der Rechner muss nach erfolgreicher Installation neugestartet werden.
+Der Rechner muss nach erfolgreicher Installation neu gestartet werden.
 
-#### Einrichten eines Benutzerskontos
+#### Einrichten eines Benutzerkontos
 
-Nach dem Neustart erscheint folgendes Fenster mit der Aufforderung einen Benutzernamen für
+Nach dem Neustart erscheint folgendes Fenster mit der Aufforderung, einen Benutzernamen für
 das Linux-Betriebssystem einzugeben. Erscheint dieses Fenster nicht automatisch, muss `Win + s` gedrückt werden, dann `Ubuntu` eingeben und mit `Enter` starten.
 
 <img alt="" src="/img/windows-ubuntu/wsl-install-1.png" class="screenshot" />
@@ -82,7 +82,7 @@ Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 <img alt="" src="/img/windows-ubuntu/wsl-install-3.png" class="screenshot" />
 
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
-Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
+Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss dieses erneut (zweimal) eingegeben werden.
 
@@ -90,7 +90,7 @@ so muss dieses erneut (zweimal) eingegeben werden.
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
-Die unterste Zeile besteht aus zwei Teilen.   
+Die unterste Zeile besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
@@ -144,7 +144,7 @@ In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusä
 Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
 Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
 
-Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
+Neben dem Funktionsumfang, den VSCode von sich aus mitbringt, können zusätzliche Extensions installiert werden,
 um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
 (in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
 für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
@@ -153,12 +153,12 @@ Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Exte
 
 <img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
 
-In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
+In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_
 in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
 dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
 Es ist möglich, dass die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
 
-Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt werden,
+Eine Beschreibung der Funktion der Extension kann in einem neuen Tab angezeigt werden,
 indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
 Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
 
@@ -172,17 +172,17 @@ in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der
 <img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
 
 
-Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein Software mit englischen Spracheinstellungen
-zu verwenden. Um die Spracheinstellungen von VSCode zu ändern müssen die folgenden Schritte befolgt werden.
-Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
+Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
+Diese sind **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
 Sprache nicht gewünscht ist.
 
 Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
-Eingabefenster in dem nach Einstellungen gesucht werden kann.
+Eingabefenster, in dem nach Einstellungen gesucht werden kann.
 
 <img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
 
-Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch drücken
+Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Entertaste` ausgewählt werden.
 
 <img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
@@ -205,7 +205,7 @@ Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 Den Download findet man unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
@@ -233,20 +233,20 @@ Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen
 
 ### Git, Make und weiteres
 
-Für die Installation der beiden Programme git und und make muss zunächst eine
+Für die Installation der beiden Programme git und make muss zunächst eine
 Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
-über den oben beschriebenen Eintrag im Kontextmenü.   
+über den oben beschriebenen Eintrag im Kontextmenü.
 Wie unten gezeigt wird in dieses Fenster nun der Befehl
 ```
 sudo apt update
 ```
-eingetragen. Und mit drücken der `Entertaste` bestätigt.
+eingetragen und mit Drücken der `Entertaste` bestätigt.
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
-Internetverbindung voraus über die einige 100MB große Datenmengen heruntergeladen
+Internetverbindung voraus, über die einige 100 MB große Datenmengen heruntergeladen
 werden können.
 
 
-Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
+Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
@@ -273,7 +273,7 @@ Befehls
 ```
 sudo apt install git make curl
 ```
-und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
+und anschließende Bestätigung mit der `Entertaste`. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
@@ -287,7 +287,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
 
-Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene Email Adresse** verwendet werden!
+Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
 ```
 git config --global user.name "Max Mustermann"
 ```
@@ -302,14 +302,14 @@ git config --global merge.conflictstyle diff3
 ```
 
 Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
-Falls noch Unsicherheit darüber besteht was mit den obigen Befehl angestellt werden soll, kann zunächst mit
+Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
 ### Anaconda
 
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
-Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
+Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
 
 [Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
@@ -325,7 +325,7 @@ deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop 
 
 
 Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
+In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
 `Entertaste` bestätigt.
 ```
 cd Desktop
@@ -334,8 +334,8 @@ cd Desktop
 ls
 ```
 Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
-Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
+Der aktuelle Pfad wird in Blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
+(Wurde für das Öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
 so ist der erste Befehl nicht mehr notwendig.)
 
 Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
@@ -344,12 +344,12 @@ kopierte Installationsdatei für Anaconda befinden.
 
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
-Passt den Befehl an sollte dies nicht der Fall sein.
+Passt den Befehl an, sollte dies nicht der Fall sein.
 ```
 bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
-Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
+Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
 
 <img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
 
@@ -370,7 +370,7 @@ echo 'conda activate' >> ~/.bashrc
 <img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
-so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
+so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
 
 <img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
 
@@ -401,7 +401,7 @@ pip install uncertainties
 ### TeXLive
 
 Im Terminal werden mit folgenden drei Befehlen das Installationsskript
-Heruntergeladen und Ausgeführt.
+heruntergeladen und ausgeführt.
 ```
 cd ~/.local
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
@@ -425,8 +425,8 @@ tlmgr option autobackup -- -1
 tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 ```
 
-Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
-gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
+Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
+gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -477,7 +477,7 @@ Es sollte keine Fehlermeldung erscheinen.
 
 ### Make
 
-Make kann durch öffnen einer Bash-Kommandozeile und durch eingeben des folgenden Befehls getestet werden.
+Make kann durch Öffnen einer Bash-Kommandozeile und durch Eingeben des folgenden Befehls getestet werden.
 
 ```
 make
@@ -505,8 +505,8 @@ restricted system commands enabled.
 **
 ```
 
-Diese kann mit drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
-Nun wird ein weiteres Program getestet, das von LaTeX verwendet wird. Dies wird durch
+Diese kann mit Drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
+Nun wird ein weiteres Programm getestet, das von LaTeX verwendet wird. Dies wird durch
 Eingabe des Befehls
 ```
 biber
@@ -531,7 +531,7 @@ Usage:
 ```
 
 Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
-Für diesen Test muss das Programm XLaunch gestartet worden sein.   
+Für diesen Test muss das Programm XLaunch gestartet worden sein.
 Der Test-Befehl lautet:
 ```
 texdoc texlive
@@ -564,7 +564,7 @@ pip install -U uncertainties
 
 ### Git, Make und weitere Unix-Tools
 
-Um Updates für dies sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
+Um Updates für diese sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten,
 müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
 Bash-Kommandozeile eingegeben werden.
 ```
@@ -577,7 +577,7 @@ sudo apt upgrade
 
 ### TeXLive
 
-Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
+Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
