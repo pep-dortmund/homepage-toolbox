@@ -53,7 +53,7 @@ Hierfür klickt man auf das Windows-Symbol und dann auf das Zahnrad, um die Eins
 <img alt="" src="/img/wsl/system-64bit-1.png" class="screenshot"/>
 
 Dann wählt man den ersten Punkt `System` aus. In der Liste am linken Rand lautet der letzte Punkt `Info`.
-Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystem gesehen werden.
+Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystems gesehen werden.
 
 <img alt="" src="/img/wsl/system-64bit-2.png" class="screenshot" />
 
@@ -65,7 +65,7 @@ Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystem gesehen werden.
 Zunächst muss eine Powershell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
 bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
 _Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
-gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche nachdem man einen
+gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche, nachdem man einen
 Buchstaben über die Tastatur eingibt.
 
 <img alt="" src="/img/wsl/wsl-0.png" class="screenshot" />
@@ -81,7 +81,7 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/wsl-2.png" class="screenshot" />
 
-Nun öffnet sich eine Fenster wie unten zusehen, dies ist die Powershell Konsole.
+Nun öffnet sich ein Fenster wie unten zu sehen; dies ist die Powershell Konsole.
 Um sicher zugehen, dass eine Powershell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
@@ -90,18 +90,18 @@ kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_
 In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
 ```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux   
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 <img alt="" src="/img/wsl/wsl-4.png" class="screenshot" />
 
-Durch drücken der `Enter`-Taste wird die Eingabe bestätigt.
+Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
 Die darauf folgende Abfrage ob der Computer neu gestartet werden soll,
 kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
 
 <img alt="" src="/img/wsl/wsl-5.png" class="screenshot" />
 
-Nachdem der Computer neu gestartet wurde ist das WSL nun aktiviert.
+Nachdem der Computer neu gestartet wurde, ist das WSL nun aktiviert.
 Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem
 Subsystem installiert werden soll.
 
@@ -124,7 +124,7 @@ Auch diese Installation kann einige Minuten in Anspruch nehmen.
 
 <img alt="" src="/img/windows-ubuntu/wsl-install-1.png" class="screenshot" />
 
-#### Einrichten eines Benutzerskontos
+#### Einrichten eines Benutzerkontos
 
 Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
 das Linux-Betriebssystem einzugeben.
@@ -142,13 +142,13 @@ Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 <img alt="" src="/img/windows-ubuntu/wsl-install-3.png" class="screenshot" />
 
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
-Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
+Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss dieses erneut (zweimal) eingegeben werden.
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
-Die unterste Zeile besteht aus zwei Teilen.   
+Die unterste Zeile besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
@@ -160,13 +160,13 @@ Installation der benötigten Software verwendet.
 
 ### Windows Terminal
 
-Das Windows Terminal stellt einen Ersatz der standard WSL-Kommandozeile dar. Für die Installation
+Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Für die Installation
 des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version
 unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Windows-Spezifikationen eine Nummer
 neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter
 Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen.
 
-Das Windows Terminal könnt aus dem Microsoft Store installieren.
+Das Windows Terminal könnt ihr aus dem Microsoft Store installieren.
 Sucht dafür nach Terminal:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-1.png" class="screenshot" />
@@ -204,7 +204,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 
 ### Visual Studio Code
 
-Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
+Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
 Drüber hinaus hat dieser auch noch viele weitere Funktionen.
 Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
 
@@ -219,7 +219,7 @@ um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugi
 (in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
 für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
 
-Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_ Menü.
+Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_-Menü.
 
 <img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
 
@@ -241,8 +241,8 @@ in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der
 
 <img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
 
-Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein Software mit englischen Spracheinstellungen
-zu verwenden. Um die Spracheinstellungen von VSCode zu ändern müssen die folgenden Schritte befolgt werden.
+Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
 Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
 Sprache nicht gewünscht ist.
 
@@ -251,7 +251,7 @@ Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
 <img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
 
-Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch drücken
+Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Entertaste` ausgewählt werden.
 
 <img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
@@ -274,7 +274,7 @@ Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).   
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 Den Download findet man unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
@@ -330,7 +330,7 @@ eingetragene Pfad kann durch einen `Linksklick` auf _Install_ unverändert best�
 
 <img alt="" src="/img/xserver/xserver-3.png" class="screenshot" />
 
-Nach vollständiger Installation, kann diese mit einem `Linksklick` auf _Close_ abgeschlossen werden.
+Nach vollständiger Installation kann diese mit einem `Linksklick` auf _Close_ abgeschlossen werden.
 
 <img alt="" src="/img/xserver/xserver-4.png" class="screenshot" />
 
@@ -359,7 +359,7 @@ durch einen `Linksklick` auf _Save configuration_ geöffnet.
 
 <img alt="" src="/img/xserver/xserver-10.png" class="screenshot" />
 
-Die entsprechende Datei kann nach eigenem Belieben benannt werden und auch der Speicherort ist freiwählbar.
+Die entsprechende Datei kann nach eigenem Belieben benannt werden und auch der Speicherort ist frei wählbar.
 Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
 
 <img alt="" src="/img/xserver/xserver-11.png" class="screenshot" />
@@ -375,9 +375,9 @@ dieses muss mit einem `Linksklick` auf _Abbrechen_ abgelehnt werden.
 
 <img alt="" src="/img/xserver/xserver-13.png" class="screenshot" />
 
-Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Das das Programm gestartet wurde lässt
+Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Dass das Programm gestartet wurde, lässt
 sich an einem Icon in der Taskleiste (in der Nähe der Uhrzeit) erkennen. Sollte das Icon nicht
-zusehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein.
+zu sehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein.
 
 <img alt="" src="/img/xserver/xserver-14.png" class="screenshot" />
 
@@ -390,7 +390,7 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 <img alt="" src="/img/xserver/xserver-15.png" class="screenshot" />
 
 
-Um den XServer verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
+Um den X-Server verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
 vorgenommen werden.
 Dafür wird Windows Terminal geöffnet und der Befehl
 ```
@@ -401,16 +401,16 @@ eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
 ### Git, Make und weiteres
 
-Für die Installation der beiden Programme git und und make muss zunächst eine
+Für die Installation der beiden Programme git und make muss zunächst eine
 Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
-über den oben beschriebenen Eintrag im Kontextmenü.   
+über den oben beschriebenen Eintrag im Kontextmenü.
 Wie unten gezeigt wird in dieses Fenster nun der Befehl
 ```
 sudo apt update
 ```
-eingetragen. Und mit drücken der `Entertaste` bestätigt.
+eingetragen. Und mit Drücken der `Entertaste` bestätigt.
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
-Internetverbindung voraus über die einige 100MB große Datenmengen heruntergeladen
+Internetverbindung voraus über die einige 100 MB große Datenmengen heruntergeladen
 werden können.
 
 
@@ -441,7 +441,7 @@ Befehls
 ```
 sudo apt install git make curl
 ```
-und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
+und anschließende Bestätigung mit der `Entertaste`. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
@@ -455,7 +455,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
 
-Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene Email Adresse** verwendet werden!
+Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
 ```
 git config --global user.name "Max Mustermann"
 ```
@@ -470,14 +470,14 @@ git config --global merge.conflictstyle diff3
 ```
 
 Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
-Falls noch Unsicherheit darüber besteht was mit den obigen Befehl angestellt werden soll, kann zunächst mit
+Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
 ### Anaconda
 
 Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
-Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
+Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
 
 [Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
@@ -493,7 +493,7 @@ deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop 
 
 
 Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
+In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
 `Entertaste` bestätigt.
 ```
 cd Desktop
@@ -502,8 +502,8 @@ cd Desktop
 ls
 ```
 Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
-Der aktuelle Pfad wird in blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
+Der aktuelle Pfad wird in Blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
+(Wurde für das Öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
 so ist der erste Befehl nicht mehr notwendig.)
 
 Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
@@ -512,12 +512,12 @@ kopierte Installationsdatei für Anaconda befinden.
 
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
-Passt den Befehl an sollte dies nicht der Fall sein.
+Passt den Befehl an, sollte dies nicht der Fall sein.
 ```
 bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
-Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
+Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
 
 <img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
 
@@ -538,7 +538,7 @@ echo 'conda activate' >> ~/.bashrc
 <img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
-so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
+so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
 
 <img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
 
@@ -568,13 +568,14 @@ pip install uncertainties
 
 ### TeXLive
 
-Im Terminal werden mit folgenden drei Befehlen das Installationsskript
+Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 Heruntergeladen und Ausgeführt.
 ```
 cd ~/.local
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
+
 
 Die Installation startet man mit `I` und `Enter`.
 
@@ -596,6 +597,7 @@ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
 gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
 TeXLive zu installieren.
+
 
 __Jetzt noch die Installation [testen](#test)!__
 
@@ -629,7 +631,7 @@ könnt ihr _ipython_ mit `quit` beenden, und folgende Befehle in das Terminal ei
 echo "mkdir -p /tmp/user/1000" >> ~/.bashrc
 echo "export XDG_RUNTIME_DIR=/tmp/user/1000" >> ~/.bashrc
 ```
-Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur `Using matplotlib backend: Qt5Agg` sein.  
+Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur `Using matplotlib backend: Qt5Agg` sein.
 ```
 import matplotlib.pyplot as plt
 ```
@@ -662,7 +664,7 @@ Es sollte keine Fehlermeldung erscheinen.
 
 ### Make
 
-Make kann durch öffnen einer Bash-Kommandozeile und durch eingeben des folgenden Befehls getestet werden.
+Make kann durch Öffnen einer Bash-Kommandozeile und durch Eingeben des folgenden Befehls getestet werden.
 
 ```
 make
@@ -690,8 +692,8 @@ restricted system commands enabled.
 **
 ```
 
-Diese kann mit drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
-Nun wird ein weiteres Program getestet, das von LaTeX verwendet wird. Dies wird durch
+Diese kann mit Drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
+Nun wird ein weiteres Programm getestet, das von LaTeX verwendet wird. Dies wird durch
 Eingabe des Befehls
 ```
 biber
@@ -716,7 +718,7 @@ Usage:
 ```
 
 Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
-Für diesen Test muss das Programm XLaunch gestartet worden sein.   
+Für diesen Test muss das Programm XLaunch gestartet worden sein.
 Der Test-Befehl lautet:
 ```
 texdoc texlive
@@ -749,7 +751,7 @@ Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in e
 
 ### Git, Make und weitere Unix-Tools
 
-Um Updates für dies sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
+Um Updates für diese sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
 müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
 Bash-Kommandozeile eingegeben werden.
 ```
@@ -762,7 +764,7 @@ sudo apt upgrade
 
 ### TeXLive
 
-Die Updates für TeXLive werden durch eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
+Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
@@ -773,7 +775,7 @@ Bei der Installation treten einige Fehler recht häufig auf. Hier werden die Lö
 gesammelt.
 
 
-+ Die folgende Fehlermeldung bedeutet, dass noch kein *XServer* gestartet wurde:
++ Die folgende Fehlermeldung bedeutet, dass noch kein *X-Server* gestartet wurde:
 ```
 Could not connect to any X display.
 ```
@@ -784,13 +786,13 @@ Could not connect to any X display.
 from PyQt5 import QtCore, QtGui, QtWidget
 ImportError: libGL.so.1 connot open shared object file: No such file or directory
 ```
-Dieser Fehler kann durch das Installieren einer Software Bibiliothek behoben werden.
+Dieser Fehler kann durch das Installieren einer Software-Bibliothek behoben werden.
 Dazu muss der folgende Befehl in die Bash-Kommandozeile eingegeben werden.
 ```
 sudo apt install qt5-default
 ```
 
-+ Beim abspeichern von matplotlib-Figuren
++ Beim Abspeichern von matplotlib-Figuren
 kommt ein Fehler ähnlich zu
 **ghostscript-9.00 required**
 ```

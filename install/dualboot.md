@@ -6,7 +6,7 @@ title: Installation eines Dual-Boot-Systems
 Dual-Boot-System meint die Installation von zwei Betriebssystemen auf dem gleichen Rechner.
 Dies ist nützlich, wenn man auf beide Betriebssysteme angewiesen ist.
 Man kann dann bei jedem Neustart auswählen, welches Betriebssystem gestartet werden soll.
-Es lassen sich auch Festplatten-Partitionen einrichten, auf die beide Betriebsysteme
+Es lassen sich auch Festplatten-Partitionen einrichten, auf die beide Betriebssysteme
 zugreifen können.
 
 Während Linux für das wissenschaftliche Arbeiten zahlreiche Vorteile bietet,
@@ -26,7 +26,7 @@ werden.
 Weiterhin geht diese Anleitung davon aus, dass euer Rechner [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
 verwendet.
 Dies sollte für alle modernen Rechner die Regel sein, es kann aber vorkommen,
-das Windows um sogennanten *Legacy-Bios* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
+das Windows um sogenannten *Legacy-BIOS* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
 
 Falls ihr einfach nur Linux installieren wollt, könnt ihr der Anleitung ab [Schritt 6](#einen-bootfähigen-usb-stick-für-die-linux-installation-erstellen) folgen.
 
@@ -41,15 +41,15 @@ Falls ihr einfach nur Linux installieren wollt, könnt ihr der Anleitung ab [Sch
 ## Vollständiges Backup erstellen
 
 Die Installation eines neuen Betriebssystems involviert die Erstellung und
-Formatierung neuer Partionen, wenn etwas schief geht, können Daten verloren gehen.
-Deshalb solltet ihr als erstes ein vollständiges Backup eures Rechners machen, bevor
+Formatierung neuer Partitionen, wenn etwas schiefgeht, können Daten verloren gehen.
+Deshalb solltet ihr als Erstes ein vollständiges Backup eures Rechners machen, bevor
 ihr weitermacht.
 
 
-## Sich für eine Linux-Distributionen entscheiden
+## Sich für eine Linux-Distribution entscheiden
 
-Hinter dem Begriff Linux verbirgt sich „nur” der absolute Kern des Betriebssystems.
-Darauf aufbauend gibt es viele verschiedene „Distributionen”, die verschiedene
+Hinter dem Begriff Linux verbirgt sich „nur“ der absolute Kern des Betriebssystems.
+Darauf aufbauend gibt es viele verschiedene „Distributionen“, die verschiedene
 Programme vorinstallieren.
 Hauptunterschiede sind die verwendete grafische Benutzeroberfläche und der Paketmanager.
 
@@ -80,10 +80,10 @@ Eine Linux Installation erfordert ca. 10 GB Speicherplatz, um wirklich gut
 damit arbeiten zu können, empfehlen wir mindestens 30 GB, besser 100 GB.
 
 Um Linux auf die gleiche Festplatte wie Windows zu installieren, müsst ihr als
-erstes eine Partion auf dieser Festplatte verkleinern.
+Erstes eine Partition auf dieser Festplatte verkleinern.
 
 Öffnet hierzu die Datenträgerverwaltung (`Rechtsklick aufs Startmenü → Datenträgerverwaltung`),
-wählt eine Partition zum verkleinern aus (zum Beispiel C:\\) mit  `Rechtsklick → Volume verkleinern...`.
+wählt eine Partition zum Verkleinern aus (zum Beispiel C:\\) mit `Rechtsklick → Volume verkleinern...`.
 
 Nun wird es einen Moment dauern, währen geprüft wird, um viel die Partition verkleinert werden kann.
 Tragt dann eine Zahl (in MB) ein, zum Beispiel 102400 für 100 GB.
@@ -95,7 +95,7 @@ Wenn dies nicht geändert wird, stimmen die Uhrzeiten auf Windows und Linux nich
 
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
-1. Öffnet das Programm `regedit`, am einfachsten indem ihr `regedit` tippt,
+1. Öffnet das Programm `regedit`, am einfachsten, indem ihr `regedit` tippt,
 während das Startmenü offen ist.
 
 1. Navigiert auf der linken Seite zu `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
@@ -105,20 +105,20 @@ und setzt den Wert auf `1`.
 
 ## Fast-Boot deaktivieren
 
-Der Fast-Boot-Modus von Windows 10 cached Dateinen um beim nächsten Start schneller
+Der Fast-Boot-Modus von Windows 10 cached Dateien, um beim nächsten Start schneller
 betriebsbereit zu sein.
 Dies verträgt sich aber nicht mit zwei Betriebssystemen, die auf die gleichen Dateisysteme zugreifen.
 
 `Rechtsklick auf Start → Energieoptionen → Auswählen was beim Drücken des Netzschalters geschehen soll`
 und dann das Häkchen bei Fast-Boot entfernen.
 
-## Einen bootfähigen USB Stick für die Linux-Installation erstellen
+## Einen bootfähigen USB-Stick für die Linux-Installation erstellen
 
 1. Ladet das Image eurer ausgewählten Linux Distribution herunter, zum Beispiel
    <http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04-desktop-amd64.iso>
    für Kubuntu.
 
-1. Installiert das Tool `Rufus` um das Image auf einen Stick zu schreiben:
+1. Installiert das Tool `Rufus`, um das Image auf einen Stick zu schreiben:
    <https://rufus.akeo.ie>.
 
 1. Schreibt mit Rufus das heruntergeladene Image auf den Stick.
@@ -131,7 +131,7 @@ Also tatsächlich herunterfahren, den Stick einstecken,
 dann hochfahren und während das Acer-Logo zu sehen ist `F2` drücken.
 Unter dem Punkt `Main` das `F12 Boot Menu` auf `enabled` setzen.
 Nun die ersten 10 Punkte durchgehen.
-Nach dem verlassen des Menüs beim erneuten anzeigen des Acer-Logos `F12`
+Nach dem Verlassen des Menüs beim erneuten Anzeigen des Acer-Logos `F12`
 drücken.
 Mit den Pfeiltasten kann jetzt der Stick ausgewählt werden.
 Dann die Installation hier ab 4. starten.
@@ -142,7 +142,7 @@ Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 
 1. Wählt `Ein Gerät benutzen`
 
-1. Wählt den den USB Stick, vermutlich `UEFI USB Device`. Der Computer startet neu
+1. Wählt den USB-Stick, vermutlich `UEFI USB Device`. Der Computer startet neu
 und bootet in die Linux Installation.
 
 1. Ihr solltet als Sprache Englisch wählen, aus dem einfachen Grund, dass der Großteil
@@ -160,6 +160,6 @@ War dies erfolgreich, wählt die Option `Install along-side Windows 10`.
 
 1. Wählt die korrekte Zeitzone
 
-1. Wartet bis die Installation abgeschlossen ist, dann startet den Rechner neu und entfernt den USB Stick.
+1. Wartet bis die Installation abgeschlossen ist, dann startet den Rechner neu und entfernt den USB-Stick.
 
 1. Beim Neustart solltet ihr ein neues Menü vorfinden, das euch zwischen Linux und Windows wählen lässt.

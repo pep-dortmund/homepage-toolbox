@@ -22,8 +22,8 @@ title: Linksammlung
 
 ### Nicht im Kurs vorgestellt, aber nützlich
 
-- [Pint](https://pypi.python.org/pypi/Pint/) Rechnen mit Einheiten in python
-- [pandas](http://pandas.pydata.org/) DAS Standardtool für Datenanalyse in python
+- [Pint](https://pypi.python.org/pypi/Pint/) Rechnen mit Einheiten in Python
+- [pandas](http://pandas.pydata.org/) DAS Standardtool für Datenanalyse in Python
 
 ## Scientific Python Tutorials
 
@@ -90,6 +90,6 @@ title: Linksammlung
 
 - [Software Carpentry Lessons](http://software-carpentry.org/lessons.html): Kurs mit ähnlichen Zielen zu diesem
 - [The Art of Unix Programming](http://www.catb.org/~esr/writings/taoup/) [(PDF)](http://www.catb.org/esr/writings/taoup/html/graphics/taoup.pdf): Erklärt, warum Unix so ist, wie es ist
-- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/): Sehr bekanntes Werk über open source
+- [The Cathedral and the Bazaar](http://www.catb.org/~esr/writings/cathedral-bazaar/cathedral-bazaar/): Sehr bekanntes Werk über Open Source
 - [The Unix Koans of Master Foo](http://www.catb.org/~esr/writings/unix-koans/): Kurzgeschichten
 - [What every computer science major should know](http://matt.might.net/articles/what-cs-majors-should-know/)
