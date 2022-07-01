@@ -50,12 +50,12 @@ die Hinweise wie ihr uns am besten kontaktieren könnt.__
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
 Hierfür klickt man auf das Windows-Symbol und dann auf das Zahnrad, um die Einstellungen zu öffnen.
 
-<img alt="" src="/img/windows-installation/windows-0.PNG" class="screenshot"/>
+<img alt="" src="/img/wsl/system-64bit-1.png" class="screenshot"/>
 
 Dann wählt man den ersten Punkt `System` aus. In der Liste am linken Rand lautet der letzte Punkt `Info`.
 Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystems gesehen werden.
 
-<img alt="" src="/img/windows-installation/windows-1.PNG" class="screenshot" />
+<img alt="" src="/img/wsl/system-64bit-2.png" class="screenshot" />
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
@@ -68,38 +68,38 @@ _Powershell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol
 gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche, nachdem man einen
 Buchstaben über die Tastatur eingibt.
 
-<img alt="" src="/img/wsl-0.png" class="screenshot" />
+<img alt="" src="/img/wsl/wsl-0.png" class="screenshot" />
 
 Mit einem `Rechtsklick` auf _Windows PowerShell_
 das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_
 gestartet werden.
 
-<img alt="" src="/img/wsl-1.png" class="screenshot" />
+<img alt="" src="/img/wsl/wsl-1.png" class="screenshot" />
 
 In den meisten Fällen wird das folgende Fenster erscheinen. Dieser kann einfach _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
-<img alt="" src="/img/wsl-2.png" class="screenshot" />
+<img alt="" src="/img/wsl/wsl-2.png" class="screenshot" />
 
 Nun öffnet sich ein Fenster wie unten zu sehen; dies ist die Powershell Konsole.
 Um sicher zugehen, dass eine Powershell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
-<img alt="" src="/img/wsl-3.png" class="screenshot" />
+<img alt="" src="/img/wsl/wsl-3.png" class="screenshot" />
 
 In die Powershell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, einfügen funktioniert in der Powershell mit einem `Rechtsklick`.
 ```
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
-<img alt="" src="/img/wsl-4.png" class="screenshot" />
+<img alt="" src="/img/wsl/wsl-4.png" class="screenshot" />
 
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
 Die darauf folgende Abfrage ob der Computer neu gestartet werden soll,
 kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
 
-<img alt="" src="/img/wsl-6.png" class="screenshot" />
+<img alt="" src="/img/wsl/wsl-5.png" class="screenshot" />
 
 Nachdem der Computer neu gestartet wurde, ist das WSL nun aktiviert.
 Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem
@@ -107,60 +107,44 @@ Subsystem installiert werden soll.
 
 #### Installation der Linux Variante Ubuntu
 
-Die Auswahl aller verfügbaren Versionen findet sich auf dieser Seite:
-[https://docs.microsoft.com/en-us/windows/wsl/install-win10](https://docs.microsoft.com/en-us/windows/wsl/install-win10#fall-creators-update-and-later-install-from-the-microsoft-store){:target="_blank"}.
+Öffne den Microsoft Store, dieser kann mit der Suchfunktion und dem Stichpunkt
+_Store_ oder _Shop_ gefunden werden.
+Gib in der Suchleiste Ubuntu ein und wähle _Ubuntu_ aus.
 
-Die Anzahl der verfügbaren Versionen kann sich im Vergleich zum Screenshot geändert haben.
-Dies ist jedoch kein Problem, die im Folgenden verwendete Variante ist __Ubuntu__.
-(Stand 20.07.2020 ist die neueste Version: __Ubuntu 20.04 LTS__)
-Ausgewählt wird diese, mit einem `Linksklick` auf den entsprechenden Listeneintrag.
+<img alt="" src="/img/windows-ubuntu/wsl-store-1.png" class="screenshot" />
 
-<img alt="" src="/img/windows-installation/windows-2.PNG" class="screenshot" />
+Auf der linken Seite kann dann Ubuntu installiert werden,
 
-Es öffnet sich ein neues Fenster des Microsoft-Stores. Durch `Linksklick` auf die
-Schaltfläche _Herunterladen_ wird der Download begonnen.
-
-<img alt="" src="/img/wsl-8.png" class="screenshot" />
-
-Der Download lädt einige 100 Megabyte an Daten herunter und kann einige Minuten in Anspruch nehmen.
-
-<img alt="" src="/img/wsl-9.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-store-2.png" class="screenshot" />
 
 Nachdem der Download abgeschlossen ist, kann die Installation, durch einen `Linksklick`
 auf die Schaltfläche _Starten_ gestartet werden.
 
-<img alt="" src="/img/wsl-10.png" class="screenshot" />
-
 Auch diese Installation kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/wsl-11.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-1.png" class="screenshot" />
 
 #### Einrichten eines Benutzerkontos
 
 Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
 das Linux-Betriebssystem einzugeben.
-
-<img alt="" src="/img/wsl-12.png" class="screenshot" />
-
 Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/wsl-13.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-2.png" class="screenshot" />
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
 Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 
-<img alt="" src="/img/wsl-14.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-3.png" class="screenshot" />
 
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss dieses erneut (zweimal) eingegeben werden.
-
-<img alt="" src="/img/wsl-15.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
@@ -172,8 +156,7 @@ mit dem Linux-Betriebssystem verwendet wird. Eine Einführung in den Umgang erfo
 des Workshops, im Folgenden wird diese jedoch schon zur
 Installation der benötigten Software verwendet.
 
-<img alt="" src="/img/wsl-16.png" class="screenshot" />
-
+<img alt="" src="/img/windows-ubuntu/wsl-install-4.png" class="screenshot" />
 
 ### Windows Terminal
 
@@ -183,25 +166,27 @@ unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Window
 neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter
 Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen.
 
-Das Windows Terminal könnt ihr unter folgendem Link herunterladen und anschließend installieren:
+Das Windows Terminal könnt ihr aus dem Microsoft Store installieren.
+Sucht dafür nach Terminal:
 
-[Windows Terminal](https://www.microsoft.com/de-de/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab){:target="_blank"}
+<img alt="" src="/img/windows-terminal/windows-terminal-1.png" class="screenshot" />
 
-Nach der Installation startet das Programm. Erscheint folgendes Fenster:
+Nach der Installation startet das Programm. Es erscheint folgendes Fenster:
 
-<img alt="" src="/img/windows_terminal_01.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-2.png" class="screenshot" />
 
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
 klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü:
 
-<img alt="" src="/img/windows_terminal_02.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-3.png" class="screenshot" />
 
-Klickt auf Ubuntu, um eine einen neuen Tab mit der Ubuntu-Kommandozeile zu öffnen. Ihr könnt einstellen, dass sich beim Start von Windows Terminal
+Klickt auf _Einstellungen_/_Settings_ um die Einstellungen zu öffnen.
+Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
 standardmäßig Ubuntu öffnet.
-Mit `Strg + ,` können die Einstellungen geöffnet werden,
-der erste Punkt ist _Default profile_, dort kann auf *Ubuntu* gewechselt werden.
+Unter dem Punkt _Startup_ → _Default Profile_ muss _Ubuntu_ ausgewählt werden.
+Speichert die Änderungen dann ab.
 
-
+<img alt="" src="/img/windows-terminal/windows-terminal-4.png" class="screenshot" />
 
 ### Dateiendungen einschalten
 
@@ -210,11 +195,11 @@ Diese können und sollen aktiviert werden.
 
 Dafür wird in der Taskleiste auf das Windows-Symbol, oder die Lupe geklickt und `Dateien` eingegeben.
 
-<img alt="" src="/img/windows-installation/windows-3.PNG" class="screenshot" />
+<img alt="" src="/img/explorer/explorer-1.png" class="screenshot" />
 
 In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden.
 
-<img alt="" src="/img/windows-installation/windows-4.PNG" class="screenshot" />
+<img alt="" src="/img/explorer/explorer-2.png" class="screenshot" />
 
 
 ### Visual Studio Code
@@ -236,7 +221,7 @@ für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die m
 
 Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_-Menü.
 
-<img alt="" src="/img/vscode-12.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
 
 In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
 in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
@@ -247,14 +232,14 @@ Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt 
 indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
 Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
 
-<img alt="" src="/img/vscode-13.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-2.png" class="screenshot" />
 
 Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
 
 Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
 in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
 
-<img alt="" src="/img/vscode-15.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
 
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
 zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
@@ -264,26 +249,26 @@ Sprache nicht gewünscht ist.
 Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
 Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
-<img alt="" src="/img/vscode-16.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Entertaste` ausgewählt werden.
 
-<img alt="" src="/img/vscode-17.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
 
 Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
 Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
 `"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
 werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
 
-<img alt="" src="/img/vscode-18.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-6.png" class="screenshot" />
 
 Mit `Strg + Shift + ö` oder über den Punkt _Terminal_ → _Neues Terminal_ kann ein Terminal in VSCodium geöffnet werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`,
 und wählt den Punkt _Select Default Profile_ aus.
 Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
-<img alt="" src="/img/vscode-19.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
 
 ### Sumatra PDF
 
@@ -297,106 +282,104 @@ Den Download findet man unter dem folgenden Link.
 Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
 hervorgehobenen Link heruntergeladen werden.
 
-<img alt="" src="/img/sumatra-1.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-1.png" class="screenshot" />
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
 Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
 die _Optionen_ geöffnet.
-
-<img alt="" src="/img/sumatra-2.png" class="screenshot" />
-
 In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben. Zum anderen sollten die drei möglichen
-Haken gesetzt sein. Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
+bereits eingetragene Dateipfad ist kann unverändert bleiben.
+Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
 
-<img alt="" src="/img/windows-installation/windows-8.PNG" class="screenshot" />
+Starte Sumatra und öffne das Optionsmenü wie im Screenshot gezeigt.
 
-Nach einer erfolgreichen Installation wird das folgende Fenster angezeigt. Mit einem `Linksklick`
-auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
+<img alt="" src="/img/sumatra/sumatra-2.png" class="screenshot" />
 
-<img alt="" src="/img/sumatra-5.png" class="screenshot" />
+Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen.
+
+<img alt="" src="/img/sumatra/sumatra-3.png" class="screenshot" />
 
 
 ### X-Server
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
-um grafische Benutzeroberflächen (GUIs) anzeigen zu können. Die Installationsdatei kann unter dem
-folgenden Link heruntergeladen werden.
+um grafische Benutzeroberflächen (GUIs) anzeigen zu können.
+Die Installationsdatei kann unter dem folgenden Link heruntergeladen werden.
 
 [X-Server Download](https://sourceforge.net/projects/vcxsrv/){:target="_blank"}
 
 Dies wird mit einem `Linksklick` auf die unten hervorgehobene Schaltfläche _Download_ erreicht.
 
-<img alt="" src="/img/xserver-0.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-0.png" class="screenshot" />
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladen Datei ausgeführt werden.
 Infolgedessen kann das folgende Fenster erscheinen, welches mit einem `Linksklick` auf
 _Ja_ bestätigt werden muss.
 
-<img alt="" src="/img/xserver-1.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-1.png" class="screenshot" />
 
 Im nachfolgenden Fenster kann nun der Umfang der Installation ausgewählt werden. Hier ist _Full_ auszuwählen.
 Die Auswahl wird durch einen `Linksklick` auf _Next_ bestätigt.
 
-<img alt="" src="/img/xserver-2.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-2.png" class="screenshot" />
 
 Im folgenden Fenster kann der Installationspfad angepasst werden. Dies ist optional und der bereits
 eingetragene Pfad kann durch einen `Linksklick` auf _Install_ unverändert bestätigt werden.
 
 
-<img alt="" src="/img/xserver-3.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-3.png" class="screenshot" />
 
 Nach vollständiger Installation kann diese mit einem `Linksklick` auf _Close_ abgeschlossen werden.
 
-<img alt="" src="/img/xserver-4.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-4.png" class="screenshot" />
 
 Auf dem Desktop befindet sich nun die unter dargestellte Verknüpfung mit dem Namen _XLaunch_.
 Durch einen doppelten `Linksklick` kann das Programm nun gestartet werden.
 
-<img alt="" src="/img/xserver-5.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-5.png" class="screenshot" />
 
 Vor dem Start des Programms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
 _Multiple Window_ ausgewählt und mit einem `Linksklick` auf _Weiter_ bestätigt.
 
-<img alt="" src="/img/xserver-6.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-6.png" class="screenshot" />
 
 Im nächsten Fenster wird die Option _Start no client_ ausgewählt und ebenfalls mit einem `Linksklick`
 auf _Weiter_ bestätigt.
 
-<img alt="" src="/img/xserver-7.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-7.png" class="screenshot" />
 
 Im letzten Einstellungs-Fenster werden alle vier Optionen ausgewählt und abschließend mit einem
 `Linksklick` auf _Weiter_ bestätigt.
 
-<img alt="" src="/img/xserver-9.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-9.png" class="screenshot" />
 
 Nun können die vorgenommenen Einstellungen gespeichert werden. Der entsprechende Dialog wird
 durch einen `Linksklick` auf _Save configuration_ geöffnet.
 
-<img alt="" src="/img/xserver-10.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-10.png" class="screenshot" />
 
 Die entsprechende Datei kann nach eigenem Belieben benannt werden und auch der Speicherort ist frei wählbar.
 Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
 
-<img alt="" src="/img/windows-installation/windows-10.PNG" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-11.png" class="screenshot" />
 
 Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen
 und das Programm gestartet werden.
 
-<img alt="" src="/img/xserver-12.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-12.png" class="screenshot" />
 
 
 Nach dem ersten Ausführen kann folgendes Fenster erscheinen,
 dieses muss mit einem `Linksklick` auf _Abbrechen_ abgelehnt werden.
 
-<img alt="" src="/img/xserver-13.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-13.png" class="screenshot" />
 
 Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Dass das Programm gestartet wurde, lässt
 sich an einem Icon in der Taskleiste (in der Nähe der Uhrzeit) erkennen. Sollte das Icon nicht
 zu sehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein.
 
-<img alt="" src="/img/xserver-14.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-14.png" class="screenshot" />
 
 
 Am zuvor ausgewählten Speicherort für die Einstellungen,
@@ -404,7 +387,7 @@ befindet sich die unten hervorgehobene Datei mit dem zuvor ausgewählten Namen.
 Mit einem doppelten `Linksklick` auf diese Datei kann von nun an das Programm _XLaunch_
 gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
-<img alt="" src="/img/xserver-15.png" class="screenshot" />
+<img alt="" src="/img/xserver/xserver-15.png" class="screenshot" />
 
 
 Um den X-Server verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
@@ -414,7 +397,6 @@ Dafür wird Windows Terminal geöffnet und der Befehl
 echo "export DISPLAY=\"\$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print \$4}'):0.0\"" >> ~/.bashrc
 ```
 eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
-
 
 
 ### Git, Make und weiteres
@@ -435,13 +417,13 @@ werden können.
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
-<img alt="" src="/img/unix-tools-01.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-1.png" class="screenshot" />
 
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch wird die ausgegebene Liste der Programme die geupdated
 werden können beim ersten Ausführen wesentlich länger sein.
 
-<img alt="" src="/img/unix-tools-02.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 
 Die Updates müssen nun noch installiert werden, denn bisher wurden diese nur heruntergeladen.
 Dies erfolgt durch Eingabe des Befehls
@@ -449,13 +431,10 @@ Dies erfolgt durch Eingabe des Befehls
 sudo apt upgrade
 ```
 und auch dieser Befehl wird mit der `Entertaste` bestätigt.
-
-<img alt="" src="/img/unix-tools-03.png" class="screenshot" />
-
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
 `Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
-<img alt="" src="/img/unix-tools-04.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
 Nun können die beiden Programme `git`, `make` und `curl` installiert werde. Dies erfolgt durch die Eingabe des
 Befehls
@@ -464,11 +443,11 @@ sudo apt install git make curl
 ```
 und anschließende Bestätigung mit der `Entertaste`. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
-<img alt="" src="/img/unix-tools-05.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
 
-<img alt="" src="/img/unix-tools-06.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-5.png" class="screenshot" />
 
 
 #### Git-Einstellungen
@@ -502,17 +481,16 @@ Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
 
 [Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
-Auf der Website ist es wichtig, dass die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.8 verwendet werden. Diese kann mit einem
+Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
+Außerdem soll die _x64-Bit_ Version der Python Version 3.9 verwendet werden. Diese kann mit einem
 `Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-0-2.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-1.png" class="screenshot" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
 
-<img alt="" src="/img/anaconda-02.png" class="screenshot" />
 
 Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
@@ -530,18 +508,18 @@ so ist der erste Befehl nicht mehr notwendig.)
 
 Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
 In dieser Liste muss sich auch die zuvor auf den Desktop
-kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
+kopierte Installationsdatei für Anaconda befinden.
 
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an, sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2021.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
 
-<img alt="" src="/img/anaconda-03.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
 
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 
@@ -557,12 +535,12 @@ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
 echo 'conda activate' >> ~/.bashrc
 ```
 
-<img alt="" src="/img/anaconda-04.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
 so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
 
-<img alt="" src="/img/anaconda-05.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
 
 Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2021.11-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
@@ -584,7 +562,7 @@ eingetragen werden.
 pip install uncertainties
 ```
 
-<img alt="" src="/img/uncertainties-01.png" class="screenshot" />
+<img alt="" src="/img/anaconda/uncertainties-1.png" class="screenshot" />
 
 
 

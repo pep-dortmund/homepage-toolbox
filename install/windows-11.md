@@ -66,27 +66,27 @@ Der Rechner muss nach erfolgreicher Installation neugestartet werden.
 Nach dem Neustart erscheint folgendes Fenster mit der Aufforderung einen Benutzernamen für
 das Linux-Betriebssystem einzugeben. Erscheint dieses Fenster nicht automatisch, muss `Win + s` gedrückt werden, dann `Ubuntu` eingeben und mit `Enter` starten.
 
-<img alt="" src="/img/wsl-12.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-1.png" class="screenshot" />
 
-Dieser Linux-Benutzername kann frei gewählt werden.
+Gebt einen Nutzernamen an. Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/wsl-13.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-2.png" class="screenshot" />
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
 Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 
-<img alt="" src="/img/wsl-14.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-3.png" class="screenshot" />
 
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.   
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss dieses erneut (zweimal) eingegeben werden.
 
-<img alt="" src="/img/wsl-15.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-install-4.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
@@ -98,14 +98,26 @@ mit dem Linux-Betriebssystem verwendet wird. Eine Einführung in den Umgang erfo
 des Workshops, im Folgenden wird diese jedoch schon zur
 Installation der benötigten Software verwendet.
 
-<img alt="" src="/img/wsl-16.png" class="screenshot" />
+
 
 ### Windows Terminal
 Das Windows Terminal stellt einen Ersatz der Standard WSL-Kommandozeile dar.
 Wir haben es ganz zu Anfang der Anleitung schon benutzt.
-Starte es erneut und öffne mit `Strg + ,` oder über den Pfeil nach unten die Einstellungen. Dort muss unter dem  Punkt _Standardprofil_ `Ubuntu` ausgewählt werden.
+Wir möchten es für unsere Zwecke noch anpassen.
+Starte es dazu erneut.
 
-<img alt="" src="/img/windows_terminal_02.png" class="screenshot" />
+Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
+klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü:
+
+<img alt="" src="/img/windows-terminal/windows-terminal-3.png" class="screenshot" />
+
+Klickt auf _Einstellungen_/_Settings_ um die Einstellungen zu öffnen.
+Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
+standardmäßig Ubuntu öffnet.
+Unter dem Punkt _Startup_ → _Default Profile_ muss _Ubuntu_ ausgewählt werden.
+Speichert die Änderungen dann ab.
+
+<img alt="" src="/img/windows-terminal/windows-terminal-4.png" class="screenshot" />
 
 ### Dateiendungen einschalten
 
@@ -114,11 +126,11 @@ Diese können und sollen aktiviert werden.
 
 Dafür wird in der Taskleiste auf das Windows-Symbol, oder die Lupe geklickt und `Dateien` eingegeben.
 
-<img alt="" src="/img/windows-installation/windows-3.PNG" class="screenshot" />
+<img alt="" src="/img/explorer/explorer-1.png" class="screenshot" />
 
 In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden.
 
-<img alt="" src="/img/windows-installation/windows-4.PNG" class="screenshot" />
+<img alt="" src="/img/explorer/explorer-2.png" class="screenshot" />
 
 ### Visual Studio Code
 
@@ -132,6 +144,34 @@ In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusä
 Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
 Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
 
+Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
+um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
+(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
+für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
+
+Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_ Menü.
+
+<img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
+
+In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
+in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
+dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
+Es ist möglich, dass die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
+
+Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt werden,
+indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
+Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
+
+<img alt="" src="/img/vscodium/vscode-2.png" class="screenshot" />
+
+Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
+
+Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
+in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
+
+<img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
+
+
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein Software mit englischen Spracheinstellungen
 zu verwenden. Um die Spracheinstellungen von VSCode zu ändern müssen die folgenden Schritte befolgt werden.
 Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
@@ -140,26 +180,26 @@ Sprache nicht gewünscht ist.
 Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
 Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
-<img alt="" src="/img/vscode-16.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch drücken
 der `Entertaste` ausgewählt werden.
 
-<img alt="" src="/img/vscode-17.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
 
 Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
 Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
 `"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
 werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
 
-<img alt="" src="/img/vscode-18.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-6.png" class="screenshot" />
 
 Mit `Strg + Shift + ö` oder über den Punkt _Terminal → Neues Terminal_
 kann ein Terminal in VSCodium geöffnet werden. Klickt rechts auf den Pfeil nach unten,
 neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
 Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
-<img alt="" src="/img/vscode-18.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
 
 ### Sumatra PDF
 
@@ -173,25 +213,23 @@ Den Download findet man unter dem folgenden Link.
 Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
 hervorgehobenen Link heruntergeladen werden.
 
-<img alt="" src="/img/sumatra-1.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-1.png" class="screenshot" />
 
 
 Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
 Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
 die _Optionen_ geöffnet.
-
-<img alt="" src="/img/sumatra-2.png" class="screenshot" />
-
 In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben. Zum anderen sollten die drei möglichen
-Haken gesetzt sein. Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
+bereits eingetragene Dateipfad ist kann unverändert bleiben.
+Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
 
-<img alt="" src="/img/windows-installation/windows-8.PNG" class="screenshot" />
+Starte Sumatra und öffne das Optionsmenü wie im Screenshot gezeigt.
 
-Nach einer erfolgreichen Installation wird das folgende Fenster angezeigt. Mit einem `Linksklick`
-auf _Sumatra Starten_ kann Sumatra PDF nun gestartet werden.
+<img alt="" src="/img/sumatra/sumatra-2.png" class="screenshot" />
 
-<img alt="" src="/img/sumatra-5.png" class="screenshot" />
+Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen.
+
+<img alt="" src="/img/sumatra/sumatra-3.png" class="screenshot" />
 
 ### Git, Make und weiteres
 
@@ -210,16 +248,14 @@ werden können.
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
-(Wundert euch nicht, dass das Terminal in den folgenden Screenshots anders aussieht als euers.
-Bis 2020 wurde das Programm ConEmu statt Windows Terminal verwendet)
 
-<img alt="" src="/img/unix-tools-01.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-1.png" class="screenshot" />
 
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch wird die ausgegebene Liste der Programme die geupdated
 werden können beim ersten Ausführen wesentlich länger sein.
 
-<img alt="" src="/img/unix-tools-02.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 
 Die Updates müssen nun noch installiert werden, denn bisher wurden diese nur heruntergeladen.
 Dies erfolgt durch Eingabe des Befehls
@@ -227,13 +263,10 @@ Dies erfolgt durch Eingabe des Befehls
 sudo apt upgrade
 ```
 und auch dieser Befehl wird mit der `Entertaste` bestätigt.
-
-<img alt="" src="/img/unix-tools-03.png" class="screenshot" />
-
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
 `Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
-<img alt="" src="/img/unix-tools-04.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
 Nun können die beiden Programme `git`, `make` und `curl` installiert werde. Dies erfolgt durch die Eingabe des
 Befehls
@@ -242,11 +275,11 @@ sudo apt install git make curl
 ```
 und anschließende Bestätigung mit der `Entertaste`. Auch dies Installation kann wieder etwas Zeit in Anspruch nehmen.
 
-<img alt="" src="/img/unix-tools-05.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
 Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
 
-<img alt="" src="/img/unix-tools-06.png" class="screenshot" />
+<img alt="" src="/img/unix/unix-5.png" class="screenshot" />
 
 
 #### Git-Einstellungen
@@ -281,16 +314,15 @@ Die Installationsdatei kann unter dem angegebenen Link herunter geladen werden.
 [Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
 
 Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.8 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer (529 MB)` heruntergeladen werden.
+Außerdem soll die _x64-Bit_ Version der Python Version 3.9 verwendet werden. Diese kann mit einem
+`Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
 Der Download kann einige Minuten in Anspruch nehmen.
 
-<img alt="" src="/img/anaconda-0-2.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-1.png" class="screenshot" />
 
 Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
 deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
 
-<img alt="" src="/img/anaconda-02.png" class="screenshot" />
 
 Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
 In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit drücken der
@@ -308,18 +340,18 @@ so ist der erste Befehl nicht mehr notwendig.)
 
 Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
 In dieser Liste muss sich auch die zuvor auf den Desktop
-kopierte Installationsdatei für Anaconda befinden (wie im Screenshot hervorgehoben).
+kopierte Installationsdatei für Anaconda befinden.
 
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch drücken der `Entertaste` bestätigt.
 
-<img alt="" src="/img/anaconda-03.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
 
 Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
 
@@ -335,14 +367,14 @@ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
 echo 'conda activate' >> ~/.bashrc
 ```
 
-<img alt="" src="/img/anaconda-04.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
 
 Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
 so sollte zu Begin der Eingabezeile nun _(base)_ stehen.
 
-<img alt="" src="/img/anaconda-05.png" class="screenshot" />
+<img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2020.11-Linux-x86_64.sh_
+Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2021.11-Linux-x86_64.sh_
 vom Desktop gelöscht werden.
 
 __Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
@@ -362,7 +394,7 @@ eingetragen werden.
 pip install uncertainties
 ```
 
-<img alt="" src="/img/uncertainties-01.png" class="screenshot" />
+<img alt="" src="/img/anaconda/uncertainties-1.png" class="screenshot" />
 
 
 
