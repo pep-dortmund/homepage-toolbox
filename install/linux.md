@@ -75,7 +75,7 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
       $ sudo pacman -S code
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support”,  installiert die Extension mit klick auf den `install` Button.
+Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit klick auf den `install` Button.
 
 ### Anaconda
 
@@ -109,7 +109,7 @@ $ pip install uncertainties
 
 ### TeXLive
 
-Im Terminal werden mit folgenden drei Befehlen das Installationsskript
+Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 Heruntergeladen und Ausgeführt.
 ```
 $ cd ~/.local
@@ -137,7 +137,6 @@ $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
 gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
 TeXLive zu installieren.
-
 
 __Jetzt noch die Installation [testen](#test)!__
 
@@ -178,7 +177,7 @@ nummerierten Prompt, nun folgende Befehle eingeben.
     In [2]: import matplotlib.pyplot as plt
     In [3]: plt.plot([1, 2, 4])
 
-Es sollte ein Fenster mit einem Plot erscheinen, beenden mit  
+Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
     In [4]: quit
 
