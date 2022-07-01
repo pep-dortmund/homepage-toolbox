@@ -75,7 +75,7 @@ git config --global core.editor "codium --wait"
     - Mit `Shift+cmd+x` die Extensions öffnen
     - `LaTeX language support` suchen
     - `install` anklicken
-    - VS Code neustarten
+    - VS Code neu starten
 
 ### Uncertainties
 
@@ -157,7 +157,7 @@ Es sollte folgende Ausgabe erscheinen:
     restricted system commands enabled.
     **
 
-Mit Strg-C beenden.
+Mit `Strg-C` beenden.
 
     biber
 

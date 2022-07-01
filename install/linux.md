@@ -110,7 +110,7 @@ $ pip install uncertainties
 ### TeXLive
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
-Heruntergeladen und Ausgeführt.
+heruntergeladen und ausgeführt.
 ```
 $ cd ~/.local
 $ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
@@ -134,8 +134,8 @@ $ tlmgr option autobackup -- -1
 $ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 ```
 
-Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert
-gibt es [diese Möglichkeit](/install/latex_mini.html) eine minimale Version von
+Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
+gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -244,7 +244,7 @@ Im Terminal:
 
     $ tlmgr update --self --all --reinstall-forcibly-removed
 
-## <a id="w-lan"></a>W-Lan
+## <a id="w-lan"></a>W-LAN
 
 Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
  - Wi-Fi security: WPA- & WPA2-Enterprise
@@ -256,4 +256,4 @@ Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen v
  - PEAP-Version: Automatisch
  - Inner authentication: MSCHAPv2
  - Username: smxxxx@udo.edu
- - Passwort: ******* (W-Lan Passwort)
+ - Passwort: ******* (W-LAN Passwort)
