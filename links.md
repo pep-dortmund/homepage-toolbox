@@ -81,7 +81,7 @@ title: Linksammlung
 ## Editoren
 
 - [Vim](http://www.vim.org/): Moden-basierter Editor, schwierige Lernphase, danach hervorragend
-- [Emacs](https://www.gnu.org/software/emacs/emacs.html): Der erweiterbarste Editor
+- [Emacs](https://www.gnu.org/software/emacs/emacs.html): Der [erweiterbarste](https://xkcd.com/378/) Editor
 - [Notepad++](https://notepad-plus-plus.org/) (Windows): einfacher Editor, schnell zu lernen
 - [Atom](https://atom.io/): Neuer Editor von GitHub, geschrieben in HTML und JavaScript
 - [Sublime Text](http://www.sublimetext.com/3) (kommerziell): Neuerer Editor
