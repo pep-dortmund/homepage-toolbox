@@ -54,7 +54,8 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 - [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
   Bibliotheken
 
-__Wichtig__: Wir wollen Python 3.8 Graphical Installer (unten auf der Seite). Das Paket installieren.
+__Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
+Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
 
 ### Texteditor VSCodium
 
@@ -153,7 +154,7 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.0.7 (TeX Live 2018)
+    This is LuaTeX, Version 1.15.0 (TeX Live 2022)
     restricted system commands enabled.
     **
 

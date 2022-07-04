@@ -346,7 +346,7 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an, sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2021.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2022.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
@@ -413,7 +413,7 @@ Die Installation startet man mit `I` und `Enter`.
 Öffnet die Datei `~/.bashrc` und fügt folgende Zeile am Ende hinzu:
 
 ```
-export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"
 ```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
@@ -500,7 +500,7 @@ luatex
 Es sollte folgende Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.13.0 (TeX Live 2021)
+This is LuaTeX, Version 1.15.0 (TeX Live 2022)
 restricted system commands enabled.
 **
 ```
