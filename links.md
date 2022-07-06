@@ -66,6 +66,8 @@ title: Linksammlung
 
 ## LaTeX
 
+- [Detexify](https://detexify.kirelabs.org/classify.html): Findet Symbole und deren Befehle anhand einer Zeichnung mit Maus/Touch
+  - [Android-App](https://play.google.com/store/apps/details?id=website.marty.detexify)
 - TeXBook von Don Knuth: Das Buch über TeX
 - [typokurz – Einige wichtige typografische Regeln](http://zvisionwelt.files.wordpress.com/2012/01/typokurz.pdf)
 - [How to Typeset Equations in LaTeX](http://moser-isi.ethz.ch/docs/typeset_equations.pdf): Gute Einführung in IEEEeqnarray (mächtigere Alternative zu den amsmath-Umgebungen)
@@ -79,7 +81,7 @@ title: Linksammlung
 ## Editoren
 
 - [Vim](http://www.vim.org/): Moden-basierter Editor, schwierige Lernphase, danach hervorragend
-- [Emacs](https://www.gnu.org/software/emacs/emacs.html): Der erweiterbarste Editor
+- [Emacs](https://www.gnu.org/software/emacs/emacs.html): Der [erweiterbarste](https://xkcd.com/378/) Editor
 - [Notepad++](https://notepad-plus-plus.org/) (Windows): einfacher Editor, schnell zu lernen
 - [Sublime Text](http://www.sublimetext.com/3) (kommerziell): Neuerer Editor
 - [neovim](http://neovim.io/): Modernisierung von vim
