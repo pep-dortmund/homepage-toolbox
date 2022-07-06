@@ -79,14 +79,14 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 
 ### Anaconda
 
-__Wichtig__: Wir wollen Python 3.8 für Linux. [64-Bit (x86) Installer]
+__Wichtig__: Wir wollen Python 3.9 für Linux. [64-Bit (x86) Installer]
 
 - [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und Bibliotheken
 
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2020.11-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2022.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
@@ -122,7 +122,7 @@ Die Installation startet man mit `I` und `Enter`.
 Öffnet die Datei `~/.bashrc` und fügt folgende Zeile am Ende hinzu:
 
 ```
-export PATH="$HOME/.local/texlive/2021/bin/x86_64-linux:$PATH"
+export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"
 ```
 
 Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
@@ -210,7 +210,7 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.13.0 (TeX Live 2021)
+    This is LuaTeX, Version 1.15.0 (TeX Live 2022)
      restricted system commands enabled.
     **
 
@@ -255,5 +255,5 @@ Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen v
     - zu finden in /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
  - PEAP-Version: Automatisch
  - Inner authentication: MSCHAPv2
- - Username: smxxxx@udo.edu
+ - Username: smxxxxxx@udo.edu
  - Passwort: ******* (W-LAN Passwort)
