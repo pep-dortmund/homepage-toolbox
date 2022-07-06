@@ -83,7 +83,7 @@ title: Linksammlung
 - [Notepad++](https://notepad-plus-plus.org/) (Windows): einfacher Editor, schnell zu lernen
 - [Sublime Text](http://www.sublimetext.com/3) (kommerziell): Neuerer Editor
 - [neovim](http://neovim.io/): Modernisierung von vim
-- [Visual Studio Code](https://code.visualstudio.com/): Open Source Editor von Microsoft, sehr ähnlich zu Atom
+- [Visual Studio Code](https://code.visualstudio.com/): Open Source Editor von Microsoft 
 
 ## Verschiedenes
 
