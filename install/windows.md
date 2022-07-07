@@ -389,6 +389,17 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
 <img alt="" src="/img/xserver/xserver-15.png" class="screenshot" />
 
+Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows abgelegt werden.
+Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
+Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
+
+Um den XServer in den _Autostart_ abzulegen, muss die obige Datei in den _Autostart_-Ordner
+kopiert werden. Den _Autostart_-Ordner findet ihr am einfachsten durch die Suche (wie zuvor 
+im Startmenu oder über das Lupen-Icon) nach dem Begriff _autostart_.
+
+
+Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch_ in diesen kopiert werden.
+Ab dem nächsten Neustart des Computers wird der XServer dann automatisch gestartet.
 
 Um den X-Server verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
 vorgenommen werden.
