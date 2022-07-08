@@ -402,26 +402,26 @@ Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows 
 Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
 Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
 
-Um den XServer in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_ 
+Um den X-Server in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_ 
 in den _Autostart_-Ordner kopiert werden. 
 
-Die Funktion zum Erstellen der Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und 
-zwei anschließenden `Linksklicks`, zuerst auf _Senden an_ und dann auf _Desktop (Verknüpfung erstellen)_ geöffnet werden.
+Die Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und  zwei anschließenden `Linksklicks`,
+zuerst auf _Senden an_ und dann auf _Desktop (Verknüpfung erstellen)_ durchgeführt werden.
 
 <img alt="" src="/img/xserver/xserver-16.png" class="screenshot" />
 
-Dadurch wird die Datei _Praktikum.xlaunch - Verknüpfung_ auf dem Desktop erstellt. Verknüpfnungen haben 
+Dadurch wird die Datei _Praktikum.xlaunch - Verknüpfung_ auf dem Desktop erstellt. Verknüpfungen haben 
 grundsätzlich das selbe Icon wie die verknüpfte Datei, sind aber an einem Pfeil in der linken Ecke des Icons zu erkennen.
 
 <img alt="" src="/img/xserver/xserver-17.png" class="screenshot" />
 
-Den _Autostart_-Ordner findet ihr am einfachsten durch die Suche (wie zuvor 
-im Startmenu oder über das Lupen-Icon) nach dem Begriff _autostart_.
+Der _Autostart_-Ordner kann am einfachsten durch die Suche (wie zuvor 
+im Startmenü oder über das Lupen-Icon) nach dem Begriff _autostart_ geöffnet werden.
 
 <img alt="" src="/img/xserver/xserver-18.png" class="screenshot" />
 
-Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_ in diesen verschoben werden.
-Ab dem nächsten Neustart des Computers wird der XServer dann automatisch gestartet.
+Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_  (mit `Drag-and-Drop`) 
+in diesen verschoben werden.
 
 <img alt="" src="/img/xserver/xserver-19.png" class="screenshot" />
 
