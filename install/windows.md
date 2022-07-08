@@ -398,6 +398,23 @@ echo "export DISPLAY=\"\$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print
 ```
 eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
 
+Der Grund für einen häufig auftretenden Fehler ist, dass der X-Server nicht gestartet wurde,
+was nach jedem Neustart getan werden muss. Um diese Fehlerquelle nicht mehr zu haben,
+kann der X-Server automatisch mit jedem Start des Laptops/Rechners mitgestartet werden.
+
+Mit der Tastenkombination `Windows-Taste` + `r` öffnet sich das Eingabefenster aus dem Screenshot.
+Trage hier
+```
+shell:startup
+```
+ein und bestätige mit `Enter` oder einem `Linksklick` auf `OK`.
+
+<img alt="" src="/img/xserver/xserver-16.png" class="screenshot" />
+
+Es öffnet sich ein Fenster eures Dateiexplorers, zieht die `Praktikum.xlaunch` vom
+Desktop in dieses Fenster.
+In diesem Ordner liegen Programme die beim Starten des Rechners mitgestartet werden.
+Ob alles geklappt hat kann überprüft werden indem der Rechner neugestartet wird und nach dem X-Server Symbol in der Taskleiste geschaut wird. 
 
 ### Git, Make und weiteres
 
