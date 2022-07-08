@@ -408,18 +408,22 @@ in den _Autostart_-Ordner kopiert werden.
 Die Funktion zum Erstellen der Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und anschließenden
 `Linksklicks` auf auf _Senden an_ und anschließend auf _Desktop (Verknüpfung erstellen)_ geöffnet werden.
 
+<img alt="" src="/img/xserver/xserver-16.png" class="screenshot" />
 
 Dadurch wird die Datei _Praktikum.xlaunch - Verknüpfung_ auf dem Desktop erstellt. Verknüpfnungen haben 
 grundsätzlich das selbe Icon wie die verknüpfte Datei, sind aber an einem Pfeil in der linken Ecke des Icons zu erkennen.
 
+<img alt="" src="/img/xserver/xserver-17.png" class="screenshot" />
 
 Den _Autostart_-Ordner findet ihr am einfachsten durch die Suche (wie zuvor 
 im Startmenu oder über das Lupen-Icon) nach dem Begriff _autostart_.
 
+<img alt="" src="/img/xserver/xserver-18.png" class="screenshot" />
 
 Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_ in diesen verschoben werden.
 Ab dem nächsten Neustart des Computers wird der XServer dann automatisch gestartet.
 
+<img alt="" src="/img/xserver/xserver-19.png" class="screenshot" />
 
 ### Git, Make und weiteres
 
