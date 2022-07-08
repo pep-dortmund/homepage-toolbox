@@ -420,8 +420,7 @@ im Startmenü oder über das Lupen-Icon) nach dem Begriff _autostart_ geöffnet 
 
 <img alt="" src="/img/xserver/xserver-18.png" class="screenshot" />
 
-Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_  
-in diesen verschoben werden.
+Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_ in diesen verschoben werden.
 
 <img alt="" src="/img/xserver/xserver-19.png" class="screenshot" />
 
