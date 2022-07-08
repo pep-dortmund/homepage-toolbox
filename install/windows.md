@@ -389,18 +389,6 @@ gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
 
 <img alt="" src="/img/xserver/xserver-15.png" class="screenshot" />
 
-Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows abgelegt werden.
-Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
-Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
-
-Um den XServer in den _Autostart_ abzulegen, muss die obige Datei in den _Autostart_-Ordner
-kopiert werden. Den _Autostart_-Ordner findet ihr am einfachsten durch die Suche (wie zuvor 
-im Startmenu oder über das Lupen-Icon) nach dem Begriff _autostart_.
-
-
-Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch_ in diesen kopiert werden.
-Ab dem nächsten Neustart des Computers wird der XServer dann automatisch gestartet.
-
 Um den X-Server verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
 vorgenommen werden.
 Dafür wird Windows Terminal geöffnet und der Befehl
@@ -408,6 +396,29 @@ Dafür wird Windows Terminal geöffnet und der Befehl
 echo "export DISPLAY=\"\$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print \$4}'):0.0\"" >> ~/.bashrc
 ```
 eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
+
+
+Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows abgelegt werden.
+Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
+Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
+
+Um den XServer in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_ 
+in den _Autostart_-Ordner kopiert werden. 
+
+Die Funktion zum Erstellen der Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und anschließenden
+`Linksklicks` auf auf _Senden an_ und anschließend auf _Desktop (Verknüpfung erstellen)_ geöffnet werden.
+
+
+Dadurch wird die Datei _Praktikum.xlaunch - Verknüpfung_ auf dem Desktop erstellt. Verknüpfnungen haben 
+grundsätzlich das selbe Icon wie die verknüpfte Datei, sind aber an einem Pfeil in der linken Ecke des Icons zu erkennen.
+
+
+Den _Autostart_-Ordner findet ihr am einfachsten durch die Suche (wie zuvor 
+im Startmenu oder über das Lupen-Icon) nach dem Begriff _autostart_.
+
+
+Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_ in diesen verschoben werden.
+Ab dem nächsten Neustart des Computers wird der XServer dann automatisch gestartet.
 
 
 ### Git, Make und weiteres
