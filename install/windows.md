@@ -405,8 +405,8 @@ Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal 
 Um den XServer in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_ 
 in den _Autostart_-Ordner kopiert werden. 
 
-Die Funktion zum Erstellen der Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und anschließenden
-`Linksklicks` auf auf _Senden an_ und anschließend auf _Desktop (Verknüpfung erstellen)_ geöffnet werden.
+Die Funktion zum Erstellen der Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und 
+zwei anschließenden `Linksklicks`, zuerst auf _Senden an_ und dann auf _Desktop (Verknüpfung erstellen)_ geöffnet werden.
 
 <img alt="" src="/img/xserver/xserver-16.png" class="screenshot" />
 
