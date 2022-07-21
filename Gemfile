@@ -26,6 +26,6 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 
-gem "html-proofer", "~> 3.19"
+gem "html-proofer", "~> 4.2"
 
 gem "webrick", "~> 1.7"
