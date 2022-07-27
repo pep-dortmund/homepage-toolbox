@@ -289,4 +289,4 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
  * [Git Repository mit Skript und Folien](https://github.com/pep-dortmund/toolbox-workshop-2012)
  * [Git Repository mit Aufgaben und Beispielen](https://github.com/pep-dortmund/toolbox-examples-2012)
 
-Der Programm-Code befindet sich unter der [MIT-Lizenz](http://opensource.org/licenses/MIT), die Texte unter [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/).
+Der Programm-Code befindet sich unter der [MIT-Lizenz](https://opensource.org/licenses/MIT), die Texte unter [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/).

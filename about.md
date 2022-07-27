@@ -12,7 +12,7 @@ Seitdem organisieren wir jährlich einen Workshop während der Sommer-Semesterfe
 Der Verein versteht sich als Einrichtung für Absolventen, Studierende, Mitarbeiter sowie für Freunde und Förderer der Fakultät Physik der TU Dortmund.
 Gegründet auf Initiative einiger Absolventen ist es seine Aufgabe, ein Netzwerk zwischen den Absolventen und der Fakultät aufzubauen.
 
-Mehr zu PeP et al. findet ihr auf der Website: [www.pep-dortmund.org](http://pep-dortmund.org/).
+Mehr zu PeP et al. findet ihr auf der Website: [www.pep-dortmund.org](https://pep-dortmund.org/).
 
 ## Die Organisatoren
 Die Organisatoren sind dieses Jahr
