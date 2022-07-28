@@ -7,29 +7,38 @@ Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speich
 **Es muss nur eine Version installiert werden!**
 
 
-Um die minimale Version (≈600 MB) zu installieren könnt ihr das folgende Skript mit dem Terminal herunterladen
+Um die minimale Version (≈600 MB) zu installieren könnt ihr analog zur vollen Installation mit den folgenden Schritten beginnen, um das Installationsskript von TexLive herunterzuladen
 
 ```
-curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
+cd ~/.local
+curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
-Es ist von uns geschrieben und regelt den Download und die Installation.
-Zum Ausführen muss folgender Befehl aus dem Ordner ausgeführt werden, in dem ihr das Skript gespeichert habt.
+Danach muss das eingeben von `S`  mit Enter bestätigt werden. Dann kann das full-scheme auf basic gewechselt werden.
+Dafür muss erst `d` und danach `R` jeweils mit Enter bestätigt werden.
+Anschließend kann wie bei der vollen Installation das Installieren mit `I` begonnen werden.
+
+Hier wird aber nur das Programm tlmgr installiert. 
+
+Damit das Programm anschließend ausführbar ist, muss der Pfad zu der Datei in der Konfigurationsdatei eurer Shell hinzugefügt werden.
+Dafür fügt ihr die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu. 
+Um zu sehen, welche Shell ihr benutzt, könnt ihr `echo $SHELL` im Terminal eingeben.
+Anschließend könnt ihr den Pfad zu Texlive dann mit folgendem Kommando hinzufügen
 ```
-bash ./toolbox-latex-install-mini.sh
+echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 ```
 
-Nach der erfolgreichen Installation muss das Terminal neu gestartet werden.
-
-
-### Welche Schritte passieren im Skript?
-
-- **Z. 4** Einstellungen für das Behandeln von Fehlern, die während der Ausführung auftreten können
-- **Z. 7** Erstellen eines temporären Ordners
-- **Z. 9** Wechseln in das neu erstellte Verzeichnis
-- **Z.10** Herunterladen des TeXLive Installers und entpacken vom tar-Ball
-- **Z.13** Erstellen eines Installations-Profils _Toolbox_
-- **Z.16** Starten der TeXLive Installation
-- **Z.19** Hinzufügen des Installationspfades zum Systempfad
-- **Z.22** Wechseln in das Installationsverzeichnis
-- **Z.24** Installation der minimal benötigten Pakete
-- **Z.93** Setzen der update Optionen
+Eine Liste aller notwendiger Latex Packages, die wir brauchen werden, bekommt ihr mit
+```
+curl -fLO https://toolbox.pep-dortmund.org/install/downloads/latex_packages.txt
+```
+Die Installation kann dann durchgeführt werden mit 
+```
+<latex_packages.txt | xargs tlmgr install 
+```
+Zu guter Letzt müssen noch die Update-Optionen angepasst werden
+```
+tlmgr option autobackup -- -1
+tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+```
