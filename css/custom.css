@@ -19,6 +19,16 @@ html {
 font-size: 1.4rem;
 }
 }
+code {font-size:87.5%;
+  /* color:#e83e8c; */
+  color: #212529;
+  word-break:break-word}
+
+code:not(pre *) {
+  padding: 4px 2px;
+  background-color: #e3e6e8;
+  border-radius: 5px;
+}
 
 body {
   background-color: var(--body-bg);

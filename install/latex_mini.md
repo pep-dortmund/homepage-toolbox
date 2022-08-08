@@ -3,33 +3,44 @@ layout: default
 title: LaTeX Minimale Installation
 ---
 
-Wir empfehlen die komplette Version zu installieren, falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr die minimierte Version installieren.
+Wir empfehlen die komplette Version zu installieren, aber falls der vorhandene Speicherplatz auf eurem Laptop/PC zu gering ist, könnt ihr hier die minimierte Version installieren.
 **Es muss nur eine Version installiert werden!**
 
-
-Um die minimale Version (≈600 MB) zu installieren könnt ihr das folgende Skript mit dem Terminal herunterladen
-
+Um die minimale Version (≈600 MB) zu installieren könnt ihr analog zur vollen Installation mit den folgenden Schritten beginnen, um das Installationsskript von TexLive herunterzuladen:
 ```
-curl -fLO https://toolbox.pep-dortmund.org/install/downloads/toolbox-latex-install-mini.sh
+$ cd ~/.local
+$ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+$ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
-Es ist von uns geschrieben und regelt den Download und die Installation.
-Zum Ausführen muss folgender Befehl aus dem Ordner ausgeführt werden, in dem ihr das Skript gespeichert habt.
+Um nicht die volle Version herunterzuladen, sondern die `basic` Version, müsst ihr `S` eingeben und mit Enter bestätigen.
+Danach kann das `full-scheme` auf `basic` gewechselt werden, indem ihr erst `d` und dann `R` eingebt und jeweils mit Enter bestätigt.
+
+Anschließend kann wie bei der vollen Installation das Installieren mit `I` begonnen werden.
+
+Hier wird aber nur das Programm tlmgr installiert.
+
+Damit das Programm anschließend ausführbar ist, muss der Pfad zu der Datei in der Konfigurationsdatei eurer Shell hinzugefügt werden.
+Dafür fügt ihr die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu.
+Um zu sehen, welche Shell ihr benutzt, könnt ihr `echo $SHELL` im Terminal eingeben.
+Anschließend könnt ihr den Pfad zu Texlive dann mit folgendem Kommando zum `PATH` hinzufügen
 ```
-bash ./toolbox-latex-install-mini.sh
+$ echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ source ~/.bashrc
+```
+Dann sollten noch die Update-Optionen angepasst werden
+```
+$ tlmgr option autobackup -- -1
+$ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 ```
 
-Nach der erfolgreichen Installation muss das Terminal neu gestartet werden.
-
-
-### Welche Schritte passieren im Skript?
-
-- **Z. 4** Einstellungen für das Behandeln von Fehlern, die während der Ausführung auftreten können
-- **Z. 7** Erstellen eines temporären Ordners
-- **Z. 9** Wechseln in das neu erstellte Verzeichnis
-- **Z.10** Herunterladen des TeXLive Installers und entpacken vom tar-Ball
-- **Z.13** Erstellen eines Installations-Profils _Toolbox_
-- **Z.16** Starten der TeXLive Installation
-- **Z.19** Hinzufügen des Installationspfades zum Systempfad
-- **Z.22** Wechseln in das Installationsverzeichnis
-- **Z.24** Installation der minimal benötigten Pakete
-- **Z.93** Setzen der update Optionen
+Eine Liste aller notwendiger LaTeX Packages, die wir brauchen werden, ladet ihr mit
+```
+$ curl -fLO https://toolbox.pep-dortmund.org/install/downloads/latex_packages.txt
+```
+herunter.
+Die Installation kann dann durchgeführt werden mit
+```
+$ xargs -a latex_packages.txt tlmgr install
+```
+Damit ist die Installation der kleinen Version abgeschlossen.
+Weiter geht es mit den Tests in der Anleitung für [Windows 10](/install/windows.html#test), [Windows 11](/install/windows-11.html#test) oder [Linux](/install/linux.html#test).
