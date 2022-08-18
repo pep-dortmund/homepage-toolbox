@@ -28,4 +28,4 @@ In der E-Mail sollten folgende Punkte vorhanden sein:
 - Welches Betriebssystem wird verwendet?
 - Welches Programm gibt eine Fehlermeldung aus?
 - Wie lautet die Fehlermeldung?
-  - Hier hilft der Text oder ein Screenshot.
+  - Hier hilft der Text **und** ein Screenshot.
