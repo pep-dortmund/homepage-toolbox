@@ -277,7 +277,7 @@ Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei bloc
 sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 Den Download findet man unter dem folgenden Link.
 
-[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
+[Sumatra Download](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
 
 Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
 hervorgehobenen Link heruntergeladen werden.
@@ -402,8 +402,8 @@ Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows 
 Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
 Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
 
-Um den X-Server in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_ 
-in den _Autostart_-Ordner kopiert werden. 
+Um den X-Server in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_
+in den _Autostart_-Ordner kopiert werden.
 
 Die Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und einem anschließenden `Linksklick`,
 auf _Verknüpfung erstellen_ durchgeführt werden.
@@ -415,7 +415,7 @@ Verknüpfungen haben grundsätzlich das selbe Icon wie die verknüpfte Datei, si
 
 <img alt="" src="/img/xserver/xserver-17.png" class="screenshot" />
 
-Der _Autostart_-Ordner kann am einfachsten durch die Suche (wie zuvor 
+Der _Autostart_-Ordner kann am einfachsten durch die Suche (wie zuvor
 im Startmenü oder über das Lupen-Icon) nach dem Begriff _autostart_ geöffnet werden.
 
 <img alt="" src="/img/xserver/xserver-18.png" class="screenshot" />
@@ -578,7 +578,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
 können auf der verlinkten Website gefunden werden.
 
-[Uncertainties Website](http://pythonhosted.org/uncertainties/)
+[Uncertainties Website](https://pythonhosted.org/uncertainties/)
 
 Installiert werden kann Uncertainties über die Bash-Kommandozeile. In diese muss der folgende Befehl
 eingetragen werden.
@@ -597,7 +597,7 @@ Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
 ```
 cd ~/.local
-curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+curl -L https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
@@ -618,7 +618,7 @@ In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 tlmgr option autobackup -- -1
-tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,

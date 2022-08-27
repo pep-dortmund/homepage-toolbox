@@ -4,7 +4,7 @@ title: PeP et al. Toolbox Workshop
 ---
 
 <p class="lead" markdown="1">
-Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet [PeP et al.](http://pep-dortmund.org) den Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an.
+Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet [PeP et al.](https://pep-dortmund.org) den Toolbox-Workshop für Physik- und Medizinphysikstudierende der TU Dortmund an.
 </p>
 
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.

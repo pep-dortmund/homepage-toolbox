@@ -80,7 +80,7 @@ git config --global core.editor "codium --wait"
 
 ### Uncertainties
 
-- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek
+- [Uncertainties](https://pythonhosted.org/uncertainties/): Python-Bibliothek
   für automatisierte Fehlerrechnung
 
 Im terminal:
@@ -91,7 +91,7 @@ Im terminal:
 
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
 
-[MacTeX.pkg](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen
+[MacTeX.pkg](https://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen
 und das Paket installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -173,7 +173,7 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 Im Terminal:
 
     sudo tlmgr option autobackup -- -1
-    sudo tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+    sudo tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 

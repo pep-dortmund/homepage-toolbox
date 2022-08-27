@@ -113,7 +113,7 @@ Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
 ```
 $ cd ~/.local
-$ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+$ curl -L https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 $ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
@@ -132,7 +132,7 @@ In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 $ tlmgr option autobackup -- -1
-$ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+$ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,

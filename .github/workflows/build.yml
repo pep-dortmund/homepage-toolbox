@@ -22,7 +22,6 @@ jobs:
         run: |
           bundle exec htmlproofer ./_site \
             --allow-hash-href \
-            --check-html \
+            --checks Scripts Links \
             --only-4xx \
-            --disable-external \
-            --empty-alt-ignore
+            --disable-external

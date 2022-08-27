@@ -208,7 +208,7 @@ Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei bloc
 sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 Den Download findet man unter dem folgenden Link.
 
-[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
+[Sumatra Download](https://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
 
 Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
 hervorgehobenen Link heruntergeladen werden.
@@ -385,7 +385,7 @@ __Jetzt noch die Python-Installation [updaten](#update) und anschließend [teste
 Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
 können auf der verlinkten Website gefunden werden.
 
-[Uncertainties Website](http://pythonhosted.org/uncertainties/)
+[Uncertainties Website](https://pythonhosted.org/uncertainties/)
 
 Installiert werden kann Uncertainties über die Bash-Kommandozeile. In diese muss der folgende Befehl
 eingetragen werden.
@@ -404,7 +404,7 @@ Im Terminal werden mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
 ```
 cd ~/.local
-curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+curl -L https://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
@@ -424,7 +424,7 @@ In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 tlmgr option autobackup -- -1
-tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
@@ -435,7 +435,7 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
-Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.
+<!--Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.-->
 
 ### Python
 

@@ -1939,7 +1939,7 @@ Out[7]:</div>
 </div>
 </div>
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><img src="https://github.com/Chancellor-Arkantos/sympy/diff_blob/59119adc88d632bebdb38986d867e0dd40f76b94/doc/logo/SymPy-500x500-Logo.png?raw=true" style="width: 300px;"></img></p>
+<p><img src="https://www.sympy.org/static/images/logo.png" alt="Sympy Logo" style="width: 300px;"></img></p>
 <ul>
 <li>Problem: Die Assistenten möchten aber trotzdem, dass man alle Ableitungen in das Protokoll schreibt</li>
 <li>Lösung: Ableitungen automatisch generieren</li>
@@ -2036,15 +2036,15 @@ Out[9]:</div>
     <span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">Symbol</span><span class="p">,</span> <span class="n">latex</span>
     <span class="n">s</span> <span class="o">=</span> <span class="mi">0</span>
     <span class="n">latex_names</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
-    
+
     <span class="k">if</span> <span class="n">err_vars</span> <span class="o">==</span> <span class="bp">None</span><span class="p">:</span>
         <span class="n">err_vars</span> <span class="o">=</span> <span class="n">f</span><span class="o">.</span><span class="n">free_symbols</span>
-        
+
     <span class="k">for</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">err_vars</span><span class="p">:</span>
         <span class="n">err</span> <span class="o">=</span> <span class="n">Symbol</span><span class="p">(</span><span class="s">&#39;latex_std_&#39;</span> <span class="o">+</span> <span class="n">v</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>
         <span class="n">s</span> <span class="o">+=</span> <span class="n">f</span><span class="o">.</span><span class="n">diff</span><span class="p">(</span><span class="n">v</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">err</span><span class="o">**</span><span class="mi">2</span>
         <span class="n">latex_names</span><span class="p">[</span><span class="n">err</span><span class="p">]</span> <span class="o">=</span> <span class="s">&#39;</span><span class="se">\\</span><span class="s">sigma_{&#39;</span> <span class="o">+</span> <span class="n">latex</span><span class="p">(</span><span class="n">v</span><span class="p">)</span> <span class="o">+</span> <span class="s">&#39;}&#39;</span>
-        
+
     <span class="k">return</span> <span class="n">latex</span><span class="p">(</span><span class="n">sqrt</span><span class="p">(</span><span class="n">s</span><span class="p">),</span> <span class="n">symbol_names</span><span class="o">=</span><span class="n">latex_names</span><span class="p">)</span>
 
 <span class="n">E</span><span class="p">,</span> <span class="n">q</span><span class="p">,</span> <span class="n">r</span> <span class="o">=</span> <span class="n">var</span><span class="p">(</span><span class="s">&#39;E_x q r&#39;</span><span class="p">)</span>
