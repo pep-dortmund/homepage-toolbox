@@ -604,7 +604,7 @@ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 
 Die Installation startet man mit `I` und `Enter`.
 
-Nach der Installation muss dem Szstem mitgeteilt werden, wo LaTeX installiert wurde,
+Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
 das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
