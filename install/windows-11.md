@@ -410,13 +410,15 @@ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 
 Die Installation startet man mit `I` und `Enter`.
 
-Öffnet die Datei `~/.bashrc` und fügt folgende Zeile am Ende hinzu:
+Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
+das machen wir in der Datei `~/.bashrc`.
+Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"
+echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
-Nach der Installation Terminal schließen und für die weiteren Schritte ein neues öffnen.
+Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
 
 In dem neuen Terminal die folgenden Befehle eingeben:
 
