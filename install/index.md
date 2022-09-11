@@ -40,22 +40,28 @@ eines Windows/Linux Dual Boot Systems geschrieben, falls ihr es selbst versuchen
 ## Anleitungen
 
 <div class="row">
-  <div class="col-md-4">
+  <div class="col-md-3">
     <a class="btn btn-outline-dark btn-block" href="/install/linux.html" role="button">
       <i class="fa fa-5x fa-linux" aria-hidden="true"></i><br>
       Linux
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <a class="btn btn-outline-dark btn-block" href="/install/windows.html" role="button">
       <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
       Windows 10<br>
     </a>
   </div>
-  <div class="col-md-4">
+  <div class="col-md-3">
     <a class="btn btn-outline-dark btn-block" href="/install/macos.html" role="button">
       <i class="fa fa-5x fa-apple" aria-hidden="true"></i><br>
       macOS
+    </a>
+  </div>
+  <div class="col-md-3">
+    <a class="btn btn-outline-dark btn-block" href="/install/windows-11.html" role="button">
+      <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
+      Windows 11<br>
     </a>
   </div>
 </div>
