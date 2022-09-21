@@ -98,6 +98,13 @@ ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Datein
 conda activate
 ```
 
+oder schreibt die beiden Zeilen mit den beiden folgenden Befehlen in die `~/.bashrc`
+
+```
+echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
+echo 'conda activate' >> ~/.bashrc
+```
+
 Schließt die aktuelle Konsole und öffnet eine neue.
 Am Anfang eures Prompts sollte ein `(base)` stehen.
 
