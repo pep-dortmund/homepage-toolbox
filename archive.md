@@ -17,9 +17,9 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
     - [Aufgaben](files/archive/2021/exercises-toolbox-2.zip) (Stand 29.09.2021)
 
 - Tag 3
-    - [Scientific Python](files/archive/2020/scientific-python.html) (Stand 29.09.2021)
-    - [uncertainties](files/archive/2020/uncertainties.html) (Stand 29.09.2021)
-    - [Aufgaben](files/archive/2020/exercises-toolbox-3.zip) (Stand 29.09.2021)
+    - [Scientific Python](files/archive/2021/scientific-python.html) (Stand 29.09.2021)
+    - [uncertainties](files/archive/2021/uncertainties.html) (Stand 29.09.2021)
+    - [Aufgaben](files/archive/2021/exercises-toolbox-3.zip) (Stand 29.09.2021)
 
 - Tag 4
     - [Unix](files/archive/2021/unix.pdf) (Stand 30.09.2021)
