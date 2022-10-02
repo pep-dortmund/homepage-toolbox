@@ -7,7 +7,7 @@ title: Material
 ## Wintersemester 2022/23
 
 Das Material für den diesjährigen Kurs wird kurz vor oder während des
-Kurses veröffentlich.
+Kurses veröffentlicht.
 
 ### Toolbox
 - Tag 1

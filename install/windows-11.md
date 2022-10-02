@@ -13,7 +13,7 @@ __Es müssen alle drei Schritte (Installieren, Testen, Aktualisieren) ausgeführ
 Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
 Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und VSCode (oder einen anderen Texteditor) und TeXLive installieren.
+Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und VSCodium (oder einen anderen Texteditor) und TeXLive installieren.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
