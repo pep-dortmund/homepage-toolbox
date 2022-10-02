@@ -8,7 +8,7 @@ __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt wer
 Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
 Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio Code (oder einen anderen Texteditor) und TeXLive installieren.
+Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio Codium (oder einen anderen Texteditor) und TeXLive installieren.
 
 
 <div class="row" style="padding: 10px">
@@ -257,11 +257,11 @@ Im Terminal:
 Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
  - Wi-Fi security: WPA- & WPA2-Enterprise
  - Authentication: Geschütztes EAP (PEAP)
- - Anonymous Identity: telesec@tu-dortmund.de
+ - Anonymous Identity:  
  - Domain: tu-dortmund.de
  - CA-Zertifikat: T-TeleSec_GlobalRoot_Class_2.crt
     - zu finden in /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
  - PEAP-Version: Automatisch
  - Inner authentication: MSCHAPv2
- - Username: smxxxxxx@udo.edu
+ - Username: smxxxxxx@tu-dortmund.de
  - Passwort: ******* (W-LAN Passwort)
