@@ -35,11 +35,10 @@ Kurses veröffentlicht.
 - [Aufgaben Tag 1](files/archive/2022/exercises-latex-1.zip) (Stand 04.10.2022)
 - [Aufgaben Tag 2](files/archive/2022/exercises-latex-2.zip) (Stand 05.10.2022)
 - [Aufgaben Tag 3](files/archive/2022/exercises-latex-3.zip) (Stand 06.10.2022)
-
-<!--
 - [Aufgaben Tag 4](files/archive/2022/exercises-latex-4.zip) (Stand 07.10.2022)
 - [LaTeX Vorlage für Protokolle](files/archive/2022/latex-template.zip) (Stand 07.10.2022)
--->
+
+
 ## Vergangene Kurse
 
 Das Material früherer Jahre ist im [Archiv](archive.html) verfügbar.
