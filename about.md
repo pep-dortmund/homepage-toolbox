@@ -19,6 +19,7 @@ Die Organisatoren sind dieses Jahr
 
   - Christian Beckmann
   - Sebastian Lütge
+  - Stefan Grisard
   - Maximilian Nöthe
   - Joshua Luckey
 

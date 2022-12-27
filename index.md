@@ -14,29 +14,16 @@ Damit richtet er sich vorrangig an die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
 ## Anmeldung & Umfrage
-Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2022 verpflichtend,
-wir hoffen den Toolbox-Workshop wieder in Präsenz durchführen zu können.
+Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2023 verpflichtend.
 Ein Hörsaal steht noch nicht fest, wenn dieser feststeht, erfahrt ihr es hier oder per E-Mail.
 
 Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
 So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
-und können den Workshop optimal an eure Bedürfnisse anpassen.
+und können den Workshop optimal an euch anpassen.
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/14/registration/">Zur Anmeldung (Umfrage)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/16/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
-
-<!--
-## Feedback 2022
-
-Wir würden gerne Feedback von euch sammeln, um den Workshop beim nächsten Mal verbessern zu können.
-Füllt bitte den Feedback-Bogen (ggf. auch mehrmals) aus.
-
-<div class="text-center">
-<a type="button" class="btn btn-primary" href="https://forms.gle/yv6WmVy45EMXotUs8">Zum Toolbox-Feedback (erste Woche)</a>
-<a type="button" class="btn btn-primary" href="https://forms.gle/QKcGtLqHAkWvGw6FA">Zum LaTeX-Feedback (zweite Woche)</a>
-</div>
--->
 
 
 ## Themen
@@ -75,21 +62,22 @@ Bitte beachtet die folgenden Schritte:
 
 - Die Software vorher [installieren](/install)
   - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
-<!--    - Der Workshop wird digital stattfinden, dazu werden wir [Zoom](https://tu-dortmund.zoom.us/){:target="_blank"} (und
-      [Discord](https://discord.com/new/download){:target="_blank"}) verwenden. -->
   - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
   - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich)
 
 
-## Ablaufplan 2022
+## Ablaufplan 2023
 
+<!--
 An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf)).
 Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
+-->
 
 <table class="table table-hover">
 <thead>
   <tr>
   <th>Tag</th>
+  <th>Datum</th>
   <th>Zeit</th>
   <th>Raum</th>
   <th>Thema</th>
@@ -97,81 +85,97 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 </thead>
 <tbody>
   <tr>
-  <td>Do, 22.09.2022</td>
-  <td>ab 9 Uhr</td>
+  <td>Do</td>
+  <td>21.09.2022</td>
+  <td>ab 10 Uhr</td>
   <td><span style="color:crimson"> Hybrid </span></td>
-  <td>Lösung von Installationsproblemen / Umstieg auf Linux für Interessierte
+  <td>Umstieg auf Linux für Interessierte
    </td>
   </tr>
   <tr>
-  <td colspan="4"></td>
+  <td colspan="5"></td>
   </tr>
   <tr>
-  <td>Mo, 26.09.2022</td>
+  <td>Mo</td>
+  <td>25.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 01</td>
+  <td>tbd</td>
   <td>Python</td>
   </tr>
   <tr>
-  <td>Di, 27.09.2022</td>
+  <td>Di</td>
+  <td>26.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 01</td>
+  <td>tbd</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
-  <td>Mi, 28.09.2022</td>
+  <td>Mi</td>
+  <td>27.09.2022</td>
   <td>13-17 Uhr</td>
-  <td><span style="color:crimson"> ZE HS 02</span></td>
+  <td>tbd</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
-  <td>Do, 29.09.2022</td>
+  <td>Do</td>
+  <td>28.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 01</td>
+  <td>tbd</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
-  <td>Fr, 30.09.2022</td>
+  <td>Fr</td>
+  <td>29.09.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 01</td>
+  <td>tbd</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
-  <td colspan="4"></td>
+  <td colspan="5"></td>
   </tr>
   <tr>
-  <td>Mo, 03.10.2022</td>
-  <td></td>
-  <td></td>
-  <td>Feiertag</td>
-  </tr>
-  <tr>
-  <td>Di, 04.10.2022</td>
+  <td>Mo</td>
+  <td>02.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 15</td>
+  <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
-  <td>Mi, 05.10.2022</td>
+  <td>Di</td>
+  <td>03.10.2022</td>
+  <td></td>
+  <td></td>
+  <td><span style="color:crimson"> Feiertag </span></td>
+  </tr>
+  <tr>
+  <td>Mi</td>
+  <td>04.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 15</td>
+  <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
-  <td>Do, 06.10.2022</td>
+  <td>Do</td>
+  <td>05.10.2022</td>
   <td>13-17 Uhr</td>
-  <td>ZE HS 15</td>
+  <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
-  <td>Fr, 07.10.2022</td>
+  <td>Fr</td>
+  <td>06.10.2022</td>
   <td>13-17 Uhr</td>
-  <td><span style="color:crimson"> ZE HS 01</span></td>
+  <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
+  <tr>
+  <td colspan="5"></td>
+  </tr>
+
 <!--
   <tr>
-  <td>Fr, 30.09.2022</td>
+  <td>Fr</td>
+  <td>30.09.2022</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Ausführliche Übungen über alles</td>

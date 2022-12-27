@@ -7,9 +7,21 @@ category: faq
 Hier listen wir Lösungen für Fragen auf, die besonders häufig gestellt werden.
 
 # Windows
-Am Ende der Installationsanleitung gibt es den Punkt
+Am Ende der Installationsanleitungen gibt es den Punkt
 *Problembehandlung*, hier sind Lösungsvorschläge für Probleme bei der Installation aufgelistet.
 
 # Linux
-Am Ende der Linux-Installationsanleitung gibt es eine Erklärung, welche
-Einstellungen für das WLAN `eduroam` an der TU vorgenommen werden sollten.
+
+## <a id="w-lan"></a>W-LAN
+
+Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
+ - Wi-Fi security: WPA- & WPA2-Enterprise
+ - Authentication: Geschütztes EAP (PEAP)
+ - Anonymous Identity:  
+ - Domain: tu-dortmund.de
+ - CA-Zertifikat: T-TeleSec_GlobalRoot_Class_2.crt
+    - zu finden in /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
+ - PEAP-Version: Automatisch
+ - Inner authentication: MSCHAPv2
+ - Username: smxxxxxx@tu-dortmund.de
+ - Passwort: ******* (W-LAN Passwort)

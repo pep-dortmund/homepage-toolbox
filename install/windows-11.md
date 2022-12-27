@@ -2,9 +2,8 @@
 layout: default
 title: Windows-11-Installation α-build
 ---
+<span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 
-*Dies ist eine vorläufige Version für die Installation unter Windows 11.
-Für Rückmeldungen zur Verständlichkeit und Fragen bei Problemen erreicht ihr uns am besten per [E-Mail](mailto:pep-toolbox.physik@lists.tu-dortmund.de).*
 
 __Es treten vermehrt Probleme in der Internetanknüpfung vom WSL2 unter Windows 11 auf, wenn möglich erstmal auf Windows 10 bleiben.__
 
