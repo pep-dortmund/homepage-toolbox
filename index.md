@@ -86,7 +86,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 <tbody>
   <tr>
   <td>Do</td>
-  <td>21.09.2022</td>
+  <td>21.09.2023</td>
   <td>ab 10 Uhr</td>
   <td><span style="color:crimson"> Hybrid </span></td>
   <td>Umstieg auf Linux für Interessierte
@@ -97,35 +97,35 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   </tr>
   <tr>
   <td>Mo</td>
-  <td>25.09.2022</td>
+  <td>25.09.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>26.09.2022</td>
+  <td>26.09.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>27.09.2022</td>
+  <td>27.09.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>28.09.2022</td>
+  <td>28.09.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
   <td>Fr</td>
-  <td>29.09.2022</td>
+  <td>29.09.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Git und abschließende Übungen</td>
@@ -135,35 +135,35 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   </tr>
   <tr>
   <td>Mo</td>
-  <td>02.10.2022</td>
+  <td>02.10.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>03.10.2022</td>
+  <td>03.10.2023</td>
   <td></td>
   <td></td>
   <td><span style="color:crimson"> Feiertag </span></td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>04.10.2022</td>
+  <td>04.10.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>05.10.2022</td>
+  <td>05.10.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Fr</td>
-  <td>06.10.2022</td>
+  <td>06.10.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
@@ -175,7 +175,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 <!--
   <tr>
   <td>Fr</td>
-  <td>30.09.2022</td>
+  <td>30.09.2023</td>
   <td>13-17 Uhr</td>
   <td>tbd</td>
   <td>Ausführliche Übungen über alles</td>

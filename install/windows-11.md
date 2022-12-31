@@ -345,7 +345,7 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an, sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2022.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2023.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
@@ -414,7 +414,7 @@ das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.

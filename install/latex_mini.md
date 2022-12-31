@@ -24,7 +24,7 @@ Dafür fügt ihr die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu.
 Um zu sehen, welche Shell ihr benutzt, könnt ihr `echo $SHELL` im Terminal eingeben.
 Anschließend könnt ihr den Pfad zu Texlive dann mit folgendem Kommando zum `PATH` hinzufügen
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
 Dann sollten noch die Update-Optionen angepasst werden
