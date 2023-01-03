@@ -21,7 +21,7 @@ Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen v
  - Domain: tu-dortmund.de
  - CA-Zertifikat: T-TeleSec_GlobalRoot_Class_2.crt
     - zu finden in `/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt`
-    - oder http://www.pki.tu-dortmund.de/telesec.crt
+    - oder [http://www.pki.tu-dortmund.de/telesec.crt](http://www.pki.tu-dortmund.de/telesec.crt)
  - PEAP-Version: Automatisch
  - Inner authentication: MSCHAPv2
  - Username: smxxxxxx@tu-dortmund.de
