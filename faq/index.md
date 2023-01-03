@@ -12,7 +12,7 @@ Am Ende der Installationsanleitungen gibt es den Punkt
 
 # Linux
 
-## <a id="w-lan"></a>W-LAN
+## <a id="w-lan"></a>W-LAN unter Ubuntu
 
 Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
  - Wi-Fi security: WPA- & WPA2-Enterprise
