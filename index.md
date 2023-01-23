@@ -68,10 +68,8 @@ Bitte beachtet die folgenden Schritte:
 
 ## Ablaufplan 2023
 
-<!--
 An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf)).
 Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
--->
 
 <table class="table table-hover">
 <thead>
@@ -99,35 +97,35 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>Mo</td>
   <td>25.09.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di</td>
   <td>26.09.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi</td>
   <td>27.09.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do</td>
   <td>28.09.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Unix, Make</td>
   </tr>
   <tr>
   <td>Fr</td>
   <td>29.09.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Git und abschließende Übungen</td>
   </tr>
   <tr>
@@ -137,7 +135,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>Mo</td>
   <td>02.10.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
@@ -151,21 +149,21 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>Mi</td>
   <td>04.10.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Do</td>
   <td>05.10.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Fr</td>
   <td>06.10.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
@@ -177,7 +175,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>Fr</td>
   <td>30.09.2023</td>
   <td>13-17 Uhr</td>
-  <td>tbd</td>
+  <td>ZE HS 01</td>
   <td>Ausführliche Übungen über alles</td>
   </tr>
 -->
