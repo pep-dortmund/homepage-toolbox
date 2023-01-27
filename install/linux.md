@@ -12,28 +12,26 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio
 
 
 <div class="row" style="padding: 10px">
+  <div class="col-md-1" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
   Testen
   </a>
   </div>
+  <div class="col-md-2" align="center"></div>
   <div class="col-md-4" align="center">
   <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
   Aktualisieren
   </a>
   </div>
-  <div class="col-md-4" align="center">
-  <a href="#w-lan" class="btn btn-secondary btn-lg btn-block" role="button">
-  W-Lan
-  </a>
-  </div>
+  <div class="col-md-1" align="center"></div>
 </div>
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben und mit Enter bestätigen**
+**Wichtig: Befehle die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben und mit Enter bestätigen.**
 
-Es werden die Installationen für die verbreitetsten Distributionen angegeben.
+Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
 Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu) ausführen.
 
 Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit einem `sudo` Befehl sollte penibel geprüft werden.
@@ -63,7 +61,7 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 - Debian, Ubuntu, Mint:
 
   Ladet die Datei `codium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
-  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`
+  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
 
 - Fedora
 
@@ -75,7 +73,7 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
       $ sudo pacman -S code
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit klick auf den `install` Button.
+Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit einem Klick auf den `install` Knopf.
 
 ### Anaconda
 
@@ -86,7 +84,7 @@ __Wichtig__: Wir wollen Python 3.9 für Linux. [64-Bit (x86) Installer]
 Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
 
 ```
-$ bash Anaconda3-2022.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+$ bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
@@ -101,8 +99,8 @@ conda activate
 oder schreibt die beiden Zeilen mit den beiden folgenden Befehlen in die `~/.bashrc`
 
 ```
-echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
-echo 'conda activate' >> ~/.bashrc
+$ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
+$ echo 'conda activate' >> ~/.bashrc
 ```
 
 Schließt die aktuelle Konsole und öffnet eine neue.
@@ -131,7 +129,7 @@ das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
@@ -251,17 +249,3 @@ Im Terminal:
 Im Terminal:
 
     $ tlmgr update --self --all --reinstall-forcibly-removed
-
-## <a id="w-lan"></a>W-LAN
-
-Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
- - Wi-Fi security: WPA- & WPA2-Enterprise
- - Authentication: Geschütztes EAP (PEAP)
- - Anonymous Identity:  
- - Domain: tu-dortmund.de
- - CA-Zertifikat: T-TeleSec_GlobalRoot_Class_2.crt
-    - zu finden in /usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt
- - PEAP-Version: Automatisch
- - Inner authentication: MSCHAPv2
- - Username: smxxxxxx@tu-dortmund.de
- - Passwort: ******* (W-LAN Passwort)

@@ -2,6 +2,7 @@
 layout: default
 title: Windows-Installation
 ---
+<span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
@@ -402,8 +403,8 @@ Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows 
 Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
 Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
 
-Um den X-Server in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_ 
-in den _Autostart_-Ordner kopiert werden. 
+Um den X-Server in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_
+in den _Autostart_-Ordner kopiert werden.
 
 Die Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und einem anschließenden `Linksklick`,
 auf _Verknüpfung erstellen_ durchgeführt werden.
@@ -415,7 +416,7 @@ Verknüpfungen haben grundsätzlich das selbe Icon wie die verknüpfte Datei, si
 
 <img alt="" src="/img/xserver/xserver-17.png" class="screenshot" />
 
-Der _Autostart_-Ordner kann am einfachsten durch die Suche (wie zuvor 
+Der _Autostart_-Ordner kann am einfachsten durch die Suche (wie zuvor
 im Startmenü oder über das Lupen-Icon) nach dem Begriff _autostart_ geöffnet werden.
 
 <img alt="" src="/img/xserver/xserver-18.png" class="screenshot" />
@@ -539,7 +540,7 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 **Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
 Passt den Befehl an, sollte dies nicht der Fall sein.
 ```
-bash Anaconda3-2022.05-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
 ```
 
 Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
