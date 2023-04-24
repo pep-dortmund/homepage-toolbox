@@ -17,7 +17,7 @@ Am Ende der Installationsanleitungen gibt es den Punkt
 Um das eduroam-Netz an der TU Dortmund einzurichten, können folgende Optionen verwendet werden:
  - Wi-Fi security: WPA- & WPA2-Enterprise
  - Authentication: Geschütztes EAP (PEAP)
- - Anonymous Identity:
+ - Anonymous Identity: telesec@tu-dortmund.de
  - Domain: tu-dortmund.de
  - CA-Zertifikat: `T-TeleSec_GlobalRoot_Class_2.crt`, zu finden in
     1. `/etc/ssl/certs/T-TeleSec_GlobalRoot_Class_2.pem` (z.B. Ubuntu 22.04)
