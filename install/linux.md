@@ -75,41 +75,24 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
 Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit einem Klick auf den `install` Knopf.
 
-### Anaconda
+### Mambaforge
 
-__Wichtig__: Wir wollen Python 3.9 für Linux. [64-Bit (x86) Installer]
-
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und Bibliotheken
-
-Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
-
+Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
+```bash
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge -b
+source "${HOME}/.local/mambaforge/etc/profile.d/mamba.sh"
+mamba activate
+mamba init ${0//-}
 ```
-$ bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+Damit ist die allgemeine Python Umgebung installiert.
+Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
+```bash
+mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab
 ```
-
-ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
-
-Öffnet die Datei `~/.bashrc` und fügt diese beiden Zeilen am Ende hinzu:
-
-```
-. $HOME/.local/anaconda3/etc/profile.d/conda.sh
-conda activate
-```
-
-oder schreibt die beiden Zeilen mit den beiden folgenden Befehlen in die `~/.bashrc`
-
-```
-$ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
-$ echo 'conda activate' >> ~/.bashrc
-```
-
-Schließt die aktuelle Konsole und öffnet eine neue.
-Am Anfang eures Prompts sollte ein `(base)` stehen.
-
-### Uncertainties
-
-```
-$ pip install uncertainties
+Diese startet ihr mit
+```bash
+mamba activate toolbox
 ```
 
 ### TeXLive
@@ -232,17 +215,11 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Mambaforge
 
 Im Terminal:
 
-    $ conda update anaconda
-
-### Uncertainties
-
-Im Terminal:
-
-    $ pip install -U uncertainties
+    $ mamba update --all
 
 ### TeXLive
 

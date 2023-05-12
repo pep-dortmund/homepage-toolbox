@@ -42,20 +42,32 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Codium (od
 
 ### Command Line Tools
 
-Die command line tools beinhalten unter anderem Git und einen C/C++ Compiler.
+Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
 Zur Installation folgendes im Terminal eingeben
 ```bash
 xcode-select --install
 ```
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
-### Anaconda
+### Mambaforge
 
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
-  Bibliotheken
-
-__Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
-Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
+Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
+```bash
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge -b
+source "${HOME}/.local/mambaforge/etc/profile.d/mamba.sh"
+mamba activate
+mamba init ${0//-}
+```
+Damit ist die allgemeine Python Umgebung installiert.
+Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
+```bash
+mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab
+```
+Diese startet ihr mit
+```bash
+mamba activate toolbox
+```
 
 ### Texteditor VSCodium
 
@@ -177,17 +189,12 @@ Im Terminal:
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Mambaforge
 
 Im Terminal:
-
-    conda update anaconda
-
-### Uncertainties
-
-Im Terminal:
-
-    pip install -U uncertainties
+```bash
+    mamba update --all
+```
 
 ### TeXLive
 

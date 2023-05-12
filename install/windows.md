@@ -500,97 +500,25 @@ Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt w
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
-### Anaconda
+### Mambaforge
 
-Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
-Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
-
-[Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
-
-Auf der Website ist es wichtig, dass die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.9 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
-Der Download kann einige Minuten in Anspruch nehmen.
-
-<img alt="" src="/img/anaconda/anaconda-1.png" class="screenshot" />
-
-Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
-deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
-
-
-Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
-`Entertaste` bestätigt.
+Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
+```bash
+curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge -b
+source "${HOME}/.local/mambaforge/etc/profile.d/mamba.sh"
+mamba activate
+mamba init ${0//-}
 ```
-cd Desktop
+Damit ist die allgemeine Python Umgebung installiert.
+Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
+```bash
+mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab
 ```
+Diese startet ihr mit
+```bash
+mamba activate toolbox
 ```
-ls
-```
-Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
-Der aktuelle Pfad wird in Blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das Öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
-so ist der erste Befehl nicht mehr notwendig.)
-
-Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
-In dieser Liste muss sich auch die zuvor auf den Desktop
-kopierte Installationsdatei für Anaconda befinden.
-
-Zum Installieren muss der folgende Befehl ausgeführt werden.
-**Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
-Passt den Befehl an, sollte dies nicht der Fall sein.
-```
-bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
-```
-
-Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
-
-<img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
-
-Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
-
-Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben
-und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
-eingehalten werden. Da hier besonders darauf geachtet werden muss, keinen Tippfehler zu machen,
-empfiehlt es sich hier (mehr als sonst), die Befehle zu kopieren und einzufügen.
-
-```
-echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
-```
-```
-echo 'conda activate' >> ~/.bashrc
-```
-
-<img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
-
-Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
-so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
-
-<img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
-
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2021.11-Linux-x86_64.sh_
-vom Desktop gelöscht werden.
-
-__Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
-
-
-### Uncertainties
-
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
-können auf der verlinkten Website gefunden werden.
-
-[Uncertainties Website](http://pythonhosted.org/uncertainties/)
-
-Installiert werden kann Uncertainties über die Bash-Kommandozeile. In diese muss der folgende Befehl
-eingetragen werden.
-
-```
-pip install uncertainties
-```
-
-<img alt="" src="/img/anaconda/uncertainties-1.png" class="screenshot" />
-
-
 
 ### TeXLive
 
@@ -635,7 +563,7 @@ Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#
 
 ### Python
 
-Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
+Um die Python Installation zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
 geschlossen und ein neues geöffnet werden.
 Zusätzlich muss auch das Programm XLaunch über die zuvor angelegte Datei _Praktikum.xlaunch_ gestartet werden.
 
@@ -763,18 +691,11 @@ behoben werden.
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Mambaforge
 
-Um Updates für Anaconda zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
-```
-conda update anaconda
-```
-### Uncertainties
-
-Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in eine Bash-Kommandozeile eingegeben.
-
-```
-    pip install -U uncertainties
+Um Updates für Mambaforge zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
+```bash
+mamba update -all
 ```
 
 ### Git, Make und weitere Unix-Tools
