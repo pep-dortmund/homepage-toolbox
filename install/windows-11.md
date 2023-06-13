@@ -305,7 +305,7 @@ Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt w
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
-### Mambaforge
+### Python Installation: Mambaforge
 
 Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
 ```bash
@@ -318,7 +318,7 @@ mamba init ${0//-}
 Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
 ```bash
-mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab
+mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab ipython
 ```
 Diese startet ihr mit
 ```bash
@@ -476,7 +476,7 @@ behoben werden.
 
 ## <a id="update"></a>Aktualisieren
 
-### Mambaforge
+### Python Updates: Mambaforge
 
 Um Updates für Mambaforge zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
 ```bash

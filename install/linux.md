@@ -75,7 +75,7 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
 Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit einem Klick auf den `install` Knopf.
 
-### Mambaforge
+### Python Installation: Mambaforge
 
 Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
 ```bash
@@ -88,7 +88,7 @@ mamba init ${0//-}
 Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
 ```bash
-mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab
+mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab ipython
 ```
 Diese startet ihr mit
 ```bash
@@ -215,7 +215,7 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ## <a id="update"></a>Aktualisieren
 
-### Mambaforge
+### Python Update: Mambaforge
 
 Im Terminal:
 
