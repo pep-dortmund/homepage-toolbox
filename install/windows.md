@@ -507,6 +507,7 @@ Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
 curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
 bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge -b
 source "${HOME}/.local/mambaforge/etc/profile.d/conda.sh"
+source "${HOME}/.local/mambaforge/etc/profile.d/mamba.sh"
 mamba activate
 mamba init ${0//-}
 ```
