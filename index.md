@@ -14,8 +14,8 @@ Damit richtet er sich vorrangig an die kommenden Drittsemester.
 Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
 ## Anmeldung & Umfrage
-Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2023 verpflichtend.
-Ein Hörsaal steht noch nicht fest, wenn dieser feststeht, erfahrt ihr es hier oder per E-Mail.
+Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2023 verpflichtend,
+darüber werden wir euch noch an den Start des Workshops erinnern und mögliche Abweichungen mitteilen.
 
 Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
 So haben wir einen Eindruck davon welche Vorkenntnisse und Interessen bestehen
@@ -60,8 +60,8 @@ Es bietet hervorragenden Formelsatz, automatisiertes erstellen von Inhaltsverzei
 
 Bitte beachtet die folgenden Schritte:
 
-- Die Software vorher [installieren](/install)
-  - Bei Problemen können wir gerne per [Mail](about.html) oder beim betreuten Installieren helfen.
+- Die Software vorher [installieren](/install)!
+  - Bei Problemen können wir gerne per [Mail](problem.html) oder beim betreuten Installieren helfen.
   - Einen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
   - Verlängerungskabel/Mehrfachstecker mitbringen (falls möglich)
 

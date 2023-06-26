@@ -19,8 +19,7 @@ Die Organisatoren sind dieses Jahr
 
   - Christian Beckmann
   - Sebastian Lütge
-  - Stefan Grisard
-  - Maximilian Nöthe
+  - Maximilian Linhoff
   - Joshua Luckey
 
 Ihr könnt uns über die folgende Mail-Adresse erreichen: [pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de).
