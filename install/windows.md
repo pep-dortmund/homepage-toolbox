@@ -8,24 +8,35 @@ Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betrie
 Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
 
 
-__Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
+__Bitte die folgenden Punkte unbedingt lesen:__
 
-Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
-Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
++ Diese Anleitung mag relativ lang erscheinen und im ersten Moment abschreckend wirken.
+Wir versichern euch, dass diese Länge aber viel mehr ein Zeichen von Ausführlichkeit
+ist, um sicherzustellen, dass ihr auch folgen könnt, wenn ihr bisher keine Berührungen
+mit den Inhalten des Toolbox Workshops hattet. 
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und VSCodium (oder einen anderen Texteditor) und TeXLive installieren.
++ Befolgt die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
+und kontrolliert jedesmal, dass die ihr die Befehle richtig kopiert oder abgetippt habt.
+
++ Alle drei Abschnitt (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
+Den Beginn jedes dieser drei Abschnitte erreicht ihr über die drei Buttons unter der Einleitung. 
+
+
++ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringt diesen Schritt nicht einfach,
+sondern meldet euch bei uns. Unter [Hilfe](/problem.html) findet ihr die Hinweise wie ihr uns 
+am besten kontaktieren könnt.
+
+
+Falls falls ihr __nicht__ am LaTeX-Kurs teilnehmen wollt, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
+Dann könnt ihr allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
+
+Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, solltet ihr mindestens die Abschnitte <a href="#SumatraPDF">Sumatra PDF</a>, 
+<a href="#VSCode">Visual Studio Code</a> und <a href="#TeXLive">TeXLive </a> durcharbeiten.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"},
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
 
-__Die Installationsanleitung wirkt lang, das liegt daran, dass
-wir jeden Schritt erklären und fast immer Screenshots eingefügt haben.__
-
-__Lest euch jeden Schritt durch, stellt sicher,
-dass Befehle richtig kopiert oder abgetippt wurden.
-Falls etwas nicht funktioniert findet ihr unter [Hilfe](/problem.html)
-die Hinweise wie ihr uns am besten kontaktieren könnt.__
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
@@ -203,7 +214,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 <img alt="" src="/img/explorer/explorer-2.png" class="screenshot" />
 
 
-### Visual Studio Code
+### <a id="VSCode"></a>Visual Studio Code
 
 Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
 Drüber hinaus hat dieser auch noch viele weitere Funktionen.
@@ -271,7 +282,7 @@ Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
 <img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
 
-### Sumatra PDF
+### <a id="SumatraPDF"></a>Sumatra PDF
 
 Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
@@ -592,7 +603,7 @@ pip install uncertainties
 
 
 
-### TeXLive
+### <a id="TeXLive"></a>TeXLive
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
