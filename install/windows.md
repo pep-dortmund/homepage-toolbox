@@ -34,7 +34,7 @@ Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, solltet ihr mindestens die Abs
 <a href="#VSCode">Visual Studio Code</a> und <a href="#TeXLive">TeXLive </a> durcharbeiten.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
-Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"},
+Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 
@@ -59,20 +59,47 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ## <a id="Installation"></a>Installation
 
+### Vorbereitungen
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
 
 <img alt="" src="/img/wsl/win10-64bit-1.png" class="screenshot"/>
 
-In der Liste am linken Rand lautet der letzte Punkt `Info` (dieser sollte bereits ausgewählt sein).
-Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystems gesehen werden.
+In der Liste am linken Rand lautet der letzte Punkt _Info_ (dieser sollte bereits ausgewählt sein).
+Unter dem Schlagwort _Systemtyp_ kann die Art des Betriebssystems gesehen werden.
 
 <img alt="" src="/img/wsl/win10-64bit-2.png" class="screenshot" />
+
+In diesem Fenster erhaltet ihr noch eine weitere Info, die _Betriebsystembuild_-Nummer.
+
+
+<img alt="" src="/img/wsl/win10-buildnumber.png" class="screenshot" />
+
+
+Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
+Um diese Vereinfachungen nutzen zu können, muss dies Nummer vor dem `.` mindestens `19041` sein.
+
+Sollte eure Nummer niedriger sein, empfehlen wir euch die Updates für eure Windows-Installation 
+zu installieren. Dafür könnt ihr in dem obigen _Info_-Fentser in der Suchleiste nach "Update"
+suchen und den Punkt _Nach Updates suchen_ auswählen.
+
+
+<img alt="" src="/img/wsl/win10-updates-1.png" class="screenshot" />
+
+Anschließend könnt ihr über den Button `Nach Updates suchen` fehlende Updates installieren.
+
+<img alt="" src="/img/wsl/win10-updates-2.png" class="screenshot" />
+
+Überprüft nach der Installation der Updates und einem Neustart eures PCs nocheinmal die 
+_Betriebsystembuild_-Nummer. Sollte diese immernoch nicht passen, meldet euch bei uns.
+
+
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
 ### Windows Subsystem for Linux (WSL)
+
 
 #### Aktivierung des WSL
 Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
