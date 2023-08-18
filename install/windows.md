@@ -59,7 +59,7 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ## <a id="Installation"></a>Installation
 
-### Vorbereitungen
+### <a id="Vorbereitungen"></a>Vorbereitungen
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
@@ -100,69 +100,47 @@ _Betriebsystembuild_-Nummer. Sollte diese immernoch nicht passen, meldet euch be
 
 ### Windows Subsystem for Linux (WSL)
 
+Diese Anleitung funktioniert nur mit der passenden _Betriebsystembuild_-Nummer,
+siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
-#### Aktivierung des WSL
-Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. Eine Möglichkeit dafür
-bietet die im Bild gezeigte Suche (die Lupe in der Startleiste), in dem in diese der Suchbegriff
-_PowerShell_ eingegeben wird. Alternativ kann auch im Startmenü (Windows-Symbol in der Startleiste)
-gesucht werden. Öffnet man dieses mit einem `Linksklick`, so öffnet sich die Suche, nachdem man einen
-Buchstaben über die Tastatur eingibt.
+#### Installation des WSL 
+Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. 
+Eine Möglichkeit dafür ist das Öffnen des Windows-Stratmenüs. Durch Tippen des
+Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klickt auf der rechten
+Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
 
-<img alt="" src="/img/wsl/wsl-0.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
 
-Mit einem `Rechtsklick` auf _Windows PowerShell_
-das Kontextmenü zu öffnen. Dann kann die Anwendung mit `Linksklick` auf _Als Administrator ausführen_
-gestartet werden.
-
-<img alt="" src="/img/wsl/wsl-1.png" class="screenshot" />
 
 In den meisten Fällen wird das folgende Fenster erscheinen. Dieser kann einfach _Ja_ bestätigt werden.
+Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
-<img alt="" src="/img/wsl/wsl-2.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
+
 
 Nun öffnet sich ein Fenster wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicher zugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
-<img alt="" src="/img/wsl/wsl-3.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
 
 In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
-Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+wsl --install 
 ```
-<img alt="" src="/img/wsl/wsl-4.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-wsl-install.png" class="screenshot" />
 
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-Die darauf folgende Abfrage ob der Computer neu gestartet werden soll,
-kann durch einen weiteren Druck auf die `Enter`-Taste bestätigt werden.
+Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige 
+stilisierte Ladebalken angezeigt. Nachdem erfolgreichen Abschluss dieses Vorgangs sieht die 
+Ausgabe wie folgt aus
 
-<img alt="" src="/img/wsl/wsl-5.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
 
-Nachdem der Computer neu gestartet wurde, ist das WSL nun aktiviert.
-Der nächste Schritt ist die Auswahl der Linux Variante, die in diesem
-Subsystem installiert werden soll.
-
-#### Installation der Linux Variante Ubuntu
-
-Öffne den Microsoft Store, dieser kann mit der Suchfunktion und dem Stichpunkt
-_Store_ oder _Shop_ gefunden werden.
-Gib in der Suchleiste Ubuntu ein und wähle _Ubuntu_ aus.
-
-<img alt="" src="/img/windows-ubuntu/wsl-store-1.png" class="screenshot" />
-
-Auf der linken Seite kann dann Ubuntu installiert werden,
-
-<img alt="" src="/img/windows-ubuntu/wsl-store-2.png" class="screenshot" />
-
-Nachdem der Download abgeschlossen ist, kann die Installation, durch einen `Linksklick`
-auf die Schaltfläche _Starten_ gestartet werden.
-
-Auch diese Installation kann einige Minuten in Anspruch nehmen.
-
-<img alt="" src="/img/windows-ubuntu/wsl-install-1.png" class="screenshot" />
+Wie der letzten Zeile zu entnehmen ist, muss der PC nun einmal neu gestartet werden.
 
 #### Einrichten eines Benutzerkontos
 
