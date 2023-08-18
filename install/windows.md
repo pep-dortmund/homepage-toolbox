@@ -60,14 +60,15 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 ## <a id="Installation"></a>Installation
 
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
-Hierfür klickt man auf das Windows-Symbol und dann auf das Zahnrad, um die Einstellungen zu öffnen.
+Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
+gefolgt von einem `Linksklick` auf _System_.
 
-<img alt="" src="/img/wsl/system-64bit-1.png" class="screenshot"/>
+<img alt="" src="/img/wsl/win10-64bit-1.png" class="screenshot"/>
 
-Dann wählt man den ersten Punkt `System` aus. In der Liste am linken Rand lautet der letzte Punkt `Info`.
+In der Liste am linken Rand lautet der letzte Punkt `Info` (dieser sollte bereits ausgewählt sein).
 Unter dem Schlagwort `Systemtyp` kann die Art des Betriebssystems gesehen werden.
 
-<img alt="" src="/img/wsl/system-64bit-2.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-64bit-2.png" class="screenshot" />
 
 **Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
 
