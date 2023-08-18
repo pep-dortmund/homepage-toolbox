@@ -142,7 +142,12 @@ Ausgabe wie folgt aus
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC nun einmal neu gestartet werden.
 
-#### Einrichten eines Benutzerkontos
+Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
+Installation durch Einrichten des Benutzerkontos abgeschlossen werden kann.
+
+<img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
+
+#### <a id="Einrichten des Benutzerkontos">Einrichten eines Benutzerkontos
 
 Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
 das Linux-Betriebssystem einzugeben.
@@ -151,30 +156,35 @@ Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/windows-ubuntu/wsl-install-2.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username.png" class="screenshot" />
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
 Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
-
-<img alt="" src="/img/windows-ubuntu/wsl-install-3.png" class="screenshot" />
-
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
+
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
+
+
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
-so muss dieses erneut (zweimal) eingegeben werden.
+so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
+
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1.png" class="screenshot" />
+
+Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zweimal eingegeben werden).
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im Screenshot gezeigte Ausgabe.
-Die unterste Zeile besteht aus zwei Teilen.
-Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
+Die letzte Zeile (hier: `luckyjosh@DESKTOP-L02KDEF:~$`) besteht aus zwei Teilen.
+Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (hier: `luckyjosh`) und dem Computernamen (hier: `DESKTOP-L02KDEF`) zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
-mit dem Linux-Betriebssystem verwendet wird. Eine Einführung in den Umgang erfolgt während
-des Workshops, im Folgenden wird diese jedoch schon zur
-Installation der benötigten Software verwendet.
+mit dem Linux-Betriebssystem verwendet wird. Eine detaliertere Einführung in den Umgang erfolgt während
+des Workshops, im Folgenden wird diese jedoch schon zur Installation der benötigten Software verwendet.
 
-<img alt="" src="/img/windows-ubuntu/wsl-install-4.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
 
 ### Windows Terminal
 
