@@ -240,16 +240,16 @@ Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ### Dateiendungen einschalten
 
-Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
-Diese können und sollen aktiviert werden.
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, zB `.pdf` für pdf Dokumente) 
+sind unter Windows nicht Standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
-Dafür wird in der Taskleiste auf das Windows-Symbol, oder die Lupe geklickt und `Dateien` eingegeben.
+Diese Einstellung kann im Explorer vorgenommen werden. Wie zuvor kann dieser auch durch suchen im Startmenü gefunden und gestartet werden.
 
-<img alt="" src="/img/explorer/explorer-1.png" class="screenshot" />
+<img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
 
-In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden.
+In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden (ein Schwarzer Haken muss im Kästchen zu sehen sein).
 
-<img alt="" src="/img/explorer/explorer-2.png" class="screenshot" />
+<img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
 
 
 ### <a id="VSCode"></a>Visual Studio Code
