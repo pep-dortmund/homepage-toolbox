@@ -176,7 +176,7 @@ Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zw
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
-erhält man die im Screenshot gezeigte Ausgabe.
+erhält man die im nächsten Screenshot gezeigte Ausgabe.
 Die letzte Zeile (hier: `luckyjosh@DESKTOP-L02KDEF:~$`) besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (hier: `luckyjosh`) und dem Computernamen (hier: `DESKTOP-L02KDEF`) zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
@@ -186,35 +186,57 @@ des Workshops, im Folgenden wird diese jedoch schon zur Installation der benöti
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
 
+Vor dem nächsten Abschnitt könnt ihr das Terminal-Fenster schließen.
+
 ### Windows Terminal
 
-Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Für die Installation
-des Programms benötigt ihr mindestens die Windows-Version 18362.0. Ihr könnt eure Windows-Version
-unter Start/Einstellungen/System/Info überprüfen. Dort findet ihr unter Windows-Spezifikationen eine Nummer
-neben Betriebssystembuild, die größer oder gleich 18362.0 sein muss. Falls eure Version zu alt ist, könnt ihr unter
-Start/Einstellungen/Update-und-Sicherheit/Windows-Update ein System-Update durchführen.
+Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Das Windows Terminal kann 
+aus dem Microsoft Store installiert werden.
 
-Das Windows Terminal könnt ihr aus dem Microsoft Store installieren.
-Sucht dafür nach _Terminal_:
+Auch der Microsoft Store kann über die Suche im Startmenü gefunden werden:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-1.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-store-1.png" class="screenshot" />
 
-Nach der Installation startet das Programm. Es erscheint folgendes Fenster:
+Suche im Microsoft Store nach `Terminal` und Auswahl von _Windows Terminal_:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-2.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-store-2.png" class="screenshot" />
 
-Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
-klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü:
+Und im folgenden Fenster `Herunterladen` anklicken:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-3.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
 
-Klickt auf _Einstellungen_/_Settings_, um die Einstellungen zu öffnen.
+Im Anschluss an die Installation kann der Mircosoft Store geschlossen werden. 
+
+Das Windows Terminal kann über das Startmenü geöffnet werden. Direkt nach der Installation
+befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kann hier wieder
+die Suche verwendet werden. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der 
+rechten Spalte.
+
+<img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
+
+Beim ersten Öffnen des Windows Terminals erscheint ein Informations-Banner am oberen Fensterrand,
+dass mit dem `X` am rechten Rand geschlossen werden kann.
+
+<img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
+
+Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
+Um eine Ubuntu-Kommandozeile zu öffnen, klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
+in dem `Einstellungen` angeklickt werden muss:
+
+<img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
+
 Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
 standardmäßig Ubuntu öffnet.
-Unter dem Punkt _Startup_ → _Default Profile_ muss _Ubuntu_ ausgewählt werden.
-Speichert die Änderungen dann ab.
+Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch klicken 
+auf den Pfeil nach unten öffnet sich eine Auswahl.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-4.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
+
+In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
+
+<img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
+
+Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ### Dateiendungen einschalten
 
