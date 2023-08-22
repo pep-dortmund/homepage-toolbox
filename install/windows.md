@@ -207,7 +207,7 @@ des Workshops, im Folgenden wird diese jedoch schon zur Installation der benöti
 
 Vor dem nächsten Abschnitt könnt ihr das Terminal-Fenster schließen.
 
-### Windows Terminal
+### <a id="WindowsTerminal"></a>Windows Terminal
 
 Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Das Windows Terminal kann 
 aus dem Microsoft Store installiert werden.
