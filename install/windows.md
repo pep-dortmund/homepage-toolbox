@@ -366,9 +366,12 @@ Nach dem abgeschlossenen Download, muss nun der der Downloads-Ordner (in dem die
 im Windows Terminal geöffnet werden. In diese werden dafür nacheinander die folgenden Befehle 
 eingegeben und jeweils mit Drücken der `Entertaste` bestätigt.
 
-
+---
 **Wichtig:** Im ersten Befehl muss `<Windows-Benutzername>` durch euren Windows-Benutzernamen ersetzt werden
 (siehe <a href="#WindowsBenutzername">Windows-Benutzername</a>).
+
+---
+
 ```
 cd /mnt/c/Users/<Windows-Benutzername>/Downloads
 ```
