@@ -676,20 +676,6 @@ kann das Programm _ipython_ im Anschluss beendet werden
 
 
 
-### Uncertainties
-
-Auch Uncertainties wird über die Bash-Kommandozeile getestet. In diese werden die folgenden Befehle
-nacheinander eingegeben. Nach Eingabe des ersten Befehls wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
-
-```
-ipython
-```
-```
-import uncertainties
-```
-
-Es sollte keine Fehlermeldung erscheinen.
-
 ### Make
 
 Make kann durch Öffnen einer Bash-Kommandozeile und durch Eingeben des folgenden Befehls getestet werden.
