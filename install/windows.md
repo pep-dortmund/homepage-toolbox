@@ -274,17 +274,10 @@ Im Terminal muss **jeder Codeblock einzeln** eingeben und mit `Enter` bestätigt
 Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
 (wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü). 
 
-
-### Git, Make und weiteres
-
-Für die Installation der beiden Programme git und make muss zunächst eine
-Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
-über den oben beschriebenen Eintrag im Kontextmenü.
-Wie unten gezeigt wird in dieses Fenster nun der Befehl
+Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden: 
 ```
 sudo apt update
 ```
-eingetragen. Und mit Drücken der `Entertaste` bestätigt.
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
 Internetverbindung voraus über die einige 100 MB große Datenmengen heruntergeladen
 werden können.
