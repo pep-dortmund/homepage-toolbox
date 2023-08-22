@@ -487,17 +487,37 @@ TeXLive zu installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
 
-### <a id="VSCode"></a>Visual Studio Code
+### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
 Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
 Drüber hinaus hat dieser auch noch viele weitere Funktionen.
-Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
+Die Installationsdatei `VSCodeUserSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
 
-[Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
+[Download VSCode](https://code.visualstudio.com/download){:target="_blank"}
 
-In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusätzliche Aufgaben auswählen` die Standard-Optionen gewählt werden.
-Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
-Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
+
+<img alt="" src="/img/vscodium/vscode-download.png" class="screenshot" />
+
+Durch doppelten Linksklick auf die heruntergeladene Datei (im Downloads-Ordner) öffnet sich das Installations-Setup.
+Die Einstellungen während des Setups können aus den folgenden Screenshots entnommen werden:
+
+
+
+<img alt="" src="/img/vscodium/vscode-install-1.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-install-2.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-install-3.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-install-4.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-install-5.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-install-6.png" class="screenshot" />
+
+
+Beim ersten Start von VSCode nach der Installation, wird in der rechten unteren Ecke eine Infobox angezeigt,
+in dieser muss der Button `Install` angeklickt werden.
+
+
+<img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" class="screenshot" />
+
+
 
 Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
 um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
