@@ -262,104 +262,6 @@ Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ---
 
-### <a id="VSCode"></a>Visual Studio Code
-
-Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
-Drüber hinaus hat dieser auch noch viele weitere Funktionen.
-Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
-
-[Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
-
-In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusätzliche Aufgaben auswählen` die Standard-Optionen gewählt werden.
-Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
-Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
-
-Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
-um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
-(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
-für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
-
-Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_-Menü.
-
-<img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
-
-In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
-in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
-dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
-Es ist möglich, dass die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
-
-Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt werden,
-indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
-Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
-
-<img alt="" src="/img/vscodium/vscode-2.png" class="screenshot" />
-
-Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
-
-Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
-in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
-
-<img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
-
-Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
-zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
-Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
-Sprache nicht gewünscht ist.
-
-Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
-Eingabefenster in dem nach Einstellungen gesucht werden kann.
-
-<img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
-
-Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
-der `Entertaste` ausgewählt werden.
-
-<img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
-
-Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
-Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
-`"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
-werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
-
-<img alt="" src="/img/vscodium/vscode-6.png" class="screenshot" />
-
-Mit `Strg + Shift + ö` oder über den Punkt _Terminal_ → _Neues Terminal_ kann ein Terminal in VSCodium geöffnet werden.
-Klickt rechts auf den Pfeil nach unten, neben dem `+`,
-und wählt den Punkt _Select Default Profile_ aus.
-Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
-
-<img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
-
-### <a id="SumatraPDF"></a>Sumatra PDF
-
-Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
-Den Download findet man unter dem folgenden Link.
-
-[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
-
-Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
-hervorgehobenen Link heruntergeladen werden.
-
-<img alt="" src="/img/sumatra/sumatra-1.png" class="screenshot" />
-
-
-Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
-Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
-die _Optionen_ geöffnet.
-In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben.
-Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
-
-Starte Sumatra und öffne das Optionsmenü wie im Screenshot gezeigt.
-
-<img alt="" src="/img/sumatra/sumatra-2.png" class="screenshot" />
-
-Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen.
-
-<img alt="" src="/img/sumatra/sumatra-3.png" class="screenshot" />
-
 
 ### X-Server
 Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
@@ -684,6 +586,112 @@ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
 gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
+
+
+
+### <a id="VSCode"></a>Visual Studio Code
+
+Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
+Drüber hinaus hat dieser auch noch viele weitere Funktionen.
+Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
+
+[Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
+
+In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusätzliche Aufgaben auswählen` die Standard-Optionen gewählt werden.
+Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
+Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
+
+Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
+um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
+(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
+für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
+
+Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_-Menü.
+
+<img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
+
+In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
+in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
+dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
+Es ist möglich, dass die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
+
+Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt werden,
+indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
+Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
+
+<img alt="" src="/img/vscodium/vscode-2.png" class="screenshot" />
+
+Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
+
+Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
+in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
+
+<img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
+
+Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
+Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
+Sprache nicht gewünscht ist.
+
+Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
+Eingabefenster in dem nach Einstellungen gesucht werden kann.
+
+<img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
+
+Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
+der `Entertaste` ausgewählt werden.
+
+<img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
+
+Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
+Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
+`"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
+werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
+
+<img alt="" src="/img/vscodium/vscode-6.png" class="screenshot" />
+
+Mit `Strg + Shift + ö` oder über den Punkt _Terminal_ → _Neues Terminal_ kann ein Terminal in VSCodium geöffnet werden.
+Klickt rechts auf den Pfeil nach unten, neben dem `+`,
+und wählt den Punkt _Select Default Profile_ aus.
+Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
+
+<img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
+
+### PDF-Betrachter
+
+#### <a id="SumatraPDF"></a>Sumatra PDF
+
+Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
+Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
+Den Download findet man unter dem folgenden Link.
+
+[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
+
+Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
+hervorgehobenen Link heruntergeladen werden.
+
+<img alt="" src="/img/sumatra/sumatra-1.png" class="screenshot" />
+
+
+Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
+Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
+die _Optionen_ geöffnet.
+In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
+bereits eingetragene Dateipfad ist kann unverändert bleiben.
+Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
+
+Starte Sumatra und öffne das Optionsmenü wie im Screenshot gezeigt.
+
+<img alt="" src="/img/sumatra/sumatra-2.png" class="screenshot" />
+
+Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen.
+
+<img alt="" src="/img/sumatra/sumatra-3.png" class="screenshot" />
+
+#### <a id="evince"></a>Evince
+
+
 
 
 __Jetzt noch die Installation [testen](#test)!__
