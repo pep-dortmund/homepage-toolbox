@@ -447,23 +447,6 @@ aus dem Downloads-Ordner gelöscht werden.
 __Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
 
 
-### Uncertainties
-
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
-können auf der verlinkten Website gefunden werden.
-
-[Uncertainties Website](http://pythonhosted.org/uncertainties/)
-
-Installiert werden kann Uncertainties über die Bash-Kommandozeile. In diese muss der folgende Befehl
-eingetragen werden.
-
-```
-pip install uncertainties
-```
-
-<img alt="" src="/img/anaconda/uncertainties-1.png" class="screenshot" />
-
-
 
 ### <a id="TeXLive"></a>TeXLive
 
