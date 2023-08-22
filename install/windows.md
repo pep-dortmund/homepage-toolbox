@@ -400,7 +400,6 @@ Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt ein
 Internetverbindung voraus über die einige 100 MB große Datenmengen heruntergeladen
 werden können.
 
-
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
@@ -465,76 +464,103 @@ Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt w
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
 
-### Anaconda
+### <a id="Mambaforge"></a>Mambaforge: Python Installation
 
-Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
-Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
+Für die Installation der Programme, die nötig sind um die Programmiersprache Python komfortabel
+nutzen zu können verwenden wir das Tool `mamba`.
 
-[Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
+Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann unter dem angegebenen Link heruntergeladen werden.
 
-Auf der Website ist es wichtig, dass die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.9 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
-Der Download kann einige Minuten in Anspruch nehmen.
+[Mambaforge Download](https://github.com/conda-forge/miniforge#mambaforge){:target="_blank"}
 
-<img alt="" src="/img/anaconda/anaconda-1.png" class="screenshot" />
+Auf der Website ist es wichtig, dass die Installationsdatei für **Linux** ausgewählt wird,
+der Link auf der Downloadseite ist mit _Mambaforge-Linux-x86-64_ beschriftet.
 
-Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
-deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
+<img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
+
+Der Download kann einige Zeit in Anspruch nehmen.
+
+Nach dem abgeschlossenen Download, muss nun der der Downloads-Ordner (in dem die Datei gespeichert wurde)
+im Windows Terminal geöffnet werden. In diese werden dafür nacheinander die folgenden Befehle 
+eingegeben und jeweils mit Drücken der `Entertaste` bestätigt.
 
 
-Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
-`Entertaste` bestätigt.
+**Wichtig:** Im ersten Befehl muss `<Windows-Benutzername>` durch euren Windows-Benutzernamen ersetzt werden
+(siehe <a href="#WindowsBenutzername">Windows-Benutzername</a>).
 ```
-cd Desktop
+cd /mnt/c/Users/<Windows-Benutzername>/Downloads
 ```
+
+Dieser Befehl ändert den aktuellen Pfad auf den Downloads-Ordner.
+Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun auf `/Downloads` enden.
+
 ```
 ls
 ```
-Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
-Der aktuelle Pfad wird in Blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das Öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
-so ist der erste Befehl nicht mehr notwendig.)
-
 Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
-In dieser Liste muss sich auch die zuvor auf den Desktop
-kopierte Installationsdatei für Anaconda befinden.
 
+<img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
+
+In der Liste sollte die heruntergeladene Installationsdatei _Mambaforge-Linux-x86_64.sh_ vorkommen.
 Zum Installieren muss der folgende Befehl ausgeführt werden.
-**Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
-Passt den Befehl an, sollte dies nicht der Fall sein.
+
 ```
-bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
+bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge 
 ```
 
 Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
 
-<img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
 
-Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
+Im folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: ihr kauft damit nichts).
+Diese werden zunächst mit der `Enter`-Taste geöffnet 
 
-Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben
-und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
-eingehalten werden. Da hier besonders darauf geachtet werden muss, keinen Tippfehler zu machen,
-empfiehlt es sich hier (mehr als sonst), die Befehle zu kopieren und einzufügen.
+<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+
+Diese muss dann durch durch die Eingabe von `yes` und anschließendem `Enter` akzeptiert werden.
+
+<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
+
+Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
+
+Die Installation endet mit den folgenden Zeilen:
+
+<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
+
+Hier muss abermals `yes` eingegeben und mit `Enter` bestätigt werden.
+
+Die Installation ist beendet, wenn die letzte Zeile wieder die Eingabezeile anzeigt wird.
+
+<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
+
+Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffenen eines neuen.
+
+Im Neuen terminal fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
+
+<img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
+
+Nun müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
+Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
+und wofür die gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
+wir eine separate Python Installation mit genau den Paketen die wir für den Workshop brauchen.
+
+Dazu nutzen wir den folgenden Befehl:
 
 ```
-echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
-```
-```
-echo 'conda activate' >> ~/.bashrc
+mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
-<img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
+Die Installation beginnt mit der folgenden Ausgabe
 
-Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
-so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
+<img alt="" src="/img/mamba/mamba-virtual-env-1.png" class="screenshot" />
 
-<img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
+und bedarf auch wieder etwas Zeit. Die Installation ist beendet, wenn wieder die Eingabezeile
+angezeigt wird.
 
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2021.11-Linux-x86_64.sh_
-vom Desktop gelöscht werden.
+<img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
+
+Nach erfolgreicher Installation kann die Installationsdatei _Mambaforge-Linux-x86-64.sh_
+aus dem Downloads-Ordner gelöscht werden.
 
 __Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
 
@@ -704,11 +730,17 @@ __Jetzt noch die Installation [testen](#test)!__
 
 Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.
 
-### Python
+### Mamba: Python
 
-Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
+Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows-Terminals
 geschlossen und ein neues geöffnet werden.
-Zusätzlich muss auch das Programm XLaunch über die zuvor angelegte Datei _Praktikum.xlaunch_ gestartet werden.
+
+Um die installierten Pakete nutzen zu können muss zunächts die _virtuelle Umgebung_  mit diesem Befehl aktivert werde:
+
+```
+mamba activate toolbox
+```
+Durch diesen Befehl ändert sich der Beginn der Eingabezeile von _(base)_ zu _(toolbox)_.
 
 In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
@@ -719,31 +751,45 @@ ipython
 ```
 %matplotlib
 ```
-Ist die Ausgabe hier
-```
-Using matplotlib backend: Qt5Agg
-
-In [2]: QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-<username>'
-```
-könnt ihr _ipython_ mit `quit` beenden, und folgende Befehle in das Terminal eintragen
-```
-echo "mkdir -p /tmp/user/1000" >> ~/.bashrc
-echo "export XDG_RUNTIME_DIR=/tmp/user/1000" >> ~/.bashrc
-```
-Schließt das Terminal und öffnet ein neues, jetzt sollte nach `%matplotlib` die Ausgabe nur `Using matplotlib backend: Qt5Agg` sein.
 ```
 import matplotlib.pyplot as plt
 ```
+
+```
+import numpy as np
+```
+```
+import scipy
+```
+```
+import sympy
+```
+```
+import uncertainties
+```
+
 ```
 plt.plot([1, 2, 4])
 ```
 
 Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
-Mit
+
+Insgesamt sollte das Terminal wie folgt aussehen:
+
+<img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
+
+
+Fehler machen sich zB so bemerkbar:
+
+<img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
+
+
+Mit dem Befehl
 ```
 quit
 ```
-kann das Programm _ipython_ beendet werden
+kann das Programm _ipython_ im Anschluss beendet werden
+
 
 
 
@@ -834,19 +880,22 @@ behoben werden.
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Mamba
 
 Um Updates für Anaconda zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
 ```
-conda update anaconda
+mamba update -n toolbox --all
 ```
-### Uncertainties
 
-Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in eine Bash-Kommandozeile eingegeben.
+<img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
 
-```
-    pip install -U uncertainties
-```
+Auch hier muss die Installation wieder mit einen `Y` gefolgt von einem `Enter` bestätigt werden.
+
+<img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
+
+Die Installation ist (mittlerweile) wie gewohnt abgeschlossen, wenn die Eingabezeile auf dem Terminal
+angezeigt wird.
+
 
 ### Git, Make und weitere Unix-Tools
 
