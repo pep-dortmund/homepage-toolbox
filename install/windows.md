@@ -262,129 +262,18 @@ Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ---
 
-
-### X-Server
-Da das WSL nur Zugriff über die Kommandozeile erlaubt muss ein weiteres Programm installiert werden,
-um grafische Benutzeroberflächen (GUIs) anzeigen zu können.
-Die Installationsdatei kann unter dem folgenden Link heruntergeladen werden.
-
-[X-Server Download](https://sourceforge.net/projects/vcxsrv/){:target="_blank"}
-
-Dies wird mit einem `Linksklick` auf die unten hervorgehobene Schaltfläche _Download_ erreicht.
-
-<img alt="" src="/img/xserver/xserver-0.png" class="screenshot" />
-
-
-Durch einen doppelten `Linksklick` kann die heruntergeladen Datei ausgeführt werden.
-Infolgedessen kann das folgende Fenster erscheinen, welches mit einem `Linksklick` auf
-_Ja_ bestätigt werden muss.
-
-<img alt="" src="/img/xserver/xserver-1.png" class="screenshot" />
-
-Im nachfolgenden Fenster kann nun der Umfang der Installation ausgewählt werden. Hier ist _Full_ auszuwählen.
-Die Auswahl wird durch einen `Linksklick` auf _Next_ bestätigt.
-
-<img alt="" src="/img/xserver/xserver-2.png" class="screenshot" />
-
-Im folgenden Fenster kann der Installationspfad angepasst werden. Dies ist optional und der bereits
-eingetragene Pfad kann durch einen `Linksklick` auf _Install_ unverändert bestätigt werden.
-
-
-<img alt="" src="/img/xserver/xserver-3.png" class="screenshot" />
-
-Nach vollständiger Installation kann diese mit einem `Linksklick` auf _Close_ abgeschlossen werden.
-
-<img alt="" src="/img/xserver/xserver-4.png" class="screenshot" />
-
-Auf dem Desktop befindet sich nun die unter dargestellte Verknüpfung mit dem Namen _XLaunch_.
-Durch einen doppelten `Linksklick` kann das Programm nun gestartet werden.
-
-<img alt="" src="/img/xserver/xserver-5.png" class="screenshot" />
-
-Vor dem Start des Programms müssen einige Einstellungen vorgenommen werden. Zunächst wird hier
-_Multiple Window_ ausgewählt und mit einem `Linksklick` auf _Weiter_ bestätigt.
-
-<img alt="" src="/img/xserver/xserver-6.png" class="screenshot" />
-
-Im nächsten Fenster wird die Option _Start no client_ ausgewählt und ebenfalls mit einem `Linksklick`
-auf _Weiter_ bestätigt.
-
-<img alt="" src="/img/xserver/xserver-7.png" class="screenshot" />
-
-Im letzten Einstellungs-Fenster werden alle vier Optionen ausgewählt und abschließend mit einem
-`Linksklick` auf _Weiter_ bestätigt.
-
-<img alt="" src="/img/xserver/xserver-9.png" class="screenshot" />
-
-Nun können die vorgenommenen Einstellungen gespeichert werden. Der entsprechende Dialog wird
-durch einen `Linksklick` auf _Save configuration_ geöffnet.
-
-<img alt="" src="/img/xserver/xserver-10.png" class="screenshot" />
-
-Die entsprechende Datei kann nach eigenem Belieben benannt werden und auch der Speicherort ist frei wählbar.
-Hier wird als Speicherort der _Desktop_ und als Dateiname _Praktikum.xlaunch_ ausgewählt.
-
-<img alt="" src="/img/xserver/xserver-11.png" class="screenshot" />
-
-Nun kann die Einstellung des Programms mit einem `Linksklick` auf _Fertig stellen_ abgeschlossen
-und das Programm gestartet werden.
-
-<img alt="" src="/img/xserver/xserver-12.png" class="screenshot" />
-
-
-Nach dem ersten Ausführen kann folgendes Fenster erscheinen,
-dieses muss mit einem `Linksklick` auf _Abbrechen_ abgelehnt werden.
-
-<img alt="" src="/img/xserver/xserver-13.png" class="screenshot" />
-
-Das Programm _XLaunch_ selbst öffnet zunächst keine Fenster. Dass das Programm gestartet wurde, lässt
-sich an einem Icon in der Taskleiste (in der Nähe der Uhrzeit) erkennen. Sollte das Icon nicht
-zu sehen sein, kann ein `Linksklick` auf den nach unter (oder oben) gerichteten Pfeil nötig sein.
-
-<img alt="" src="/img/xserver/xserver-14.png" class="screenshot" />
-
-
-Am zuvor ausgewählten Speicherort für die Einstellungen,
-befindet sich die unten hervorgehobene Datei mit dem zuvor ausgewählten Namen.
-Mit einem doppelten `Linksklick` auf diese Datei kann von nun an das Programm _XLaunch_
-gestartet werden ohne die Einstellungen erneut vornehmen zu müssen.
-
-<img alt="" src="/img/xserver/xserver-15.png" class="screenshot" />
-
-Um den X-Server verwenden zu können muss noch eine Einstellung unter Verwendung der Bash-Kommandozeile
-vorgenommen werden.
-Dafür wird Windows Terminal geöffnet und der Befehl
+**Wichtig:** In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
+Diese werden in einem Codeblock wie diesem angegeben:
 ```
-echo "export DISPLAY=\"\$(route.exe print | grep 0.0.0.0 | head -1 | awk '{print \$4}'):0.0\"" >> ~/.bashrc
+Beispielbefehl
 ```
-eingegeben und mit einem Druck auf die `Entertaste` ausgeführt.
+Im Terminal muss **jeder Codeblock einzeln** eingeben und mit `Enter` bestätigt werden.
 
+---
 
-Optional kann die Datei _Praktikum.xlaunch_ auch in den _Autostart_ von Windows abgelegt werden.
-Dadurch wird der X-Server dann beim Hochfahren des Computers automatisch gestartet.
-Dieser Schritt ist nicht notwendig, macht das arbeiten mit dem WSL aber nochmal etwas angenehmer.
+Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
+(wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü). 
 
-Um den X-Server in den _Autostart_ abzulegen, muss eine Verknüpfung zu der Datei _Praktikum.xlaunch_
-in den _Autostart_-Ordner kopiert werden.
-
-Die Verknüpfung kann mit einem `Rechtsklick` auf die Datei _Praktikum.xlaunch_ und einem anschließenden `Linksklick`,
-auf _Verknüpfung erstellen_ durchgeführt werden.
-
-<img alt="" src="/img/xserver/xserver-16.png" class="screenshot" />
-
-Dadurch wird die Datei _Praktikum.xlaunch - Verknüpfung_ in dem Ordner erstellt, in dem schon die Datei _Praktikum.xlaunch_ liegt.
-Verknüpfungen haben grundsätzlich das selbe Icon wie die verknüpfte Datei, sind aber an einem Pfeil in der linken Ecke des Icons zu erkennen.
-
-<img alt="" src="/img/xserver/xserver-17.png" class="screenshot" />
-
-Der _Autostart_-Ordner kann am einfachsten durch die Suche (wie zuvor
-im Startmenü oder über das Lupen-Icon) nach dem Begriff _autostart_ geöffnet werden.
-
-<img alt="" src="/img/xserver/xserver-18.png" class="screenshot" />
-
-Nach dem öffnen des _Autostart_-Ordners kann die Datei _Praktikum.xlaunch - Verknüpfung_ in diesen verschoben werden.
-
-<img alt="" src="/img/xserver/xserver-19.png" class="screenshot" />
 
 ### Git, Make und weiteres
 
