@@ -442,7 +442,11 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
 
-Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
+---
+**Wichtig:** Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
+
+---
+
 ```
 git config --global user.name "Max Mustermann"
 ```
