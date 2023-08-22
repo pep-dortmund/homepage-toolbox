@@ -195,7 +195,8 @@ Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zw
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im nächsten Screenshot gezeigte Ausgabe.
-Die letzte Zeile (hier: `luckyjosh@DESKTOP-L02KDEF:~$`) besteht aus zwei Teilen.
+Die letzte Zeile (hier: `luckyjosh@DESKTOP-L02KDEF:~$`) wird im folgenden **Eingabezeile** genannt 
+und besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (hier: `luckyjosh`) und dem Computernamen (hier: `DESKTOP-L02KDEF`) zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
