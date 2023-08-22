@@ -597,9 +597,14 @@ Das Fenster kann nach der Installation über das `X` geschlossen werden.
 
 <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
 
+
 #### <a id="evince"></a>Evince
 
-
+Um (ohne viele Umstände) pdf-Dateien auch aus dem Windows-Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
+für das WSL zu installieren. Dafür muss folgender Befehl in das Windows-Terminal eingegeben werden:
+```
+sudo apt install evince
+```
 
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -746,15 +751,6 @@ Der Test-Befehl lautet:
 ```
 texdoc texlive
 ```
-
-Es sollte nun die Dokumentation von TeXLive in einem PDF-Betrachter geöffnet werden.
-Falls das nicht der Fall ist und die Fehlermeldung
-_error: no "view" mailcap rules found for type "application/pdf"_
-erscheint, kann dieser Fehler mit der Eingabe des Befehls
-```
-sudo apt install evince
-```
-behoben werden.
 
 ## <a id="update"></a>Aktualisieren
 
