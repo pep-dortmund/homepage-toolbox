@@ -59,7 +59,10 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ## <a id="Installation"></a>Installation
 
+
 ### <a id="Vorbereitungen"></a>Vorbereitungen
+
+#### <a id="Windowsinfo"></a> Window-Info: Systemtyp und Buildnummer
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
@@ -73,17 +76,14 @@ Unter dem Schlagwort _Systemtyp_ kann die Art des Betriebssystems gesehen werden
 
 In diesem Fenster erhaltet ihr noch eine weitere Info, die _Betriebsystembuild_-Nummer.
 
-
 <img alt="" src="/img/wsl/win10-buildnumber.png" class="screenshot" />
 
-
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
-Um diese Vereinfachungen nutzen zu können, muss dies Nummer vor dem `.` mindestens `19041` sein.
+Um diese Vereinfachungen nutzen zu können, muss dies Nummer vor dem _._ mindestens _19041_ sein.
 
 Sollte eure Nummer niedriger sein, empfehlen wir euch die Updates für eure Windows-Installation 
 zu installieren. Dafür könnt ihr in dem obigen _Info_-Fentser in der Suchleiste nach "Update"
 suchen und den Punkt _Nach Updates suchen_ auswählen.
-
 
 <img alt="" src="/img/wsl/win10-updates-1.png" class="screenshot" />
 
@@ -94,9 +94,27 @@ Anschließend könnt ihr über den Button `Nach Updates suchen` fehlende Updates
 Überprüft nach der Installation der Updates und einem Neustart eures PCs nocheinmal die 
 _Betriebsystembuild_-Nummer. Sollte diese immernoch nicht passen, meldet euch bei uns.
 
+#### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, zB `.pdf` für pdf Dokumente) 
+sind unter Windows nicht Standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
-**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
+Diese Einstellung kann im Explorer vorgenommen werden. Wie zuvor kann dieser auch durch suchen im Startmenü gefunden und gestartet werden.
+
+<img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
+
+In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden (ein Schwarzer Haken muss im Kästchen zu sehen sein).
+
+<img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
+
+#### <a id="WindowsBenutzername"></a>Windows-Benutzername
+
+Für einen Installationsschritt wird euer Windows-Benutzername gebgraucht, falls ihr diesen nicht kennt
+oder euch nicht sicher seid, könnt ihr diesem im Startmenü nachsehen, indem ihr die den Mauszeiger über das 
+oberste Icon in der linken Spalte haltet.
+
+<img alt="" src="/img/win10-username.png" class="screenshot" />
+
 
 ### Windows Subsystem for Linux (WSL)
 
