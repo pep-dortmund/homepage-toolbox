@@ -447,7 +447,6 @@ aus dem Downloads-Ordner gelöscht werden.
 __Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
 
 
-
 ### <a id="TeXLive"></a>TeXLive
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
@@ -579,6 +578,33 @@ Infolgedessen öffnet sich das folgende Fenster in dem die Installation mit eine
 Das Fenster kann nach der Installation über das `X` geschlossen werden.
 
 <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
+
+Zuletzt muss Sumatra PDF noch als Standard PDF-Betrachter eingestellet werden.
+Dafür kann im Startmenü nach `Standard` gesucht werden. Anschließend muss dann
+_Standard-Apps_ geöffnet werden.
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-1.png" class="screenshot" />
+
+In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Dateityp auswählen_,
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
+
+durch klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
+In diesem muss bis zu der Zeile nach unten gescrolled werden in der _.pdf_ in der ersten Spalte steht.
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
+
+Ist in der Zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts weiteres getan werden und 
+dass Fenster kann wie gewöhnlich durch klicken auf das `X` geschlossen werden.
+
+Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z.B. _Acrobat Reader_ oder _Microsoft Edge_)
+kann durch Klicken auf den Programmnamen ein Auswahlmenü geöffnet werden. In diesem muss dann 
+_SumatraPDF_ angeklickt werden.
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
+
+
+
 
 
 #### <a id="evince"></a>Evince
