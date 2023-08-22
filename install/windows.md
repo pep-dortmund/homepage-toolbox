@@ -489,6 +489,7 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
+#### Installation
 Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
 Drüber hinaus hat dieser auch noch viele weitere Funktionen.
 Die Installationsdatei `VSCodeUserSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
@@ -517,6 +518,7 @@ in dieser muss der Button `Install` angeklickt werden.
 
 <img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" class="screenshot" />
 
+#### VSCode: Sprache
 
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
 zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
@@ -526,26 +528,40 @@ Sprache nicht gewünscht ist.
 Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
 Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
-<img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
-
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Entertaste` ausgewählt werden.
+<img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
 
-<img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
+Im folgenden Auswahlmenü kann die gewünschte Sprache mit einem `Linksklick` ausgewählt werden.
+<img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
 
-Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
-Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
-`"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
-werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
+Die gewählte Sprache wird gegebenenfalls heruntergeladen und wird nach einem Neustart von VSCode nutzbar,
+der im folgenden Fenster ausgeführt werden kann.
 
-<img alt="" src="/img/vscodium/vscode-6.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
 
-Mit `Strg + Shift + ö` oder über den Punkt _Terminal_ → _Neues Terminal_ kann ein Terminal in VSCodium geöffnet werden.
-Klickt rechts auf den Pfeil nach unten, neben dem `+`,
-und wählt den Punkt _Select Default Profile_ aus.
-Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
+#### VSCode: Terminal einrichten
 
-<img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
+
+Mit Tastenkombination `Strg + Shift + ö` oder über den die Menüleiste _Terminal_ → _Neues Terminal_ 
+kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
+die Windows-Powershell, wie zuvor muss das Terminal noch umgestellt werden.
+Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
+
+<img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
+
+In der folgenden Auswahl auf _Ubuntu (WSL)_ klicken.
+
+<img alt="" src="/img/vscodium/vscode-terminal-2.png" class="screenshot" />
+
+Anschließend kann das schon geöffnete Terminal mit einem Klick auf die Mülltonne geschlossen werden.
+
+<img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
+
+Wird nun erneut ein Terminal mit `Strg + Shift + ö` geöffnet, so sollte dieses nun wie das (mittlerweile)
+gowohnte Terminal aussehen:
+
+<img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
 
 ### PDF-Betrachter
 
