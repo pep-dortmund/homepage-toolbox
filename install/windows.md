@@ -573,7 +573,7 @@ Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
 
 #### <a id="SumatraPDF"></a>Sumatra PDF
 
-Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
+Als PDF-Betrachter für Windows sollte Sumatra PDF verwendet werden.
 Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
 sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
 Den Download findet man unter dem folgenden Link.
@@ -583,23 +583,19 @@ Den Download findet man unter dem folgenden Link.
 Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
 hervorgehobenen Link heruntergeladen werden.
 
-<img alt="" src="/img/sumatra/sumatra-1.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
 
+Die heruntergeladene Datei befindet sich im Downloads-Ordner und kan durch einen doppelten `Linksklick` ausgeführt werden.
 
-Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
-Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
-die _Optionen_ geöffnet.
-In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben.
-Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
+<img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
 
-Starte Sumatra und öffne das Optionsmenü wie im Screenshot gezeigt.
+Infolgedessen öffnet sich das folgende Fenster in dem die Installation mit einem `Linksklick` auf _Installieren_ gestartet wird.
 
-<img alt="" src="/img/sumatra/sumatra-2.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
 
-Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen.
+Das Fenster kann nach der Installation über das `X` geschlossen werden.
 
-<img alt="" src="/img/sumatra/sumatra-3.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
 
 #### <a id="evince"></a>Evince
 
