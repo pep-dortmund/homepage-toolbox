@@ -367,13 +367,13 @@ im Windows Terminal geöffnet werden. In diese werden dafür nacheinander die fo
 eingegeben und jeweils mit Drücken der `Entertaste` bestätigt.
 
 ---
-**Wichtig:** Im ersten Befehl muss `<Windows-Benutzername>` durch euren Windows-Benutzernamen ersetzt werden
+**Wichtig:** Im ersten Befehl muss `Max Mustermann` durch euren Windows-Benutzernamen ersetzt werden
 (siehe <a href="#WindowsBenutzername">Windows-Benutzername</a>).
 
 ---
 
 ```
-cd /mnt/c/Users/<Windows-Benutzername>/Downloads
+cd "/mnt/c/Users/Max Mustermann/Downloads"
 ```
 
 Dieser Befehl ändert den aktuellen Pfad auf den Downloads-Ordner.
