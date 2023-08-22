@@ -789,7 +789,7 @@ sudo apt upgrade
 
 ### TeXLive
 
-Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in ein Windows Terminal_ installiert.
+Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in ein Windows Terminal installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
