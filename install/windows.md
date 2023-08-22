@@ -482,6 +482,7 @@ gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version vo
 TeXLive zu installieren.
 
 
+__Jetzt noch die Installation [testen](#test)!__
 
 ### <a id="VSCode"></a>Visual Studio Code
 
@@ -604,9 +605,6 @@ _SumatraPDF_ angeklickt werden.
 <img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
 
 
-
-
-
 #### <a id="evince"></a>Evince
 
 Um (ohne viele Umstände) pdf-Dateien auch aus dem Windows-Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
@@ -615,8 +613,6 @@ für das WSL zu installieren. Dafür muss folgender Befehl in das Windows-Termin
 sudo apt install evince
 ```
 
-
-__Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
@@ -746,6 +742,7 @@ Der Test-Befehl lautet:
 ```
 texdoc texlive
 ```
+
 
 ## <a id="update"></a>Aktualisieren
 
