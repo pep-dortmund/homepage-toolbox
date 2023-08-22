@@ -678,7 +678,7 @@ Insgesamt sollte das Terminal wie folgt aussehen:
 <img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
 
 
-Fehler machen sich zB so bemerkbar:
+Fehler machen sich z.B. so bemerkbar:
 
 <img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
 
