@@ -320,7 +320,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 
 #### Git-Einstellungen
 
-Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
+Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
 
 ---
@@ -341,7 +341,7 @@ git config --global rebase.stat true
 git config --global merge.conflictstyle diff3
 ```
 
-Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
+Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit dem Windows Terminal selbst geübt werden kann.
 Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
 
@@ -545,7 +545,7 @@ der im folgenden Fenster ausgeführt werden kann.
 
 Mit Tastenkombination `Strg + Shift + ö` oder über den die Menüleiste _Terminal_ → _Neues Terminal_ 
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
-die Windows-Powershell, wie zuvor muss das Terminal noch umgestellt werden.
+die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
 
 <img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
@@ -618,8 +618,8 @@ _SumatraPDF_ angeklickt werden.
 
 #### <a id="evince"></a>Evince
 
-Um (ohne viele Umstände) pdf-Dateien auch aus dem Windows-Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
-für das WSL zu installieren. Dafür muss folgender Befehl in das Windows-Terminal eingegeben werden:
+Um (ohne viele Umstände) pdf-Dateien auch aus dem Windows Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
+für das WSL zu installieren. Dafür muss folgender Befehl in das Windows Terminal eingegeben werden:
 ```
 sudo apt install evince
 ```
@@ -631,7 +631,7 @@ Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#
 
 ### Mamba: Python
 
-Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows-Terminals
+Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
 geschlossen und ein neues geöffnet werden.
 
 Um die installierten Pakete nutzen zu können muss zunächts die _virtuelle Umgebung_  mit diesem Befehl aktivert werde:
@@ -641,7 +641,7 @@ mamba activate toolbox
 ```
 Durch diesen Befehl ändert sich der Beginn der Eingabezeile von _(base)_ zu _(toolbox)_.
 
-In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
+In das Windows Terminal_ werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
 
 ```
@@ -694,7 +694,7 @@ kann das Programm _ipython_ im Anschluss beendet werden
 
 ### Make
 
-Make kann durch Öffnen einer Bash-Kommandozeile und durch Eingeben des folgenden Befehls getestet werden.
+Make kann durch Öffnen eines Windows Terminals und durch Eingeben des folgenden Befehls getestet werden.
 
 ```
 make
@@ -707,7 +707,7 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
 ### TeXLive
 
-Die TeXLive Installation wird ebenfalls unter Verwendung der Bash-Kommandozeile getestet.
+Die TeXLive Installation wird ebenfalls unter Verwendung des Windows Terminals getestet.
 In diese wird der folgende Befehl eingegeben.
 
 ```
@@ -759,7 +759,7 @@ texdoc texlive
 
 ### Mamba
 
-Um Updates für Anaconda zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
+Um Updates für Anaconda zu installieren wird in einem Windows Terminal folgender Befehl eingetragen.
 ```
 mamba update -n toolbox --all
 ```
@@ -776,9 +776,9 @@ angezeigt wird.
 
 ### Git, Make und weitere Unix-Tools
 
-Um Updates für diese sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten
-müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
-Bash-Kommandozeile eingegeben werden.
+Um Updates für diese sogenannten Unix-Tools zu erhalten
+müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in ein
+Windows Terminal eingegeben werden.
 ```
 sudo apt update
 ```
@@ -789,7 +789,7 @@ sudo apt upgrade
 
 ### TeXLive
 
-Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
+Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in ein Windows Terminal_ installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
@@ -812,7 +812,7 @@ from PyQt5 import QtCore, QtGui, QtWidget
 ImportError: libGL.so.1 connot open shared object file: No such file or directory
 ```
 Dieser Fehler kann durch das Installieren einer Software-Bibliothek behoben werden.
-Dazu muss der folgende Befehl in die Bash-Kommandozeile eingegeben werden.
+Dazu muss der folgende Befehl in ein Windows Terminal eingegeben werden.
 ```
 sudo apt install qt5-default
 ```
