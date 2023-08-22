@@ -518,34 +518,6 @@ in dieser muss der Button `Install` angeklickt werden.
 <img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" class="screenshot" />
 
 
-
-Neben dem Funktionsumfang, den VSCode von sich aus mitbringt können zusätzliche Extensions installiert werden,
-um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
-(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
-für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
-
-Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_-Menü.
-
-<img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
-
-In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_ in die
-in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
-dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
-Es ist möglich, dass die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
-
-Eine Beschreibung der Funktion der Extension, kann in einem neuen Tab angezeigt werden,
-indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
-Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
-
-<img alt="" src="/img/vscodium/vscode-2.png" class="screenshot" />
-
-Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
-
-Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
-in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
-
-<img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
-
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
 zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
 Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
