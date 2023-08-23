@@ -30,9 +30,7 @@ am besten kontaktieren könnt.
 Falls falls ihr __nicht__ am LaTeX-Kurs teilnehmen wollt, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann könnt ihr allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, solltet ihr mindestens die Unterabschnitte <a href="#SumatraPDF">Sumatra PDF</a>, 
-<a href="#VSCode">Visual Studio Code</a> und <a href="#TeXLive">TeXLive </a> durcharbeiten.
-Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
+Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
