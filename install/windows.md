@@ -59,21 +59,17 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ### <a id="Vorbereitungen"></a>Vorbereitungen
 
-#### <a id="Windowsinfo"></a> Windows-Info: Systemtyp und Buildnummer
-Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
+#### <a id="Windowsinfo"></a> Windows-Info: Betriebssystembuildnummer
+Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell ist.
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
 
-<img alt="" src="/img/wsl/win10-64bit-1.png" class="screenshot"/>
+<img alt="" src="/img/wsl/win10-buildnumber-1.png" class="screenshot"/>
 
 In der Liste am linken Rand lautet der letzte Punkt _Info_ (dieser sollte bereits ausgewählt sein).
-Unter dem Schlagwort _Systemtyp_ kann die Art des Betriebssystems gesehen werden.
+Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer ablesen.
 
-<img alt="" src="/img/wsl/win10-64bit-2.png" class="screenshot" />
-
-In diesem Fenster erhaltet ihr noch eine weitere Info, die _Betriebssystembuild_-Nummer.
-
-<img alt="" src="/img/wsl/win10-buildnumber.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-buildnumber-2.png" class="screenshot" />
 
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
 Um diese Vereinfachungen nutzen zu können, muss dies Nummer vor dem _._ mindestens _19041_ sein.
