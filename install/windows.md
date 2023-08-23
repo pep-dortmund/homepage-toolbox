@@ -411,30 +411,37 @@ Diese werden zunächst mit der `Enter`-Taste geöffnet
 
 <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
 
-
-Diese muss dann durch durch die Eingabe von `yes` und anschließendem `Enter` akzeptiert werden.
+Abhängig von der Größe des Terminal-Fensters, kann es vorkommen, dass der Text nur zeilenweise
+ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ steht.
 
 <img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
+
+Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächster Screenshot)
+der Benutzungsbestimmung zu gelangen.
+Am Ende der Benutzungsbestimmungen müssen diese dann durch durch die Eingabe von `yes` 
+und anschließendem `Enter` akzeptiert werden.
+
+<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
 
 
 Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
 
-<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
 
 Die Installation endet mit den folgenden Zeilen:
 Hier muss abermals `yes` eingegeben und mit `Enter` bestätigt werden.
 
-<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
 
 Die Installation ist beendet, wenn die letzte Zeile wieder die Eingabezeile anzeigt wird.
 
-<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
 Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffenen eines neuen.
 
 Im neuen Terminal-Fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
 
-<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
 
 Nun müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
