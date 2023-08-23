@@ -30,7 +30,7 @@ $ source ~/.bashrc
 Dann sollten noch die Update-Optionen angepasst werden
 ```
 $ tlmgr option autobackup -- -1
-$ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+$ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Eine Liste aller notwendiger LaTeX Packages, die wir brauchen werden, ladet ihr mit

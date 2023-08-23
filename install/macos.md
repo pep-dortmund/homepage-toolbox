@@ -173,7 +173,7 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 Im Terminal:
 
     sudo tlmgr option autobackup -- -1
-    sudo tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+    sudo tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
