@@ -13,7 +13,7 @@ sollte erstmal versucht werden selbstständig das Problem zu lösen.
 Hierfür sollte die Fehlermeldung durchgelesen werden, dieses kann schon
 das Problem lösen. Wenn die Fehlermeldung nicht so einfach zu verstehen ist,
 kann nach dem Fehler gesucht werden, wie kann so etwas aussehen:
-- Auskommentieren von Code-Zeilen um den Fehler einzugrenzen
+- Auskommentieren von Code-Zeilen, um den Fehler einzugrenzen
 - Suchen des Fehlers in der Form
   - Programmname + Fehlermeldung + (Paket)
 
