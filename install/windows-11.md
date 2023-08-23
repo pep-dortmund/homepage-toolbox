@@ -87,33 +87,34 @@ Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
 siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
 #### Installation des WSL 
-Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. 
-Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs. Durch Tippen des
-Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klickt auf der rechten
-Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
+Zunächst muss du eine PowerShell Konsole als Administrator starten. 
+Die einfachste Möglichkeit dafür ist ein `Rechtsklick` auf das Startmenü-Icon gefolgt von einem
+`Linkslick` auf _Terminal (Administrator)_. 
 
-<img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
-
+<img alt="" src="/img/wsl/win11-powershell-admin.png" class="screenshot" />
 
 In den meisten Fällen wird das folgende Fenster erscheinen. Dieses muss mit _Ja_ bestätigt werden.
 Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
-<img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
+<img alt="" src="/img/wsl/win11-admin-warning.jpg" class="screenshot" />
 
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicher zugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
-<img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
+
+Die Info-Leiste die am oberen Fensterrand erscheint kannst du durch einen Klick auf das `X` schließen.
+
+<img alt="" src="/img/wsl/win11-powershell-admin-test.png" class="screenshot" />
 
 In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install 
 ```
-<img alt="" src="/img/wsl/win10-wsl-install.png" class="screenshot" />
+<img alt="" src="/img/wsl/win11-wsl-install.png" class="screenshot" />
 
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
@@ -121,14 +122,14 @@ Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit 
 stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die 
 Ausgabe wie folgt aus
 
-<img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
+<img alt="" src="/img/wsl/win11-wsl-install-complete.png" class="screenshot" />
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC nun einmal neu gestartet werden.
 
 Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
 Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
 
-<img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
+<img alt="" src="/img/wsl/win11-wsl-ubuntu-complete.png" class="screenshot" />
 
 #### <a id="Einrichten des Benutzerkontos">Einrichten eines Benutzerkontos
 
