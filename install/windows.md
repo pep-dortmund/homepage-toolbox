@@ -115,7 +115,7 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 
 Für einen Installationsschritt wird euer Windows-Benutzername gebgraucht, falls ihr diesen nicht kennt
 oder euch nicht sicher seid, könnt ihr diesem im Startmenü nachsehen, indem ihr die den Mauszeiger über das 
-oberste Icon in der linken Spalte haltet.
+oberste Icon in der linken Spalte haltet. Im Screenshot ist der Benutzername _LuckyJosh_.
 
 <img alt="" src="/img/win10-username.png" class="screenshot" />
 
@@ -127,28 +127,28 @@ siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
 #### Installation des WSL 
 Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. 
-Eine Möglichkeit dafür ist das Öffnen des Windows-Stratmenüs. Durch Tippen des
+Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs. Durch Tippen des
 Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klickt auf der rechten
 Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
 
 <img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
 
 
-In den meisten Fällen wird das folgende Fenster erscheinen. Dieser kann einfach _Ja_ bestätigt werden.
+In den meisten Fällen wird das folgende Fenster erscheinen. Dieses muss mit _Ja_ bestätigt werden.
 Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
 
 
-Nun öffnet sich ein Fenster wie unten zu sehen; dies ist die PowerShell Konsole.
+Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicher zugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
 <img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
 
 In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden, einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
+und eingefügt werden, Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install 
 ```
@@ -157,7 +157,7 @@ wsl --install
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
 Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige 
-stilisierte Ladebalken angezeigt. Nachdem erfolgreichen Abschluss dieses Vorgangs sieht die 
+stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die 
 Ausgabe wie folgt aus
 
 <img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
@@ -165,7 +165,7 @@ Ausgabe wie folgt aus
 Wie der letzten Zeile zu entnehmen ist, muss der PC nun einmal neu gestartet werden.
 
 Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
-Installation durch Einrichten des Benutzerkontos abgeschlossen werden kann.
+Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
 
 <img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
 
@@ -204,12 +204,17 @@ und besteht aus zwei Teilen.
 Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (hier: `luckyjosh`) und dem Computernamen (hier: `DESKTOP-L02KDEF`) zusammen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
-mit dem Linux-Betriebssystem verwendet wird. Eine detaliertere Einführung in den Umgang erfolgt während
+mit dem Linux-Betriebssystem verwendet wird. Eine detailliertere Einführung in den Umgang erfolgt während
 des Workshops, im Folgenden wird diese jedoch schon zur Installation der benötigten Software verwendet.
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
 
-Vor dem nächsten Abschnitt könnt ihr das Terminal-Fenster schließen.
+Vor dem nächsten Abschnitt könnt ihr das Terminal-Fenster schließen. Indem ihr den Befehl 
+```
+exit
+
+``` 
+eingebt oder auf das `X` oben rechts klickt.
 
 ### <a id="WindowsTerminal"></a>Windows Terminal
 
@@ -220,7 +225,7 @@ Auch der Microsoft Store kann über die Suche im Startmenü gefunden werden:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-store-1.png" class="screenshot" />
 
-Suche im Microsoft Store nach `Terminal` und Auswahl von _Windows Terminal_:
+Suche im Microsoft Store nach `Terminal` und wählt _Windows Terminal_ aus:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-store-2.png" class="screenshot" />
 
@@ -228,7 +233,7 @@ Und im folgenden Fenster `Herunterladen` anklicken:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
 
-Im Anschluss an die Installation kann der Mircosoft Store geschlossen werden. 
+Im Anschluss an die Installation kann der Microsoft Store geschlossen werden. 
 
 Das Windows Terminal kann über das Startmenü geöffnet werden. Direkt nach der Installation
 befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kann hier wieder
@@ -238,7 +243,7 @@ rechten Spalte.
 <img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
 
 Beim ersten Öffnen des Windows Terminals erscheint ein Informations-Banner am oberen Fensterrand,
-dass mit dem `X` am rechten Rand geschlossen werden kann.
+welches mit dem `X` am rechten Rand geschlossen werden kann.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
 
@@ -283,8 +288,7 @@ Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden:
 sudo apt update
 ```
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
-Internetverbindung voraus über die einige 100 MB große Datenmengen heruntergeladen
-werden können.
+Internetverbindung voraus.
 
 Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
@@ -424,14 +428,14 @@ Die Installation ist beendet, wenn die letzte Zeile wieder die Eingabezeile anze
 
 Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffenen eines neuen.
 
-Im Neuen terminal fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
+Im neuen Terminal-Fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
 
 <img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
 
 Nun müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
 und wofür die gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
-wir eine separate Python Installation mit genau den Paketen die wir für den Workshop brauchen.
+wir eine separate Python Installation mit genau den Paketen, die wir für den Workshop brauchen.
 
 Dazu nutzen wir den folgenden Befehl:
 
