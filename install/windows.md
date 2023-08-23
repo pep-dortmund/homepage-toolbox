@@ -106,15 +106,6 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 
 <img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
 
-#### <a id="WindowsBenutzername"></a>Windows-Benutzername
-
-Für einen Installationsschritt wird euer Windows-Benutzername gebgraucht, falls ihr diesen nicht kennt
-oder euch nicht sicher seid, könnt ihr diesem im Startmenü nachsehen, indem ihr die den Mauszeiger über das 
-oberste Icon in der linken Spalte haltet. Im Screenshot ist der Benutzername _LuckyJosh_.
-
-<img alt="" src="/img/win10-username.png" class="screenshot" />
-
-
 ### Windows Subsystem for Linux (WSL)
 
 Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
