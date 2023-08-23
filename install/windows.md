@@ -484,27 +484,22 @@ TeXLive zu installieren.
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
 #### Installation
-Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
-Drüber hinaus hat dieser auch noch viele weitere Funktionen.
-Die Installationsdatei `VSCodeUserSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
+Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Drüber hinaus hat dieser auch noch viele weitere Funktionen.
 
-[Download VSCode](https://code.visualstudio.com/download){:target="_blank"}
+VSCode kann, wie das Windows Terminal, über den Microsoft Store installiert werden.
+Der Microsoft Store wird dafür genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> geöffnet.
+Durch die Suche im Microsoft Store nach `Visual Studio Code` kann in der Liste der entsprechende Punkt ausgewählt werden:
 
+<img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
 
-<img alt="" src="/img/vscodium/vscode-download.png" class="screenshot" />
+Auf der folgenden Seite kann VSCode durch klick auf den Button `Installieren` installiert werden.
 
-Durch doppelten Linksklick auf die heruntergeladene Datei (im Downloads-Ordner) öffnet sich das Installations-Setup.
-Die Einstellungen während des Setups können aus den folgenden Screenshots entnommen werden:
+<img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
 
+Geöffnet werden kann VSCode nach der Installation über das Startmenü (wie zuvor wird durch Eingabe von `Visual`
+automatisch eine Suche begonnen) geöffnet werden kann VSCode dann durch einen Klick auf `Öffnen`.
 
-
-<img alt="" src="/img/vscodium/vscode-install-1.png" class="screenshot" />
-<img alt="" src="/img/vscodium/vscode-install-2.png" class="screenshot" />
-<img alt="" src="/img/vscodium/vscode-install-3.png" class="screenshot" />
-<img alt="" src="/img/vscodium/vscode-install-4.png" class="screenshot" />
-<img alt="" src="/img/vscodium/vscode-install-5.png" class="screenshot" />
-<img alt="" src="/img/vscodium/vscode-install-6.png" class="screenshot" />
-
+<img alt="" src="/img/vscodium/vscode-start.png" class="screenshot" />
 
 Beim ersten Start von VSCode nach der Installation, wird in der rechten unteren Ecke eine Infobox angezeigt,
 in dieser muss der Button `Install` angeklickt werden.
