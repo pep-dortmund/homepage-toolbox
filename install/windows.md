@@ -350,7 +350,26 @@ git config --global merge.conflictstyle diff3
 
 Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit dem Windows Terminal selbst geübt werden kann.
 Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
-der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
+der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr
+Sicherheit nachgeholt werden.
+
+#### Installationsordner `~/.local`
+
+Für die Installation von [Mambaforge (Python)](#Mambaforge) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
+
+```
+mkdir ~/.local
+```
+
+Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert.
+Falls der Ordner noch nicht existierte, wird keine Rückmeldung gegeben.
+Sollte dieser Ordner bereits existieren, so wird diese Rückmeldung ausgegeben:
+
+```
+mkdir: cannot create directory ‘/home/luckyjosh/.local’: File exists
+```
+
+Tritt eine dieser beiden Möglichkeiten ein kannst du fortfahren.
 
 
 ### <a id="Mambaforge"></a>Mambaforge: Python Installation
