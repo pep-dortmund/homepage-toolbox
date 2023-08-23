@@ -469,8 +469,12 @@ TeXLive zu installieren.
 #### Installation
 Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Drüber hinaus hat dieser auch noch viele weitere Funktionen.
 
-VSCode kann, wie das Windows Terminal, über den Microsoft Store installiert werden.
-Der Microsoft Store wird dafür genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> geöffnet.
+VSCode kann über den Microsoft Store installiert werden. Diesen findest du am einfachsten, in dem du
+das Startmenü öffnest und in das Suchfeld oben `Store` eingibst. Der Microsoft Store ist das Sucherergebnis
+mit der höchsten Übereinstimmung. Öffnen kannst du diesen durch einen Klick auf _Öffnen_ :
+
+<img alt="" src="/img/vscodium/vscode-msstore_win11.png" class="screenshot" />
+
 Durch die Suche im Microsoft Store nach `Visual Studio Code` kann in der Liste der entsprechende Punkt ausgewählt werden:
 
 <img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
@@ -479,16 +483,18 @@ Auf der folgenden Seite kann VSCode durch klick auf den Button `Installieren` in
 
 <img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
 
-Geöffnet werden kann VSCode nach der Installation über das Startmenü (wie zuvor wird durch Eingabe von `Visual`
-automatisch eine Suche begonnen) geöffnet werden kann VSCode dann durch einen Klick auf `Öffnen`.
+Öffnen kannst du VSCode nach der Installation über das Startmenü (wie zuvor durch die Suche).
 
-<img alt="" src="/img/vscodium/vscode-start.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-start_win11.png" class="screenshot" />
 
-Beim ersten Start von VSCode nach der Installation, wird in der rechten unteren Ecke eine Infobox angezeigt,
-in dieser muss der Button `Install` angeklickt werden.
+#### VSCode: WSL-Plugin
 
+Ein nützliches Plugin für VSCode dient der Zusammenarbeit mit dem WSL (weiteres dazu im Workshop).
+Über das im Screenshot gezeigte Icon am linken Rand kommst du zur Plugin-Suche. Suche dort nach `WSL` 
+und klicke auf den kleinen Button `Install` neben dem obersten Suchergebnis.
 
-<img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-wsl-plugin_win11.png" class="screenshot" />
+
 
 #### VSCode: Sprache
 
