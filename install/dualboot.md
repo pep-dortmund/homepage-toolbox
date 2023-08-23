@@ -26,7 +26,7 @@ werden.
 Weiterhin geht diese Anleitung davon aus, dass euer Rechner [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface)
 verwendet.
 Dies sollte für alle modernen Rechner die Regel sein, es kann aber vorkommen,
-das Windows um sogenannten *Legacy-BIOS* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
+dass Windows um sogenannten *Legacy-BIOS* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
 
 Falls ihr einfach nur Linux installieren wollt, könnt ihr der Anleitung ab [Schritt 6](#einen-bootfähigen-usb-stick-für-die-linux-installation-erstellen) folgen.
 
@@ -90,7 +90,7 @@ Tragt dann eine Zahl (in MB) ein, zum Beispiel 102400 für 100 GB.
 
 ## Mainboard-Uhr auf UTC stellen
 
-Auf dem Mainboard des PCs wird die Uhrzeit gespeichert, Windows geht hier davon aus, das die lokale Uhrzeit gespeichert wird, Linux nimmt UTC an.
+Auf dem Mainboard des PCs wird die Uhrzeit gespeichert, Windows geht hier davon aus, dass die lokale Uhrzeit gespeichert wird, Linux nimmt UTC an.
 Wenn dies nicht geändert wird, stimmen die Uhrzeiten auf Windows und Linux nicht überein und können in beiden System falsch sein.
 
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
@@ -149,7 +149,7 @@ und bootet in die Linux Installation.
 der Online-Dokumentation auf Englisch sind.
 
 1. Keyboard-Layout sollte zu eurem Laptop passen, also vermutlich `German (eliminate dead keys)`.
-Die `eliminate dead keys` Variante sorgt dafür, das Akzente direkt erscheinen, was sehr hilfreich für
+Die `eliminate dead keys` Variante sorgt dafür, dass Akzente direkt erscheinen, was sehr hilfreich für
 LaTeX ist.
 
 1. Klickt die Optionen `Install Third Party Software` und falls ihr mit einem Netzwerk verbunden seit,
@@ -160,6 +160,6 @@ War dies erfolgreich, wählt die Option `Install along-side Windows 10`.
 
 1. Wählt die korrekte Zeitzone
 
-1. Wartet bis die Installation abgeschlossen ist, dann startet den Rechner neu und entfernt den USB-Stick.
+1. Wartet, bis die Installation abgeschlossen ist, dann startet den Rechner neu und entfernt den USB-Stick.
 
 1. Beim Neustart solltet ihr ein neues Menü vorfinden, das euch zwischen Linux und Windows wählen lässt.
