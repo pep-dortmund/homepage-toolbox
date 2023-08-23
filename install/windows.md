@@ -38,8 +38,8 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
-  <a href="#installation" class="btn btn-secondary btn-lg btn-block" role="button">
-  Installation
+  <a href="#Installieren" class="btn btn-secondary btn-lg btn-block" role="button">
+  Installieren
   </a>
   </div>
   <div class="col-md-4" align="center">
@@ -55,7 +55,7 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
   <div class="col-md-2" align="center"></div>
 </div>
 
-## <a id="Installation"></a>Installation
+## <a id="Installieren"></a>Installieren
 
 
 ### <a id="Vorbereitungen"></a>Vorbereitungen
