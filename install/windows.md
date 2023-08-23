@@ -505,6 +505,9 @@ In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 tlmgr option autobackup -- -1
+```
+
+```
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
@@ -834,5 +837,7 @@ kommt ein Fehler ähnlich zu
 **ghostscript-9.00 required**
 ```
 sudo apt update
+```
+```
 sudo apt install ghostscript
 ```
