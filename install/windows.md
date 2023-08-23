@@ -772,7 +772,6 @@ Usage:
 ```
 
 Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
-Für diesen Test muss das Programm XLaunch gestartet worden sein.
 Der Test-Befehl lautet:
 ```
 texdoc texlive
