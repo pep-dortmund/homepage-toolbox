@@ -292,7 +292,7 @@ das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpassw
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
 
 
-Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch wird die ausgegebene Liste der Programme die geupdated
+Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme die geupdatet
 werden können beim ersten Ausführen wesentlich länger sein.
 
 <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
@@ -308,7 +308,7 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die beiden Programme `git`, `make` und `curl` installiert werde. Dies erfolgt durch die Eingabe des
+Nun können die beiden Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
 Befehls
 ```
 sudo apt install git make curl
