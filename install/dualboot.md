@@ -26,8 +26,7 @@ werden.
 Weiterhin geht diese Anleitung davon aus, dass dein Rechner
 [UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) verwendet.
 Dies sollte für alle modernen Rechner die Regel sein, es kann aber vorkommen,
-das Windows um sogenannten *Legacy-BIOS* Modus installiert wurde,
-dann sollte Windows im UEFI Modus neu installiert werden.
+dass Windows im sogenannten *Legacy-BIOS* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
 
 Falls ihr einfach nur Linux installieren wollt,
 könnt ihr der Anleitung ab
@@ -98,6 +97,7 @@ dass die lokale Uhrzeit gespeichert wird, Linux nimmt UTC an.
 Wenn dies nicht geändert wird, stimmen die Uhrzeiten auf Windows und Linux nicht überein
 und können in beiden System falsch sein.
 
+
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
 1. Öffne das Programm `regedit`; am einfachsten, indem du `regedit` tippst,
@@ -154,7 +154,7 @@ Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 1. Du solltest als Sprache Englisch wählen, aus dem einfachen Grund,
   dass der Großteil der Online-Dokumentation auf Englisch sind.
 
-1. Keyboard-Layout sollte zu deinem Laptop passen,
+1. Das Keyboard-Layout sollte zu deinem Laptop passen,
   also vermutlich `German (eliminate dead keys)`.
   Die `eliminate dead keys` Variante sorgt dafür, dass Akzente direkt erscheinen,
   was sehr hilfreich für LaTeX ist.
@@ -164,7 +164,7 @@ Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 
 1. Die Ubuntu Installation scanned nun deine Festplatte und sollte Windows und den
   freigegebenen Speicher finden.
-  War dies erfolgreich, wählw die Option `Install along-side Windows 10` oder 11.
+  War dies erfolgreich, wähle die Option `Install along-side Windows 10` oder 11.
 
 1. Wähle die korrekte Zeitzone
 
