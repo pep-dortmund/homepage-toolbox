@@ -146,7 +146,7 @@ mit dem Windows-Benutzernamen übereinstimmen.
 
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username_win11.png" class="screenshot" />
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
@@ -154,16 +154,16 @@ Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd_win11.png" class="screenshot" />
 
 
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png" class="screenshot" />
 
 Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zweimal eingegeben werden).
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2_win11.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im nächsten Screenshot gezeigte Ausgabe.
@@ -175,7 +175,7 @@ Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur
 mit dem Linux-Betriebssystem verwendet wird. Eine detailliertere Einführung in den Umgang erfolgt während
 des Workshops, im Folgenden wird diese jedoch schon zur Installation der benötigten Software verwendet.
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd_win11.png" class="screenshot" />
 
 Vor dem nächsten Abschnitt könnt ihr das Terminal-Fenster schließen. Indem ihr den Befehl 
 ```
