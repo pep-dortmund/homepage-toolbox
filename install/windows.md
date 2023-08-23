@@ -175,6 +175,12 @@ das Linux-Betriebssystem einzugeben.
 Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
+
+---
+**Wichtig:** Der Benutzername darf **nur** Kleinbuchstaben und **keine** Leerzeichen enthalten
+
+---
+
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username.png" class="screenshot" />
