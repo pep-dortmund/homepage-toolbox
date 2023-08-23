@@ -305,9 +305,9 @@ Dies erfolgt durch Eingabe des Befehls
 ```
 sudo apt upgrade
 ```
-und auch dieser Befehl wird mit der `Entertaste` bestätigt.
+und auch dieser Befehl wird mit der `Enter`-Taste bestätigt.
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
-`Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
+`Enter`-Taste nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
@@ -316,7 +316,7 @@ Befehls
 ```
 sudo apt install git make curl
 ```
-und anschließende Bestätigung mit der `Entertaste`. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
+und anschließende Bestätigung mit der `Enter`-Taste. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
@@ -328,7 +328,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 #### Git-Einstellungen
 
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in das Windows Terminal wie zuvor
-die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
+die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
 ---
 **Wichtig:** Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
@@ -385,7 +385,7 @@ Zum Installieren muss der folgende Befehl ausgeführt werden.
 ```
 bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge 
 ```
-Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
+Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 
 Im folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: ihr kauft damit nichts).
 Diese werden zunächst mit der `Enter`-Taste geöffnet 
@@ -518,7 +518,7 @@ Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werd
 Eingabefenster in dem nach Einstellungen gesucht werden kann.
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
-der `Entertaste` ausgewählt werden.
+der `Enter`-Taste ausgewählt werden.
 <img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
 
 Im folgenden Auswahlmenü kann die gewünschte Sprache mit einem `Linksklick` ausgewählt werden.
