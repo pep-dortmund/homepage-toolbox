@@ -570,29 +570,22 @@ Das Fenster kann nach der Installation über das `X` geschlossen werden.
 <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
 
 Zuletzt muss Sumatra PDF noch als Standard PDF-Betrachter eingestellet werden.
-Dafür kann im Startmenü nach `Standard` gesucht werden. Anschließend muss dann
+Dafür kannst du im Startmenü nach `Standard-Apps` suchen. Anschließend muss dann
 _Standard-Apps_ geöffnet werden.
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-1.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-standard-app-1_win11.png" class="screenshot" />
 
-In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Dateityp auswählen_,
+In dem geöffneten Fenster kannst du in dem Suchfeld nach `.pdf` suchen und anschließend
+auf das Icon am rechten Ende des Suchergebnisses anklicken. 
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-standard-app-3_win11.png" class="screenshot" />
 
-durch Klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
-In diesem muss bis zu der Zeile nach unten gescrollt werden in der _.pdf_ in der ersten Spalte steht.
+Dadurch öffnest du ein Auswahlmenü. In diesem musst du dann _SumatraPDF_ anklicken und mit 
+einem Klick auf `Standard festlegen` bestätigen.
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
+<img alt="" src="/img/sumatra/sumatra-standard-app-4_win11.png" class="screenshot" />
 
-Ist in der Zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts weiteres getan werden und 
-das Fenster kann wie gewöhnlich durch Klicken auf das `X` geschlossen werden.
-
-Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z.B. _Acrobat Reader_ oder _Microsoft Edge_)
-kann durch Klicken auf den Programmnamen ein Auswahlmenü geöffnet werden. In diesem muss dann 
-_SumatraPDF_ angeklickt werden.
-
-<img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
-
+Das Fenster kannst du anschließend wie gewöhnlich durch Klicken auf das `X` schließen.
 
 #### <a id="evince"></a>Evince
 
