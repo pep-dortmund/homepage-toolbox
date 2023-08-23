@@ -185,34 +185,14 @@ eingebt oder auf das `X` oben rechts klickt.
 
 ### <a id="WindowsTerminal"></a>Windows Terminal
 
-Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Das Windows Terminal kann 
-aus dem Microsoft Store installiert werden.
+Wir verwenden auch weiter hin das Windows Terminal, allerdings nicht als Administrator.
+Außerdem musst du noch eine Einstellung.
 
-Auch der Microsoft Store kann über die Suche im Startmenü gefunden werden:
+Das Windows Terminal kann wieder durch einen `Rechtsklick` auf das Startmenü-Icon und anschließendem `Linksklick`
+auf _Terminal_ öffnen.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-store-1.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-start_win11.png" class="screenshot" />
 
-Suche im Microsoft Store nach `Terminal` und wählt _Windows Terminal_ aus:
-
-<img alt="" src="/img/windows-terminal/windows-terminal-store-2.png" class="screenshot" />
-
-Und im folgenden Fenster `Herunterladen` anklicken:
-
-<img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
-
-Im Anschluss an die Installation kann der Microsoft Store geschlossen werden. 
-
-Das Windows Terminal kann über das Startmenü geöffnet werden. Direkt nach der Installation
-befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kann hier wieder
-die Suche verwendet werden. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der 
-rechten Spalte.
-
-<img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
-
-Beim ersten Öffnen des Windows Terminals erscheint ein Informations-Banner am oberen Fensterrand,
-welches mit dem `X` am rechten Rand geschlossen werden kann.
-
-<img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
 
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
 Um eine Ubuntu-Kommandozeile zu öffnen, klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
