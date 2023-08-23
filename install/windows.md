@@ -57,7 +57,6 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ## <a id="Installieren"></a>Installieren
 
-
 ### <a id="Vorbereitungen"></a>Vorbereitungen
 
 #### <a id="Windowsinfo"></a> Windows-Info: Systemtyp und Buildnummer
@@ -359,78 +358,64 @@ der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung ka
 Für die Installation der Programme, die nötig sind um die Programmiersprache Python komfortabel
 nutzen zu können verwenden wir das Tool `mamba`.
 
-Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann unter dem angegebenen Link heruntergeladen werden.
-
-[Mambaforge Download](https://github.com/conda-forge/miniforge#mambaforge){:target="_blank"}
-
-Auf der Website ist es wichtig, dass die Installationsdatei für **Linux** ausgewählt wird,
-der Link auf der Downloadseite ist mit _Mambaforge-Linux-x86-64_ beschriftet.
-
-<img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
-
-Der Download kann einige Zeit in Anspruch nehmen.
-
-Nach dem abgeschlossenen Download, muss nun der der Downloads-Ordner (in dem die Datei gespeichert wurde)
-im Windows Terminal geöffnet werden. In diese werden dafür nacheinander die folgenden Befehle 
-eingegeben und jeweils mit Drücken der `Entertaste` bestätigt.
-
----
-**Wichtig:** Im ersten Befehl muss `Max Mustermann` durch euren Windows-Benutzernamen ersetzt werden
-(siehe <a href="#WindowsBenutzername">Windows-Benutzername</a>).
-
----
+Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann durch die Eingabe der folgende Befehle
+ins Windows Terminal heruntergeladen werden:
 
 ```
-cd "/mnt/c/Users/Max Mustermann/Downloads"
+cd ~/.local
 ```
+Dieser Befehl ändert den aktuellen Pfad auf den Ordner in den die Installationsdatei heruntergeladen werden soll.
+Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun `~/.local` sein.
 
-Dieser Befehl ändert den aktuellen Pfad auf den Downloads-Ordner.
-Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun auf `/Downloads` enden.
+```
+curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+```
+Dieser Befehl lädt die Installationsdatei herunter. Der Download kann einige Zeit in Anspruch nehmen.
 
 ```
 ls
 ```
-Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
+Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Mambaforge-Linux-x86-64.sh_
+sollte hier aufgeführt sein.
 
-<img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
 
-In der Liste sollte die heruntergeladene Installationsdatei _Mambaforge-Linux-x86_64.sh_ vorkommen.
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 
 ```
 bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge 
 ```
-
 Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
-
-<img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
 
 Im folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: ihr kauft damit nichts).
 Diese werden zunächst mit der `Enter`-Taste geöffnet 
 
-<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
+
 
 Diese muss dann durch durch die Eingabe von `yes` und anschließendem `Enter` akzeptiert werden.
 
-<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
+
 
 Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
 
+<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+
 Die Installation endet mit den folgenden Zeilen:
-
-<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
-
 Hier muss abermals `yes` eingegeben und mit `Enter` bestätigt werden.
+
+<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
 
 Die Installation ist beendet, wenn die letzte Zeile wieder die Eingabezeile anzeigt wird.
 
-<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
 
 Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffenen eines neuen.
 
 Im neuen Terminal-Fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
 
-<img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
+<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
 Nun müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
@@ -453,7 +438,12 @@ angezeigt wird.
 <img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
 
 Nach erfolgreicher Installation kann die Installationsdatei _Mambaforge-Linux-x86-64.sh_
-aus dem Downloads-Ordner gelöscht werden.
+mit dem Befehl
+
+```
+rm ~/.local/Mambaforge-Linux-x86_64.sh
+```
+gelöscht werden.
 
 
 ### <a id="TeXLive"></a>TeXLive
