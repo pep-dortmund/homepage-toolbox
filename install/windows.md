@@ -5,7 +5,7 @@ title: Windows-Installation
 <span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
-Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
+Wenn man sich nicht sicher ist, heutzutage hat man fast immer ein 64-bit System.
 
 
 __Bitte die folgenden Punkte unbedingt lesen:__
@@ -16,9 +16,9 @@ ist, um sicherzustellen, dass ihr auch folgen könnt, wenn ihr bisher keine Ber�
 mit den Inhalten des Toolbox Workshops hattet. 
 
 + Befolgt die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
-und kontrolliert jedesmal, dass die ihr die Befehle richtig kopiert oder abgetippt habt.
+und kontrolliert jedes Mal, dass die ihr die Befehle richtig kopiert oder abgetippt habt.
 
-+ Alle drei Abschnitt (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
++ Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
 Den Beginn jedes dieser drei Abschnitte erreicht ihr über die drei Buttons unter der Einleitung. 
 
 
@@ -30,7 +30,7 @@ am besten kontaktieren könnt.
 Falls falls ihr __nicht__ am LaTeX-Kurs teilnehmen wollt, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann könnt ihr allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, solltet ihr mindestens die Abschnitte <a href="#SumatraPDF">Sumatra PDF</a>, 
+Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, solltet ihr mindestens die Unterabschnitte <a href="#SumatraPDF">Sumatra PDF</a>, 
 <a href="#VSCode">Visual Studio Code</a> und <a href="#TeXLive">TeXLive </a> durcharbeiten.
 Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
 
@@ -62,7 +62,7 @@ um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betrieb
 
 ### <a id="Vorbereitungen"></a>Vorbereitungen
 
-#### <a id="Windowsinfo"></a> Window-Info: Systemtyp und Buildnummer
+#### <a id="Windowsinfo"></a> Windows-Info: Systemtyp und Buildnummer
 Findet heraus, ob ihr ein 64- oder 32-bit Betriebssystem habt.
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
@@ -74,7 +74,7 @@ Unter dem Schlagwort _Systemtyp_ kann die Art des Betriebssystems gesehen werden
 
 <img alt="" src="/img/wsl/win10-64bit-2.png" class="screenshot" />
 
-In diesem Fenster erhaltet ihr noch eine weitere Info, die _Betriebsystembuild_-Nummer.
+In diesem Fenster erhaltet ihr noch eine weitere Info, die _Betriebssystembuild_-Nummer.
 
 <img alt="" src="/img/wsl/win10-buildnumber.png" class="screenshot" />
 
@@ -92,14 +92,20 @@ Anschließend könnt ihr über den Button `Nach Updates suchen` fehlende Updates
 <img alt="" src="/img/wsl/win10-updates-2.png" class="screenshot" />
 
 Überprüft nach der Installation der Updates und einem Neustart eures PCs nocheinmal die 
-_Betriebsystembuild_-Nummer. Sollte diese immernoch nicht passen, meldet euch bei uns.
+_Betriebssystembuild_-Nummer. Sollte diese immernoch nicht passen, meldet euch bei uns.
 
 #### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
-Die Endungen einer Datei (die Auskunft über die Art der Datei geben, zB `.pdf` für pdf Dokumente) 
-sind unter Windows nicht Standardmäßig aktiviert. Diese können und sollen aktiviert werden.
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente) 
+sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
-Diese Einstellung kann im Explorer vorgenommen werden. Wie zuvor kann dieser auch durch suchen im Startmenü gefunden und gestartet werden.
+Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
+`Windows + E`  geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen `Strg` und `Alt` unten links
+auf der Tastatur).
+
+Alternativ kann der Explorer in der Suche im Startmenü gefunden werden. Nach dem öffnen des Startmenüs
+wird automatisch eine Suche gestartet, wenn Buchstaben über die Tastatur eingegeben werden. Hier muss
+nach `Explorer` gesucht werden. Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
 
 <img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
 
@@ -118,7 +124,7 @@ oberste Icon in der linken Spalte haltet.
 
 ### Windows Subsystem for Linux (WSL)
 
-Diese Anleitung funktioniert nur mit der passenden _Betriebsystembuild_-Nummer,
+Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
 siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
 #### Installation des WSL 
@@ -246,7 +252,7 @@ in dem `Einstellungen` angeklickt werden muss:
 
 Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
 standardmäßig Ubuntu öffnet.
-Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch klicken 
+Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken 
 auf den Pfeil nach unten öffnet sich eine Auswahl.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
@@ -255,7 +261,7 @@ In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Pu
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
 
-Im Anschluss kann das Terminal Fenster geschlossen werden.
+Im Anschluss kann das Terminal-Fenster geschlossen werden.
 
 
 ### Git, Make und weiteres
@@ -418,7 +424,7 @@ Die Installation ist beendet, wenn die letzte Zeile wieder die Eingabezeile anze
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffenen eines neuen.
+Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffenen eines neuen.
 
 Im Neuen terminal fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
 
@@ -447,12 +453,10 @@ angezeigt wird.
 Nach erfolgreicher Installation kann die Installationsdatei _Mambaforge-Linux-x86-64.sh_
 aus dem Downloads-Ordner gelöscht werden.
 
-__Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
-
 
 ### <a id="TeXLive"></a>TeXLive
 
-Im Terminal wird mit folgenden drei Befehlen das Installationsskript
+Im Terminal wird mit den folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
 ```
 cd ~/.local
@@ -471,7 +475,7 @@ Führe dazu folgenden Befehl im Terminal aus:
 echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
-Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
+Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
 
 In dem neuen Terminal die folgenden Befehle eingeben:
 
@@ -484,8 +488,6 @@ Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktionie
 gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
 
-
-__Jetzt noch die Installation [testen](#test)!__
 
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
@@ -522,7 +524,7 @@ in dieser muss der Button `Install` angeklickt werden.
 
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
 zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
-Diese ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
+Dies ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
 Sprache nicht gewünscht ist.
 
 Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
@@ -543,7 +545,7 @@ der im folgenden Fenster ausgeführt werden kann.
 #### VSCode: Terminal einrichten
 
 
-Mit Tastenkombination `Strg + Shift + ö` oder über den die Menüleiste _Terminal_ → _Neues Terminal_ 
+Mit Tastenkombination `Strg + Shift + ö` oder über den die Menüleiste: _Terminal_ → _Neues Terminal_ 
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
 die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
@@ -559,7 +561,7 @@ Anschließend kann das schon geöffnete Terminal mit einem Klick auf die Müllto
 <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
 
 Wird nun erneut ein Terminal mit `Strg + Shift + ö` geöffnet, so sollte dieses nun wie das (mittlerweile)
-gowohnte Terminal aussehen:
+gewohnte Terminal aussehen:
 
 <img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
 
@@ -601,13 +603,13 @@ In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Date
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
 
-durch klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
-In diesem muss bis zu der Zeile nach unten gescrolled werden in der _.pdf_ in der ersten Spalte steht.
+durch Klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
+In diesem muss bis zu der Zeile nach unten gescrollt werden in der _.pdf_ in der ersten Spalte steht.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
 
 Ist in der Zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts weiteres getan werden und 
-dass Fenster kann wie gewöhnlich durch klicken auf das `X` geschlossen werden.
+das Fenster kann wie gewöhnlich durch Klicken auf das `X` geschlossen werden.
 
 Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z.B. _Acrobat Reader_ oder _Microsoft Edge_)
 kann durch Klicken auf den Programmnamen ein Auswahlmenü geöffnet werden. In diesem muss dann 
@@ -618,7 +620,7 @@ _SumatraPDF_ angeklickt werden.
 
 #### <a id="evince"></a>Evince
 
-Um (ohne viele Umstände) pdf-Dateien auch aus dem Windows Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
+Um (ohne viele Umstände) PDF-Dateien auch aus dem Windows Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
 für das WSL zu installieren. Dafür muss folgender Befehl in das Windows Terminal eingegeben werden:
 ```
 sudo apt install evince
@@ -634,14 +636,14 @@ Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#
 Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
 geschlossen und ein neues geöffnet werden.
 
-Um die installierten Pakete nutzen zu können muss zunächts die _virtuelle Umgebung_  mit diesem Befehl aktivert werde:
+Um die installierten Pakete nutzen zu können muss zunächts die _virtuelle Umgebung_  mit diesem Befehl aktivert werden:
 
 ```
 mamba activate toolbox
 ```
 Durch diesen Befehl ändert sich der Beginn der Eingabezeile von _(base)_ zu _(toolbox)_.
 
-In das Windows Terminal_ werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
+In das Windows Terminal werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
 
 ```
@@ -708,7 +710,7 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 ### TeXLive
 
 Die TeXLive Installation wird ebenfalls unter Verwendung des Windows Terminals getestet.
-In diese wird der folgende Befehl eingegeben.
+In dieses wird der folgende Befehl eingegeben.
 
 ```
 luatex
@@ -759,7 +761,7 @@ texdoc texlive
 
 ### Mamba
 
-Um Updates für Anaconda zu installieren wird in einem Windows Terminal folgender Befehl eingetragen.
+Um Updates für mamba zu installieren wird in einem Windows Terminal folgender Befehl eingetragen.
 ```
 mamba update -n toolbox --all
 ```
