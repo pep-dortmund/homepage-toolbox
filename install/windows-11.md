@@ -3,9 +3,6 @@ layout: default
 title: Windows-11-Installation 
 ---
 
-Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
-Wenn man sich nicht sicher ist, heutzutage hat man fast immer ein 64-bit System.
-
 
 __Bitte die folgenden Punkte unbedingt lesen:__
 
