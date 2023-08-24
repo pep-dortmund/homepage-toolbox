@@ -344,19 +344,11 @@ Sicherheit nachgeholt werden.
 Für die Installation von [Mambaforge (Python)](#Mambaforge) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
 
 ```
-mkdir ~/.local
+mkdir -p ~/.local
 ```
 
-Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert.
-Falls der Ordner noch nicht existierte, wird keine Rückmeldung gegeben.
-Sollte dieser Ordner bereits existieren, so wird diese Rückmeldung ausgegeben:
-
-```
-mkdir: cannot create directory ‘/home/luckyjosh/.local’: File exists
-```
-
-Tritt eine dieser beiden Möglichkeiten ein, kannst du fortfahren.
-
+Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
+und tut gar nichts falls dieser Ordner schon existiert.
 
 ### <a id="Mambaforge"></a>Mambaforge: Python Installation
 
