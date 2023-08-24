@@ -17,10 +17,9 @@ und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt h
 + Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
 Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
 
-+ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt nicht einfach,
++ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
 sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise, wie du uns 
 am besten kontaktieren kannst.
-
 
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
