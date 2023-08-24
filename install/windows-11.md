@@ -597,8 +597,6 @@ sudo apt install evince
 
 ## <a id="test"></a>Testen
 
-Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.
-
 ### Mamba: Python
 
 Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
@@ -762,28 +760,3 @@ Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in ein Wind
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```
-
-## <a id="troubleshooting"></a> Problembehandlung
-
-+ Bei der Verwendung von matplotlib kann ein Fehler auftreten,
-  der mit den folgenden Zeilen (oder ähnlichen) endet:
-```
-from PyQt5 import QtCore, QtGui, QtWidget
-ImportError: libGL.so.1 connot open shared object file: No such file or directory
-```
-Dieser Fehler kann durch das Installieren einer Software-Bibliothek behoben werden.
-Dazu muss der folgende Befehl in ein Windows Terminal eingegeben werden.
-```
-sudo apt install qt5-default
-```
-
-+ Beim Abspeichern von matplotlib-Figuren
-kommt ein Fehler ähnlich zu
-**ghostscript-9.00 required**
-```
-sudo apt update
-```
-```
-sudo apt install ghostscript
-```
-

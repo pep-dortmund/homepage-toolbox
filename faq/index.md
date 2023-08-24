@@ -7,8 +7,29 @@ category: faq
 Hier listen wir Lösungen für Fragen auf, die besonders häufig gestellt werden.
 
 # Windows
-Am Ende der Installationsanleitungen gibt es den Punkt
-*Problembehandlung*, hier sind Lösungsvorschläge für Probleme bei der Installation aufgelistet.
+
++ Bei der Verwendung von matplotlib kann ein Fehler auftreten,
+  der mit den folgenden Zeilen (oder ähnlichen) endet:
+```
+from PyQt5 import QtCore, QtGui, QtWidget
+ImportError: libGL.so.1 connot open shared object file: No such file or directory
+```
+Dieser Fehler kann durch das Installieren einer Software-Bibliothek behoben werden.
+Dazu muss der folgende Befehl in ein Windows Terminal eingegeben werden.
+```
+sudo apt install qt5-default
+```
+
++ Beim Abspeichern von matplotlib-Figuren
+kommt ein Fehler ähnlich zu
+**ghostscript-9.00 required**
+```
+sudo apt update
+```
+```
+sudo apt install ghostscript
+```
+
 
 # Linux
 
