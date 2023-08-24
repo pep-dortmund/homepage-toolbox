@@ -9,7 +9,7 @@ Falls du nicht am LaTeX-Kurs teilnimmst, ist TeXLive optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
 Falls du nur am LaTeX-Kurs teilnehmen willst,
-solltest du mindestens Visual Studio Codium (oder einen anderen Texteditor)
+solltest du mindestens VSCodium (oder einen anderen Texteditor)
 und TeXLive installieren.
 
 
@@ -55,9 +55,9 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
         $ sudo pacman -S git make curl
 
-### Visual Studio Code
+### Texteditor VSCode
 
-Die Binärdateien, die Microsoft zur Verfügung stellt, haben eine Closed Source
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, haben eine Closed Source
 Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
 
@@ -78,8 +78,8 @@ Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
 
       $ sudo pacman -S code
 
-Starte VS Codium nach der Installation, klicke in der linken Leiste auf
-`Extensions` (Unterstes Symbol) und suche nach „TexLab LSP Client“,
+Starte VSCodium nach der Installation, klicke in der linken Leiste auf
+`Extensions` (unterstes Symbol) und suche nach „TexLab LSP Client“,
 installiere die Extension mit einem Klick auf den `install` Knopf.
 
 ### Anaconda
