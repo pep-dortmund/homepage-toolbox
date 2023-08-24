@@ -173,7 +173,7 @@ des Workshops, im Folgenden wird diese jedoch schon zur Installation der benöti
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd_win11.png" class="screenshot" />
 
-Vor dem nächsten Abschnitt könnt ihr das Terminal-Fenster schließen. Indem ihr den Befehl 
+Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl 
 ```
 exit
 ``` 
@@ -207,7 +207,7 @@ In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Pu
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
 
-Im Anschluss kann das Terminal-Fenster geschlossen werden.
+Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 
 ### Git, Make und weiteres
@@ -240,7 +240,7 @@ das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpassw
 
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme, die upgedatet
-werden können beim ersten Ausführen wesentlich länger sein.
+werden können, beim ersten Ausführen wesentlich länger sein.
 
 <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 
@@ -348,7 +348,7 @@ Diese werden zunächst mit der `Enter`-Taste geöffnet
 
 <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
 
-Abhängig von der Größe des Terminal-Fensters, kann es vorkommen, dass der Text nur zeilenweise
+Abhängig von der Größe des Terminal Fensters, kann es vorkommen, dass der Text nur zeilenweise
 ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ steht.
 
 <img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
@@ -374,13 +374,13 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffnen eines Neuen.
+Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen.
 
-Im neuen Terminal-Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
+Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
 <img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
 
-Jetzt müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
+Jetzt müssen noch die Python-Pakete installiert werden, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
 und wofür die gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
 wir eine separate Python Installation mit genau den Paketen, die wir für den Workshop brauchen.
@@ -510,7 +510,7 @@ der im folgenden Fenster ausgeführt werden kann.
 #### VSCode: Terminal einrichten
 
 
-Mit Tastenkombination `Strg` + `Shift` + `ö` oder über den die Menüleiste: _Terminal_ → _Neues Terminal_ 
+Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_ 
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
 die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
