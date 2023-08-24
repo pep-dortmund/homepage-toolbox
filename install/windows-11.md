@@ -306,7 +306,7 @@ mkdir -p ~/.local
 ```
 
 Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
-und tut gar nichts falls dieser Ordner schon existiert.
+und tut gar nichts, falls dieser Ordner schon existiert.
 
 
 ### <a id="Mambaforge"></a>Mambaforge: Python Installation
