@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Windows-Installation
+title: Windows-10-Installation
 ---
 <span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 
@@ -22,17 +22,17 @@ und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt h
 Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
 
 + Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt nicht einfach,
-sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise wie du uns 
+sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise, wie du uns 
 am besten kontaktieren kannst.
 
 
-Falls falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
+Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
 Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
-um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
+um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 
 <div class="row" style="padding: 10px">
@@ -71,20 +71,20 @@ Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer 
 <img alt="" src="/img/wsl/win10-buildnumber-2.png" class="screenshot" />
 
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
-Um diese Vereinfachungen nutzen zu können, muss dies Nummer vor dem _._ mindestens _19041_ sein.
+Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
 
-Sollte eure Nummer niedriger sein, empfehlen wir euch die Updates für eure Windows-Installation 
-zu installieren. Dafür könnt ihr in dem obigen _Info_-Fentser in der Suchleiste nach "Update"
+Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Windows-Installation 
+zu installieren. Dafür kannst du in dem obigen _Info_-Fentser in der Suchleiste nach "Update"
 suchen und den Punkt _Nach Updates suchen_ auswählen.
 
 <img alt="" src="/img/wsl/win10-updates-1.png" class="screenshot" />
 
-Anschließend könnt ihr über den Button `Nach Updates suchen` fehlende Updates installieren.
+Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates installieren.
 
 <img alt="" src="/img/wsl/win10-updates-2.png" class="screenshot" />
 
-Überprüft nach der Installation der Updates und einem Neustart eures PCs nocheinmal die 
-_Betriebssystembuild_-Nummer. Sollte diese immernoch nicht passen, meldet euch bei uns.
+Überprüfe nach der Installation der Updates und einem Neustart eures PCs noch einmal die 
+_Betriebssystembuild_-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
 
 #### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
@@ -92,16 +92,16 @@ Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf
 sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
 Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
-`Windows + E`  geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen `Strg` und `Alt` unten links
+`Windows` + `E`  geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen `Strg` und `Alt` unten links
 auf der Tastatur).
 
-Alternativ kann der Explorer in der Suche im Startmenü gefunden werden. Nach dem öffnen des Startmenüs
+Alternativ kann der Explorer in der Suche im Startmenü gefunden werden. Nach dem Öffnen des Startmenüs
 wird automatisch eine Suche gestartet, wenn Buchstaben über die Tastatur eingegeben werden. Hier muss
 nach `Explorer` gesucht werden. Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
 
 <img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
 
-In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden (ein Schwarzer Haken muss im Kästchen zu sehen sein).
+In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden (ein schwarzer Haken muss im Kästchen zu sehen sein).
 
 <img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
 
@@ -113,7 +113,7 @@ siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 #### Installation des WSL 
 Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. 
 Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs. Durch Tippen des
-Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klickt auf der rechten
+Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klicke auf der rechten
 Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
 
 <img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
@@ -132,7 +132,7 @@ kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_
 
 <img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
 
-In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
+In die PowerShell muss jetzt der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden, Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install 
@@ -156,7 +156,7 @@ Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden ka
 
 #### <a id="Einrichten des Benutzerkontos">Einrichten eines Benutzerkontos
 
-Nach erfolgreicher Installation erscheint die Aufforderung einen Benutzernamen für
+Nach erfolgreicher Installation erscheint die Aufforderung, einen Benutzernamen für
 das Linux-Betriebssystem einzugeben.
 Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
@@ -192,7 +192,7 @@ Ist die Installation erfolgreich durchgeführt worden,
 erhält man die im nächsten Screenshot gezeigte Ausgabe.
 Die letzte Zeile (im Screenshot: `luckyjosh@DESKTOP-L02KDEF:~$`) wird im folgenden **Eingabezeile** genannt.
 
-Die Eingabezeile besteht aus zwei Teilen. Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (im Screenshot: `luckyjosh`) und dem Computernamen (im Screenshot: `DESKTOP-L02KDEF`) zusammen.
+Die Eingabezeile besteht aus zwei Teilen. Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (im Screenshot: `luckyjosh`) und dem Computernamen (im Screenshot: `DESKTOP-L02KDEF`) zusammen. Hier werden bei dir andere Namen stehen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
 mit dem Linux-Betriebssystem verwendet wird. Eine detailliertere Einführung in den Umgang erfolgt während
@@ -238,13 +238,12 @@ welches mit dem `X` am rechten Rand geschlossen werden kann.
 <img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
 
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
-Um eine Ubuntu-Kommandozeile zu öffnen, klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
+Um eine Ubuntu-Kommandozeile zu öffnen, klicke zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
 in dem `Einstellungen` angeklickt werden muss:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
 
-Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
-standardmäßig Ubuntu öffnet.
+Hier kannst du einstellen, dass sich beim Start von Windows Terminal standardmäßig Ubuntu öffnet.
 Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken 
 auf den Pfeil nach unten öffnet sich eine Auswahl.
 
@@ -280,14 +279,14 @@ sudo apt update
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
 Internetverbindung voraus.
 
-Befehle die mit `sudo` beginnen erfordern besondere Zugriffsrechte. Daher muss zunächst immer
+Befehle die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
 
 
-Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme die geupdatet
-werden können beim ersten Ausführen wesentlich länger sein.
+Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme,
+die upgedatet werden können beim ersten Ausführen wesentlich länger sein.
 
 <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 
@@ -302,7 +301,7 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die beiden Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
+Nun können die drei Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
 Befehls
 ```
 sudo apt install git make curl
@@ -318,11 +317,12 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 
 #### Git-Einstellungen
 
-Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in das Windows Terminal wie zuvor
+Für Git müssen noch ein paar Einstellungen vorgenommen werden.
+Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
 ---
-**Wichtig:** Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
+**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Name** und auch deine **eigene E-Mail-Adresse** verwenden!
 
 ---
 
@@ -339,7 +339,7 @@ git config --global rebase.stat true
 git config --global merge.conflictstyle diff3
 ```
 
-Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit dem Windows Terminal selbst geübt werden kann.
+Hier wurden absichtlich keine Screenshots eingefügt, damit du den Umgang mit dem Windows Terminal selbst üben kannst.
 Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
 der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr
 Sicherheit nachgeholt werden.
@@ -360,21 +360,21 @@ Sollte dieser Ordner bereits existieren, so wird diese Rückmeldung ausgegeben:
 mkdir: cannot create directory ‘/home/luckyjosh/.local’: File exists
 ```
 
-Tritt eine dieser beiden Möglichkeiten ein kannst du fortfahren.
+Tritt eine dieser beiden Möglichkeiten ein, kannst du fortfahren.
 
 
 ### <a id="Mambaforge"></a>Mambaforge: Python Installation
 
-Für die Installation der Programme, die nötig sind um die Programmiersprache Python komfortabel
-nutzen zu können verwenden wir das Tool `mamba`.
+Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
+nutzen zu können, verwenden wir das Tool `mamba`.
 
-Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann durch die Eingabe der folgende Befehle
-ins Windows Terminal heruntergeladen werden:
+Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
+ins Windows Terminal, heruntergeladen werden:
 
 ```
 cd ~/.local
 ```
-Dieser Befehl ändert den aktuellen Pfad auf den Ordner in den die Installationsdatei heruntergeladen werden soll.
+Dieser Befehl ändert den aktuellen Pfad auf den Ordner, in den die Installationsdatei heruntergeladen werden soll.
 Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun `~/.local` sein.
 
 ```
@@ -397,7 +397,7 @@ bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge
 ```
 Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 
-Im folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: ihr kauft damit nichts).
+Im Folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: Du kaufst damit nichts).
 Diese werden zunächst mit der `Enter`-Taste geöffnet 
 
 <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
@@ -409,7 +409,7 @@ ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ 
 
 Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächster Screenshot)
 der Benutzungsbestimmung zu gelangen.
-Am Ende der Benutzungsbestimmungen müssen diese dann durch durch die Eingabe von `yes` 
+Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes` 
 und anschließendem `Enter` akzeptiert werden.
 
 <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
@@ -424,17 +424,17 @@ Hier muss abermals `yes` eingegeben und mit `Enter` bestätigt werden.
 
 <img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
 
-Die Installation ist beendet, wenn die letzte Zeile wieder die Eingabezeile anzeigt wird.
+Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffenen eines neuen.
+Verwendet werden kann mamba erst nach dem Schließen des Terminal-Fensters und dem Öffnen eines Neuen.
 
-Im neuen Terminal-Fenster sollet nun _(base)_ am Anfang der der Eingabezeile stehen.
+Im neuen Terminal-Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
 <img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
 
-Nun müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
+Jetzt müssen noch die Python-Pakete, installiert werden, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
 und wofür die gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
 wir eine separate Python Installation mit genau den Paketen, die wir für den Workshop brauchen.
@@ -480,7 +480,7 @@ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
 
-Die Installation startet man mit `I` und `Enter`.
+Die Installation startest du mit `I` und `Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
 das machen wir in der Datei `~/.bashrc`.
@@ -510,20 +510,20 @@ TeXLive zu installieren.
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
 #### Installation
-Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Drüber hinaus hat dieser auch noch viele weitere Funktionen.
+Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Darüber hinaus hat dieser auch noch viele weitere Funktionen.
 
 VSCode kann, wie das Windows Terminal, über den Microsoft Store installiert werden.
-Der Microsoft Store wird dafür genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> geöffnet.
+Der Microsoft Store wird dafür, genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a>,geöffnet.
 Durch die Suche im Microsoft Store nach `Visual Studio Code` kann in der Liste der entsprechende Punkt ausgewählt werden:
 
 <img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
 
-Auf der folgenden Seite kann VSCode durch klick auf den Button `Installieren` installiert werden.
+Auf der folgenden Seite kann VSCode durch einen Klick auf den Button `Installieren` installiert werden.
 
 <img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
 
 Geöffnet werden kann VSCode nach der Installation über das Startmenü (wie zuvor wird durch Eingabe von `Visual`
-automatisch eine Suche begonnen) geöffnet werden kann VSCode dann durch einen Klick auf `Öffnen`.
+automatisch eine Suche begonnen), VSCode kann dann durch einen Klick auf `Öffnen` geöffnet werden.
 
 <img alt="" src="/img/vscodium/vscode-start.png" class="screenshot" />
 
@@ -541,7 +541,7 @@ Dies ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist
 Sprache nicht gewünscht ist.
 
 Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
-Eingabefenster in dem nach Einstellungen gesucht werden kann.
+Eingabefenster, in dem nach Einstellungen gesucht werden kann.
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Enter`-Taste ausgewählt werden.
@@ -558,7 +558,7 @@ der im folgenden Fenster ausgeführt werden kann.
 #### VSCode: Terminal einrichten
 
 
-Mit Tastenkombination `Strg + Shift + ö` oder über den die Menüleiste: _Terminal_ → _Neues Terminal_ 
+Mit Tastenkombination `Strg` + `Shift` + `ö` oder über den die Menüleiste: _Terminal_ → _Neues Terminal_ 
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
 die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
@@ -583,9 +583,9 @@ gewohnte Terminal aussehen:
 #### <a id="SumatraPDF"></a>Sumatra PDF
 
 Als PDF-Betrachter für Windows sollte Sumatra PDF verwendet werden.
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
-Den Download findet man unter dem folgenden Link.
+Die Verwendung von Acrobat Reader wird nicht empfohlen, da dieser die PDF-Datei blockiert,
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährst du im Workshop).
+Den Download findest du unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
 
@@ -594,11 +594,11 @@ hervorgehobenen Link heruntergeladen werden.
 
 <img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
 
-Die heruntergeladene Datei befindet sich im Downloads-Ordner und kan durch einen doppelten `Linksklick` ausgeführt werden.
+Die heruntergeladene Datei befindet sich im Downloads-Ordner und kann durch einen doppelten `Linksklick` ausgeführt werden.
 
 <img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
 
-Infolgedessen öffnet sich das folgende Fenster in dem die Installation mit einem `Linksklick` auf _Installieren_ gestartet wird.
+Infolgedessen öffnet sich das folgende Fenster, in dem die Installation mit einem `Linksklick` auf _Installieren_ gestartet wird.
 
 <img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
 
@@ -606,7 +606,7 @@ Das Fenster kann nach der Installation über das `X` geschlossen werden.
 
 <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
 
-Zuletzt muss Sumatra PDF noch als Standard PDF-Betrachter eingestellet werden.
+Zuletzt muss Sumatra PDF noch als Standard PDF-Betrachter eingestellt werden.
 Dafür kann im Startmenü nach `Standard` gesucht werden. Anschließend muss dann
 _Standard-Apps_ geöffnet werden.
 
@@ -617,11 +617,11 @@ In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Date
 <img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
 
 durch Klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
-In diesem muss bis zu der Zeile nach unten gescrollt werden in der _.pdf_ in der ersten Spalte steht.
+In diesem muss bis zu der Zeile nach unten gescrollt werden, in der _.pdf_ in der ersten Spalte steht.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
 
-Ist in der Zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts weiteres getan werden und 
+Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts Weiteres getan werden und 
 das Fenster kann wie gewöhnlich durch Klicken auf das `X` geschlossen werden.
 
 Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z.B. _Acrobat Reader_ oder _Microsoft Edge_)
@@ -649,7 +649,7 @@ Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#
 Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
 geschlossen und ein neues geöffnet werden.
 
-Um die installierten Pakete nutzen zu können muss zunächts die _virtuelle Umgebung_  mit diesem Befehl aktivert werden:
+Um die installierten Pakete nutzen zu können, muss zunächst die _virtuelle Umgebung_  mit diesem Befehl aktiviert werden:
 
 ```
 mamba activate toolbox
@@ -773,14 +773,14 @@ texdoc texlive
 
 ### Mamba
 
-Um Updates für mamba zu installieren wird in einem Windows Terminal folgender Befehl eingetragen.
+Um Updates für mamba zu installieren, wird in einem Windows Terminal folgender Befehl eingetragen.
 ```
 mamba update -n toolbox --all
 ```
 
 <img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
 
-Auch hier muss die Installation wieder mit einen `Y` gefolgt von einem `Enter` bestätigt werden.
+Auch hier muss die Installation wieder mit einem `Y` gefolgt von einem `Enter` bestätigt werden.
 
 <img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
 
@@ -790,7 +790,7 @@ angezeigt wird.
 
 ### Git, Make und weitere Unix-Tools
 
-Um Updates für diese sogenannten Unix-Tools zu erhalten
+Um Updates für diese sogenannten Unix-Tools zu erhalten,
 müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in ein
 Windows Terminal eingegeben werden.
 ```
