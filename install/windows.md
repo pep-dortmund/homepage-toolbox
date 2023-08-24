@@ -2,7 +2,6 @@
 layout: default
 title: Windows-10-Installation
 ---
-<span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 
 Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
 Wenn man sich nicht sicher ist, heutzutage hat man fast immer ein 64-bit System.
@@ -279,7 +278,7 @@ sudo apt update
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
 Internetverbindung voraus.
 
-Befehle die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
+Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
@@ -573,7 +572,7 @@ Anschließend kann das schon geöffnete Terminal mit einem Klick auf die Müllto
 
 <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
 
-Wird nun erneut ein Terminal mit `Strg + Shift + ö` geöffnet, so sollte dieses nun wie das (mittlerweile)
+Wird nun erneut ein Terminal mit `Strg` + `Shift` + `ö` geöffnet, so sollte dieses nun wie das (mittlerweile)
 gewohnte Terminal aussehen:
 
 <img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
