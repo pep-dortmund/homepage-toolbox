@@ -101,7 +101,7 @@ und können in beiden System falsch sein.
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
 1. Öffne das Programm `regedit`; am einfachsten, indem du `regedit` tippst,
-  während das Startmenü offen ist, und klicke auf `Registrierungs-Editor`.
+  während das Startmenü offen ist, und auf `Registrierungs-Editor` klickst.
 
 1. Navigiere auf der linken Seite zu
   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
