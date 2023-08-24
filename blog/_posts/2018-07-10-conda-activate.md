@@ -20,4 +20,4 @@ conda activate
 {% endhighlight %}
 
 Dies ermöglicht die bessere Nutzung von `conda` environments und das vollständige
-deaktivieren mit `conda deactivate`.
+Deaktivieren mit `conda deactivate`.
