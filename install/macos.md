@@ -4,15 +4,18 @@ title: macOS-Installation
 ---
 
 
-Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
-Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
+Wir empfehlen die Installation einer 64-bit Version,
+wenn du ein 64-bit Betriebssystem benutzt.
+Wenn du dir nicht sicher bist: Heutzutage ist fast jedes System 64-bit.
 
 __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
-Falls man nicht am LaTeX-Kurs teilnimmt, ist MacTeX optional.
-Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
+Falls du nicht am LaTeX-Kurs teilnimmst, ist MacTeX optional.
+Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Codium (oder einen anderen Texteditor) und MacTeX installieren.
+Falls du nur am LaTeX-Kurs teilnehmen willst,
+solltest du mindestens VSCodium (oder einen anderen Texteditor)
+und MacTeX installieren.
 
 <div class="row" style="padding: 10px">
   <div class="col-md-1" align="center"></div>
@@ -43,27 +46,30 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Codium (od
 ### Command Line Tools
 
 Die command line tools beinhalten unter anderem Git und einen C/C++ Compiler.
-Zur Installation folgendes im Terminal eingeben
+Zur Installation gibst du Folgendes im Terminal ein
 ```bash
 xcode-select --install
 ```
+und führst den Befehl mit `Enter` aus.
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
-### Anaconda
 
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
-  Bibliotheken
-
-__Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
-Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
 
 ### Texteditor VSCodium
 
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
+und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
+
 - [VSCodium](https://github.com/VSCodium/vscodium/releases).
    Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` herunter.
--  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner und muss nach `Programme` verschoben werden.
--  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start und man muss zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit" auf den "Dennoch öffen" Button klicken.
--  In VSCodium mit `Shift+cmd+p` die Kommando-Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal `codium` eingeben wird.
+-  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner
+  und muss nach `Programme` verschoben werden.
+-  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
+  und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
+  auf den "Dennoch öffen" Button klicken.
+-  In VSCodium mit `Shift+cmd+p` die Kommando-Palette öffnen und
+  `Shell Command: Install 'code' command in PATH` ausführen.
+  Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
 
@@ -71,12 +77,22 @@ Um git beizubringen, VSCodium zu benutzen, im Terminal:
 git config --global core.editor "codium --wait"
 ```
 
-- Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
-  installiert werden
+- Damit du besser in VSCodium LaTeX-Code schreiben kannst,
+  schlagen wir das Plugin `TexLab LSP Client` vor,
+  welches wie folgt installiert werden kann:
     - Mit `Shift+cmd+x` die Extensions öffnen
-    - `LaTeX language support` suchen
+    - `TexLab LSP Client` suchen
     - `install` anklicken
-    - VS Code neu starten
+    - VSCodium neu starten
+
+### Anaconda
+
+- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
+  Bibliotheken
+
+__Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
+
+Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
 
 ### Uncertainties
 
