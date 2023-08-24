@@ -11,26 +11,25 @@ Wenn man sich nicht sicher ist, heutzutage hat man fast immer ein 64-bit System.
 __Bitte die folgenden Punkte unbedingt lesen:__
 
 + Diese Anleitung mag relativ lang erscheinen und im ersten Moment abschreckend wirken.
-Wir versichern euch, dass diese Länge aber viel mehr ein Zeichen von Ausführlichkeit
-ist, um sicherzustellen, dass ihr auch folgen könnt, wenn ihr bisher keine Berührungen
-mit den Inhalten des Toolbox Workshops hattet. 
+Wir versichern dir, dass diese Länge aber viel mehr ein Zeichen von Ausführlichkeit
+ist, um sicherzustellen, dass du auch folgen kannst, wenn du bisher keine Berührungen
+mit den Inhalten des Toolbox Workshops hattest. 
 
-+ Befolgt die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
-und kontrolliert jedes Mal, dass die ihr die Befehle richtig kopiert oder abgetippt habt.
++ Befolge die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
+und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt hast.
 
 + Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
-Den Beginn jedes dieser drei Abschnitte erreicht ihr über die drei Buttons unter der Einleitung. 
+Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
+
++ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt nicht einfach,
+sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise wie du uns 
+am besten kontaktieren kannst.
 
 
-+ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringt diesen Schritt nicht einfach,
-sondern meldet euch bei uns. Unter [Hilfe](/problem.html) findet ihr die Hinweise wie ihr uns 
-am besten kontaktieren könnt.
+Falls falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
+Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-
-Falls falls ihr __nicht__ am LaTeX-Kurs teilnehmen wollt, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
-Dann könnt ihr allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
-
-Falls ihr __nur__ am LaTeX-Kurs teilnehmen wollt, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
+Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
