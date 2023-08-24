@@ -57,6 +57,9 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
 ### Texteditor VSCodium
 
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
+und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
+
 - [VSCodium](https://github.com/VSCodium/vscodium/releases).
    Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` herunter.
 -  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner

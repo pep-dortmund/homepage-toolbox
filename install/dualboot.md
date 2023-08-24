@@ -28,8 +28,8 @@ Weiterhin geht diese Anleitung davon aus, dass dein Rechner
 Dies sollte für alle modernen Rechner die Regel sein, es kann aber vorkommen,
 dass Windows im sogenannten *Legacy-BIOS* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
 
-Falls ihr einfach nur Linux installieren wollt,
-könnt ihr der Anleitung ab
+Falls du einfach nur Linux installieren willst,
+kannst du der Anleitung ab
 [Schritt 6](#einen-bootfähigen-usb-stick-für-die-linux-installation-erstellen) folgen.
 
 
@@ -101,7 +101,7 @@ und können in beiden System falsch sein.
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
 1. Öffne das Programm `regedit`; am einfachsten, indem du `regedit` tippst,
-  während das Startmenü offen ist.
+  während das Startmenü offen ist, und klicke auf `Registrierungs-Editor`.
 
 1. Navigiere auf der linken Seite zu
   `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
@@ -162,7 +162,7 @@ Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 1. Aktiviere die Optionen `Install Third Party Software` und falls du mit einem
   Netzwerk verbunden bist, installiert Updates während der Installation.
 
-1. Die Ubuntu Installation scanned nun deine Festplatte und sollte Windows und den
+1. Die Ubuntu Installation scannt nun deine Festplatte und sollte Windows und den
   freigegebenen Speicher finden.
   War dies erfolgreich, wähle die Option `Install along-side Windows 10` oder 11.
 

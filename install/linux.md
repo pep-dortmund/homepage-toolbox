@@ -55,10 +55,10 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
         $ sudo pacman -S git make curl
 
-### Texteditor VSCode
+### Texteditor VSCodium
 
-Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, haben eine Closed Source
-Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, haben eine Closed-Source-Lizenz
+und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
 
 - Debian, Ubuntu, Mint:

@@ -22,11 +22,12 @@ Hier wird aber nur das Programm _tlmgr_ installiert.
 Damit das Programm anschließend ausführbar ist, muss der Pfad zu der Datei in der Konfigurationsdatei deiner Shell hinzugefügt werden.
 Dafür fügst du die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu.
 Um zu sehen, welche Shell du benutzst, kannst du `echo $SHELL` im Terminal eingeben.
-Wenn die Ausgabe _bash_ ist, kannst du mit dem folgenden Befehl den Pfad zu TeXlive zum `PATH` hinzufügen
+Wenn die Ausgabe _bash_ enthält, kannst du mit dem folgenden Befehl den Pfad zu TeXlive zum `PATH` hinzufügen
 ```
 $ echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 $ source ~/.bashrc
 ```
+Für andere Terminal-Varianten musst du den `export` in die entsprechende Konfigurationsdatei schreiben.  
 Dann sollten noch die Update-Optionen angepasst werden
 ```
 $ tlmgr option autobackup -- -1
