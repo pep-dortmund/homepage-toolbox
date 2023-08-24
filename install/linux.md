@@ -57,7 +57,7 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 ### Texteditor VSCodium
 
-Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, haben eine Closed-Source-Lizenz
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
 und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
 
