@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: install
 title: Windows-11-Installation α-build
 ---
 <span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>

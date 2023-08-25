@@ -161,4 +161,28 @@ pre.highlight {
 .info-hover:hover {
   transition: all ease 0.25s;
   font-size: 34px;
-  }
+}
+
+.help-button-holder{
+  position: fixed;
+  width:  60px;
+  height: 60px;
+  bottom: 40px;
+  right:  40px;
+  color:  #fff;
+  background-color: var(--pep-gray);
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.help-button-holder:hover {
+  color:            #fff;
+  background-color: #333;
+  border-color:     #333;
+}
+
+.help-button{
+  margin-top: 22px;
+}
+
