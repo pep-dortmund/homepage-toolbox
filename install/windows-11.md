@@ -78,8 +78,6 @@ Zum Abschluss klicke auf `Übernehmen`.
 
 ### Windows Subsystem for Linux (WSL)
 
-Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
-siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
 #### Installation des WSL 
 Zunächst musst du eine PowerShell Konsole als Administrator starten. 
@@ -96,7 +94,7 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
-Um sicher zugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
+Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
 
@@ -105,7 +103,7 @@ Die Info-Leiste, die am oberen Fensterrand erscheint, kannst du durch einen Klic
 <img alt="" src="/img/wsl/win11-powershell-admin-test.png" class="screenshot" />
 
 In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden, Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
+und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install 
 ```

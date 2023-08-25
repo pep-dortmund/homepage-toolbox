@@ -122,13 +122,13 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
-Um sicher zugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
+Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
 
 <img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
 
 In die PowerShell muss jetzt der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden, Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
+und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install 
 ```
@@ -500,7 +500,7 @@ TeXLive zu installieren.
 Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Darüber hinaus hat dieser auch noch viele weitere Funktionen.
 
 VSCode kann, wie das Windows Terminal, über den Microsoft Store installiert werden.
-Der Microsoft Store wird dafür, genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a>,geöffnet.
+Der Microsoft Store wird dafür, genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a>, geöffnet.
 Durch die Suche im Microsoft Store nach `Visual Studio Code` kann in der Liste der entsprechende Punkt ausgewählt werden:
 
 <img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
