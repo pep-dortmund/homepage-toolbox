@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: install
 title: LaTeX Minimale Installation
 ---
 

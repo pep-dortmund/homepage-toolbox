@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Windows-11-Installation 
+layout: install
+title: Windows-11-Installation
 ---
 
 

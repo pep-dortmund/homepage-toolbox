@@ -1,6 +1,6 @@
 ---
-layout: default
-title: Windows-10-Installation
+layout: install
+title: Windows-Installation
 ---
 
 
