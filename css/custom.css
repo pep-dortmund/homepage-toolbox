@@ -173,6 +173,7 @@ pre.highlight {
   background-color: var(--pep-gray);
   border-radius: 50px;
   text-align: center;
+  text-decoration: none;
   box-shadow: 2px 2px 3px #999;
   transition: all ease 0.25s;
 }
@@ -181,6 +182,7 @@ pre.highlight {
   color:            #fff;
   background-color: var(--pep-yellow);
   border-color:     var(--pep-yellow);
+  text-decoration:  none;
 }
 
 .help-button{
@@ -188,5 +190,6 @@ pre.highlight {
   font-size: 2em;
   font-style: normal;
   font-weight: bold;
+  text-decoration: none;
 }
 
