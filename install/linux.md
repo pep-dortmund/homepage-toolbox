@@ -78,21 +78,27 @@ Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensio
 ### Python Installation: Mambaforge
 
 Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
-```bash
-curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
-bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge -b
-source "${HOME}/.local/mambaforge/etc/profile.d/mamba.sh"
-mamba init ${0//-}
-```
+
+    $ cd ~/.local
+    $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    $ bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge
+
+Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden. Und kann mit `yes` akzeptiert werden. Den Ort der Installation haben wir gesetzt, die Abfrage bestätigst du mit `Enter`.
+_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
+
 Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
-```bash
-mamba create -y -n toolbox numpy matplotlib scipy uncertainties sympy jupyterlab ipython
-```
-Diese startet ihr mit
-```bash
-mamba activate toolbox
-```
+Dafür musst du erst ein neues Terminal öffnen, dann:
+
+    $ mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+
+Diese startest du mit
+
+    $ mamba activate toolbox
+
+Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
+
+    $ rm ~/.local/Mambaforge-*.sh
 
 ### TeXLive
 
@@ -156,6 +162,7 @@ Um git beizubringen, VSCodium als Editor zu benutzen:
 
 Ebenfalls im Terminal:
 
+    $ mamba activate toolbox
     $ ipython
 
 Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
@@ -163,22 +170,16 @@ nummerierten Prompt, nun folgende Befehle eingeben.
 
     In [1]: %matplotlib
     In [2]: import matplotlib.pyplot as plt
-    In [3]: plt.plot([1, 2, 4])
+    In [3]: import numpy as np
+    In [4]: import scipy
+    In [5]: import sympy
+    In [6]: import uncertainties
+    In [7]: plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
-    In [4]: quit
+    In [8]: quit
 
-### Uncertainties
-
-Ebenfalls im Terminal:
-
-    $ ipython
-    In [1]: import uncertainties
-
-Es sollte keine Fehlermeldung erscheinen.
-
-Beenden mit `quit`
 
 ### Make
 
@@ -214,11 +215,16 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ## <a id="update"></a>Aktualisieren
 
+### Generell
+
+    $ sudo apt update
+    $ sudo apt upgrade
+
 ### Python Update: Mambaforge
 
 Im Terminal:
 
-    $ mamba update --all
+    $ mamba update -n toolbox --all
 
 ### TeXLive
 
