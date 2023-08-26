@@ -163,33 +163,94 @@ pre.highlight {
   font-size: 34px;
 }
 
-.help-button-holder{
+#help-button {
   position: fixed;
-  width:  55px;
-  height: 55px;
-  bottom: 40px;
-  right:  40px;
-  color:  #fff;
+  right: 25px;
+  bottom: 25px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.7);
+  transition: all ease 0.5s;
+}
+
+#help-button.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1) translate(-65px,0px);
+}
+
+#help-button a {
+  border: none;
+  border-radius: 50%;
+  display: block;
+  width:  50px;
+  height: 50px;
+  color: #fff;
   background-color: var(--pep-gray);
-  border-radius: 50px;
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease 0.25s;
   text-align: center;
   text-decoration: none;
-  box-shadow: 2px 2px 3px #999;
-  transition: all ease 0.25s;
+  font-size: 25px;
 }
 
-.help-button-holder:hover {
+#help-button a:after {
+  outline: none;
+  content: "?";
+  position: relative;
+  display: block;
+  top: 55%;
+  transform: translate(0,-55%);
+}
+
+#help-button.visible a:hover {
+  color: #fff;
+  background-color: var(--pep-yellow);
+}
+
+#backtotop-button {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.7);
+  transition: all ease 0.5s;
+}
+
+#backtotop-button.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
+}
+
+#backtotop-button a {
+  border: none;
+  border-radius: 50%;
+  display: block;
+  width:  50px;
+  height: 50px;
+  color: #fff;
+  background-color: var(--pep-gray);
+  box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: all ease 0.25s;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#backtotop-button a:after {
+  outline: none;
+  content: "🡑";
+  position: relative;
+  display: block;
+  top: 55%;
+  transform: translate(0,-55%);
+}
+
+#backtotop-button.visible a:hover {
   color:            #fff;
   background-color: var(--pep-yellow);
-  border-color:     var(--pep-yellow);
-  text-decoration:  none;
 }
-
-.help-button{
-  line-height: 55px;
-  font-size: 2em;
-  font-style: normal;
-  font-weight: bold;
-  text-decoration: none;
-}
-
