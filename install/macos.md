@@ -44,19 +44,18 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Codium (od
 
 Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
 Zur Installation folgendes im Terminal eingeben
-```bash
-xcode-select --install
-```
+    
+    xcode-select --install
+
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
 ### Python Installation: Mambaforge
 
 Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
-```bash
-cd
-curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
-bash Mambaforge-$(uname)-$(uname -m).sh
-```
+
+    cd
+    curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    bash Mambaforge-$(uname)-$(uname -m).sh
 
 Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
 Und kann mit `yes` akzeptiert werden.
@@ -66,19 +65,16 @@ _Do you wish the installer to initialize Mambaforge by running conda init?_ `yes
 Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
 Dafür musst du erst ein neues Terminal öffnen, dann:
-```bash
-mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
-```
+
+    mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
 
 Diese startest du mit
-```bash
-mamba activate toolbox
-```
+
+    mamba activate toolbox
 
 Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
-```bash
-rm ~/.local/Mambaforge-*.sh
-```
+
+    rm ~/.local/Mambaforge-*.sh
 
 ### Texteditor VSCodium
 
@@ -90,9 +86,7 @@ rm ~/.local/Mambaforge-*.sh
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
 
-```bash
-git config --global core.editor "codium --wait"
-```
+    git config --global core.editor "codium --wait"
 
 - Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
   installiert werden
@@ -131,10 +125,9 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
 ### Python
 
 Ebenfalls im Terminal:
-```bash
-mamba activate toolbox
-ipython
-```
+
+    mamba activate toolbox
+    ipython
 
 Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
 nummerierten Prompt, nun folgende Befehle eingeben.
@@ -158,7 +151,7 @@ Ebenfalls im Terminal:
     make
 
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
-
+    
     make: *** No targets specified and no makefile found.  Stop.
 
 ### TeX
@@ -168,14 +161,15 @@ Im Terminal:
     luatex
 
 Es sollte folgende Ausgabe erscheinen:
-
+    
     This is LuaTeX, Version 1.15.0 (TeX Live 2022)
     restricted system commands enabled.
     **
 
-Mit `Strg-C` beenden.
+Mit `Strg` + `C` beenden.
 
     biber
+
 
 Es sollte die Biber-Hilfe erscheinen.
 
@@ -186,23 +180,20 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 ### TeXLive einstellen:
 
 Im Terminal:
-```bash
-sudo tlmgr option autobackup -- -1
-sudo tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
-```
+
+    sudo tlmgr option autobackup -- -1
+    sudo tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
 ### Python Update: Mambaforge
 
 Im Terminal:
-```bash
-mamba update -n toolbox --all
-```
+
+    mamba update -n toolbox --all
 
 ### TeXLive
 
 Im Terminal:
-```bash
-sudo tlmgr update --self --all --reinstall-forcibly-removed
-```
+
+    sudo tlmgr update --self --all --reinstall-forcibly-removed
