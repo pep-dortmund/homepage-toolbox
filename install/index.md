@@ -15,7 +15,7 @@ funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht W
 Der Kurs ist zwar auch auf mit einem Windows-Rechner zu absolvieren,
 aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch,
 parallel auf eurem Rechner Linux zu installieren.
-So könnt ihr beim hochfahren zwischen den beiden Betriebssystemen wählen.
+So könnt ihr beim Hochfahren zwischen den beiden Betriebssystemen wählen.
 Wer eine Dual-Boot-Installation durchführen möchte,
 kann gerne unserer [Anleitung](dualboot.html) folgen.
 Da eine Dual-Boot-Installation beim ersten Mal nicht unbedingt trivial ist,

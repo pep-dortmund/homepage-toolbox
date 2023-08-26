@@ -1,14 +1,16 @@
 ---
-layout: default
+layout: install
 title: Linux-Installation
 ---
 
 __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
-Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
-Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
+Falls du nicht am LaTeX-Kurs teilnimmst, ist TeXLive optional.
+Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio Codium (oder einen anderen Texteditor) und TeXLive installieren.
+Falls du nur am LaTeX-Kurs teilnehmen willst,
+solltest du mindestens VSCodium (oder einen anderen Texteditor)
+und TeXLive installieren.
 
 
 <div class="row" style="padding: 10px">
@@ -29,12 +31,13 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben und mit Enter bestätigen.**
+**Wichtig: Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen.**
 
 Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
-Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu) ausführen.
+Führe nur die Befehle für deine eigene Distribution (z.B. Ubuntu) aus.
 
-Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit einem `sudo` Befehl sollte penibel geprüft werden.
+Der `sudo` Befehl verleiht weitreichende Administratorrechte,
+jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 ### Git, Make, curl
 
@@ -52,28 +55,32 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 
         $ sudo pacman -S git make curl
 
-### Visual Studio Code
+### Texteditor VSCodium
 
-Die Binärdateien, die Microsoft zur Verfügung stellt, haben eine Closed Source
-Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
+und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
 
 - Debian, Ubuntu, Mint:
 
-  Ladet die Datei `codium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
-  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
+  Lade die Datei `codium_<VERSION>_amd64.deb` von
+  <https://github.com/VSCodium/vscodium/releases> herunter und öffne sie mit
+  dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
 
 - Fedora
 
-  Ladet die Datei `codium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
-  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
+  Lade die Datei `codium_<VERSION>_el7.x86_64.rpm` von
+  <https://github.com/VSCodium/vscodium/releases> herunter und öffne sie mit
+  dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
 
 
 - Arch Linux
 
       $ sudo pacman -S code
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit einem Klick auf den `install` Knopf.
+Starte VSCodium nach der Installation, klicke in der linken Leiste auf
+`Extensions` (unterstes Symbol) und suche nach „TexLab LSP Client“,
+installiere die Extension mit einem Klick auf den `install` Knopf.
 
 ### Python Installation: Mambaforge
 
@@ -113,19 +120,19 @@ $ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 Die Installation startet man mit `I` und `Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
-das machen wir in der Datei `~/.bashrc`.
+das passiert in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
-Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
+Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
 In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 $ tlmgr option autobackup -- -1
-$ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+$ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
