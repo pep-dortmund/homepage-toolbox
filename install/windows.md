@@ -56,12 +56,12 @@ Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell is
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
 
-<img alt="" src="/img/wsl/win10-buildnumber-1.png" class="screenshot"/>
+<img alt="" src="/img/wsl/win10-buildnumber-1.png" style="max-width:60%;" />
 
 In der Liste am linken Rand lautet der letzte Punkt _Info_ (dieser sollte bereits ausgewählt sein).
 Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer ablesen.
 
-<img alt="" src="/img/wsl/win10-buildnumber-2.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-buildnumber-2.png" style="max-width:90%;" />
 
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
 Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
@@ -70,11 +70,11 @@ Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Wi
 zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach "Update"
 suchen und den Punkt _Nach Updates suchen_ auswählen.
 
-<img alt="" src="/img/wsl/win10-updates-1.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-updates-1.png" style="max-width:90%;" />
 
 Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates installieren.
 
-<img alt="" src="/img/wsl/win10-updates-2.png" class="screenshot" />
+<img alt="" src="/img/wsl/win10-updates-2.png" style="max-width:90%;" />
 
 Überprüfe nach der Installation der Updates und einem Neustart eures PCs noch einmal die 
 _Betriebssystembuild_-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
@@ -505,7 +505,7 @@ automatisch eine Suche begonnen), VSCode kann dann durch einen Klick auf `Öffne
 Beim ersten Start von VSCode nach der Installation, wird in der rechten unteren Ecke eine Infobox angezeigt,
 in dieser muss der Button `Install` angeklickt werden.
 
-<img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" class="screenshot" />
+<img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" style="max-width:90%;" />
 
 #### VSCode: Sprache
 
