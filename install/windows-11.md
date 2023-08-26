@@ -3,7 +3,6 @@ layout: install
 title: Windows-11-Installation
 ---
 
-
 __Bitte die folgenden Punkte unbedingt lesen:__
 
 + Diese Anleitung mag relativ lang erscheinen und im ersten Moment abschreckend wirken.
@@ -21,7 +20,6 @@ Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unte
 sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise, wie du uns 
 am besten kontaktieren kannst.
 
-
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
@@ -29,7 +27,6 @@ Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Ma
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
-
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
@@ -78,7 +75,6 @@ Zum Abschluss klicke auf `Übernehmen`.
 
 ### Windows Subsystem for Linux (WSL)
 
-
 #### Installation des WSL 
 Zunächst musst du eine PowerShell Konsole als Administrator starten. 
 Die einfachste Möglichkeit dafür ist ein `Rechtsklick` auf das Startmenü-Icon gefolgt von einem
@@ -92,11 +88,9 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/win11-admin-warning.jpg" class="screenshot" />
 
-
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
 kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
-
 
 Die Info-Leiste, die am oberen Fensterrand erscheint, kannst du durch einen Klick auf das `X` schließen.
 
@@ -149,13 +143,13 @@ Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd_win11.png" class="screenshot" />
 
-
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png" class="screenshot" />
 
 Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zweimal eingegeben werden).
+
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2_win11.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
@@ -187,7 +181,6 @@ auf _Terminal_ öffnen.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-start_win11.png" class="screenshot" />
 
-
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
 Um eine Ubuntu-Kommandozeile zu öffnen, klicke zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
 in dem `Einstellungen` angeklickt werden muss:
@@ -206,7 +199,6 @@ In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Pu
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
 
 Im Anschluss kann das Terminal Fenster geschlossen werden.
-
 
 ### Git, Make und weiteres
 
@@ -235,7 +227,6 @@ Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
-
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme, die upgedatet
 werden können, beim ersten Ausführen wesentlich länger sein.
@@ -266,14 +257,13 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 
 <img alt="" src="/img/unix/unix-5.png" class="screenshot" />
 
-
 #### Git-Einstellungen
 
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
 ---
-**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Name** und auch deine **eigene E-Mail-Adresse** verwenden!
+**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine **eigene E-Mail-Adresse** verwenden!
 
 ---
 
@@ -305,7 +295,6 @@ mkdir -p ~/.local
 
 Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
 und tut gar nichts, falls dieser Ordner schon existiert.
-
 
 ### <a id="Mambaforge"></a>Mambaforge: Python Installation
 
@@ -358,7 +347,6 @@ und anschließendem `Enter` akzeptiert werden.
 
 <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
 
-
 Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
 
 <img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
@@ -406,7 +394,6 @@ rm ~/.local/Mambaforge-Linux-x86_64.sh
 ```
 gelöscht werden.
 
-
 ### <a id="TeXLive"></a>TeXLive
 
 Im Terminal wird mit den folgenden drei Befehlen das Installationsskript
@@ -422,7 +409,6 @@ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar
 ```
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
-
 
 Die Installation startest du mit `I` und `Enter`.
 
@@ -449,7 +435,6 @@ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
 gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
-
 
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
@@ -482,7 +467,6 @@ und klicke auf den kleinen Button `Install` neben dem obersten Suchergebnis.
 
 <img alt="" src="/img/vscodium/vscode-wsl-plugin_win11.png" class="screenshot" />
 
-
 #### VSCode: Sprache
 
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
@@ -495,9 +479,11 @@ Eingabefenster, in dem nach Einstellungen gesucht werden kann.
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Enter`-Taste ausgewählt werden.
+
 <img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
 
 Im folgenden Auswahlmenü kann die gewünschte Sprache mit einem `Linksklick` ausgewählt werden.
+
 <img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
 
 Die gewählte Sprache wird gegebenenfalls heruntergeladen und wird nach einem Neustart von VSCode nutzbar,
@@ -506,7 +492,6 @@ der im folgenden Fenster ausgeführt werden kann.
 <img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
 
 #### VSCode: Terminal einrichten
-
 
 Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_ 
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
@@ -582,7 +567,6 @@ für das WSL zu installieren. Dafür muss folgender Befehl in das Windows Termin
 sudo apt install evince
 ```
 
-
 ## <a id="test"></a>Testen
 
 ### Mamba: Python
@@ -633,20 +617,15 @@ Insgesamt sollte das Terminal wie folgt aussehen:
 
 <img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
 
-
 Fehler machen sich z.B. so bemerkbar:
 
 <img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
-
 
 Mit dem Befehl
 ```
 quit
 ```
 kann das Programm _ipython_ im Anschluss beendet werden
-
-
-
 
 ### Make
 
@@ -709,7 +688,6 @@ Der Test-Befehl lautet:
 texdoc texlive
 ```
 
-
 ## <a id="update"></a>Aktualisieren
 
 ### Mamba
@@ -728,7 +706,6 @@ Auch hier muss die Installation wieder mit einem `Y` gefolgt von einem `Enter` b
 Die Installation ist (mittlerweile) wie gewohnt abgeschlossen, wenn die Eingabezeile auf dem Terminal
 angezeigt wird.
 
-
 ### Git, Make und weitere Unix-Tools
 
 Um Updates für diese sogenannten Unix-Tools zu erhalten,
@@ -740,7 +717,6 @@ sudo apt update
 ```
 sudo apt upgrade
 ```
-
 
 ### TeXLive
 

@@ -1,8 +1,7 @@
 ---
 layout: install
-title: Windows-Installation
+title: Windows-10-Installation
 ---
-
 
 __Bitte die folgenden Punkte unbedingt lesen:__
 
@@ -29,7 +28,6 @@ Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Ma
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
-
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
   <a href="#Installieren" class="btn btn-secondary btn-lg btn-block" role="button">
@@ -53,7 +51,7 @@ um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betrie
 
 ### <a id="Vorbereitungen"></a>Vorbereitungen
 
-#### <a id="Windowsinfo"></a> Windows-Info: Betriebssystembuildnummer
+#### <a id="Windowsinfo"></a> Windows-Info: Betriebssystembuild-Nummer
 Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell ist.
 Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
@@ -69,7 +67,7 @@ Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich 
 Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
 
 Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Windows-Installation 
-zu installieren. Dafür kannst du in dem obigen _Info_-Fentser in der Suchleiste nach "Update"
+zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach "Update"
 suchen und den Punkt _Nach Updates suchen_ auswählen.
 
 <img alt="" src="/img/wsl/win10-updates-1.png" class="screenshot" />
@@ -113,13 +111,11 @@ Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
 
 <img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
 
-
 In den meisten Fällen wird das folgende Fenster erscheinen. Dieses muss mit _Ja_ bestätigt werden.
 Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
-
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
@@ -142,7 +138,7 @@ Ausgabe wie folgt aus
 
 <img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
 
-Wie der letzten Zeile zu entnehmen ist, muss der PC nun einmal neu gestartet werden.
+Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
 
 Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
 Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
@@ -173,7 +169,6 @@ Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschl
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
-
 
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
@@ -250,7 +245,6 @@ In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Pu
 
 Im Anschluss kann das Terminal Fenster geschlossen werden.
 
-
 ### Git, Make und weiteres
 
 ---
@@ -278,7 +272,6 @@ Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
-
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme,
 die upgedatet werden können, beim ersten Ausführen wesentlich länger sein.
@@ -309,7 +302,6 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 
 <img alt="" src="/img/unix/unix-5.png" class="screenshot" />
 
-
 #### Git-Einstellungen
 
 Für Git müssen noch ein paar Einstellungen vorgenommen werden.
@@ -317,7 +309,7 @@ Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
 ---
-**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Name** und auch deine **eigene E-Mail-Adresse** verwenden!
+**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine **eigene E-Mail-Adresse** verwenden!
 
 ---
 
@@ -401,7 +393,6 @@ und anschließendem `Enter` akzeptiert werden.
 
 <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
 
-
 Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
 
 <img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
@@ -449,7 +440,6 @@ rm ~/.local/Mambaforge-Linux-x86_64.sh
 ```
 gelöscht werden.
 
-
 ### <a id="TeXLive"></a>TeXLive
 
 Im Terminal wird mit den folgenden drei Befehlen das Installationsskript
@@ -465,7 +455,6 @@ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar
 ```
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
-
 
 Die Installation startest du mit `I` und `Enter`.
 
@@ -493,7 +482,6 @@ Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktionie
 gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
 
-
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
 #### Installation
@@ -517,7 +505,6 @@ automatisch eine Suche begonnen), VSCode kann dann durch einen Klick auf `Öffne
 Beim ersten Start von VSCode nach der Installation, wird in der rechten unteren Ecke eine Infobox angezeigt,
 in dieser muss der Button `Install` angeklickt werden.
 
-
 <img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" class="screenshot" />
 
 #### VSCode: Sprache
@@ -532,9 +519,11 @@ Eingabefenster, in dem nach Einstellungen gesucht werden kann.
 
 Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
 der `Enter`-Taste ausgewählt werden.
+
 <img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
 
 Im folgenden Auswahlmenü kann die gewünschte Sprache mit einem `Linksklick` ausgewählt werden.
+
 <img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
 
 Die gewählte Sprache wird gegebenenfalls heruntergeladen und wird nach einem Neustart von VSCode nutzbar,
@@ -543,7 +532,6 @@ der im folgenden Fenster ausgeführt werden kann.
 <img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
 
 #### VSCode: Terminal einrichten
-
 
 Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_ 
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
@@ -617,7 +605,6 @@ _SumatraPDF_ angeklickt werden.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
 
-
 #### <a id="evince"></a>Evince
 
 Um (ohne viele Umstände) PDF-Dateien auch aus dem Windows Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
@@ -625,7 +612,6 @@ für das WSL zu installieren. Dafür muss folgender Befehl in das Windows Termin
 ```
 sudo apt install evince
 ```
-
 
 ## <a id="test"></a>Testen
 
@@ -677,20 +663,15 @@ Insgesamt sollte das Terminal wie folgt aussehen:
 
 <img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
 
-
 Fehler machen sich z.B. so bemerkbar:
 
 <img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
-
 
 Mit dem Befehl
 ```
 quit
 ```
 kann das Programm _ipython_ im Anschluss beendet werden
-
-
-
 
 ### Make
 
@@ -753,7 +734,6 @@ Der Test-Befehl lautet:
 texdoc texlive
 ```
 
-
 ## <a id="update"></a>Aktualisieren
 
 ### Mamba
@@ -772,7 +752,6 @@ Auch hier muss die Installation wieder mit einem `Y` gefolgt von einem `Enter` b
 Die Installation ist (mittlerweile) wie gewohnt abgeschlossen, wenn die Eingabezeile auf dem Terminal
 angezeigt wird.
 
-
 ### Git, Make und weitere Unix-Tools
 
 Um Updates für diese sogenannten Unix-Tools zu erhalten,
@@ -784,7 +763,6 @@ sudo apt update
 ```
 sudo apt upgrade
 ```
-
 
 ### TeXLive
 
