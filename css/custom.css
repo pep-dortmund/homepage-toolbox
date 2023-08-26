@@ -165,24 +165,31 @@ pre.highlight {
 
 .help-button-holder{
   position: fixed;
-  width:  60px;
-  height: 60px;
+  width:  55px;
+  height: 55px;
   bottom: 40px;
   right:  40px;
   color:  #fff;
   background-color: var(--pep-gray);
   border-radius: 50px;
   text-align: center;
+  text-decoration: none;
   box-shadow: 2px 2px 3px #999;
+  transition: all ease 0.25s;
 }
 
 .help-button-holder:hover {
   color:            #fff;
-  background-color: #333;
-  border-color:     #333;
+  background-color: var(--pep-yellow);
+  border-color:     var(--pep-yellow);
+  text-decoration:  none;
 }
 
 .help-button{
-  margin-top: 22px;
+  line-height: 55px;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
 }
 
