@@ -78,10 +78,6 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 
       $ sudo pacman -S code
 
-Starte VSCodium nach der Installation, klicke in der linken Leiste auf
-`Extensions` (unterstes Symbol) und suche nach „TexLab LSP Client“,
-installiere die Extension mit einem Klick auf den `install` Knopf.
-
 ### Anaconda
 
 __Wichtig__: Wir wollen Python 3.9 für Linux. [64-Bit (x86) Installer]

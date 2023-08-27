@@ -77,14 +77,6 @@ Um git beizubringen, VSCodium zu benutzen, im Terminal:
 git config --global core.editor "codium --wait"
 ```
 
-- Damit du besser in VSCodium LaTeX-Code schreiben kannst,
-  schlagen wir das Plugin `TexLab LSP Client` vor,
-  welches wie folgt installiert werden kann:
-    - Mit `Shift+cmd+x` die Extensions öffnen
-    - `TexLab LSP Client` suchen
-    - `install` anklicken
-    - VSCodium neu starten
-
 ### Anaconda
 
 - [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
