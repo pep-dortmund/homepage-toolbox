@@ -223,7 +223,7 @@ Es sollte folgende Ausgabe erscheinen:
      restricted system commands enabled.
     **
 
-Mit Strg-C beenden.
+Mit `Strg` + `c` beenden.
 
     $ biber
 
