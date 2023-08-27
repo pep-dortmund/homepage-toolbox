@@ -242,11 +242,12 @@ pre.highlight {
 }
 
 #backtotop-button a:after {
+  font-family: "Font Awesome 5 Free";
   outline: none;
-  content: "🡑";
+  font-weight: 600; content: "\f077";
   position: relative;
   display: block;
-  top: 55%;
+  top: 50%;
   transform: translate(0,-55%);
 }
 
