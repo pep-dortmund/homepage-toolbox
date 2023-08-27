@@ -44,4 +44,4 @@ Die Installation kann dann durchgeführt werden mit
 $ xargs -a latex_packages.txt tlmgr install
 ```
 Damit ist die Installation der kleinen Version abgeschlossen.
-Weiter geht es mit den Tests in der Anleitung für [Windows 10](/install/windows.html#test), [Windows 11](/install/windows-11.html#test) oder [Linux](/install/linux.html#test).
+Weiter geht es mit den Tests in der Anleitung für [Windows 10](/install/windows-10.html#test), [Windows 11](/install/windows-11.html#test) oder [Linux](/install/linux.html#test).
