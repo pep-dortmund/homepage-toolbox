@@ -67,7 +67,7 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 -  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
   und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
   auf den "Dennoch öffen" Button klicken.
--  In VSCodium mit `Shift+cmd+p` die Kommando-Palette öffnen und
+-  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
   `Shell Command: Install 'code' command in PATH` ausführen.
   Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
