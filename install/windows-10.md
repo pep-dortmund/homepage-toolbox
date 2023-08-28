@@ -618,7 +618,7 @@ sudo apt install evince
 ### Mamba: Python
 
 Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
-geschlossen und ein neues geöffnet werden.
+geschlossen und ein Neues geöffnet werden.
 
 Um die installierten Pakete nutzen zu können, muss zunächst die _virtuelle Umgebung_  mit diesem Befehl aktiviert werden:
 

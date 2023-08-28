@@ -287,6 +287,7 @@ Sicherheit nachgeholt werden.
 
 #### Installationsordner `~/.local`
 
+
 Für die Installation von [Mambaforge (Python)](#Mambaforge) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
 
 ```

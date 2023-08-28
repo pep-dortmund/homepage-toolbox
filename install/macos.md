@@ -45,15 +45,40 @@ und MacTeX installieren.
 
 ### Command Line Tools
 
-Die command line tools beinhalten unter anderem Git und einen C/C++ Compiler.
+Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
 Zur Installation gibst du Folgendes im Terminal ein
-```bash
-xcode-select --install
-```
+    
+    xcode-select --install
+
 und führst den Befehl mit `Enter` aus.
-Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
+Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
+### Python Installation: Mambaforge
 
+Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
+
+    cd
+    curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    bash Mambaforge-$(uname)-$(uname -m).sh
+
+Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
+Und kann mit `yes` akzeptiert werden.
+Den Ort der Installation kannst du mit `Enter` akzeptieren.
+_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
+
+Damit ist die allgemeine Python Umgebung installiert.
+Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
+Dafür musst du erst ein neues Terminal öffnen, dann:
+
+    mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+
+Diese startest du mit
+
+    mamba activate toolbox
+
+Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
+
+    rm ~/.local/Mambaforge-*.sh
 
 ### Texteditor VSCodium
 
@@ -73,9 +98,7 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
 
-```bash
-git config --global core.editor "codium --wait"
-```
+    git config --global core.editor "codium --wait"
 
 ### Anaconda
 
@@ -85,15 +108,6 @@ git config --global core.editor "codium --wait"
 __Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
 
 Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
-
-### Uncertainties
-
-- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek
-  für automatisierte Fehlerrechnung
-
-Im terminal:
-
-    pip install uncertainties
 
 ### MacTeX
 
@@ -126,23 +140,23 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
 
 Ebenfalls im Terminal:
 
+    mamba activate toolbox
     ipython
-    %matplotlib
-    import matplotlib.pyplot as plt
-    plt.plot([1, 2, 4])
+
+Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
+nummerierten Prompt, nun folgende Befehle eingeben.
+
+    In [1]: %matplotlib
+    In [2]: import matplotlib.pyplot as plt
+    In [3]: import numpy as np
+    In [4]: import scipy
+    In [5]: import sympy
+    In [6]: import uncertainties
+    In [7]: plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
-    quit
-
-### Uncertainties
-
-Ebenfalls im Terminal:
-
-    ipython
-    import uncertainties
-
-Es sollte keine Fehlermeldung erscheinen.
+    In [8]: quit
 
 ### Make
 
@@ -151,7 +165,7 @@ Ebenfalls im Terminal:
     make
 
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
-
+    
     make: *** No targets specified and no makefile found.  Stop.
 
 ### TeX
@@ -161,7 +175,7 @@ Im Terminal:
     luatex
 
 Es sollte folgende Ausgabe erscheinen:
-
+    
     This is LuaTeX, Version 1.15.0 (TeX Live 2022)
     restricted system commands enabled.
     **
@@ -169,6 +183,7 @@ Es sollte folgende Ausgabe erscheinen:
 Mit `Strg` + `c` beenden.
 
     biber
+
 
 Es sollte die Biber-Hilfe erscheinen.
 
@@ -185,17 +200,11 @@ Im Terminal:
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Python Update: Mambaforge
 
 Im Terminal:
 
-    conda update anaconda
-
-### Uncertainties
-
-Im Terminal:
-
-    pip install -U uncertainties
+    mamba update -n toolbox --all
 
 ### TeXLive
 
