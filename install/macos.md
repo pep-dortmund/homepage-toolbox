@@ -92,21 +92,13 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 -  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
   und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
   auf den "Dennoch öffen" Button klicken.
--  In VSCodium mit `Shift+cmd+p` die Kommando-Palette öffnen und
+-  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
   `Shell Command: Install 'code' command in PATH` ausführen.
   Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
 
     git config --global core.editor "codium --wait"
-
-- Damit du besser in VSCodium LaTeX-Code schreiben kannst,
-  schlagen wir das Plugin `TexLab LSP Client` vor,
-  welches wie folgt installiert werden kann:
-    - Mit `Shift+cmd+x` die Extensions öffnen
-    - `TexLab LSP Client` suchen
-    - `install` anklicken
-    - VSCodium neu starten
 
 ### Anaconda
 
@@ -188,7 +180,7 @@ Es sollte folgende Ausgabe erscheinen:
     restricted system commands enabled.
     **
 
-Mit `Strg` + `C` beenden.
+Mit `Strg` + `c` beenden.
 
     biber
 

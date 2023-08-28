@@ -78,9 +78,6 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 
       $ sudo pacman -S code
 
-Starte VSCodium nach der Installation, klicke in der linken Leiste auf
-`Extensions` (unterstes Symbol) und suche nach „TexLab LSP Client“,
-installiere die Extension mit einem Klick auf den `install` Knopf.
 
 ### Python Installation: Mambaforge
 
@@ -210,7 +207,7 @@ Es sollte folgende Ausgabe erscheinen:
      restricted system commands enabled.
     **
 
-Mit Strg-C beenden.
+Mit `Strg` + `c` beenden.
 
     $ biber
 
