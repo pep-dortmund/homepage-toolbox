@@ -100,15 +100,6 @@ Um git beizubringen, VSCodium zu benutzen, im Terminal:
 
     git config --global core.editor "codium --wait"
 
-### Anaconda
-
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
-  Bibliotheken
-
-__Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
-
-Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
-
 ### MacTeX
 
 - [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
