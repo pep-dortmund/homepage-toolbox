@@ -67,9 +67,9 @@ Support für Updates (LTS Version), 22.04 ist die aktuelle LTS Version.
 
 Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
 
-* [Antergos](https://antergos.com/)
 * [ArchLinux](https://www.archlinux.org/)
 * [CentOS](https://www.centos.org/)
+* [EndeavourOS](https://endeavouros.com/)
 * [Fedora](https://getfedora.org/de/)
 * [Gentoo](https://www.gentoo.org/)
 * [openSUSE](https://www.opensuse.org/)
