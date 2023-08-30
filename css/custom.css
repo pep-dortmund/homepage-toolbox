@@ -1,4 +1,4 @@
-/* .container {
+
   width: auto;
   max-width: 80rem;
   padding: 0 15px;
@@ -206,7 +206,15 @@ pre.highlight {
 
 #help-button.visible a:hover {
   color: #fff;
+  width: 100px;
+  border-radius: 50px;
+  overflow: hidden;
   background-color: var(--pep-yellow);
+}
+
+#help-button.visible a:hover:after {
+  content: "Hilfe";
+  font-weight: normal;
 }
 
 #backtotop-button {
