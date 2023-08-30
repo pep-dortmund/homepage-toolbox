@@ -1,4 +1,4 @@
-
+---
 layout: install
 title: Installation eines Dual-Boot-Systems
 ---
