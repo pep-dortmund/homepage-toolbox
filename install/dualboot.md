@@ -122,7 +122,7 @@ und dann das Häkchen bei Fast-Boot entfernen.
 ## Einen bootfähigen USB-Stick für die Linux-Installation erstellen
 
 1. Lade das Image deiner ausgewählten Linux Distribution herunter, zum Beispiel
-   <http://cdimage.ubuntu.com/kubuntu/releases/18.04/release/kubuntu-18.04-desktop-amd64.iso>
+   <https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso>
    für Kubuntu.
 
 1. Installiere das Tool `Rufus`, um das Image auf einen USB-Stick zu schreiben:
