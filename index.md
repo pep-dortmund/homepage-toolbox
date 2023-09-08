@@ -105,8 +105,8 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>Do</td>
   <td>21.09.2023</td>
   <td>ab 10 Uhr</td>
-  <td><span style="color:crimson"> Seminarraum, noch nicht bekannt </span></td>
-  <td>Umstieg auf Linux für Interessierte
+  <td>CP-03-123</td>
+  <td>Installationshilfe, Umstieg auf Linux für Interessierte
    </td>
   </tr>
   <tr>
