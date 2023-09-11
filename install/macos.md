@@ -102,7 +102,7 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
   und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
   auf den "Dennoch öffen" Button klicken.
 -  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
-  `Shell Command: Install 'code' command in PATH` ausführen.
+  `Shell Command: Install 'codium' command in PATH` ausführen.
   Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
