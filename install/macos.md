@@ -76,9 +76,18 @@ Diese startest du mit
 
     mamba activate toolbox
 
-Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
+Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen. Diese sollte im aktuellen Ordner liegen, um das zu überprüfen, gib einmal
 
-    rm ~/.local/Mambaforge-*.sh
+    ls
+
+im Terminal ein. In der ausgegebenen Liste sollte `Mambaforge-Darwin-arm64.sh`, oder ähnlich, auftauchen.
+Wenn das so ist, kannst du sie mit dem folgenden Befehl löschen
+
+    rm Mambaforge-Darwin-arm64.sh
+    
+oder dem entsprechenden Dateinamen.
+Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop ansprechen.
+
 
 ### Texteditor VSCodium
 
@@ -93,7 +102,7 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
   und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
   auf den "Dennoch öffen" Button klicken.
 -  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
-  `Shell Command: Install 'code' command in PATH` ausführen.
+  `Shell Command: Install 'codium' command in PATH` ausführen.
   Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
