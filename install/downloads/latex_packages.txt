@@ -57,6 +57,7 @@ tabularray
 tcolorbox 
 texdoc 
 threeparttable 
+tikzfill
 tikz-feynman 
 trimspaces 
 type1cm 
