@@ -52,12 +52,14 @@ siunitx
 standalone 
 tabu 
 tabulary 
+tabularray 
 tcolorbox 
 texdoc 
 threeparttable 
 tikz-feynman 
 trimspaces 
 type1cm 
+underscore
 unicode-math 
 varwidth 
 xits 
