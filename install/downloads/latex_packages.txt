@@ -58,6 +58,7 @@ tabulary
 tabularray 
 tcolorbox 
 texdoc 
+tex-overview
 threeparttable 
 tikzfill
 tikz-feynman 
