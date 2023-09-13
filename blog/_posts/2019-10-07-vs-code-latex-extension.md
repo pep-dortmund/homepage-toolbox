@@ -9,7 +9,7 @@ Es gibt allerdings eine noch viel mächtigere Extension, die euch die Arbeit mit
 (zeigt dir an, was du mit deinem angefangenen code meinen könntest, z.B.: tippe `\autoref{fig:` → zeigt dir alle Referenz mit `fig:` beginnend an.) und es zeigt dir sogar eine Vorschau der Mathe-Sachen, die du gerade tippst (FYI: mit [MathJax](https://www.mathjax.org/)).
 Das ganze Add-On kann noch vieles mehr, und wer interessiert ist, sollte sich definitiv mit dem ganzen genauer beschäftigen (Stichworte [SyncTex](https://github.com/James-Yu/LaTeX-Workshop/wiki/View) und [Linting](https://github.com/James-Yu/LaTeX-Workshop/wiki/Linters)).
 
-Da wir jedoch immer noch die im Toolbox-Workshop gelernte Toolchain benutzen wollen, müssen wir die Extension daran hindern, dass sie die LaTeX-Dokumente selber baut. (Es ist auch möglich, die Extension so zu konfigurieren, dass sie die genau so baut, wie ihr das auch machen würdet, immer wenn ihr abspeichert. Das müsst ihr aber selbst herausfinden. 😜)
+Da wir jedoch immer noch die im Toolbox Workshop gelernte Toolchain benutzen wollen, müssen wir die Extension daran hindern, dass sie die LaTeX-Dokumente selber baut. (Es ist auch möglich, die Extension so zu konfigurieren, dass sie die genau so baut, wie ihr das auch machen würdet, immer wenn ihr abspeichert. Das müsst ihr aber selbst herausfinden. 😜)
 
 **Jetzt aber zur eigentlichen Installationsanleitung:**
 
@@ -19,7 +19,7 @@ Da wir jedoch immer noch die im Toolbox-Workshop gelernte Toolchain benutzen wol
 - `Install` anklicken
 - **WICHTIG**: Immer nur eine einzige LaTeX-Extension installieren!
     - Falls ihr noch eine andere installiert habt: Nach dieser Suchen, oder Suchtext entfernen und dann bekommt ihr alle installierten Extensions angezeigt. Anschließend die nicht gewünschte entfernen.
-- In den Einstellungen muss jetzt noch das automatische Kompilieren der Extension ausgestellt werden, damit die Vorlagen des Toolbox-Workshops auch problemlos bauen.
+- In den Einstellungen muss jetzt noch das automatische Kompilieren der Extension ausgestellt werden, damit die Vorlagen des Toolbox Workshops auch problemlos bauen.
 - Dazu in die `Settings` gehen (`File`->`Preferences`->`Settings` oder Zahnrad links unten anklicken und `Settings` wählen.)
 - `latex auto build clean and retry` suchen und Häkchen entfernen
 - `latex auto build run` suchen und im Drop-Down-Menü `never` einstellen

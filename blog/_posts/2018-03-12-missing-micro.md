@@ -5,7 +5,7 @@ author: <a href="https://github.com/maxnoe/">maxnoe</a>
 
 In der finalen Version von TeXLive 2017 gibt es einen Bug mit
 der Kombination aus `unicode-math` und `siunitx`, wie wir
-sie im Toolbox-Workshop vorgestellt haben: das Mikro-Zeichen fehlt.
+sie im Toolbox Workshop vorgestellt haben: Das Mikro-Zeichen fehlt.
 
 
 Um das Problem zu lösen, muss man siunitx mitteilen,

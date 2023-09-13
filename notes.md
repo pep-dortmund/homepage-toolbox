@@ -4,12 +4,13 @@ title: Material
 ---
 
 
-## Wintersemester 2022/23
+## Wintersemester 2023/24
 
 Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlicht.
 
 ### Toolbox
+<!--
 - Tag 1
     - [Intro-Folien](files/archive/2022/intro.pdf) (Stand 25.09.2022)
     - [Python](files/archive/2022/python.html) (Stand 25.09.2022)
@@ -37,7 +38,7 @@ Kurses veröffentlicht.
 - [Aufgaben Tag 3](files/archive/2022/exercises-latex-3.zip) (Stand 06.10.2022)
 - [Aufgaben Tag 4](files/archive/2022/exercises-latex-4.zip) (Stand 07.10.2022)
 - [LaTeX Vorlage für Protokolle](files/archive/2022/latex-template.zip) (Stand 07.10.2022)
-
+-->
 
 ## Vergangene Kurse
 

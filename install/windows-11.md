@@ -1,32 +1,37 @@
 ---
-layout: default
-title: Windows-11-Installation α-build
+layout: install
+title: Windows-11-Installation
 ---
-<span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 
+__Bitte die folgenden Punkte unbedingt lesen:__
 
-__Es treten vermehrt Probleme in der Internetanknüpfung vom WSL2 unter Windows 11 auf, wenn möglich erstmal auf Windows 10 bleiben.__
++ Diese Anleitung mag relativ lang erscheinen und im ersten Moment abschreckend wirken.
+Wir versichern dir, dass diese Länge aber viel mehr ein Zeichen von Ausführlichkeit
+ist, um sicherzustellen, dass du auch folgen kannst, wenn du bisher keine Berührungen
+mit den Inhalten des Toolbox Workshops hattest. 
 
-__Es müssen alle drei Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
++ Befolge die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
+und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt hast.
 
-Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
-Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
++ Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
+Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Sumatra und VSCodium (oder einen anderen Texteditor) und TeXLive installieren.
-Dann ist mit Terminal die Windows-Konsole gemeint (wenig bequem).
++ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
+sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise, wie du uns 
+am besten kontaktieren kannst.
 
-Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10),
-um eine Ubuntu Installation verwenden zu können ohne ein komplett neues Betriebssystem installieren zu müssen.
+Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
+Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-__Lest euch jeden Schritt durch, stellt sicher,
-dass Befehle richtig kopiert oder abgetippt wurden.
-Falls etwas nicht funktioniert findet ihr unter [Hilfe](/problem.html)
-die Hinweise wie ihr uns am besten kontaktieren könnt.__
+Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
+
+Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
+um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 <div class="row" style="padding: 10px">
   <div class="col-md-4" align="center">
-  <a href="#installation" class="btn btn-secondary btn-lg btn-block" role="button">
-  Installation
+  <a href="#Installieren" class="btn btn-secondary btn-lg btn-block" role="button">
+  Installieren
   </a>
   </div>
   <div class="col-md-4" align="center">
@@ -42,217 +47,189 @@ die Hinweise wie ihr uns am besten kontaktieren könnt.__
   <div class="col-md-2" align="center"></div>
 </div>
 
-## <a id="Installation"></a>Installation
+## <a id="Installieren"></a>Installieren
 
-**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
+### <a id="Vorbereitungen"></a>Vorbereitungen
+
+#### <a id="Dateiendungen"></a>Dateiendungen einschalten
+
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente) 
+sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
+
+Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
+`Windows` + `E`  geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen `Strg` und `Alt` unten links
+auf der Tastatur).
+
+Alternativ kannst du den Explorer mit einem `Rechtsklick` auf das Startmenü-Icon und anschließendem `Linksklick` auf _Explorer_ öffnen.
+
+<img alt="" src="/img/explorer/explorer-start_win11.png" class="screenshot" />
+
+In der obersten Zeile stehen am rechten Ende drei Punkte. Klicke auf dieses Icon und anschließend auf den letzten Eintrag in der Liste: _Optionen_.
+
+<img alt="" src="/img/explorer/explorer-fileext-1_win11.png" class="screenshot" />
+
+In dem geöffneten Fenster musst du zuerst auf den Reiter _Ansicht_ klicken und dort dann den Haken vor _Erweiterung bei bekannten Dateitypen ausblenden_ entfernen.
+Zum Abschluss klicke auf `Übernehmen`.
+
+<img alt="" src="/img/explorer/explorer-fileext-2_win11.png" class="screenshot" />
 
 ### Windows Subsystem for Linux (WSL)
 
-Mit `Win + x` öffnet sich eine Auswahlliste.
-Wählt `Windows-Terminal (Administrator)` aus.
-Wenn im Fenster oben nicht _Windows PowerShell_, kann über den Pfeil nach unten die `Windows PowerShell` geöffnet werden.
-Trage
+#### Installation des WSL 
+Zunächst musst du eine PowerShell Konsole als Administrator starten. 
+Die einfachste Möglichkeit dafür ist ein `Rechtsklick` auf das Startmenü-Icon gefolgt von einem
+`Linkslick` auf _Terminal (Administrator)_. 
+
+<img alt="" src="/img/wsl/win11-powershell-admin.png" class="screenshot" />
+
+In den meisten Fällen wird das folgende Fenster erscheinen. Dieses muss mit _Ja_ bestätigt werden.
+Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
+Es ist kein Problem, wenn dieses Fenster nicht erscheint.
+
+<img alt="" src="/img/wsl/win11-admin-warning.jpg" class="screenshot" />
+
+Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
+Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
+kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
+
+Die Info-Leiste, die am oberen Fensterrand erscheint, kannst du durch einen Klick auf das `X` schließen.
+
+<img alt="" src="/img/wsl/win11-powershell-admin-test.png" class="screenshot" />
+
+In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
+und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
-wsl --install -d Ubuntu
+wsl --install 
 ```
-ein und führe den _Befehl_ mit `Enter` aus.
-Tritt der Fehler _0x80370102_ auf, folgt den Hinweisen auf [dieser Seite](
-https://thefilibusterblog.com/ispravit-oshibku-0x80370102-wsl2-ne-zapuskaet-ubuntu-v-windows-11/).
-Der Rechner muss nach erfolgreicher Installation neu gestartet werden.
+<img alt="" src="/img/wsl/win11-wsl-install.png" class="screenshot" />
 
-#### Einrichten eines Benutzerkontos
+Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-Nach dem Neustart erscheint folgendes Fenster mit der Aufforderung, einen Benutzernamen für
-das Linux-Betriebssystem einzugeben. Erscheint dieses Fenster nicht automatisch, muss `Win + s` gedrückt werden, dann `Ubuntu` eingeben und mit `Enter` starten.
+Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige 
+stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die 
+Ausgabe wie folgt aus
 
-<img alt="" src="/img/windows-ubuntu/wsl-install-1.png" class="screenshot" />
+<img alt="" src="/img/wsl/win11-wsl-install-complete.png" class="screenshot" />
 
-Gebt einen Nutzernamen an. Dieser Linux-Benutzername kann frei gewählt werden.
+Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
+
+Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
+Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
+
+<img alt="" src="/img/wsl/win11-wsl-ubuntu-complete.png" class="screenshot" />
+
+#### <a id="Einrichten des Benutzerkontos">Einrichten eines Benutzerkontos
+
+Nach erfolgreicher Installation erscheint die Aufforderung, einen Benutzernamen für
+das Linux-Betriebssystem einzugeben.
+Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
+
+---
+**Wichtig:** Der Benutzername darf **nur** Kleinbuchstaben und **keine** Leerzeichen enthalten
+
+---
+
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/windows-ubuntu/wsl-install-2.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username_win11.png" class="screenshot" />
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
 Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
-
-<img alt="" src="/img/windows-ubuntu/wsl-install-3.png" class="screenshot" />
-
 Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
-Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
-so muss dieses erneut (zweimal) eingegeben werden.
 
-<img alt="" src="/img/windows-ubuntu/wsl-install-4.png" class="screenshot" />
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd_win11.png" class="screenshot" />
+
+Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
+so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
+
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png" class="screenshot" />
+
+Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zweimal eingegeben werden).
+
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2_win11.png" class="screenshot" />
 
 Ist die Installation erfolgreich durchgeführt worden,
-erhält man die im Screenshot gezeigte Ausgabe.
-Die unterste Zeile besteht aus zwei Teilen.
-Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen und dem Computernamen zusammen.
+erhält man die im nächsten Screenshot gezeigte Ausgabe.
+Die letzte Zeile (im Screenshot: `luckyjosh@DESKTOP-L02KDEF:~$`) wird im folgenden **Eingabezeile** genannt.
+
+Die Eingabezeile besteht aus zwei Teilen. Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (im Screenshot: `luckyjosh`) und dem Computernamen (im Screenshot: `DESKTOP-L02KDEF`) zusammen.
+Hier werden bei dir andere Namen stehen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
-mit dem Linux-Betriebssystem verwendet wird. Eine Einführung in den Umgang erfolgt während
-des Workshops, im Folgenden wird diese jedoch schon zur
-Installation der benötigten Software verwendet.
+mit dem Linux-Betriebssystem verwendet wird. Eine detailliertere Einführung in den Umgang erfolgt während
+des Workshops, im Folgenden wird diese jedoch schon zur Installation der benötigten Software verwendet.
 
+<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd_win11.png" class="screenshot" />
 
+Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl 
+```
+exit
+``` 
+eingebt oder auf das `X` oben rechts klickt.
 
-### Windows Terminal
-Das Windows Terminal stellt einen Ersatz der Standard WSL-Kommandozeile dar.
-Wir haben es ganz zu Anfang der Anleitung schon benutzt.
-Wir möchten es für unsere Zwecke noch anpassen.
-Starte es dazu erneut.
+### <a id="WindowsTerminal"></a>Windows Terminal
 
-Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet. Um eine Ubuntu-Kommandozeile zu öffnen,
-klickt zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü:
+Wir verwenden auch weiterhin das Windows Terminal, allerdings nicht als Administrator.
+Außerdem musst du noch eine Einstellung vornehmen.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-3.png" class="screenshot" />
+Das Windows Terminal kann wieder durch einen `Rechtsklick` auf das Startmenü-Icon und anschließendem `Linksklick`
+auf _Terminal_ öffnen.
 
-Klickt auf _Einstellungen_/_Settings_ um die Einstellungen zu öffnen.
-Hier könnt ihr einstellen, dass sich beim Start von Windows Terminal
+<img alt="" src="/img/windows-terminal/windows-terminal-start_win11.png" class="screenshot" />
+
+Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
+Um eine Ubuntu-Kommandozeile zu öffnen, klicke zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
+in dem `Einstellungen` angeklickt werden muss:
+
+<img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
+
+Hier kannst du einstellen, dass sich beim Start von Windows Terminal
 standardmäßig Ubuntu öffnet.
-Unter dem Punkt _Startup_ → _Default Profile_ muss _Ubuntu_ ausgewählt werden.
-Speichert die Änderungen dann ab.
+Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken 
+auf den Pfeil nach unten öffnet sich eine Auswahl.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-4.png" class="screenshot" />
+<img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
 
-### Dateiendungen einschalten
+In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
 
-Die Endungen einer Datei sind unter Windows nicht Standardmäßig aktiviert.
-Diese können und sollen aktiviert werden.
+<img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
 
-Dafür wird in der Taskleiste auf das Windows-Symbol, oder die Lupe geklickt und `Dateien` eingegeben.
-
-<img alt="" src="/img/explorer/explorer-1.png" class="screenshot" />
-
-In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden.
-
-<img alt="" src="/img/explorer/explorer-2.png" class="screenshot" />
-
-### Visual Studio Code
-
-Visual Studio Code (VSCode) ist ein Text-Editor der sowohl zum schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
-Drüber hinaus hat dieser auch noch viele weitere Funktionen.
-Die Installationsdatei `VSCodiumSetup-x64-<VERSION>.exe` kann unter dem folgenden Link heruntergeladen werden:
-
-[Download VSCodium](https://github.com/VSCodium/vscodium/releases){:target="_blank"}
-
-In den aufploppenden Setup-Fenstern können bis zum Fenster mit dem Titel `Zusätzliche Aufgaben auswählen` die Standard-Optionen gewählt werden.
-Die ersten vier Optionen sind nach persönlichen Vorlieben zu wählen.
-Die fünfte Option _**Zu PATH hinzufügen**_ soll gewählt werden.
-
-Neben dem Funktionsumfang, den VSCode von sich aus mitbringt, können zusätzliche Extensions installiert werden,
-um weitere Funktionen hinzuzufügen. Der Prozess wird hier an dem einzigen Plugin vorgeführt, das
-(in der zweiten Woche) für den Workshop benötigt wird. Das Plugin heißt _LaTeX language support_ und sorgt
-für die farbliche Darstellung (Syntax Highlighting) von LaTeX Dokumenten, die mit VSCode geöffnet werden.
-
-Ein `Linksklick` auf die unterste Schaltfläche am linken Rand öffnet das _Extensions_ Menü.
-
-<img alt="" src="/img/vscodium/vscode-1.png" class="screenshot" />
-
-In diesem Menü können alle _Extensions_ durchsucht werden. Nach Eingabe von _LaTeX language_
-in das Eingabefeld wird die Extension _LaTeX language support_ in der Liste angezeigt. **Wichtig** ist,
-dass der Name der Extension übereinstimmt, die Position in der angezeigten Liste ist nicht ausschlaggebend.
-Es ist möglich, dass die Extension zu einem späteren Zeitpunkt nicht mehr das oberste Ergebnis in der Liste ist.
-
-Eine Beschreibung der Funktion der Extension kann in einem neuen Tab angezeigt werden,
-indem mit einem `Linksklick` auf einen Listeneintrag geklickt wird.
-Installiert wird die Extension durch einen `Linksklick` auf die Schaltfläche _Install_.
-
-<img alt="" src="/img/vscodium/vscode-2.png" class="screenshot" />
-
-Nach der Installation von neuen Extensions muss VSCode geschlossen und neu gestartet werden.
-
-Nach erfolgreicher Installation wird die Extension (zusammen mit allen anderen installierten Extensions)
-in der Liste _ENABLED_ aufgeführt, die angezeigt wird, wenn das Eingabefeld der Suche leer ist.
-
-<img alt="" src="/img/vscodium/vscode-3.png" class="screenshot" />
-
-
-Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
-zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
-Diese sind **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
-Sprache nicht gewünscht ist.
-
-Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
-Eingabefenster, in dem nach Einstellungen gesucht werden kann.
-
-<img alt="" src="/img/vscodium/vscode-4.png" class="screenshot" />
-
-Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
-der `Entertaste` ausgewählt werden.
-
-<img alt="" src="/img/vscodium/vscode-5.png" class="screenshot" />
-
-Viele Programme verwenden Textdateien, um Einstellungen zu speichern. Die Details sind an dieser
-Stelle aber noch nicht von Belang. In dieser Datei muss die Abkürzung der eingestellten Sprache,
-`"de"` (Deutsch) auf `"en"`(Englisch) geändert werden. Danach muss die Datei mit `Strg + S` gespeichert
-werden. Die Änderung der Sprache tritt erst nach dem Schließen und Neustarten von VSCode in Kraft.
-
-<img alt="" src="/img/vscodium/vscode-6.png" class="screenshot" />
-
-Mit `Strg + Shift + ö` oder über den Punkt _Terminal → Neues Terminal_
-kann ein Terminal in VSCodium geöffnet werden. Klickt rechts auf den Pfeil nach unten,
-neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
-Dort dann auf den Punkt _Ubuntu-20.04 (WSL)_ klicken.
-
-<img alt="" src="/img/vscodium/vscode-7.png" class="screenshot" />
-
-### Sumatra PDF
-
-Als PDF-Betrachter sollte Sumatra PDF verwendet werden.
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
-sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährt man im Kurs).
-Den Download findet man unter dem folgenden Link.
-
-[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
-
-Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
-hervorgehobenen Link heruntergeladen werden.
-
-<img alt="" src="/img/sumatra/sumatra-1.png" class="screenshot" />
-
-
-Durch einen doppelten `Linksklick` kann die heruntergeladene Datei ausgeführt werden.
-Infolgedessen öffnet sich das folgende Fenster. Vor der Installation werden durch einen `Linksklick`
-die _Optionen_ geöffnet.
-In diesem Fenster kann zum einen der Installationspfad angepasst werden. Dies ist jedoch __optional__, der
-bereits eingetragene Dateipfad ist kann unverändert bleiben.
-Im Anschluss kann Sumatra PDF mit einem `Linksklick` auf _Installieren_ installiert werden.
-
-Starte Sumatra und öffne das Optionsmenü wie im Screenshot gezeigt.
-
-<img alt="" src="/img/sumatra/sumatra-2.png" class="screenshot" />
-
-Wähle dann die untere Option aus, Sumatra als Standard PDF-Betrachter zu nutzen.
-
-<img alt="" src="/img/sumatra/sumatra-3.png" class="screenshot" />
+Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ### Git, Make und weiteres
 
-Für die Installation der beiden Programme git und make muss zunächst eine
-Bash-Kommandozeile unter Verwendung von Windows Terminal geöffnet werden, zum Beispiel
-über den oben beschriebenen Eintrag im Kontextmenü.
-Wie unten gezeigt wird in dieses Fenster nun der Befehl
+---
+
+**Wichtig:** In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
+Diese werden in einem Codeblock wie diesem angegeben:
+```
+Beispielbefehl
+```
+Im Terminal muss **jeder Codeblock einzeln** eingeben und mit `Enter` bestätigt werden.
+
+---
+
+Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
+(wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü). 
+
+Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden: 
 ```
 sudo apt update
 ```
-eingetragen und mit Drücken der `Entertaste` bestätigt.
 Die Ausführung dieses Befehls kann einige Zeit in Anspruch nehmen und setzt eine
-Internetverbindung voraus, über die einige 100 MB große Datenmengen heruntergeladen
-werden können.
-
+Internetverbindung voraus.
 
 Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
 
-
-Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch wird die ausgegebene Liste der Programme die geupdated
-werden können beim ersten Ausführen wesentlich länger sein.
+Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme, die upgedatet
+werden können, beim ersten Ausführen wesentlich länger sein.
 
 <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 
@@ -261,18 +238,18 @@ Dies erfolgt durch Eingabe des Befehls
 ```
 sudo apt upgrade
 ```
-und auch dieser Befehl wird mit der `Entertaste` bestätigt.
+und auch dieser Befehl wird mit der `Enter`-Taste bestätigt.
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
-`Entertaste` nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
+`Enter`-Taste nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die beiden Programme `git`, `make` und `curl` installiert werde. Dies erfolgt durch die Eingabe des
+Nun können die drei Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
 Befehls
 ```
 sudo apt install git make curl
 ```
-und anschließende Bestätigung mit der `Entertaste`. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
+und anschließende Bestätigung mit der `Enter`-Taste. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
@@ -280,13 +257,16 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 
 <img alt="" src="/img/unix/unix-5.png" class="screenshot" />
 
-
 #### Git-Einstellungen
 
-Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in die Bash-Kommandozeile wie zuvor
-die folgenden Befehle eingegeben und jeweils mit der `Entertaste` bestätigt.
+Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in das Windows Terminal wie zuvor
+die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
-Anstelle von `Max Mustermann` sollte natürlich der **eigene Name** und auch die **eigene E-Mail-Adresse** verwendet werden!
+---
+**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine **eigene E-Mail-Adresse** verwenden!
+
+---
+
 ```
 git config --global user.name "Max Mustermann"
 ```
@@ -300,184 +280,357 @@ git config --global rebase.stat true
 git config --global merge.conflictstyle diff3
 ```
 
-Hier wurden absichtlich keine Screenshots eingefügt, damit der Umgang mit der Bash-Kommandozeile selbst geübt werden kann.
+Hier wurden absichtlich keine Screenshots eingefügt, damit du den Umgang mit dem Windows Terminal selbst üben kannst.
 Falls noch Unsicherheit darüber besteht, was mit dem obigen Befehl angestellt werden soll, kann zunächst mit
-der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr Sicherheit nachgeholt werden.
+der restlichen Anleitung (mit Bildern) fortgefahren werden. Diese Einstellung kann dann im Anschluss mit mehr
+Sicherheit nachgeholt werden.
+
+#### Installationsordner `~/.local`
 
 
-### Anaconda
+Für die Installation von [Mambaforge (Python)](#Mambaforge) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
 
-Anaconda ist eine Python-Distribution mit vorinstallierten Paketen für das wissenschaftliche Arbeiten.
-Die Installationsdatei kann unter dem angegebenen Link heruntergeladen werden.
-
-[Anaconda Download](https://www.anaconda.com/products/individual#Downloads){:target="_blank"}
-
-Auf der Website ist es wichtig das die Installationsdatei für **Linux** ausgewählt wird.
-Außerdem soll die _x64-Bit_ Version der Python Version 3.9 verwendet werden. Diese kann mit einem
-`Linksklick` auf den Schriftzug `64-Bit (x86) Installer` heruntergeladen werden.
-Der Download kann einige Minuten in Anspruch nehmen.
-
-<img alt="" src="/img/anaconda/anaconda-1.png" class="screenshot" />
-
-Um die Beschreibung der Installationsschritte etwas zu vereinfachen, sollte nun die heruntergeladene Datei,
-deren Name mit _**Anaconda3**_ beginnt und auf _**.sh**_ endet, auf den Desktop kopiert werden.
-
-
-Im Anschluss wird mit Windows Terminal erneut eine Bash-Kommandozeile geöffnet.
-In diese werden nacheinander die folgenden Befehle eingegeben und jeweils mit Drücken der
-`Entertaste` bestätigt.
 ```
-cd Desktop
+mkdir -p ~/.local
 ```
+
+Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
+und tut gar nichts, falls dieser Ordner schon existiert.
+
+### <a id="Mambaforge"></a>Mambaforge: Python Installation
+
+Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
+nutzen zu können, verwenden wir das Tool `mamba`.
+
+Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
+ins Windows Terminal, heruntergeladen werden:
+
+```
+cd ~/.local
+```
+Dieser Befehl ändert den aktuellen Pfad auf den Ordner, in den die Installationsdatei heruntergeladen werden soll.
+Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun `~/.local` sein.
+
+```
+curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+```
+Dieser Befehl lädt die Installationsdatei herunter. Der Download kann einige Zeit in Anspruch nehmen.
+
 ```
 ls
 ```
-Der erste Befehl ändert den aktuellen Pfad auf den Desktop.
-Der aktuelle Pfad wird in Blau vor dem _`$`_ angezeigt, dieser sollte nun auf `/Desktop` enden.
-(Wurde für das Öffnen der Bash-Kommandozeile der Eintrag im Kontextmenü auf dem Desktop verwendet,
-so ist der erste Befehl nicht mehr notwendig.)
+Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Mambaforge-Linux-x86-64.sh_
+sollte hier aufgeführt sein.
 
-Der zweite Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden.
-In dieser Liste muss sich auch die zuvor auf den Desktop
-kopierte Installationsdatei für Anaconda befinden.
+<img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
 
 Zum Installieren muss der folgende Befehl ausgeführt werden.
-**Wichtig**: Der Dateiname muss mit dem Namen der heruntergeladenen Datei übereinstimmen.
-Passt den Befehl an, sollte dies nicht der Fall sein.
-```
-bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
-```
-
-Wie zuvor wird auch dieser Befehl durch Drücken der `Entertaste` bestätigt.
-
-<img alt="" src="/img/anaconda/anaconda-2.png" class="screenshot" />
-
-Nun beginnt die Installation. Auch diese benötigt einige Minuten Zeit.
-
-Zum Abschluss der Installation müssen noch die folgenden Befehle in die Kommandozeile eingegeben
-und jeweils mit der `Entertaste` bestätigt werden. Wichtig: Die Reihenfolge der Befehle muss
-eingehalten werden. Da hier besonders darauf geachtet werden muss, keinen Tippfehler zu machen,
-empfiehlt es sich hier (mehr als sonst), die Befehle zu kopieren und einzufügen.
 
 ```
-echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
+bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge 
 ```
+Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
+
+Im Folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: Du kaufst damit nichts).
+Diese werden zunächst mit der `Enter`-Taste geöffnet 
+
+<img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
+
+Abhängig von der Größe des Terminal Fensters, kann es vorkommen, dass der Text nur zeilenweise
+ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ steht.
+
+<img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
+
+Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächster Screenshot)
+der Benutzungsbestimmung zu gelangen.
+Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes` 
+und anschließendem `Enter` akzeptiert werden.
+
+<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+
+Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
+
+<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
+
+Die Installation endet mit den folgenden Zeilen:
+Hier muss abermals `yes` eingegeben und mit `Enter` bestätigt werden.
+
+<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
+
+Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
+
+<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
+
+Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen.
+
+Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
+
+<img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
+
+Jetzt müssen noch die Python-Pakete installiert werden, die im Workshop vorgestellt werden.
+Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
+und wofür die gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
+wir eine separate Python Installation mit genau den Paketen, die wir für den Workshop brauchen.
+
+Dazu nutzen wir den folgenden Befehl:
+
 ```
-echo 'conda activate' >> ~/.bashrc
+mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
-<img alt="" src="/img/anaconda/anaconda-3.png" class="screenshot" />
+Die Installation beginnt mit der folgenden Ausgabe
 
-Wird nun die Bash-Kommandozeile geschlossen und eine neue geöffnet,
-so sollte zu Beginn der Eingabezeile nun _(base)_ stehen.
+<img alt="" src="/img/mamba/mamba-virtual-env-1.png" class="screenshot" />
 
-<img alt="" src="/img/anaconda/anaconda-4.png" class="screenshot" />
+und bedarf auch wieder etwas Zeit. Die Installation ist beendet, wenn wieder die Eingabezeile
+angezeigt wird.
 
-Nach erfolgreicher Installation kann die Installationsdatei _Anaconda3-2021.11-Linux-x86_64.sh_
-vom Desktop gelöscht werden.
+<img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
 
-__Jetzt noch die Python-Installation [updaten](#update) und anschließend [testen](#test)!__
-
-
-### Uncertainties
-
-Uncertainties ist eine Python-Bibliothek für automatisierte Fehlerrechnung. Detaillierte Informationen
-können auf der verlinkten Website gefunden werden.
-
-[Uncertainties Website](http://pythonhosted.org/uncertainties/)
-
-Installiert werden kann Uncertainties über die Bash-Kommandozeile. In diese muss der folgende Befehl
-eingetragen werden.
+Nach erfolgreicher Installation kann die Installationsdatei _Mambaforge-Linux-x86-64.sh_
+mit dem Befehl
 
 ```
-pip install uncertainties
+rm ~/.local/Mambaforge-Linux-x86_64.sh
 ```
+gelöscht werden.
 
-<img alt="" src="/img/anaconda/uncertainties-1.png" class="screenshot" />
+### <a id="TeXLive"></a>TeXLive
 
-
-
-### TeXLive
-
-Im Terminal werden mit folgenden drei Befehlen das Installationsskript
+Im Terminal wird mit den folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
 ```
 cd ~/.local
+```
+
+```
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
+```
+
+```
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Die Installation startet man mit `I` und `Enter`.
+Die Installation startest du mit `I` und `Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
 das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
-Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
+Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
 
 In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 tlmgr option autobackup -- -1
-tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+```
+
+```
+tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
 gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
 TeXLive zu installieren.
 
-__Jetzt noch die Installation [testen](#test)!__
+### <a id="VSCode"></a>Visual Studio Code (VSCode)
+
+#### Installation
+Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Darüber hinaus hat dieser auch noch viele weitere Funktionen.
+
+VSCode kann über den Microsoft Store installiert werden. Diesen findest du am einfachsten, in dem du
+das Startmenü öffnest und in das Suchfeld oben `Store` eingibst. Der Microsoft Store ist das Suchergebnis
+mit der höchsten Übereinstimmung. Öffnen kannst du diesen durch einen Klick auf _Öffnen_ :
+
+<img alt="" src="/img/vscodium/vscode-msstore_win11.png" class="screenshot" />
+
+Durch die Suche im Microsoft Store nach `Visual Studio Code` kann in der Liste der entsprechende Punkt ausgewählt werden:
+
+<img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
+
+Auf der folgenden Seite kann VSCode durch einen Klick auf den Button `Installieren` installiert werden.
+
+<img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
+
+Öffnen kannst du VSCode nach der Installation über das Startmenü (wie zuvor durch die Suche).
+
+<img alt="" src="/img/vscodium/vscode-start_win11.png" class="screenshot" />
+
+#### VSCode: WSL-Plugin
+
+Ein nützliches Plugin für VSCode dient der Zusammenarbeit mit dem WSL (weiteres dazu im Workshop).
+Über das im Screenshot gezeigte Icon am linken Rand kommst du zur Plugin-Suche. Suche dort nach `WSL` 
+und klicke auf den kleinen Button `Install` neben dem obersten Suchergebnis.
+
+<img alt="" src="/img/vscodium/vscode-wsl-plugin_win11.png" class="screenshot" />
+
+#### VSCode: Sprache
+
+Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
+Dies ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
+Sprache nicht gewünscht ist.
+
+Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
+Eingabefenster, in dem nach Einstellungen gesucht werden kann.
+
+Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
+der `Enter`-Taste ausgewählt werden.
+
+<img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
+
+Im folgenden Auswahlmenü kann die gewünschte Sprache mit einem `Linksklick` ausgewählt werden.
+
+<img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
+
+Die gewählte Sprache wird gegebenenfalls heruntergeladen und wird nach einem Neustart von VSCode nutzbar,
+der im folgenden Fenster ausgeführt werden kann.
+
+<img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
+
+#### VSCode: Terminal einrichten
+
+Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_ 
+kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
+die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
+Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
+
+<img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
+
+In der folgenden Auswahl auf _Ubuntu (WSL)_ klicken.
+
+<img alt="" src="/img/vscodium/vscode-terminal-2.png" class="screenshot" />
+
+Anschließend kann das schon geöffnete Terminal mit einem Klick auf die Mülltonne geschlossen werden.
+
+<img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
+
+Wird nun erneut ein Terminal mit `Strg` + `Shift` + `ö` geöffnet, so sollte dieses nun wie das (mittlerweile)
+gewohnte Terminal aussehen:
+
+<img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
+
+### PDF-Betrachter
+
+#### <a id="SumatraPDF"></a>Sumatra PDF
+
+Als PDF-Betrachter für Windows sollte Sumatra PDF verwendet werden.
+Die Verwendung von Acrobat Reader wird nicht empfohlen, da er die PDF-Datei blockiert,
+sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährst du im Workshop).
+Den Download findest du unter dem folgenden Link.
+
+[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
+
+Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
+hervorgehobenen Link heruntergeladen werden.
+
+<img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
+
+Die heruntergeladene Datei befindet sich im Downloads-Ordner und kann durch einen doppelten `Linksklick` ausgeführt werden.
+
+<img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
+
+Infolgedessen öffnet sich das folgende Fenster, in dem die Installation mit einem `Linksklick` auf _Installieren_ gestartet wird.
+
+<img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
+
+Das Fenster kann nach der Installation über das `X` geschlossen werden.
+
+<img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
+
+Zuletzt muss Sumatra PDF noch als Standard PDF-Betrachter eingestellt werden.
+Dafür kannst du im Startmenü nach `Standard-Apps` suchen. Anschließend muss dann
+_Standard-Apps_ geöffnet werden.
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-1_win11.png" class="screenshot" />
+
+In dem geöffneten Fenster kannst du in dem Suchfeld nach `.pdf` suchen und anschließend
+auf das Icon am rechten Ende des Suchergebnisses anklicken. 
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-3_win11.png" class="screenshot" />
+
+Dadurch öffnest du ein Auswahlmenü. In diesem musst du dann _SumatraPDF_ anklicken und mit 
+einem Klick auf `Standard festlegen` bestätigen.
+
+<img alt="" src="/img/sumatra/sumatra-standard-app-4_win11.png" class="screenshot" />
+
+Das Fenster kannst du anschließend wie gewöhnlich durch Klicken auf das `X` schließen.
+
+#### <a id="evince"></a>Evince
+
+Um (ohne viele Umstände) PDF-Dateien auch aus dem Windows Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
+für das WSL zu installieren. Dafür muss folgender Befehl in das Windows Terminal eingegeben werden:
+```
+sudo apt install evince
+```
 
 ## <a id="test"></a>Testen
 
-Sollte während des Testens ein Fehler auftreten, kann die [Problembehandlung](#troubleshooting) helfen.
+### Mamba: Python
 
-### Python
-
-Um die Python Installation (durch Anaconda) zu testen, sollten alle offenen Fenster der Bash-Kommandozeile
+Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
 geschlossen und ein neues geöffnet werden.
 
-In die Bash-Kommandozeile werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
+Um die installierten Pakete nutzen zu können, muss zunächst die _virtuelle Umgebung_  mit diesem Befehl aktiviert werden:
+
+```
+mamba activate toolbox
+```
+Durch diesen Befehl ändert sich der Beginn der Eingabezeile von _(base)_ zu _(toolbox)_.
+
+In das Windows Terminal werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
 wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
 
 ```
 ipython
 ```
 ```
-In [1]: %matplotlib
-In [2]: import matplotlib.pyplot as plt
-In [3]: plt.plot([1, 2, 4])
+%matplotlib
+```
+```
+import matplotlib.pyplot as plt
+```
+
+```
+import numpy as np
+```
+```
+import scipy
+```
+```
+import sympy
+```
+```
+import uncertainties
+```
+
+```
+plt.plot([1, 2, 4])
 ```
 
 Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
-Mit
+
+Insgesamt sollte das Terminal wie folgt aussehen:
+
+<img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
+
+Fehler machen sich z.B. so bemerkbar:
+
+<img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
+
+Mit dem Befehl
 ```
-In [4]: quit
+quit
 ```
-kann das Programm _ipython_ beendet werden
-
-
-
-### Uncertainties
-
-Auch Uncertainties wird über die Bash-Kommandozeile getestet. In diese werden die folgenden Befehle
-nacheinander eingegeben. Nach Eingabe des ersten Befehls wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
-
-```
-ipython
-In [1]: import uncertainties
-In [2]: quit
-```
-
-Es sollte keine Fehlermeldung erscheinen.
+kann das Programm _ipython_ im Anschluss beendet werden
 
 ### Make
 
-Make kann durch Öffnen einer Bash-Kommandozeile und durch Eingeben des folgenden Befehls getestet werden.
+Make kann durch Öffnen eines Windows Terminals und durch Eingeben des folgenden Befehls getestet werden.
 
 ```
 make
@@ -490,8 +643,8 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
 ### TeXLive
 
-Die TeXLive Installation wird ebenfalls unter Verwendung der Bash-Kommandozeile getestet.
-In diese wird der folgende Befehl eingegeben.
+Die TeXLive Installation wird ebenfalls unter Verwendung des Windows Terminals getestet.
+In dieses wird der folgende Befehl eingegeben.
 
 ```
 luatex
@@ -500,7 +653,7 @@ luatex
 Es sollte folgende Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.15.0 (TeX Live 2022)
+This is LuaTeX, Version 1.17.0 (TeX Live 2023)
 restricted system commands enabled.
 **
 ```
@@ -531,42 +684,34 @@ Usage:
 ```
 
 Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
-Für diesen Test muss das Programm XLaunch gestartet worden sein.
 Der Test-Befehl lautet:
 ```
 texdoc texlive
 ```
 
-Es sollte nun die Dokumentation von TeXLive in einem PDF-Betrachter geöffnet werden.
-Falls das nicht der Fall ist und die Fehlermeldung
-_error: no "view" mailcap rules found for type "application/pdf"_
-erscheint, kann dieser Fehler mit der Eingabe des Befehls
-```
-sudo apt install evince
-```
-behoben werden.
-
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Mamba
 
-Um Updates für Anaconda zu installieren wird in einer Bash-Kommandozeile folgender Befehl eingetragen.
+Um Updates für mamba zu installieren, wird in einem Windows Terminal folgender Befehl eingetragen.
 ```
-conda update anaconda
+mamba update -n toolbox --all
 ```
-### Uncertainties
 
-Für Updates für die Python-Bibliothek Uncertainties wird folgender Befehl in eine Bash-Kommandozeile eingegeben.
+<img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
 
-```
-pip install -U uncertainties
-```
+Auch hier muss die Installation wieder mit einem `Y` gefolgt von einem `Enter` bestätigt werden.
+
+<img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
+
+Die Installation ist (mittlerweile) wie gewohnt abgeschlossen, wenn die Eingabezeile auf dem Terminal
+angezeigt wird.
 
 ### Git, Make und weitere Unix-Tools
 
-Um Updates für diese sogenannten Unix-Tools (Software für die Bash-Kommandozeile) zu erhalten,
-müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in eine
-Bash-Kommandozeile eingegeben werden.
+Um Updates für diese sogenannten Unix-Tools zu erhalten,
+müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in ein
+Windows Terminal eingegeben werden.
 ```
 sudo apt update
 ```
@@ -574,10 +719,9 @@ sudo apt update
 sudo apt upgrade
 ```
 
-
 ### TeXLive
 
-Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in eine Bash-Kommandozeile installiert.
+Die Updates für TeXLive werden durch Eingeben des folgenden Befehls in ein Windows Terminal installiert.
 ```
 tlmgr update --self --all --reinstall-forcibly-removed
 ```

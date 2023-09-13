@@ -15,7 +15,7 @@ funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht W
 Der Kurs ist zwar auch auf mit einem Windows-Rechner zu absolvieren,
 aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch,
 parallel auf eurem Rechner Linux zu installieren.
-So könnt ihr beim hochfahren zwischen den beiden Betriebssystemen wählen.
+So könnt ihr beim Hochfahren zwischen den beiden Betriebssystemen wählen.
 Wer eine Dual-Boot-Installation durchführen möchte,
 kann gerne unserer [Anleitung](dualboot.html) folgen.
 Da eine Dual-Boot-Installation beim ersten Mal nicht unbedingt trivial ist,
@@ -26,7 +26,6 @@ schreibt uns per E-Mail oder auf unserem Discord-Server an.
 
 ## Anleitungen
 
-<span style="color:crimson"> __Aktuell überarbeiten wir die Anleitungen für Windows 10 & 11!__ </span>
 <div class="row">
   <div class="col-md-3">
     <a class="btn btn-outline-dark btn-block" href="/install/linux.html" role="button">
@@ -41,7 +40,7 @@ schreibt uns per E-Mail oder auf unserem Discord-Server an.
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/windows.html" role="button">
+    <a class="btn btn-outline-dark btn-block" href="/install/windows-10.html" role="button">
       <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
       Windows 10<br>
     </a>

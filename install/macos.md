@@ -1,18 +1,21 @@
 ---
-layout: default
+layout: install
 title: macOS-Installation
 ---
 
 
-Wir empfehlen die Installation einer 64-bit Version, falls man ein 64-bit Betriebssystem benutzt.
-Wenn man sich nicht sicher ist, hat man heutzutage fast immer 64-bit.
+Wir empfehlen die Installation einer 64-bit Version,
+wenn du ein 64-bit Betriebssystem benutzt.
+Wenn du dir nicht sicher bist: Heutzutage ist fast jedes System 64-bit.
 
 __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
-Falls man nicht am LaTeX-Kurs teilnimmt, ist MacTeX optional.
-Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
+Falls du nicht am LaTeX-Kurs teilnimmst, ist MacTeX optional.
+Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Codium (oder einen anderen Texteditor) und MacTeX installieren.
+Falls du nur am LaTeX-Kurs teilnehmen willst,
+solltest du mindestens VSCodium (oder einen anderen Texteditor)
+und MacTeX installieren.
 
 <div class="row" style="padding: 10px">
   <div class="col-md-1" align="center"></div>
@@ -42,50 +45,69 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens VS Codium (od
 
 ### Command Line Tools
 
-Die command line tools beinhalten unter anderem Git und einen C/C++ Compiler.
-Zur Installation folgendes im Terminal eingeben
-```bash
-xcode-select --install
-```
-Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
+Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
+Zur Installation gibst du Folgendes im Terminal ein
+    
+    xcode-select --install
 
-### Anaconda
+und führst den Befehl mit `Enter` aus.
+Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und
-  Bibliotheken
+### Python Installation: Mambaforge
 
-__Wichtig__: Wir wollen Python 3.9 Graphical Installer (unten auf der Seite). Das Paket installieren.
-Wenn der Laptop/Rechner einen M1-Chip hat muss der `64-bit (M1) Graphical Installer` heruntergeladen werden.
+Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
+
+    cd
+    curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    bash Mambaforge-$(uname)-$(uname -m).sh
+
+Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
+Und kann mit `yes` akzeptiert werden.
+Den Ort der Installation kannst du mit `Enter` akzeptieren.
+_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
+
+Damit ist die allgemeine Python Umgebung installiert.
+Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
+Dafür musst du erst ein neues Terminal öffnen, dann:
+
+    mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+
+Diese startest du mit
+
+    mamba activate toolbox
+
+Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen. Diese sollte im aktuellen Ordner liegen, um das zu überprüfen, gib einmal
+
+    ls
+
+im Terminal ein. In der ausgegebenen Liste sollte `Mambaforge-Darwin-arm64.sh`, oder ähnlich, auftauchen.
+Wenn das so ist, kannst du sie mit dem folgenden Befehl löschen
+
+    rm Mambaforge-Darwin-arm64.sh
+    
+oder dem entsprechenden Dateinamen.
+Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop ansprechen.
+
 
 ### Texteditor VSCodium
 
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
+und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
+
 - [VSCodium](https://github.com/VSCodium/vscodium/releases).
    Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` herunter.
--  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner und muss nach `Programme` verschoben werden.
--  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start und man muss zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit" auf den "Dennoch öffen" Button klicken.
--  In VSCodium mit `Shift+cmd+p` die Kommando-Palette öffnen und `Shell Command: Install 'code' command in PATH` ausführen. Nun wird VS Code auch geöffnet, wenn im Terminal `codium` eingeben wird.
+-  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner
+  und muss nach `Programme` verschoben werden.
+-  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
+  und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
+  auf den "Dennoch öffen" Button klicken.
+-  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
+  `Shell Command: Install 'codium' command in PATH` ausführen.
+  Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
 Um git beizubringen, VSCodium zu benutzen, im Terminal:
 
-```bash
-git config --global core.editor "codium --wait"
-```
-
-- Damit VS Code LaTeX-Code besser darstellen kann, muss das Plugin `LaTeX language support`
-  installiert werden
-    - Mit `Shift+cmd+x` die Extensions öffnen
-    - `LaTeX language support` suchen
-    - `install` anklicken
-    - VS Code neu starten
-
-### Uncertainties
-
-- [Uncertainties](http://pythonhosted.org/uncertainties/): Python-Bibliothek
-  für automatisierte Fehlerrechnung
-
-Im terminal:
-
-    pip install uncertainties
+    git config --global core.editor "codium --wait"
 
 ### MacTeX
 
@@ -118,23 +140,23 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
 
 Ebenfalls im Terminal:
 
+    mamba activate toolbox
     ipython
-    %matplotlib
-    import matplotlib.pyplot as plt
-    plt.plot([1, 2, 4])
+
+Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
+nummerierten Prompt, nun folgende Befehle eingeben.
+
+    In [1]: %matplotlib
+    In [2]: import matplotlib.pyplot as plt
+    In [3]: import numpy as np
+    In [4]: import scipy
+    In [5]: import sympy
+    In [6]: import uncertainties
+    In [7]: plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
-    quit
-
-### Uncertainties
-
-Ebenfalls im Terminal:
-
-    ipython
-    import uncertainties
-
-Es sollte keine Fehlermeldung erscheinen.
+    In [8]: quit
 
 ### Make
 
@@ -143,7 +165,7 @@ Ebenfalls im Terminal:
     make
 
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
-
+    
     make: *** No targets specified and no makefile found.  Stop.
 
 ### TeX
@@ -153,14 +175,15 @@ Im Terminal:
     luatex
 
 Es sollte folgende Ausgabe erscheinen:
-
+    
     This is LuaTeX, Version 1.15.0 (TeX Live 2022)
     restricted system commands enabled.
     **
 
-Mit `Strg-C` beenden.
+Mit `Strg` + `c` beenden.
 
     biber
+
 
 Es sollte die Biber-Hilfe erscheinen.
 
@@ -173,21 +196,15 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 Im Terminal:
 
     sudo tlmgr option autobackup -- -1
-    sudo tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+    sudo tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Python Update: Mambaforge
 
 Im Terminal:
 
-    conda update anaconda
-
-### Uncertainties
-
-Im Terminal:
-
-    pip install -U uncertainties
+    mamba update -n toolbox --all
 
 ### TeXLive
 

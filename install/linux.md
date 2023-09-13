@@ -1,14 +1,16 @@
 ---
-layout: default
+layout: install
 title: Linux-Installation
 ---
 
 __Es müssen alle Schritte (Installieren, Testen, Aktualisieren) ausgeführt werden!__
 
-Falls man nicht am LaTeX-Kurs teilnimmt, ist TeXLive optional.
-Dann kann man allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
+Falls du nicht am LaTeX-Kurs teilnimmst, ist TeXLive optional.
+Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio Codium (oder einen anderen Texteditor) und TeXLive installieren.
+Falls du nur am LaTeX-Kurs teilnehmen willst,
+solltest du mindestens VSCodium (oder einen anderen Texteditor)
+und TeXLive installieren.
 
 
 <div class="row" style="padding: 10px">
@@ -29,12 +31,13 @@ Falls man nur am LaTeX-Kurs teilnehmen will, sollte man mindestens Visual Studio
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben und mit Enter bestätigen.**
+**Wichtig: Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen.**
 
 Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
-Man muss immer nur die Befehle für die jeweils eigene Distribution (z.B. Ubuntu) ausführen.
+Führe nur die Befehle für deine eigene Distribution (z.B. Ubuntu) aus.
 
-Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit einem `sudo` Befehl sollte penibel geprüft werden.
+Der `sudo` Befehl verleiht weitreichende Administratorrechte,
+jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 ### Git, Make, curl
 
@@ -52,65 +55,54 @@ Der `sudo` Befehl verleiht weitreichende Administratorrechte, jede Eingabe mit e
 
         $ sudo pacman -S git make curl
 
-### Visual Studio Code
+### Texteditor VSCodium
 
-Die Binärdateien, die Microsoft zur Verfügung stellt, haben eine Closed Source
-Lizenz und enthalten Tracking Software. Deswegen nutzen wir VSCodium.
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
+und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
 
 - Debian, Ubuntu, Mint:
 
-  Ladet die Datei `codium_<VERSION>_amd64.deb` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
-  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
+  Lade die Datei `codium_<VERSION>_amd64.deb` von
+  <https://github.com/VSCodium/vscodium/releases> herunter und öffne sie mit
+  dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
 
 - Fedora
 
-  Ladet die Datei `codium_<VERSION>_el7.x86_64.rpm` von <https://github.com/VSCodium/vscodium/releases> herunter und öffnet sie mit
-  dem Software Center (Doppelklick auf den Download). Klickt auf `Installieren`.
+  Lade die Datei `codium_<VERSION>_el7.x86_64.rpm` von
+  <https://github.com/VSCodium/vscodium/releases> herunter und öffne sie mit
+  dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
 
 
 - Arch Linux
 
       $ sudo pacman -S code
 
-Startet VS Code nach der Installation, klickt in der linken Leiste auf `Extensions` (Unterstes Symbol) und sucht nach „LaTeX Language Support“, installiert die Extension mit einem Klick auf den `install` Knopf.
 
-### Anaconda
+### Python Installation: Mambaforge
 
-__Wichtig__: Wir wollen Python 3.9 für Linux. [64-Bit (x86) Installer]
+Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
 
-- [Anaconda](https://www.anaconda.com/products/individual#Downloads): Python und Bibliotheken
+    $ cd ~/.local
+    $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+    $ bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge
 
-Im Terminal im Ordner mit der heruntergeladenen Datei den Befehl:
+Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden. Und kann mit `yes` akzeptiert werden. Den Ort der Installation haben wir gesetzt, die Abfrage bestätigst du mit `Enter`.
+_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
 
-```
-$ bash Anaconda3-2022.10-Linux-x86_64.sh -p ~/.local/anaconda3 -b
-```
+Damit ist die allgemeine Python Umgebung installiert.
+Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
+Dafür musst du erst ein neues Terminal öffnen, dann:
 
-ausführen. Wenn es eine neue Version von Anaconda gibt, ändert sich der Dateiname und muss entsprechend angepasst werden.
+    $ mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
 
-Öffnet die Datei `~/.bashrc` und fügt diese beiden Zeilen am Ende hinzu:
+Diese startest du mit
 
-```
-. $HOME/.local/anaconda3/etc/profile.d/conda.sh
-conda activate
-```
+    $ mamba activate toolbox
 
-oder schreibt die beiden Zeilen mit den beiden folgenden Befehlen in die `~/.bashrc`
+Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 
-```
-$ echo '. "$HOME/.local/anaconda3/etc/profile.d/conda.sh"' >> ~/.bashrc
-$ echo 'conda activate' >> ~/.bashrc
-```
-
-Schließt die aktuelle Konsole und öffnet eine neue.
-Am Anfang eures Prompts sollte ein `(base)` stehen.
-
-### Uncertainties
-
-```
-$ pip install uncertainties
-```
+    $ rm ~/.local/Mambaforge-*.sh
 
 ### TeXLive
 
@@ -125,19 +117,19 @@ $ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 Die Installation startet man mit `I` und `Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
-das machen wir in der Datei `~/.bashrc`.
+das passiert in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2022/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
-Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
+Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
 In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
 $ tlmgr option autobackup -- -1
-$ tlmgr option repository http://mirror.ctan.org/systems/texlive/tlnet
+$ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
@@ -174,6 +166,7 @@ Um git beizubringen, VSCodium als Editor zu benutzen:
 
 Ebenfalls im Terminal:
 
+    $ mamba activate toolbox
     $ ipython
 
 Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
@@ -181,22 +174,16 @@ nummerierten Prompt, nun folgende Befehle eingeben.
 
     In [1]: %matplotlib
     In [2]: import matplotlib.pyplot as plt
-    In [3]: plt.plot([1, 2, 4])
+    In [3]: import numpy as np
+    In [4]: import scipy
+    In [5]: import sympy
+    In [6]: import uncertainties
+    In [7]: plt.plot([1, 2, 4])
 
 Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
 
-    In [4]: quit
+    In [8]: quit
 
-### Uncertainties
-
-Ebenfalls im Terminal:
-
-    $ ipython
-    In [1]: import uncertainties
-
-Es sollte keine Fehlermeldung erscheinen.
-
-Beenden mit `quit`
 
 ### Make
 
@@ -220,7 +207,7 @@ Es sollte folgende Ausgabe erscheinen:
      restricted system commands enabled.
     **
 
-Mit Strg-C beenden.
+Mit `Strg` + `c` beenden.
 
     $ biber
 
@@ -232,17 +219,16 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ## <a id="update"></a>Aktualisieren
 
-### Anaconda
+### Generell
+
+    $ sudo apt update
+    $ sudo apt upgrade
+
+### Python Update: Mambaforge
 
 Im Terminal:
 
-    $ conda update anaconda
-
-### Uncertainties
-
-Im Terminal:
-
-    $ pip install -U uncertainties
+    $ mamba update -n toolbox --all
 
 ### TeXLive
 
