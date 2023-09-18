@@ -35,7 +35,7 @@ und MacTeX installieren.
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen**
+**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!**
 
 ### Terminal
 
@@ -55,13 +55,18 @@ Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
 ### Python Installation: Mambaforge
 
-Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
+Hier müssen im Terminal die folgenden Zeilen einzeln nacheinander eingegeben werden:
+```
+cd
+```
+```
+curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+```
+```
+bash Mambaforge-$(uname)-$(uname -m).sh
+```
 
-    cd
-    curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
-    bash Mambaforge-$(uname)-$(uname -m).sh
-
-Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
+Die Lizenzvereinbarung muss je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
 Und kann mit `yes` akzeptiert werden.
 Den Ort der Installation kannst du mit `Enter` akzeptieren.
 _Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
@@ -94,27 +99,24 @@ Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop
 Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
 und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
-- [VSCodium](https://github.com/VSCodium/vscodium/releases).
-   Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` herunter.
+- Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` von [dieser Webseite](https://github.com/VSCodium/vscodium/releases) herunter.
 -  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner
   und muss nach `Programme` verschoben werden.
--  Die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
+-  Als nächsten Schritt die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
   und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
   auf den "Dennoch öffen" Button klicken.
 -  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
   `Shell Command: Install 'codium' command in PATH` ausführen.
   Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
 
-Um git beizubringen, VSCodium zu benutzen, im Terminal:
+Um git beizubringen, VSCodium zu benutzen, im Terminal eingeben:
 
     git config --global core.editor "codium --wait"
 
 ### MacTeX
 
-- [MacTeX](https://tug.org/mactex/): Umfassende LaTeX-Distribution
-
-[MacTeX.pkg](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) herunterladen
-und das Paket installieren.
+Für die Installation von LaTeX kannst du von [dieser Webseite](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) `MacTeX.pkg` herunterladen.
+Nach dem Download musst du nur noch das Paket installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
 
@@ -129,7 +131,9 @@ Terminal öffnen
 
 Es sollte die Git-Hilfe erscheinen.
 
-Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
+Für git kannst du im Terminal noch etwas einstellen.
+Tippe die folgenden Zeilen __nacheinander__ in dein Terminal und bestätige sie mit `Enter`,
+aber <span style="color: red;">__trage deine eigenen Daten ein!!!__</span>:
 
     git config --global user.name "Max Mustermann"
     git config --global user.email "max.mustermann@udo.edu"
@@ -138,13 +142,16 @@ Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!
 
 ### Python
 
-Ebenfalls im Terminal:
+Um python zu testen, musst du erst im Terminal die oben installierte Umgebung installieren:
 
     mamba activate toolbox
+
+Danach kannst du das Programm `ipython` starten:
+
     ipython
 
-Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
-nummerierten Prompt, nun folgende Befehle eingeben.
+`ipython` sollte gestartet sein und du hast statt dem `$`-Zeichen einen nummerierten Prompt.
+Jetzt gibst du jeweils den Teil der Zeile nach dem `:` ein (und bestätigst jeweils mit `Enter`.
 
     In [1]: %matplotlib
     In [2]: import matplotlib.pyplot as plt
@@ -154,16 +161,17 @@ nummerierten Prompt, nun folgende Befehle eingeben.
     In [6]: import uncertainties
     In [7]: plt.plot([1, 2, 4])
 
-Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
+Es sollte ein Fenster mit einem Plot erscheinen, dieses kannst du schließen und `ipython` beenden mit
 
     In [8]: quit
 
 ### Make
 
-Ebenfalls im Terminal:
+Tippe
 
     make
 
+im Terminal und führe es aus.
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
     
     make: *** No targets specified and no makefile found.  Stop.
@@ -176,7 +184,7 @@ Im Terminal:
 
 Es sollte folgende Ausgabe erscheinen:
     
-    This is LuaTeX, Version 1.15.0 (TeX Live 2022)
+    This is LuaTeX, Version 1.17.0 (TeX Live 2023)
     restricted system commands enabled.
     **
 
@@ -184,19 +192,11 @@ Mit `Strg` + `c` beenden.
 
     biber
 
-
 Es sollte die Biber-Hilfe erscheinen.
 
     texdoc texlive
 
 Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
-
-### TeXLive einstellen:
-
-Im Terminal:
-
-    sudo tlmgr option autobackup -- -1
-    sudo tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 
 ## <a id="update"></a>Aktualisieren
 
