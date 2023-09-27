@@ -18,12 +18,12 @@ Kurses veröffentlicht.
     - [Numeric Python](files/archive/2023/numeric-python.html) (Stand 26.09.2023)
     - [matplotlib](files/archive/2023/matplotlib.html) (Stand 26.09.2023)
     - [Aufgaben](files/archive/2023/exercises-toolbox-2.zip) (Stand 26.09.2023)
+- Tag 3
+    - [Scientific Python](files/archive/2023/scientific-python.html) (Stand 27.09.2023)
+    - [uncertainties](files/archive/2023/uncertainties.html) (Stand 27.09.2023)
+    - [Aufgaben](files/archive/2023/exercises-toolbox-3.zip) (Stand 27.09.2023)
 
 <!--
-- Tag 3
-    - [Scientific Python](files/archive/2022/scientific-python.html) (Stand 28.09.2022)
-    - [uncertainties](files/archive/2022/uncertainties.html) (Stand 28.09.2022)
-    - [Aufgaben](files/archive/2022/exercises-toolbox-3.zip) (Stand 28.09.2022)
 - Tag 4
     - [Unix](files/archive/2022/unix.pdf) (Stand 29.09.2022)
     - [Make](files/archive/2022/make.pdf) (Stand 29.09.2022)
