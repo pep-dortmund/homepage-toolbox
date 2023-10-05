@@ -44,8 +44,9 @@ kannst du der Anleitung ab
 
 Die Installation eines neuen Betriebssystems involviert die Erstellung und
 Formatierung neuer Partitionen, wenn etwas schiefgeht, können Daten verloren gehen.
-Deshalb solltest du als Erstes ein vollständiges Backup deines Rechners machen,
-bevor du weitermachst.
+<span style="color:crimson"> **Deshalb solltest du als Erstes ein vollständiges
+Backup deines Rechners machen, bevor du weitermachst!** </span>
+
 
 
 ## Sich für eine Linux-Distribution entscheiden
