@@ -64,13 +64,13 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 - Debian, Ubuntu, Mint:
 
   Lade die Datei `codium_<VERSION>_amd64.deb` von
-  <https://github.com/VSCodium/vscodium/releases> herunter und öffne sie mit
+  [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter und öffne sie mit
   dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
 
 - Fedora
 
   Lade die Datei `codium_<VERSION>_el7.x86_64.rpm` von
-  <https://github.com/VSCodium/vscodium/releases> herunter und öffne sie mit
+  [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter und öffne sie mit
   dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
 
 
@@ -133,7 +133,7 @@ $ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
-gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
+gibt es [diese Möglichkeit](/install/latex_mini.html){:target="_blank"}, eine minimale Version von
 TeXLive zu installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
