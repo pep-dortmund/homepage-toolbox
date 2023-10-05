@@ -24,7 +24,7 @@ Bei der Installation eines Windows/Linux-Dual-Boot Systems muss Windows als erst
 werden.
 
 Weiterhin geht diese Anleitung davon aus, dass dein Rechner
-[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface) verwendet.
+[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface){:target="_blank"} verwendet.
 Dies sollte für alle modernen Rechner die Regel sein, es kann aber vorkommen,
 dass Windows im sogenannten *Legacy-BIOS* Modus installiert wurde, dann sollte Windows im UEFI Modus neu installiert werden.
 
@@ -55,7 +55,7 @@ Darauf aufbauend gibt es viele verschiedene „Distributionen“, die verschiede
 Programme vorinstallieren.
 Hauptunterschiede sind die verwendete grafische Benutzeroberfläche und der Paketmanager.
 
-**Für Einsteiger empfehlen wir [Ubuntu](https://www.ubuntu.com/), [Xubuntu](https://xubuntu.org/) oder [Kubuntu](https://kubuntu.org/).**
+**Für Einsteiger empfehlen wir [Ubuntu](https://www.ubuntu.com/){:target="_blank"}, [Xubuntu](https://xubuntu.org/){:target="_blank"} oder [Kubuntu](https://kubuntu.org/){:target="_blank"}.**
 Diese drei Distributionen nutzen das gleiche Betriebssystem,
 aber unterschiedliche grafische Benutzeroberflächen.
 
@@ -67,12 +67,12 @@ Support für Updates (LTS Version), 22.04 ist die aktuelle LTS Version.
 
 Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
 
-* [ArchLinux](https://www.archlinux.org/)
-* [CentOS](https://www.centos.org/)
-* [EndeavourOS](https://endeavouros.com/)
-* [Fedora](https://getfedora.org/de/)
-* [Gentoo](https://www.gentoo.org/)
-* [openSUSE](https://www.opensuse.org/)
+* [ArchLinux](https://www.archlinux.org/){:target="_blank"}
+* [CentOS](https://www.centos.org/){:target="_blank"}
+* [EndeavourOS](https://endeavouros.com/){:target="_blank"}
+* [Fedora](https://getfedora.org/de/){:target="_blank"}
+* [Gentoo](https://www.gentoo.org/){:target="_blank"}
+* [openSUSE](https://www.opensuse.org/){:target="_blank"}
 
 
 ## Windows-Speicher freigeben
@@ -122,18 +122,18 @@ und dann das Häkchen bei Fast-Boot entfernen.
 ## Einen bootfähigen USB-Stick für die Linux-Installation erstellen
 
 1. Lade das Image deiner ausgewählten Linux Distribution herunter, zum Beispiel
-   <https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso>
-   für Kubuntu.
+    [kubuntu-22.04.3-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso){:target="_blank}
+    für Kubuntu.
 
 1. Installiere das Tool `Rufus`, um das Image auf einen USB-Stick zu schreiben:
-   <https://rufus.akeo.ie>.
+   [rufus.akeo.ie](https://rufus.akeo.ie){:target="_blank"}.
 
 1. Schreibe mit Rufus das heruntergeladene Image auf den USB-Stick.
 
 ## Linux installieren
 
 Personen mit einem Acer-Laptop befolgen bitte gleichzeitig
-<https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner>.
+[diese Anleitung](https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner){:target="_blank"}.
 Also tatsächlich herunterfahren, den Stick einstecken,
 dann hochfahren und während das Acer-Logo zu sehen ist `F2` drücken.
 Unter dem Punkt `Main` das `F12 Boot Menu` auf `enabled` setzen.
