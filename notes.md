@@ -31,7 +31,7 @@ Kurses veröffentlicht.
     - [Aufgaben](files/archive/2023/exercises-toolbox-5.zip) (Stand 29.09.2023)
 
 ### LaTeX
-- [Folien](files/archive/2023/latex.pdf){:target="_blank"} (Stand 02.10.2023)
+- [Folien](files/archive/2023/latex.pdf){:target="_blank"} (Stand 06.10.2023)
 - [Aufgaben Tag 1](files/archive/2023/exercises-latex-1.zip) (Stand 02.10.2023)
 - [Aufgaben Tag 2](files/archive/2023/exercises-latex-2.zip) (Stand 04.10.2023)
 - [Aufgaben Tag 3](files/archive/2023/exercises-latex-3.zip) (Stand 04.10.2023)
