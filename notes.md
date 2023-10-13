@@ -10,35 +10,33 @@ Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlicht.
 
 ### Toolbox
-<!--
 - Tag 1
-    - [Intro-Folien](files/archive/2022/intro.pdf) (Stand 25.09.2022)
-    - [Python](files/archive/2022/python.html) (Stand 25.09.2022)
-    - [Aufgaben](files/archive/2022/exercises-toolbox-1.zip) (Stand 25.09.2022)
+    - [Intro-Folien](files/archive/2023/intro.pdf){:target="_blank"} (Stand 25.09.2023)
+    - [Python](files/archive/2023/python.html){:target="_blank"} (Stand 25.09.2023)
+    - [Aufgaben](files/archive/2023/exercises-toolbox-1.zip) (Stand 25.09.2023)
 - Tag 2
-    - [Numeric Python](files/archive/2022/numeric-python.html) (Stand 27.09.2022)
-    - [matplotlib](files/archive/2022/matplotlib.html) (Stand 27.09.2022)
-    - [Aufgaben](files/archive/2022/exercises-toolbox-2.zip) (Stand 27.09.2022)
+    - [Numeric Python](files/archive/2023/numeric-python.html){:target="_blank"} (Stand 26.09.2023)
+    - [matplotlib](files/archive/2023/matplotlib.html){:target="_blank"} (Stand 26.09.2023)
+    - [Aufgaben](files/archive/2023/exercises-toolbox-2.zip) (Stand 26.09.2023)
 - Tag 3
-    - [Scientific Python](files/archive/2022/scientific-python.html) (Stand 28.09.2022)
-    - [uncertainties](files/archive/2022/uncertainties.html) (Stand 28.09.2022)
-    - [Aufgaben](files/archive/2022/exercises-toolbox-3.zip) (Stand 28.09.2022)
+    - [Scientific Python](files/archive/2023/scientific-python.html){:target="_blank"} (Stand 27.09.2023)
+    - [uncertainties](files/archive/2023/uncertainties.html){:target="_blank"} (Stand 27.09.2023)
+    - [Aufgaben](files/archive/2023/exercises-toolbox-3.zip) (Stand 27.09.2023)
 - Tag 4
-    - [Unix](files/archive/2022/unix.pdf) (Stand 29.09.2022)
-    - [Make](files/archive/2022/make.pdf) (Stand 29.09.2022)
-    - [Aufgaben](files/archive/2022/exercises-toolbox-4.zip) (Stand 29.09.2022)
+    - [Unix](files/archive/2023/unix.pdf){:target="_blank"} (Stand 28.09.2023)
+    - [Make](files/archive/2023/make.pdf){:target="_blank"} (Stand 28.09.2023)
+    - [Aufgaben](files/archive/2023/exercises-toolbox-4.zip) (Stand 28.09.2023)
 - Tag 5
-    - [git](files/archive/2022/git.pdf) (Stand 30.09.2022)
-    - [Aufgaben](files/archive/2022/exercises-toolbox-5.zip) (Stand 30.09.2022)
+    - [git](files/archive/2023/git.pdf){:target="_blank"} (Stand 29.09.2023)
+    - [Aufgaben](files/archive/2023/exercises-toolbox-5.zip) (Stand 29.09.2023)
 
 ### LaTeX
-- [Folien](files/archive/2022/latex.pdf) (Stand 04.10.2022)
-- [Aufgaben Tag 1](files/archive/2022/exercises-latex-1.zip) (Stand 04.10.2022)
-- [Aufgaben Tag 2](files/archive/2022/exercises-latex-2.zip) (Stand 05.10.2022)
-- [Aufgaben Tag 3](files/archive/2022/exercises-latex-3.zip) (Stand 06.10.2022)
-- [Aufgaben Tag 4](files/archive/2022/exercises-latex-4.zip) (Stand 07.10.2022)
-- [LaTeX Vorlage für Protokolle](files/archive/2022/latex-template.zip) (Stand 07.10.2022)
--->
+- [Folien](files/archive/2023/latex.pdf){:target="_blank"} (Stand 06.10.2023)
+- [Aufgaben Tag 1](files/archive/2023/exercises-latex-1.zip) (Stand 02.10.2023)
+- [Aufgaben Tag 2](files/archive/2023/exercises-latex-2.zip) (Stand 04.10.2023)
+- [Aufgaben Tag 3](files/archive/2023/exercises-latex-3.zip) (Stand 04.10.2023)
+- [Aufgaben Tag 4](files/archive/2023/exercises-latex-4.zip) (Stand 05.10.2023)
+- <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
 
 ## Vergangene Kurse
 

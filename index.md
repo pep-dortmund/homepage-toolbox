@@ -5,7 +5,7 @@ title: PeP et al. Toolbox Workshop
 
 <p class="lead" markdown="1">
 Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet
-[PeP et al.](http://pep-dortmund.org) den Toolbox Workshop für Physik-
+[PeP et al.](http://pep-dortmund.org){:target="_blank"} den Toolbox Workshop für Physik-
 und Medizinphysikstudierende der TU Dortmund an. </p>
 
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
@@ -87,7 +87,7 @@ Bitte beachtet die folgenden Schritte:
 
 ## Ablaufplan 2023
 
-An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf)).
+An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf){:target="_blank"}).
 Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 
 <table class="table table-hover">

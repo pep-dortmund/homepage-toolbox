@@ -47,7 +47,7 @@ und MacTeX installieren.
 
 Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
 Zur Installation gibst du Folgendes im Terminal ein
-    
+
     xcode-select --install
 
 und führst den Befehl mit `Enter` aus.
@@ -89,7 +89,7 @@ im Terminal ein. In der ausgegebenen Liste sollte `Mambaforge-Darwin-arm64.sh`, 
 Wenn das so ist, kannst du sie mit dem folgenden Befehl löschen
 
     rm Mambaforge-Darwin-arm64.sh
-    
+
 oder dem entsprechenden Dateinamen.
 Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop ansprechen.
 
@@ -99,7 +99,7 @@ Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop
 Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
 und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
-- Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` von [dieser Webseite](https://github.com/VSCodium/vscodium/releases) herunter.
+- Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` von [dieser Webseite](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter.
 -  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner
   und muss nach `Programme` verschoben werden.
 -  Als nächsten Schritt die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
@@ -115,7 +115,7 @@ Um git beizubringen, VSCodium zu benutzen, im Terminal eingeben:
 
 ### MacTeX
 
-Für die Installation von LaTeX kannst du von [dieser Webseite](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) `MacTeX.pkg` herunterladen.
+Für die Installation von LaTeX kannst du von [dieser Webseite](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg){:target="_blank"} `MacTeX.pkg` herunterladen.
 Nach dem Download musst du nur noch das Paket installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -173,7 +173,7 @@ Tippe
 
 im Terminal und führe es aus.
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
-    
+
     make: *** No targets specified and no makefile found.  Stop.
 
 ### TeX
@@ -183,7 +183,7 @@ Im Terminal:
     luatex
 
 Es sollte folgende Ausgabe erscheinen:
-    
+
     This is LuaTeX, Version 1.17.0 (TeX Live 2023)
     restricted system commands enabled.
     **
