@@ -42,7 +42,7 @@ Beide Teile des Kurses sind nicht nur für das Praktikum interessant,
 sondern auch für den weiteren Erfolg während und nach des Studiums.
 
 Alle im Kurs vorgestellten Programme sind [Free and Open-Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"},
-bis auf [VSCode](/install/windows-10.html/#VSCode).
+bis auf [VSCode](/install/windows-10.html/#VSCode) (kostenlos, aber properitär).
 
 
 ### 1. Woche: Versuche auswerten
