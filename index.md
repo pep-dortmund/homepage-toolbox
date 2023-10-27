@@ -1,11 +1,12 @@
 ---
 layout: default
+permalink: /
 title: PeP et al. Toolbox Workshop
 ---
 
 <p class="lead" markdown="1">
 Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet
-[PeP et al.](http://pep-dortmund.org){:target="_blank"} den Toolbox Workshop für Physik-
+[PeP et al.](https://pep-dortmund.org){:target="_blank"} den Toolbox Workshop für Physik-
 und Medizinphysikstudierende der TU Dortmund an. </p>
 
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
@@ -42,7 +43,7 @@ Beide Teile des Kurses sind nicht nur für das Praktikum interessant,
 sondern auch für den weiteren Erfolg während und nach des Studiums.
 
 Alle im Kurs vorgestellten Programme sind [Free and Open-Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"},
-bis auf [VSCode](/install/windows-10.html/#VSCode) (kostenlos, aber properitär).
+bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber properitär).
 
 
 ### 1. Woche: Versuche auswerten
@@ -82,9 +83,9 @@ bis auf [VSCode](/install/windows-10.html/#VSCode) (kostenlos, aber properitär)
 
 Bitte beachtet die folgenden Schritte:
 
-- Die Software vorher auf deinem Laptop [installieren](/install)!
-  - Bei Problemen können wir gerne per [Mail](problem.html) helfen.
-  - Am Donnerstag vor der ersten Woche bieten wir ein begleitetes Installieren eines [Dual-Boot-Systems](/install/dualboot.html) an.
+- Die Software vorher auf deinem Laptop [installieren](/install/install/)!
+  - Bei Problemen können wir gerne per [Mail](/problem/) helfen.
+  - Am Donnerstag vor der ersten Woche bieten wir ein begleitetes Installieren eines [Dual-Boot-Systems](/install/dualboot/) an.
 - Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
 
 ## Ablaufplan 2024
