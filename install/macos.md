@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/macos/
 title: macOS-Installation
 ---
 

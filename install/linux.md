@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/linux/
 title: Linux-Installation
 ---
 
@@ -133,7 +134,7 @@ $ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
-gibt es [diese Möglichkeit](/install/latex_mini.html){:target="_blank"}, eine minimale Version von
+gibt es [diese Möglichkeit](/install/latex_mini/){:target="_blank"}, eine minimale Version von
 TeXLive zu installieren.
 
 __Jetzt noch die Installation [testen](#test)!__

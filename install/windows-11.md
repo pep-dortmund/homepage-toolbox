@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/windows_11/
 title: Windows-11-Installation
 ---
 
@@ -17,7 +18,7 @@ und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt h
 Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
 
 + Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
-sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise, wie du uns 
+sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise, wie du uns 
 am besten kontaktieren kannst.
 
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
@@ -434,7 +435,7 @@ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
-gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
+gibt es [diese Möglichkeit](/install/latex_mini/), eine minimale Version von
 TeXLive zu installieren.
 
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
