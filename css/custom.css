@@ -1,4 +1,4 @@
-
+/* .container {
   width: auto;
   max-width: 80rem;
   padding: 0 15px;
@@ -262,4 +262,39 @@ pre.highlight {
 #backtotop-button.visible a:hover {
   color:            #fff;
   background-color: var(--pep-yellow);
+}
+
+.footer {
+  background-color: #e0e0e0;
+  padding: 2rem 0 3rem 0;
+  color: var(--secondary);
+
+  .btn {
+      margin: 0.5rem;
+      border: none;
+      font-size: xx-large;
+  }
+
+  ul {
+      margin: 0;
+  }
+
+  li {
+      display: block;
+      list-style-type: none;
+  }
+
+  @include media-breakpoint-up(md) {
+      li {
+          border-left: 1px solid var(--light);
+          display: inline-block;
+          margin-left: 1rem;
+          padding-left: 1rem;
+      }
+  }
+
+  li:first-child {
+      border-left: none;
+      padding: 0;
+  }
 }
