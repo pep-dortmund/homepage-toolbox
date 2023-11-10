@@ -1,4 +1,4 @@
-
+/* .container {
   width: auto;
   max-width: 80rem;
   padding: 0 15px;
@@ -262,4 +262,11 @@ pre.highlight {
 #backtotop-button.visible a:hover {
   color:            #fff;
   background-color: var(--pep-yellow);
+}
+
+.table {
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  /* word-break: break-all; */
 }
