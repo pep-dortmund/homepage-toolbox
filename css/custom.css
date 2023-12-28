@@ -276,6 +276,15 @@ pre.highlight {
       font-size: xx-large;
   }
 
+  .btn > img {
+    height: 3rem;
+    width: 2rem;
+  }
+
+  .btn:hover > img {
+    filter: invert(100%) saturate(0%) brightness(1000%) contrast(100%)
+  }
+
   ul {
       margin: 0;
   }
@@ -299,3 +308,4 @@ pre.highlight {
       padding: 0;
   }
 }
+
