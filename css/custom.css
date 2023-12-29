@@ -334,3 +334,8 @@ pre.highlight {
   z-index: -1;
 }
 
+@media (max-width: 1768px) {
+  .toc-sidebar, #toc-sidebar-title {
+    display: none !important;
+  }
+}
