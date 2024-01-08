@@ -80,16 +80,16 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
       $ sudo pacman -S code
 
 
-### Python Installation: Mambaforge
+### Python Installation: Miniforge3
 
 Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
 
     $ cd ~/.local
-    $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
-    $ bash Mambaforge-$(uname)-$(uname -m).sh -p ~/.local/mambaforge
+    $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
+    $ bash Miniforge3-$(uname)-$(uname -m).sh -p ~/.local/conda
 
 Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden. Und kann mit `yes` akzeptiert werden. Den Ort der Installation haben wir gesetzt, die Abfrage bestätigst du mit `Enter`.
-_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
+_Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
 Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
@@ -103,7 +103,7 @@ Diese startest du mit
 
 Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 
-    $ rm ~/.local/Mambaforge-*.sh
+    $ rm ~/.local/Miniforge3-*.sh
 
 ### TeXLive
 
@@ -225,7 +225,7 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
     $ sudo apt update
     $ sudo apt upgrade
 
-### Python Update: Mambaforge
+### Python Update
 
 Im Terminal:
 
