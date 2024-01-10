@@ -24,7 +24,7 @@ am besten kontaktieren kannst.
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Miniforge3">Miniforge3: Python Installation</a> optional.
+Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Miniforge3">Python Installation: Miniforge3</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
@@ -343,7 +343,7 @@ mkdir -p ~/.local
 Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
 und tut gar nichts, falls dieser Ordner schon existiert.
 
-### <a id="Miniforge3"></a>Miniforge3: Python Installation
+### <a id="Miniforge3"></a>Python Installation: Miniforge3
 
 Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
 nutzen zu können, verwenden wir das Tool `mamba`.
