@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/latex_mini/
 title: LaTeX Minimale Installation
 ---
 
@@ -52,4 +53,4 @@ Die Installation kann dann durchgeführt werden mit
 xargs -a tex-packages.txt tlmgr install
 ```
 Damit ist die Installation der kleinen Version abgeschlossen.
-Weiter geht es mit den Tests in der Anleitung für [Windows 10](/install/windows-10.html#test), [Windows 11](/install/windows-11.html#test) oder [Linux](/install/linux.html#test).
+Weiter geht es mit den Tests in der Anleitung für [Windows 10](/install/windows_10/#test), [Windows 11](/install/windows_11/#test) oder [Linux](/install/linux/#test).

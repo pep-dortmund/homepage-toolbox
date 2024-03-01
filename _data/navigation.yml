@@ -1,36 +1,36 @@
 - title: Über
-  link: /about.html
+  link: /about/
 
 - title: Installation
   subdirectory: /install
   submenu:
     - title: Überblick
-      link: index.html
+      link: install/
     - title: Windows 10
-      link: windows-10.html
+      link: windows_10/
     - title: Windows 11
-      link: windows-11.html
+      link: windows_11/
     - title: macOS
-      link: macos.html
+      link: macos/
     - title: Linux
-      link: linux.html
+      link: linux/
     - title: Linux/Windows DualBoot
-      link: dualboot.html
+      link: dualboot/
 
 - title: Material
-  link: /notes.html
+  link: /notes/
 
 - title: Blog
-  link: /blog/index.html
+  link: /blog/
 
 - title: FAQ
-  link: /faq/index.html
+  link: /faq/
 
 - title: Links
-  link: /links.html
+  link: /links/
 
 - title: Archiv
-  link: /archive.html
+  link: /archive/
 
 - title: Hilfe
-  link: /problem.html
+  link: /problem/

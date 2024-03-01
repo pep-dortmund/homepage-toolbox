@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/dualboot/
 title: Installation eines Dual-Boot-Systems
 ---
 
@@ -176,4 +177,4 @@ Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 
 1. Wähle deine installierte Linux-Distribution aus und richte dir dein System ein.
 
-1. Befolge auch unsere Installationsanleitung für [Linux](/install/linux.html).
+1. Befolge auch unsere Installationsanleitung für [Linux](/install/linux/).

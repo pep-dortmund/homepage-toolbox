@@ -1,5 +1,6 @@
 ---
 title: Blog
+permalink: /blog/
 layout: category
 category: blog
 ---

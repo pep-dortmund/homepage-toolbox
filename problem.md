@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /problem/
 title: Probleme mit den Programmen oder der Installation?
 ---
 
