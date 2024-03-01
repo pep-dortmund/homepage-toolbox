@@ -1,6 +1,7 @@
 <nav class="navbar navbar-expand-md bg-secondary fixed-top text-uppercase" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger text-uppercase bg-secondary text-white rounded" href="/">
+    <a class="navbar-brand js-scroll-trigger text-uppercase bg-secondary text-white rounded justify-content-left" href="/">
+      <img src="/pep.svg" alt="" height="35px" width="35px" class="d-inline-block align-text-center">
       Toolbox Workshop
     </a>
 
@@ -11,11 +12,11 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarResponsive">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav justify-content-center">
         {% for navlink in site.data.navigation %}
         {% if navlink.submenu %}
         <li class="nav-item mx-1 mx-lg-1 dropdown">
-          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-center" href="#" id="installDropdown"
+          <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger text-center dropdown-toggle" href="#" id="installDropdown"
             role="button" data-toggle="dropdown">
             {{navlink.title}}
           </a>
@@ -36,7 +37,7 @@
         {% endfor %}
       </ul>
       <a href="https://github.com/pep-dortmund/toolbox-workshop"
-        class="js-scroll-trigger btn btn-default navbar-btn pull-right github">GitHub</a>
+        class="js-scroll-trigger btn btn-default navbar-btn ml-auto pull-right github">GitHub</a>
     </div>
   </div>
 </nav>
