@@ -18,21 +18,6 @@ Falls du nur am LaTeX-Kurs teilnehmen willst,
 solltest du mindestens VSCodium (oder einen anderen Texteditor)
 und MacTeX installieren.
 
-<div class="row" style="padding: 10px">
-  <div class="col-md-1" align="center"></div>
-  <div class="col-md-4" align="center">
-  <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
-  Testen
-  </a>
-  </div>
-  <div class="col-md-2" align="center"></div>
-  <div class="col-md-4" align="center">
-  <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren
-  </a>
-  </div>
-  <div class="col-md-1" align="center"></div>
-</div>
 
 ## <a id="Installation"></a>Installation
 
