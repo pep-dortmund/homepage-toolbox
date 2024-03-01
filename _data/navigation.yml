@@ -1,6 +1,3 @@
-- title: Über
-  link: /about/
-
 - title: Installation
   subdirectory: /install
   submenu:
@@ -20,17 +17,16 @@
 - title: Material
   link: /notes/
 
-- title: Blog
-  link: /blog/
-
-- title: FAQ
-  link: /faq/
-
-- title: Links
-  link: /links/
-
-- title: Archiv
-  link: /archive/
-
 - title: Hilfe
   link: /problem/
+
+- title: Mehr
+  submenu:
+    - title: Über
+      link: about/
+    - title: Blog
+      link: blog/
+    - title: Links
+      link: links/
+    - title: Archiv
+      link: archive/

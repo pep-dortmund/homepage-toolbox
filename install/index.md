@@ -29,27 +29,28 @@ schreibt uns per E-Mail oder auf unserem Discord-Server an.
 
 <div class="row">
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/linux/" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/linux/" role="button">
       <i class="fa fa-5x fa-linux" aria-hidden="true"></i><br>
       Linux
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/macos/" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/macos/" role="button">
       <i class="fa fa-5x fa-apple" aria-hidden="true"></i><br>
       macOS
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/windows_10/" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/windows_10/" role="button">
       <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
       Windows 10<br>
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/windows_11/" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/windows_11/" role="button">
       <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
       Windows 11<br>
     </a>
   </div>
 </div>
+

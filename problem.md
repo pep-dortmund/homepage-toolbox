@@ -7,7 +7,6 @@ title: Probleme mit den Programmen oder der Installation?
 
 Tritt ein Fehler bei der Installation der Programme auf,
 sollte zuerst geschaut werden, ob der Anleitung gefolgt wurde.
-Unter dem Punkt [FAQ](/faq/index.html) gibt es einige Hinweise zu bekannten Fehlern.
 
 Wenn Fehler während des Arbeitens mit den Programmen auftreten,
 sollte erstmal versucht werden selbstständig das Problem zu lösen.
