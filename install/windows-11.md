@@ -24,7 +24,7 @@ am besten kontaktieren kannst.
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
+Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Miniforge3">Python Installation: Miniforge3</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
@@ -289,7 +289,7 @@ Sicherheit nachgeholt werden.
 #### Installationsordner `~/.local`
 
 
-Für die Installation von [Mambaforge (Python)](#Mambaforge) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
+Für die Installation von [Miniforge3 (Python)](#Miniforge3) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
 
 ```
 mkdir -p ~/.local
@@ -298,12 +298,12 @@ mkdir -p ~/.local
 Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
 und tut gar nichts, falls dieser Ordner schon existiert.
 
-### <a id="Mambaforge"></a>Mambaforge: Python Installation
+### <a id="Miniforge3"></a>Python Installation: Miniforge3
 
 Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
 nutzen zu können, verwenden wir das Tool `mamba`.
 
-Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
+Die Installationsdatei _Miniforge3-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
 ins Windows Terminal, heruntergeladen werden:
 
 ```
@@ -313,14 +313,14 @@ Dieser Befehl ändert den aktuellen Pfad auf den Ordner, in den die Installation
 Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun `~/.local` sein.
 
 ```
-curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 ```
 Dieser Befehl lädt die Installationsdatei herunter. Der Download kann einige Zeit in Anspruch nehmen.
 
 ```
 ls
 ```
-Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Mambaforge-Linux-x86-64.sh_
+Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Miniforge3-Linux-x86-64.sh_
 sollte hier aufgeführt sein.
 
 <img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
@@ -328,7 +328,7 @@ sollte hier aufgeführt sein.
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 
 ```
-bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge 
+bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 ```
 Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 
@@ -388,11 +388,11 @@ angezeigt wird.
 
 <img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Mambaforge-Linux-x86-64.sh_
+Nach erfolgreicher Installation kann die Installationsdatei _Miniforge3-Linux-x86-64.sh_
 mit dem Befehl
 
 ```
-rm ~/.local/Mambaforge-Linux-x86_64.sh
+rm ~/.local/Miniforge3-Linux-x86_64.sh
 ```
 gelöscht werden.
 

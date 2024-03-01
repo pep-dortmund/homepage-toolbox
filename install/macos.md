@@ -54,23 +54,23 @@ Zur Installation gibst du Folgendes im Terminal ein
 und führst den Befehl mit `Enter` aus.
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
-### Python Installation: Mambaforge
+### Python Installation: Miniforge3
 
 Hier müssen im Terminal die folgenden Zeilen einzeln nacheinander eingegeben werden:
 ```
 cd
 ```
 ```
-curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 ```
 ```
-bash Mambaforge-$(uname)-$(uname -m).sh
+bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
 Die Lizenzvereinbarung muss je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
 Und kann mit `yes` akzeptiert werden.
 Den Ort der Installation kannst du mit `Enter` akzeptieren.
-_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
+_Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
 Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
@@ -86,10 +86,10 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen. 
 
     ls
 
-im Terminal ein. In der ausgegebenen Liste sollte `Mambaforge-Darwin-arm64.sh`, oder ähnlich, auftauchen.
+im Terminal ein. In der ausgegebenen Liste sollte `Miniforge3-Darwin-arm64.sh`, oder ähnlich, auftauchen.
 Wenn das so ist, kannst du sie mit dem folgenden Befehl löschen
 
-    rm Mambaforge-Darwin-arm64.sh
+    rm Miniforge3-Darwin-arm64.sh
 
 oder dem entsprechenden Dateinamen.
 Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop ansprechen.
@@ -201,7 +201,7 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ## <a id="update"></a>Aktualisieren
 
-### Python Update: Mambaforge
+### Python Update
 
 Im Terminal:
 
