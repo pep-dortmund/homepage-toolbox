@@ -14,22 +14,6 @@ solltest du mindestens VSCodium (oder einen anderen Texteditor)
 und TeXLive installieren.
 
 
-<div class="row" style="padding: 10px">
-  <div class="col-md-1" align="center"></div>
-  <div class="col-md-4" align="center">
-  <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
-  Testen
-  </a>
-  </div>
-  <div class="col-md-2" align="center"></div>
-  <div class="col-md-4" align="center">
-  <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren
-  </a>
-  </div>
-  <div class="col-md-1" align="center"></div>
-</div>
-
 ## <a id="Installation"></a>Installation
 
 **Wichtig: Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen.**

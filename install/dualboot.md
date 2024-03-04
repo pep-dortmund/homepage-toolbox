@@ -34,13 +34,6 @@ kannst du der Anleitung ab
 [Schritt 6](#einen-bootfähigen-usb-stick-für-die-linux-installation-erstellen) folgen.
 
 
-## Inhalt
-{:.no_toc}
-
-1. Table of Contents
-{:toc}
-
-
 ## Vollständiges Backup erstellen
 
 Die Installation eines neuen Betriebssystems involviert die Erstellung und

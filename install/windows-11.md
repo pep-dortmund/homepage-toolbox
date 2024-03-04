@@ -29,24 +29,6 @@ Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Mi
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
 um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
-<div class="row" style="padding: 10px">
-  <div class="col-md-4" align="center">
-  <a href="#Installieren" class="btn btn-secondary btn-lg btn-block" role="button">
-  Installieren
-  </a>
-  </div>
-  <div class="col-md-4" align="center">
-  <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
-  Testen
-  </a>
-  </div>
-  <div class="col-md-4" align="center">
-  <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren
-  </a>
-  </div>
-  <div class="col-md-2" align="center"></div>
-</div>
 
 ## <a id="Installieren"></a>Installieren
 
