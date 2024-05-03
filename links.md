@@ -80,7 +80,9 @@ title: Linksammlung
 - [Symbols, Units, Nomenclature and Fundamental Constants in Physics](https://iupap.org/wp-content/uploads/2021/03/A4.pdf){:target="_blank"}
 - [Der normgerechte Umgang mit Größen, Einheiten und Gleichungen](https://scdn.rohde-schwarz.com/ur/pws/dl_downloads/dl_common_library/dl_brochures_and_datasheets/pdf_1/Normgerechter_Umgang_mit_Groessen_Einheiten_Gleichungen_bro_de_5214-5061-61_v0500.pdf){:target="_blank"}
 - ISO 80000: Regeln für mathematische Typographie in der Wissenschaft (Google hilft…)
-- [Typst](https://typst.app/){:target="_blank"}: Eine junge LaTeX-Alternative mit Online-Editor, Echtzeit-Kollaboration und schnellem Rendering
+- [Typst](https://github.com/typst/typst){:target="_blank"}: Eine junge LaTeX-Alternative mit [Online-Editor](https://typst.app/), Echtzeit-Kollaboration und schnellem Rendering
+- [Lyx](https://www.lyx.org/){:target="_blank"}: Eine ältere LaTeX-Alternative die die Stärken von TeX mit einer graphischen OberflÄche verbindet.
+- [decker](https://decker.cs.tu-dortmund.de/){:target="_blank"}: Softwarewerkzeug zum erstellen von interaktiven Webpräsentationen; entwickelt von TU Dortmund, Universität Würzburg und Berliner Hochschule für Technik
 
 ## Editoren
 
