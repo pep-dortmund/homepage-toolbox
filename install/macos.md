@@ -168,7 +168,7 @@ Im Terminal:
 
     luatex
 
-Es sollte folgende Ausgabe erscheinen:
+Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
     This is LuaTeX, Version 1.17.0 (TeX Live 2023)
     restricted system commands enabled.

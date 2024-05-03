@@ -106,7 +106,7 @@ das passiert in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
@@ -186,7 +186,7 @@ Im Terminal:
 
     $ luatex
 
-Es sollte folgende Ausgabe erscheinen:
+Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
     This is LuaTeX, Version 1.15.0 (TeX Live 2022)
      restricted system commands enabled.
