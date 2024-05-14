@@ -26,19 +26,19 @@ Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen
 So haben wir einen Eindruck davon, welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an euch anpassen.
 
-Zur Zeit ist die Umfrage noch nicht freigeschaltet.
-
 <!--
+Zur Zeit ist die Umfrage noch nicht freigeschaltet.
+-->
+
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/toolbox24/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
--->
 
 ## Themen
 
-Die beiden Wochen sind unabhängig voneinander gestaltet.
-Es kann also auch nur einer der beiden Kurse besucht werden.
-Für die zweite Woche sind allerdings Grundkenntnisse zur Kommandozeile hilfreich.
+Die beiden Themenblöcke, Datenauswertung und LaTeX, sind unabhängig voneinander gestaltet.
+Es kann also auch nur einer der beiden Teile besucht werden.
+Für LaTeX sind allerdings auch Grundkenntnisse zur Kommandozeile hilfreich.
 Beide Teile des Kurses sind nicht nur für das Praktikum interessant,
 sondern auch für den weiteren Erfolg während und nach des Studiums.
 
@@ -46,12 +46,11 @@ Alle im Kurs vorgestellten Programme sind [Free and Open-Source Software](https:
 bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
 
 
-### 1. Woche: Versuche auswerten
+### 1. Teil: Versuche auswerten
 
 * **Python** ist eine der beliebtesten Programmiersprachen in der Wissenschaft,
   ist einfach zu lernen und bietet zahlreiche Bibliotheken für die Datenauswertung
   und zur Darstellung dieser Daten.
-
   Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile
   gegenüber Alternativen wie Tabellenkalkulationssoftware.
 
@@ -72,7 +71,7 @@ bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
   Wir bringen euch die Grundlagen bei.
 
 
-### 2. Woche: LaTeX
+### 2. Teil: LaTeX
 
 **LaTeX** ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
   Es bietet hervorragenden Formelsatz, automatisiertes Erstellen von Inhaltsverzeichnissen
@@ -142,14 +141,14 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>26.09.2024</td>
   <td>13-17 Uhr</td>
   <td>CT ZE HS01</td>
-  <td>Unix, Make</td>
+  <td>Unix, Git</td>
   </tr>
   <tr>
   <td>Fr</td>
   <td>27.09.2024</td>
   <td>13-17 Uhr</td>
   <td>CT ZE HS01</td>
-  <td>Git und abschließende Übungen</td>
+  <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td colspan="5"></td>
@@ -159,21 +158,21 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>30.09.2024</td>
   <td>13-17 Uhr</td>
   <td>CT ZE HS01</td>
-  <td>Einführung in LaTeX</td>
+  <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Di</td>
   <td>01.10.2024</td>
   <td>13-17 Uhr</td>
   <td>CT ZE HS01</td>
-  <td>Formelsatz</td>
+  <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Mi</td>
   <td>02.10.2024</td>
   <td>13-17 Uhr</td>
   <td>CT ZE HS01</td>
-  <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
+  <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
   <td>Do</td>
@@ -187,7 +186,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <td>04.10.2024</td>
   <td>13-17 Uhr</td>
   <td>CT ZE HS01</td>
-  <td>TeX in matplotlib, TikZ, beamer</td>
+  <td>Make und abschließende Übungen über alles</td>
   </tr>
   <tr>
   <td colspan="5"></td>
