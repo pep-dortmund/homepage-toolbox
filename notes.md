@@ -5,12 +5,13 @@ title: Material
 ---
 
 
-## Wintersemester 2023/24
+## Wintersemester 2024/25
 
 Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlicht.
 
 ### Toolbox
+<!--
 - Tag 1
     - [Intro-Folien](/files/archive/2023/intro.pdf){:target="_blank"} (Stand 25.09.2023)
     - [Python](/files/archive/2023/python.html){:target="_blank"} (Stand 25.09.2023)
@@ -38,6 +39,7 @@ Kurses veröffentlicht.
 - [Aufgaben Tag 3](/files/archive/2023/exercises-latex-3.zip) (Stand 04.10.2023)
 - [Aufgaben Tag 4](/files/archive/2023/exercises-latex-4.zip) (Stand 05.10.2023)
 - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
+-->
 
 ## Vergangene Kurse
 
