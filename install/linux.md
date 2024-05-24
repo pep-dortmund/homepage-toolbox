@@ -34,7 +34,7 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 - Fedora:
 
-        $ sudo yum install git-core make curl
+        $ sudo dnf install git make curl
 
 - Arch Linux:
 
@@ -90,6 +90,13 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
     $ rm ~/.local/Miniforge3-*.sh
 
 ### TeXLive
+
+- _Nur bei Fedora Distributionen:_  
+Installieren der `Perl` dependencies von `latexmk` mit
+```
+$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)
+```
+Ab hier weiter für alle Linux Distributionen:
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
