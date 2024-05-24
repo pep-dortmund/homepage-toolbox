@@ -91,6 +91,13 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 
 ### TeXLive
 
+- _Nur bei Fedora Distributionen:_  
+Installieren der `Perl` dependencies von `latexmk` mit
+```
+$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)
+```
+Danach normal fortfahren.
+
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
 ```
