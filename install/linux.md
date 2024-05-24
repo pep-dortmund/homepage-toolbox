@@ -96,7 +96,7 @@ Installieren der `Perl` dependencies von `latexmk` mit
 ```
 $ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)
 ```
-Danach normal fortfahren.
+Ab hier weiter für alle Linux Distributionen:
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
