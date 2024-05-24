@@ -34,7 +34,7 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 - Fedora:
 
-        $ sudo yum install git-core make curl
+        $ sudo dnf install git make curl
 
 - Arch Linux:
 
