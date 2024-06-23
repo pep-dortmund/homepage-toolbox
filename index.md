@@ -107,7 +107,7 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   <tr>
   <td>Do</td>
   <td>19.09.2024</td>
-  <td>10 - 13 Uhr</td>
+  <td>10-13 Uhr</td>
   <td>CP-03-123</td>
   <td>Installationshilfe, Umstieg auf Linux für Interessierte
    </td>
