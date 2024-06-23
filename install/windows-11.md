@@ -15,7 +15,7 @@ mit den Inhalten des Toolbox Workshops hattest.
 und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt hast.
 
 + Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
-Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung.
+Den Beginn jedes dieser drei Abschnitte erreichst du über das Inhaltsverzeichnis auf der rechten Seite.
 
 + Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
 sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise, wie du uns
@@ -27,7 +27,7 @@ Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger sch
 Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Miniforge3">Python Installation: Miniforge3</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
-um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
+um eine Ubuntu-Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 
 ## <a id="Installieren"></a>Installieren
