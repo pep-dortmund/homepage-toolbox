@@ -61,7 +61,7 @@ Damit ist die allgemeine Python Umgebung installiert.
 Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
 Dafür musst du erst ein neues Terminal öffnen, dann:
 
-    mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+    mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
 
 Diese startest du mit
 
