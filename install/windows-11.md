@@ -227,10 +227,10 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die drei Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
+Nun können die drei Programme `git`, `make` und `curl` und bereits Abhängigkeiten für `biber` installiert werden. Dies erfolgt durch die Eingabe des
 Befehls
 ```
-sudo apt install git make curl
+sudo apt install git make curl libxcrypt
 ```
 und anschließende Bestätigung mit der `Enter`-Taste. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
