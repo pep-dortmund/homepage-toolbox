@@ -30,15 +30,15 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
         $ sudo apt update
         $ sudo apt upgrade
-        $ sudo apt install git make curl
+        $ sudo apt install git make curl libxcrypt
 
 - Fedora:
 
-        $ sudo dnf install git make curl
+        $ sudo dnf install git make curl libxcrypt-compat
 
 - Arch Linux:
 
-        $ sudo pacman -S git make curl
+        $ sudo pacman -S git make curl libxcrypt-compat
 
 ### Texteditor VSCodium
 
