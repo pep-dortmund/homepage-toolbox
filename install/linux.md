@@ -122,6 +122,7 @@ In dem neuen Terminal die folgenden Befehle eingeben:
 ```
 $ tlmgr option autobackup -- -1
 $ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
+$ luaotfload-tool --update --force
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
