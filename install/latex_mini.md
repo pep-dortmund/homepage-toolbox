@@ -42,6 +42,9 @@ tlmgr option autobackup -- -1
 ```
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
+```
+luaotfload-tool --update --force
+```
 
 Eine Liste aller notwendiger LaTeX Packages, die wir brauchen werden, lädst du mit
 ```
