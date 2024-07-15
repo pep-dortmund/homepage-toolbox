@@ -30,7 +30,7 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
         $ sudo apt update
         $ sudo apt upgrade
-        $ sudo apt install git make curl libxcrypt1
+        $ sudo apt install git make curl
 
 - Fedora:
 
