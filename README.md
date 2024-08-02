@@ -10,22 +10,12 @@ If you want to build the site locally, install ruby, node and some optional depe
 $ sudo apt install ruby-dev nodejs libxml2-dev libxslt1-dev build-essential
 $ sudo gem install bundler
 ```
-And add this to your ~/.bashrc ~/.zshrc ~/.profile:
-```
-export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
-export PATH="$PATH:$GEM_HOME/bin"
-```
 
 ### Arch Linux
 
 ```
 $ sudo pacman -S ruby nodejs libxml2 libxslt
 $ sudo gem install bundler
-```
-And add this to your bashrc/zshrc/.profile/...:
-```
-export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
-export PATH="$PATH:$GEM_HOME/bin"
 ```
 
 ### Fedora Linux
@@ -34,6 +24,9 @@ export PATH="$PATH:$GEM_HOME/bin"
 $ sudo dnf install ruby ruby-devel nodejs libxml2 libxslt
 $ sudo gem install bundler
 ```
+
+For all Linux:
+
 And add this to your bashrc/zshrc/.profile/...:
 ```
 export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
