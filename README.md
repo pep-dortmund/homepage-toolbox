@@ -28,6 +28,18 @@ export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
 export PATH="$PATH:$GEM_HOME/bin"
 ```
 
+### Fedora Linux
+
+```
+$ sudo dnf install ruby ruby-devel nodejs libxml2 libxslt
+$ sudo gem install bundler
+```
+And add this to your bashrc/zshrc/.profile/...:
+```
+export GEM_HOME="$(ruby -e 'puts Gem.user_dir')"
+export PATH="$PATH:$GEM_HOME/bin"
+```
+
 ### macOS
 
 ```
