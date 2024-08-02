@@ -25,7 +25,7 @@ $ sudo dnf install ruby ruby-devel nodejs libxml2 libxslt
 $ sudo gem install bundler
 ```
 
-For all Linux:
+### Export Environment Variables for Linux:
 
 And add this to your bashrc/zshrc/.profile/...:
 ```
