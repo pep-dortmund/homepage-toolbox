@@ -624,7 +624,7 @@ qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
 angezeigt wird. Dieser lässt sich mit einer Umgebungsvariablen in der Datei `~/.bashrc`
 beheben. Führe dazu folgenden Befehl im Terminal aus:
 ```
-$ echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
+echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
 ```
 
 ### Make
