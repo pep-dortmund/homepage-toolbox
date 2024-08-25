@@ -614,7 +614,18 @@ Mit dem Befehl
 ```
 quit
 ```
-kann das Programm _ipython_ im Anschluss beendet werden
+kann das Programm _ipython_ im Anschluss beendet werden.
+
+
+Beim Ausführen von `%matplotlib` kann es vorkommen, dass der Fehler
+```
+qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
+```
+angezeigt wird. Dieser lässt sich mit einer Umgebungsvariablen in der Datei `~/.bashrc`
+beheben. Führe dazu folgenden Befehl im Terminal aus:
+```
+$ echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
+```
 
 ### Make
 
