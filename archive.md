@@ -39,8 +39,8 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 - [Aufgaben Tag 4](/files/archive/current/exercises-latex-4.zip) (Stand 05.10.2023)
 - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
 
-#### Alles zusammen als Archive
-- [Archive download](/files/archive/current.tar.gz)
+#### Alles zusammen als Archiv
+- [Archiv download](/files/archive/current.tar.gz)
 
 <p class="lead">Hier befinden sich die Materialien vergangener Veranstaltungen.</p>
 
@@ -76,52 +76,52 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 - [Aufgaben Tag 4](/files/archive/latest/exercises-latex-4.zip) (Stand 05.10.2023)
 - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
 
-#### Alles zusammen als Archive
-- [Archive download](/files/archive/latest.tar.gz)
+#### Alles zusammen als Archiv
+- [Archiv download](/files/archive/latest.tar.gz)
 
 
 ## Wintersemester 2022/23
 
-- [Archive download](/files/archive/2022.tar.gz)
+- [Archiv download](/files/archive/2022.tar.gz)
 
 ## Wintersemester 2021/22
 
-- [Archive download](/files/archive/2021.tar.gz)
+- [Archiv download](/files/archive/2021.tar.gz)
 
 ## Wintersemester 2020/21
 
-- [Archive download](/files/archive/2020.tar.gz)
+- [Archiv download](/files/archive/2020.tar.gz)
 
 ## Wintersemester 2019/20
 
-- [Archive download](/files/archive/2019.tar.gz)
+- [Archiv download](/files/archive/2019.tar.gz)
 
 ## Wintersemester 2018/19
 
-- [Archive download](/files/archive/2018.tar.gz)
+- [Archiv download](/files/archive/2018.tar.gz)
 
 ## Wintersemester 2017/18
 
-- [Archive download](/files/archive/2017.tar.gz)
+- [Archiv download](/files/archive/2017.tar.gz)
 
 ## Wintersemester 2016/17
 
-- [Archive download](/files/archive/2016.tar.gz)
+- [Archiv download](/files/archive/2016.tar.gz)
 
 ## Wintersemester 2015/16
 
-- [Archive download](/files/archive/2015.tar.gz)
+- [Archiv download](/files/archive/2015.tar.gz)
 
 ## Wintersemester 2014/15
 
-- [Archive download](/files/archive/2014.tar.gz)
+- [Archiv download](/files/archive/2014.tar.gz)
 
 ## Wintersemester 2013/14
 
-- [Archive download](/files/archive/2013.tar.gz)
+- [Archiv download](/files/archive/2013.tar.gz)
 
 ## Wintersemester 2012/13
 
-- [Archive download](/files/archive/2012.tar.gz)
+- [Archiv download](/files/archive/2012.tar.gz)
 
 Der Programm-Code befindet sich unter der [MIT-Lizenz](http://opensource.org/licenses/MIT), die Texte unter [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/).
