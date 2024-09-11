@@ -136,10 +136,8 @@ Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
 
----
-**Wichtig:** Der Benutzername darf **nur** Kleinbuchstaben und **keine** Leerzeichen enthalten
 
----
+{% include admonition.html type="warning" title="Wichtig" body="Der Benutzername darf <b>nur</b> Kleinbuchstaben und <b>keine</b> Leerzeichen enthalten." %}
 
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
@@ -230,16 +228,17 @@ Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ### Git, Make und weiteres
 
----
+<div class="admonition warning">
+<p class="admonition-title">Wichtig</p>
+  <p>
+    In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
+    Diese werden in einem Codeblock wie diesem angegeben:
+  </p>
+  <pre class="admonition highlight"><code>Beispielbefehl</code></pre>
+  <p>Im Terminal muss <b>jeder Codeblock einzeln</b> eingeben und mit <code>Enter</code> bestätigt werden.</p>
+</div>
 
-**Wichtig:** In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
-Diese werden in einem Codeblock wie diesem angegeben:
-```
-Beispielbefehl
-```
-Im Terminal muss **jeder Codeblock einzeln** eingeben und mit `Enter` bestätigt werden.
 
----
 
 Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
 (wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü).
@@ -291,10 +290,7 @@ Für Git müssen noch ein paar Einstellungen vorgenommen werden.
 Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
----
-**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine **eigene E-Mail-Adresse** verwenden!
-
----
+{% include admonition.html type="warning" title="Wichtig" body="Anstelle von <code>Max Mustermann</code> solltest du natürlich deinen <b>eigenen Namen</b> und auch deine <b>eigene E-Mail-Adresse</b> verwenden!" %}
 
 ```
 git config --global user.name "Max Mustermann"
