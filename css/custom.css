@@ -54,8 +54,10 @@ font-size: 20px !important;
 :root {
   --pep-gray: #565656;
   --pep-blue: #5b8fcb;
+  --pep-blue-light: #b5cce8;
   --pep-green: #2CCCA0;
   --pep-yellow: #FFB137;
+  --pep-yellow-light: #ffe6c0;
   --light-gray: #7C7C7C;
   --maincolor: var(--pep-yellow);
   --body-bg: #f1f0f0;
