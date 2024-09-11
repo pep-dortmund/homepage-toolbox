@@ -16,7 +16,7 @@ und TeXLive installieren.
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen.**
+{% include admonition.html type="warning" title="Wichtig" body="Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen." %}
 
 Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
 Führe nur die Befehle für deine eigene Distribution (z.B. Ubuntu) aus.
@@ -91,12 +91,16 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 
 ### TeXLive
 
-- _Nur bei Fedora Distributionen:_  
-Installieren der `Perl` dependencies von `latexmk` mit
-```
-$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)
-```
-Ab hier weiter für alle Linux Distributionen:
+<div class="admonition info">
+<p class="admonition-title">Nur bei Fedora Distributionen</p>
+  <p>
+    Installieren der <code>Perl</code> dependencies von <code>latexmk</code> mit
+  </p>
+  <pre class="admonition highlight"><code>$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)</code></pre>
+</div>
+
+
+*Ab hier weiter für alle Linux Distributionen:*
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.

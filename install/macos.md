@@ -21,7 +21,7 @@ und MacTeX installieren.
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!**
+{% include admonition.html type="warning" title="Wichtig" body="Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!" %}
 
 ### Terminal
 
