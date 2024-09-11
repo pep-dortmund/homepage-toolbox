@@ -1,0 +1,72 @@
+.archive-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+  align-items: center;
+  justify-items: center;
+}
+
+.archive-card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 20rem;
+  height: 7rem;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  font-size: 1.5rem;
+  --gradient: linear-gradient(to bottom, var(--pep-blue), white);
+  --color: #32a6ff;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+}
+
+.archive-card:after {
+  position: absolute;
+  content: "";
+  width: 0.25rem;
+  inset: 0.65rem auto 0.65rem 0.5rem;
+  border-radius: 0.125rem;
+  background: var(--pep-blue);
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.archive-title {
+  opacity: 1;
+  color: var(--pep-gray);
+  padding: 0rem 0.25rem 0.4rem 1rem;
+  font-weight: 1000;
+  font-size: 2.5rem;
+  transition: transform 300ms ease;
+  z-index: 4;
+}
+
+.archive-body {
+  opacity: 0.7;
+  color: var(--pep-blue);
+  padding: 0 1.25rem;
+  transition: transform 300ms ease;
+  z-index: 5;
+}
+
+.archive-body::before {
+  content: "Archiv-Download";
+}
+
+.archive-card:hover .archive-title {
+  transform: translateX(0.5rem);
+}
+
+.archive-card:hover .archive-body {
+  transform: translateX(0.5rem);
+}
+
+.archive-dl {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
