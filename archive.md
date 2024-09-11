@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: archive
 permalink: /archive/
 title: Archiv
 description: Hier befinden sich die Materialien vergangener Veranstaltungen.
@@ -40,9 +40,9 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 <!-- - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a> -->
 
 #### Alles zusammen als Archiv
-<!-- - [Archiv download](/files/archive/current.tar.gz) -->
+<!-- - [Archiv-Download](/files/archive/current.tar.gz) -->
 
-<p class="lead">Hier befinden sich die Materialien vergangener Veranstaltungen.</p>
+---
 
 ## Wintersemester 2023/24
 [//]: <> (Referring to latest version.)
@@ -77,51 +77,91 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
 
 #### Alles zusammen als Archiv
-- [Archiv download](/files/archive/latest.tar.gz)
+- [Archiv-Download](/files/archive/latest.tar.gz)
 
+---
 
-## Wintersemester 2022/23
+## Materialien älterer Veranstaltungen
 
-- [Archiv download](/files/archive/2022.tar.gz)
+<div class="archive-grid">
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2022/23</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2022.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2021/22</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2021.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2020/21</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2020.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2019/20</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2019.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2018/19</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2018.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2017/18</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2017.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2016/17</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2016.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2015/16</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2015.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2014/15</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2014.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2013/14</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2013.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="archive-card">
+      <div class="archive-title">WS 2012/13</div>
+      <div class="archive-body"></div>
+      <a href="/files/archive/2012.tar.gz" class="archive-dl"></a>
+    </div>
+  </div>
+</div>
 
-## Wintersemester 2021/22
-
-- [Archiv download](/files/archive/2021.tar.gz)
-
-## Wintersemester 2020/21
-
-- [Archiv download](/files/archive/2020.tar.gz)
-
-## Wintersemester 2019/20
-
-- [Archiv download](/files/archive/2019.tar.gz)
-
-## Wintersemester 2018/19
-
-- [Archiv download](/files/archive/2018.tar.gz)
-
-## Wintersemester 2017/18
-
-- [Archiv download](/files/archive/2017.tar.gz)
-
-## Wintersemester 2016/17
-
-- [Archiv download](/files/archive/2016.tar.gz)
-
-## Wintersemester 2015/16
-
-- [Archiv download](/files/archive/2015.tar.gz)
-
-## Wintersemester 2014/15
-
-- [Archiv download](/files/archive/2014.tar.gz)
-
-## Wintersemester 2013/14
-
-- [Archiv download](/files/archive/2013.tar.gz)
-
-## Wintersemester 2012/13
-
-- [Archiv download](/files/archive/2012.tar.gz)
-
+---
 Der Programm-Code befindet sich unter der [MIT-Lizenz](http://opensource.org/licenses/MIT), die Texte unter [Creative Commons Attribution 3.0](http://creativecommons.org/licenses/by/3.0/).
