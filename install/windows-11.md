@@ -337,7 +337,8 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen.
+{% include admonition.html type="warning" title="Wichtig" body="Verwendet werden kann mamba erst
+nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen." %}
 
 Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
