@@ -54,10 +54,10 @@ Diese drei Distributionen nutzen das gleiche Betriebssystem,
 aber unterschiedliche grafische Benutzeroberflächen.
 
 
-Der aktuelle Release von (K,X)Ubuntu ist die Version `23.04`,
+Der aktuelle Release von (K,X)Ubuntu ist die Version `24.04`,
 es erscheinen halbjährlich im April und Oktober neue Versionen.
 Alle zwei Jahre erscheint eine neue Version mit längerem (5 Jahre)
-Support für Updates (LTS Version), 22.04 ist die aktuelle LTS Version.
+Support für Updates (LTS Version), 24.04 ist die aktuelle LTS Version.
 
 Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
 
@@ -116,7 +116,7 @@ und dann das Häkchen bei Fast-Boot entfernen.
 ## Einen bootfähigen USB-Stick für die Linux-Installation erstellen
 
 1. Lade das Image deiner ausgewählten Linux Distribution herunter, zum Beispiel
-    [kubuntu-22.04.3-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/22.04.3/release/kubuntu-22.04.3-desktop-amd64.iso){:target="_blank}
+    [kubuntu-24.04.1-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/24.04.1/release/kubuntu-24.04.1-desktop-amd64.iso){:target="_blank}
     für Kubuntu.
 
 1. Installiere das Tool `Rufus`, um das Image auf einen USB-Stick zu schreiben:
