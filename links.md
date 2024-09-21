@@ -86,7 +86,7 @@ title: Linksammlung
 
 ## Editoren
 
-- [Vim](http://www.vim.org/){:target="_blank"}: Moden-basierter Editor, schwierige Lernphase, danach hervorragend
+- [Vim](http://www.vim.org/){:target="_blank"}: Modi-basierter Editor, schwierige Lernphase, danach hervorragend
 - [neovim](http://neovim.io/){:target="_blank"}: Modernisierung von vim
 - [Emacs](https://www.gnu.org/software/emacs/emacs.html){:target="_blank"}: Der [erweiterbarste](https://xkcd.com/378/){:target="_blank"} Editor
 - [Notepad++](https://notepad-plus-plus.org/){:target="_blank"} (Windows): einfacher Editor, schnell zu lernen
