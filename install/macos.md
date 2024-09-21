@@ -21,7 +21,7 @@ und MacTeX installieren.
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!**
+{% include admonition.html type="warning" title="Wichtig" body="Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!" %}
 
 ### Terminal
 
@@ -58,8 +58,11 @@ Den Ort der Installation kannst du mit `Enter` akzeptieren.
 _Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
 Damit ist die allgemeine Python Umgebung installiert.
-Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
-Dafür musst du erst ein neues Terminal öffnen, dann:
+
+{% include admonition.html type="warning" title="Wichtig" body='Für den folgenden Schritt musst du
+ein neues Terminal öffnen. Wähle dazu in der App "Terminal" den Punkt "<b>Terminal</b>" und dann "<b>Terminal beenden</b>".' %}
+
+Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
 
     mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
 
