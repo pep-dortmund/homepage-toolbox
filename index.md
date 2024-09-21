@@ -54,22 +54,21 @@ bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
   Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile
   gegenüber Alternativen wie Tabellenkalkulationssoftware.
 
+* **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen
+  Betriebssystemen ist eine wichtige Voraussetzung für wissenschaftliches Arbeiten.
+  Wir bringen euch die Grundlagen bei.
+
 * **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte
   des guten wissenschaftlichen Arbeitens.
   Git ist das Standardwerkzeug für Versionskontrolle,
   welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren,
   Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
 
-* **Make**: Das Standardtool zur automatisierten Ausführung von komplexeren Aufgaben.
+  * **Make**: Das Standardtool zur automatisierten Ausführung von komplexeren Aufgaben.
   Es kommt häufig vor, dass mehrere Auswertungsschritte in einer bestimmten Reihenfolge
   ausgeführt werden müssen und spätere Schritte von den Ergebnissen vorheriger Schritte abhängen.
   Diese Schritte manuell auszuführen, ist fehleranfällig und nicht einfach zu dokumentieren.
   Make macht dies einfacher und führt zu besserer Reproduzierbarkeit.
-
-* **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen
-  Betriebssystemen ist eine wichtige Voraussetzung für wissenschaftliches Arbeiten.
-  Wir bringen euch die Grundlagen bei.
-
 
 ### 2. Teil: LaTeX
 
@@ -85,7 +84,8 @@ Bitte beachtet die folgenden Schritte:
 - Die Software vorher auf deinem Laptop [installieren](/install/install/)!
   - Bei Problemen können wir gerne per [Mail](/problem/) helfen.
   - Am Donnerstag vor der ersten Woche bieten wir ein begleitetes Installieren eines [Dual-Boot-Systems](/install/dualboot/) an.
-- Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
+  - Ein neuer Laptop soll angeschafft werden? Überlege über ein [US-Tastaturlayout](https://endler.dev/2018/keyboard/){:target="_blank"}.
+- Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden. Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
 
 ## Ablaufplan 2024
 
