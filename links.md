@@ -84,8 +84,8 @@ title: Linksammlung
 - [Der normgerechte Umgang mit Größen, Einheiten und Gleichungen](https://www.physik.tu-darmstadt.de/media/fachbereich_physik/phys_studium/phys_studium_bachelor/phys_studium_bsc_praktika/phys_studium_bsc_praktika_gp/phys_studium_bsc_praktika_gp_regeln/Gr_Einh_Gl.pdf){:target="_blank"}
 - ISO 80000: Regeln für mathematische Typographie in der Wissenschaft (Google hilft…)
 - [Typst](https://github.com/typst/typst){:target="_blank"}: Eine junge LaTeX-Alternative mit [Online-Editor](https://typst.app/), Echtzeit-Kollaboration und schnellem Rendering
-- [Lyx](https://www.lyx.org/){:target="_blank"}: Eine ältere LaTeX-Alternative die die Stärken von TeX mit einer graphischen OberflÄche verbindet.
-- [decker](https://decker.cs.tu-dortmund.de/){:target="_blank"}: Softwarewerkzeug zum erstellen von interaktiven Webpräsentationen; entwickelt von TU Dortmund, Universität Würzburg und Berliner Hochschule für Technik
+- [Lyx](https://www.lyx.org/){:target="_blank"}: Eine ältere LaTeX-Alternative, die die Stärken von TeX mit einer graphischen Oberfläche verbindet.
+- [decker](https://decker.cs.tu-dortmund.de/){:target="_blank"}: Softwarewerkzeug zum Erstellen von interaktiven Webpräsentationen; entwickelt von TU Dortmund, Universität Würzburg und Berliner Hochschule für Technik
 
 ## Editoren
 
