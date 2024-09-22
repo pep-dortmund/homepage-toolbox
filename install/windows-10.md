@@ -9,16 +9,16 @@ __Bitte die folgenden Punkte unbedingt lesen:__
 + Diese Anleitung mag relativ lang erscheinen und im ersten Moment abschreckend wirken.
 Wir versichern dir, dass diese Länge aber viel mehr ein Zeichen von Ausführlichkeit
 ist, um sicherzustellen, dass du auch folgen kannst, wenn du bisher keine Berührungen
-mit den Inhalten des Toolbox Workshops hattest. 
+mit den Inhalten des Toolbox Workshops hattest.
 
 + Befolge die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
 und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt hast.
 
 + Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
-Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
+Den Beginn jedes dieser drei Abschnitte erreichst du über das Inhaltsverzeichnis auf der rechten Seite.
 
 + Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
-sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise, wie du uns 
+sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise, wie du uns
 am besten kontaktieren kannst.
 
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
@@ -27,7 +27,7 @@ Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger sch
 Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Miniforge3">Python Installation: Miniforge3</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
-um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
+um eine Ubuntu-Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
 
 ## <a id="Installieren"></a>Installieren
@@ -49,7 +49,7 @@ Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer 
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
 Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
 
-Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Windows-Installation 
+Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Windows-Installation
 zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach "Update"
 suchen und den Punkt _Nach Updates suchen_ auswählen.
 
@@ -59,12 +59,12 @@ Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates 
 
 <img alt="" src="/img/wsl/win10-updates-2.png" style="max-width:90%;" />
 
-Überprüfe nach der Installation der Updates und einem Neustart eures PCs noch einmal die 
+Überprüfe nach der Installation der Updates und einem Neustart eures PCs noch einmal die
 _Betriebssystembuild_-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
 
 #### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
-Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente) 
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente)
 sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
 Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
@@ -86,8 +86,8 @@ In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt 
 Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
 siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
-#### Installation des WSL 
-Zunächst muss eine PowerShell Konsole als Administrator gestartet werden. 
+#### Installation des WSL
+Zunächst muss eine PowerShell Konsole als Administrator gestartet werden.
 Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs. Durch Tippen des
 Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klicke auf der rechten
 Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
@@ -109,21 +109,21 @@ kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_
 In die PowerShell muss jetzt der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
-wsl --install 
+wsl --install
 ```
 <img alt="" src="/img/wsl/win10-wsl-install.png" class="screenshot" />
 
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige 
-stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die 
+Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige
+stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die
 Ausgabe wie folgt aus
 
 <img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
 
-Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
+Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die
 Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
 
 <img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
@@ -136,10 +136,8 @@ Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
 
----
-**Wichtig:** Der Benutzername darf **nur** Kleinbuchstaben und **keine** Leerzeichen enthalten
 
----
+{% include admonition.html type="warning" title="Wichtig" body="Der Benutzername darf <b>nur</b> Kleinbuchstaben und <b>keine</b> Leerzeichen enthalten." %}
 
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
@@ -154,7 +152,7 @@ Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
 
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
-so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
+so muss ein erneuter Versuch zunächst mit `y` bestätigt werden.
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1.png" class="screenshot" />
 
@@ -173,15 +171,15 @@ des Workshops, im Folgenden wird diese jedoch schon zur Installation der benöti
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
 
-Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl 
+Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl
 ```
 exit
-``` 
+```
 eingebt oder auf das `X` oben rechts klickt.
 
 ### <a id="WindowsTerminal"></a>Windows Terminal
 
-Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Das Windows Terminal kann 
+Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Das Windows Terminal kann
 aus dem Microsoft Store installiert werden.
 
 Auch der Microsoft Store kann über die Suche im Startmenü gefunden werden:
@@ -196,11 +194,11 @@ Und im folgenden Fenster `Herunterladen` anklicken:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
 
-Im Anschluss an die Installation kann der Microsoft Store geschlossen werden. 
+Im Anschluss an die Installation kann der Microsoft Store geschlossen werden.
 
 Das Windows Terminal kann über das Startmenü geöffnet werden. Direkt nach der Installation
 befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kann hier wieder
-die Suche verwendet werden. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der 
+die Suche verwendet werden. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der
 rechten Spalte.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
@@ -217,7 +215,7 @@ in dem `Einstellungen` angeklickt werden muss:
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
 
 Hier kannst du einstellen, dass sich beim Start von Windows Terminal standardmäßig Ubuntu öffnet.
-Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken 
+Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken
 auf den Pfeil nach unten öffnet sich eine Auswahl.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
@@ -230,21 +228,22 @@ Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ### Git, Make und weiteres
 
----
+<div class="admonition warning">
+<p class="admonition-title">Wichtig</p>
+  <p>
+    In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
+    Diese werden in einem Codeblock wie diesem angegeben:
+  </p>
+  <pre class="admonition highlight"><code>Beispielbefehl</code></pre>
+  <p>Im Terminal muss <b>jeder Codeblock einzeln</b> eingeben und mit <code>Enter</code> bestätigt werden.</p>
+</div>
 
-**Wichtig:** In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
-Diese werden in einem Codeblock wie diesem angegeben:
-```
-Beispielbefehl
-```
-Im Terminal muss **jeder Codeblock einzeln** eingeben und mit `Enter` bestätigt werden.
 
----
 
 Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
-(wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü). 
+(wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü).
 
-Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden: 
+Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden:
 ```
 sudo apt update
 ```
@@ -272,7 +271,7 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die drei Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
+Nun können die drei Programme `git`, `make` und `curl` und bereits Abhängigkeiten für `biber` installiert werden. Dies erfolgt durch die Eingabe des
 Befehls
 ```
 sudo apt install git make curl
@@ -291,10 +290,7 @@ Für Git müssen noch ein paar Einstellungen vorgenommen werden.
 Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
----
-**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine **eigene E-Mail-Adresse** verwenden!
-
----
+{% include admonition.html type="warning" title="Wichtig" body="Anstelle von <code>Max Mustermann</code> solltest du natürlich deinen <b>eigenen Namen</b> und auch deine <b>eigene E-Mail-Adresse</b> verwenden!" %}
 
 ```
 git config --global user.name "Max Mustermann"
@@ -360,7 +356,7 @@ bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 
 Im Folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: Du kaufst damit nichts).
-Diese werden zunächst mit der `Enter`-Taste geöffnet 
+Diese werden zunächst mit der `Enter`-Taste geöffnet
 
 <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
 
@@ -371,7 +367,7 @@ ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ 
 
 Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächster Screenshot)
 der Benutzungsbestimmung zu gelangen.
-Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes` 
+Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes`
 und anschließendem `Enter` akzeptiert werden.
 
 <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
@@ -389,7 +385,8 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen.
+{% include admonition.html type="warning" title="Wichtig" body="Verwendet werden kann mamba erst
+nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen." %}
 
 Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
@@ -403,7 +400,7 @@ wir eine separate Python Installation mit genau den Paketen, die wir für den Wo
 Dazu nutzen wir den folgenden Befehl:
 
 ```
-mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Die Installation beginnt mit der folgenden Ausgabe
@@ -446,7 +443,7 @@ das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
@@ -459,6 +456,10 @@ tlmgr option autobackup -- -1
 
 ```
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
+```
+
+```
+luaotfload-tool --update --force
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
@@ -516,7 +517,7 @@ der im folgenden Fenster ausgeführt werden kann.
 
 #### VSCode: Terminal einrichten
 
-Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_ 
+Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
 die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
@@ -579,11 +580,11 @@ In diesem muss bis zu der Zeile nach unten gescrollt werden, in der _.pdf_ in de
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
 
-Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts Weiteres getan werden und 
+Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts Weiteres getan werden und
 das Fenster kann wie gewöhnlich durch Klicken auf das `X` geschlossen werden.
 
 Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z.B. _Acrobat Reader_ oder _Microsoft Edge_)
-kann durch Klicken auf den Programmnamen ein Auswahlmenü geöffnet werden. In diesem muss dann 
+kann durch Klicken auf den Programmnamen ein Auswahlmenü geöffnet werden. In diesem muss dann
 _SumatraPDF_ angeklickt werden.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
@@ -654,7 +655,18 @@ Mit dem Befehl
 ```
 quit
 ```
-kann das Programm _ipython_ im Anschluss beendet werden
+kann das Programm _ipython_ im Anschluss beendet werden.
+
+
+Beim Ausführen von `%matplotlib` kann es vorkommen, dass der Fehler
+```
+qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
+```
+angezeigt wird. Dieser lässt sich mit einer Umgebungsvariablen in der Datei `~/.bashrc`
+beheben. Führe dazu folgenden Befehl im Terminal aus:
+```
+echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
+```
 
 ### Make
 
@@ -678,10 +690,10 @@ In dieses wird der folgende Befehl eingegeben.
 luatex
 ```
 
-Es sollte folgende Ausgabe erscheinen:
+Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.17.0 (TeX Live 2023)
+This is LuaTeX, Version 1.18.0 (TeX Live 2024)
 restricted system commands enabled.
 **
 ```

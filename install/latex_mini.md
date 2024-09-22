@@ -29,7 +29,7 @@ Dafür fügst du die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu.
 Um zu sehen, welche Shell du benutzst, kannst du `echo $SHELL` im Terminal eingeben.
 Wenn die Ausgabe _bash_ enthält, kannst du mit dem folgenden Befehl den Pfad zu TeXlive zum `PATH` hinzufügen
 ```
-echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 ```
 source ~/.bashrc
@@ -41,6 +41,9 @@ tlmgr option autobackup -- -1
 ```
 ```
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
+```
+```
+luaotfload-tool --update --force
 ```
 
 Eine Liste aller notwendiger LaTeX Packages, die wir brauchen werden, lädst du mit

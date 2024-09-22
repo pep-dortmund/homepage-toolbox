@@ -16,7 +16,7 @@ und TeXLive installieren.
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen.**
+{% include admonition.html type="warning" title="Wichtig" body="Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen." %}
 
 Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
 Führe nur die Befehle für deine eigene Distribution (z.B. Ubuntu) aus.
@@ -34,11 +34,11 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 - Fedora:
 
-        $ sudo yum install git-core make curl
+        $ sudo dnf install git make curl libxcrypt-compat
 
 - Arch Linux:
 
-        $ sudo pacman -S git make curl
+        $ sudo pacman -S git make curl libxcrypt-compat
 
 ### Texteditor VSCodium
 
@@ -76,10 +76,14 @@ Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum E
 _Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
 Damit ist die allgemeine Python Umgebung installiert.
-Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
-Dafür musst du erst ein neues Terminal öffnen, dann:
 
-    $ mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+
+{% include admonition.html type="warning" title="Wichtig" body='Für den folgenden Schritt musst du
+dein Terminal schließen und ein neues Terminal öffnen.' %}
+
+Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
+
+    $ mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
 
 Diese startest du mit
 
@@ -90,6 +94,17 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
     $ rm ~/.local/Miniforge3-*.sh
 
 ### TeXLive
+
+<div class="admonition info">
+<p class="admonition-title">Nur bei Fedora Distributionen</p>
+  <p>
+    Installieren der <code>Perl</code> dependencies von <code>latexmk</code> mit
+  </p>
+  <pre class="admonition highlight"><code>$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)</code></pre>
+</div>
+
+
+*Ab hier weiter für alle Linux Distributionen:*
 
 Im Terminal wird mit folgenden drei Befehlen das Installationsskript
 heruntergeladen und ausgeführt.
@@ -106,7 +121,7 @@ das passiert in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
@@ -115,6 +130,7 @@ In dem neuen Terminal die folgenden Befehle eingeben:
 ```
 $ tlmgr option autobackup -- -1
 $ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
+$ luaotfload-tool --update --force
 ```
 
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
@@ -186,9 +202,9 @@ Im Terminal:
 
     $ luatex
 
-Es sollte folgende Ausgabe erscheinen:
+Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.15.0 (TeX Live 2022)
+    This is LuaTeX, Version 1.18.0 (TeX Live 2024)
      restricted system commands enabled.
     **
 
