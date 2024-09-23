@@ -14,7 +14,6 @@ Kurses veröffentlicht.
 - Tag 1
     - [Intro-Folien](/files/archive/current/intro.pdf){:target="_blank"} (Stand 23.09.2024)
     - [Python](/files/archive/current/python.html){:target="_blank"} (Stand 23.09.2024)
-    - [Python](/files/archive/current/python.ipynb){:target="_blank"} (Stand 23.09.2024)
     - [Aufgaben](/files/archive/current/exercises-toolbox-1.zip) (Stand 23.09.2024)
 
 <!--
