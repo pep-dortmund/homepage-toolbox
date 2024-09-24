@@ -64,7 +64,7 @@ bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
   welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren,
   Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
 
-  * **Make**: Das Standardtool zur automatisierten Ausführung von komplexeren Aufgaben.
+  * **Make**: Ein Standard-Tool zur automatisierten Ausführung von komplexeren Aufgaben.
   Es kommt häufig vor, dass mehrere Auswertungsschritte in einer bestimmten Reihenfolge
   ausgeführt werden müssen und spätere Schritte von den Ergebnissen vorheriger Schritte abhängen.
   Diese Schritte manuell auszuführen, ist fehleranfällig und nicht einfach zu dokumentieren.
