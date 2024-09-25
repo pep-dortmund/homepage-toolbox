@@ -12,17 +12,17 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 
 ### Toolbox
 - Tag 1
-    <!-- - [Intro-Folien](/files/archive/current/intro.pdf){:target="_blank"} (Stand 25.09.2024) -->
-    <!-- - [Python](/files/archive/current/python.html){:target="_blank"} (Stand 25.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-1.zip) (Stand 25.09.2024) -->
+    - [Intro-Folien](/files/archive/current/intro.pdf){:target="_blank"} (Stand 23.09.2024)
+    - [Python](/files/archive/current/python.html){:target="_blank"} (Stand 23.09.2024)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-1.zip) (Stand 23.09.2024)
 - Tag 2
-    <!-- - [Numeric Python](/files/archive/current/numeric-python.html){:target="_blank"} (Stand 26.09.2024) -->
-    <!-- - [matplotlib](/files/archive/current/matplotlib.html){:target="_blank"} (Stand 26.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-2.zip) (Stand 26.09.2024) -->
+    - [Numeric Python](/files/archive/current/numeric-python.html){:target="_blank"} (Stand 24.09.2024)
+    - [matplotlib](/files/archive/current/matplotlib.html){:target="_blank"} (Stand 24.09.2024)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-2.zip) (Stand 24.09.2024)
 - Tag 3
-    <!-- - [Scientific Python](/files/archive/current/scientific-python.html){:target="_blank"} (Stand 27.09.2024) -->
-    <!-- - [uncertainties](/files/archive/current/uncertainties.html){:target="_blank"} (Stand 27.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-3.zip) (Stand 27.09.2024) -->
+    - [Scientific Python](/files/archive/current/scientific-python.html){:target="_blank"} (Stand 25.09.2024)
+    - [uncertainties](/files/archive/current/uncertainties.html){:target="_blank"} (Stand 25.09.2024)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-3.zip) (Stand 25.09.2024)
 - Tag 4
     <!-- - [Unix](/files/archive/current/unix.pdf){:target="_blank"} (Stand 28.09.2024) -->
     <!-- - [Make](/files/archive/current/make.pdf){:target="_blank"} (Stand 28.09.2024) -->
