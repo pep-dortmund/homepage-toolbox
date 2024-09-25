@@ -400,7 +400,7 @@ wir eine separate Python Installation mit genau den Paketen, die wir für den Wo
 Dazu nutzen wir den folgenden Befehl:
 
 ```
-mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy qt6-wayland
 ```
 
 Die Installation beginnt mit der folgenden Ausgabe
