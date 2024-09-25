@@ -22,7 +22,7 @@ kann gerne unserer [Anleitung](/install/dualboot/) folgen.
 Da eine Dual-Boot-Installation beim ersten Mal nicht unbedingt trivial ist,
 helfen wir gerne dabei.
 Markiert dazu den entsprechenden Punkt in der Anmeldung oder
-schreibt uns per E-Mail oder auf unserem Discord-Server an.
+schreibt uns per E-Mail an.
 
 
 ## Anleitungen
@@ -53,4 +53,3 @@ schreibt uns per E-Mail oder auf unserem Discord-Server an.
     </a>
   </div>
 </div>
-
