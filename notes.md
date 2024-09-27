@@ -29,19 +29,18 @@ Kurses veröffentlicht.
     - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 26.09.2024)
     - [Aufgaben](/files/archive/current/exercises-toolbox-4.zip) (Stand 26.09.2024)
 
-<!--
-- Tag 9
+<!-- - Tag 9
     - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 29.09.2024)
     - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 29.09.2024)
+ -->
 
 ### LaTeX
-- [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 06.10.2024)
-- [Aufgaben Tag 1](/files/archive/current/exercises-latex-1.zip) (Stand 02.10.2024)
-- [Aufgaben Tag 2](/files/archive/current/exercises-latex-2.zip) (Stand 04.10.2024)
-- [Aufgaben Tag 3](/files/archive/current/exercises-latex-3.zip) (Stand 04.10.2024)
-- [Aufgaben Tag 4](/files/archive/current/exercises-latex-4.zip) (Stand 05.10.2024)
-- <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
--->
+- [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 27.09.2024)
+- [Aufgaben Tag 1](/files/archive/current/exercises-latex-1.zip) (Stand 27.09.2024)
+<!-- - [Aufgaben Tag 2](/files/archive/current/exercises-latex-2.zip) (Stand 04.10.2024) -->
+<!-- - [Aufgaben Tag 3](/files/archive/current/exercises-latex-3.zip) (Stand 04.10.2024) -->
+<!-- - [Aufgaben Tag 4](/files/archive/current/exercises-latex-4.zip) (Stand 05.10.2024) -->
+<!-- - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a> -->
 
 ## Vergangene Kurse
 
