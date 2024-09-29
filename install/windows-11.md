@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/windows_11/
 title: Windows-11-Installation
 ---
 
@@ -8,44 +9,26 @@ __Bitte die folgenden Punkte unbedingt lesen:__
 + Diese Anleitung mag relativ lang erscheinen und im ersten Moment abschreckend wirken.
 Wir versichern dir, dass diese Länge aber viel mehr ein Zeichen von Ausführlichkeit
 ist, um sicherzustellen, dass du auch folgen kannst, wenn du bisher keine Berührungen
-mit den Inhalten des Toolbox Workshops hattest. 
+mit den Inhalten des Toolbox Workshops hattest.
 
 + Befolge die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
 und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt hast.
 
 + Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
-Den Beginn jedes dieser drei Abschnitte erreichst du über die drei Buttons unter der Einleitung. 
+Den Beginn jedes dieser drei Abschnitte erreichst du über das Inhaltsverzeichnis auf der rechten Seite.
 
 + Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
-sondern melde dich bei uns. Unter [Hilfe](/problem.html) findest du die Hinweise, wie du uns 
+sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise, wie du uns
 am besten kontaktieren kannst.
 
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
 
-Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Mambaforge">Mambaforge: Python Installation</a> optional.
+Falls du __nur__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#Miniforge3">Python Installation: Miniforge3</a> optional.
 
 Diese Installation verwendet das [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10){:target="_blank"} (WSL),
-um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
+um eine Ubuntu-Installation verwenden zu können, ohne ein komplett neues Betriebssystem installieren zu müssen.
 
-<div class="row" style="padding: 10px">
-  <div class="col-md-4" align="center">
-  <a href="#Installieren" class="btn btn-secondary btn-lg btn-block" role="button">
-  Installieren
-  </a>
-  </div>
-  <div class="col-md-4" align="center">
-  <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
-  Testen
-  </a>
-  </div>
-  <div class="col-md-4" align="center">
-  <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren
-  </a>
-  </div>
-  <div class="col-md-2" align="center"></div>
-</div>
 
 ## <a id="Installieren"></a>Installieren
 
@@ -53,7 +36,7 @@ um eine Ubuntu Installation verwenden zu können, ohne ein komplett neues Betrie
 
 #### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
-Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente) 
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente)
 sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
 Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
@@ -75,10 +58,10 @@ Zum Abschluss klicke auf `Übernehmen`.
 
 ### Windows Subsystem for Linux (WSL)
 
-#### Installation des WSL 
-Zunächst musst du eine PowerShell Konsole als Administrator starten. 
+#### Installation des WSL
+Zunächst musst du eine PowerShell Konsole als Administrator starten.
 Die einfachste Möglichkeit dafür ist ein `Rechtsklick` auf das Startmenü-Icon gefolgt von einem
-`Linkslick` auf _Terminal (Administrator)_. 
+`Linkslick` auf _Terminal (Administrator)_.
 
 <img alt="" src="/img/wsl/win11-powershell-admin.png" class="screenshot" />
 
@@ -99,21 +82,21 @@ Die Info-Leiste, die am oberen Fensterrand erscheint, kannst du durch einen Klic
 In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
 und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
-wsl --install 
+wsl --install
 ```
 <img alt="" src="/img/wsl/win11-wsl-install.png" class="screenshot" />
 
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
-Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige 
-stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die 
+Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige
+stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die
 Ausgabe wie folgt aus
 
 <img alt="" src="/img/wsl/win11-wsl-install-complete.png" class="screenshot" />
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
 
-Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die 
+Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die
 Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
 
 <img alt="" src="/img/wsl/win11-wsl-ubuntu-complete.png" class="screenshot" />
@@ -126,10 +109,7 @@ Dieser Linux-Benutzername kann frei gewählt werden.
 Der Linux-Benutzername __kann, muss aber nicht,__
 mit dem Windows-Benutzernamen übereinstimmen.
 
----
-**Wichtig:** Der Benutzername darf **nur** Kleinbuchstaben und **keine** Leerzeichen enthalten
-
----
+{% include admonition.html type="warning" title="Wichtig" body="Der Benutzername darf <b>nur</b> Kleinbuchstaben und <b>keine</b> Leerzeichen enthalten." %}
 
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
@@ -144,7 +124,7 @@ Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd_win11.png" class="screenshot" />
 
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
-so muss ein erneuter Versuch zunächst mit `y` bestätigt werden. 
+so muss ein erneuter Versuch zunächst mit `y` bestätigt werden.
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png" class="screenshot" />
 
@@ -165,10 +145,10 @@ des Workshops, im Folgenden wird diese jedoch schon zur Installation der benöti
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd_win11.png" class="screenshot" />
 
-Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl 
+Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl
 ```
 exit
-``` 
+```
 eingebt oder auf das `X` oben rechts klickt.
 
 ### <a id="WindowsTerminal"></a>Windows Terminal
@@ -189,7 +169,7 @@ in dem `Einstellungen` angeklickt werden muss:
 
 Hier kannst du einstellen, dass sich beim Start von Windows Terminal
 standardmäßig Ubuntu öffnet.
-Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken 
+Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken
 auf den Pfeil nach unten öffnet sich eine Auswahl.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
@@ -202,21 +182,20 @@ Im Anschluss kann das Terminal Fenster geschlossen werden.
 
 ### Git, Make und weiteres
 
----
-
-**Wichtig:** In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
-Diese werden in einem Codeblock wie diesem angegeben:
-```
-Beispielbefehl
-```
-Im Terminal muss **jeder Codeblock einzeln** eingeben und mit `Enter` bestätigt werden.
-
----
+<div class="admonition warning">
+<p class="admonition-title">Wichtig</p>
+  <p>
+    In diesem und den folgenden Abschnitten werden einige Befehle in das Windows Terminal eingegeben.
+    Diese werden in einem Codeblock wie diesem angegeben:
+  </p>
+  <pre class="admonition highlight"><code>Beispielbefehl</code></pre>
+  <p>Im Terminal muss <b>jeder Codeblock einzeln</b> eingeben und mit <code>Enter</code> bestätigt werden.</p>
+</div>
 
 Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
-(wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü). 
+(wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü).
 
-Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden: 
+Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden:
 ```
 sudo apt update
 ```
@@ -244,7 +223,7 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die drei Programme `git`, `make` und `curl` installiert werden. Dies erfolgt durch die Eingabe des
+Nun können die drei Programme `git`, `make` und `curl` und bereits Abhängigkeiten für `biber` installiert werden. Dies erfolgt durch die Eingabe des
 Befehls
 ```
 sudo apt install git make curl
@@ -262,10 +241,7 @@ Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, da
 Für Git müssen noch ein paar Einstellungen vorgenommen werden. Dafür werden in das Windows Terminal wie zuvor
 die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
 
----
-**Wichtig:** Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine **eigene E-Mail-Adresse** verwenden!
-
----
+{% include admonition.html type="warning" title="Wichtig" body="Anstelle von <code>Max Mustermann</code> solltest du natürlich deinen <b>eigenen Namen</b> und auch deine <b>eigene E-Mail-Adresse</b> verwenden!" %}
 
 ```
 git config --global user.name "Max Mustermann"
@@ -288,7 +264,7 @@ Sicherheit nachgeholt werden.
 #### Installationsordner `~/.local`
 
 
-Für die Installation von [Mambaforge (Python)](#Mambaforge) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
+Für die Installation von [Miniforge3 (Python)](#Miniforge3) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
 
 ```
 mkdir -p ~/.local
@@ -297,12 +273,12 @@ mkdir -p ~/.local
 Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
 und tut gar nichts, falls dieser Ordner schon existiert.
 
-### <a id="Mambaforge"></a>Mambaforge: Python Installation
+### <a id="Miniforge3"></a>Python Installation: Miniforge3
 
 Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
 nutzen zu können, verwenden wir das Tool `mamba`.
 
-Die Installationsdatei _Mambaforge-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
+Die Installationsdatei _Miniforge3-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
 ins Windows Terminal, heruntergeladen werden:
 
 ```
@@ -312,14 +288,14 @@ Dieser Befehl ändert den aktuellen Pfad auf den Ordner, in den die Installation
 Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun `~/.local` sein.
 
 ```
-curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 ```
 Dieser Befehl lädt die Installationsdatei herunter. Der Download kann einige Zeit in Anspruch nehmen.
 
 ```
 ls
 ```
-Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Mambaforge-Linux-x86-64.sh_
+Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Miniforge3-Linux-x86-64.sh_
 sollte hier aufgeführt sein.
 
 <img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
@@ -327,12 +303,12 @@ sollte hier aufgeführt sein.
 Zum Installieren muss der folgende Befehl ausgeführt werden.
 
 ```
-bash Mambaforge-Linux-x86_64.sh -p ~/.local/mambaforge 
+bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 ```
 Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 
 Im Folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: Du kaufst damit nichts).
-Diese werden zunächst mit der `Enter`-Taste geöffnet 
+Diese werden zunächst mit der `Enter`-Taste geöffnet
 
 <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
 
@@ -343,7 +319,7 @@ ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ 
 
 Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächster Screenshot)
 der Benutzungsbestimmung zu gelangen.
-Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes` 
+Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes`
 und anschließendem `Enter` akzeptiert werden.
 
 <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
@@ -361,7 +337,8 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-Verwendet werden kann mamba erst nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen.
+{% include admonition.html type="warning" title="Wichtig" body="Verwendet werden kann mamba erst
+nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen." %}
 
 Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
@@ -375,7 +352,7 @@ wir eine separate Python Installation mit genau den Paketen, die wir für den Wo
 Dazu nutzen wir den folgenden Befehl:
 
 ```
-mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Die Installation beginnt mit der folgenden Ausgabe
@@ -387,11 +364,11 @@ angezeigt wird.
 
 <img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Mambaforge-Linux-x86-64.sh_
+Nach erfolgreicher Installation kann die Installationsdatei _Miniforge3-Linux-x86-64.sh_
 mit dem Befehl
 
 ```
-rm ~/.local/Mambaforge-Linux-x86_64.sh
+rm ~/.local/Miniforge3-Linux-x86_64.sh
 ```
 gelöscht werden.
 
@@ -418,7 +395,7 @@ das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-echo 'export PATH="$HOME/.local/texlive/2023/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
@@ -433,8 +410,13 @@ tlmgr option autobackup -- -1
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
+```
+luaotfload-tool --update --force
+```
+
+
 Falls diese Installation aufgrund von zu geringem Speicherplatz nicht funktioniert,
-gibt es [diese Möglichkeit](/install/latex_mini.html), eine minimale Version von
+gibt es [diese Möglichkeit](/install/latex_mini/), eine minimale Version von
 TeXLive zu installieren.
 
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
@@ -463,7 +445,7 @@ Auf der folgenden Seite kann VSCode durch einen Klick auf den Button `Installier
 #### VSCode: WSL-Plugin
 
 Ein nützliches Plugin für VSCode dient der Zusammenarbeit mit dem WSL (weiteres dazu im Workshop).
-Über das im Screenshot gezeigte Icon am linken Rand kommst du zur Plugin-Suche. Suche dort nach `WSL` 
+Über das im Screenshot gezeigte Icon am linken Rand kommst du zur Plugin-Suche. Suche dort nach `WSL`
 und klicke auf den kleinen Button `Install` neben dem obersten Suchergebnis.
 
 <img alt="" src="/img/vscodium/vscode-wsl-plugin_win11.png" class="screenshot" />
@@ -494,7 +476,7 @@ der im folgenden Fenster ausgeführt werden kann.
 
 #### VSCode: Terminal einrichten
 
-Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_ 
+Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
 die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
 Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
@@ -549,11 +531,11 @@ _Standard-Apps_ geöffnet werden.
 <img alt="" src="/img/sumatra/sumatra-standard-app-1_win11.png" class="screenshot" />
 
 In dem geöffneten Fenster kannst du in dem Suchfeld nach `.pdf` suchen und anschließend
-auf das Icon am rechten Ende des Suchergebnisses anklicken. 
+auf das Icon am rechten Ende des Suchergebnisses anklicken.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-3_win11.png" class="screenshot" />
 
-Dadurch öffnest du ein Auswahlmenü. In diesem musst du dann _SumatraPDF_ anklicken und mit 
+Dadurch öffnest du ein Auswahlmenü. In diesem musst du dann _SumatraPDF_ anklicken und mit
 einem Klick auf `Standard festlegen` bestätigen.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-4_win11.png" class="screenshot" />
@@ -626,7 +608,18 @@ Mit dem Befehl
 ```
 quit
 ```
-kann das Programm _ipython_ im Anschluss beendet werden
+kann das Programm _ipython_ im Anschluss beendet werden.
+
+
+Beim Ausführen von `%matplotlib` kann es vorkommen, dass der Fehler
+```
+qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
+```
+angezeigt wird. Dieser lässt sich mit einer Umgebungsvariablen in der Datei `~/.bashrc`
+beheben. Führe dazu folgenden Befehl im Terminal aus:
+```
+echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
+```
 
 ### Make
 
@@ -650,10 +643,10 @@ In dieses wird der folgende Befehl eingegeben.
 luatex
 ```
 
-Es sollte folgende Ausgabe erscheinen:
+Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.17.0 (TeX Live 2023)
+This is LuaTeX, Version 1.18.0 (TeX Live 2024)
 restricted system commands enabled.
 **
 ```

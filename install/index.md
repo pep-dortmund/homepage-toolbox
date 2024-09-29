@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /install/install/
 title: Installation
 ---
 
@@ -17,36 +18,36 @@ aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch,
 parallel auf eurem Rechner Linux zu installieren.
 So könnt ihr beim Hochfahren zwischen den beiden Betriebssystemen wählen.
 Wer eine Dual-Boot-Installation durchführen möchte,
-kann gerne unserer [Anleitung](dualboot.html) folgen.
+kann gerne unserer [Anleitung](/install/dualboot/) folgen.
 Da eine Dual-Boot-Installation beim ersten Mal nicht unbedingt trivial ist,
 helfen wir gerne dabei.
 Markiert dazu den entsprechenden Punkt in der Anmeldung oder
-schreibt uns per E-Mail oder auf unserem Discord-Server an.
+schreibt uns per E-Mail an.
 
 
 ## Anleitungen
 
 <div class="row">
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/linux.html" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/linux/" role="button">
       <i class="fa fa-5x fa-linux" aria-hidden="true"></i><br>
       Linux
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/macos.html" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/macos/" role="button">
       <i class="fa fa-5x fa-apple" aria-hidden="true"></i><br>
       macOS
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/windows-10.html" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/windows_10/" role="button">
       <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
       Windows 10<br>
     </a>
   </div>
   <div class="col-md-3">
-    <a class="btn btn-outline-dark btn-block" href="/install/windows-11.html" role="button">
+    <a class="btn btn-outline-dark btn-block mb-3" href="/install/windows_11/" role="button">
       <i class="fa fa-5x fa-windows" aria-hidden="true"></i><br>
       Windows 11<br>
     </a>

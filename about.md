@@ -1,10 +1,11 @@
 ---
 layout: default
+permalink: /about/
 title: Über den Workshop
 ---
 
 <p class="lead">Im Rahmen der
-<a href="https://pep-dortmund.org/vereinsleben/soak.html">PeP et al. Sommerakademie</a>
+<a href="https://pep-dortmund.org/vereinsleben/soak.html" target="_blank">PeP et al. Sommerakademie</a>
 2012 entstand die Idee für einen Workshop, um Physikstudierenden die Unix-Kommandozeile,
 die Versionskontrolle mit git und Python mit diversen Bibliotheken näherzubringen.</p>
 
@@ -18,7 +19,7 @@ Gegründet auf Initiative einiger Absolventen ist es seine Aufgabe,
 ein Netzwerk zwischen den Absolventen und der Fakultät aufzubauen.
 
 Mehr zu PeP et al. findest du auf unserer Website:
-[www.pep-dortmund.org](http://pep-dortmund.org/).
+[www.pep-dortmund.org](http://pep-dortmund.org/){:target="_blank"}.
 
 ## Die Organisatoren
 Die Organisatoren sind dieses Jahr

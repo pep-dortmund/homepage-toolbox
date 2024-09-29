@@ -1,5 +1,6 @@
 ---
 layout: install
+permalink: /install/macos/
 title: macOS-Installation
 ---
 
@@ -17,25 +18,10 @@ Falls du nur am LaTeX-Kurs teilnehmen willst,
 solltest du mindestens VSCodium (oder einen anderen Texteditor)
 und MacTeX installieren.
 
-<div class="row" style="padding: 10px">
-  <div class="col-md-1" align="center"></div>
-  <div class="col-md-4" align="center">
-  <a href="#test" class="btn btn-secondary btn-lg btn-block" role="button">
-  Testen
-  </a>
-  </div>
-  <div class="col-md-2" align="center"></div>
-  <div class="col-md-4" align="center">
-  <a href="#update" class="btn btn-secondary btn-lg btn-block" role="button">
-  Aktualisieren
-  </a>
-  </div>
-  <div class="col-md-1" align="center"></div>
-</div>
 
 ## <a id="Installation"></a>Installation
 
-**Wichtig: Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!**
+{% include admonition.html type="warning" title="Wichtig" body="Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!" %}
 
 ### Terminal
 
@@ -47,35 +33,38 @@ und MacTeX installieren.
 
 Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
 Zur Installation gibst du Folgendes im Terminal ein
-    
+
     xcode-select --install
 
 und führst den Befehl mit `Enter` aus.
 Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
 
-### Python Installation: Mambaforge
+### Python Installation: Miniforge3
 
 Hier müssen im Terminal die folgenden Zeilen einzeln nacheinander eingegeben werden:
 ```
 cd
 ```
 ```
-curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-$(uname)-$(uname -m).sh"
+curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 ```
 ```
-bash Mambaforge-$(uname)-$(uname -m).sh
+bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
 Die Lizenzvereinbarung muss je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
 Und kann mit `yes` akzeptiert werden.
 Den Ort der Installation kannst du mit `Enter` akzeptieren.
-_Do you wish the installer to initialize Mambaforge by running conda init?_ `yes`.
+_Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
 Damit ist die allgemeine Python Umgebung installiert.
-Jetzt muss noch eine spezielle Python Umgebung für den Toolbox Workshop installiert werden.
-Dafür musst du erst ein neues Terminal öffnen, dann:
 
-    mamba create -y -n toolbox python=3.11 ipython numpy matplotlib scipy uncertainties sympy
+{% include admonition.html type="warning" title="Wichtig" body='Für den folgenden Schritt musst du
+ein neues Terminal öffnen. Wähle dazu in der App "Terminal" den Punkt "<b>Terminal</b>" und dann "<b>Terminal beenden</b>".' %}
+
+Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
+
+    mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
 
 Diese startest du mit
 
@@ -85,11 +74,11 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen. 
 
     ls
 
-im Terminal ein. In der ausgegebenen Liste sollte `Mambaforge-Darwin-arm64.sh`, oder ähnlich, auftauchen.
+im Terminal ein. In der ausgegebenen Liste sollte `Miniforge3-Darwin-arm64.sh`, oder ähnlich, auftauchen.
 Wenn das so ist, kannst du sie mit dem folgenden Befehl löschen
 
-    rm Mambaforge-Darwin-arm64.sh
-    
+    rm Miniforge3-Darwin-arm64.sh
+
 oder dem entsprechenden Dateinamen.
 Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop ansprechen.
 
@@ -99,7 +88,7 @@ Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop
 Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
 und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
-- Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` von [dieser Webseite](https://github.com/VSCodium/vscodium/releases) herunter.
+- Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` von [dieser Webseite](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter.
 -  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner
   und muss nach `Programme` verschoben werden.
 -  Als nächsten Schritt die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
@@ -115,7 +104,7 @@ Um git beizubringen, VSCodium zu benutzen, im Terminal eingeben:
 
 ### MacTeX
 
-Für die Installation von LaTeX kannst du von [dieser Webseite](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg) `MacTeX.pkg` herunterladen.
+Für die Installation von LaTeX kannst du von [dieser Webseite](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg){:target="_blank"} `MacTeX.pkg` herunterladen.
 Nach dem Download musst du nur noch das Paket installieren.
 
 __Jetzt noch die Installation [testen](#test)!__
@@ -173,7 +162,7 @@ Tippe
 
 im Terminal und führe es aus.
 Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
-    
+
     make: *** No targets specified and no makefile found.  Stop.
 
 ### TeX
@@ -182,9 +171,9 @@ Im Terminal:
 
     luatex
 
-Es sollte folgende Ausgabe erscheinen:
-    
-    This is LuaTeX, Version 1.17.0 (TeX Live 2023)
+Es sollte folgende oder ähnliche Ausgabe erscheinen:
+
+    This is LuaTeX, Version 1.18.0 (TeX Live 2024)
     restricted system commands enabled.
     **
 
@@ -200,7 +189,7 @@ Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachte
 
 ## <a id="update"></a>Aktualisieren
 
-### Python Update: Mambaforge
+### Python Update
 
 Im Terminal:
 
