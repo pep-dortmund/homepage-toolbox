@@ -32,10 +32,10 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
     <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 29.09.2024) -->
 
 ### LaTeX
-- [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 27.09.2024)
+- [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 01.10.2024)
 - [Aufgaben Tag 1](/files/archive/current/exercises-latex-1.zip) (Stand 27.09.2024)
-<!-- - [Aufgaben Tag 2](/files/archive/current/exercises-latex-2.zip) (Stand 04.10.2024) -->
-<!-- - [Aufgaben Tag 3](/files/archive/current/exercises-latex-3.zip) (Stand 04.10.2024) -->
+- [Aufgaben Tag 2](/files/archive/current/exercises-latex-2.zip) (Stand 29.09.2024)
+- [Aufgaben Tag 3](/files/archive/current/exercises-latex-3.zip) (Stand 01.10.2024)
 <!-- - [Aufgaben Tag 4](/files/archive/current/exercises-latex-4.zip) (Stand 05.10.2024) -->
 <!-- - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a> -->
 
