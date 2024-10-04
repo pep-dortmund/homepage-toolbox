@@ -28,8 +28,8 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
     - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 26.09.2024)
     - [Aufgaben](/files/archive/current/exercises-toolbox-4.zip) (Stand 26.09.2024)
 - Tag 9
-    <!-- - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 29.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 29.09.2024) -->
+    - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 04.10.2024)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 04.10.2024)
 
 ### LaTeX
 - [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 02.10.2024)
