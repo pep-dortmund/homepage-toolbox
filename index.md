@@ -18,7 +18,7 @@ Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigte
 
 ## Anmeldung & Umfrage
 
-Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2024 verpflichtend,
+Die Anmeldung mit Angabe einer E-Mail-Adresse ist verpflichtend,
 darüber werden wir euch noch an den Start des Workshops erinnern
 und mögliche Abweichungen mitteilen.
 
@@ -26,13 +26,22 @@ Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen
 So haben wir einen Eindruck davon, welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an euch anpassen.
 
-<!--
 Zur Zeit ist die Umfrage noch nicht freigeschaltet.
--->
 
+<!--
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/toolbox24/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
+-->
+
+## Feedback 2024
+
+Hier findet ihr die Möglichkeit uns anonym Feedback zu geben:
+<div class="text-center mb-3">
+<a target="_blank" role="button" class="btn btn-primary" href="https://umfragen.tu-dortmund.de/index.php/532541?lang=de">Zum Feedback</a>
+</div>
+
+
 
 ## Themen
 
