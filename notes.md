@@ -5,7 +5,7 @@ title: Material
 ---
 
 
-## Wintersemester 2024/25
+## Wintersemester 2025/26
 
 Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlicht.
