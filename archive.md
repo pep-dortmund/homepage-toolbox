@@ -83,107 +83,65 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
 
 ---
 
-## Materialien älterer Veranstaltungen
+# Materialien früherer Veranstaltungen
+
 
 <div class="archive-grid">
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2022/23</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2022.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2022.zip" class="archive-dl"></a>
-    </div>
+  <!-- Add more cards as needed -->
+  <div class="archive-card">
+    <div class="archive-title">WS 2022/23</div>
+    <a href="/files/archive/2022.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2022.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2021/22</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2021.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2021.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2021/22</div>
+    <a href="/files/archive/2021.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2021.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2020/21</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2020.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2020.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2020/21</div>
+    <a href="/files/archive/2020.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2020.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2019/20</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2019.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2019.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2019/20</div>
+    <a href="/files/archive/2019.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2019.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2018/19</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2018.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2018.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2018/19</div>
+    <a href="/files/archive/2018.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2018.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2017/18</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2017.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2017.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2017/18</div>
+    <a href="/files/archive/2017.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2017.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2016/17</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2016.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2016.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2016/17</div>
+    <a href="/files/archive/2016.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2016.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2015/16</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2015.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2015.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2015/16</div>
+    <a href="/files/archive/2015.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2015.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2014/15</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2014.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2014.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2014/15</div>
+    <a href="/files/archive/2014.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2014.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2013/14</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2013.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2013.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2013/14</div>
+    <a href="/files/archive/2013.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2013.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
-  <div class="grid-item">
-    <div class="archive-card">
-      <div class="archive-title">WS 2012/13</div>
-      <div class="archive-body"> tar</div>
-      <a href="/files/archive/2012.tar.gz" class="archive-dl"></a>
-      <div class="archive-body"> zip</div>
-      <a href="/files/archive/2012.zip" class="archive-dl"></a>
-    </div>
+  <div class="archive-card">
+    <div class="archive-title">WS 2012/13</div>
+    <a href="/files/archive/2012.zip" class="download-btn">Archiv ZIP</a>
+    <a href="/files/archive/2012.tar.gz" class="download-btn">Archiv TAR</a>
   </div>
 </div>
 

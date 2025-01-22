@@ -11,7 +11,7 @@
   flex-direction: column;
   position: relative;
   width: 21rem;
-  height: 9rem;
+  height: 13rem;
   background: white;
   border-radius: 10px;
   overflow: hidden;
@@ -42,31 +42,28 @@
   z-index: 4;
 }
 
-.archive-body {
-  opacity: 0.7;
-  color: var(--pep-blue);
-  padding: 0 1.25rem;
-  transition: transform 300ms ease;
-  z-index: 5;
-}
-
-.archive-body::before {
-  content: "Archiv-Download";
-}
-
 .archive-card:hover .archive-title {
   transform: translateX(0.5rem);
 }
 
-.archive-card:hover .archive-body {
-  transform: translateX(0.5rem);
+.download-btn {
+  width: 75%;
+  display: inline-block;
+  /* background-color: var(--pep-blue); */
+  background-color: transparent;
+  border: 2.5px solid var(--pep-blue);
+  color: var(--pep-gray);
+  padding: 0rem 0.0rem 0.0rem 0.5rem;
+  z-index: 5;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 0.75rem;
+  margin-left: 1.25rem;
+  transition: transform 300ms ease;
 }
 
-.archive-dl {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  z-index: 10;
+.download-btn:hover {
+  transform: translateX(0.5rem);
+  /* less hue and saturation tone from pep-blue */
+  background-color: rgba(138, 181, 222, 0.2); 
 }
