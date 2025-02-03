@@ -96,10 +96,10 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 ### TeXLive
 
 <div class="admonition info">
-<p class="admonition-title">Nur bei Fedora Distributionen</p>
-  <p>
-    Installieren der <code>Perl</code> dependencies von <code>latexmk</code> mit
-  </p>
+  <p class="admonition-title">Nur bei Fedora Distributionen</p>
+  <p>Installieren der <code>Perl</code> dependencies von <code>latexmk</code>.
+  <p>Für Fedora >= 41:</p> <pre class="admonition highlight"><code>$ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)</code></pre>
+  <p>Für Fedora <= 40:</p>
   <pre class="admonition highlight"><code>$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)</code></pre>
 </div>
 
