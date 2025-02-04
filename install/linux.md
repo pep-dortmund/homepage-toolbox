@@ -83,7 +83,7 @@ dein Terminal schließen und ein neues Terminal öffnen.' %}
 
 Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
 
-    $ mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
+    $ mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy qt6-wayland
 
 Diese startest du mit
 
