@@ -25,3 +25,8 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "html-proofer", "~> 3.19"
+
+gem "csv", "~> 3.3"
+gem "base64", "~> 0.2.0"
+
+gem "bigdecimal", "~> 3.1"
