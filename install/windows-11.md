@@ -352,7 +352,7 @@ wir eine separate Python Installation mit genau den Paketen, die wir für den Wo
 Dazu nutzen wir den folgenden Befehl:
 
 ```
-mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Die Installation beginnt mit der folgenden Ausgabe
@@ -395,7 +395,7 @@ das machen wir in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
