@@ -3,14 +3,14 @@
   submenu:
     - title: Überblick
       link: install/
+    - title: Linux
+      link: linux/
+    - title: macOS
+      link: macos/
     - title: Windows 10
       link: windows_10/
     - title: Windows 11
       link: windows_11/
-    - title: macOS
-      link: macos/
-    - title: Linux
-      link: linux/
     - title: Linux/Windows DualBoot
       link: dualboot/
 

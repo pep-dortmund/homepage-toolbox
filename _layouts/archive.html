@@ -1,0 +1,13 @@
+---
+layout: default
+---
+<div class="container sidebar-sticky">
+  <div id="toc-sidebar-title">
+    Auf dieser Seite:
+  </div>
+  <nav class="toc-sidebar">
+    {% include toc.html html=content sanitize=true h_min=1 h_max=3 %}
+  </nav>
+</div>
+
+{{ content }}

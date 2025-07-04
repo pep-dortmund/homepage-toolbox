@@ -83,7 +83,7 @@ dein Terminal schließen und ein neues Terminal öffnen.' %}
 
 Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
 
-    $ mamba create -y -n toolbox python=3.12 ipython numpy matplotlib scipy uncertainties sympy
+    $ mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
 
 Diese startest du mit
 
@@ -96,10 +96,10 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 ### TeXLive
 
 <div class="admonition info">
-<p class="admonition-title">Nur bei Fedora Distributionen</p>
-  <p>
-    Installieren der <code>Perl</code> dependencies von <code>latexmk</code> mit
-  </p>
+  <p class="admonition-title">Nur bei Fedora Distributionen</p>
+  <p>Installieren der <code>Perl</code> dependencies von <code>latexmk</code>.</p>
+  <p>Für Fedora >= 41:</p> <pre class="admonition highlight"><code>$ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)</code></pre>
+  <p>Für Fedora <= 40:</p>
   <pre class="admonition highlight"><code>$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)</code></pre>
 </div>
 
@@ -121,7 +121,7 @@ das passiert in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2024/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.

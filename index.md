@@ -18,7 +18,7 @@ Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigte
 
 ## Anmeldung & Umfrage
 
-Die Anmeldung mit Angabe einer E-Mail-Adresse ist 2024 verpflichtend,
+Die Anmeldung mit Angabe einer E-Mail-Adresse ist verpflichtend,
 darüber werden wir euch noch an den Start des Workshops erinnern
 und mögliche Abweichungen mitteilen.
 
@@ -31,7 +31,7 @@ Zur Zeit ist die Umfrage noch nicht freigeschaltet.
 -->
 
 <div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/toolbox24/registration/">Zur Anmeldung (Umfrage)</a>
+<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/toolbox25/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
 
 ## Themen
@@ -87,9 +87,9 @@ Bitte beachtet die folgenden Schritte:
   - Ein neuer Laptop soll angeschafft werden? Überlege über ein [US-Tastaturlayout](https://endler.dev/2018/keyboard/){:target="_blank"}.
 - Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden. Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
 
-## Ablaufplan 2024
+## Ablaufplan 2025
 
-<!--Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined)-->
+Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined)
 An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf){:target="_blank"}).
 Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 
@@ -106,10 +106,10 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 <tbody>
   <tr>
   <td>Do</td>
-  <td>19.09.2024</td>
+  <td>25.09.2025</td>
   <td>10-13 Uhr</td>
   <td>CP-03-123</td>
-  <td>Installationshilfe, Umstieg auf Linux für Interessierte
+  <td>Installationshilfe, betreuter Umstieg auf Linux
    </td>
   </tr>
   <tr>
@@ -117,88 +117,79 @@ Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
   </tr>
   <tr>
   <td>Mo</td>
-  <td>23.09.2024</td>
+  <td>29.09.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
+  <td>CT ZB HS01</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>24.09.2024</td>
+  <td>30.09.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
+  <td>CT ZB HS01</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>25.09.2024</td>
+  <td>01.10.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
+  <td>CT ZB HS01</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>26.09.2024</td>
+  <td>02.10.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
+  <td>CT ZB HS01</td>
   <td>Unix, Git</td>
   </tr>
   <tr>
   <td>Fr</td>
-  <td>27.09.2024</td>
-  <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
-  <td>Einführung in LaTeX</td>
+  <td>03.10.2025</td>
+  <td></td>
+  <td></td>
+  <td><span style="color:crimson"> Feiertag </span></td>
   </tr>
   <tr>
   <td colspan="5"></td>
   </tr>
   <tr>
   <td>Mo</td>
-  <td>30.09.2024</td>
+  <td>06.10.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
-  <td>Formelsatz</td>
+  <td>CT ZB HS01</td>
+  <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>01.10.2024</td>
+  <td>07.10.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
-  <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
+  <td>CT ZB HS01</td>
+  <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>02.10.2024</td>
+  <td>08.10.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
-  <td>TeX in matplotlib, TikZ, beamer</td>
+  <td>CT ZB HS01</td>
+  <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>03.10.2024</td>
-  <td></td>
-  <td></td>
-  <td><span style="color:crimson"> Feiertag </span></td>
+  <td>09.10.2025</td>
+  <td>13-17 Uhr</td>
+  <td>CT ZB HS01</td>
+  <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
   <td>Fr</td>
-  <td>04.10.2024</td>
+  <td>10.10.2025</td>
   <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
+  <td>CT ZB HS01</td>
   <td>Make und abschließende Übungen über alles</td>
   </tr>
   <tr>
   <td colspan="5"></td>
   </tr>
-<!--
-  <tr>
-  <td>Fr</td>
-  <td>30.09.2024</td>
-  <td>13-17 Uhr</td>
-  <td>CT ZE HS01</td>
-  <td>Ausführliche Übungen über alles</td>
-  </tr>
--->
 </tbody>
 </table>
