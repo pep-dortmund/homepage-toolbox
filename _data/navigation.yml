@@ -13,6 +13,7 @@
       link: windows_11/
     - title: Linux/Windows DualBoot
       link: dualboot/
+
 - title: Einstieg
   subdirectory: /introduction
   submenu:
