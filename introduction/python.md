@@ -63,7 +63,7 @@ print("Hello World!")
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
 Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[Strings](/introduction/python/Strings) "Hello World!"
+in diesem Fall ist es der Text/[Strings](/introduction/python/#Strings) "Hello World!"
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
 z.B. $$f(x) = x^2$$. Nur dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
@@ -192,7 +192,7 @@ print(f"{hereIsAnother = }")
 Wie der Name vorsagt, benötigen wir für `f-strings` ein `f` und einen String.
 Das `f` siehst du in den beiden `print`-Funktionen nach der Klammer auf.
 Strings sind eine Ansammlung von Zeichen, und wir schauen sie uns im Abschnitt
-[Strings](/introduction/python/Strings) direkt im Anschluss an.
+[Strings](/introduction/python/#Strings) direkt im Anschluss an.
 Jetzt benötigen wir nur die Information, dass Strings in `python` mit einem `"`
 beginnen und aufhören.
 In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der
