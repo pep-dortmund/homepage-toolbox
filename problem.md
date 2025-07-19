@@ -4,11 +4,14 @@ permalink: /problem/
 title: Probleme mit den Programmen oder der Installation?
 ---
 
-
-Tritt ein Fehler bei der Installation der Programme auf,
+Tritt ein Fehler bei der **Installation** der Programme auf,
 sollte zuerst geschaut werden, ob der Anleitung gefolgt wurde.
 
-Wenn Fehler während des Arbeitens mit den Programmen auftreten,
+Du hast einen Fehler entdeckt oder ein Problem bei den **Lektionen** zum Einstieg?
+Zusätzlich zu den unten gelisteten Informationen, schick uns bitte in welcher Lektion
+du auf das Problem gestoßen bist.
+
+Wenn Fehler während des Arbeitens mit den **Programmen** auftreten,
 sollte erstmal versucht werden selbstständig das Problem zu lösen.
 Hierfür sollte die Fehlermeldung durchgelesen werden, dieses kann schon
 das Problem lösen. Wenn die Fehlermeldung nicht so einfach zu verstehen ist,
