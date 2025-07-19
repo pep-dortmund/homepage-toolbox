@@ -300,7 +300,7 @@ Dass es sich bei `elements` um eine Liste handelt,
 wird durch die eckigen Klammern `[]` gekennzeichnet.
 Die einzelnen Elemente der Liste werden zwischen die Klammern gesetzt
 und mit Kommata voneinander getrennt.
-Geben wir nun die Liste aus erhalten wir
+Geben wir nun die Liste aus, erhalten wir
 ```python
 print(f"{elements = }")
 # elements = ['gold', 'silver', 'copper']
@@ -308,18 +308,18 @@ print(f"{elements = }")
 ### Indizieren
 Da wir so nur die gesamte Liste ausgeben können, schauen wir uns jetzt an,
 wie wir einzelne Elemente aus der Liste bekommen.
-Dieses nennt man indizieren und funktioniert, wie das Erstellen der Liste,
-mit eckigen Klammern. Folglich schreiben wir um das erste Element der Liste zu bekommen
+Dieses nennt man Indizieren und funktioniert, wie das Erstellen der Liste,
+mit eckigen Klammern. Folglich schreiben wir, um das erste Element der Liste zu bekommen
 ```python
 print(f"{elements[1] = }")
 ```
-Wenn wir das Ausführen erhalten wir `elements[1] = 'silver'`.
+Wenn wir das ausführen, erhalten wir `elements[1] = 'silver'`.
 
 Wenn du noch keine Programmiererfahrung hast, ist das sicherlich überraschend.
 Das erste Element der Liste ist doch eigentlich `gold`,
 warum gibt `python` dann `silver` aus?
 In fast allen Programmiersprachen fängt das Zählen bei 0 an,
-somit ist `elements[1]` das zweite Element, in unserer „normalen“ Zählweise.
+somit ist `elements[1]` das zweite Element in unserer „normalen“ Zählweise.
 Für die Liste `elements` können wir die Indizes 0, 1, 2 verwenden,
 aber auch -1, -2 und -3.
 Mit folgendem Code können wir uns das erste und das letzte Element ausgeben lassen.
@@ -331,13 +331,13 @@ Aus einer Liste können wir nicht nur einzelne Elemente bekommen,
 sondern auch Teillisten. Dafür schreiben wir nicht nur eine Zahl in die eckigen Klammern,
 sondern `[Anfangsindex:Endindex+1]`.
 Folgende Zeilen geben drei Teillisten aus, schaffst du es vor dem Ausführen
-herauszufinden was die Ausgabe ist?
+herauszufinden, was die Ausgabe ist?
 ```python
 print(f"{elements[0:2] = }")
 print(f"{elements[-3:-1] = }")
 print(f"{elements[2:] = }")
 ```
-Die erste Zeile gibt uns eine Liste mit den Elemente von Index 0 bis Index 2-1=1 aus.
+Die erste Zeile gibt uns eine Liste mit den Elementen von Index 0 bis Index 2-1=1 aus.
 Mit der zweiten Zeile erhalten wir die gleiche Teilliste,
 da wir hier die Liste nur mit den negativen Indizes indizieren.
 In der dritten Zeile sehen wir nur eine Zahl um den Doppelpunkt,
@@ -345,9 +345,9 @@ diese Schreibweise verkürzt Indizierungen, wenn wir vom Start oder bis zum Ende
 der Liste gehen wollen. Die ganze Liste bekommen wir auch mittels `elements[:]`.
 
 ### Ersetzen und erweitern
-Wie bei den anderen Variablen, können wir einzelne Elemente der Liste überschreiben.
+Wie bei den anderen Variablen können wir einzelne Elemente der Liste überschreiben.
 Nehmen wir an, wir sollten im Versuch nicht mit Silber arbeiten, sondern mit Titan.
-Dann können wir den Eintrag ersetzen
+Dann können wir den Eintrag ersetzen.
 ```python
 elements[1] = "titan"
 print(f"{elements = }")
@@ -368,13 +368,88 @@ print(f"{elements = }")
 ```
 
 # Kontrollstrukturen
-Immer wenn du `python test.py` aufrufst geht `python` die Datei von oben nach
+Immer wenn du `python test.py` aufrufst, geht `python` die Datei von oben nach
 unten durch und führt die Zeilen nacheinander aus.
 Für einfache Programme ist das ausreichend, doch schnell wirst du Grenzen erreichen
 oder ganz häufig die gleichen Zeilen schreiben.
 Damit du und alle anderen das nicht machen müsst, gibt es Kontrollstrukturen.
 
 ## If-elif-else
+_Wenn_, _sonst wenn_, _sonst_ ist eine Fallunterscheidung.
+Im Code sieht es zum Beispiel so aus (diesen Code-Block jetzt nicht Übernehmen)
+```python
+if statement:
+  do this
+elif different statement:
+  then do this
+else:
+  all statements were wrong
+  do these lines
+```
+Zum Start schauen wir uns deshalb erst einmal Vergleiche in `python` an, um
+die Statements formulieren zu können.
+### Vergleiche
+Am Ende eines Vergleiches wissen wir, ob dieser Richtig oder Falsch ist,
+in `python` heißt es `True` und `False`.
+Probieren wir es direkt aus, die Operatoren kennen wir aus der Mathematik.
+Bis auf _gleich_, da `=` einer Variable einen Wert zuweist, ist _gleich_ `==`.
+```python
+print(f"{1 < 2 = }")
+print(f"{1 == 2 = }")
+print(f"{1 > 2 = }")
+print(f"{2 < 2 = }")
+print(f"{2 <= 2 = }")
+```
+
+### if
+Jetzt schreiben wir uns ein kleines Programm, welches uns ausgibt,
+ob eine Zahl größer, kleiner oder gleich einer anderen Zahl ist.
+Definieren wir uns also die Zahl, die wir vergleichen und die Zahl,
+mit der wir sie vergleichen wollen.
+Schreibe die folgenden Code-Blöcke jeweils an das Ende deiner `test.py` Datei.
+Führe sie aus, wann immer du das Zwischenergebnis sehen willst, aber auf jeden Fall am Ende.
+```python
+nr_to_compare = 4
+compare_to = 3
+```
+Als Erstes schauen wir uns kleiner an.
+Wir vergleichen, ob `nr_to_compare` kleiner als `compare_to` ist und geben dann aus,
+dass dies so ist, am besten noch mit den Werten.
+Das kann wie folgt aussehen.
+```python
+if nr_to_compare < compare_to:
+  print(f"{nr_to_compare} < {compare_to}")
+```
+### elif
+Nachdem wir den ersten Vergleich gemacht haben, müssen wir auch noch überprüfen,
+ob `nr_to_compare` gleich `compare_to` ist.
+Dafür müssen wir nicht ein neues `if`-statement aufmachen, sondern können mit `elif`
+weiterschreiben. Falls der Vergleich hinter dem `if` richtig wäre, würde dieses
+`elif` übersprungen werden.
+```python
+elif nr_to_compare > compare_to:
+  print(f"{nr_to_compare} > {compare_to}")
+```
+Ob die Zahlen gleich sind, testen wir mit einem weiteren `elif`.
+```python
+elif nr_to_compare == compare_to:
+  print(f"{nr_to_compare} == {compare_to}")
+```
+
+### else
+Eigentlich müsste mit den vorangegangenen Vergleichen alles abgedeckt sein,
+wir fangen alle anderen Fälle aber trotzdem mit `else` ab.
+Hier gibt es keinen Vergleich und alle Fälle, die nirgendwo mit einem `if` oder
+`elif` Vergleich übereinstimmen, landen hier.
+Wir geben die Werte aus, um notfalls einfacher Fehler zu finden.
+```python
+else:
+  print(f"Error: {nr_to_compare = }, {compare_to = }")
+```
+
+Führen wir nun den Code aus, sehen wir, dass `4 > 3`.
+Teste hier mal weitere Werte für `nr_to_compare` und `compare_to`.
+Verhält sich alles so, wie du es erwartest?
 
 ## Schleifen
 
