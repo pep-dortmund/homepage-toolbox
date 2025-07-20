@@ -22,6 +22,20 @@ oder auf **Hilfe** in der oberen Leiste.
 Dort findest du alle Informationen, die wir brauchen, um dir weiterzuhelfen.
 
 # Die ersten Schritte
+Worauf musst du achten, wenn du eine (neue) Programmiersprache lernst?
+Für Programmiersprachen gibt es eine Syntax, die vorgibt,
+welche Schlüsselwörter/keywords es gibt und was diese tun.
+Zudem gibt sie vor, wie Code geschrieben werden soll,
+wie bei der Grammatik einer Sprache, geht es um die Reihenfolge
+von Wörtern/Befehlen, die vom Gegenüber, Mensch oder Computer,
+verstanden werden.
+So wie um Zeichen, die Sätze oder den Code strukturieren.
+
+Im Vergleich zu `C++` oder `Java`, zwei weitverbreiteten Sprachen,
+nutzt `python` weniger Zeichen um den Code zu strukturieren.
+Ein paar gibt es dennoch, also bereitet eure
+`:`, `{`, `(`, `[`, `]`, `)`, `}`-Tasten vor.
+
 Das erste Programm, das typischerweise in einer neuen Programmiersprache geschrieben wird, ist _Hello World!_
 Das Gleiche wollen wir hier auch machen und `python` beibringen, uns etwas auszugeben.
 
@@ -55,6 +69,17 @@ Schreibe dafür in deine `test.py`
 print("Hello World!")
 ```
 
+An dieser Stelle wird dir auffallen, dass die Farben in deinem VSC
+anders sind als in dem Codeblock. Das ist kein Fehler.
+Die farbliche Gestaltung nennt man _Highlighting_ und ist je nach
+Programm unterschiedlich. Lass dich also nicht davon irritieren,
+wenn die Farben zwischen den Codeblöcken hier und dem Code in VSC
+unterschiedlich sind.
+Wenn du dich an die Farben in VSC gewöhnt hast, ist es sehr praktisch,
+da du so einfacher Strukturen im Code erkennen kannst.
+Und Tippfehler, wenn zum Beispiel `print` nicht mehr farbig hinterlegt
+ist, weil `prnit` getippt wurde.
+
 <script
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
   type="text/javascript">
@@ -63,21 +88,22 @@ print("Hello World!")
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
 Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[Strings](/introduction/python/#Strings) "Hello World!"
+in diesem Fall ist es der Text/[String](/introduction/python/#Strings) "Hello World!"
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
 z.B. $$f(x) = x^2$$. Nur dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
-Dein VSC sollte jetzt ähnlich zu dem folgenden Screenshot aussehen.
+<img alt="" src="/img/introduction/VSCode_HelloWorld.png" style="max-width:80%;" />
+
+Dein VSC sollte jetzt ähnlich zum folgenden Screenshot aussehen.
 Wichtig ist hier der Hinweis neben OPEN EDITORS: _1 unsaved_
 und der weiße Kreis neben dem Dateinamen.
 Beides bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
 Speichern kannst du mit `Strg` + `s`, oder über _File_ und dann _Datei speichern_/_Save File_.
 Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssystem.
+
 **Bevor du eine `python`-Datei ausführst, musst du deine Änderungen speichern,
 sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
 Achte also immer auf den weißen Punkt.**
-
-<img alt="" src="/img/introduction/VSCode_HelloWorld.png" style="max-width:80%;" />
 
 ## <a id="Terminal"></a>Terminal öffnen und `python` ausführen
 Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Datei auszuführen.
@@ -376,16 +402,40 @@ Damit du und alle anderen das nicht machen müsst, gibt es Kontrollstrukturen.
 
 ## If-elif-else
 _Wenn_, _sonst wenn_, _sonst_ ist eine Fallunterscheidung.
+
+_Wenn_ ein Fall eintritt, wollen wir, dass gewisse Zeilen an Code
+ausgeführt werden, wenn nicht, dann nicht.
+Das Ganze können wir auch weiterführen und sagen,
+_wenn_ ein Fall eintritt, soll ein Teil des Codes ausgeführt werden,
+_sonst_ soll ein anderer Codeteil ausgeführt werden,
+_wenn_ ein anderer Fall wahr ist.
+Das Prozedere können wir so häufig wiederholen, wie wir brauchen.
+Zum Schluss können wir alle Fälle zusammenfassen,
+die _sonst_ noch auftreten können.
+
 Im Code sieht es zum Beispiel so aus (diesen Code-Block jetzt nicht Übernehmen)
 ```python
 if statement:
   do this
-elif different statement:
+elif different statement:  # elif short for else if
   then do this
 else:
   all statements were wrong
   do these lines
 ```
+Wir sehen hier die drei _keywords_ `if`, `elif` und `else`,
+dick geschrieben sind.
+Nach den ersten beiden _keywords_ folgen `statements`,
+die schauen wir uns im nächsten Abschnitt an.
+Wichtig ist, dass am Ende jeder Zeile ein Doppelpunkt `:` steht.
+Mit diesem wird der Teil des Codes eingeleitet, der ausgeführt wird,
+wenn das davorstehende Statement korrekt ist.
+Wichtig ist hier, dass die Zeilen eingerückt sind,
+wie im Codeblock gezeigt.
+Viele Programme, wie z.B. VSC, machen diese Einrückung automatisch,
+ansonsten kannst du mit der `Tab`-Taste oder vier Leerzeichen
+die Einrückung selber schreiben.
+
 Zum Start schauen wir uns deshalb erst einmal Vergleiche in `python` an, um
 die Statements formulieren zu können.
 ### Vergleiche
@@ -400,7 +450,19 @@ print(f"{1 > 2 = }")
 print(f"{2 < 2 = }")
 print(f"{2 <= 2 = }")
 ```
+Damit können wir schon sehr viel vergleichen, ein Zeichen möchten wir
+dir jetzt noch zeigen, das Ausrufezeichen `!`.
+In `python` verwenden wir es, um _nicht_ nutzen zu können.
+Dazu ein Paar an Beispielen.
+```python
+print(f"{1 != 2 = }")
+print(f"{2 != 2 = }")
+```
+Du kannst so jetzt auch `<` als `!>` schreiben und andersrum
+`>` als `!<`, das ist nur nicht sinnvoll,
+da es schwieriger zum Lesen ist.
 
+<!-- != 1< -->
 ### if
 Jetzt schreiben wir uns ein kleines Programm, welches uns ausgibt,
 ob eine Zahl größer, kleiner oder gleich einer anderen Zahl ist.
@@ -420,16 +482,29 @@ Das kann wie folgt aussehen.
 if nr_to_compare < compare_to:
   print(f"{nr_to_compare} < {compare_to}")
 ```
+Als erstes schrieben wir das keyword `if`,
+danach folgt der Vergleich zwischen den beiden Zahlen.
+Am Ende der Zeile kommt ein `:` um `python` zu zeigen,
+dass der Vergleich zu Ende ist und jetzt eingerückte Zeilen kommen,
+die ausgeführt werden sollen, wenn der Vergleich korrekt ist.
+In diesem Block geben wir die Zahlen mit dem richtigen Vergleichszeichen aus.
+
 ### elif
-Nachdem wir den ersten Vergleich gemacht haben, müssen wir auch noch überprüfen,
+Nachdem wir den kleiner Vergleich gemacht haben,
+müssen wir auch überprüfen,
 ob `nr_to_compare` gleich `compare_to` ist.
-Dafür müssen wir nicht ein neues `if`-statement aufmachen, sondern können mit `elif`
-weiterschreiben. Falls der Vergleich hinter dem `if` richtig wäre, würde dieses
-`elif` übersprungen werden.
+Dafür müssen wir nicht ein neues `if`-statement aufmachen,
+sondern können mit `elif` weiterschreiben.
+Falls der Vergleich hinter dem `if` richtig wäre,
+würde dieses `elif` übersprungen werden.
 ```python
 elif nr_to_compare > compare_to:
   print(f"{nr_to_compare} > {compare_to}")
 ```
+Die Syntax hier ist analog zu `if`, erst kommt das _keyword_`
+`elif`, kurz für else if, dann ein neuer Vergleich und der `:`
+zum Abschluss der Zeile.
+
 Ob die Zahlen gleich sind, testen wir mit einem weiteren `elif`.
 ```python
 elif nr_to_compare == compare_to:
@@ -439,7 +514,9 @@ elif nr_to_compare == compare_to:
 ### else
 Eigentlich müsste mit den vorangegangenen Vergleichen alles abgedeckt sein,
 wir fangen alle anderen Fälle aber trotzdem mit `else` ab.
-Hier gibt es keinen Vergleich und alle Fälle, die nirgendwo mit einem `if` oder
+Hier gibt es keinen Vergleich hinter `else`,
+daher kommt direkt dahinter der `:`.
+Alle Fälle, die nirgendwo mit einem `if` oder
 `elif` Vergleich übereinstimmen, landen hier.
 Wir geben die Werte aus, um notfalls einfacher Fehler zu finden.
 ```python
@@ -452,6 +529,14 @@ Teste hier mal weitere Werte für `nr_to_compare` und `compare_to`.
 Verhält sich alles so, wie du es erwartest?
 
 ## Schleifen
+Nachdem wir gelernt haben, wie wir Code schreiben können,
+der nur ausgeführt wird, wenn bestimmte Bedingungen erfüllt sind,
+geht es jetzt um Code der wiederholt werden kann.
+Solche Kontrollstrukturen werden Schleifen genannt und wiederholen
+einen gewissen Codeteil wieder und wieder,
+solange eine Bedingung erfüllt ist.
+
+### while
 
 # Dictionaries
 
