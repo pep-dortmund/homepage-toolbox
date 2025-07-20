@@ -46,25 +46,28 @@ und tippst _VSCode_ ein und klickst auf die VSCode App.
 Du hast einen Mac? Dann öffne den _Finder_ und tippe VSCodium ein,
 öffne es dann auch.
 
-<!-- ToDo Christian: Ergänze Screenshots von einem W11 Laptop. -->
+<!-- ToDo Christian:
+  - Ergänze Screenshots von einem W11 Laptop
+  - test.py -> introduction.py
+-->
 Jetzt wollen wir einen Ordner _ToolboxWorkshop_ auf dem Desktop erstellen
-und darin eine Datei _test.py_.
+und darin eine Datei _introduction.py_.
 In VSC gibt es in der oberen Leiste _File_/_Datei_, klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
 Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop Ordner
 und erstelle einen neuen Ordner mit dem Namen `ToolboxWorkshop`.
 Öffne diesen Ordner. In VSC kannst du hier jetzt in der linken Seitenleiste
-eine Datei erstellen. Gib ihr den Namen `test.py`.
+eine Datei erstellen. Gib ihr den Namen `introduction.py`.
 
 <img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:40%;" />
 
-Im Hauptbereich öffnet sich jetzt direkt `test.py`, momentan als leere Datei.
+Im Hauptbereich öffnet sich jetzt direkt `introduction.py`, momentan als leere Datei.
 
 <img alt="" src="/img/introduction/VSCode_emptyTest.png" style="max-width:60%;" />
 
 ## _Hello World!_
 
 Als erstes `python`-Programm schreiben wir eine Ausgabe von _Hello World!_
-Schreibe dafür in deine `test.py`
+Schreibe dafür in deine `introduction.py`
 ```python
 print("Hello World!")
 ```
@@ -115,8 +118,8 @@ _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 Schreibe dort einmal `ls` ein und führe den Befehl aus, indem du auf `Enter` drückst.
 `ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
-Du solltest in den zurückgegebenen Namen `test.py` sehen.
-Schreibe jetzt `python test.py` in das Terminal und führe es mit `Enter` aus.
+Du solltest in den zurückgegebenen Namen `introduction.py` sehen.
+Schreibe jetzt `python introduction.py` in das Terminal und führe es mit `Enter` aus.
 
 Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen,
 bis auf `(base) ToolboxWorkshop$`. Dies ist der Prompt und kann individuell angepasst werden.
@@ -134,7 +137,7 @@ Kommentare, die eine Zeile lang sind oder in der Zeile mit dem Code stehen,
 beginnen mit `#`.
 Ab dem `#` wird alles bis zum Ende der Zeile als Kommentar angesehen.
 Längere Kommentare beginnen mit `"""` und enden genau so.
-Unseren aktuellen Code in `test.py` können wir somit so kommentieren:
+Unseren aktuellen Code in `introduction.py` können wir somit so kommentieren:
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
@@ -162,7 +165,7 @@ Variablen sind Objekte die einen Namen und einen Wert haben.
 
 ## Zahlen
 Dem obigen Beispiel von Funktionen der Mathematik treu bleibend, starten wir mit Zahlen.
-Ergänze dazu in deiner `test.py` die folgenden Zeilen am Ende der Datei.
+Ergänze dazu in deiner `introduction.py` die folgenden Zeilen am Ende der Datei.
 ```python
 x = 5
 print(x)
@@ -186,7 +189,7 @@ Hello World!
 Nur eine Variable ist aber natürlich nicht alles, daher führen wir jetzt ein paar mehr ein.
 Es ist gute Praxis, den Variablen englische Namen zu geben, mit `print` haben wir schon
 gesehen, dass `python` Funktionen englische Namen haben, das bleibt auch so.
-Ergänze die folgenden Zeilen am Ende deiner `test.py`.
+Ergänze die folgenden Zeilen am Ende deiner `introduction.py`.
 ```python
 y = 3
 thisisavariable = 4
@@ -232,7 +235,7 @@ Exponenten werden in `python` mit `**` geschrieben.
 Eine Besonderheit in Programmiersprachen sind Modulo und Ganzzahldivision,
 für diese werden die Zeichen `%` und `//` verwendet.
 
-Die folgenden Code-Zeilen kannst du wieder ans Ende deiner `test.py` kopieren,
+Die folgenden Code-Zeilen kannst du wieder ans Ende deiner `introduction.py` kopieren,
 du darfst aber auch gerne eigenes ausprobieren.
 ```python
 print("Rechenmethoden")
@@ -310,7 +313,7 @@ Die letzte Ausgabe sieht so aus wie die `string_addition` mit Leerzeichen,
 das liegt daran, dass `print` standardmäßig Leerzeichen zwischen die Argumente setzt.
 Die Argumente sind in diesem Fall die drei String-Variablen, getrennt durch Kommata.
 
-## Lists
+## <a id="Lists"></a>Lists
 Mit den bisher vorgestellten Variablen können wir einzelne Zahlen oder Zeichenketten
 in unserem Programmcode verwenden.
 Wenn wir nun aber etwas gemessen haben, wird es schon bei wenigen Messwerten lästig,
@@ -394,13 +397,13 @@ print(f"{elements = }")
 ```
 
 # Kontrollstrukturen
-Immer wenn du `python test.py` aufrufst, geht `python` die Datei von oben nach
+Immer wenn du `python introduction.py` aufrufst, geht `python` die Datei von oben nach
 unten durch und führt die Zeilen nacheinander aus.
 Für einfache Programme ist das ausreichend, doch schnell wirst du Grenzen erreichen
 oder ganz häufig die gleichen Zeilen schreiben.
 Damit du und alle anderen das nicht machen müsst, gibt es Kontrollstrukturen.
 
-## If-elif-else
+## Fallunterscheidungen
 _Wenn_, _sonst wenn_, _sonst_ ist eine Fallunterscheidung.
 
 _Wenn_ ein Fall eintritt, wollen wir, dass gewisse Zeilen an Code
@@ -462,13 +465,12 @@ Du kannst so jetzt auch `<` als `!>` schreiben und andersrum
 `>` als `!<`, das ist nur nicht sinnvoll,
 da es schwieriger zum Lesen ist.
 
-<!-- != 1< -->
-### if
+### `if`
 Jetzt schreiben wir uns ein kleines Programm, welches uns ausgibt,
 ob eine Zahl größer, kleiner oder gleich einer anderen Zahl ist.
 Definieren wir uns also die Zahl, die wir vergleichen und die Zahl,
 mit der wir sie vergleichen wollen.
-Schreibe die folgenden Code-Blöcke jeweils an das Ende deiner `test.py` Datei.
+Schreibe die folgenden Code-Blöcke jeweils an das Ende deiner `introduction.py` Datei.
 Führe sie aus, wann immer du das Zwischenergebnis sehen willst, aber auf jeden Fall am Ende.
 ```python
 nr_to_compare = 4
@@ -489,7 +491,7 @@ dass der Vergleich zu Ende ist und jetzt eingerückte Zeilen kommen,
 die ausgeführt werden sollen, wenn der Vergleich korrekt ist.
 In diesem Block geben wir die Zahlen mit dem richtigen Vergleichszeichen aus.
 
-### elif
+### `elif`
 Nachdem wir den kleiner Vergleich gemacht haben,
 müssen wir auch überprüfen,
 ob `nr_to_compare` gleich `compare_to` ist.
@@ -511,7 +513,7 @@ elif nr_to_compare == compare_to:
   print(f"{nr_to_compare} == {compare_to}")
 ```
 
-### else
+### `else`
 Eigentlich müsste mit den vorangegangenen Vergleichen alles abgedeckt sein,
 wir fangen alle anderen Fälle aber trotzdem mit `else` ab.
 Hier gibt es keinen Vergleich hinter `else`,
@@ -535,9 +537,172 @@ geht es jetzt um Code der wiederholt werden kann.
 Solche Kontrollstrukturen werden Schleifen genannt und wiederholen
 einen gewissen Codeteil wieder und wieder,
 solange eine Bedingung erfüllt ist.
+Es gibt verschiedene Varianten von Schleifen,
+wir zeigen dir hier zwei.
 
-### while
+### `while`
+Die erste Schleifenart, die wir dir hier zeigen, ist die `während`-Schleife.
+Das _keyword_ hier ist `while`, danach folgt, wie bei `if`, ein Statement.
+Solange dieses Statement wahr ist, wird der Code in den nachfolgenden,
+eingerückten Zeilen immer wieder ausgeführt.
+```python
+# do not include this code block in your introduction.py
+while statement:
+  do these lines
+```
+
+Gehen wir die Funktionsweise einmal anhand des folgenden Beispiels durch.
+Schreibe es in deine `introduction.py` und führe sie wieder aus.
+```python
+print("while-loop start")
+i = 0
+while i < 2:
+  print(f"{i = }")
+  i += 1  # i = i + 1
+print("while-loop done")
+```
+Gehen wir nun die Zeilen und die Ausgabe durch, um die Funktionsweise
+der Schleife zu verstehen.
+Vor der Schleife geben wir einmal „while-loop start“ aus,
+damit wir in der Ausgabe klar erkennen können,
+wo die Ausgabe der Schleife beginnt.
+In der zweiten Zeile initialisieren wir die Variable `i` mit 0.
+Für Variablen, die als Zähler in Schleifen verwendet werden,
+sind kurze Namen wie `i` oder `j` üblich.
+Zeile 3 lesen wir als, _während i kleiner als drei ist, tue Folgendes_.
+Momentan ist `i`$$ = 0$$ uns damit kleiner als zwei, es werden jetzt die
+eingerückten Zeilen ausgeführt.
+Diese Zeilen beinhalten `i` auszugeben und anschließend
+eins zu `i` zu addieren.
+Dann springen wir wieder hoch zu `while i < 2`.
+Der Wert von `i` ist jetzt 1 und damit weiterhin kleiner als zwei.
+Es wird wieder `i` ausgegeben und eins zu `i` addiert.
+In diesem Moment ist `i`$$= 2$$.
+Der Vergleich `i < 2` ist somit `False` und der Block der eingerückten
+Zeilen wird übersprungen. Damit wird „while-loop end“ ausgegeben,
+die erste nicht eingerückte Zeile nach dem `while`-_keyword_.
+
+### `for`
+Eine weitere Schleifenart ist die `für`-Schleife.
+Diese führt die eingerückten Zeilen für alle Elemente eines Objekts durch.
+Da das schwer zum Vorstellen ist, schauen wir uns direkt Beispiele an.
+In der Lektion über [Listen](/introduction/python/#Lists) haben wir eine Liste
+mit verschiedenen Elementen erstellt. Definieren wir sie noch einmal,
+falls du Sie nicht mehr in deiner Datei hast.
+```python
+elements = ['gold', 'titan', 'copper', 'silver']
+```
+Jetzt wollen wir jedes Element einzeln ausgeben.
+Dafür nehmen wir die `for`-Schleife und iterieren
+über unsere Liste `elements`.
+Als Code in der Schleife haben wir eine Zeile mit `print`.
+```python
+for element in elements:
+  print(element)
+```
+Als Ausgabe erhalten wir die vier Elemente, jeweils eins pro Zeile,
+in der Reihenfolge, wie sie in der Liste stehen.
+Denn `python` führt folgende Befehle aus:
+_Für jedes element in elements, gib den Inhalt der Variable element aus._
+Im ersten Durchlauf der Schleife haben wir die Variable
+`element = elements[0]`, was gleich `element = "gold"` ist.
+Innerhalb der Schleife, der eingerückten Zeilen,
+können wir auf das aktuelle Element mit `element` zugreifen.
+
+Schauen wir uns den letzten Punkt in einem weiteren Beispiel an.
+```python
+numbers = [10, -4, 1]
+for x in numbers:
+  print(x**2)
+print(numbers)
+```
+Hier haben wir uns eine Liste an Zahlen definiert
+und lassen uns die Quadrate ausgeben.
+Am Ende geben wir noch einmal die Liste aus und sehen,
+dass diese unverändert ist.
+Das Quadrieren innerhalb der Schleife ändert also nicht
+die Elemente der Liste, da wir dort nur mit `x` arbeiten.
+
+### `range`
+Dieser Abschnitt gehört eigentlich noch zur `for`-Schleife,
+wir führen hier aber noch die sehr nützliche Funktion `range` ein.
+
+Als Erstes schauen wir uns an, was `range` kann.
+```python
+for i in range(3):
+  print(i)
+```
+So bekommen wir sehr einfach die Zahlen zwischen Null und Zwei,
+oder Null und einer anderen Zahl, sodass wir nicht eine Liste
+selber schreiben müssen, falls wir diese Zahlen benötigen.
+
+Probiere auch folgende ranges aus:
+`range(2, 10, 2)` und `range(5, 0, -1)`.
+
+Mit der ersten `range` werden die Zahlen von 2 bis 8 in
+Zweierschritten ausgegeben.
+Denn mit den Argumenten `2`, `10` und `2`, geben wir an,
+dass wir die Zahlen zwischen `2`, eingeschlossen,
+und `10`, nicht mehr eingeschlossen,
+mit einer Schrittweite von `2` bekommen.
+
+In der zweiten `range` geben wir analog an,
+dass wir von 5 bis 0 - Schrittweite die Zahlen im Abstand
+von -1 bekommen, also rückwärts.
+Hier muss dann auch der Startwert größer sein als der Endwert,
+sonst wird die Schleife effektiv übersprungen,
+da keine passenden Zahlen existieren.
 
 # Dictionaries
+Das, was wir dir bisher gezeigt haben, kann ähnlich
+in vielen anderen Programmiersprachen verwendet werden.
+Jetzt möchten wir dir etwas zeigen, dass `python` spezifischer ist,
+die `dictionaries`.
+Wie in einem Wörterbuch funktioniert ein `dictionary` darüber,
+dass wir hinter einem Schlagwort Inhalt finden.
+In `python` heißt es `keys` und `items`.
+Als Beispiel erstellen wir erst ein leeres `dictionary`.
+Dann erstellen wir ein `dictionary` `lectures`
+und fügen direkt eine Wahl an Vorlesungen
+des ersten Semesters der Physik hinzu.
+In der neunten Zeile fügen wir nachträglich die Vorlesungen
+des zweiten Semesters hinzu.
+Schließlich geben wir uns mehrere Dinge aus,
+mehr dazu nach dem Code-Beispiel.
+```python
+empty_dict = dict()  # generates an empty dict
+lectures = {
+    "Semester 01": [
+        "Physik I",
+        "Einführung in die Programmierung",
+        "Höhere Mathematik I",
+    ]
+}
+lectures["Semester 02"] = ["Physik II", "Höhere Mathematik II"]
+print(f"{lectures = }")
+print(f"{lectures.keys() = }")
+print(f"{lectures.items() = }")
+```
+Im Code siehst du eine aufgetrennte Zeile,
+der Code funktioniert aber genauso,
+als wenn wir ihn wie folgt schreiben.
+```python
+lectures = {"Semester 01": ["Physik I", "Einführung in die Programmierung", "Höhere Mathematik I"]}
+```
+Nur, dass er besser sichtbar ist, da die Zeile nicht so lang ist.
+
+Wir sehen, dass wir `dictionary`-Einträge direkt in der Erstellung
+des `dictionary` hinzufügen können und später.
+In der Ausgabe sind dictionaries nicht so schön wie Listen oder
+einzelne Variablen.
+Umfasst von geschweiften Klammern `{}` sehen wir erst die `keys`
+und dann das hinterlegte `item`.
+<!--  Weiter auf items eingehen
+  und for key in lectures.keys(): print(lectures[key])
+-->
+
+
+Schaffst du es, den Code so zu verändern,
+dass die Vorlesungen zu denen passen, die du besucht hast?
 
 # Funktionen selber schreiben
