@@ -5,7 +5,7 @@ title: Beispielhafte Nutzung der Programme
 ---
 
 Im ersten Abschnitt erklären wir beispielhaft am
-[Template-Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template)
+[Template-Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template){:target="_blank"}
 wie das Arbeiten mit den vorgestellten Programmen ablaufen kann.
 Der zweite Abschnitt beschäftigt sich mit dem Klonen von Repositories von GitHub
 auf den eigenen Rechner.
