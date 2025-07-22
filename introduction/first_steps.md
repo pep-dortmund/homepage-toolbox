@@ -73,7 +73,7 @@ ist, weil `prnit` getippt wurde.
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
 Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[String](/introduction/python/#Strings){:target="_blank"} "Hello World!"
+in diesem Fall ist es der Text/[String](/introduction/variables/#Strings){:target="_blank"} "Hello World!"
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
 z.B. $$f(x) = x^2$$. Nur dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
