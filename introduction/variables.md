@@ -3,6 +3,10 @@ layout: install
 permalink: /introduction/variables/
 title:
 ---
+<script
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+  type="text/javascript">
+</script>
 # Verschiedene Variablentypen
 
 Als Nächstes möchten wir das Konzept von Variablen besprechen.
@@ -39,9 +43,9 @@ Ergänze die folgenden Zeilen am Ende deiner `introduction.py`.
 y = 3
 thisisavariable = 4
 hereIsAnother = 9.81
-this_is_a_multiplicator = 2
+this_is_a_multiplicator = 2.1e12
 ```
-Mit diesen Zeilen erstellen wir drei neue Variablen.
+Mit diesen Zeilen erstellen wir vier neue Variablen.
 `y` ist ein Variablenname, den wir auch aus der Mathematik kennen,
 in `python` können wir aber auch andere Bezeichner wählen, wie wir in den beiden anderen Zeilen sehen können.
 Wichtig dafür ist, dass es ein zusammenhängender Name ist, also keine Leerzeichen hat und nicht mit einer Zahl beginnt.
@@ -53,6 +57,10 @@ verwenden, wie z.B. `this_is_a_multiplicator`.
 
 Für Kommazahlen müssen wir den Punkt als Dezimaltrennzeichen nutzen,
 so wie bei `hereIsAnother`.
+Um nicht viel zu viele Nullen tippen zu müssen, können wir die `e`-Schreibweise verwenden.
+Bei dieser geben wir erst die Zahl an und nach dem `e` die Zehnerpotenz.
+Wir haben also
+`this_is_a_multiplier`$$ = 2.1 * 10^{12}$$ definiert.
 
 Wenn wir uns die Werte von mehreren Variablen ausgeben wollen, kann das unübersichtlich werden.
 Um das besser zu gestalten, nutzen wir `f-strings`, die können deutlich mehr,
@@ -242,3 +250,91 @@ print(f"{elements = }")
 ```
 
 Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control_structures).
+
+# Kompletter Code
+Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
+
+```python
+"""
+This file contains the code for the python introduction of the Toolbox Workshop.
+site: https://toolbox.pep-dortmund.org/introduction/python/
+
+The included section is: variables
+"""
+
+# Lection: Verschiedene Variablentypen
+print("Lektion 2")
+
+x = 5
+print(x)
+
+y = 3
+thisisavariable = 4
+hereIsAnother = 9.81
+this_is_a_multiplicator = 2.1e12
+
+print(f"{x = }")
+print(f"{hereIsAnother = }")
+
+print("Rechenmethoden")
+# Addition
+print(f"{4 + 2 = }")
+print(f"{8 + 4 + 5 = }")
+# Subtraction
+print(f"{4 - 2 = }")
+print(f"{5 - 8 = }")
+# Multiplication
+print(f"{4 * 2 = }")
+print(f"{5 * 8 = }")
+# Division
+print(f"{4 / 2 = }")
+print(f"{5 / 8 = }")
+# Exponential
+print(f"{4**2 = }")
+print(f"{2**(-1) = }")
+
+# Modulo
+print(f"{4 % 1 = }")    # = 0
+print(f"{4 % 2 = }")    # = 0
+print(f"{4 % 3 = }")    # = 1
+print(f"{4 % 4 = }")    # = 0
+print(f"{4 % 5 = }")    # = 4
+# Euclidian division / Division mit Rest
+print(f"{3 // 1 = }")   # = 3
+print(f"{3 // 2 = }")   # = 1
+print(f"{3 // 4 = }")   # = 0
+
+print("Strings")
+club_name = "PeP et al. e.V."
+event = "Toolbox Workshop"
+year = "2025"
+print(event)
+string_addition = club_name + event + year
+print(string_addition)
+
+string_addition = club_name + " " + event + " " + year
+print(string_addition)
+print(club_name, event, year)
+
+print("Lists")
+elements = ["gold", "silver", "copper"]
+print(f"{elements = }")
+print(f"{elements[1] = }")
+
+print(f"{elements[0] = }", f"{elements[-3] = }")
+print(f"{elements[2] = }", f"{elements[-1] = }")
+
+print(f"{elements[0:2] = }")
+print(f"{elements[-3:-1] = }")
+print(f"{elements[2:] = }")
+
+elements[1] = "titan"
+print(f"{elements = }")
+
+elements.append("silver")
+print(f"{elements = }")
+
+print(f"{elements+elements[:2] = }")
+print(f"{elements * 2 = }")
+print(f"{elements = }")
+```

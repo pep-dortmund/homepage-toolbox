@@ -108,8 +108,8 @@ würde dieses `elif` übersprungen werden.
 elif nr_to_compare > compare_to:
   print(f"{nr_to_compare} > {compare_to}")
 ```
-Die Syntax hier ist analog zu `if`, erst kommt das _keyword_`
-`elif`, kurz für else if, dann ein neuer Vergleich und der `:`
+Die Syntax hier ist analog zu `if`, erst kommt das _keyword_
+`elif`, kurz für _else if_, dann ein neuer Vergleich und der `:`
 zum Abschluss der Zeile.
 
 Ob die Zahlen gleich sind, testen wir mit einem weiteren `elif`.
@@ -135,7 +135,7 @@ Führen wir nun den Code aus, sehen wir, dass `4 > 3`.
 Teste hier mal weitere Werte für `nr_to_compare` und `compare_to`.
 Verhält sich alles so, wie du es erwartest?
 
-## Schleifen
+## <a id="Loops"></a>Schleifen
 Nachdem wir gelernt haben, wie wir Code schreiben können,
 der nur ausgeführt wird, wenn bestimmte Bedingungen erfüllt sind,
 geht es jetzt um Code der wiederholt werden kann.
@@ -260,3 +260,70 @@ sonst wird die Schleife effektiv übersprungen,
 da keine passenden Zahlen existieren.
 
 Weiter geht es in [Lektion 4 - Wörterbücher & eigene Funktionen](/introduction/dicts_and_funcs).
+
+# Kompletter Code
+Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
+
+```python
+"""
+This file contains the code for the python introduction of the Toolbox Workshop.
+site: https://toolbox.pep-dortmund.org/introduction/python/
+
+The included section is: control structures
+"""
+
+print("Lektion 3")
+
+print("Vergleiche")
+print(f"{1 < 2 = }")
+print(f"{1 == 2 = }")
+print(f"{1 > 2 = }")
+print(f"{2 < 2 = }")
+print(f"{2 <= 2 = }")
+
+print(f"{1 != 2 = }")
+print(f"{2 != 2 = }")
+
+print("if-elif-else")
+nr_to_compare = 4
+compare_to = 3
+
+if nr_to_compare < compare_to:
+  print(f"{nr_to_compare} < {compare_to}")
+elif nr_to_compare > compare_to:
+  print(f"{nr_to_compare} > {compare_to}")
+elif nr_to_compare == compare_to:
+  print(f"{nr_to_compare} == {compare_to}")
+else:
+  print(f"Error: {nr_to_compare = }, {compare_to = }")
+
+print("Loops")
+print("while-loop start")
+i = 0
+while i < 2:
+  print(f"{i = }")
+  i += 1  # i = i + 1
+print("while-loop done")
+
+elements = ['gold', 'titan', 'copper', 'silver']
+for element in elements:
+  print(element)
+
+print("for-loop")
+numbers = [10, -4, 1]
+for x in numbers:
+  print(x**2)
+print(numbers)
+
+print("range 0")
+for i in range(3):
+  print(i)
+
+print("range 1")
+for i in range(2, 10, 2):
+  print(i)
+
+print("range 2")
+for i in range(5, 0, -1):
+  print(i)
+```

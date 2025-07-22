@@ -128,9 +128,9 @@ site: https://toolbox.pep-dortmund.org/introduction/python/
 The last included section is: Kommentare
 """
 
-# Section: Die ersten Schritte
+# Lection: Die ersten Schritte
 
-# Subsection: Hello World!
+# Sublection: Hello World!
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 ```
@@ -142,3 +142,22 @@ genauso wie die leeren Zeilen.
 Du kannst also beide nutzen, um deinen Code zu strukturieren.
 
 Weiter geht es in [Lektion 2 - Variablen](/introduction/variables).
+
+# Kompletter Code
+Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
+
+```python
+"""
+This file contains the code for the python introduction of the Toolbox Workshop.
+site: https://toolbox.pep-dortmund.org/introduction/python/
+
+The included section is: Kommentare
+"""
+
+# Lection: Die ersten Schritte
+print("Lektion 1")
+# Sublection: Hello World!
+print("Hello World!")  # prints the words Hello World! as an output
+# print("Hello World!") <-- this line will be ignored
+```
+
