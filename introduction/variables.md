@@ -74,7 +74,7 @@ print(f"{hereIsAnother = }")
 Wie der Name vorsagt, benötigen wir für `f-strings` ein `f` und einen String.
 Das `f` siehst du in den beiden `print`-Funktionen nach der Klammer auf.
 Strings sind eine Ansammlung von Zeichen, und wir schauen sie uns im Abschnitt
-[Strings](/introduction/python/#Strings) direkt im Anschluss an.
+[Strings](/introduction/variables/#Strings) direkt im Anschluss an.
 Jetzt benötigen wir nur die Information, dass Strings in `python` mit einem `"`
 beginnen und aufhören.
 In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der

@@ -141,7 +141,7 @@ Wie du siehst ist die Ausgabe auch in der `e`-Notation,
 so wie wir auch einige Werte angegeben haben.
 
 Das war es an Lektionen in dieser `python`-Einführung.
-Weiter geht es im [Toolbox Workshop](/index/#Ablaufplan).
+Weiter geht es im [Toolbox Workshop](/index/#Plan).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
