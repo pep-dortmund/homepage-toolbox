@@ -89,7 +89,7 @@ Bitte beachtet die folgenden Schritte:
 
 ## Ablaufplan 2025
 
-Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined)
+<!-- Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined) -->
 An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf){:target="_blank"}).
 Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
 
