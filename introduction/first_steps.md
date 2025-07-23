@@ -10,6 +10,7 @@ title:
 # Die ersten Schritte
 
 Worauf musst du achten, wenn du eine (neue) Programmiersprache lernst?
+
 Für Programmiersprachen gibt es eine Syntax, die vorgibt,
 welche Schlüsselwörter/keywords es gibt und was diese tun.
 Zudem gibt sie vor, wie Code geschrieben werden soll,
@@ -28,28 +29,41 @@ Das Gleiche wollen wir hier auch machen und `python` beibringen, uns etwas auszu
 
 ## VSCode/VSCodium
 Als Erstes öffnen wir dazu VSCode/VSCodium (VSC ab jetzt).
-Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
-und tippst _VSCode_ ein und klickst auf die VSCode App.
 Du hast einen Mac? Dann öffne den _Finder_ und tippe VSCodium ein,
 öffne es dann auch.
 
-<!-- ToDo Christian:
-  - Ergänze Screenshots von einem W11 Laptop
-  - test.py -> introduction.py
--->
+Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
+und tippst _VSCode_ ein und klickst auf die VSCode App.
+
+<img alt="" src="/img/introduction/VSCode_Open.png" style="max-width:60%;" />
+
 Jetzt wollen wir einen Ordner _ToolboxWorkshop_ auf dem Desktop erstellen
-und darin eine Datei _introduction.py_.
-In VSC gibt es in der oberen Leiste _File_/_Datei_, klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
-Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop Ordner
+und darin eine Datei _introduction.py_ anlegen.
+In VSC gibt es in der oberen Leiste _File_/_Datei_,
+klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
+
+<img alt="" src="/img/introduction/VSCode_NewDir1.png" style="max-width:60%;" />
+
+Es kann sein, dass sich der folgende Dialog in der Mitte von VSC öffnet.
+Klicke dann auf _Show local_ oder das deutsche Äquivalent.
+
+<img alt="" src="/img/introduction/VSCode_NewDir2.png" style="max-width:80%;" />
+
+Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop
 und erstelle einen neuen Ordner mit dem Namen `ToolboxWorkshop`.
-Öffne diesen Ordner. In VSC kannst du hier jetzt in der linken Seitenleiste
+In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
+
+<img alt="" src="/img/introduction/VSCode_NewDir3.png" style="max-width:80%;" />
+
+Öffne diesen Ordner mit dem Knopf unten rechts.
+
+<img alt="" src="/img/introduction/VSCode_NewDir4.png" style="max-width:80%;" />
+
+In VSC kannst du hier jetzt in der linken Seitenleiste
 eine Datei erstellen. Gib ihr den Namen `introduction.py`.
+Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
 
-<img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:40%;" />
-
-Im Hauptbereich öffnet sich jetzt direkt `introduction.py`, momentan als leere Datei.
-
-<img alt="" src="/img/introduction/VSCode_emptyTest.png" style="max-width:60%;" />
+<img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:80%;" />
 
 ## _Hello World!_
 
@@ -71,18 +85,20 @@ Und Tippfehler, wenn zum Beispiel `print` nicht mehr farbig hinterlegt
 ist, weil `prnit` getippt wurde.
 
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
-Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles mögliche auszugeben.
+Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles Mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
 in diesem Fall ist es der Text/[String](/introduction/variables/#Strings){:target="_blank"} "Hello World!"
+Weitere Argumente können durch `,` getrennt, ausgegeben werden,
+z.B. `print("Hello World!", "Hello World!")`.
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
-z.B. $$f(x) = x^2$$. Nur dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
+z.B. $$f(x) = x^2$$.
+Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
 <img alt="" src="/img/introduction/VSCode_HelloWorld.png" style="max-width:80%;" />
 
 Dein VSC sollte jetzt ähnlich zum folgenden Screenshot aussehen.
-Wichtig ist hier der Hinweis neben OPEN EDITORS: _1 unsaved_
-und der weiße Kreis neben dem Dateinamen.
-Beides bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
+Wichtig ist der weiße Kreis neben dem Dateinamen.
+Dieser bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
 Speichern kannst du mit `Strg` + `s`, oder über _File_ und dann _Datei speichern_/_Save File_.
 Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssystem.
 
@@ -91,22 +107,78 @@ sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
 Achte also immer auf den weißen Punkt.**
 
 ## <a id="Terminal"></a>Terminal öffnen und `python` ausführen
+Für Windows ist dieser Abschnitt an einigen Stellen ausführlicher,
+wenn du ein anderes Betriebssystem hast,
+sind diese Schritte dann für dich nicht notwendig.
+Sie sind mit **Windows:** gekennzeichnet.
+
 Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Datei auszuführen.
 Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann auf
 _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 
-<img alt="" src="/img/introduction/VSCode_Terminal.png" style="max-width:80%;" />
+<img alt="" src="/img/introduction/VSCode_Terminal0.png" style="max-width:80%;" />
 
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
-Schreibe dort einmal `ls` ein und führe den Befehl aus, indem du auf `Enter` drückst.
+
+**Windows:** Steht am rechten oberen Rand des Terminals `powershell`,
+musst du die nächsten Schritte einmal durchgehen.
+Klicke auf den Pfeil runter neben `powershell +`
+und dann auf _Standardprofil auswählen_/_Select Default Profile_.
+
+<img alt="" src="/img/introduction/VSCode_Terminal1.png" style="max-width:80%;" />
+
+Es erscheint eine Auswahl am oberen Rand von VSC.
+Klicke dort auf den Eintrag mit _Ubuntu_ und _WSL_ im Namen,
+im Screenshot ist es der dritte Eintrag.
+
+<img alt="" src="/img/introduction/VSCode_Terminal2.png" style="max-width:80%;" />
+
+**Windows:**
+Wenn du unserer Anleitung genau gefolgt bist,
+hast du einen `ToolboxWorkshop`-Ordner auf deinem `Schreibtisch` erstellt.
+
+Schreibe jetzt in dein Terminal `ls` und führe den Befehl aus,
+indem du auf `Enter` drückst.
 `ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
-Du solltest in den zurückgegebenen Namen `introduction.py` sehen.
+Es werden dir verschiedene Namen zurückgegeben,
+befindet sich `OneDrive` in diesen Namen, schreibe als nächstes
+`cd OneDrive` in dein Terminal und führe den Befehl wieder mit `Enter` aus.
+
+Schreibe nun erneut `ls` in dein Terminal und drücke `Enter`.
+Siehst du dort entweder `Schreibtisch` oder `Desktop` in den Namen,
+schreibe `cd Schreibtisch` oder `cd Desktop` in dein Terminal
+und drücke erneut `Enter`.
+
+Wiederhole den Befehl `ls`, dort solltest du den Ordner `ToolboxWorkshop` sehen.
+Mit `cd ToolboxWorkshop` und `Enter` haben wir das Finden unseres Ordners beendet.
+Im Workshop nehmen wir uns Zeit, dir das ordentlicher zu erklären.
+
+**Alle anderen:**
+Mit einem Rechtsklick/Ctrl-Klick (MacOS) auf `introduction.py` in der linken Seitenleiste,
+kannst du das Menü der Datei aufrufen und auf _Kopiere Pfad_/_Copy Path_ klicken.
+Jetzt kannst du im Terminal `cd` eingeben und mit `Strg` + `v` den Pfad einfügen.
+Mit `Enter` führst du den Befehl aus.
+
+<img alt="" src="/img/introduction/VSCode_Terminal4.png" style="max-width:80%;" />
+
+**Alle:**
+Du solltest nun in den mit `ls` zurückgegebenen Namen `introduction.py` sehen.
 Schreibe jetzt `python introduction.py` in das Terminal und führe es mit `Enter` aus.
 
-Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen,
-bis auf `(base) ToolboxWorkshop$`. Dies ist der Prompt und kann individuell angepasst werden.
+<img alt="" src="/img/introduction/VSCode_Terminal3.png" style="max-width:80%;" />
 
-<img alt="" src="/img/introduction/VSCode_TerminalOutput.png" style="max-width:80%;" />
+Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen.
+Der grüne Text wird sich unterscheiden.
+Vor dem `@` steht dein Nutzername, nicht `toolbox`,
+dahinter folgt der Name deines Laptops/Rechners.
+Dies ist der Prompt und kann individuell angepasst werden.
+In Blau steht hinter dem `:` der Pfad.
+
+**Wenn es in Zukunft heißt, führe `python introduction.py` aus,
+ist damit gemeint, dass du im Terminal `python introduction.py` eintippst
+und es mit `Enter` ausführst.
+Du kannst das abkürzen, indem du den zuletzt ausgeführten Befehl mit
+`Pfeil nach oben` und `Enter` wiederholst.**
 
 ## Kommentare
 In Programmiersprachen sollen Kommentare verwendet werden, um den Code zu erklären.
@@ -160,4 +232,3 @@ print("Lektion 1")
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 ```
-
