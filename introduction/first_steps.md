@@ -55,12 +55,13 @@ In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 
 <img alt="" src="/img/introduction/VSCode_NewDir3.png" style="max-width:80%;" />
 
-Öffne diesen Ordner mit dem Knopf unten rechts.
+Öffne diesen Ordner mit dem Knopf _Öffne Ordner_/_Select Folder_ unten rechts.
 
 <img alt="" src="/img/introduction/VSCode_NewDir4.png" style="max-width:80%;" />
 
-In VSC kannst du hier jetzt in der linken Seitenleiste
-eine Datei erstellen. Gib ihr den Namen `introduction.py`.
+In VSC kannst du jetzt in der linken Seitenleiste
+eine Datei erstellen, klicke dazu auf das erste Symbol hinter _TOOLBOXWORKSHOP_.
+Gib ihr den Namen `introduction.py`.
 Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
 
 <img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:80%;" />
@@ -121,49 +122,22 @@ _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
 **Windows:** Steht am rechten oberen Rand des Terminals `powershell`,
-musst du die nächsten Schritte einmal durchgehen.
-Klicke auf den Pfeil runter neben `powershell +`
-und dann auf _Standardprofil auswählen_/_Select Default Profile_.
+musst du dein [Terminal noch einrichten](/install/windows_11/#VSCodeTerminal){:target="_blank"}.
 
 <img alt="" src="/img/introduction/VSCode_Terminal1.png" style="max-width:80%;" />
 
-Es erscheint eine Auswahl am oberen Rand von VSC.
-Klicke dort auf den Eintrag mit _Ubuntu_ und _WSL_ im Namen,
-im Screenshot ist es der dritte Eintrag.
-
-<img alt="" src="/img/introduction/VSCode_Terminal2.png" style="max-width:80%;" />
-
 **Windows:**
-Wenn du unserer Anleitung genau gefolgt bist,
-hast du einen `ToolboxWorkshop`-Ordner auf deinem `Schreibtisch` erstellt.
+Wiederhole jetzt den Schritt mit _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 
-Schreibe jetzt in dein Terminal `ls` und führe den Befehl aus,
+**Alle:** Schreibe in dein Terminal `ls` und führe den Befehl aus,
 indem du auf `Enter` drückst.
 `ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
 Es werden dir verschiedene Namen zurückgegeben,
-befindet sich `OneDrive` in diesen Namen, schreibe als nächstes
-`cd OneDrive` in dein Terminal und führe den Befehl wieder mit `Enter` aus.
-
-Schreibe nun erneut `ls` in dein Terminal und drücke `Enter`.
-Siehst du dort entweder `Schreibtisch` oder `Desktop` in den Namen,
-schreibe `cd Schreibtisch` oder `cd Desktop` in dein Terminal
-und drücke erneut `Enter`.
-
-Wiederhole den Befehl `ls`, dort solltest du den Ordner `ToolboxWorkshop` sehen.
-Mit `cd ToolboxWorkshop` und `Enter` haben wir das Finden unseres Ordners beendet.
-Im Workshop nehmen wir uns Zeit, dir das ordentlicher zu erklären.
-
-**Alle anderen:**
-Mit einem Rechtsklick/Ctrl-Klick (MacOS) auf `introduction.py` in der linken Seitenleiste,
-kannst du das Menü der Datei aufrufen und auf _Kopiere Pfad_/_Copy Path_ klicken.
-Jetzt kannst du im Terminal `cd` eingeben und mit `Strg` + `v` den Pfad einfügen.
-Mit `Enter` führst du den Befehl aus.
-
-<img alt="" src="/img/introduction/VSCode_Terminal4.png" style="max-width:80%;" />
-
-**Alle:**
-Du solltest nun in den mit `ls` zurückgegebenen Namen `introduction.py` sehen.
-Schreibe jetzt `python introduction.py` in das Terminal und führe es mit `Enter` aus.
+Du solltest in den zurückgegebenen Namen `introduction.py` sehen.
+<!-- find Befehl der in einem sinnvollen Rahmen nach introduction.py sucht und in den Ordner geht? -->
+Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Enter` aus.
+Als Ausgabe siehst du `Hello World!`, also gerade das,
+was wir als Argument in `print` geschrieben haben.
 
 <img alt="" src="/img/introduction/VSCode_Terminal3.png" style="max-width:80%;" />
 
@@ -171,8 +145,8 @@ Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen.
 Der grüne Text wird sich unterscheiden.
 Vor dem `@` steht dein Nutzername, nicht `toolbox`,
 dahinter folgt der Name deines Laptops/Rechners.
+In Blau steht hinter dem `:` der Pfad, die Ordner getrennt durch `/`.
 Dies ist der Prompt und kann individuell angepasst werden.
-In Blau steht hinter dem `:` der Pfad.
 
 **Wenn es in Zukunft heißt, führe `python introduction.py` aus,
 ist damit gemeint, dass du im Terminal `python introduction.py` eintippst
