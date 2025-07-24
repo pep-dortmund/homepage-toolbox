@@ -139,7 +139,7 @@ Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Ente
 Als Ausgabe siehst du `Hello World!`, also gerade das,
 was wir als Argument in `print` geschrieben haben.
 
-<img alt="" src="/img/introduction/VSCode_Terminal3.png" style="max-width:80%;" />
+<img alt="" src="/img/introduction/VSCode_Terminal2.png" style="max-width:80%;" />
 
 Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen.
 Der grüne Text wird sich unterscheiden.
