@@ -35,36 +35,48 @@ Du hast einen Mac? Dann öffne den _Finder_ und tippe VSCodium ein,
 Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
 und tippst _VSCode_ ein und klickst auf die VSCode App.
 
-<img alt="" src="/img/introduction/VSCode_Open.png" style="max-width:60%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_Open.png" style="max-width:50%;" />
+</p>
 
 Jetzt wollen wir einen Ordner _ToolboxWorkshop_ auf dem Desktop erstellen
 und darin eine Datei _introduction.py_ anlegen.
 In VSC gibt es in der oberen Leiste _File_/_Datei_,
 klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
 
-<img alt="" src="/img/introduction/VSCode_NewDir1.png" style="max-width:60%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_NewDir1.png" style="max-width:50%;" />
+</p>
 
 Es kann sein, dass sich der folgende Dialog in der Mitte von VSC öffnet.
 Klicke dann auf _Show local_ oder das deutsche Äquivalent.
 
-<img alt="" src="/img/introduction/VSCode_NewDir2.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_NewDir2.png" style="max-width:80%;" />
+</p>
 
 Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop
 und erstelle einen neuen Ordner mit dem Namen `ToolboxWorkshop`.
 In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 
-<img alt="" src="/img/introduction/VSCode_NewDir3.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_NewDir3.png" style="max-width:80%;" />
+</p>
 
 Öffne diesen Ordner mit dem Knopf _Öffne Ordner_/_Select Folder_ unten rechts.
 
-<img alt="" src="/img/introduction/VSCode_NewDir4.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_NewDir4.png" style="max-width:70%;" />
+</p>
 
 In VSC kannst du jetzt in der linken Seitenleiste
 eine Datei erstellen, klicke dazu auf das erste Symbol hinter _TOOLBOXWORKSHOP_.
 Gib ihr den Namen `introduction.py`.
 Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
 
-<img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:80%;" />
+</p>
 
 ## _Hello World!_
 
@@ -95,7 +107,11 @@ Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
 z.B. $$f(x) = x^2$$.
 Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
-<img alt="" src="/img/introduction/VSCode_HelloWorld.png" style="max-width:80%;" />
+<p align="center">
+  <img alt=""
+    src="/img/introduction/VSCode_HelloWorld.png"
+    style="max-width:70%;" />
+</p>
 
 Dein VSC sollte jetzt ähnlich zum folgenden Screenshot aussehen.
 Wichtig ist der weiße Kreis neben dem Dateinamen.
@@ -117,14 +133,18 @@ Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Dat
 Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann auf
 _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 
-<img alt="" src="/img/introduction/VSCode_Terminal0.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_Terminal0.png" style="max-width:80%;" />
+</p>
 
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
 **Windows:** Steht am rechten oberen Rand des Terminals `powershell`,
 musst du dein [Terminal noch einrichten](/install/windows_11/#VSCodeTerminal){:target="_blank"}.
 
-<img alt="" src="/img/introduction/VSCode_Terminal1.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_Terminal1.png" style="max-width:80%;" />
+</p>
 
 **Windows:**
 Wiederhole jetzt den Schritt mit _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
@@ -139,7 +159,9 @@ Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Ente
 Als Ausgabe siehst du `Hello World!`, also gerade das,
 was wir als Argument in `print` geschrieben haben.
 
-<img alt="" src="/img/introduction/VSCode_Terminal2.png" style="max-width:80%;" />
+<p align="center">
+  <img alt="" src="/img/introduction/VSCode_Terminal2.png" style="max-width:80%;" />
+</p>
 
 Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen.
 Der grüne Text wird sich unterscheiden.
