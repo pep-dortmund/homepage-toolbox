@@ -288,16 +288,134 @@ und auch den Rest.
       --halt-on-error \
     $(TEXFILE).tex
   ```
+  Dies ist die lange LaTeX-Regel.
+  Sie enthält alles, was in den
+  [`make`-Folien](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf){:target="_blank"}
+  besprochen wird.
+  Die `prerequisites` sind hier anders als für die `python`-Regeln.
+  `| build` haben wir bei der `python`-Regel besprochen,
+  neu ist `FORCE`.
+  Das ist eine niemals erfüllte Abhängigkeit,
+  weiter unten im Makefile sehen wir auch eine Zeile,
+  die nur `FORCE:` beinhaltet.
+  Dadurch wird immer das `recipe` ausgeführt,
+  das ist hier extra so geschrieben,
+  da wir `latexmk` aufrufen und nicht `lualatex`.
+  Du siehst auch, dass wir nirgendwo angegeben haben,
+  welche `.tex`-Dateien zu dieser Regel gehören.
+  Das müssen wir nicht, da `latexmk` das selbstständig macht,
+  wenn es liest, welches die Hauptdatei ist.
+  Gehen wir einmal die einzelnen Zeilen des `recipe` durch:
+  - `TEXINPUTS=..: \`:
+    Im Hauptordner des Repository liegt die `header.tex`,
+    die wir nutzen, damit `latexmk` sie findet,
+    erweitern wir den Standardsuchpfad (`:`),
+    der den aktuellen und alle Unterordner beinhaltet,
+    um den Hauptordner.
+    Mit den `\` können wir die Zeile visuell in mehrere
+    einzelne aufteilen, ausgeführt wird von `TEXINPUTS` bis
+    `$(TEXFILE).tex` alles als eine Zeile.
+  - `BIBINPUTS=..: \`:
+    Auch den Suchpfad für Literaturverzeichnisdateien
+    erweitern wir, da jetzt schon `lit.bib` und `programme.bib`
+    in dem Hauptordner liegen.
+    Denn `latexmk` erkennt auch, wenn du `biber` nutzt und
+    führt alles in der richtigen Reihenfolge aus.
+  - `max_print_line=1048576 \`:
+    Mit dieser Zeile erweitern wir die Anzahl an Zeichen,
+    diebeim Ausführen von LaTeX in eine Zeile geschrieben
+    werden dürfen.
+    Das macht die Ausgabe _schöner_ und nicht so sehr abgehackt.
+  - `latexmk \` startet `latexmk` mit den Argumenten
+    - `--lualatex`: Es wird `lualatex` als TeX-Engine verwendet.
+    - `--output-directory=build \`:
+      Alle Dateien, die erstellt werden,
+      werden in den `build`-Ordner gespeichert.
+    - `--interaction=nonstopmode \`: Falls Fehler auftreten,
+      wird die interaktive Lösungsstrategie von `lualatex`
+      deaktiviert.
+    - `--halt-on-error \`:Falls Fehler auftreten,
+      stoppt der Prozess.
+    - `$(TEXFILE).tex`: Die Datei, die wir bauen wollen.
+- ```make
+  build:
+    mkdir -p build
+  ```
+  In den Regeln haben wir den `build`-Ordner schon besprochen,
+  hier wird er erstellt.
+  Er hat keine Abhängigkeiten,
+  daher endet die erste Zeile nach dem Doppelpunkt `:`.
+  Die Flag `-p` sorgt dafür, dass keine Fehlermeldung
+  ausgegeben wird, wenn der Ordner schon existiert
+  und dass, wenn wir eine Kette von Ordnern erstellen wollen,
+  z.B. `build/figures`, alle Ordner in der Kette erstellt werden.
+- ```make
+  clean:
+    rm -rf build
+  ```
+  Es ist gute Praxis, einen Befehl zu haben, der das Projekt
+  in den Zustand vor der Ausführung von `make` versetzt.
+  Da alles, was erzeugt wird, im `build`-Ordner gespeichert wird,
+  müssen wir nur diesen löschen.
+  Die Doppel-Flag `-rf` setzen wir,
+  da wir einen Ordner löschen (`-r`)
+  und keine Fehlermeldung ausgegeben haben wollen,
+  falls das zu löschende Objekt nicht existiert (`-f`).
+- ```make
+  FORCE:
+  ```
+  Wie in der LaTeX-Regel beschrieben ist dies ein
+  immer aktuelles `target`.
+- ```make
+  .PHONY: all clean
+  ```
+  Dies ist die letzte Regel und wird gesetzt,
+  damit `make` weiß, dass die gelisteten `targets`
+  keine Dateien erzeugen und falls es doch Dateien gibt,
+  die so heißen, immer noch die Regeln ausgeführt werden.
 
-Schritte:
-- Öffnen von VSCode/VSCodium
-- Open folder, git repo
-- Open Terminal in VSC
-- git pull
-- work on files (Routine von template repo?)
-- mamba activate toolbox
-- make in terminal (`Strg` + `ö`, `Arrow up`)
-- make build/plot.pdf
-- git add
-- git commit
-- git push
+### Makfile ausführen
+Wenn du dein `Makefile` nutzen möchtest, hast du mehrere Möglichkeiten.
+1. `make`: Dieser Befehl sorgt dafür, dass alles ausgeführt wird,
+  damit die aktuellste Version der im `all` `target` genannten `prerequisites`
+  am Ende vorliegt.
+2. `make clean`: So räumst du deinen Versuchsordner wieder auf.
+3. `make build/plot.pdf`: Du arbeitest gerade am Plot oder an einem anderen
+  `python`-Skript und möchtest dir die Ergebnisse ansehen?
+  Dann kannst du als Argument hinter `make` das entsprechende `target` schreiben.
+
+## git
+Wenn du an einem Punkt bist, den du auf GitHub hochladen möchtest,
+wechselst du auf dein Terminal und tippst als Erstes
+```
+git status
+```
+Damit erhältst du eine Liste aller Dateien, die du verändert hast.
+Mit
+```
+git add <file>
+```
+kannst du die Dateien in den Staging-Bereich schieben.
+Hast du alle Dateien, die du in einem commit haben möchtest, hinzugefügt,
+packst du den commit mit
+```
+git commit
+```
+und schreibst deine commit-Nachricht im sich öffnenden Texteditor.
+Alternativ kannst du mit
+```
+git commit -m "<commit Nachricht>"
+```
+alles im Terminal schreiben.
+Bevor du deine Änderungen hochlädst,
+solltest du erst schauen,
+ob während deiner Arbeitszeit Änderungen hochgeladen wurden.
+Also führe erst
+```
+git pull
+```
+aus und dann,
+nachdem du auch eventuell auftretende merge-Konflikte gelöst hast,
+```
+git push
+```
