@@ -21,23 +21,27 @@ und MacTeX installieren.
 
 ## <a id="Installation"></a>Installation
 
-{% include admonition.html type="warning" title="Wichtig" body="Befehle im Terminal Zeile für Zeile eingeben und mit Enter bestätigen!" %}
+{% include admonition.html
+  type="warning"
+  title="Wichtig"
+  body="Gib die Befehle Zeile für Zeile ein und bestätige sie mit Enter."
+%}
 
 ### Terminal
 
-- Das Terminal ist in jeder OS X Distribution enthalten
-- Im Spotlight nach "Terminal" suchen
-- Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`
+- Das Terminal ist in jeder OS X Distribution enthalten.
+- Suche im Spotlight nach „Terminal“.
+- Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`.
 
 ### Command Line Tools
 
 Die Command Line Tools beinhalten unter anderem Git und einen C/C++ Compiler.
-Zur Installation gibst du Folgendes im Terminal ein
+Zur Installation gibst du Folgendes im Terminal ein,
 
     xcode-select --install
 
 und führst den Befehl mit `Enter` aus.
-Danach "Installieren" auswählen und warten. Der Download wiegt etwa 130 MB.
+Danach „Installieren“ auswählen und warten. Der Download wiegt etwa 130 MB.
 
 ### Python Installation: Miniforge3
 
@@ -52,17 +56,20 @@ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mini
 bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
-Die Lizenzvereinbarung muss je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden.
-Und kann mit `yes` akzeptiert werden.
-Den Ort der Installation kannst du mit `Enter` akzeptieren.
+Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
+Und dann kannst du sie mit `yes` akzeptieren.
+Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`.
 _Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
-Damit ist die allgemeine Python Umgebung installiert.
+Damit ist die allgemeine Python-Umgebung installiert.
 
-{% include admonition.html type="warning" title="Wichtig" body='Für den folgenden Schritt musst du
-ein neues Terminal öffnen. Wähle dazu in der App "Terminal" den Punkt "<b>Terminal</b>" und dann "<b>Terminal beenden</b>".' %}
+{% include admonition.html
+  type="warning"
+  title="Wichtig"
+  body='Für den folgenden Schritt musst du ein neues Terminal öffnen.
+  Wähle dazu in der App „Terminal“ den Punkt „<b>Terminal</b>“ und dann „<b>Terminal beenden</b>“.' %}
 
-Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
+Im Anschluss erstellst du jetzt noch einen spezielle Python-Umgebung für den Toolbox Workshop mittels:
 
     mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
 
@@ -74,7 +81,8 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen. 
 
     ls
 
-im Terminal ein. In der ausgegebenen Liste sollte `Miniforge3-Darwin-arm64.sh`, oder ähnlich, auftauchen.
+im Terminal ein. In der ausgegebenen Liste sollte `Miniforge3-Darwin-arm64.sh`
+oder ähnlich auftauchen.
 Wenn das so ist, kannst du sie mit dem folgenden Befehl löschen
 
     rm Miniforge3-Darwin-arm64.sh
@@ -85,20 +93,27 @@ Falls du dir nicht sicher bist, kannst du uns für diesen Punkt auch im Workshop
 
 ### Texteditor VSCodium
 
-Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
-und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
+Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt,
+sind proprietär und enthalten Tracking Software.
+Deswegen empfehlen wir dir VSCodium, eine Open-Source-Variante von VSCode.
 
-- Lade die neuste Version der Datei `VsCodium-darwin-<VERSION>.zip` von [dieser Webseite](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter.
--  Das Programm "VSCodium.app" befindet sich dann in der ZIP-Datei im Downloadordner
-  und muss nach `Programme` verschoben werden.
--  Als nächsten Schritt die App öffnen. Bei neueren macOS Versionen verhindert macOS eventuell den Start
-  und du musst zunächst in den Systemeinstellungen unter "Allgemein" und "Sicherheit"
-  auf den "Dennoch öffen" Button klicken.
--  In VSCodium mit `Shift` + `cmd` + `p` die Kommando-Palette öffnen und
-  `Shell Command: Install 'codium' command in PATH` ausführen.
-  Nun wird VSCodium auch geöffnet, wenn im Terminal `codium` eingeben wird.
+- Lade die neueste Version der Datei `VsCodium-darwin-<VERSION>.zip` von
+  [dieser Webseite](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter.
+- Das Programm „VSCodium.app“ findest du in der ZIP-Datei im Downloadordner
+  und musst sie nach `Programme` verschieben.
+- Als nächsten Schritt öffnest du die App.
+  Bei neueren macOS-Versionen verhindert macOS eventuell den Start,
+  und du musst zunächst in den Systemeinstellungen unter „Allgemein“
+  und „Sicherheit“ auf den „Dennoch öffnen“ Button klicken.
+- In VSCodium öffnest du mit `Shift` + `cmd` + `p` die Kommando-Palette
+  und schreibst dort
+  ```
+  Shell Command: Install 'codium' command in PATH
+  ```
+  führst es dann mit `Enter` aus.
+  So wird VSCodium nun auch geöffnet, wenn du im Terminal `codium` eingibst.
 
-Um git beizubringen, VSCodium zu benutzen, im Terminal eingeben:
+Um git beizubringen, VSCodium zu benutzen, gibst du im Terminal ein:
 
     git config --global core.editor "codium --wait"
 
@@ -114,7 +129,8 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ### Git
 
-Terminal öffnen
+Öffne ein Terminal und gib nacheinander alle folgenden Befehle ein.
+Wir erklären parallel, welche Ausgabe passieren sollte.
 
     git
 
@@ -131,7 +147,7 @@ aber <span style="color: red;">__trage deine eigenen Daten ein!!!__</span>:
 
 ### Python
 
-Um python zu testen, musst du erst im Terminal die oben installierte Umgebung installieren:
+Um Python zu testen, musst du erst im Terminal die oben installierte Umgebung installieren:
 
     mamba activate toolbox
 
@@ -139,8 +155,8 @@ Danach kannst du das Programm `ipython` starten:
 
     ipython
 
-`ipython` sollte gestartet sein und du hast statt dem `$`-Zeichen einen nummerierten Prompt.
-Jetzt gibst du jeweils den Teil der Zeile nach dem `:` ein (und bestätigst jeweils mit `Enter`.
+`ipython` sollte gestartet sein und du hast statt des `$`-Zeichens einen nummerierten Prompt.
+Jetzt gibst du jeweils den Teil der Zeile nach dem `:` ein und bestätigst mit `Enter`.
 
     In [1]: %matplotlib
     In [2]: import matplotlib.pyplot as plt
@@ -150,7 +166,7 @@ Jetzt gibst du jeweils den Teil der Zeile nach dem `:` ein (und bestätigst jewe
     In [6]: import uncertainties
     In [7]: plt.plot([1, 2, 4])
 
-Es sollte ein Fenster mit einem Plot erscheinen, dieses kannst du schließen und `ipython` beenden mit
+Es sollte ein Fenster mit einem Plot erscheinen, dieses kannst du schließen und `ipython` beenden.
 
     In [8]: quit
 
@@ -167,17 +183,18 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
 ### TeX
 
-Im Terminal:
+Erneut sind wir im Terminal, tippe
 
     luatex
 
-Es sollte folgende oder ähnliche Ausgabe erscheinen:
+ein. Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.18.0 (TeX Live 2024)
+    This is LuaTeX, Version 1.22.0 (TeX Live 2025)
     restricted system commands enabled.
     **
 
-Mit `Strg` + `c` beenden.
+Mit `Strg` + `c` kannst du es beenden.
+Dann testen wir als Nächstes
 
     biber
 
