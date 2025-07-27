@@ -36,7 +36,7 @@ um eine Ubuntu-Installation verwenden zu können, ohne ein komplett neues Betrie
 
 #### <a id="Windowsinfo"></a> Windows-Info: Betriebssystembuild-Nummer
 Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell ist.
-Hierfür macht man einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
+Hierfür machst du einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
 
 <img alt="" src="/img/wsl/win10-buildnumber-1.png" style="max-width:60%;" />
@@ -50,7 +50,7 @@ Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich 
 Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
 
 Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Windows-Installation
-zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach "Update"
+zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach „Update“
 suchen und den Punkt _Nach Updates suchen_ auswählen.
 
 <img alt="" src="/img/wsl/win10-updates-1.png" style="max-width:90%;" />
@@ -59,25 +59,30 @@ Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates 
 
 <img alt="" src="/img/wsl/win10-updates-2.png" style="max-width:90%;" />
 
-Überprüfe nach der Installation der Updates und einem Neustart eures PCs noch einmal die
+Überprüfe nach der Installation der Updates und einem Neustart deines PCs noch einmal die
 _Betriebssystembuild_-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
 
 #### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
-Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente)
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z. B. `.pdf` für PDF-Dokumente)
 sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
-Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
-`Windows` + `E`  geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen `Strg` und `Alt` unten links
-auf der Tastatur).
+Diese Einstellung kannst du im Datei-Explorer vornehmen.
+Dieser kann am einfachsten mit der Tastenkombination `Windows` + `E` geöffnet werden
+(`Windows` ist die Taste mit dem Windowslogo zwischen
+`Strg` und `Alt` unten links auf der Tastatur).
 
-Alternativ kann der Explorer in der Suche im Startmenü gefunden werden. Nach dem Öffnen des Startmenüs
-wird automatisch eine Suche gestartet, wenn Buchstaben über die Tastatur eingegeben werden. Hier muss
-nach `Explorer` gesucht werden. Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
+Alternativ kann der Explorer in der Suche im Startmenü gefunden werden.
+Nach dem Öffnen des Startmenüs wird automatisch eine Suche gestartet,
+wenn Buchstaben über die Tastatur eingegeben werden.
+Hier musst du `Explorer` eingeben.
+Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
 
 <img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
 
-In der obersten Zeile gibt es den Punkt `Ansicht`, das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden (ein schwarzer Haken muss im Kästchen zu sehen sein).
+In der obersten Zeile gibt es den Punkt `Ansicht`,
+das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden
+(ein schwarzer Haken muss im Kästchen zu sehen sein).
 
 <img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
 
@@ -87,27 +92,30 @@ Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
 siehe Abschnitt <a href="#Vorbereitungen">Vorbereitungen</a>.
 
 #### Installation des WSL
-Zunächst muss eine PowerShell Konsole als Administrator gestartet werden.
-Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs. Durch Tippen des
-Begriffs "Power" auf der Tastatur wird automatisch eine Suche gestartet. Klicke auf der rechten
-Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
+Zunächst musst du eine PowerShell Konsole als Administrator starten.
+Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs.
+Durch Tippen des Begriffs „Power“ auf der Tastatur wird automatisch eine Suche gestartet.
+Klicke auf der rechten Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
 
 <img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
 
-In den meisten Fällen wird das folgende Fenster erscheinen. Dieses muss mit _Ja_ bestätigt werden.
-Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
+In den meisten Fällen wird das folgende Fenster erscheinen.
+Dieses musst du mit _Ja_ bestätigen.
+Diese Warnungen können auch im Folgenden noch auftreten,
+auch dann müssen diese mit _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
-Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
-kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
+Um sicherzugehen, dass du eine PowerShell mit Administrator-Rechten geöffnet hast,
+kannst du den Titel des Fensters überprüfen, dieser muss mit _Administrator:_ beginnen.
 
 <img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
 
-In die PowerShell muss jetzt der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
+In die PowerShell gibst du den folgenden Befehl ein.
+Dieser kann auch kopiert und eingefügt werden;
+Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install
 ```
@@ -123,18 +131,19 @@ Ausgabe wie folgt aus
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
 
-Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die
-Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
+Nach dem Neustart soll sich automatisch das folgende Fenster öffnen,
+in dem die Installation des WSL durch Einrichten des Benutzerkontos
+abgeschlossen werden kann.
 
 <img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
 
 #### <a id="Einrichten des Benutzerkontos">Einrichten eines Benutzerkontos
 
-Nach erfolgreicher Installation erscheint die Aufforderung, einen Benutzernamen für
-das Linux-Betriebssystem einzugeben.
-Dieser Linux-Benutzername kann frei gewählt werden.
+Nach erfolgreicher Installation erscheint die Aufforderung,
+einen Benutzernamen für das Linux-Betriebssystem einzugeben.
+Diesen Linux-Benutzernamen kannst du frei wählen.
 Der Linux-Benutzername __kann, muss aber nicht,__
-mit dem Windows-Benutzernamen übereinstimmen.
+mit deinem Windows-Benutzernamen übereinstimmen.
 
 
 {% include admonition.html type="warning" title="Wichtig" body="Der Benutzername darf <b>nur</b> Kleinbuchstaben und <b>keine</b> Leerzeichen enthalten." %}
@@ -144,10 +153,12 @@ Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username.png" class="screenshot" />
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
-Aus Sicherheitsgründen, wird das eingegebene Passwort nicht angezeigt.
-Die Eingabe wird durch Drücken der `Enter`-Taste bestätigen.
-Im Anschluss muss das Passwort erneut eingegeben werden, um Tippfehler auszuschließen.
+Aus Sicherheitsgründen wird das eingegebene Passwort nicht angezeigt.
+Die Eingabe bestätigst du mit dem Drücken der `Enter`-Taste.
+Im Anschluss musst du das Passwort erneut eingeben, um Tippfehler auszuschließen.
 Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
+
+{% include admonition.html type="warning" title="Wichtig" body="Merke dir dein Passwort." %}
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
 
@@ -159,11 +170,14 @@ so muss ein erneuter Versuch zunächst mit `y` bestätigt werden.
 Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zweimal eingegeben werden).
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2.png" class="screenshot" />
 
-Ist die Installation erfolgreich durchgeführt worden,
-erhält man die im nächsten Screenshot gezeigte Ausgabe.
-Die letzte Zeile (im Screenshot: `luckyjosh@DESKTOP-L02KDEF:~$`) wird im folgenden **Eingabezeile** genannt.
+Ist die Installation erfolgreich durchgeführt,
+erhältst du eine zum folgenden Screenshot ähnliche Ausgabe.
+Die letzte Zeile (im Screenshot: `luckyjosh@DESKTOP-L02KDEF:~$`) wird im Folgenden **Eingabezeile** genannt.
 
-Die Eingabezeile besteht aus zwei Teilen. Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (im Screenshot: `luckyjosh`) und dem Computernamen (im Screenshot: `DESKTOP-L02KDEF`) zusammen. Hier werden bei dir andere Namen stehen.
+Die Eingabezeile besteht aus zwei Teilen.
+Die Information vor dem Doppelpunkt setzt sich dabei aus dem Benutzernamen (im Screenshot: `luckyjosh`)
+und dem Computernamen (im Screenshot: `DESKTOP-L02KDEF`) zusammen.
+Hier werden bei dir andere Namen stehen.
 Der Teil nach dem Doppelpunkt besteht aus einer Tilde `~` und einem Dollarzeichen `$`.
 Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur Interaktion
 mit dem Linux-Betriebssystem verwendet wird. Eine detailliertere Einführung in den Umgang erfolgt während
@@ -171,18 +185,18 @@ des Workshops, im Folgenden wird diese jedoch schon zur Installation der benöti
 
 <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
 
-Vor dem nächsten Abschnitt könnt ihr das Terminal Fenster schließen. Indem ihr den Befehl
+Schließe vor dem nächsten Abschnitt dieses Terminal Fensters, indem du den Befehl
 ```
 exit
 ```
-eingebt oder auf das `X` oben rechts klickt.
+eingibst (+ `Enter`) oder auf das `X` oben rechts klickst.
 
 ### <a id="WindowsTerminal"></a>Windows Terminal
 
-Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar. Das Windows Terminal kann
-aus dem Microsoft Store installiert werden.
+Das Windows Terminal stellt einen Ersatz der Standard-WSL-Kommandozeile dar.
+Das Windows Terminal kannst du aus dem Microsoft Store installieren.
 
-Auch der Microsoft Store kann über die Suche im Startmenü gefunden werden:
+Der Microsoft Store kannst du wieder über die Suche im Startmenü finden:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-store-1.png" class="screenshot" />
 
@@ -194,17 +208,17 @@ Und im folgenden Fenster `Herunterladen` anklicken:
 
 <img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
 
-Im Anschluss an die Installation kann der Microsoft Store geschlossen werden.
+Im Anschluss an die Installation kannst du den Microsoft Store wieder schließen.
 
 Das Windows Terminal kann über das Startmenü geöffnet werden. Direkt nach der Installation
-befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kann hier wieder
-die Suche verwendet werden. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der
+befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kannst du
+`Terminal` eingeben. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der
 rechten Spalte.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
 
 Beim ersten Öffnen des Windows Terminals erscheint ein Informations-Banner am oberen Fensterrand,
-welches mit dem `X` am rechten Rand geschlossen werden kann.
+welches du mit dem `X` am rechten Rand schließen kannst.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
 
@@ -220,11 +234,13 @@ auf den Pfeil nach unten öffnet sich eine Auswahl.
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
 
-In der Auswahl dann Ubuntu auswählen (falls _Ubuntu_ mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
+In der Auswahl wählst du dann Ubuntu aus (falls _Ubuntu_ mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
 
 <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
 
-Im Anschluss kann das Terminal Fenster geschlossen werden.
+Im Anschluss kannst du das Terminal Fenster schließen.
+Wir öffnen es gleich zwar direkt wieder,
+so kannst du aber überprüfen, ob die Einstellung des Standardprofils funktioniert hat.
 
 ### Git, Make und weiteres
 
