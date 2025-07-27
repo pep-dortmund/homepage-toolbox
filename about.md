@@ -28,4 +28,5 @@ Die Organisatoren sind dieses Jahr
   - Anno Knierim
   - Sebastian Lütge
 
-Ihr könnt uns über die folgende Mail-Adresse erreichen: [pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de).
+Du kannst uns über die folgende Mail-Adresse erreichen:
+[pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de).
