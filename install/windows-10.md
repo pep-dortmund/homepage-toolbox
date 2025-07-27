@@ -251,15 +251,15 @@ so kannst du aber überprüfen, ob die Einstellung des Standardprofils funktioni
     Diese werden in einem Codeblock wie diesem angegeben:
   </p>
   <pre class="admonition highlight"><code>Beispielbefehl</code></pre>
-  <p>Im Terminal muss <b>jeder Codeblock einzeln</b> eingeben und mit <code>Enter</code> bestätigt werden.</p>
+  <p>Im Terminal musst du <b>jeden Codeblock einzeln</b> eingeben und mit <code>Enter</code> bestätigen.</p>
 </div>
 
 
 
-Für die Installation der beiden Programme git und make muss zunächst das Windows Terminal geöffnet werden
+Für die Installation der beiden Programme git und make musst du zunächst das Windows Terminal öffnen
 (wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a> über das Startmenü).
 
-Zunächst muss ein Update mit dem folgenden Befehl durchgeführt werden:
+Als Erstes solltest du ein Update mit dem folgenden Befehl durchführen:
 ```
 sudo apt update
 ```
@@ -272,7 +272,7 @@ das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpassw
 <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme,
-die upgedatet werden können, beim ersten Ausführen wesentlich länger sein.
+die aktualisiert werden können, beim ersten Ausführen wesentlich länger sein.
 
 <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 
@@ -281,30 +281,30 @@ Dies erfolgt durch Eingabe des Befehls
 ```
 sudo apt upgrade
 ```
-und auch dieser Befehl wird mit der `Enter`-Taste bestätigt.
-Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und drücken der
+Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und Drücken der
 `Enter`-Taste nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
 <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
 
-Nun können die drei Programme `git`, `make` und `curl` und bereits Abhängigkeiten für `biber` installiert werden. Dies erfolgt durch die Eingabe des
-Befehls
+Nun kannst du die drei Programme `git`, `make` und `curl` installieren.
+Dies erfolgt durch die Eingabe des Befehls
 ```
-sudo apt install git make curl
+sudo apt install -y git make curl
 ```
-und anschließende Bestätigung mit der `Enter`-Taste. Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
+und anschließende Bestätigung mit der `Enter`-Taste.
+Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
 
-Eine erfolgreiche Installation, wie unten gezeigt, kann daran erkannt werden, dass keine Fehlermeldungen ausgegeben werden.
+Du erkennst eine erfolgreiche Installation, wie unten gezeigt, daran, dass keine Fehlermeldungen ausgegeben werden.
 
 <img alt="" src="/img/unix/unix-5.png" class="screenshot" />
 
 #### Git-Einstellungen
 
-Für Git müssen noch ein paar Einstellungen vorgenommen werden.
-Dafür werden in das Windows Terminal wie zuvor
-die folgenden Befehle eingegeben und jeweils mit der `Enter`-Taste bestätigt.
+Für Git musst du noch ein paar Einstellungen vornehmen.
+Schreibe dafür in das Windows Terminal wie zuvor
+die folgenden Befehle und bestätige sie jeweils mit der `Enter`-Taste.
 
 {% include admonition.html type="warning" title="Wichtig" body="Anstelle von <code>Max Mustermann</code> solltest du natürlich deinen <b>eigenen Namen</b> und auch deine <b>eigene E-Mail-Adresse</b> verwenden!" %}
 
@@ -328,13 +328,14 @@ Sicherheit nachgeholt werden.
 
 #### Installationsordner `~/.local`
 
-Für die Installation von [Miniforge3 (Python)](#Miniforge3) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt. Dieser kann mit dem folgenden Befehl erstellt werden.
+Für die Installation von [Miniforge3 (Python)](#Miniforge3) und [TeXLive (LaTeX)](#TeXLive) wird noch ein Ordner benötigt.
+Diesen kannst du mit dem folgenden Befehl erstellen:
 
 ```
 mkdir -p ~/.local
 ```
 
-Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert
+Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert,
 und tut gar nichts, falls dieser Ordner schon existiert.
 
 ### <a id="Miniforge3"></a>Python Installation: Miniforge3
@@ -342,36 +343,35 @@ und tut gar nichts, falls dieser Ordner schon existiert.
 Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
 nutzen zu können, verwenden wir das Tool `mamba`.
 
-Die Installationsdatei _Miniforge3-Linux-x86-64.sh_ kann, durch die Eingabe der folgenden Befehle
-ins Windows Terminal, heruntergeladen werden:
-
+Die Installationsdatei _Miniforge3-Linux-x86-64.sh_ kannst du,
+durch die Eingabe der folgenden Befehle ins Windows Terminal, herunterladen:
 ```
 cd ~/.local
 ```
-Dieser Befehl ändert den aktuellen Pfad auf den Ordner, in den die Installationsdatei heruntergeladen werden soll.
+Dieser Befehl ändert den aktuellen Pfad auf den Ordner, in dem die Installationsdatei heruntergeladen werden soll.
 Der aktuelle Pfad wird zwischen dem `:` und `$` angezeigt, dieser sollte nun `~/.local` sein.
-
+Jetzt kannst du die Installationsdatei herunterladen.
 ```
 curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 ```
-Dieser Befehl lädt die Installationsdatei herunter. Der Download kann einige Zeit in Anspruch nehmen.
+Der Download kann einige Zeit in Anspruch nehmen.
 
 ```
 ls
 ```
-Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Pfad befinden. Die Datei _Miniforge3-Linux-x86-64.sh_
-sollte hier aufgeführt sein.
+Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Ordner befinden.
+Die Datei _Miniforge3-Linux-x86-64.sh_ sollte hier aufgeführt sein.
 
 <img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
 
-Zum Installieren muss der folgende Befehl ausgeführt werden.
+Zum Installieren musst du den folgenden Befehl ausführen.
 
 ```
 bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 ```
 Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 
-Im Folgenden muss noch die Benutzungsbestimmungen bestätigt werden (keine Angst: Du kaufst damit nichts).
+Im Folgenden musst du die Benutzungsbestimmungen bestätigen.
 Diese werden zunächst mit der `Enter`-Taste geöffnet
 
 <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
@@ -381,19 +381,20 @@ ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ 
 
 <img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
 
-Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächster Screenshot)
+Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächsten Screenshot)
 der Benutzungsbestimmung zu gelangen.
-Am Ende der Benutzungsbestimmungen müssen diese dann durch die Eingabe von `yes`
-und anschließendem `Enter` akzeptiert werden.
+Am Ende der Benutzungsbestimmungen kannst du diese durch die Eingabe von `yes`
+und anschließendem `Enter` akzeptieren.
 
 <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
 
-Die Installation wird dann mit einem weiteren `Enter` gestartet, auch diese kann einige Minuten Zeit brauchen.
+Mit einem weiteren `Enter` startest du die Installation,
+auch diese kann einige Minuten Zeit brauchen.
 
 <img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
 
 Die Installation endet mit den folgenden Zeilen:
-Hier muss abermals `yes` eingegeben und mit `Enter` bestätigt werden.
+Hier musst du abermals `yes` eingeben und mit `Enter` bestätigen.
 
 <img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
 
@@ -401,19 +402,23 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
 
-{% include admonition.html type="warning" title="Wichtig" body="Verwendet werden kann mamba erst
-nach dem Schließen des Terminal Fensters und dem Öffnen eines Neuen." %}
+{%
+  include admonition.html
+  type="warning"
+  title="Wichtig" body="Du kannst Mamba erst verwenden,
+    wenn du das aktuelle Terminal Fenster geschlossen und ein neues geöffnet hast."
+%}
 
 Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
 <img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
 
-Jetzt müssen noch die Python-Pakete installiert werden, die im Workshop vorgestellt werden.
+Jetzt musst du noch die Python-Pakete installieren, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
-und wofür die gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
-wir eine separate Python Installation mit genau den Paketen, die wir für den Workshop brauchen.
+und wofür sie gut ist, erklären wir im Laufe des Workshops. Einfach gesprochen erstellen
+wir eine separate Python Installation mit genau den Paketen, die du für den Workshop brauchst.
 
-Dazu nutzen wir den folgenden Befehl:
+Nutze dazu den folgenden Befehl:
 
 ```
 mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
@@ -428,18 +433,21 @@ angezeigt wird.
 
 <img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
 
-Nach erfolgreicher Installation kann die Installationsdatei _Miniforge3-Linux-x86-64.sh_
+Nach erfolgreicher Installation kannst du die Installationsdatei _Miniforge3-Linux-x86-64.sh_
 mit dem Befehl
 
 ```
 rm ~/.local/Miniforge3-Linux-x86_64.sh
 ```
-gelöscht werden.
+löschen.
 
 ### <a id="TeXLive"></a>TeXLive
 
-Im Terminal wird mit den folgenden drei Befehlen das Installationsskript
-heruntergeladen und ausgeführt.
+Mit den folgenden drei Befehlen lädst du das Installationsskript
+herunter und führst es aus. Als Erstes wechselst du in den `.local`-Ordner,
+den du oben erstellt hast,
+der zweite Befehl lädt das Installationsskript herunter und entpackt es.
+Mit dem dritten Befehl startest du dieses.
 ```
 cd ~/.local
 ```
@@ -455,16 +463,17 @@ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 Die Installation startest du mit `I` und `Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
-das machen wir in der Datei `~/.bashrc`.
+das machst du in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
 ```
 echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
+Dieser schreibt die Information in `~/.bashrc`.
 
-Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
-
-In dem neuen Terminal die folgenden Befehle eingeben:
+Schließe jetzt erneut das Terminal und starte ein neues.
+Gib dann in dem neuen Terminal die folgenden Befehle ein,
+ um Einstellungen an LaTeX vorzunehmen:
 
 ```
 tlmgr option autobackup -- -1
@@ -485,71 +494,76 @@ TeXLive zu installieren.
 ### <a id="VSCode"></a>Visual Studio Code (VSCode)
 
 #### Installation
-Visual Studio Code (VSCode) ist ein Text-Editor, der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist. Darüber hinaus hat dieser auch noch viele weitere Funktionen.
+Visual Studio Code (VSCode) ist ein Text-Editor,
+der sowohl zum Schreiben von Programm-Code in Python als auch Texten in LaTeX geeignet ist.
+Darüber hinaus hat dieser auch noch viele weitere Funktionen.
 
-VSCode kann, wie das Windows Terminal, über den Microsoft Store installiert werden.
-Der Microsoft Store wird dafür, genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a>, geöffnet.
-Durch die Suche im Microsoft Store nach `Visual Studio Code` kann in der Liste der entsprechende Punkt ausgewählt werden:
+VSCode kannst du, wie das Windows Terminal, über den Microsoft Store installieren.
+Öffne dazu den  Microsoft Store, genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a>.
+Gib in der Suche `Visual Studio Code` ein und wähle den entsprechenden Punkt aus der Liste aus:
 
 <img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
 
-Auf der folgenden Seite kann VSCode durch einen Klick auf den Button `Installieren` installiert werden.
+Auf der folgenden Seite kannst du VSCode durch einen Klick auf den Button `Installieren` installieren.
 
 <img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
 
-Geöffnet werden kann VSCode nach der Installation über das Startmenü (wie zuvor wird durch Eingabe von `Visual`
-automatisch eine Suche begonnen), VSCode kann dann durch einen Klick auf `Öffnen` geöffnet werden.
+Über das Startmenü (wie zuvor wird durch Eingabe von `Visual` automatisch eine Suche begonnen),
+kannst du VSCode durch einen Klick auf `Öffnen` öffnen.
 
 <img alt="" src="/img/vscodium/vscode-start.png" class="screenshot" />
 
-Beim ersten Start von VSCode nach der Installation, wird in der rechten unteren Ecke eine Infobox angezeigt,
-in dieser muss der Button `Install` angeklickt werden.
+Beim ersten Start von VSCode nach der Installation
+sollte in der rechten unteren Ecke eine Infobox angezeigt,
+in dieser empfehlen wir dir den Button `Install` anzuklicken,
+wenn gefragt wird, ob die `WSL` Erweiterung installiert werden soll.
 
 <img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" style="max-width:90%;" />
 
 #### VSCode: Sprache
 
 Auch wenn es vielleicht ungewohnt ist, kann es von Vorteil sein, Software mit englischen Spracheinstellungen
-zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, müssen die folgenden Schritte befolgt werden.
-Dies ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder eine Änderung der
-Sprache nicht gewünscht ist.
+zu verwenden. Um die Spracheinstellungen von VSCode zu ändern, kannst du die folgenden Schritte befolgen.
+Dies ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist oder du eine Änderung der
+Sprache nicht wünschst.
 
-Zum Öffnen der Spracheinstellungen muss zunächst die Taste `F1` gedrückt werden. Dies öffnet ein
-Eingabefenster, in dem nach Einstellungen gesucht werden kann.
 
-Hier muss nun nach _Configure Display Language_ gesucht werden. Die Einstellung kann dann durch Drücken
-der `Enter`-Taste ausgewählt werden.
+Zum Öffnen der Spracheinstellungen drücke zunächst die Taste `F1`.
+Dies öffnet ein Eingabefenster, in dem du nach Einstellungen suchen kannst.
+
+Suche hier nach _Configure Display Language_.
+Die Einstellung kannst du durch das Drücken der `Enter`-Taste auswählen.
 
 <img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
 
-Im folgenden Auswahlmenü kann die gewünschte Sprache mit einem `Linksklick` ausgewählt werden.
+Im dann folgenden Auswahlmenü kannst du die gewünschte Sprache mit einem `Linksklick` auswählen.
 
 <img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
 
-Die gewählte Sprache wird gegebenenfalls heruntergeladen und wird nach einem Neustart von VSCode nutzbar,
+Die gewählte Sprache wird gegebenenfalls heruntergeladen und ist nach einem Neustart von VSCode nutzbar,
 der im folgenden Fenster ausgeführt werden kann.
 
 <img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
 
 #### VSCode: Terminal einrichten
 
-Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
-kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
-die Windows Powershell. Wie zuvor muss das Terminal noch umgestellt werden.
-Klickt rechts auf den Pfeil nach unten, neben dem `+`, und wählt den Punkt _Select Default Profile_ aus.
+Mit der Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
+öffnest du ein Terminal in VSCode. Dieses Terminal ist nach der ersten Installation aber
+die Windows Powershell. Wie beim Windows Terminal kannst du auch in diesem das Standardprofil umstellen.
+Klicke rechts auf den Pfeil nach unten, neben dem `+`, und wähle den Punkt _Select Default Profile_ aus.
 
 <img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
 
-In der folgenden Auswahl auf _Ubuntu (WSL)_ klicken.
+In der folgenden Auswahl klickst du auf _Ubuntu (WSL)_.
 
 <img alt="" src="/img/vscodium/vscode-terminal-2.png" class="screenshot" />
 
-Anschließend kann das schon geöffnete Terminal mit einem Klick auf die Mülltonne geschlossen werden.
+Und anschließend kannst du das schon geöffnete Terminal mit einem Klick auf die Mülltonne schließen.
 
 <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
 
-Wird nun erneut ein Terminal mit `Strg` + `Shift` + `ö` geöffnet, so sollte dieses nun wie das (mittlerweile)
-gewohnte Terminal aussehen:
+Öffnest du erneut ein Terminal, z. B. mit `Strg` + `Shift` + `ö`,
+so sollte dieses nun wie das (mittlerweile) gewohnte Terminal aussehen:
 
 <img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
 
@@ -557,33 +571,33 @@ gewohnte Terminal aussehen:
 
 #### <a id="SumatraPDF"></a>Sumatra PDF
 
-Als PDF-Betrachter für Windows sollte Sumatra PDF verwendet werden.
-Die Verwendung von Acrobat Reader wird nicht empfohlen, da dieser die PDF-Datei blockiert,
+Als PDF-Betrachter für Windows solltest du Sumatra PDF verwenden.
+Die Verwendung von Acrobat Reader empfehlen wir nicht, da dieser die PDF-Datei blockiert,
 sodass sie nicht von TeX überschrieben werden kann (warum das wichtig ist, erfährst du im Workshop).
 Den Download findest du unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
 
-Auf der Download-Seite kann dann die `x64` Version von Sumatra PDF mit einem `Linksklick` auf den
-hervorgehobenen Link heruntergeladen werden.
+Auf der Download-Seite kannst du dann die `x64` Version von Sumatra PDF mit einem
+`Linksklick` auf dem hervorgehobenen Link herunterladen.
 
 <img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
 
-Die heruntergeladene Datei befindet sich im Downloads-Ordner und kann durch einen doppelten `Linksklick` ausgeführt werden.
+Die heruntergeladene Datei findest du im Downloads-Ordner
+und kannst sie durch einen doppelten `Linksklick` ausführen.
 
 <img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
 
-Infolgedessen öffnet sich das folgende Fenster, in dem die Installation mit einem `Linksklick` auf _Installieren_ gestartet wird.
+Infolgedessen öffnet sich das folgende Fenster,
+in dem du die Installation mit einem `Linksklick` auf _Installieren_ starten kannst.
 
 <img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
 
-Das Fenster kann nach der Installation über das `X` geschlossen werden.
-
+Schließe das Fenster nach der Installation mit dem `X`.
 <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
 
-Zuletzt muss Sumatra PDF noch als Standard PDF-Betrachter eingestellt werden.
-Dafür kann im Startmenü nach `Standard` gesucht werden. Anschließend muss dann
-_Standard-Apps_ geöffnet werden.
+Zuletzt musst du Sumatra PDF noch als Standard PDF-Betrachter einstellen.
+Suche dafür im Startmenü nach `Standard` und öffne _Standard-Apps_.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-1.png" class="screenshot" />
 
@@ -592,43 +606,46 @@ In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Date
 <img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
 
 durch Klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
-In diesem muss bis zu der Zeile nach unten gescrollt werden, in der _.pdf_ in der ersten Spalte steht.
+In diesem musst du bis zu der Zeile nach unten scrollen, in der _.pdf_ in der ersten Spalte steht.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
 
-Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so muss nichts Weiteres getan werden und
-das Fenster kann wie gewöhnlich durch Klicken auf das `X` geschlossen werden.
+Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so musst du nichts Weiteres tun und
+kannst das Fenster wie gewöhnlich durch Klicken auf das `X` schließen.
 
-Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z.B. _Acrobat Reader_ oder _Microsoft Edge_)
-kann durch Klicken auf den Programmnamen ein Auswahlmenü geöffnet werden. In diesem muss dann
-_SumatraPDF_ angeklickt werden.
+Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z. B. _Acrobat Reader_ oder _Microsoft Edge_)
+kannst du durch Klicken auf den Programmnamen ein Auswahlmenü öffnen.
+In diesem wählst du dann _SumatraPDF_ aus.
 
 <img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
 
 #### <a id="evince"></a>Evince
 
-Um (ohne viele Umstände) PDF-Dateien auch aus dem Windows Terminal öffnen zu können, empfiehlt es sich auch einen PDF-Betrachter
-für das WSL zu installieren. Dafür muss folgender Befehl in das Windows Terminal eingegeben werden:
+Um (ohne viele Umstände) PDF-Dateien auch aus dem Windows Terminal öffnen zu können,
+empfehlen wir dir auch, einen PDF-Betrachter für das WSL zu installieren.
+Dafür musst du folgenden Befehl in das Windows Terminal eingeben:
 ```
-sudo apt install evince
+sudo apt install -y evince
 ```
 
 ## <a id="test"></a>Testen
 
 ### Mamba: Python
 
-Um die Python Installation (durch Mamba) zu testen, sollten alle offenen Fenster des Windows Terminals
-geschlossen und ein Neues geöffnet werden.
+Um die Python Installation (durch Mamba) zu testen, solltest du erst alle
+offenen Fenster des Windows Terminals schließen und ein neues öffnen.
 
-Um die installierten Pakete nutzen zu können, muss zunächst die _virtuelle Umgebung_  mit diesem Befehl aktiviert werden:
+Um die installierten Pakete nutzen zu können,
+musst du zunächst die _virtuelle Umgebung_  mit diesem Befehl aktivieren:
 
 ```
 mamba activate toolbox
 ```
 Durch diesen Befehl ändert sich der Beginn der Eingabezeile von _(base)_ zu _(toolbox)_.
 
-In das Windows Terminal werden nun nacheinander die folgenden Befehle eingeben. Nach Eingabe des ersten Befehls
-wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
+Gib nun die folgenden Befehle nacheinander in das Windows Terminal ein.
+Nach Eingabe des ersten Befehls wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
+Am Anfang der Zeile steht jetzt `In [1]:`.
 
 ```
 ipython
@@ -663,7 +680,7 @@ Insgesamt sollte das Terminal wie folgt aussehen:
 
 <img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
 
-Fehler machen sich z.B. so bemerkbar:
+Fehler machen sich z. B. so bemerkbar:
 
 <img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
 
@@ -671,8 +688,7 @@ Mit dem Befehl
 ```
 quit
 ```
-kann das Programm _ipython_ im Anschluss beendet werden.
-
+kannst du das Programm _ipython_ im Anschluss beenden.
 
 Beim Ausführen von `%matplotlib` kann es vorkommen, dass der Fehler
 ```
@@ -686,8 +702,9 @@ echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
 
 ### Make
 
-Make kann durch Öffnen eines Windows Terminals und durch Eingeben des folgenden Befehls getestet werden.
-
+Make kannst du durch Öffnen eines Windows Terminals und durch Eingeben des folgenden Befehls testen,
+du kannst auch das Terminal vom Python-Test weiternutzen.
+Der Test besteht auch nur aus einem Befehl:
 ```
 make
 ```
@@ -700,7 +717,7 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 ### TeXLive
 
 Die TeXLive Installation wird ebenfalls unter Verwendung des Windows Terminals getestet.
-In dieses wird der folgende Befehl eingegeben.
+In dieses gibst du zuerst den folgenden Befehl ein:
 
 ```
 luatex
@@ -709,18 +726,17 @@ luatex
 Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
 ```
-This is LuaTeX, Version 1.18.0 (TeX Live 2024)
+This is LuaTeX, Version 1.22.0 (TeX Live 2025)
 restricted system commands enabled.
 **
 ```
-
-Diese kann mit Drücken der Tastenkombination `Strg-C` (`Strg` und `C`) beendet werden.
-Nun wird ein weiteres Programm getestet, das von LaTeX verwendet wird. Dies wird durch
-Eingabe des Befehls
+Momentan läuft das Programm `luatex`,
+mit dem Drücken der Tastenkombination `Strg-c` (`Strg` und `c`) kannst du es beenden.
+Nun testen wir ein weiteres Programm, das von LaTeX verwendet wird.
+Dies erreichst du durch Eingabe des Befehls
 ```
 biber
 ```
-erreicht.
 
 Es sollte die Biber-Hilfe erscheinen.
 ```
@@ -739,7 +755,7 @@ Usage:
       Please run "biber --help" for option details
 ```
 
-Zuletzt wird noch das Programm zur Betrachtung von Paket-Dokumentationen getestet.
+Zuletzt testen wir noch das Programm zur Betrachtung von Paket-Dokumentationen.
 Der Test-Befehl lautet:
 ```
 texdoc texlive
@@ -749,25 +765,26 @@ texdoc texlive
 
 ### Mamba
 
-Um Updates für mamba zu installieren, wird in einem Windows Terminal folgender Befehl eingetragen.
+Um Updates für mamba zu installieren,
+trägst du in einem Windows Terminal folgenden Befehl ein.
 ```
 mamba update -n toolbox --all
 ```
 
 <img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
 
-Auch hier muss die Installation wieder mit einem `Y` gefolgt von einem `Enter` bestätigt werden.
+Auch hier musst du die Installation wieder mit einem `Y` gefolgt von einem `Enter` bestätigen.
 
 <img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
 
-Die Installation ist (mittlerweile) wie gewohnt abgeschlossen, wenn die Eingabezeile auf dem Terminal
-angezeigt wird.
+Die Installation ist (mittlerweile) wie gewohnt abgeschlossen,
+wenn die Eingabezeile auf dem Terminal angezeigt wird.
 
 ### Git, Make und weitere Unix-Tools
 
 Um Updates für diese sogenannten Unix-Tools zu erhalten,
-müssen wie schon nach der Installation nacheinander die beiden folgenden Befehle in ein
-Windows Terminal eingegeben werden.
+musst du, wie schon nach der Installation, nacheinander die beiden folgenden Befehle in ein
+Windows Terminal eingeben.
 ```
 sudo apt update
 ```
