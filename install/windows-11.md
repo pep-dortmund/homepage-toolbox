@@ -11,15 +11,15 @@ Wir versichern dir, dass diese Länge aber viel mehr ein Zeichen von Ausführlic
 ist, um sicherzustellen, dass du auch folgen kannst, wenn du bisher keine Berührungen
 mit den Inhalten des Toolbox Workshops hattest.
 
-+ Befolge die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen
++ Befolge die Anleitung daher konzentriert und gründlich, um keinen Schritt zu vergessen,
 und kontrolliere jedes Mal, dass du die Befehle richtig kopiert oder abgetippt hast.
 
 + Alle drei Abschnitte (Installieren, Testen, Aktualisieren) und deren Unterabschnitte sind notwendig.
 Den Beginn jedes dieser drei Abschnitte erreichst du über das Inhaltsverzeichnis auf der rechten Seite.
 
-+ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht** einfach,
-sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise, wie du uns
-am besten kontaktieren kannst.
++ Sollte es an irgendeiner Stelle zu Problemen kommen, überspringe diesen Schritt **nicht**,
+sondern melde dich bei uns. Unter [Hilfe](/problem/) findest du die Hinweise,
+wie und mit welchen Informationen du uns am besten kontaktieren kannst.
 
 Falls du __nicht__ am LaTeX-Kurs teilnehmen willst, ist der Abschnitt <a href="#TeXLive">TeXLive </a> optional.
 Dann kannst du allerdings kein TeX in matplotlib benutzen (führt zu weniger schönen Plots).
@@ -36,12 +36,13 @@ um eine Ubuntu-Installation verwenden zu können, ohne ein komplett neues Betrie
 
 #### <a id="Dateiendungen"></a>Dateiendungen einschalten
 
-Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z.B. `.pdf` für PDF-Dokumente)
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z. B. `.pdf` für PDF-Dokumente)
 sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
-Diese Einstellung kann im Explorer vorgenommen werden. Dieser kann am einfachsten mit der Tastenkombination
-`Windows` + `E`  geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen `Strg` und `Alt` unten links
-auf der Tastatur).
+Diese Einstellung kannst du im Datei-Explorer vornehmen.
+Diesen kannst du am einfachsten mit der Tastenkombination `Windows` + `E`
+geöffnet werden (`Windows` ist die Taste mit dem Windowslogo zwischen
+`Strg` und `Alt` unten links auf der Tastatur).
 
 Alternativ kannst du den Explorer mit einem `Rechtsklick` auf das Startmenü-Icon und anschließendem `Linksklick` auf _Explorer_ öffnen.
 
@@ -52,7 +53,7 @@ In der obersten Zeile stehen am rechten Ende drei Punkte. Klicke auf dieses Icon
 <img alt="" src="/img/explorer/explorer-fileext-1_win11.png" class="screenshot" />
 
 In dem geöffneten Fenster musst du zuerst auf den Reiter _Ansicht_ klicken und dort dann den Haken vor _Erweiterung bei bekannten Dateitypen ausblenden_ entfernen.
-Zum Abschluss klicke auf `Übernehmen`.
+KLicke zum Abschluss auf `Übernehmen`.
 
 <img alt="" src="/img/explorer/explorer-fileext-2_win11.png" class="screenshot" />
 
@@ -60,33 +61,33 @@ Zum Abschluss klicke auf `Übernehmen`.
 
 #### Installation des WSL
 Zunächst musst du eine PowerShell Konsole als Administrator starten.
-Die einfachste Möglichkeit dafür ist ein `Rechtsklick` auf das Startmenü-Icon gefolgt von einem
-`Linkslick` auf _Terminal (Administrator)_.
+Die einfachste Möglichkeit dafür ist ein `Rechtsklick` auf das Startmenü-Icon,
+gefolgt von einem `Linkslick` auf _Terminal (Administrator)_.
 
 <img alt="" src="/img/wsl/win11-powershell-admin.png" class="screenshot" />
 
-In den meisten Fällen wird das folgende Fenster erscheinen. Dieses muss mit _Ja_ bestätigt werden.
-Diese Warnungen können auch im Folgenden noch auftreten, auch dann müssen diese mit _Ja_ bestätigt werden.
+In den meisten Fällen wird das folgende Fenster erscheinen. Dieses musst du mit _Ja_ bestätigen.
+Diese Warnungen können auch im Folgenden noch auftreten, auch dann musst du diese mit _Ja_ bestätigen.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 <img alt="" src="/img/wsl/win11-admin-warning.jpg" class="screenshot" />
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicherzugehen, dass eine PowerShell mit Administrator-Rechten geöffnet wurde,
-kann der Titel des Fensters überprüft werden, dieser muss mit _Administrator:_ beginnen.
+kannst du den Titel des Fensters überprüfen, dieser muss mit _Administrator:_ beginnen.
 
 Die Info-Leiste, die am oberen Fensterrand erscheint, kannst du durch einen Klick auf das `X` schließen.
 
 <img alt="" src="/img/wsl/win11-powershell-admin-test.png" class="screenshot" />
 
-In die PowerShell muss nun der folgende Befehl eingegeben werden. Dieser kann auch kopiert
-und eingefügt werden; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
+In die PowerShell musst du nun den folgenden Befehl eingeben. Diesen kannst du auch kopieren
+und einfügen; Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install
 ```
 <img alt="" src="/img/wsl/win11-wsl-install.png" class="screenshot" />
 
-Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
+Mit dem Drücken der `Enter`-Taste bestätigst du die Eingabe.
 
 Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige
 stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die
@@ -96,8 +97,9 @@ Ausgabe wie folgt aus
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
 
-Nach dem Neustart öffnet sich automatische das folgende Fenster, in dem die
-Installation des WSL durch Einrichten des Benutzerkontos abgeschlossen werden kann.
+Nach dem Neustart soll sich automatisch das folgende Fenster öffnen,
+in dem die Installation des WSL durch Einrichten des Benutzerkontos
+abgeschlossen werden kann.
 
 <img alt="" src="/img/wsl/win11-wsl-ubuntu-complete.png" class="screenshot" />
 
