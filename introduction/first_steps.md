@@ -20,7 +20,7 @@ verstanden werden.
 So wie um Zeichen, die Sätze oder den Code strukturieren.
 
 Im Vergleich zu `C++` oder `Java`, zwei weitverbreiteten Sprachen,
-nutzt `python` weniger Zeichen um den Code zu strukturieren.
+nutzt `python` weniger Zeichen, um den Code zu strukturieren.
 Ein paar gibt es dennoch, also bereitet eure
 `:`, `{`, `(`, `[`, `]`, `)`, `}`-Tasten vor.
 
@@ -153,7 +153,7 @@ Wiederhole jetzt den Schritt mit _Öffne in integriertem Terminal_/_Open in Inte
 indem du auf `Enter` drückst.
 `ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
 Es werden dir verschiedene Namen zurückgegeben,
-Du solltest in den zurückgegebenen Namen `introduction.py` sehen.
+du solltest in den zurückgegebenen Namen `introduction.py` sehen.
 <!-- find Befehl der in einem sinnvollen Rahmen nach introduction.py sucht und in den Ordner geht? -->
 Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Enter` aus.
 Als Ausgabe siehst du `Hello World!`, also gerade das,

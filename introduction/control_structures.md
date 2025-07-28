@@ -21,17 +21,16 @@ Das Prozedere können wir so häufig wiederholen, wie wir brauchen.
 Zum Schluss können wir alle Fälle zusammenfassen,
 die _sonst_ noch auftreten können.
 
-Im Code sieht es zum Beispiel so aus (diesen Code-Block jetzt nicht Übernehmen)
+Im Code sieht es zum Beispiel so aus (diesen Pseudocode-Block jetzt nicht übernehmen)
 ```python
 if statement:
-  do this
+    do this
 elif different statement:  # elif short for else if
-  then do this
+    then do this
 else:
-  all statements were wrong
-  do these lines
+    all statements were wrong, do this
 ```
-Wir sehen hier die drei _keywords_ `if`, `elif` und `else`,
+Wir sehen hier, dass die drei _keywords_ `if`, `elif` und `else`
 dick geschrieben sind.
 Nach den ersten beiden _keywords_ folgen `statements`,
 die schauen wir uns im nächsten Abschnitt an.
@@ -42,10 +41,11 @@ Wichtig ist hier, dass die Zeilen eingerückt sind,
 wie im Codeblock gezeigt.
 Viele Programme, wie z.B. VSC, machen diese Einrückung automatisch,
 ansonsten kannst du mit der `Tab`-Taste oder vier Leerzeichen
-die Einrückung selber schreiben.
+die Einrückung selber setzen.
 
 Zum Start schauen wir uns deshalb erst einmal Vergleiche in `python` an, um
 die Statements formulieren zu können.
+
 ### Vergleiche
 Am Ende eines Vergleiches wissen wir, ob dieser Richtig oder Falsch ist,
 in `python` heißt es `True` und `False`.
@@ -59,7 +59,7 @@ print(f"{2 < 2 = }")
 print(f"{2 <= 2 = }")
 ```
 Damit können wir schon sehr viel vergleichen, ein Zeichen möchten wir
-dir jetzt noch zeigen, das Ausrufezeichen `!`.
+dir jetzt noch zeigen: das Ausrufezeichen `!`.
 In `python` verwenden wir es, um _nicht_ nutzen zu können.
 Dazu ein Paar an Beispielen.
 ```python
@@ -87,11 +87,11 @@ dass dies so ist, am besten noch mit den Werten.
 Das kann wie folgt aussehen.
 ```python
 if nr_to_compare < compare_to:
-  print(f"{nr_to_compare} < {compare_to}")
+    print(f"{nr_to_compare} < {compare_to}")
 ```
-Als erstes schrieben wir das keyword `if`,
+Dafür schreiben wir als Erstes das keyword `if`,
 danach folgt der Vergleich zwischen den beiden Zahlen.
-Am Ende der Zeile kommt ein `:` um `python` zu zeigen,
+Am Ende der Zeile kommt ein `:`, um `python` zu zeigen,
 dass der Vergleich zu Ende ist und jetzt eingerückte Zeilen kommen,
 die ausgeführt werden sollen, wenn der Vergleich korrekt ist.
 In diesem Block geben wir die Zahlen mit dem richtigen Vergleichszeichen aus.
@@ -106,7 +106,7 @@ Falls der Vergleich hinter dem `if` richtig wäre,
 würde dieses `elif` übersprungen werden.
 ```python
 elif nr_to_compare > compare_to:
-  print(f"{nr_to_compare} > {compare_to}")
+    print(f"{nr_to_compare} > {compare_to}")
 ```
 Die Syntax hier ist analog zu `if`, erst kommt das _keyword_
 `elif`, kurz für _else if_, dann ein neuer Vergleich und der `:`
@@ -115,7 +115,7 @@ zum Abschluss der Zeile.
 Ob die Zahlen gleich sind, testen wir mit einem weiteren `elif`.
 ```python
 elif nr_to_compare == compare_to:
-  print(f"{nr_to_compare} == {compare_to}")
+    print(f"{nr_to_compare} == {compare_to}")
 ```
 
 ### `else`
@@ -128,7 +128,7 @@ Alle Fälle, die nirgendwo mit einem `if` oder
 Wir geben die Werte aus, um notfalls einfacher Fehler zu finden.
 ```python
 else:
-  print(f"Error: {nr_to_compare = }, {compare_to = }")
+    print(f"Error: {nr_to_compare = }, {compare_to = }")
 ```
 
 Führen wir nun den Code aus, sehen wir, dass `4 > 3`.
@@ -138,7 +138,7 @@ Verhält sich alles so, wie du es erwartest?
 ## <a id="Loops"></a>Schleifen
 Nachdem wir gelernt haben, wie wir Code schreiben können,
 der nur ausgeführt wird, wenn bestimmte Bedingungen erfüllt sind,
-geht es jetzt um Code der wiederholt werden kann.
+geht es jetzt um Code, der wiederholt werden kann.
 Solche Kontrollstrukturen werden Schleifen genannt und wiederholen
 einen gewissen Codeteil wieder und wieder,
 solange eine Bedingung erfüllt ist.
@@ -153,7 +153,7 @@ eingerückten Zeilen immer wieder ausgeführt.
 ```python
 # do not include this code block in your introduction.py
 while statement:
-  do these lines
+    do these lines
 ```
 
 Gehen wir die Funktionsweise einmal anhand des folgenden Beispiels durch.
@@ -162,8 +162,8 @@ Schreibe es in deine `introduction.py` und führe sie wieder aus.
 print("while-loop start")
 i = 0
 while i < 2:
-  print(f"{i = }")
-  i += 1  # i = i + 1
+    print(f"{i = }")
+    i += 1  # i = i + 1
 print("while-loop done")
 ```
 Gehen wir nun die Zeilen und die Ausgabe durch, um die Funktionsweise
@@ -175,7 +175,7 @@ In der zweiten Zeile initialisieren wir die Variable `i` mit 0.
 Für Variablen, die als Zähler in Schleifen verwendet werden,
 sind kurze Namen wie `i` oder `j` üblich.
 Zeile 3 lesen wir als, _während i kleiner als drei ist, tue Folgendes_.
-Momentan ist `i`$$ = 0$$ uns damit kleiner als zwei, es werden jetzt die
+Momentan ist `i = 0` uns damit kleiner als zwei, es werden jetzt die
 eingerückten Zeilen ausgeführt.
 Diese Zeilen beinhalten `i` auszugeben und anschließend
 eins zu `i` zu addieren.
@@ -183,7 +183,7 @@ Dann springen wir wieder hoch zu `while i < 2`.
 Ein Durchlauf der Schleife wird auch **Iteration** genannt.
 Der Wert von `i` ist jetzt 1 und damit weiterhin kleiner als zwei.
 Es wird wieder `i` ausgegeben und eins zu `i` addiert.
-In diesem Moment ist `i`$$= 2$$.
+In diesem Moment ist `i = 2`.
 Der Vergleich `i < 2` ist somit `False` und der Block der eingerückten
 Zeilen wird übersprungen. Damit wird „while-loop end“ ausgegeben,
 die erste nicht eingerückte Zeile nach dem `while`-_keyword_.
@@ -194,7 +194,7 @@ Diese führt die eingerückten Zeilen für alle Elemente eines Objekts durch.
 Da das schwer zum Vorstellen ist, schauen wir uns direkt Beispiele an.
 In der Lektion über [Listen](/introduction/variables/#Lists){:target="_blank"} haben wir eine Liste
 mit verschiedenen Elementen erstellt. Definieren wir sie noch einmal,
-falls du Sie nicht mehr in deiner Datei hast.
+falls du sie nicht mehr in deiner Datei hast.
 ```python
 elements = ['gold', 'titan', 'copper', 'silver']
 ```
@@ -204,7 +204,7 @@ Dafür nehmen wir die `for`-Schleife und iterieren
 Als Code in der Schleife haben wir eine Zeile mit `print`.
 ```python
 for element in elements:
-  print(element)
+    print(element)
 ```
 Als Ausgabe erhalten wir die vier Elemente, jeweils eins pro Zeile,
 in der Reihenfolge, wie sie in der Liste stehen.
@@ -219,7 +219,7 @@ Schauen wir uns den letzten Punkt in einem weiteren Beispiel an.
 ```python
 numbers = [10, -4, 1]
 for x in numbers:
-  print(x**2)
+    print(x**2)
 print(numbers)
 ```
 Hier haben wir uns eine Liste an Zahlen definiert
@@ -236,7 +236,7 @@ wir führen hier aber noch die sehr nützliche Funktion `range` ein.
 Als Erstes schauen wir uns an, was `range` kann.
 ```python
 for i in range(3):
-  print(i)
+    print(i)
 ```
 So bekommen wir sehr einfach die Zahlen zwischen Null und Zwei,
 oder Null und einer anderen Zahl, sodass wir nicht eine Liste
@@ -289,41 +289,41 @@ nr_to_compare = 4
 compare_to = 3
 
 if nr_to_compare < compare_to:
-  print(f"{nr_to_compare} < {compare_to}")
+    print(f"{nr_to_compare} < {compare_to}")
 elif nr_to_compare > compare_to:
-  print(f"{nr_to_compare} > {compare_to}")
+    print(f"{nr_to_compare} > {compare_to}")
 elif nr_to_compare == compare_to:
-  print(f"{nr_to_compare} == {compare_to}")
+    print(f"{nr_to_compare} == {compare_to}")
 else:
-  print(f"Error: {nr_to_compare = }, {compare_to = }")
+    print(f"Error: {nr_to_compare = }, {compare_to = }")
 
 print("Loops")
 print("while-loop start")
 i = 0
 while i < 2:
-  print(f"{i = }")
-  i += 1  # i = i + 1
+    print(f"{i = }")
+    i += 1  # i = i + 1
 print("while-loop done")
 
 elements = ['gold', 'titan', 'copper', 'silver']
 for element in elements:
-  print(element)
+    print(element)
 
 print("for-loop")
 numbers = [10, -4, 1]
 for x in numbers:
-  print(x**2)
+    print(x**2)
 print(numbers)
 
 print("range 0")
 for i in range(3):
-  print(i)
+    print(i)
 
 print("range 1")
 for i in range(2, 10, 2):
-  print(i)
+    print(i)
 
 print("range 2")
 for i in range(5, 0, -1):
-  print(i)
+    print(i)
 ```

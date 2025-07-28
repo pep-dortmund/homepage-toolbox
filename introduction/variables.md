@@ -10,7 +10,7 @@ title:
 # Verschiedene Variablentypen
 
 Als Nächstes möchten wir das Konzept von Variablen besprechen.
-Variablen sind Objekte die einen Namen und einen Wert haben.
+Variablen sind Objekte, die einen Namen und einen Wert haben.
 
 ## Zahlen
 Dem obigen Beispiel von Funktionen der Mathematik treu bleibend, starten wir mit Zahlen.
@@ -64,7 +64,7 @@ Wir haben also
 
 Wenn wir uns die Werte von mehreren Variablen ausgeben wollen, kann das unübersichtlich werden.
 Um das besser zu gestalten, nutzen wir `f-strings`, die können deutlich mehr,
-was wir im Workshop auch zeigen, hier beschränken wir uns auf das Grundlegenste.
+was wir im Workshop auch zeigen, hier beschränken wir uns auf das Grundlegendste.
 Mit der folgenden Schreibweise können wir uns den Namen und Wert einer Variablen ausgeben lassen,
 füge die Zeile ans Ende deiner Datei an und führe sie erneut aus.
 ```python
@@ -136,7 +136,7 @@ Als Strings werden Variablen bezeichnet, die eine Reihe an Zeichen enthalten,
 in den meisten Fällen sind es Buchstaben.
 Das kann wie im _Hello World!_ Beispiel „Hello World!“ sein, aber auch noch ganz viel mehr.
 
-Vor dem nächsten Beispielcode wollen wir einmal String-Addition erwähnen und erklären es nach dem Beispiel.
+Vor dem nächsten Beispielcode wollen wir einmal String-Addition erwähnen und es nach dem Beispiel erklären.
 Schreib also wieder diesen Code ans Ende der Datei und führe sie aus.
 ```python
 print("Strings")

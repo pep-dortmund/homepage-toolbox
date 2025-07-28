@@ -11,7 +11,7 @@ Du bist der Installationsanleitung gefolgt und hast noch keine Programmiererfahr
 noch nie mit `python` gearbeitet oder möchtest dein Wissen auffrischen?
 Dann findest du [hier](/introduction/python/) eine interaktive Anleitung zu den ersten Schritten in `python`.
 
-Du fragst dich was die ganzen Programme sollen?
+Du fragst dich, was die ganzen Programme sollen?
 Wie wir uns das Arbeiten mit diesen vorstellen?
 Auf [dieser Seite](/introduction/toolbox/) haben wir anhand des Protokoll-Templates
 einen beispielhaften Workflow aufgezeichnet.

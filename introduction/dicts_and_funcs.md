@@ -59,16 +59,16 @@ setzen dort unseren `key` ein.
 Als Ausgabe erhalten wir hier die Liste der Vorlesungen aus
 dem zweiten Semester.
 
-Das Liste der `keys` ist sehr nützlich,
+Die Liste der `keys` ist sehr nützlich,
 wenn wir mit den `items` arbeiten wollen.
 Um die Funktionsweise zu zeigen,
 geben wir uns mit `for`-Schleifen die Vorlesungen aus,
 die wir für die Semester eingetragen haben.
 ```python
 for key in lectures.keys():
-  print(f"Im {key} hörte ich die Vorlesungen")
-  for lecture in lectures[key]:
-    print(f"- {lecture}")
+    print(f"Im {key} hörte ich die Vorlesungen")
+    for lecture in lectures[key]:
+        print(f"- {lecture}")
 ```
 Mit `lectures.keys()` erhalten wir die Liste mit den `keys` des
 `dictionaries`, mit der `for`-Schleife können wir über diese
@@ -137,7 +137,7 @@ Wir verkürzen die Zeilenanzahl, indem wir die Rechnung in der Zeile des `return
 Du kennst die Formel aus deinem zweiten Semester, π ist als `3.14` abgekürzt.
 In der `print`-Ausgabe lassen wir uns dann die Kraft zwischen einer positiven und
 einer negativen Elementarladung im Abstand von 1 cm ausgeben. 
-Wie du siehst ist die Ausgabe auch in der `e`-Notation, 
+Wie du siehst, ist die Ausgabe auch in der `e`-Notation, 
 so wie wir auch einige Werte angegeben haben.
 
 Das war es an Lektionen in dieser `python`-Einführung.
@@ -146,7 +146,7 @@ Weiter geht es im [Toolbox Workshop](/#Plan).
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 Da dies die letzte Lektion ist,
-[findest du hier den kompleten Code aller Einheiten.](/introduction/complete_introduction.py)
+[findest du hier den kompletten Code aller Einheiten.](/introduction/complete_introduction.py)
 
 ```python
 """
@@ -175,9 +175,9 @@ print(f"{lectures.items() = }")
 print(f"{lectures["Semester 02"] = }")
 
 for key in lectures.keys():
-  print(f"Im {key} hörte ich die Vorlesungen")
-  for lecture in lectures[key]:
-    print(f"- {lecture}")
+    print(f"Im {key} hörte ich die Vorlesungen")
+    for lecture in lectures[key]:
+        print(f"- {lecture}")
 
 print("Functions")
 
