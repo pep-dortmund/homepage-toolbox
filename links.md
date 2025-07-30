@@ -4,6 +4,14 @@ permalink: /links/
 title: Linksammlung
 ---
 
+## LaTeX Templates in TU themes
+- [Beamer template](https://github.com/maxnoe/TUDoBeamerTheme){:target="_blank"}
+- [Beamer template darktheme](https://github.com/aknierim/tudobeamertheme_dark){:target="_blank"}
+- [Thesis](https://github.com/maxnoe/tudothesis){:target="_blank"}
+  - [PDFA Thesis](https://github.com/maxnoe/pdfa_compliant_thesis){:target="_blank"} PDF-A ist wichtig bei Promotionsarbeiten
+- [Poster](https://github.com/maxnoe/tudoposter){:target="_blank"}
+- [Übungsblätter und Klausuren](https://github.com/chrbeckm/tu-do-ex-sheets){:target="_blank"}
+
 ## Python
 
 - [Python 3 Dokumentation](https://docs.python.org/3/){:target="_blank"}
@@ -31,6 +39,7 @@ title: Linksammlung
 
 - [The Scientific Python lectures](https://github.com/jrjohansson/scientific-python-lectures){:target="_blank"}
 - [Python Data Science Handbook](https://github.com/jakevdp/PythonDataScienceHandbook){:target="_blank"}
+- [Scientific Python Notebooks](https://github.com/maxnoe/scientific_python_notebooks){:target="_blank"} Notebooks sehr ähnlich und aufbauend auf dem Workshop
 - Vortrag: [The Unexpected Effectiveness of Python in Science](https://www.youtube.com/watch?v=ZyjCqQEUa8o&t=10s){:target="_blank"}
 
 ## Unix
@@ -43,11 +52,11 @@ title: Linksammlung
 <!-- {Site seemss to not exist} - [To understand the command line…](http://geekblog.oneandoneis2.org/index.php/2012/09/30/to-understand-the-command-line){:target="_blank"}: Über die Logik der Shell -->
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line){:target="_blank"}: Liste von Dingen, die man können sollte
 <!-- {Subscription model} - [Learn Enough Command Line to Be Dangerous](http://www.learnenough.com/command-line){:target="_blank"}: Einführung in die Kommandozeile -->
-- Bash Materialien:
+<!-- - Bash Materialien:
     - [Einführung in Bash-Programmierung](http://mywiki.wooledge.org/BashGuide){:target="_blank"}: [Neuere Version](https://guide.bash.academy/){:target="_blank"} noch nicht komplett
     - [Bash-Fallen](http://mywiki.wooledge.org/BashPitfalls){:target="_blank"}
     - [Bash-Referenz](http://mywiki.wooledge.org/BashSheet){:target="_blank"}
-    - [Häufige Fragen zu Bash](http://mywiki.wooledge.org/BashFAQ){:target="_blank"}
+    - [Häufige Fragen zu Bash](http://mywiki.wooledge.org/BashFAQ){:target="_blank"}-->
 - [The Unix-Haters Handbook](https://web.mit.edu/~simsong/www/ugh.pdf){:target="_blank"}: Satire
 
 ## Git
@@ -60,6 +69,9 @@ title: Linksammlung
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out){:target="_blank"}: Erklärt, wie `git` intern arbeitet
 - [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/){:target="_blank"}: Einführung in die `git`-Innereien
 - [Mögliche Nachteile von Git](https://youtu.be/CDeG4S-mJts){:target="_blank"}: Satire
+- Video-Einführung in git von Max (langjähriger Leiter des Workshops)
+  - https://www.youtube.com/watch?v=R2BCOtPwtXc
+  - https://www.youtube.com/watch?v=ZEcklfIp6Og
 
 ## Make
 
@@ -86,6 +98,7 @@ title: Linksammlung
 - [Typst](https://typst.app/){:target="_blank"}: Eine junge LaTeX-Alternative mit built-in Online-Editor, Echtzeit-Kollaboration und schnellem Rendering
 - [Lyx](https://www.lyx.org/){:target="_blank"}: Eine ältere LaTeX-Alternative, die die Stärken von TeX mit einer graphischen Oberfläche verbindet.
 - [decker](https://decker.cs.tu-dortmund.de/){:target="_blank"}: Softwarewerkzeug zum Erstellen von interaktiven Webpräsentationen; entwickelt von TU Dortmund, Universität Würzburg und Berliner Hochschule für Technik
+  - [kurze Einführung](https://github.com/maxnoe/docker-intro){:target="_blank"}
 
 ## Editoren
 
