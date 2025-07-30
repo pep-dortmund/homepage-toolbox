@@ -186,7 +186,7 @@ Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
 ### TeX
 
-Erneut sind wir im Terminal, tippe
+Erneut sind wir im Terminal; tippe
 
     luatex
 

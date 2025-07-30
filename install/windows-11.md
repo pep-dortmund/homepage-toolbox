@@ -57,7 +57,7 @@ In der obersten Zeile stehen am rechten Ende drei Punkte. Klicke auf dieses Icon
 </p>
 
 In dem geöffneten Fenster musst du zuerst auf den Reiter _Ansicht_ klicken und dort dann den Haken vor _Erweiterung bei bekannten Dateitypen ausblenden_ entfernen.
-KLicke zum Abschluss auf `Übernehmen`.
+Klicke zum Abschluss auf `Übernehmen`.
 
 <p align="center">
   <img alt="" src="/img/explorer/explorer-fileext-2_win11.png" class="screenshot" />
