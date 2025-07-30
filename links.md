@@ -45,18 +45,10 @@ title: Linksammlung
 ## Unix
 
 - `man bash`
-<!-- - [Learn CLI The Hard Way](https://learncodethehardway.org/unix/){:target="_blank"}: Kostenloses Buch über die Kommandozeile (Site under redesign) -->
 - [Linux/Unix Tutorial](https://www.geeksforgeeks.org/linux-tutorial/){:target="_blank"}
 - [Bash Guide for Beginners](http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html){:target="_blank"}
 - [Advanced Bash-Scripting Guide](http://tldp.org/LDP/abs/html/index.html){:target="_blank"}: Wenn man googelt, landet man häufig hier
-<!-- {Site seemss to not exist} - [To understand the command line…](http://geekblog.oneandoneis2.org/index.php/2012/09/30/to-understand-the-command-line){:target="_blank"}: Über die Logik der Shell -->
 - [The Art of Command Line](https://github.com/jlevy/the-art-of-command-line){:target="_blank"}: Liste von Dingen, die man können sollte
-<!-- {Subscription model} - [Learn Enough Command Line to Be Dangerous](http://www.learnenough.com/command-line){:target="_blank"}: Einführung in die Kommandozeile -->
-<!-- - Bash Materialien:
-    - [Einführung in Bash-Programmierung](http://mywiki.wooledge.org/BashGuide){:target="_blank"}: [Neuere Version](https://guide.bash.academy/){:target="_blank"} noch nicht komplett
-    - [Bash-Fallen](http://mywiki.wooledge.org/BashPitfalls){:target="_blank"}
-    - [Bash-Referenz](http://mywiki.wooledge.org/BashSheet){:target="_blank"}
-    - [Häufige Fragen zu Bash](http://mywiki.wooledge.org/BashFAQ){:target="_blank"}-->
 - [The Unix-Haters Handbook](https://web.mit.edu/~simsong/www/ugh.pdf){:target="_blank"}: Satire
 
 ## Git
@@ -64,7 +56,6 @@ title: Linksammlung
 - [Learn Git Branching](http://learngitbranching.js.org/){:target="_blank"}
 - [Pro Git](https://git-scm.com/book/en/v2){:target="_blank"}: Kostenloses Buch über Git (sehr gut)
 - [On undoing, fixing, or removing commits in git](https://sethrobertson.github.io/GitFixUm/fixup.html){:target="_blank"}: Interaktive Anleitung zum Korrigieren von Fehlern
-<!-- - [Git pretty](http://justinhileman.info/article/git-pretty/){:target="_blank"}: Flowchart für Fehlerbehebung -->
 - [How to undo (almost) anything with Git](https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/){:target="_blank"}
 - [Git from the inside out](https://codewords.recurse.com/issues/two/git-from-the-inside-out){:target="_blank"}: Erklärt, wie `git` intern arbeitet
 - [Git from the Bottom Up](https://jwiegley.github.io/git-from-the-bottom-up/){:target="_blank"}: Einführung in die `git`-Innereien
