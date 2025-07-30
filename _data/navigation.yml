@@ -14,6 +14,16 @@
     - title: Linux/Windows DualBoot
       link: dualboot/
 
+- title: Einstieg
+  subdirectory: /introduction
+  submenu:
+    - title: Überblick
+      link: introduction/
+    - title: Python
+      link: python/
+    - title: Das Toolbox Paket
+      link: toolbox/
+
 - title: Material
   link: /notes/
 

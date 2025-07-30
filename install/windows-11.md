@@ -557,7 +557,7 @@ der im folgenden Fenster ausgeführt werden kann.
   <img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
 </p>
 
-#### VSCode: Terminal einrichten
+#### <a id="VSCodeTerminal"></a>VSCode: Terminal einrichten
 
 Mit Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
 kann ein Terminal in VSCode geöffnet werden. Dieses Terminal ist nach der ersten Installation aber
