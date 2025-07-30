@@ -148,6 +148,9 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
+Im folgenden Abschnitt zeigen wir dir, wie du testen kannst, dass die Installationen funktioniert haben 
+und somit entspannt in den Workshop starten kannst.
+
 ### Git
 
 Öffne ein Terminal und gib

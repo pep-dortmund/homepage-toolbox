@@ -751,6 +751,9 @@ sudo apt install -y evince
 
 ## <a id="test"></a>Testen
 
+Im folgenden Abschnitt zeigen wir dir, wie du testen kannst, dass die Installationen funktioniert haben 
+und somit entspannt in den Workshop starten kannst.
+
 ### Mamba: Python
 
 Um die Python Installation (durch Mamba) zu testen, solltest du erst alle
@@ -777,7 +780,6 @@ ipython
 ```
 import matplotlib.pyplot as plt
 ```
-
 ```
 import numpy as np
 ```
@@ -790,7 +792,6 @@ import sympy
 ```
 import uncertainties
 ```
-
 ```
 plt.plot([1, 2, 4])
 ```
@@ -886,6 +887,11 @@ Der Test-Befehl lautet:
 texdoc texlive
 ```
 
+Schließe das aufgehende Fenster und beende das Windows Terminal mit
+```
+exit
+```
+
 ## <a id="update"></a>Aktualisieren
 
 ### Mamba
@@ -906,7 +912,7 @@ Auch hier musst du die Installation wieder mit einem `Y` gefolgt von einem `Ente
   <img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
 </p>
 
-Die Installation ist (mittlerweile) wie gewohnt abgeschlossen,
+Die Installation ist wie (mittlerweile) gewohnt abgeschlossen,
 wenn die Eingabezeile auf dem Terminal angezeigt wird.
 
 ### Git, Make und weitere Unix-Tools
