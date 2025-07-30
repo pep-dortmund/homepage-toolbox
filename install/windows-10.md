@@ -39,12 +39,16 @@ Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell is
 Hierfür machst du einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
 gefolgt von einem `Linksklick` auf _System_.
 
-<img alt="" src="/img/wsl/win10-buildnumber-1.png" style="max-width:60%;" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-buildnumber-1.png" style="max-width:60%;" />
+</p>
 
 In der Liste am linken Rand lautet der letzte Punkt _Info_ (dieser sollte bereits ausgewählt sein).
 Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer ablesen.
 
-<img alt="" src="/img/wsl/win10-buildnumber-2.png" style="max-width:90%;" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-buildnumber-2.png" style="max-width:90%;" />
+</p>
 
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
 Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
@@ -53,11 +57,15 @@ Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Wi
 zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach „Update“
 suchen und den Punkt _Nach Updates suchen_ auswählen.
 
-<img alt="" src="/img/wsl/win10-updates-1.png" style="max-width:90%;" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-updates-1.png" style="max-width:90%;" />
+</p>
 
 Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates installieren.
 
-<img alt="" src="/img/wsl/win10-updates-2.png" style="max-width:90%;" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-updates-2.png" style="max-width:90%;" />
+</p>
 
 Überprüfe nach der Installation der Updates und einem Neustart deines PCs noch einmal die
 _Betriebssystembuild_-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
@@ -78,13 +86,17 @@ wenn Buchstaben über die Tastatur eingegeben werden.
 Hier musst du `Explorer` eingeben.
 Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
 
-<img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/explorer/explorer-start.png" class="screenshot" />
+</p>
 
 In der obersten Zeile gibt es den Punkt `Ansicht`,
 das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden
 (ein schwarzer Haken muss im Kästchen zu sehen sein).
 
-<img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/explorer/explorer-fileext.png" class="screenshot" />
+</p>
 
 ### Windows Subsystem for Linux (WSL)
 
@@ -97,7 +109,9 @@ Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs.
 Durch Tippen des Begriffs „Power“ auf der Tastatur wird automatisch eine Suche gestartet.
 Klicke auf der rechten Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
 
-<img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-powershell-admin.png" class="screenshot" />
+</p>
 
 In den meisten Fällen wird das folgende Fenster erscheinen.
 Dieses musst du mit _Ja_ bestätigen.
@@ -105,13 +119,17 @@ Diese Warnungen können auch im Folgenden noch auftreten,
 auch dann müssen diese mit _Ja_ bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
-<img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-admin-warning.png" class="screenshot" />
+</p>
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicherzugehen, dass du eine PowerShell mit Administrator-Rechten geöffnet hast,
 kannst du den Titel des Fensters überprüfen, dieser muss mit _Administrator:_ beginnen.
 
-<img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
+</p>
 
 In die PowerShell gibst du den folgenden Befehl ein.
 Dieser kann auch kopiert und eingefügt werden;
@@ -119,7 +137,10 @@ Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
 ```
 wsl --install
 ```
-<img alt="" src="/img/wsl/win10-wsl-install.png" class="screenshot" />
+
+<p align="center">
+  <img alt="" src="/img/wsl/win10-wsl-install.png" class="screenshot" />
+</p>
 
 Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
 
@@ -127,7 +148,9 @@ Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit 
 stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die
 Ausgabe wie folgt aus
 
-<img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-wsl-install-complete.png" class="screenshot" />
+</p>
 
 Wie der letzten Zeile zu entnehmen ist, muss der PC jetzt einmal neu gestartet werden.
 
@@ -135,7 +158,9 @@ Nach dem Neustart soll sich automatisch das folgende Fenster öffnen,
 in dem die Installation des WSL durch Einrichten des Benutzerkontos
 abgeschlossen werden kann.
 
-<img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/wsl/win10-wsl-ubuntu-complete.png" class="screenshot" />
+</p>
 
 #### <a id="Einrichten des Benutzerkontos">Einrichten eines Benutzerkontos
 
@@ -150,7 +175,9 @@ mit deinem Windows-Benutzernamen übereinstimmen.
 
 Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username.png" class="screenshot" />
+</p>
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen wird das eingegebene Passwort nicht angezeigt.
@@ -160,15 +187,22 @@ Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
 
 {% include admonition.html type="warning" title="Wichtig" body="Merke dir dein Passwort." %}
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd.png" class="screenshot" />
+</p>
 
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
 so muss ein erneuter Versuch zunächst mit `y` bestätigt werden.
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1.png" class="screenshot" />
+</p>
 
 Danach wird die Eingabe des Passworts wiederholt (das Passwort muss wie zuvor zweimal eingegeben werden).
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2.png" class="screenshot" />
+
+<p align="center">
+  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2.png" class="screenshot" />
+</p>
 
 Ist die Installation erfolgreich durchgeführt,
 erhältst du eine zum folgenden Screenshot ähnliche Ausgabe.
@@ -183,7 +217,9 @@ Dies ist der typische Aufbau der Linux-Kommandozeile `bash`, die maßgeblich zur
 mit dem Linux-Betriebssystem verwendet wird. Eine detailliertere Einführung in den Umgang erfolgt während
 des Workshops, im Folgenden wird diese jedoch schon zur Installation der benötigten Software verwendet.
 
-<img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd.png" class="screenshot" />
+</p>
 
 Schließe vor dem nächsten Abschnitt dieses Terminal Fensters, indem du den Befehl
 ```
@@ -198,15 +234,21 @@ Das Windows Terminal kannst du aus dem Microsoft Store installieren.
 
 Der Microsoft Store kannst du wieder über die Suche im Startmenü finden:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-store-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-store-1.png" class="screenshot" />
+</p>
 
 Suche im Microsoft Store nach `Terminal` und wähle _Windows Terminal_ aus:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-store-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-store-2.png" class="screenshot" />
+</p>
 
 Und im folgenden Fenster `Herunterladen` anklicken:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-store-3.png" class="screenshot" />
+</p>
 
 Im Anschluss an die Installation kannst du den Microsoft Store wieder schließen.
 
@@ -215,28 +257,38 @@ befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten ka
 `Terminal` eingeben. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der
 rechten Spalte.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-start.png" class="screenshot" />
+</p>
 
 Beim ersten Öffnen des Windows Terminals erscheint ein Informations-Banner am oberen Fensterrand,
 welches du mit dem `X` am rechten Rand schließen kannst.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-default-terminal.png" class="screenshot" />
+</p>
 
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
 Um eine Ubuntu-Kommandozeile zu öffnen, klicke zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
 in dem `Einstellungen` angeklickt werden muss:
 
-<img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
+</p>
 
 Hier kannst du einstellen, dass sich beim Start von Windows Terminal standardmäßig Ubuntu öffnet.
 Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken
 auf den Pfeil nach unten öffnet sich eine Auswahl.
 
-<img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
+</p>
 
 In der Auswahl wählst du dann Ubuntu aus (falls _Ubuntu_ mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
 
-<img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
+</p>
 
 Im Anschluss kannst du das Terminal Fenster schließen.
 Wir öffnen es gleich zwar direkt wieder,
@@ -269,12 +321,16 @@ Internetverbindung voraus.
 Befehle, die mit `sudo` beginnen, erfordern besondere Zugriffsrechte. Daher muss zunächst immer
 das Linux-Benutzerpasswort (**nicht** notwendigerweise das Windows-Benutzerpasswort) eingegeben werden.
 
-<img alt="" src="/img/unix/unix-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
+</p>
 
 Ein erfolgreiches Update sieht in etwa wie folgt aus, jedoch kann die ausgegebene Liste der Programme,
 die aktualisiert werden können, beim ersten Ausführen wesentlich länger sein.
 
-<img alt="" src="/img/unix/unix-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
+</p>
 
 Die Updates müssen nun noch installiert werden, denn bisher wurden diese nur heruntergeladen.
 Dies erfolgt durch Eingabe des Befehls
@@ -284,7 +340,9 @@ sudo apt upgrade
 Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und Drücken der
 `Enter`-Taste nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
-<img alt="" src="/img/unix/unix-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
+</p>
 
 Nun kannst du die drei Programme `git`, `make` und `curl` installieren.
 Dies erfolgt durch die Eingabe des Befehls
@@ -294,11 +352,15 @@ sudo apt install -y git make curl
 und anschließende Bestätigung mit der `Enter`-Taste.
 Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
-<img alt="" src="/img/unix/unix-4.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
+</p>
 
 Du erkennst eine erfolgreiche Installation, wie unten gezeigt, daran, dass keine Fehlermeldungen ausgegeben werden.
 
-<img alt="" src="/img/unix/unix-5.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/unix/unix-5.png" class="screenshot" />
+</p>
 
 #### Git-Einstellungen
 
@@ -362,7 +424,9 @@ ls
 Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Ordner befinden.
 Die Datei _Miniforge3-Linux-x86-64.sh_ sollte hier aufgeführt sein.
 
-<img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
+</p>
 
 Zum Installieren musst du den folgenden Befehl ausführen.
 
@@ -374,33 +438,45 @@ Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
 Im Folgenden musst du die Benutzungsbestimmungen bestätigen.
 Diese werden zunächst mit der `Enter`-Taste geöffnet
 
-<img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
+</p>
 
 Abhängig von der Größe des Terminal Fensters, kann es vorkommen, dass der Text nur zeilenweise
 ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ steht.
 
-<img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
+</p>
 
 Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächsten Screenshot)
 der Benutzungsbestimmung zu gelangen.
 Am Ende der Benutzungsbestimmungen kannst du diese durch die Eingabe von `yes`
 und anschließendem `Enter` akzeptieren.
 
-<img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
+</p>
 
 Mit einem weiteren `Enter` startest du die Installation,
 auch diese kann einige Minuten Zeit brauchen.
 
-<img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
+</p>
 
 Die Installation endet mit den folgenden Zeilen:
 Hier musst du abermals `yes` eingeben und mit `Enter` bestätigen.
 
-<img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
+</p>
 
 Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
-<img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
+</p>
 
 {%
   include admonition.html
@@ -411,7 +487,9 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 
 Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
 
-<img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
+</p>
 
 Jetzt musst du noch die Python-Pakete installieren, die im Workshop vorgestellt werden.
 Dafür verwenden wir eine sogenannte _virtuelle Umgebung_. Was eine solche Umgebung genau ist
@@ -426,12 +504,16 @@ mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertaint
 
 Die Installation beginnt mit der folgenden Ausgabe
 
-<img alt="" src="/img/mamba/mamba-virtual-env-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-virtual-env-1.png" class="screenshot" />
+</p>
 
 und bedarf auch wieder etwas Zeit. Die Installation ist beendet, wenn wieder die Eingabezeile
 angezeigt wird.
 
-<img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
+</p>
 
 Nach erfolgreicher Installation kannst du die Installationsdatei _Miniforge3-Linux-x86-64.sh_
 mit dem Befehl
@@ -502,23 +584,31 @@ VSCode kannst du, wie das Windows Terminal, über den Microsoft Store installier
 Öffne dazu den  Microsoft Store, genauso wie im Abschnitt <a href="#WindowsTerminal">Windows Terminal</a>.
 Gib in der Suche `Visual Studio Code` ein und wähle den entsprechenden Punkt aus der Liste aus:
 
-<img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
+</p>
 
 Auf der folgenden Seite kannst du VSCode durch einen Klick auf den Button `Installieren` installieren.
 
-<img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
+</p>
 
 Über das Startmenü (wie zuvor wird durch Eingabe von `Visual` automatisch eine Suche begonnen),
 kannst du VSCode durch einen Klick auf `Öffnen` öffnen.
 
-<img alt="" src="/img/vscodium/vscode-start.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-start.png" class="screenshot" />
+</p>
 
 Beim ersten Start von VSCode nach der Installation
 sollte in der rechten unteren Ecke eine Infobox angezeigt,
 in dieser empfehlen wir dir den Button `Install` anzuklicken,
 wenn gefragt wird, ob die `WSL` Erweiterung installiert werden soll.
 
-<img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" style="max-width:90%;" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-prompt-wsl-plugin.png" style="max-width:90%;" />
+</p>
 
 #### VSCode: Sprache
 
@@ -534,16 +624,22 @@ Dies öffnet ein Eingabefenster, in dem du nach Einstellungen suchen kannst.
 Suche hier nach _Configure Display Language_.
 Die Einstellung kannst du durch das Drücken der `Enter`-Taste auswählen.
 
-<img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
+</p>
 
 Im dann folgenden Auswahlmenü kannst du die gewünschte Sprache mit einem `Linksklick` auswählen.
 
-<img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
+</p>
 
 Die gewählte Sprache wird gegebenenfalls heruntergeladen und ist nach einem Neustart von VSCode nutzbar,
 der im folgenden Fenster ausgeführt werden kann.
 
-<img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
+</p>
 
 #### VSCode: Terminal einrichten
 
@@ -552,20 +648,28 @@ Mit der Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _T
 die Windows Powershell. Wie beim Windows Terminal kannst du auch in diesem das Standardprofil umstellen.
 Klicke rechts auf den Pfeil nach unten, neben dem `+`, und wähle den Punkt _Select Default Profile_ aus.
 
-<img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
+</p>
 
 In der folgenden Auswahl klickst du auf _Ubuntu (WSL)_.
 
-<img alt="" src="/img/vscodium/vscode-terminal-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-terminal-2.png" class="screenshot" />
+</p>
 
 Und anschließend kannst du das schon geöffnete Terminal mit einem Klick auf die Mülltonne schließen.
 
-<img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
+</p>
 
 Öffnest du erneut ein Terminal, z. B. mit `Strg` + `Shift` + `ö`,
 so sollte dieses nun wie das (mittlerweile) gewohnte Terminal aussehen:
 
-<img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
+</p>
 
 ### PDF-Betrachter
 
@@ -581,34 +685,49 @@ Den Download findest du unter dem folgenden Link.
 Auf der Download-Seite kannst du dann die `x64` Version von Sumatra PDF mit einem
 `Linksklick` auf dem hervorgehobenen Link herunterladen.
 
-<img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
+</p>
 
 Die heruntergeladene Datei findest du im Downloads-Ordner
 und kannst sie durch einen doppelten `Linksklick` ausführen.
 
-<img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
+</p>
 
 Infolgedessen öffnet sich das folgende Fenster,
 in dem du die Installation mit einem `Linksklick` auf _Installieren_ starten kannst.
 
-<img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
+</p>
 
 Schließe das Fenster nach der Installation mit dem `X`.
-<img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
+
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
+</p>
 
 Zuletzt musst du Sumatra PDF noch als Standard PDF-Betrachter einstellen.
 Suche dafür im Startmenü nach `Standard` und öffne _Standard-Apps_.
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-standard-app-1.png" class="screenshot" />
+</p>
 
 In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Dateityp auswählen_,
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-standard-app-2.png" class="screenshot" />
+</p>
 
 durch Klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
 In diesem musst du bis zu der Zeile nach unten scrollen, in der _.pdf_ in der ersten Spalte steht.
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-standard-app-3.png" class="screenshot" />
+</p>
 
 Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so musst du nichts Weiteres tun und
 kannst das Fenster wie gewöhnlich durch Klicken auf das `X` schließen.
@@ -617,7 +736,9 @@ Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z. B. _Acrobat Reader_ 
 kannst du durch Klicken auf den Programmnamen ein Auswahlmenü öffnen.
 In diesem wählst du dann _SumatraPDF_ aus.
 
-<img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/sumatra/sumatra-standard-app-4.png" class="screenshot" />
+</p>
 
 #### <a id="evince"></a>Evince
 
@@ -678,11 +799,15 @@ Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Lini
 
 Insgesamt sollte das Terminal wie folgt aussehen:
 
-<img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
+</p>
 
 Fehler machen sich z. B. so bemerkbar:
 
-<img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
+</p>
 
 Mit dem Befehl
 ```
@@ -771,11 +896,15 @@ trägst du in einem Windows Terminal folgenden Befehl ein.
 mamba update -n toolbox --all
 ```
 
-<img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
+</p>
 
 Auch hier musst du die Installation wieder mit einem `Y` gefolgt von einem `Enter` bestätigen.
 
-<img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
+<p align="center">
+  <img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
+</p>
 
 Die Installation ist (mittlerweile) wie gewohnt abgeschlossen,
 wenn die Eingabezeile auf dem Terminal angezeigt wird.

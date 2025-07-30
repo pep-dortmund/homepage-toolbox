@@ -93,7 +93,7 @@ Bitte beachte die folgenden Schritte zur Vorbereitung:
 - Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
   Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
 
-## Ablaufplan 2025
+## <a id="Plan"></a>Ablaufplan 2025
 
 <!-- Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined) -->
 An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen
