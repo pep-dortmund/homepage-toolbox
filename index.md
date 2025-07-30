@@ -5,26 +5,27 @@ title: PeP et al. Toolbox Workshop
 ---
 
 <p class="lead" markdown="1">
-Jedes Jahr in den beiden letzten Wochen der Sommer-Semesterferien bietet
-[PeP et al.](https://pep-dortmund.org){:target="_blank"} den Toolbox Workshop für Physik-
-und Medizinphysikstudierende der TU Dortmund an. </p>
+Jedes Jahr bietet [PeP et al.](https://pep-dortmund.org){:target="_blank"}
+in den beiden letzten Wochen der Sommer-Semesterferien den Toolbox Workshop
+für Physik- und Medizinphysikstudierende der TU Dortmund an. </p>
 
 Der Kurs vermittelt den Umgang mit Werkzeugen, die wissenschaftliches Arbeiten erleichtern.
 
-Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht.
-Damit richtet er sich vorrangig an die kommenden Drittsemester.
-Es sind aber auch alle anderen eingeladen, die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
+Der Workshop ist in erster Linie zur Vorbereitung auf das Praktikum gedacht,
+damit richtet er sich vorrangig an die kommenden Drittsemester.
+Es sind aber auch alle anderen eingeladen,
+die gerne die Grundlagen der gezeigten Werkzeuge erlernen möchten.
 
 
 ## Anmeldung & Umfrage
 
-Die Anmeldung mit Angabe einer E-Mail-Adresse ist verpflichtend,
-darüber werden wir euch noch an den Start des Workshops erinnern
-und mögliche Abweichungen mitteilen.
+Wir bitten dich, dich mit deiner E-Mail-Adresse anzumelden,
+darüber werden wir dich an den Start des Workshops erinnern
+und mögliche Raumänderungen mitteilen.
 
-Der Fragebogen ist freiwillig, wir möchten euch aber bitten diesen auszufüllen.
+Der Fragebogen ist freiwillig, wir möchten dich aber bitten, diesen auszufüllen.
 So haben wir einen Eindruck davon, welche Vorkenntnisse und Interessen bestehen
-und können den Workshop optimal an euch anpassen.
+und können den Workshop optimal an alle Teilnehmenden anpassen.
 
 <!--
 Zur Zeit ist die Umfrage noch nicht freigeschaltet.
@@ -39,8 +40,8 @@ Zur Zeit ist die Umfrage noch nicht freigeschaltet.
 Die beiden Themenblöcke, Datenauswertung und LaTeX, sind unabhängig voneinander gestaltet.
 Es kann also auch nur einer der beiden Teile besucht werden.
 Für LaTeX sind allerdings auch Grundkenntnisse zur Kommandozeile hilfreich.
-Beide Teile des Kurses sind nicht nur für das Praktikum interessant,
-sondern auch für den weiteren Erfolg während und nach des Studiums.
+Beide Teile des Kurses sind nicht nur für die Praktikumsprotokolle interessant,
+sondern auch für den weiteren Erfolg während und nach dem Studium.
 
 Alle im Kurs vorgestellten Programme sind [Free and Open-Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"},
 bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
@@ -53,9 +54,13 @@ bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
   und zur Darstellung dieser Daten.
   Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile
   gegenüber Alternativen wie Tabellenkalkulationssoftware.
+  Wie die Wiederholbarkeit von Auswertungsschritten und der einfachere Austausch mit anderen.
 
 * **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen
   Betriebssystemen ist eine wichtige Voraussetzung für wissenschaftliches Arbeiten.
+  Zum einen, um die Reproduzierbarkeit deiner Ergebnisse noch einfacher zu gestalten,
+  zum anderen zur Benutzung von Servern, die du später für die Analyse großer Datensätze
+  oder langer numerischer Simulationen nutzen kannst.
   Wir bringen euch die Grundlagen bei.
 
 * **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte
@@ -64,7 +69,7 @@ bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
   welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren,
   Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
 
-  * **Make**: Ein Standard-Tool zur automatisierten Ausführung von komplexeren Aufgaben.
+* **Make**: Ein Standard-Tool zur automatisierten Ausführung von komplexeren Aufgaben.
   Es kommt häufig vor, dass mehrere Auswertungsschritte in einer bestimmten Reihenfolge
   ausgeführt werden müssen und spätere Schritte von den Ergebnissen vorheriger Schritte abhängen.
   Diese Schritte manuell auszuführen, ist fehleranfällig und nicht einfach zu dokumentieren.
@@ -73,25 +78,27 @@ bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
 ### 2. Teil: LaTeX
 
 **LaTeX** ist das Standardwerkzeug, um wissenschaftliche Texte zu produzieren.
-  Es bietet hervorragenden Formelsatz, automatisiertes Erstellen von Inhaltsverzeichnissen
-  und Bibliographie, Trennung von Form und Inhalt, Hyperlinks und vieles mehr.
+  Es bietet hervorragenden Formelsatz, automatisiertes Erstellen von Inhalts-
+  und Literaturverzeichnissen, Trennung von Form und Inhalt, Hyperlinks und vielem mehr.
 
 
 ## Vorbereitung
 
-Bitte beachtet die folgenden Schritte:
+Bitte beachte die folgenden Schritte zur Vorbereitung:
 
 - Die Software vorher auf deinem Laptop [installieren](/install/install/)!
   - Bei Problemen können wir gerne per [Mail](/problem/) helfen.
   - Am Donnerstag vor der ersten Woche bieten wir ein begleitetes Installieren eines [Dual-Boot-Systems](/install/dualboot/) an.
   - Ein neuer Laptop soll angeschafft werden? Überlege über ein [US-Tastaturlayout](https://endler.dev/2018/keyboard/){:target="_blank"}.
-- Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden. Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
+- Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
+  Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
 
 ## <a id="Plan"></a>Ablaufplan 2025
 
 <!-- Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined) -->
-An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf){:target="_blank"}).
-Der Eingang befindet sich gegenüber vom Haupteingang des Hörsaalgebäudes II.
+An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen
+([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf){:target="_blank"}).
+Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II.
 
 <table class="table table-hover">
 <thead>

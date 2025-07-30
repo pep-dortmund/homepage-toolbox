@@ -4,26 +4,25 @@ permalink: /install/install/
 title: Installation
 ---
 
-Hier findet ihr Anleitungen für die drei verbreitetsten Betriebssysteme: Windows, macOS und
-die verschiedenen Linux-Distributionen.
+Hier findest du die Anleitungen zur Installation der benötigten Programme
+für die drei verbreitetsten Betriebssysteme:
+Windows, macOS und die verschiedenen Linux-Distributionen.
 
 Viele der Programme, die wir hier benutzen werden und noch mehr weitergehende Software
-funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, aka. nicht Windows.
-
+funktionieren besser oder überhaupt nur auf Unix-Betriebssystemen, also nicht Windows.
 
 ## Windows-Linux Dual-Boot
 
-Der Kurs ist zwar auch auf mit einem Windows-Rechner zu absolvieren,
-aber gerade auch in Hinblick auf das weitergehende Studium empfehlen wir euch,
-parallel auf eurem Rechner Linux zu installieren.
-So könnt ihr beim Hochfahren zwischen den beiden Betriebssystemen wählen.
+Der Kurs ist zwar auch mit einem Windows-Rechner zu absolvieren,
+aber gerade in Hinblick auf das weitergehende Studium empfehlen wir dir,
+parallel auf deinem Rechner Linux zu installieren.
+So kannst du beim Hochfahren zwischen den beiden Betriebssystemen wählen.
 Wer eine Dual-Boot-Installation durchführen möchte,
 kann gerne unserer [Anleitung](/install/dualboot/) folgen.
 Da eine Dual-Boot-Installation beim ersten Mal nicht unbedingt trivial ist,
 helfen wir gerne dabei.
-Markiert dazu den entsprechenden Punkt in der Anmeldung oder
-schreibt uns per E-Mail an.
-
+Markiere dazu den entsprechenden Punkt in der Anmeldung oder
+schreibe uns per [E-Mail](/problem) an.
 
 ## Anleitungen
 

@@ -16,10 +16,15 @@ und TeXLive installieren.
 
 ## <a id="Installation"></a>Installation
 
-{% include admonition.html type="warning" title="Wichtig" body="Befehle, die ins Terminal eingegeben werden sollen, starten mit $. Befehle Zeile für Zeile eingeben, ohne das $-Zeichen, und mit Enter bestätigen." %}
+{% include admonition.html
+  type="warning"
+  title="Wichtig"
+  body="Befehle, die ins Terminal eingegeben werden sollen, starten mit $.
+    Gib die Befehle Zeile für Zeile ein, ohne das $-Zeichen, und bestätige sie mit Enter."
+%}
 
 Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
-Führe nur die Befehle für deine eigene Distribution (z.B. Ubuntu) aus.
+Führe nur die Befehle für deine eigene Distribution (z. B. Ubuntu) aus.
 
 Der `sudo` Befehl verleiht weitreichende Administratorrechte,
 jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
@@ -72,16 +77,17 @@ Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
     $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
     $ bash Miniforge3-$(uname)-$(uname -m).sh -p ~/.local/conda
 
-Die Lizenzvereinbarung muss, je nach Größe des Terminals mit `Enter` bis zum Ende erweitert werden. Und kann mit `yes` akzeptiert werden. Den Ort der Installation haben wir gesetzt, die Abfrage bestätigst du mit `Enter`.
+Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
+Und dann kannst du sie mit `yes` akzeptieren.
+Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`.
 _Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
 
-Damit ist die allgemeine Python Umgebung installiert.
-
+Damit ist die allgemeine Python-Umgebung installiert.
 
 {% include admonition.html type="warning" title="Wichtig" body='Für den folgenden Schritt musst du
 dein Terminal schließen und ein neues Terminal öffnen.' %}
 
-Im Anschluss erstellst du jetzt noch einen spezielle Python Umgebung für den Toolbox Workshop mittels:
+Im Anschluss erstellst du jetzt noch eine spezielle Python-Umgebung für den Toolbox Workshop mittels:
 
     $ mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
 
@@ -106,8 +112,8 @@ Nach erfolgreicher Installation kannst du die Installationsdatei noch löschen
 
 *Ab hier weiter für alle Linux Distributionen:*
 
-Im Terminal wird mit folgenden drei Befehlen das Installationsskript
-heruntergeladen und ausgeführt.
+Im Terminal lädst du mit folgenden drei Befehlen das Installationsskript
+herunter und führst es dann mit dem letzten aus.
 ```
 $ cd ~/.local
 $ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
@@ -124,7 +130,7 @@ Führe dazu folgenden Befehl im Terminal aus:
 $ echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
-Jetzt einmal das Terminal schließen und für die weiteren Schritte ein Neues öffnen.
+Jetzt einmal das Terminal schließen und für die weiteren Schritte ein neues öffnen.
 In dem neuen Terminal die folgenden Befehle eingeben:
 
 ```
@@ -142,15 +148,20 @@ __Jetzt noch die Installation [testen](#test)!__
 
 ## <a id="test"></a>Testen
 
+Im folgenden Abschnitt zeigen wir dir, wie du testen kannst, dass die Installationen funktioniert haben 
+und somit entspannt in den Workshop starten kannst.
+
 ### Git
 
-Terminal öffnen
+Öffne ein Terminal und gib
 
     $ git
 
-Es sollte die Git-Hilfe erscheinen.
+ein. Es sollte die Git-Hilfe erscheinen.
 
-Git einstellen: im Terminal (<span style="color: red;">__Eigene Daten eintragen!!!__</span>):
+Git einstellen: Schreibe die Folgende Zeilen,
+<span style="color: red;">__mit den eigenen Daten__</span>,
+nacheinander ins Terminal:
 
     $ git config --global user.name "Max Mustermann"
     $ git config --global user.email "max.mustermann@udo.edu"
@@ -170,8 +181,8 @@ Ebenfalls im Terminal:
     $ mamba activate toolbox
     $ ipython
 
-Das Programm ipython sollte starten und ihr bekommt statt dem `$` einen
-nummerierten Prompt, nun folgende Befehle eingeben.
+Das Programm ipython sollte starten und du bekommst statt des `$` einen
+nummerierten Prompt, gib nun folgende Befehle nacheinander ein.
 
     In [1]: %matplotlib
     In [2]: import matplotlib.pyplot as plt
@@ -181,18 +192,19 @@ nummerierten Prompt, nun folgende Befehle eingeben.
     In [6]: import uncertainties
     In [7]: plt.plot([1, 2, 4])
 
-Es sollte ein Fenster mit einem Plot erscheinen, beenden mit
+Es sollte ein Fenster mit einem Plot erscheinen, schließe das Fenster
+und beende ipython mit
 
     In [8]: quit
 
 
 ### Make
 
-Ebenfalls im Terminal:
+Führe ebenfalls im Terminal
 
     $ make
 
-Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
+aus. Es sollte folgende Ausgabe oder das deutsche Äquivalent erscheinen:
 
     make: *** No targets specified and no makefile found.  Stop.
 
@@ -204,19 +216,21 @@ Im Terminal:
 
 Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
-    This is LuaTeX, Version 1.18.0 (TeX Live 2024)
+    This is LuaTeX, Version 1.22.0 (TeX Live 2025)
      restricted system commands enabled.
     **
 
-Mit `Strg` + `c` beenden.
+Mit `Strg` + `c` kannst du den Aufruf beenden.
+Als Nächstes testen wir ein Programm für das Literaturverzeichnis,
 
     $ biber
 
 Es sollte die Biber-Hilfe erscheinen.
+Mit dem folgenden Befehl sollte die Dokumentation von TeXLive geöffnet werden
+(in einem PDF-Betrachter).
 
     $ texdoc texlive
 
-Es sollte die Dokumentation von TeXLive geöffnet werden (in einem PDF-Betrachter).
 
 ## <a id="update"></a>Aktualisieren
 
