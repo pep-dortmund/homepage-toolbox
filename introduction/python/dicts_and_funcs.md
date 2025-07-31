@@ -136,8 +136,8 @@ print(f"F_C = {coulomb_force(1.602e-19, -1.602e-19, 0.01)}")
 Wir verkürzen die Zeilenanzahl, indem wir die Rechnung in der Zeile des `return` durchführen.
 Du kennst die Formel aus deinem zweiten Semester, π ist als `3.14` abgekürzt.
 In der `print`-Ausgabe lassen wir uns dann die Kraft zwischen einer positiven und
-einer negativen Elementarladung im Abstand von 1 cm ausgeben. 
-Wie du siehst, ist die Ausgabe auch in der `e`-Notation, 
+einer negativen Elementarladung im Abstand von 1 cm ausgeben.
+Wie du siehst, ist die Ausgabe auch in der `e`-Notation,
 so wie wir auch einige Werte angegeben haben.
 
 Das war es an Lektionen in dieser `python`-Einführung.
@@ -146,7 +146,7 @@ Weiter geht es im [Toolbox Workshop](/#Plan).
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 Da dies die letzte Lektion ist,
-[findest du hier den kompletten Code aller Einheiten.](/introduction/complete_introduction.py)
+[findest du hier den kompletten Code aller Einheiten.](/introduction/python/complete_introduction.py)
 
 ```python
 """
