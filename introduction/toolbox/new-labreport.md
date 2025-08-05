@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/new-labreport
+permalink: /introduction/new-labreport/
 title:
 ---
 

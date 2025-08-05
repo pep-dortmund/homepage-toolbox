@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/makefile
+permalink: /introduction/makefile/
 title:
 ---
 

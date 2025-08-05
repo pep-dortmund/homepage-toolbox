@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/git-pull
+permalink: /introduction/git-pull/
 title:
 ---
 
