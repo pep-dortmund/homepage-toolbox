@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/toolbox/git-template
+permalink: /introduction/git-template
 title:
 ---
 

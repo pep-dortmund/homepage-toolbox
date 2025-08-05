@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/toolbox/makefile
+permalink: /introduction/makefile
 title:
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/toolbox/git-clone-repository
+permalink: /introduction/git-clone-repository
 title:
 ---
 

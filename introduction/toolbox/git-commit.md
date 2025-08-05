@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/toolbox/git-commit
+permalink: /introduction/git-commit
 title:
 ---
 

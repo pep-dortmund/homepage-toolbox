@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /introduction/toolbox/vsc-open
+permalink: /introduction/vsc-open
 title:
 ---
 
