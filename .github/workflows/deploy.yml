@@ -18,6 +18,8 @@ jobs:
         with:
           name: toolbox-homepage-build
           path: ./_site
+          github-token: ${{ secrets.GH_ARTIFACT_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
 
       - name: upload
         env:
