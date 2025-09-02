@@ -1,12 +1,5 @@
 name: Build and Verify
-
-on:
-  push:
-    branches:
-      - main
-    tags:
-      - "**"
-  pull_request:
+on: [push, pull_request]
 
 jobs:
   build:
@@ -30,9 +23,3 @@ jobs:
             --only-4xx \
             --disable-external \
             --empty-alt-ignore
-
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
-        with:
-          name: toolbox-homepage-build
-          path: ./_site
