@@ -1,26 +1,27 @@
 name: Upload
-
 on:
-  workflow_run:
-    workflows: ["Build and Verify"]
-    branches: [main]
-    types:
-      - completed
+  push:
+    branches:
+      - main
 
 jobs:
   deploy:
-    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v5
 
-      - name: Download artifact
-        uses: actions/download-artifact@v4
+      - uses: ruby/setup-ruby@v1
         with:
-          name: toolbox-homepage-build
-          path: ./_site
-          github-token: ${{ secrets.GH_ARTIFACT_TOKEN }}
-          run-id: ${{ github.event.workflow_run.id }}
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: install dependencies
+        run: |
+          bundle config set --local path 'vendor/bundle'
+          bundle install
+
+      - name: build
+        run: bundle exec jekyll build
 
       - name: upload
         env:
