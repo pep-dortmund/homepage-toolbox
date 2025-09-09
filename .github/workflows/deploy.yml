@@ -1,14 +1,16 @@
 name: Upload
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Build and Verify"]
+    branches: [main]
+    types: [completed]
 
 jobs:
   deploy:
     runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v5
+      - name: Checkout repository
+        uses: actions/checkout@v5
 
       - uses: ruby/setup-ruby@v1
         with:
@@ -23,7 +25,12 @@ jobs:
       - name: build
         run: bundle exec jekyll build
 
-      - name: upload
+      - name: Unpack artifact
+        run: |
+          tar -xvf ./_site/artifact.tar -C ./_site/
+          rm -rf ./_site/artifact.tar
+
+      - name: Upload to server
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
           DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
