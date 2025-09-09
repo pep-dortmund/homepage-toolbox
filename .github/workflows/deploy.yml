@@ -1,39 +1,24 @@
 name: Upload
+
 on:
-  push:
-    branches:
-      - main
+  workflow_run:
+    workflows: ["Build and Verify"]
+    types:
+      - completed
 
 jobs:
   deploy:
-    runs-on: ubuntu-24.04
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
 
-      - uses: ruby/setup-ruby@v1
+      - name: Download artifact
+        uses: actions/download-artifact@v4
         with:
-          ruby-version: "3.3"
-          bundler-cache: true
+          name: toolbox-homepage-build
+          path: ./_site
+          github-token: ${{ secrets.GH_ARTIFACT_TOKEN }}
+          run-id: ${{ github.event.workflow_run.id }}
 
-      - name: install dependencies
-        run: |
-          bundle config set --local path 'vendor/bundle'
-          bundle install
-
-      - name: build
-        run: bundle exec jekyll build
-
-      - name: upload
-        env:
-          DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
-          DEPLOY_USER: ${{ secrets.DEPLOY_USER }}
-          DEPLOY_HOST: ${{ secrets.DEPLOY_HOST }}
-          DEPLOY_PATH: ${{ secrets.DEPLOY_PATH }}
-        run: |
-          mkdir -p ~/.ssh
-          ssh-keyscan -t rsa "$DEPLOY_HOST" 2> /dev/null | sort -u  -o ~/.ssh/known_hosts
-          echo "$DEPLOY_KEY" > ~/.ssh/deploy_key
-          eval "$(ssh-agent -s)"
-          chmod 600 ~/.ssh/deploy_key
-          ssh-add ~/.ssh/deploy_key
-          rsync -rq --links --delete --exclude=".*" ./_site/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+      - name: Test artifact

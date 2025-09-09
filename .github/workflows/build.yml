@@ -1,9 +1,16 @@
 name: Build and Verify
-on: [push, pull_request]
+
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "**"
+  pull_request:
 
 jobs:
   build:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
 
@@ -23,3 +30,20 @@ jobs:
             --only-4xx \
             --disable-external \
             --empty-alt-ignore
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: toolbox-homepage-build
+          path: ./_site
+
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: toolbox-homepage-build
+          path: ./_site
+          run-id: ${{ github.event.workflow_run.id }}
+
+      - name: Test artifact
+        run: |
+          ls -a
