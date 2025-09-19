@@ -49,25 +49,9 @@ Darauf aufbauend gibt es viele verschiedene „Distributionen“, die verschiede
 Programme vorinstallieren.
 Hauptunterschiede sind die verwendete grafische Benutzeroberfläche und der Paketmanager.
 
-**Für Einsteiger empfehlen wir [Ubuntu](https://www.ubuntu.com/){:target="_blank"}, [Xubuntu](https://xubuntu.org/){:target="_blank"} oder [Kubuntu](https://kubuntu.org/){:target="_blank"}.**
-Diese drei Distributionen nutzen das gleiche Betriebssystem,
-aber unterschiedliche grafische Benutzeroberflächen.
-
-
-Der aktuelle Release von (K,X)Ubuntu ist die Version `24.04`,
-es erscheinen halbjährlich im April und Oktober neue Versionen.
-Alle zwei Jahre erscheint eine neue Version mit längerem (5 Jahre)
-Support für Updates (LTS Version), 24.04 ist die aktuelle LTS Version.
-
-Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
-
-* [ArchLinux](https://www.archlinux.org/){:target="_blank"}
-* [CentOS](https://www.centos.org/){:target="_blank"}
-* [EndeavourOS](https://endeavouros.com/){:target="_blank"}
-* [Fedora](https://getfedora.org/de/){:target="_blank"}
-* [Gentoo](https://www.gentoo.org/){:target="_blank"}
-* [openSUSE](https://www.opensuse.org/){:target="_blank"}
-
+**Für Einsteiger empfehlen wir [Linux Mint](https://www.linuxmint.com/){:target="_blank"} oder [Fedora](https://fedoraproject.org/){:target="_blank"}.**
+[Endeavour](https://endeavouros.com/){:target="_blank"} ist eine Arch basierte Distrubition, die wir empfehlen, 
+wenn du dich mehr mit deinem Betriebssystem befassen möchtest.
 
 ## Windows-Speicher freigeben
 
@@ -90,7 +74,6 @@ Auf dem Mainboard des PCs wird die Uhrzeit gespeichert, Windows geht hier davon 
 dass die lokale Uhrzeit gespeichert wird, Linux nimmt UTC an.
 Wenn dies nicht geändert wird, stimmen die Uhrzeiten auf Windows und Linux nicht überein
 und können in beiden System falsch sein.
-
 
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
