@@ -15,6 +15,9 @@ jobs:
       - name: build
         run: bundle exec jekyll build
 
+      - name: Readout Gemfile
+        run: cat Gemfile.lock
+
       - name: check output
         run: |
           bundle exec htmlproofer ./_site \
