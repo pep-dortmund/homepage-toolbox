@@ -58,8 +58,20 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 
 Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
 Und dann kannst du sie mit `yes` akzeptieren.
-Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`.
-_Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
+Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`. Nach dem Installationsvorgang sollte eine Nachricht wie
+```
+Do you wish to update your shell profile to automatically initialize conda?
+This will activate conda on startup and change the command prompt when activated.
+If you'd prefer that conda's base environment not be activated on startup,
+   run the following command when conda is activated:
+
+conda config --set auto_activate_base false
+
+You can undo this by running `conda init --reverse $SHELL`? [yes|no]
+[no] >>>
+```
+erscheinen. Diese musst du abermals mit `yes` bestätigen.
+
 
 Damit ist die allgemeine Python-Umgebung installiert.
 
