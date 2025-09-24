@@ -59,7 +59,7 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
 Und dann kannst du sie mit `yes` akzeptieren.
 Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`.
-_Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
+_You can undo this by running `conda init --reverse $SHELL`? [yes|no]       [no] >>>_ `yes`.
 
 Damit ist die allgemeine Python-Umgebung installiert.
 
