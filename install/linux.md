@@ -80,7 +80,7 @@ Hier müssen im Terminal die folgenden Zeilen eingegeben werden:
 Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
 Und dann kannst du sie mit `yes` akzeptieren.
 Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`.
-_Do you wish the installer to initialize Miniforge3 by running conda init?_ `yes`.
+_Do you wish to update your shell profile to automatically initialize conda?_ `yes`.
 
 Damit ist die allgemeine Python-Umgebung installiert.
 
