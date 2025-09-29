@@ -12,9 +12,9 @@ Kurses veröffentlicht.
 
 ### Toolbox
 - Tag 1
-    <!-- - [Intro-Folien](/files/archive/current/intro.pdf){:target="_blank"} (Stand 23.09.2024) -->
-    <!-- - [Python](/files/archive/current/python.html){:target="_blank"} (Stand 23.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-1.zip) (Stand 23.09.2024) -->
+    - [Intro-Folien](/files/archive/current/intro.pdf){:target="_blank"} (Stand 29.09.2025)
+    - [Python](/files/archive/current/python.html){:target="_blank"} (Stand 29.09.2025)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-1.zip) (Stand 29.09.2025)
 - Tag 2
     <!-- - [Numeric Python](/files/archive/current/numeric-python.html){:target="_blank"} (Stand 24.09.2024) -->
     <!-- - [matplotlib](/files/archive/current/matplotlib.html){:target="_blank"} (Stand 24.09.2024) -->
