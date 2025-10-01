@@ -20,9 +20,9 @@ Kurses veröffentlicht.
     - [matplotlib](/files/archive/current/matplotlib.html){:target="_blank"} (Stand 30.09.2025)
     - [Aufgaben](/files/archive/current/exercises-toolbox-2.zip) (Stand 30.09.2025)
 - Tag 3
-    <!-- - [Scientific Python](/files/archive/current/scientific-python.html){:target="_blank"} (Stand 25.09.2024) -->
-    <!-- - [uncertainties](/files/archive/current/uncertainties.html){:target="_blank"} (Stand 25.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-3.zip) (Stand 25.09.2024) -->
+    - [Scientific Python](/files/archive/current/scientific-python.html){:target="_blank"} (Stand 01.10.2025)
+    - [uncertainties](/files/archive/current/uncertainties.html){:target="_blank"} (Stand 01.10.2025)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-3.zip) (Stand 01.10.2025)
 - Tag 4
     <!-- - [Unix](/files/archive/current/unix.pdf){:target="_blank"} (Stand 26.09.2024) -->
     <!-- - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 26.09.2024) -->
