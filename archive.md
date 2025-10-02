@@ -24,9 +24,9 @@ description: Hier befinden sich die Materialien vergangener Veranstaltungen.
     - [uncertainties](/files/archive/current/uncertainties.html){:target="_blank"} (Stand 01.10.2025)
     - [Aufgaben](/files/archive/current/exercises-toolbox-3.zip) (Stand 01.10.2025)
 - Tag 4
-    <!-- - [Unix](/files/archive/current/unix.pdf){:target="_blank"} (Stand 26.09.2024) -->
-    <!-- - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 26.09.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-4.zip) (Stand 26.09.2024) -->
+    - [Unix](/files/archive/current/unix.pdf){:target="_blank"} (Stand 02.10.2025)
+    - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 02.10.2025)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-4.zip) (Stand 02.10.2025)
 - Tag 9
     <!-- - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 04.10.2024) -->
     <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 04.10.2024) -->
