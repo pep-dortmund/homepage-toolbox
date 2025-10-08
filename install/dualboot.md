@@ -41,6 +41,15 @@ Formatierung neuer Partitionen auf der Festplatte, wenn etwas schiefgeht, könne
 <span style="color:crimson"> **Deshalb solltest du als Erstes ein vollständiges
 Backup deines Rechners machen, bevor du weitermachst!** </span>
 
+## Andere Login-Optionen aktivieren
+
+Aktiviere in den Windows-Einstellung mehr Möglichkeiten dich anzumelden,
+nicht nur per PIN.
+
+## Bit-Locker deaktivieren
+
+Suche im Windows-Startmenü nach `Bitlocker`.
+Speicher dir deinen Key ab und deaktiviere dann Bitlocker.
 
 ## Sich für eine Linux-Distribution entscheiden
 
@@ -49,25 +58,9 @@ Darauf aufbauend gibt es viele verschiedene „Distributionen“, die verschiede
 Programme vorinstallieren.
 Hauptunterschiede sind die verwendete grafische Benutzeroberfläche und der Paketmanager.
 
-**Für Einsteiger empfehlen wir [Ubuntu](https://www.ubuntu.com/){:target="_blank"}, [Xubuntu](https://xubuntu.org/){:target="_blank"} oder [Kubuntu](https://kubuntu.org/){:target="_blank"}.**
-Diese drei Distributionen nutzen das gleiche Betriebssystem,
-aber unterschiedliche grafische Benutzeroberflächen.
-
-
-Der aktuelle Release von (K,X)Ubuntu ist die Version `24.04`,
-es erscheinen halbjährlich im April und Oktober neue Versionen.
-Alle zwei Jahre erscheint eine neue Version mit längerem (5 Jahre)
-Support für Updates (LTS Version), 24.04 ist die aktuelle LTS Version.
-
-Alternativen zu Ubuntu sind zum Beispiel (alphabetisch):
-
-* [ArchLinux](https://www.archlinux.org/){:target="_blank"}
-* [CentOS](https://www.centos.org/){:target="_blank"}
-* [EndeavourOS](https://endeavouros.com/){:target="_blank"}
-* [Fedora](https://getfedora.org/de/){:target="_blank"}
-* [Gentoo](https://www.gentoo.org/){:target="_blank"}
-* [openSUSE](https://www.opensuse.org/){:target="_blank"}
-
+**Für Einsteiger empfehlen wir [Linux Mint](https://www.linuxmint.com/){:target="_blank"} oder [Fedora](https://fedoraproject.org/){:target="_blank"}.**
+[Endeavour](https://endeavouros.com/){:target="_blank"} ist eine Arch basierte Distrubition, die wir empfehlen,
+wenn du dich mehr mit deinem Betriebssystem befassen möchtest.
 
 ## Windows-Speicher freigeben
 
@@ -91,7 +84,6 @@ dass die lokale Uhrzeit gespeichert wird, Linux nimmt UTC an.
 Wenn dies nicht geändert wird, stimmen die Uhrzeiten auf Windows und Linux nicht überein
 und können in beiden System falsch sein.
 
-
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
 1. Öffne das Programm `regedit`; am einfachsten, indem du `regedit` tippst,
@@ -105,7 +97,7 @@ Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
 ## Fast-Boot deaktivieren
 
-Der Fast-Boot-Modus von Windows 10 cached Dateien,
+Der Fast-Boot-Modus von Windows 10/11 cached Dateien,
 um beim nächsten Start schneller betriebsbereit zu sein.
 Dies verträgt sich aber nicht mit zwei Betriebssystemen,
 die auf die gleichen Dateisysteme zugreifen.
@@ -116,8 +108,7 @@ und dann das Häkchen bei Fast-Boot entfernen.
 ## Einen bootfähigen USB-Stick für die Linux-Installation erstellen
 
 1. Lade das Image deiner ausgewählten Linux Distribution herunter, zum Beispiel
-    [kubuntu-24.04.1-desktop-amd64.iso](https://cdimage.ubuntu.com/kubuntu/releases/24.04.1/release/kubuntu-24.04.1-desktop-amd64.iso){:target="_blank}
-    für Kubuntu.
+    [Linux Mint](https://www.linuxmint.com/download.php){:target="_blank}.
 
 1. Installiere das Tool `Rufus`, um das Image auf einen USB-Stick zu schreiben:
    [rufus.akeo.ie](https://rufus.akeo.ie){:target="_blank"}.
@@ -156,7 +147,7 @@ Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 1. Aktiviere die Optionen `Install Third Party Software` und falls du mit einem
   Netzwerk verbunden bist, installiert Updates während der Installation.
 
-1. Die Ubuntu Installation scannt nun deine Festplatte und sollte Windows und den
+1. Die Installation scannt nun deine Festplatte und sollte Windows und den
   freigegebenen Speicher finden.
   War dies erfolgreich, wähle die Option `Install along-side Windows 10` oder 11.
 
