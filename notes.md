@@ -28,8 +28,8 @@ Kurses veröffentlicht.
     - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 02.10.2025)
     - [Aufgaben](/files/archive/current/exercises-toolbox-4.zip) (Stand 02.10.2025)
 - Tag 9
-    <!-- - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 04.10.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 04.10.2024) -->
+    - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 09.10.2025)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 09.10.2025)
 
 ### LaTeX
 - [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 06.10.2025)
