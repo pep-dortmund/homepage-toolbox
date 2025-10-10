@@ -28,16 +28,16 @@ Kurses veröffentlicht.
     - [git](/files/archive/current/git.pdf){:target="_blank"} (Stand 02.10.2025)
     - [Aufgaben](/files/archive/current/exercises-toolbox-4.zip) (Stand 02.10.2025)
 - Tag 9
-    <!-- - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 04.10.2024) -->
-    <!-- - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 04.10.2024) -->
+    - [make](/files/archive/current/make.pdf){:target="_blank"} (Stand 09.10.2025)
+    - [Aufgaben](/files/archive/current/exercises-toolbox-5.zip) (Stand 09.10.2025)
 
 ### LaTeX
 - [Folien](/files/archive/current/latex.pdf){:target="_blank"} (Stand 06.10.2025)
 - [Aufgaben Tag 1](/files/archive/current/exercises-latex-1.zip) (Stand 06.10.2025)
 - [Aufgaben Tag 2](/files/archive/current/exercises-latex-2.zip) (Stand 07.10.2025)
 - [Aufgaben Tag 3](/files/archive/current/exercises-latex-3.zip) (Stand 07.10.2025)
-<!-- - [Aufgaben Tag 4](/files/archive/current/exercises-latex-4.zip) (Stand 02.10.2024) -->
-<!-- - <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a> -->
+- [Aufgaben Tag 4](/files/archive/current/exercises-latex-4.zip) (Stand 09.10.2025)
+- <a href="https://github.com/pep-dortmund/toolbox-workshop-protocol-template" target="_blank">LaTeX Vorlage für Protokolle</a>
 
 ## Vergangene Kurse
 
