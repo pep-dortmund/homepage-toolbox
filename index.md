@@ -114,9 +114,9 @@ Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II. 
 <tbody>
   <tr>
   <td>Do</td>
-  <td>25.09.2025</td>
+  <td>?.09.2026</td>
   <td>10-13 Uhr</td>
-  <td>CP-03-123</td>
+  <td>tbd</td>
   <td>Installationshilfe, betreuter Umstieg auf Linux
    </td>
   </tr>
@@ -125,35 +125,35 @@ Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II. 
   </tr>
   <tr>
   <td>Mo</td>
-  <td>29.09.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>30.09.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>01.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>02.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Unix, Git</td>
   </tr>
   <tr>
-  <td>Fr</td>
-  <td>03.10.2025</td>
+  <td>?</td>
+  <td>03.10.2026</td>
   <td></td>
   <td></td>
   <td><span style="color:crimson"> Feiertag </span></td>
@@ -163,37 +163,37 @@ Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II. 
   </tr>
   <tr>
   <td>Mo</td>
-  <td>06.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>07.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>08.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>09.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
   <td>Fr</td>
-  <td>10.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Make und abschließende Übungen über alles</td>
   </tr>
   <tr>
