@@ -27,13 +27,14 @@ Der Fragebogen ist freiwillig, wir möchten dich aber bitten, diesen auszufülle
 So haben wir einen Eindruck davon, welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an alle Teilnehmenden anpassen.
 
-<!--
-Zur Zeit ist die Umfrage noch nicht freigeschaltet.
--->
 
+Zur Zeit ist die Umfrage noch nicht freigeschaltet.
+
+<!--
 <div class="text-center mb-3">
 <a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/toolbox25/registration/">Zur Anmeldung (Umfrage)</a>
 </div>
+-->
 
 ## Themen
 
@@ -44,7 +45,7 @@ Beide Teile des Kurses sind nicht nur für die Praktikumsprotokolle interessant,
 sondern auch für den weiteren Erfolg während und nach dem Studium.
 
 Alle im Kurs vorgestellten Programme sind [Free and Open-Source Software](https://en.wikipedia.org/wiki/Free_and_open-source_software){:target="_blank"},
-bis auf [VSCode](/install/windows_10/#VSCode) (kostenlos, aber proprietär).
+bis auf [VSCode](/install/windows_11/#VSCode) (kostenlos, aber proprietär).
 
 
 ### 1. Teil: Versuche auswerten
@@ -93,12 +94,12 @@ Bitte beachte die folgenden Schritte zur Vorbereitung:
 - Deinen Laptop mitbringen, eine begrenzte Anzahl Laptops kann auch von uns gestellt werden.
   Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
 
-## <a id="Plan"></a>Ablaufplan 2025
+## <a id="Plan"></a>Ablaufplan 2026
 
-<!-- Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined) -->
-An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen
+Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined)
+<!-- An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen
 ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf){:target="_blank"}).
-Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II.
+Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II. -->
 
 <table class="table table-hover">
 <thead>
@@ -113,9 +114,9 @@ Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II.
 <tbody>
   <tr>
   <td>Do</td>
-  <td>25.09.2025</td>
+  <td>?.09.2026</td>
   <td>10-13 Uhr</td>
-  <td>CP-03-123</td>
+  <td>tbd</td>
   <td>Installationshilfe, betreuter Umstieg auf Linux
    </td>
   </tr>
@@ -124,35 +125,35 @@ Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II.
   </tr>
   <tr>
   <td>Mo</td>
-  <td>29.09.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Python</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>30.09.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>NumPy, matplotlib</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>01.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>SciPy, uncertainties</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>02.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Unix, Git</td>
   </tr>
   <tr>
-  <td>Fr</td>
-  <td>03.10.2025</td>
+  <td>?</td>
+  <td>03.10.2026</td>
   <td></td>
   <td></td>
   <td><span style="color:crimson"> Feiertag </span></td>
@@ -162,37 +163,37 @@ Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II.
   </tr>
   <tr>
   <td>Mo</td>
-  <td>06.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Einführung in LaTeX</td>
   </tr>
   <tr>
   <td>Di</td>
-  <td>07.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Formelsatz</td>
   </tr>
   <tr>
   <td>Mi</td>
-  <td>08.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Abbildungen, Tabellen, Literaturverzeichnis</td>
   </tr>
   <tr>
   <td>Do</td>
-  <td>09.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>TeX in matplotlib, TikZ, beamer</td>
   </tr>
   <tr>
   <td>Fr</td>
-  <td>10.10.2025</td>
+  <td>?.?.2026</td>
   <td>13-17 Uhr</td>
-  <td>CT ZB HS01</td>
+  <td>tbd</td>
   <td>Make und abschließende Übungen über alles</td>
   </tr>
   <tr>
