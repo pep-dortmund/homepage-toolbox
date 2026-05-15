@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /install/windows_10/
+permalink: /install/windows_10_en/
 title: Windows 10 Installation
 ---
 
@@ -102,7 +102,7 @@ Here, the checkbox for `File name extensions` must be ticked
 ### Windows Subsystem for Linux (WSL)
 
 These instructions work only with the corresponding _operating system build_ number;
-see section <a href="#Vorbereitungen">Preparations</a>.\
+see section <a href="#Vorbereitungen">Preparations</a>.
 
 #### Installing WSL
 Next, launch a PowerShell console as an administrator.
@@ -124,7 +124,7 @@ There are no issues if this window does not appear.
 
 A window will now open, as shown below; this is the PowerShell console.
 To ensure that PowerShell has been opened with administrator privileges,
-you can check the window title; it must begin with _Administrator:_.
+you can check the window title; it must begin with _Administrator_:
 
 <p align="center">
   <img alt="" src="/img/wsl/win10-powershell-admin-test.png" class="screenshot" />
@@ -201,7 +201,7 @@ Then, repeat the password entry; just as before, you must enter it twice.
 Once the installation has been successfully completed,
 you will see output similar to the following screenshot.
 The last line (in the screenshot: `luckyjosh@DESKTOP-L02KDEF:~$`) 
-will be referred to hereafter as the **input line**.
+will be referred to hereafter as the **prompt**.
 This line consists of two parts.
 The information preceding the colon is composed of the username 
 (in the screenshot: `luckyjosh`) and the computer name 
@@ -285,9 +285,11 @@ From the selection menu, choose Ubuntu (if _Ubuntu_ appears multiple times, sele
   <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
 </p>
 
-Im Anschluss kannst du das Terminal Fenster schließen.
-Wir öffnen es gleich zwar direkt wieder,
-so kannst du aber überprüfen, ob die Einstellung des Standardprofils funktioniert hat.
+Next, you can close the terminal again using
+```
+exit
+```
+or by clicking the `X` in the top-right corner.
 
 ### Git, Make and more
 
@@ -326,7 +328,7 @@ A successful update looks roughly like this; however, the list of programs displ
   <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 </p>
 
-The updates must now be installed, as you have only downloaded them thus far.
+The updates must now be installed, as you have only downloaded the metadata thus far.
 This is done by entering the command:
 ```
 sudo apt upgrade
@@ -572,7 +574,7 @@ TeXLive instead.
 Visual Studio Code (VSCode) is a text editor suitable for writing both program code in 
 Python and documents in LaTeX. Furthermore, it offers a wide range of additional features.
 
-VSCode, like Windows Terminal, be installed via the Microsoft Store.
+VSCode, like Windows Terminal, can be installed via the Microsoft Store.
 Open Microsoft Store, as in the step for <a href="#WindowsTerminal">Windows Terminal</a>.
 Search for `Visual Studio Code` and select the corresponding entry from the list:
 
@@ -633,7 +635,7 @@ This can be performed in the window that appears next.
 
 #### VSCode: Setting Up the Terminal
 
-You can open a terminal in VSCode using the keyboard shortcut `Ctrl` + `Shift` + `ö` 
+You can open a terminal in VSCode using the keyboard shortcut `Ctrl` + `Shift` + `` ` `` 
 or via the menu bar: _Terminal_ → _New Terminal_.
 However, immediately after the initial installation, this terminal defaults 
 to the Windows PowerShell. Just like with the Windows Terminal, this terminal also needs to be reconfigured.
@@ -655,7 +657,7 @@ Next, you can close the currently open terminal by clicking the trash can icon.
   <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
 </p>
 
-Now, when a terminal is opened again, e.g., with `Ctrl` + `Shift` + `ö`,
+Now, when a terminal is opened again, e.g., with `Ctrl` + `Shift` + `` ` ``,
 it should now look like the terminal you have (by now) become accustomed to:
 
 <p align="center">
@@ -735,7 +737,7 @@ open a selection menu by clicking on the program name. From this menu, select _S
 
 To open PDF files directly from Windows Terminal easily,
 it is also recommended to install a PDF viewer for WSL.
-To do this, enter the following command into Windows Terminal and confirm the installation by typing `y`:
+To do this, enter the following command into Windows Terminal:
 ```
 sudo apt install -y evince
 ```
