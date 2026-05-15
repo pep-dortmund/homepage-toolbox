@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /install/dualboot/
+permalink: /install/dualboot_en/
 title: Installation of a Dual-Boot System
 ---
 
