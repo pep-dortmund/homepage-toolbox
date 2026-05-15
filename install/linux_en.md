@@ -85,7 +85,7 @@ We specified the installation location in the third command; simply confirm the 
 by pressing `Enter`.
 _Do you wish to update your shell profile to automatically initialize conda?_ `yes`.
 
-With this, the general Python environment is installed.
+With this, the base Python environment is installed.
 
 {% include admonition.html type="warning" title="Important" body='For the next step, you must close 
 the current terminal window and open a new one' %}
@@ -142,7 +142,7 @@ $ tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 $ luaotfload-tool --update --force
 ```
 
-If this isntallation fails due to insufficient disk space,
+If this installation fails due to insufficient disk space,
 there is also [this option](/install/latex_mini/){:target="_blank"} to install a minimal version
 of TeXLive.
 
