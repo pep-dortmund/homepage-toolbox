@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /install/macos/
+permalink: /install/macos_en/
 title: macOS Installation
 ---
 
@@ -32,7 +32,7 @@ as well as MacTeX.
 
 - The terminal is included in every OS X distribution.
 - Search for "Terminal" using Spotlight.
-- The application is located at `Programme/Dienstprogramme/Terminal.app`.
+- The application is located at `/Applications/Utilities/Terminal.app`.
 
 ### Command Line Tools
 
@@ -77,13 +77,13 @@ You can undo this by running `conda init --reverse $SHELL`? [yes|no]
 Accept it by typing `yes`.
 
 
-With this, the general Python environment is installed.
+With this, the base Python environment is installed.
 
 {% include admonition.html
   type="warning"
   title="Important"
   body='For the next step, you must open a new terminal window.
-  To do this, select "<b>Terminal</b>" and then "<b>Quit Terminal</b>".' %}
+  To do this, select "<b>Terminal</b>" in the terminal app and then "<b>Quit Terminal</b>".' %}
 
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
 
@@ -117,7 +117,7 @@ an open-source variant of VSCode.
 - Download the newest version of the file `VsCodium-darwin-<VERSION>.zip` from
   [this Website](https://github.com/VSCodium/vscodium/releases){:target="_blank"}.
 - You can find the program "VSCodium.app" in the ZIP file in the Downloads folder.
-  Move it to `Programs`.
+  Move it to `Applications`.
 - Next, open the app.
   On newer versions of macOS, the system may prevent the app from launching.
   in this case, you must first go to System Settings, navigate to "General" ->
