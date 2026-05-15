@@ -1,7 +1,7 @@
 ---
 layout: install
-permalink: /install/linux/
-title: Linux installation
+permalink: /install/linux_en/
+title: Linux Installation
 ---
 
 __All steps (Installation, Testing, Updating) must be completed!__
