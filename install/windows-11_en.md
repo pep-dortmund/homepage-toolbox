@@ -1,6 +1,6 @@
 ---
 layout: install
-permalink: /install/windows_11/
+permalink: /install/windows_11_en/
 title: Windows 11 Installation
 ---
 
@@ -87,7 +87,7 @@ There are no issues if this window does not appear.
 
 A window will now open, as shown below; this is the PowerShell console.
 To ensure that PowerShell has been opened with administrator privileges,
-you can check the window title; it must begin with _Administrator:_.
+you can check the window title; it must begin with _Administrator_:
 
 You can close the information bar that appears at the top of the window by clicking the `X`.
 
@@ -164,7 +164,7 @@ Then, repeat the password entry; just as before, you must enter it twice.
 Once the installation has been successfully completed,
 you will see output similar to the following screenshot.
 The last line (in the screenshot: `luckyjosh@DESKTOP-L02KDEF:~$`) 
-will be referred to hereafter as the **input line**.
+will be referred to hereafter as the **prompt**.
 This line consists of two parts.
 The information preceding the colon is composed of the username 
 (in the screenshot: `luckyjosh`) and the computer name 
@@ -263,7 +263,7 @@ A successful update looks roughly like this; however, the list of programs displ
   <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
 </p>
 
-The updates must now be installed, as you have only downloaded them thus far.
+The updates must now be installed, as you have only downloaded the metadata thus far.
 This is done by entering the command:
 ```
 sudo apt upgrade
@@ -579,7 +579,7 @@ This can be performed in the window that appears next.
 
 #### <a id="VSCodeTerminal"></a>VSCode: Setting Up the Terminal
 
-You can open a terminal in VSCode using the keyboard shortcut `Ctrl` + `Shift` + `ö` 
+You can open a terminal in VSCode using the keyboard shortcut `Ctrl` + `Shift` + `` ` `` 
 or via the menu bar: _Terminal_ → _New Terminal_.
 However, immediately after the initial installation, this terminal defaults 
 to the Windows PowerShell. Just like with the Windows Terminal, this terminal also needs to be reconfigured.
@@ -601,7 +601,7 @@ Next, you can close the currently open terminal by clicking the trash can icon.
   <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
 </p>
 
-Now, when a terminal is opened again, e.g., with `Ctrl` + `Shift` + `ö`,
+Now, when a terminal is opened again, e.g., with `Ctrl` + `Shift` + `` ` `` ,
 it should now look like the terminal you have (by now) become accustomed to:
 
 <p align="center">
@@ -696,7 +696,7 @@ To use the installed packages, activate the _virtual environment_ using this com
 mamba activate toolbox
 ```
 
-Executing this command changes the prompt at the beginning of the input line from `(base)` to `(toolbox)`.
+Executing this command changes the prompt at the beginning of the prompt from `(base)` to `(toolbox)`.
 
 Now, enter the following commands into Windows Terminal, one by one:
 After entering the first command, the appearance of the command line will change slightly.
