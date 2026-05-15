@@ -1,7 +1,7 @@
 ---
 layout: install
-permalink: /install/latex_mini/
-title: LaTeX Minimale Installation
+permalink: /install/latex_mini_en/
+title: LaTeX Minimal Installation
 ---
 
 We generally recommend installing the full version.
