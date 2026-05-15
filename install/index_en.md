@@ -1,6 +1,6 @@
 ---
 layout: default
-permalink: /install/install/
+permalink: /install/install_en/
 title: Installation
 ---
 
@@ -13,12 +13,12 @@ function better, or exclusively, on Unix-based operating systems (i.e., not Wind
 
 ## Windows-Linux Dual-Boot
 
-While it is still possible to complete the course using a Windows machine,
+While it is still possible to complete the workshop using a Windows machine,
 we strongly recommend, particularly considering your future studies,
 that you also install Linux on your computer alongside Windows.
 This allows you to choose between the two operating systems each time the computer is booted.
 If you wish to set up a dual-boot installation,
-fell free to follow our [instructions](/install/dualboot/).
+feel free to follow our [instructions](/install/dualboot_en/).
 Since performing a dual-boot installation for the first time may not be entirely simple,
 we are happy to assist you with the process.
 To request help, select the corresponding option during registration
