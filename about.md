@@ -1,13 +1,12 @@
 ---
-layout: default
-permalink: /about/
 title: Über den Workshop
+site:
+  hide_toc: true
 ---
 
-<p class="lead">Im Rahmen der
-<a href="https://pep-dortmund.org/vereinsleben/soak.html" target="_blank">PeP et al. Sommerakademie</a>
+Im Rahmen der [PeP et al. Sommerakademie](https://pep-dortmund.org/vereinsleben/soak.html)
 2012 entstand die Idee für einen Workshop, um Physikstudierenden die Unix-Kommandozeile,
-die Versionskontrolle mit git und Python mit diversen Bibliotheken näherzubringen.</p>
+die Versionskontrolle mit git und Python mit diversen Bibliotheken näherzubringen.
 
 Seitdem organisieren wir jährlich einen Workshop während der Sommer-Semesterferien.
 2014 fand zum ersten Mal auch der LaTeX-Kurs im Rahmen des Workshops statt.
@@ -19,14 +18,14 @@ Gegründet auf Initiative einiger Absolventen ist es seine Aufgabe,
 ein Netzwerk zwischen den Absolventen und der Fakultät aufzubauen.
 
 Mehr zu PeP et al. findest du auf unserer Website:
-[www.pep-dortmund.org](http://pep-dortmund.org/){:target="_blank"}.
+[pep-dortmund.org](http://pep-dortmund.org/).
 
-## Die Organisatoren
-Die Organisatoren sind dieses Jahr
+## Die Organisator*innen
+Die Organisator*innen sind dieses Jahr
 
   - Christian Beckmann
   - Anno Knierim
   - Sebastian Lütge
 
-Du kannst uns über die folgende Mail-Adresse erreichen:
-[pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de).
+Du kannst uns über die folgende Mail-Adresse erreichen:<br/>
+[pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de)

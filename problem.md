@@ -1,7 +1,7 @@
 ---
-layout: default
-permalink: /problem/
 title: Probleme mit den Programmen oder der Installation?
+site:
+  hide_toc: true
 ---
 
 Tritt ein Fehler bei der **Installation** der Programme auf,
@@ -23,11 +23,9 @@ Das kann dann folgendermaßen aussehen:
 - Suchen des Fehlers in der Form
   - Programmname + Fehlermeldung + (Paket)
 
-Sollte dies nicht helfen, kannst du uns eine Mail an
-
+Sollte dies nicht helfen, kannst du uns eine Mail an folgende Mailadresse schreiben:<br/>
 [pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de)
 
-schreiben.
 
 ## Welche Informationen benötigen wir?
 In der E-Mail sollten folgende Punkte vorhanden sein:
