@@ -140,8 +140,8 @@ At step 10 (here), follow the link again and complete the final 11 steps listed 
   the majority of online documentation is in English.
 
 1. The keyboard layout should match your computer's configuration.
-  If this is `German (eliminate dead keys)`,
-  The `eliminate dead keys` variant ensures that accent marks appear immediately
+  If it is a German keyboard, you'll likely want to select `German (eliminate dead keys)`;
+  the `eliminate dead keys` variant ensures that accent marks appear immediately
   when typed, which is particularly helpful for LaTeX.
 
 1. Enable the `Install Third Party Software` option. Additionally, if you are connected to a
