@@ -1,13 +1,10 @@
----
-layout: install
-permalink: /introduction/dicts_and_funcs/
-title: Wörterbücher und eigene Funktionen
----
+# Wörterbücher und eigene Funktionen
 
 Das, was wir dir bisher gezeigt haben, kann ähnlich
 in vielen anderen Programmiersprachen verwendet werden.
 Jetzt möchten wir dir etwas zeigen, dass `python` spezifischer ist,
 die `dictionaries`.
+
 
 # Dictionaries
 
@@ -82,6 +79,7 @@ Mit dieser lassen wir uns die einzelnen Vorlesungen ausgeben.
 Schaffst du es, den Code so zu verändern,
 dass die Vorlesungen zu denen passen, die du besucht hast?
 
+
 # Funktionen selber schreiben
 Als Letztes wollen wir dir zeigen,
 wie du eigene Funktionen schreiben kannst.
@@ -143,10 +141,14 @@ so wie wir auch einige Werte angegeben haben.
 Das war es an Lektionen in dieser `python`-Einführung.
 Weiter geht es im [Toolbox Workshop](/#Plan).
 
+
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 Da dies die letzte Lektion ist,
 [findest du hier den kompletten Code aller Einheiten.](/introduction/python/complete_introduction.py)
+
+````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:class: dropdown
 
 ```python
 """
@@ -203,3 +205,4 @@ def coulomb_force(q1, q2, r):
 
 print(f"F_C = {coulomb_force(1.602e-19, -1.602e-19, 0.01):.2e}N")
 ```
+````

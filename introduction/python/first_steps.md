@@ -1,12 +1,3 @@
----
-layout: install
-permalink: /introduction/first_steps/
-title:
----
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
 # Die ersten Schritte
 
 Worauf musst du achten, wenn du eine (neue) Programmiersprache lernst?
@@ -35,48 +26,61 @@ Du hast einen Mac? Dann öffne den _Finder_ und tippe VSCodium ein,
 Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
 und tippst _VSCode_ ein und klickst auf die VSCode App.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_Open.png" style="max-width:50%;" />
-</p>
+```{image} /img/introduction/VSCode_Open.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Jetzt wollen wir einen Ordner _ToolboxWorkshop_ auf dem Desktop erstellen
 und darin eine Datei _introduction.py_ anlegen.
 In VSC gibt es in der oberen Leiste _File_/_Datei_,
 klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_NewDir1.png" style="max-width:50%;" />
-</p>
+```{image} /img/introduction/VSCode_NewDir1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Es kann sein, dass sich der folgende Dialog in der Mitte von VSC öffnet.
 Klicke dann auf _Show local_ oder das deutsche Äquivalent.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_NewDir2.png" style="max-width:80%;" />
-</p>
+```{image} /img/introduction/VSCode_NewDir2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop
 und erstelle einen neuen Ordner mit dem Namen `ToolboxWorkshop`.
 In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_NewDir3.png" style="max-width:80%;" />
-</p>
+```{image} /img/introduction/VSCode_NewDir3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Öffne diesen Ordner mit dem Knopf _Öffne Ordner_/_Select Folder_ unten rechts.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_NewDir4.png" style="max-width:70%;" />
-</p>
+```{image} /img/introduction/VSCode_NewDir4.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In VSC kannst du jetzt in der linken Seitenleiste
 eine Datei erstellen, klicke dazu auf das erste Symbol hinter _TOOLBOXWORKSHOP_.
 Gib ihr den Namen `introduction.py`.
 Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_NewFile.png" style="max-width:80%;" />
-</p>
+```{image} /img/introduction/VSCode_NewFile.png
+:alt:
+:class: screenshot
+:align: center
+```
+
 
 ## _Hello World!_
 
@@ -107,11 +111,11 @@ Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
 z.B. $$f(x) = x^2$$.
 Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
-<p align="center">
-  <img alt=""
-    src="/img/introduction/VSCode_HelloWorld.png"
-    style="max-width:70%;" />
-</p>
+```{image} /img/introduction/VSCode_HelloWorld.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Dein VSC sollte jetzt ähnlich zum folgenden Screenshot aussehen.
 Wichtig ist der weiße Kreis neben dem Dateinamen.
@@ -123,7 +127,7 @@ Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssyst
 sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
 Achte also immer auf den weißen Punkt.**
 
-## <a id="Terminal"></a>Terminal öffnen und `python` ausführen
+## Terminal öffnen und `python` ausführen
 Für Windows ist dieser Abschnitt an einigen Stellen ausführlicher,
 wenn du ein anderes Betriebssystem hast,
 sind diese Schritte dann für dich nicht notwendig.
@@ -133,23 +137,28 @@ Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Dat
 Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann auf
 _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_Terminal0.png" style="max-width:80%;" />
-</p>
+```{image} /img/introduction/VSCode_Terminal0.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
-**Windows:** Steht am rechten oberen Rand des Terminals `powershell`,
-musst du dein [Terminal noch einrichten](/install/windows_11/#VSCodeTerminal){:target="_blank"}.
+````{caution} Windows
+Steht am rechten oberen Rand des Terminals `powershell`,
+musst du dein {ref}`Terminal noch einrichten<win11-terminal>`.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_Terminal1.png" style="max-width:80%;" />
-</p>
+```{image} /img/introduction/VSCode_Terminal1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
-**Windows:**
-Wiederhole jetzt den Schritt mit _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
+Wiederhole jetzt den Schritt mit `Öffne in integriertem Terminal`/`Open in Integrated Terminal`.
+````
 
-**Alle:** Schreibe in dein Terminal `ls` und führe den Befehl aus,
+Schreibe in dein Terminal `ls` und führe den Befehl aus,
 indem du auf `Enter` drückst.
 `ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
 Es werden dir verschiedene Namen zurückgegeben,
@@ -159,9 +168,11 @@ Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Ente
 Als Ausgabe siehst du `Hello World!`, also gerade das,
 was wir als Argument in `print` geschrieben haben.
 
-<p align="center">
-  <img alt="" src="/img/introduction/VSCode_Terminal2.png" style="max-width:80%;" />
-</p>
+```{image} /img/introduction/VSCode_Terminal2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen.
 Der grüne Text wird sich unterscheiden.
@@ -175,6 +186,7 @@ ist damit gemeint, dass du im Terminal `python introduction.py` eintippst
 und es mit `Enter` ausführst.
 Du kannst das abkürzen, indem du den zuletzt ausgeführten Befehl mit
 `Pfeil nach oben` und `Enter` wiederholst.**
+
 
 ## Kommentare
 In Programmiersprachen sollen Kommentare verwendet werden, um den Code zu erklären.
@@ -214,6 +226,8 @@ Weiter geht es in [Lektion 2 - Variablen](/introduction/variables).
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 
+````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:class: dropdown
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
@@ -228,3 +242,4 @@ print("Lektion 1")
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 ```
+````

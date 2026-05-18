@@ -1,10 +1,4 @@
----
-layout: install
-permalink: /introduction/git-commit/
-title:
----
-
-## `git`: Die eigenen Änderungen hochladen
+# `git`: Die eigenen Änderungen hochladen
 
 Wenn du an einem Punkt bist, den du auf GitHub hochladen möchtest,
 wechselst du auf dein Terminal und tippst als Erstes

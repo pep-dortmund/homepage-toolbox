@@ -1,10 +1,4 @@
----
-layout: install
-permalink: /introduction/new-labreport/
-title:
----
-
-## Einen neuen Ordner für einen Versuch anlegen
+# Einen neuen Ordner für einen Versuch anlegen
 
 In diesem Terminal bist du in dem Ordner, in dem die Datei liegt, auf die du geklickt hast.
 Mit dem Terminal-Befehl `pwd` kannst du dir den aktuellen Pfad anzeigen lassen,
@@ -30,9 +24,10 @@ Wichtig ist hier auch, dass `-r`, da wir einen Ordner kopieren,
 müssen wir es hinter den `cp` Befehl schreiben.
 Im Anschluss sehen wir auch unseren neuen Ordner `v101` in der Ausgabe von `ls`.
 
-<p align="center">
-  <img alt="" src="/img/toolbox/VSCode_1.png" style="max-width:90%;" />
-</p>
+```{image} /img/toolbox/VSCode_1.png
+:alt:
+:align: center
+```
 
 Nun wechseln wir mit `cd v101`,
 oder `cd` deinem Ordnernamen, in den neu erstellten Ordner.
@@ -42,14 +37,16 @@ cd v101
 mv vXXX.tex v101.tex
 ```
 
-<p align="center">
-  <img alt="" src="/img/toolbox/VSCode_2.png" style="max-width:30%;" />
-</p>
+```{image} /img/toolbox/VSCode_2.png
+:alt:
+:align: center
+```
 
 Als Nächstes ändern wir im _Makefile_ des neu erstellten Ordners
 den Namen der `.tex` Datei.
 Dazu gibt es in der ersten Zeile die Variable `TEXFILE`,
 ersetze hier `vXXX` durch `v101` oder den Namen, den du im `mv`-Befehl vergeben hast.
+
 
 ## Arbeiten am Code
 

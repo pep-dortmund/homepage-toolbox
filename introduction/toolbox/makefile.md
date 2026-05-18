@@ -1,10 +1,4 @@
----
-layout: install
-permalink: /introduction/makefile/
-title:
----
-
-## Die Struktur des Makefiles
+# Die Struktur des Makefiles
 
 An dieser Stelle wollen wir über das Makefile schreiben und dir die Regeln,
 die schon drin stehen, erklären;
@@ -48,7 +42,7 @@ und auch den Rest.
   beide liegen im Hauptordner des Repository und daher muss `../` vor ihnen stehen,
   damit sie gefunden werden.
   Weiteres zu LaTeX in `matplotlib` findest du in den
-  [Folien zu LaTeX](https://toolbox.pep-dortmund.org/files/archive/current/latex.pdf){:target="_blank"}
+  [Folien zu LaTeX](https://toolbox.pep-dortmund.org/files/archive/current/latex.pdf)
   im Abschnitt _TeX in matplotlib in TeX_.
   Zusätzlich solltest du hier auch deine Datendateien hinschreiben,
   mit relativem Pfad zum Makefile, z.B. `data/quader.txt`.
@@ -102,7 +96,7 @@ und auch den Rest.
   ```
   Dies ist die lange LaTeX-Regel.
   Sie enthält alles, was in den
-  [`make`-Folien](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf){:target="_blank"}
+  [`make`-Folien](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf)
   besprochen wird.
   Die `prerequisites` sind hier anders als für die `python`-Regeln.
   `| build` haben wir bei der `python`-Regel besprochen,
@@ -185,6 +179,7 @@ und auch den Rest.
   damit `make` weiß, dass die gelisteten `targets`
   keine Dateien erzeugen und falls es doch Dateien gibt,
   die so heißen, immer noch die Regeln ausgeführt werden.
+
 
 ### Das Makfile ausführen
 

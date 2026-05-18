@@ -1,0 +1,25 @@
+version: 1
+project:
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  title: Einstieg
+  toc:
+    - file: introduction.md
+    - file: python.md
+    - title: Python
+      children:
+        - file: python/first_steps.md
+        - file: python/variables.md
+        - file: python/control_structures.md
+        - file: python/dicts_and_funcs.md
+    - file: toolbox.md
+    - title: Toolbox
+      children:
+        - file: toolbox/git-template.md
+        - file: toolbox/git-clone-repository.md
+        - file: toolbox/vsc-open.md
+        - file: toolbox/git-pull.md
+        - file: toolbox/new-labreport.md
+        - file: toolbox/makefile.md
+        - file: toolbox/git-commit.md

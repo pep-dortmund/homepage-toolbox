@@ -1,8 +1,4 @@
----
-layout: install
-permalink: /introduction/python/
-title: Einführung in Python
----
+# Einführung in Python
 
 In dieser Anleitung möchten wir dir einen Einstieg in `python` geben,
 und dafür direkt die von dir installierten Programme nutzen.

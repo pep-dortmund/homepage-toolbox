@@ -1,10 +1,4 @@
----
-layout: install
-permalink: /introduction/git-clone-repository/
-title:
----
-
-## `git`: Ein Repository klonen
+# `git`: Ein Repository klonen
 
 Wenn du ein Repository klonen möchtest, gehst du auf die GitHub-Seite des Repositories
 und klickst dort auf _<> Code_.
@@ -12,9 +6,10 @@ Wenn du die _ssh-keys_ eingerichtet hast, kannst du jetzt auf _SSH_,
 im Screenshot orange unterstrichen, klicken
 und dann auf die beiden Quadrate rechts neben der Textzeile.
 
-<p align="center">
-  <img alt="" src="/img/toolbox/template_4.png" style="max-width:60%;" />
-</p>
+```{image} /img/toolbox/template_4.png
+:alt:
+:align: center
+```
 
 Öffne nun dein Terminal und navigiere mit `cd` zu dem Ordner,
 wohin du das Repository klonen möchtest.

@@ -1,8 +1,4 @@
----
-layout: default
-permalink: /introduction/introduction/
-title: Einführung in Python und in das Toolbox Paket
----
+# Einführung in Python und in das Toolbox Paket
 
 Auf diesen Seiten findest du eine Einführung in `python` und das Paket an Programmen,
 das wir im Workshop vorstellen.

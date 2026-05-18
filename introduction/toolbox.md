@@ -1,11 +1,7 @@
----
-layout: default
-permalink: /introduction/toolbox/
-title: Beispielhafte Nutzung der Programme
----
+# Beispielhafte Nutzung der Programme
 
 Auf diesen Seiten erklären wir dir beispielhaft am
-[Template-Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template){:target="_blank"}
+[Template-Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template)
 wie das Arbeiten mit den vorgestellten Programmen ablaufen kann.
 Wenn du nochmal alles durchgehen möchtest, fang am besten oben an.
 Du suchst ein bestimmtes Thema?

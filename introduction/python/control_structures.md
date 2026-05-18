@@ -1,12 +1,8 @@
----
-layout: install
-permalink: /introduction/control_structures/
-title:
----
 # Kontrollstrukturen
 
 Als Kontrollstrukturen schauen wir uns in dieser Lektion
 Fallunterscheidungen und Schleifen an.
+
 
 ## Fallunterscheidungen
 _Wenn_, _sonst wenn_, _sonst_ ist eine Fallunterscheidung.
@@ -46,6 +42,7 @@ die Einrückung selber setzen.
 Zum Start schauen wir uns deshalb erst einmal Vergleiche in `python` an, um
 die Statements formulieren zu können.
 
+
 ### Vergleiche
 Am Ende eines Vergleiches wissen wir, ob dieser Richtig oder Falsch ist,
 in `python` heißt es `True` und `False`.
@@ -69,6 +66,7 @@ print(f"{2 != 2 = }")
 Du kannst so jetzt auch `<` als `!>` schreiben und andersrum
 `>` als `!<`, das ist nur nicht sinnvoll,
 da es schwieriger zum Lesen ist.
+
 
 ### `if`
 Jetzt schreiben wir uns ein kleines Programm, welches uns ausgibt,
@@ -95,6 +93,7 @@ Am Ende der Zeile kommt ein `:`, um `python` zu zeigen,
 dass der Vergleich zu Ende ist und jetzt eingerückte Zeilen kommen,
 die ausgeführt werden sollen, wenn der Vergleich korrekt ist.
 In diesem Block geben wir die Zahlen mit dem richtigen Vergleichszeichen aus.
+
 
 ### `elif`
 Nachdem wir den kleiner Vergleich gemacht haben,
@@ -135,7 +134,8 @@ Führen wir nun den Code aus, sehen wir, dass `4 > 3`.
 Teste hier mal weitere Werte für `nr_to_compare` und `compare_to`.
 Verhält sich alles so, wie du es erwartest?
 
-## <a id="Loops"></a>Schleifen
+
+## Schleifen
 Nachdem wir gelernt haben, wie wir Code schreiben können,
 der nur ausgeführt wird, wenn bestimmte Bedingungen erfüllt sind,
 geht es jetzt um Code, der wiederholt werden kann.
@@ -144,6 +144,7 @@ einen gewissen Codeteil wieder und wieder,
 solange eine Bedingung erfüllt ist.
 Es gibt verschiedene Varianten von Schleifen,
 wir zeigen dir hier zwei.
+
 
 ### `while`
 Die erste Schleifenart, die wir dir hier zeigen, ist die `während`-Schleife.
@@ -188,6 +189,7 @@ Der Vergleich `i < 2` ist somit `False` und der Block der eingerückten
 Zeilen wird übersprungen. Damit wird „while-loop end“ ausgegeben,
 die erste nicht eingerückte Zeile nach dem `while`-_keyword_.
 
+
 ### `for`
 Eine weitere Schleifenart ist die `für`-Schleife.
 Diese führt die eingerückten Zeilen für alle Elemente eines Objekts durch.
@@ -229,6 +231,7 @@ dass diese unverändert ist.
 Das Quadrieren innerhalb der Schleife ändert also nicht
 die Elemente der Liste, da wir dort nur mit `x` arbeiten.
 
+
 ### `range`
 Dieser Abschnitt gehört eigentlich noch zur `for`-Schleife,
 wir führen hier aber noch die sehr nützliche Funktion `range` ein.
@@ -264,6 +267,8 @@ Weiter geht es in [Lektion 4 - Wörterbücher & eigene Funktionen](/introduction
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 
+````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:class: dropdown
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
@@ -327,3 +332,4 @@ print("range 2")
 for i in range(5, 0, -1):
     print(i)
 ```
+````

@@ -1,12 +1,3 @@
----
-layout: install
-permalink: /introduction/variables/
-title:
----
-<script
-  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
-  type="text/javascript">
-</script>
 # Verschiedene Variablentypen
 
 Als Nächstes möchten wir das Konzept von Variablen besprechen.
@@ -81,6 +72,7 @@ In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der
 darin enthaltenen Variable auszugeben, das `=` sorgt dafür, dass erst der Name
 und dann der Wert ausgegeben wird.
 
+
 ### Rechenmethoden
 Wie in der Mathematik können wir auch die Grundrechenarten in `python` nutzen,
 die Symbole sind `+`, `-`, `*`, `/`.
@@ -131,7 +123,7 @@ Wie bei der „normalen“ Division passt die 1 dreimal in die 3.
 Die 2 nur einmal in die 3 und die 4 gar nicht.
 
 
-## <a id="Strings"></a>Strings
+## Strings
 Als Strings werden Variablen bezeichnet, die eine Reihe an Zeichen enthalten,
 in den meisten Fällen sind es Buchstaben.
 Das kann wie im _Hello World!_ Beispiel „Hello World!“ sein, aber auch noch ganz viel mehr.
@@ -166,7 +158,8 @@ Die letzte Ausgabe sieht so aus wie die `string_addition` mit Leerzeichen,
 das liegt daran, dass `print` standardmäßig Leerzeichen zwischen die Argumente setzt.
 Die Argumente sind in diesem Fall die drei String-Variablen, getrennt durch Kommata.
 
-## <a id="Lists"></a>Lists
+
+## Lists
 Mit den bisher vorgestellten Variablen können wir einzelne Zahlen oder Zeichenketten
 in unserem Programmcode verwenden.
 Wenn wir nun aber etwas gemessen haben, wird es schon bei wenigen Messwerten lästig,
@@ -187,6 +180,8 @@ Geben wir nun die Liste aus, erhalten wir
 print(f"{elements = }")
 # elements = ['gold', 'silver', 'copper']
 ```
+
+
 ### Indizieren
 Da wir so nur die gesamte Liste ausgeben können, schauen wir uns jetzt an,
 wie wir einzelne Elemente aus der Liste bekommen.
@@ -226,6 +221,7 @@ In der dritten Zeile sehen wir nur eine Zahl um den Doppelpunkt,
 diese Schreibweise verkürzt Indizierungen, wenn wir vom Start oder bis zum Ende
 der Liste gehen wollen. Die ganze Liste bekommen wir auch mittels `elements[:]`.
 
+
 ### Ersetzen und erweitern
 Wie bei den anderen Variablen können wir einzelne Elemente der Liste überschreiben.
 Nehmen wir an, wir sollten im Versuch nicht mit Silber arbeiten, sondern mit Titan.
@@ -254,6 +250,8 @@ Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control_structu
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 
+````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:class: dropdown
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
@@ -338,3 +336,4 @@ print(f"{elements+elements[:2] = }")
 print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
+````

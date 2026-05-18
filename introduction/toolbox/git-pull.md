@@ -1,10 +1,4 @@
----
-layout: install
-permalink: /introduction/git-pull/
-title:
----
-
-## `git pull`: Änderungen herunterladen
+# `git pull`: Änderungen herunterladen
 
 Bevor du anfängst, an den Dateien zu arbeiten,
 solltest du erst einmal schauen,

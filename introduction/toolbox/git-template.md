@@ -1,30 +1,25 @@
----
-layout: install
-permalink: /introduction/git-template/
-title:
----
-
-## `git`: Das Template-Repository
+# `git`: Das Template-Repository
 
 Für das Praktikum haben wir eine Vorlage für die Protokolle geschrieben.
 Du musst also nicht alles aus den Folien und Notebooks selber herausschreiben für deine Vorlage.
 Um das Template sinnvoll nutzen zu können, brauchst du einen GitHub-Account,
 falls du also keinen hast, kannst du dir
-[hier](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header){:target="_blank"}
+[hier](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header)
 einen erstellen.
 
 In der Nutzung von git ist es einfacher, mit einem ssh-keys als Passwortersatz zu arbeiten.
-Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf){:target="_blank"}
+Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf)
 findest du eine Anleitung zum Einrichten von ssh-keys als Authentifizierungsmethode bei GitHub.
 
 Zum Nutzen des Templates folgst du
-[diesem Link zum Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template){:target="_blank"}.
+[diesem Link zum Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template).
 Dort klickst du auf den grünen Knopf _Use this template_, rechts am Bildrand.
-Im aufploppenden Dialog wählst du dann _Create a new repository_ aus.
+Im Dialog, der erscheint, wählst du dann _Create a new repository_ aus.
 
-<p align="center">
-  <img alt="" src="/img/toolbox/template_0.png" style="max-width:80%;" />
-</p>
+```{image} /img/toolbox/template_0.png
+:alt:
+:align: center
+```
 
 Auf der folgenden Seite musst du ein paar Sachen eintragen.
 
@@ -40,16 +35,18 @@ Auf der folgenden Seite musst du ein paar Sachen eintragen.
   und nur von dir und eingeladenen GitHub-Nutzenden angesehen werden kann.
 5. Zum Schluss klickst du auf _Create repository_.
 
-<p align="center">
-  <img alt="" src="/img/toolbox/template_1.png" style="max-width:60%;" />
-</p>
+```{image} /img/toolbox/template_1.png
+:alt:
+:align: center
+```
 
 Warte kurz, bis dein Repository erstellt wurde,
 dann wirst du automatisch zu deinem Repository weitergeleitet.
 
-<p align="center">
-  <img alt="" src="/img/toolbox/template_2.png" style="max-width:40%;" />
-</p>
+```{image} /img/toolbox/template_2.png
+:alt:
+:align: center
+```
 
 Nach dem Laden sieht dein Repository ähnlich zu dem auf der linken Seite aus.
 Im Hintergrund läuft gerade noch ein Prozess, der einige Dateien aus deinem Repository
@@ -58,6 +55,7 @@ Entfernt wurden `.github/workflows` und `environment.yml`.
 Zudem wurde der Inhalt der `README.md` in `notes.md` übertragen,
 sodass du eigene Zeilen in die `README.md` schreiben kannst.
 
-<p align="center">
-  <img alt="" src="/img/toolbox/template_3.png" style="max-width:100%;" />
-</p>
+```{image} /img/toolbox/template_3.png
+:alt:
+:align: center
+```
