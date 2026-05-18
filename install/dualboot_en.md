@@ -53,7 +53,7 @@ Save your recovery key, and then disable BitLocker.
 ## Choosing a Linux Distribution
 
 The term "Linux" actually refers *only* to the absolute core of the operating system.
-Building upon it, there are many different "distributions, each of which comes with 
+Building upon it, there are many different "distributions", each of which comes with 
 a distinct set of pre-installed programs.
 The primary differences between them lie in the graphical user interface
 and the package manager used.
