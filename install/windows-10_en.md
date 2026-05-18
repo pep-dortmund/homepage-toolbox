@@ -757,7 +757,7 @@ To use the installed packages, activate the _virtual environment_ using this com
 ```
 mamba activate toolbox
 ```
-Executing this command changes the beginning of the prompt from `(base)` to `(toolbox)`.
+Executing this command changes the prompt from `(base)` to `(toolbox)`.
 
 Now, enter the following commands into Windows Terminal, one by one:
 After entering the first command, the appearance of the command line will change slightly.
