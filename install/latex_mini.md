@@ -1,6 +1,4 @@
 ---
-layout: install
-permalink: /install/latex_mini/
 title: LaTeX Minimale Installation
 ---
 
@@ -13,13 +11,13 @@ kannst du mit dieser Anleitung die minimierte Version installieren.
 Um die minimale Version (≈600 MB) zu installieren, kannst du,
 analog zur vollen Installation, mit den folgenden Schritten beginnen,
 um das Installationsskript von TeXLive herunterzuladen:
-```
+```shell
 cd ~/.local
 ```
-```
+```shell
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 ```
-```
+```shell
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 Um nicht die volle Version herunterzuladen, sondern die `basic` Version, musst du `S` eingeben und mit `Enter` bestätigen.
@@ -35,35 +33,35 @@ musst du den Pfad zu der Konfigurationsdatei deiner Shell hinzugefügen.
 Dafür fügst du die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu.
 Um zu sehen, welche Shell du benutzt, kannst du `echo $SHELL` im Terminal eingeben.
 Wenn die Ausgabe _bash_ enthält, kannst du mit dem folgenden Befehl den Pfad zu TeXlive zum `PATH` hinzufügen
+```shell
+echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
-echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
-```
-```
+```shell
 source ~/.bashrc
 ```
 Für andere Terminal-Varianten musst du den `export` in die entsprechende Konfigurationsdatei schreiben.  
 Dann sollten noch die Update-Optionen angepasst werden:
-```
+```shell
 tlmgr option autobackup -- -1
 ```
-```
+```shell
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
-```
+```shell
 luaotfload-tool --update --force
 ```
 
 Eine Liste aller notwendigen LaTeX-Pakete, die du benötigst, lädst du mit
-```
+```shell
 curl -fLO https://raw.githubusercontent.com/pep-dortmund/toolbox-workshop/main/tex-packages.txt
 ```
 herunter.
 Die Installation kann dann mit
-```
+```shell
 xargs -a tex-packages.txt tlmgr install
 ```
 durchgeführt werden.
+
 Damit ist die Installation der kleinen Version abgeschlossen.
 Weiter geht es mit den Tests in der Anleitung für
-[Windows 10](/install/windows_10/#test), [Windows 11](/install/windows_11/#test)
-oder [Linux](/install/linux/#test).
+[Windows 10](#win10-tests), [Windows 11](#win11-tests) oder [Linux](#linux-tests).

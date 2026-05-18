@@ -1,0 +1,14 @@
+version: 1
+project:
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  title: Überblick
+  toc:
+    - file: install.md
+    - file: dualboot.md
+    - file: latex_mini.md
+    - file: linux.md
+    - file: macos.md
+    - file: windows-10.md
+    - file: windows-11.md

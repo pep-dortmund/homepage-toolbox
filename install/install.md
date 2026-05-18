@@ -1,7 +1,5 @@
 ---
-layout: default
-permalink: /install/install/
-title: Installation
+title: Überblick
 ---
 
 Hier findest du die Anleitungen zur Installation der benötigten Programme
@@ -17,6 +15,7 @@ Der Kurs ist zwar auch mit einem Windows-Rechner zu absolvieren,
 aber gerade in Hinblick auf das weitergehende Studium empfehlen wir dir,
 parallel auf deinem Rechner Linux zu installieren.
 So kannst du beim Hochfahren zwischen den beiden Betriebssystemen wählen.
+
 Wer eine Dual-Boot-Installation durchführen möchte,
 kann gerne unserer [Anleitung](/install/dualboot/) folgen.
 Da eine Dual-Boot-Installation beim ersten Mal nicht unbedingt trivial ist,
