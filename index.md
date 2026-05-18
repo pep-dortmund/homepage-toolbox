@@ -102,5 +102,5 @@ An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen
 ([Lageplan Nr. 6](https://www.tu-dortmund.de/storages/tu_website/Referat_1/News/2019/2019_10_Oktober/191010_TU_Lageplan_A4_WEB_2019.pdf)).
 Der Eingang befindet sich gegenüber dem Haupteingang des Hörsaalgebäudes II.
 
-:::{include} /resources/schedule-table.html
+:::{include} /_static/schedule-table.html
 :::
