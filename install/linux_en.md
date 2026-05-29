@@ -25,14 +25,14 @@ as well as TeXLive.
 %}
 
 Installation steps are provided for the most common distributions.
-Only execute the commands specific to your own distribution (e.g., Ubuntu).
+Only execute the commands specific to your own distribution (e.g., Mint).
 
 The `sudo` command grants extensive administrator privileges.
 Thus, any command executed using `sudo` should be scrutinised with the utmost care.
 
 ### Git, Make, curl
 
-- Debian, Ubuntu, Mint:
+- Mint, Debian, Ubuntu:
 
         $ sudo apt update
         $ sudo apt upgrade
@@ -52,7 +52,7 @@ The binaries provided by Microsoft for VSCode are proprietary
 and contain tracking software. For this reason, we recommend VSCodium,
 an open-source variant of VSCode.
 
-- Debian, Ubuntu, Mint:
+- Mint, Debian, Ubuntu:
 
   Download the file `codium_<VERSION>_amd64.deb` from
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases){:target="_blank"} and open it using
