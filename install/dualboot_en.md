@@ -161,4 +161,5 @@ At step 10 (here), follow the link again and complete the final 11 steps listed 
 
 1. Select your installed Linux distribution and set up your system.
 
-1. See also: installation guide for [Linux](/install/linux/).
+1. See our [Linux installation guide](/install/linux_en/) for instructions on
+   installing the Toolbox Workshop-specific programs.
