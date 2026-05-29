@@ -140,7 +140,7 @@ At step 10 (here), follow the link again and complete the final 11 steps listed 
   the majority of online documentation is in English.
 
 1. The keyboard layout should match your computer's configuration.
-  If it is a German keyboard, you'll likely want to select `German (eliminate dead keys)`;
+  Depending on the language, you'll likely want to select `[Language] (eliminate dead keys)`;
   the `eliminate dead keys` variant ensures that accent marks appear immediately
   when typed, which is particularly helpful for LaTeX.
 
