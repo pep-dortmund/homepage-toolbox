@@ -18,7 +18,13 @@ These programs include, for example:
 
 * Microsoft Office (Word, Excel, PowerPoint etc.)
 * Adobe Creative Suite (Photoshop, Lightroom, InDesign etc.)
-* Most computer games
+* Most multiplayer computer games
+
+You can instead use
+
+* LibreOffice
+* Gimp, Inkscape, Blender
+* Steam, HeroicGames, Lutris for most hames.
 
 This guide assumes that you already have Windows 10/11 installed.
 When installing a Windows/Linux dual-boot system, Windows must be installed first.
