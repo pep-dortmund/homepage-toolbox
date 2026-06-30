@@ -24,7 +24,7 @@ You can instead use
 
 * LibreOffice
 * Gimp, Inkscape, Blender
-* Steam, HeroicGames, Lutris for most hames.
+* Steam, HeroicGames, Lutris for most games.
 
 This guide assumes that you already have Windows 10/11 installed.
 When installing a Windows/Linux dual-boot system, Windows must be installed first.
