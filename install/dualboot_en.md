@@ -37,7 +37,7 @@ in that case, Windows should be reinstalled in UEFI mode.
 
 If you only want to install Linux,
 you can follow the instructions starting at
-[Step 6](#einen-bootfähigen-usb-stick-für-die-linux-installation-erstellen).
+[Step 6](#creating-a-bootable-usb-drive-for-linux-installation).
 
 
 ## Create a Full Backup
