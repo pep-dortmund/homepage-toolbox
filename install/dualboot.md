@@ -20,6 +20,12 @@ Dies betrifft zum Beispiel:
 * Adobe Creative Suite (Photoshop, Lightroom, InDesign etc.)
 * Die Mehrheit der Computerspiele
 
+Alternativen dazu sind
+
+* LibreOffice
+* Gimp, Inkscape, Blender
+* Steam, HeroicGames, Lutris für die meisten Spiele
+
 Diese Anleitung geht davon aus, dass du Windows 10/11 bereits installierst hast.
 Bei der Installation eines Windows/Linux-Dual-Boot Systems muss Windows als erstes installiert
 werden.

@@ -31,7 +31,7 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 
 ### Git, Make, curl
 
-- Debian, Ubuntu, Mint:
+- Mint, Debian, Ubuntu:
 
         $ sudo apt update
         $ sudo apt upgrade
@@ -51,7 +51,7 @@ Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind propriet
 und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
 
-- Debian, Ubuntu, Mint:
+- Mint, Debian, Ubuntu:
 
   Lade die Datei `codium_<VERSION>_amd64.deb` von
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases){:target="_blank"} herunter und öffne sie mit
