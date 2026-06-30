@@ -12,7 +12,7 @@ jobs:
       BUNDLE_PATH: vendor/bundle
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
@@ -33,7 +33,7 @@ jobs:
             --empty-alt-ignore
 
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: toolbox-homepage-build
           path: ./_site
@@ -44,10 +44,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Download artifact
-        uses: actions/download-artifact@v5
+        uses: actions/download-artifact@v8
         with:
           name: toolbox-homepage-build
           path: ./_site
