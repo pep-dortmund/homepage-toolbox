@@ -22,7 +22,7 @@ Kurses veröffentlicht.
 
 
 [intro-current]: /files/archive/current/intro.pdf
-[python-current]: /files/archive/current/python.ipynb
+[python-current]: /files/archive/current/python
 [ex1-current]: /files/archive/current/exercises-toolbox-1.zip
 [numpy-current]: /files/archive/current/numeric-python.ipynb
 [matplotlib-current]: /files/archive/current/matplotlib.ipynb

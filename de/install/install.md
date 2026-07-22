@@ -23,6 +23,12 @@ helfen wir gerne dabei.
 Markiere dazu den entsprechenden Punkt in der Anmeldung oder
 schreibe uns per [E-Mail](/problem) an.
 
+
+```{raw} html
+<link rel="stylesheet" href="https://cloudflare.com">
+<i class="fas fa-check"></i>
+```
+
 ## Anleitungen
 
 <div class="row">
