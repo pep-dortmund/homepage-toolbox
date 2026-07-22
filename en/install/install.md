@@ -28,15 +28,15 @@ or contact us via [email](/problem).
 
 ::::{grid} 1 1 2 4
 :::{card}
-[Linux](/install/linux) |
+[Linux](/install/linux)
 :::
 :::{card}
-[macOS](/install/macos) |
+[macOS](/install/macos)
 :::
 :::{card}
-[Windows 11](/install/windows-11) |
+[Windows 11](/install/windows-11)
 :::
 :::{card}
-[Windows 10](/install/windows-10) |
+[Windows 10](/install/windows-10)
 :::
 ::::
