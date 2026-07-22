@@ -51,6 +51,7 @@ $ sudo pacman -S git make curl libxcrypt-compat
 :::
 ::::
 
+
 ### Texteditor VSCodium
 
 Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind proprietär
