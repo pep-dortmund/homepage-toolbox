@@ -665,7 +665,7 @@ der im folgenden Fenster ausgeführt werden kann.
 :align: center
 ```
 
-
+(windows-11-term)=
 #### VSCode: Terminal einrichten
 
 Mit der Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
