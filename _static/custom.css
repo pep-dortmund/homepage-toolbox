@@ -21,3 +21,15 @@
 .center-card-body .myst-card-body p {
   text-align: center;
 }
+
+.myst-navbar-end .link .iconify-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transform: translateY(3px);
+}
