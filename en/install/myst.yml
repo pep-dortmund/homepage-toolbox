@@ -3,7 +3,7 @@ project:
   license:
     code: MIT
     content: CC-BY-4.0
-  title: Überblick
+  title: Overview
   toc:
     - file: install.md
     - file: dualboot.md
