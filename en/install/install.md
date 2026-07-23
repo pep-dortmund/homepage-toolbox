@@ -27,16 +27,30 @@ or contact us via [email](/problem).
 ## Instructions
 
 ::::{grid} 1 1 2 4
+:class: install-os-cards center-card-body
+
 :::{card}
-[Linux](/install/linux)
+:header: {icon}`fa6-brands:linux`
+:link: /install/linux
+
+Linux
 :::
 :::{card}
-[macOS](/install/macos)
+:header: {icon}`fa6-brands:apple`
+:link: /install/macos
+
+macOS
 :::
 :::{card}
-[Windows 11](/install/windows-11)
+:header: {icon}`dinkie-icons:windows`
+:link: /install/windows-11
+
+Windows 11
 :::
 :::{card}
-[Windows 10](/install/windows-10)
+:header: {icon}`fa6-brands:windows`
+:link: /install/windows-10
+
+Windows 10
 :::
 ::::
