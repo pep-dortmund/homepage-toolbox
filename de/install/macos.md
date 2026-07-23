@@ -125,7 +125,7 @@ Deswegen empfehlen wir dir VSCodium, eine Open-Source-Variante von VSCode.
   und „Sicherheit“ auf den „Dennoch öffnen“ Button klicken.
 - In VSCodium öffnest du mit `Shift` + `cmd` + `p` die Kommando-Palette
   und schreibst dort
-  ```shell
+  ```
   Shell Command: Install 'codium' command in PATH
   ```
   führst es dann mit `Enter` aus.
@@ -163,7 +163,7 @@ Es sollte die Git-Hilfe erscheinen.
 
 Für git kannst du im Terminal noch etwas einstellen.
 Tippe die folgenden Zeilen **nacheinander** in dein Terminal und bestätige sie mit `Enter`,
-aber **<span style="color: crimson;">trage deine eigenen Daten ein!!!</span>**:
+aber **<span style="color: crimson;">trage deine eigenen Daten ein!</span>**:
 
 ```shell
 git config --global user.name "Max Mustermann"
