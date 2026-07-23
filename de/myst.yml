@@ -27,6 +27,7 @@ project:
 
   plugins:
     - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
+    - https://github.com/choldgraf/myst-iconify/releases/latest/download/index.mjs
 
 site:
   projects:

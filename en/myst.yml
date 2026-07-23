@@ -26,6 +26,7 @@ project:
 
   plugins:
     - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
+    - https://github.com/choldgraf/myst-iconify/releases/latest/download/index.mjs
 
 site:
   projects:
@@ -61,6 +62,7 @@ site:
     logo: _static/pep_neg.svg
     logo_text: Toolbox Workshop
     logo_url: /en/main
+    style: _static/custom.css
 
   parts:
     banner: _parts/banner_en.md
