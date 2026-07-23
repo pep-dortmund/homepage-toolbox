@@ -1,2 +1,23 @@
-@import url('https://use.fontawesome.com/releases/v6.5.1/css/all.css');
+.install-os-cards .myst-card-header .iconify-icon {
+  font-size: 3rem !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+}
 
+.install-os-cards .myst-card-header {
+  text-align: center;
+}
+
+.install-os-cards .myst-card-header p {
+  margin: 0;
+}
+
+.center-card-body .myst-card-body {
+  text-align: center;
+}
+
+.center-card-body .myst-card-body p {
+  text-align: center;
+}
