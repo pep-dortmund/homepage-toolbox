@@ -18,7 +18,7 @@ letzte Zeile klicken.
 Mit der Pfeiltaste nach oben kannst du den letzten geschriebenen Befehl aufrufen
 und mit `Enter` erneut ausführen.
 Wenn dein Terminal geschlossen ist, findest du
-[hier](/introduction/first_steps/#Terminal){:target="_blank"}
+[hier](/introduction/first_steps/#terminal)
 die Schritte zum Öffnen.
 Du solltest jetzt folgende Ausgabe sehen:
 ```
@@ -43,7 +43,7 @@ Wichtig dafür ist, dass es ein zusammenhängender Name ist, also keine Leerzeic
 Es ist immer sinnvoll, einen _sprechenden_ Namen zu wählen, Beispiele für das Praktikum sind
 `nr_of_measurements`, `temperature_gold`, `lengthRod1`.
 In dieser Anleitung werden wir, wenn es sinnvoll ist und wir nicht `a`, `b`, `x` & `y` nehmen, den
-[snake_case](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats){:target="_blank"}
+[snake_case](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats)
 verwenden, wie z.B. `this_is_a_multiplicator`.
 
 Für Kommazahlen müssen wir den Punkt als Dezimaltrennzeichen nutzen,
@@ -65,7 +65,7 @@ print(f"{hereIsAnother = }")
 Wie der Name vorsagt, benötigen wir für `f-strings` ein `f` und einen String.
 Das `f` siehst du in den beiden `print`-Funktionen nach der Klammer auf.
 Strings sind eine Ansammlung von Zeichen, und wir schauen sie uns im Abschnitt
-[Strings](/introduction/variables/#Strings) direkt im Anschluss an.
+[Strings](/introduction/variables/#strings) direkt im Anschluss an.
 Jetzt benötigen wir nur die Information, dass Strings in `python` mit einem `"`
 beginnen und aufhören.
 In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der
@@ -245,7 +245,7 @@ print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
 
-Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control_structures).
+Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control-structures).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.

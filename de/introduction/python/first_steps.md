@@ -104,7 +104,7 @@ ist, weil `prnit` getippt wurde.
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
 Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles Mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[String](/introduction/variables/#Strings){:target="_blank"} "Hello World!"
+in diesem Fall ist es der Text/[String](/introduction/variables/#strings) "Hello World!"
 Weitere Argumente können durch `,` getrennt, ausgegeben werden,
 z.B. `print("Hello World!", "Hello World!")`.
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
@@ -147,7 +147,7 @@ Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
 ````{caution} Windows
 Steht am rechten oberen Rand des Terminals `powershell`,
-musst du dein {ref}`Terminal noch einrichten<win11-terminal>`.
+musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 
 ```{image} /img/introduction/VSCode_Terminal1.png
 :alt:

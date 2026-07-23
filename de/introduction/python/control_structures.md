@@ -194,7 +194,7 @@ die erste nicht eingerückte Zeile nach dem `while`-_keyword_.
 Eine weitere Schleifenart ist die `für`-Schleife.
 Diese führt die eingerückten Zeilen für alle Elemente eines Objekts durch.
 Da das schwer zum Vorstellen ist, schauen wir uns direkt Beispiele an.
-In der Lektion über [Listen](/introduction/variables/#Lists){:target="_blank"} haben wir eine Liste
+In der Lektion über [Listen](/introduction/variables/#lists) haben wir eine Liste
 mit verschiedenen Elementen erstellt. Definieren wir sie noch einmal,
 falls du sie nicht mehr in deiner Datei hast.
 ```python
@@ -262,7 +262,7 @@ Hier muss dann auch der Startwert größer sein als der Endwert,
 sonst wird die Schleife effektiv übersprungen,
 da keine passenden Zahlen existieren.
 
-Weiter geht es in [Lektion 4 - Wörterbücher & eigene Funktionen](/introduction/dicts_and_funcs).
+Weiter geht es in [Lektion 4 - Wörterbücher & eigene Funktionen](/introduction/dicts-and-funcs/).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.

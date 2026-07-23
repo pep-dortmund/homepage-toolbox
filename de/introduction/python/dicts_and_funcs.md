@@ -83,7 +83,7 @@ dass die Vorlesungen zu denen passen, die du besucht hast?
 # Funktionen selber schreiben
 Als Letztes wollen wir dir zeigen,
 wie du eigene Funktionen schreiben kannst.
-Denn mit [Schleifen](/introduction/control_structures/#Loops){:target="_blank"}
+Denn mit [Schleifen](/introduction/control_structures/#loops)
 haben wir dir gezeigt, wie du an einer Stelle im Code Zeilen wiederholen kannst.
 Mit Funktionen kannst du Teile deines Codes immer und immer wieder
 an unterschiedlichen Stellen im Code verwenden, ohne sie dauernd neu zu schreiben.
@@ -139,7 +139,7 @@ Wie du siehst, ist die Ausgabe auch in der `e`-Notation,
 so wie wir auch einige Werte angegeben haben.
 
 Das war es an Lektionen in dieser `python`-Einführung.
-Weiter geht es im [Toolbox Workshop](/#Plan).
+Weiter geht es im [Toolbox Workshop](/main/plan).
 
 
 # Kompletter Code
