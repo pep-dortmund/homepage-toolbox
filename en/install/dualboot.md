@@ -1,6 +1,4 @@
 ---
-layout: install
-permalink: /install/dualboot_en/
 title: Installation of a Dual-Boot System
 ---
 
@@ -30,7 +28,7 @@ This guide assumes that you already have Windows 10/11 installed.
 When installing a Windows/Linux dual-boot system, Windows must be installed first.
 
 Additionally, this guide assumes that your computer uses
-[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface){:target="_blank"}.
+[UEFI](https://en.wikipedia.org/wiki/Unified_Extensible_Firmware_Interface).
 While this should be standard for all modern computers, it is possible
 that Windows was installed in *Legacy BIOS* mode; 
 in that case, Windows should be reinstalled in UEFI mode.
@@ -64,8 +62,8 @@ a distinct set of pre-installed programs.
 The primary differences between them lie in the graphical user interface
 and the package manager used.
 
-**For beginners, we recommend [Linux Mint](https://www.linuxmint.com/){:target="_blank"} or [Fedora](https://fedoraproject.org/){:target="_blank"}.**
-[Endeavour](https://endeavouros.com/){:target="_blank"} is an Arch-based distribution that we recommend
+**For beginners, we recommend [Linux Mint](https://www.linuxmint.com/) or [Fedora](https://fedoraproject.org/).**
+[Endeavour](https://endeavouros.com/) is an Arch-based distribution that we recommend
 if you want to dive deeper into the workings of your operating system.
 
 ## Freeing Up Windows Storage Space
@@ -114,17 +112,17 @@ and then untick the box for Fast Boot.
 ## Creating a Bootable USB Drive for Linux Installation
 
 1. Download the image for your chosen Linux distribution. For example,
-    [Linux Mint](https://www.linuxmint.com/download.php){:target="_blank}.
+    [Linux Mint](https://www.linuxmint.com/download.php).
 
 1. Install the tool `Rufus` to write the image to a USB drive:
-   [rufus.akeo.ie](https://rufus.akeo.ie){:target="_blank"}.
+   [rufus.akeo.ie](https://rufus.akeo.ie).
 
 1. Use Rufus to write the downloaded image to the USB drive.
 
 ## Installing Linux
 
 Users with an Acer machine should simultaneously follow
-[these instructions](https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner){:target="_blank"}.
+[these instructions](https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner).
 Specifically, perform a full shutdown, insert the USB stick,
 then power on the computer and press the `F12` key when the Acer logo appears.
 Under `Main`, set the `F12 Boot Menu` option to `enabled`.
@@ -167,5 +165,5 @@ At step 10 (here), follow the link again and complete the final 11 steps listed 
 
 1. Select your installed Linux distribution and set up your system.
 
-1. See our [Linux installation guide](/install/linux_en/) for instructions on
+1. See our [Linux installation guide](/install/linux/) for instructions on
    installing the Toolbox Workshop-specific programs.

@@ -1,6 +1,4 @@
 ---
-layout: install
-permalink: /install/macos_en/
 title: macOS Installation
 ---
 
@@ -9,7 +7,7 @@ We recommend installing the 64-bit version
 if you are using a 64-bit operating system.
 If you are unsure: almost every system nowadays is 64-bit.
 
-__All steps (Installation, Testing, Updating) must be completed!__
+**All steps (Installation, Testing, Updating) must be completed!**
 
 If you are not participating in the LaTeX course, TeXLive is optional.
 However, if you choose not to install it, you will be unable to use TeX
@@ -20,13 +18,11 @@ you should install at least VSCodium (or another text editor),
 as well as MacTeX.
 
 
-## <a id="Installation"></a>Installation
+## Installation
 
-{% include admonition.html
-  type="warning"
-  title="Important"
-  body="Enter the commands line by line and confirm each one by pressing Enter."
-%}
+:::{caution} Important
+Enter the commands line by line and confirm each one by pressing Enter.
+:::
 
 ### Terminal
 
@@ -39,7 +35,9 @@ as well as MacTeX.
 The Command Line Tools include (among other things) Git and a C/C++ compiler.
 To install them, enter the following into the Terminal:
 
-    xcode-select --install
+```shell
+xcode-select --install
+```
 
 Execute the command by pressing `Enter`.
 Select "Install" and wait. The download size is approximately 130 MB.
@@ -47,13 +45,13 @@ Select "Install" and wait. The download size is approximately 130 MB.
 ### Python Installation: Miniforge3
 
 Here, the following lines must be entered into the Terminal individually and sequentially:
-```
+```shell
 cd
 ```
-```
+```shell
 curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"
 ```
-```
+```shell
 bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
@@ -63,7 +61,7 @@ Then, you can accept it by typing `yes`.
 We specified the installation location in the third command; simply confirm the prompt
 by pressing `Enter`. After the installation process, a message
 similar to the following should appear:
-```
+```shell
 Do you wish to update your shell profile to automatically initialize conda?
 This will activate conda on startup and change the command prompt when activated.
 If you'd prefer that conda's base environment not be activated on startup,
@@ -79,30 +77,37 @@ Accept it by typing `yes`.
 
 With this, the base Python environment is installed.
 
-{% include admonition.html
-  type="warning"
-  title="Important"
-  body='For the next step, you must open a new terminal window.
-  To do this, select "<b>Terminal</b>" in the terminal app and then "<b>Quit Terminal</b>".' %}
+:::{caution} Important
+  For the next step, you must open a new terminal window.
+  To do this, select "**Terminal**" in the terminal app and then "**Quit Terminal**".
+:::
 
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
 
-    mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+```shell
+mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+```
 
 Activate this environment with:
 
-    mamba activate toolbox
+```shell
+mamba activate toolbox
+```
 
 Once the installation is complete, you may delete the installation file. It should be located 
 in your current directory; to verify this, type the following command in a terminal:
 
-    ls
+```shell
+ls
+```
 
 The output list should include `Miniforge3-Darwin-arm64.sh`
 (or a similar filename).
 If it appears in the list, the file can be deleted with with:
 
-    rm Miniforge3-Darwin-arm64.sh
+```shell
+rm Miniforge3-Darwin-arm64.sh
+```
 
 or with the corresponding file name.
 If you are unsure, you can also speak to us about these instructions during the workshop.
@@ -115,7 +120,7 @@ and contain tracking software. For this reason, we recommend VSCodium,
 an open-source variant of VSCode.
 
 - Download the newest version of the file `VsCodium-darwin-<VERSION>.zip` from
-  [this Website](https://github.com/VSCodium/vscodium/releases){:target="_blank"}.
+  [this Website](https://github.com/VSCodium/vscodium/releases).
 - You can find the program "VSCodium.app" in the ZIP file in the Downloads folder.
   Move it to `Applications`.
 - Next, open the app.
@@ -132,17 +137,21 @@ an open-source variant of VSCode.
 
 To configure Git to use VSCodium, enter the following command in a terminal:
 
-    git config --global core.editor "codium --wait"
+```shell
+git config --global core.editor "codium --wait"
+```
+
 
 ### MacTeX
 
-To install LaTeX, you can download the `MacTeX.pkg` file from [this webpage](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg){:target="_blank"}.
+To install LaTeX, you can download the `MacTeX.pkg` file from [this webpage](http://tug.org/cgi-bin/mactex-download/MacTeX.pkg).
 Once the download is complete, simply install the package.
 
-__Now, [test](#test) your installation!__
+**Now, [test](#macos-tests) your installation!**
 
 
-## <a id="test"></a>Testing
+(macos-tests)=
+## Testing
 
 In the following section, we will verify that the installations were successful,
 so that you can start the workshop with ease.
@@ -152,91 +161,119 @@ so that you can start the workshop with ease.
 Open a terminal window and enter the following commands one by one.
 We will explain what output you should expect to see alongside each command.
 
-    git
+```shell
+git
+```
 
 The Git help text should appear.
 
 You can also configure some additional settings for Git within a terminal.
 Type the following lines __one by one__ in a terminal and confirm each with `Enter`,
-but <span style="color: red;">__use your own details!!!__</span>:
+but <span style="color: crimson;">**use your own details!**</span>:
 
-    $ git config --global user.name "John Smith"
-    $ git config --global user.email "john.smith@example.com"
-    git config --global rebase.stat true
-    git config --global merge.conflictstyle diff3
+```shell
+git config --global user.name "Max Mustermann"
+git config --global user.email "max.mustermann@udo.edu"
+git config --global rebase.stat true
+git config --global merge.conflictstyle diff3
+```
 
 ### Python
 
 To test Python, you must first activate the environment installed above within your terminal:
 
-    mamba activate toolbox
+```shell
+mamba activate toolbox
+```
 
 Next, you can launch the `ipython` program:
 
-    ipython
+```shell
+ipython
+```
 
 The `ipython` program should launch, and instead of the `$` prompt,
 you will see a numbered prompt. 
 Now, type in the part of each line that appears after the `:`,
 confirming each entry with `Enter`:
 
-    In [1]: %matplotlib
-    In [2]: import matplotlib.pyplot as plt
-    In [3]: import numpy as np
-    In [4]: import scipy
-    In [5]: import sympy
-    In [6]: import uncertainties
-    In [7]: plt.plot([1, 2, 4])
+```ipython
+In [1]: %matplotlib
+In [2]: import matplotlib.pyplot as plt
+In [3]: import numpy as np
+In [4]: import scipy
+In [5]: import sympy
+In [6]: import uncertainties
+In [7]: plt.plot([1, 2, 4])
+```
 
 A window containing a plot should appear. Close the window
 and exit `ipython` by typing:
 
-    In [8]: quit
+```ipython
+In [8]: quit
+```
 
 ### Make
 
 Type
 
-    make
+```shell
+make
+```
 
 into a terminal and execute it.
-The following output (or its German equivalent) should appear:
+The following output should appear:
 
-    make: *** No targets specified and no makefile found.  Stop.
+```shell
+make: *** No targets specified and no makefile found.  Stop.
+```
 
 ### TeX
 
 Once again, we are in the terminal; type
 
-    luatex
+```shell
+luatex
+```
 
 The following (or a similar) output should appear:
 
-    This is LuaTeX, Version 1.22.0 (TeX Live 2025)
-    restricted system commands enabled.
-    **
+```shell
+This is LuaTeX, Version 1.24.0 (TeX Live 2026)
+restricted system commands enabled.
+**
+```
 
 You can terminate the process with `Ctrl` + `c`.
 Next, we'll test
 
-    biber
+```shell
+biber
+```
 
 The Biber help text should appear.
 
-    texdoc texlive
+```shell
+texdoc texlive
+```
 
 The TeXLive documentation should open (in a PDF viewer).
 
-## <a id="update"></a>Aktualisieren
+## Updating
 
 ### Python Update
 
 In a terminal:
 
-    mamba update -n toolbox --all
+```shell
+mamba update -n toolbox --all
+```
 
 ### TeXLive
 
 In a terminal:
 
-    sudo tlmgr update --self --all --reinstall-forcibly-removed
+```shell
+sudo tlmgr update --self --all --reinstall-forcibly-removed
+```

@@ -1,6 +1,4 @@
 ---
-layout: install
-permalink: /install/latex_mini_en/
 title: LaTeX Minimal Installation
 ---
 

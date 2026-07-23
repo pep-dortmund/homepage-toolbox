@@ -1,7 +1,5 @@
 ---
-layout: default
-permalink: /install/install_en/
-title: Installation
+title: Overview
 ---
 
 Here you will find instructions for installing the necessary software
