@@ -321,7 +321,7 @@ Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` u
 
 Nun kannst du die drei Programme `git`, `make` und `curl` installieren.
 Dies erfolgt durch die Eingabe des Befehls
-```
+```shell
 sudo apt install git make curl
 ```
 und anschließende Bestätigung mit der `Enter`-Taste.
@@ -411,9 +411,11 @@ ls
 kannst du dir alle Dateien anzeigen, die sich im aktuellen Pfad befinden.
 Die Datei _Miniforge3-Linux-x86-64.sh_ sollte hier aufgeführt sein.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-download.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Zum Installieren musst du den folgenden Befehl ins Terminal eingeben oder kopieren.
 
