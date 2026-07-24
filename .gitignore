@@ -8,3 +8,5 @@ _build/
 _site/
 
 .venv
+
+.ipynb_checkpoints/
