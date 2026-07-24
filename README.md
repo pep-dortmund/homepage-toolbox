@@ -21,7 +21,7 @@ $ bash build.sh
 ```
 and start a local server using python:
 ```shell
-$ python -m http.server -d ./_site
+$ python -m http.server -d _site
 ```
 
 ## Adding FAQ or Blog posts
@@ -45,7 +45,7 @@ Then you can just use MyST markdown syntax.
 To use syntax highlighting, you can use MyST highlight feature like this:
 
 ````
-```
+```python
 print("Hello World")
 ```
 ````
