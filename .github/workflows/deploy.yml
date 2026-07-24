@@ -1,5 +1,4 @@
-name: Build, Verify and deploy on main
-
+name: Build and deploy
 on:
   push:
     branches:
@@ -14,23 +13,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v7
 
-      - name: Setup ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: "3.4"
-          bundler-cache: true
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
 
-      - name: Build the website
-        run: bundle exec jekyll build
-
-      - name: Check the build
+      - name: Install Jupyter Book
         run: |
-          bundle exec htmlproofer ./_site \
-            --allow-hash-href \
-            --check-html \
-            --only-4xx \
-            --disable-external \
-            --empty-alt-ignore
+          uv tool install "jupyter-book>=2"
+          echo "$(uv tool dir --bin)" >> "$GITHUB_PATH"
+
+      - name: Build site
+        run: |
+          bash build.sh
 
       - name: Upload artifact
         uses: actions/upload-artifact@v7
@@ -71,3 +64,4 @@ jobs:
           chmod 600 ~/.ssh/deploy_key
           ssh-add ~/.ssh/deploy_key
           rsync -rq --links --delete --exclude=".*" ./_site/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH"
+
