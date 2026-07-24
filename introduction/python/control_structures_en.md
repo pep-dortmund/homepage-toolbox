@@ -98,7 +98,7 @@ In this block, we output the numbers along with the correct comparison operator.
 ### `elif`
 After doing the initial comparison,
 we also need to check
-if `nr_to_compare` is equal to `compare_to`.
+if `nr_to_compare` is greater than `compare_to`.
 We don't need to start a new `if`statement for this.
 Instead, we can continue with `elif`.
 If the comparison following the `if` were true,
