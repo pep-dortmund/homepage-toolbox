@@ -1,11 +1,11 @@
 ---
-layout: install
-permalink: /install/windows_11_en/
 title: Windows 11 Installation
 ---
 
-__Please ensure you read the following points:__
+This installation uses [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win11) (WSL),
+allowing you to run an Ubuntu environment without having to install an entirely new operating system.
 
+:::{caution} Please ensure you read the following points
 + This guide may appear relatively long and might seem daunting at first glance.
 We assure you that this length is a sign of thoroughness, and the guide is designed
 to ensure that you can follow along even with no prior experience with the topics
@@ -21,21 +21,19 @@ You can navigate to the beginning of each section using the Table of Contents on
 Instead, please reach out for help. Under [Help](/problem/) there are instructions
 on the best way to contact us and what information to include.
 
-If you are __not__ participating in the LaTeX course, the section <a href="#TeXLive">TeXLive</a> is optional.
+If you are **not** participating in the LaTeX course, the section {ref}`win11-texlive` is optional.
 However, if you choose not to install it, you will be unable to use TeX
 within Matplotlib (this means less aesthetically pleasing plots).
 
-If you are __only__ participating in the LaTeX course, the section <a href="#Miniforge3">Python Installation: Miniforge3</a> is optional.
-
-This installation uses [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win11){:target="_blank"} (WSL),
-allowing you to run an Ubuntu environment without having to install an entirely new operating system.
+If you are **only** participating in the LaTeX course, the section {ref}`win11-miniforge3` is optional.
+:::
 
 
-## <a id="Installieren"></a>Installation
+## Installation
 
-### <a id="Vorbereitungen"></a>Preparations
+### Preparations
 
-#### <a id="Dateiendungen"></a>Enabling File Extensions
+#### Enabling File Extensions
 
 File extensions (which indicate the file type, e.g., `.pdf` for PDF documents)
 are not enabled by default in Windows. They can and should be enabled.
@@ -47,24 +45,30 @@ The easiest way to open it is by using the keyboard shortcut `Windows` + `E`
 
 Alternatively, you can open File Explorer by `right-clicking` the Start menu icon and then `left-clicking` on _File Explorer_.
 
-<p align="center">
-  <img alt="" src="/img/explorer/explorer-start_win11.png" class="screenshot" />
-</p>
+```{image} /img/explorer/explorer-start_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In the top row, you will see three dots located at the far right. Click on this icon, 
 and then click on the last entry in the list: _Options_.
 
-<p align="center">
-  <img alt="" src="/img/explorer/explorer-fileext-1_win11.png" class="screenshot" />
-</p>
+```{image} /img/explorer/explorer-fileext-1_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In the window that opens, you must first click on the _View_ tab,
 and then untick the box labelled _Hide extensions for known file types_.
 Finally, click `Apply`.
 
-<p align="center">
-  <img alt="" src="/img/explorer/explorer-fileext-2_win11.png" class="screenshot" />
-</p>
+```{image} /img/explorer/explorer-fileext-2_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 ### Windows Subsystem for Linux (WSL)
 
@@ -73,17 +77,21 @@ First, you need to launch a PowerShell console as an administrator.
 The easiest way to do this is by `right-clicking` the Start menu icon,
 followed by a `left-click` on _Terminal (Admin)_.
 
-<p align="center">
-  <img alt="" src="/img/wsl/win11-powershell-admin.png" class="screenshot" />
-</p>
+```{image} /img/wsl/win11-powershell-admin.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In most cases, the following window will appear. Confirm this by clicking _Yes_.
 These security prompts may appear again later in the process; confirm them with _Yes_.
 There are no issues if this window does not appear.
 
-<p align="center">
-  <img alt="" src="/img/wsl/win11-admin-warning.jpg" class="screenshot" />
-</p>
+```{image} /img/wsl/win11-admin-warning.jpg
+:alt:
+:class: screenshot
+:align: center
+```
 
 A window will now open, as shown below; this is the PowerShell console.
 To ensure that PowerShell has been opened with administrator privileges,
@@ -91,19 +99,23 @@ you can check the window title; it must begin with _Administrator_:
 
 You can close the information bar that appears at the top of the window by clicking the `X`.
 
-<p align="center">
-  <img alt="" src="/img/wsl/win11-powershell-admin-test.png" class="screenshot" />
-</p>
+```{image} /img/wsl/win11-powershell-admin-test.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Enter the following command into PowerShell. You can also copy
 and paste this command; in PowerShell, pasting is performed with `right-clicking`.
-```
+```powershell
 wsl --install
 ```
 
-<p align="center">
-  <img alt="" src="/img/wsl/win11-wsl-install.png" class="screenshot" />
-</p>
+```{image} /img/wsl/win11-wsl-install.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Press the `Enter` key to confirm your input.
 
@@ -111,32 +123,40 @@ This installation may take a few minutes; during this time, several
 stylized progress bars will be displayed. Upon successful completion of this process,
 the output will appear as follows:
 
-<p align="center">
-  <img alt="" src="/img/wsl/win11-wsl-install-complete.png" class="screenshot" />
-</p>
+```{image} /img/wsl/win11-wsl-install-complete.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 As indicated in the final line, your PC must now be restarted.
 
 After the restart, the following window should open automatically,
 allowing you to complete the WSL installation by setting up your user account.
 
-<p align="center">
-  <img alt="" src="/img/wsl/win11-wsl-ubuntu-complete.png" class="screenshot" />
-</p>
+```{image} /img/wsl/win11-wsl-ubuntu-complete.png
+:alt:
+:class: screenshot
+:align: center
+```
 
-#### <a id="Einrichten des Benutzerkontos">Setting Up a User Account
+#### Setting Up a User Account
 
 Following a successful installation, you will be prompted to enter a username
 for the Linux operating system. Your Linux username __may, but does not have to,__
 match your Windows username.
 
-{% include admonition.html type="warning" title="Important" body="The username must contain <b>only</b> lowercase letters and <b>no</b> spaces." %}
+:::{caution} Important
+The username must contain **only** lowercase letters and **no*** spaces.
+:::
 
 Confirm your username by pressing the `Enter` key.
 
-<p align="center">
-  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-username_win11.png" class="screenshot" />
-</p>
+```{image} /img/windows-ubuntu/wsl-ubuntu-username_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Next, you will be asked to provide a password for the Linux operating system.
 For security reasons, the password you enter will not be displayed.
@@ -144,22 +164,28 @@ Confirm your password by pressing the `Enter` key.
 You will then be required to enter the password a second time to ensure there are no typos.
 Confirm this entry as well by pressing the `Enter` key.
 
-<p align="center">
-  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-passwd_win11.png" class="screenshot" />
-</p>
+```{image} /img/windows-ubuntu/wsl-ubuntu-passwd_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 If the second password entry does not match the first,
 you must first confirm your attempt to try again by typing `y` (short for _yes_).
 
-<p align="center">
-  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png" class="screenshot" />
-</p>
+```{image} /img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Then, repeat the password entry; just as before, you must enter it twice.
 
-<p align="center">
-  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2_win11.png" class="screenshot" />
-</p>
+```{image} /img/windows-ubuntu/wsl-ubuntu-wrong-passwd-2_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Once the installation has been successfully completed,
 you will see output similar to the following screenshot.
@@ -176,17 +202,20 @@ which is primarily used to interact with the Linux operating system.
 A more detailed introduction to using it will be provided during the workshop;
 however, we will be using it below to install the necessary software.
 
-<p align="center">
-  <img alt="" src="/img/windows-ubuntu/wsl-ubuntu-correct-passwd_win11.png" class="screenshot" />
-</p>
+```{image} /img/windows-ubuntu/wsl-ubuntu-correct-passwd_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Before proceeding to the next section, you can close the terminal window by entering
-```
+```shell
 exit
 ```
 or by clicking the `X` in the top right corner.
 
-### <a id="WindowsTerminal"></a>Windows Terminal
+(win11-terminal)=
+### Windows Terminal
 
 We will continue to use Windows Terminal, though this time not as an administrator.
 Additionally, you need to adjust one setting.
@@ -194,56 +223,63 @@ Additionally, you need to adjust one setting.
 You can reopen Windows Terminal by `right-clicking` the Start menu icon
 and then `left-clicking` on _Terminal_.
 
-<p align="center">
-  <img alt="" src="/img/windows-terminal/windows-terminal-start_win11.png" class="screenshot" />
-</p>
+```{image} /img/windows-terminal/windows-terminal-start_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 By default, Windows Terminal opens Windows PowerShell (identifiable by the text displayed in the tab).
 To open an Ubuntu command line, first click the downward-pointing arrow at the top of the window; this opens a drop-down menu
 from which you must select `Settings`:
 
-<p align="center">
-  <img alt="" src="/img/windows-terminal/windows-terminal-settings-1.png" class="screenshot" />
-</p>
+```{image} /img/windows-terminal/windows-terminal-settings-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Here, you can configure Windows Terminal to open Ubuntu by default upon startup.
 Under the _Startup_ section in the left-hand column, you will find the setting option
 _Default profile_; clicking the down arrow will open a selection menu.
 
-<p align="center">
-  <img alt="" src="/img/windows-terminal/windows-terminal-settings-2.png" class="screenshot" />
-</p>
+```{image} /img/windows-terminal/windows-terminal-settings-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 From the selection menu, choose Ubuntu (if _Ubuntu_ appears multiple times, select the entry with the penguin icon):
 
-<p align="center">
-  <img alt="" src="/img/windows-terminal/windows-terminal-settings-3.png" class="screenshot" />
-</p>
+```{image} /img/windows-terminal/windows-terminal-settings-3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Next, you can close the Terminal window again using
-```
+```shell
 exit
 ```
 or by clicking the `X` in the top right corner.
 
 ### Git, Make and more
 
-<div class="admonition warning">
-<p class="admonition-title">Important</p>
-  <p>
-    In this and the following sections, several commands will be entered into Windows Terminal.
-    These commands are presented within a code block like this one:
-  </p>
-  <pre class="admonition highlight"><code>Example command</code></pre>
-  <p>In the Terminal, <b>each code block must be entered individually</b> and confirmed by pressing <code>Enter</code>.</p>
-</div>
+:::{caution} Important
+In this and the following sections, several commands will be entered into Windows Terminal.
+These commands are presented within a code block like this one:
+```shell
+Example command
+```
+In the Terminal, **each code block must be entered individually** and confirmed by pressing `Enter`.
+:::
 
 To install the programs Git and Make, first open a Windows Terminal
-(as described in the <a href="#WindowsTerminal">Windows Terminal</a> section, via the Start menu).
+(as described in the {ref}`win11-terminal` section, via the Start menu).
 Thus, you can immediately verify whether setting the default profile worked correctly.
 
 Next, perform an update using the following command:
-```
+```shell
 sudo apt update
 ```
 Executing this command may take some time and requires an
@@ -252,47 +288,57 @@ active internet connection.
 Commands that begin with `sudo` require special access privileges. Therefore, you will always need to
 enter your Linux user password (**not** necessarily your Windows user password) first.
 
-<p align="center">
-  <img alt="" src="/img/unix/unix-1.png" class="screenshot" />
-</p>
+```{image} /img/unix/unix-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 A successful update looks roughly like this; however, the list of programs displayed
 (those available for updating on your system) may be significantly longer the first time you run this command.
 
-<p align="center">
-  <img alt="" src="/img/unix/unix-2.png" class="screenshot" />
-</p>
+```{image} /img/unix/unix-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 The updates must now be installed, as you have only downloaded the metadata thus far.
 This is done by entering the command:
-```
+```shell
 sudo apt upgrade
 ```
 and confirming this command by pressing the `Enter` key.
 Subsequently, you may be prompted to confirm a second time by typing the letter `y` and pressing the
 `Enter` key. (Here, too, the displayed list will likely be significantly longer.)
 
-<p align="center">
-  <img alt="" src="/img/unix/unix-3.png" class="screenshot" />
-</p>
+```{image} /img/unix/unix-3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 You can now install the three programs `git`, `make` and `curl`.
 This is done by entering the command:
-```
+```shell
 sudo apt install git make curl
 ```
 and then confirming by pressing the `Enter` key.
 This installation process may also take some time to complete.
 
-<p align="center">
-  <img alt="" src="/img/unix/unix-4.png" class="screenshot" />
-</p>
+```{image} /img/unix/unix-4.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 The installation is successful (as shown below) if there are no error messages.
 
-<p align="center">
-  <img alt="" src="/img/unix/unix-5.png" class="screenshot" />
-</p>
+```{image} /img/unix/unix-5.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 #### Git Settings
 
@@ -300,18 +346,20 @@ A few additional settings still need to be configured for Git.
 To do this, enter the following commands into a Windows Terminal
 (as before) and confirm each one by pressing `Enter`.
 
-{% include admonition.html type="warning" title="Important" body="Instead of <code>John Smith</code>, you should, of course, use your <b>own name</b> and your <b>own email address</b>!" %}
+:::{caution} Important
+Instead of `John Smith`, you should, of course, use your **own name** and your **own email address**.
+:::
 
-```
+```shell
 git config --global user.name "John Smith"
 ```
-```
+```shell
 git config --global user.email "john.smith@example.com"
 ```
-```
+```shell
 git config --global rebase.stat true
 ```
-```
+```shell
 git config --global merge.conflictstyle diff3
 ```
 
@@ -324,17 +372,18 @@ You can then return to configure these settings later once you feel more confide
 #### Installation Folder `~/.local`
 
 
-A specific folder is required for the installation of [Miniforge3 (Python)](#Miniforge3) and [TeXLive (LaTeX)](#TeXLive).
+A specific folder is required for the {ref}`win11-miniforge3` and {ref}`win11-texlive`.
 You can create this folder using the following command:
 
-```
+```shell
 mkdir -p ~/.local
 ```
 
 This command creates a folder named `.local` if it does not already exist;
 if the folder already exists, the command does nothing.
 
-### <a id="Miniforge3"></a>Python Installation: Miniforge3
+(win11-miniforge3)=
+### Python Installation: Miniforge3
 
 To install the programs necessary for convenient use of the Python programming language,
 we will use the tool `mamba`.
@@ -342,7 +391,7 @@ we will use the tool `mamba`.
 You can download the installation file _Miniforge3-Linux-x86-64.sh_ 
 by entering the following commands into the Windows Terminal:
 
-```
+```shell
 cd ~/.local
 ```
 This command changes the current directory to the folder where the installation file is to be downloaded.
@@ -350,24 +399,26 @@ The current path is displayed between the `:` and `$`; it should now be `~/.loca
 This is the folder you created in the previous command.
 
 Use this command to download the installation file. The download may take some time.
-```
+```shell
 curl -LO https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 ```
 
 By running
-```
+```shell
 ls
 ```
 you can list all the files located in the current path.
 The file _Miniforge3-Linux-x86-64.sh_ should be listed there.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-download.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-download.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 To install, type or copy the following command into a terminal.
 
-```
+```shell
 bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 ```
 As before, this command is executed by pressing the `Enter` key.
@@ -375,54 +426,69 @@ As before, this command is executed by pressing the `Enter` key.
 Next, you will need to accept the terms of use.
 These are fully displayed by pressing the `Enter` key.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-1.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Depending on the size of your terminal window, the text may be displayed one line at a time.
 This is true if you see _`--More--`_ on the last line.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-2.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Press the `Enter` key repeatedly to scroll to the end (see the next screenshot)
 of the terms of use.
 At the end of the terms of use, you must accept them by typing `yes`
 and then pressing `Enter`.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-3.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 You then start the installation by pressing `Enter` again. 
 This step may also take a few minutes.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-4.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-4.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 The installation concludes with the following lines:
 Here, you must once again enter `yes` and confirm by pressing `Enter`.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-5.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-5.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 When the last line displayed is the command prompt again, the installation is complete.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-6.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-6.png
+:alt:
+:class: screenshot
+:align: center
+```
 
-{% include admonition.html type="warning" title="Important" body="Mamba can only be used
-after closing the terminal window and opening a new one." %}
+:::{caution} Important 
+Mamba can only be used after closing the terminal window and opening a new one.
+:::
 
 In the new terminal window, _(base)_ should now appear at the beginning of the command prompt.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-install-7.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-install-7.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Now, you still need to install the Python packages introduced in the workshop.
 To do this, we will use a *virtual environment*. We will explain what an environment is
@@ -432,44 +498,49 @@ for both the workshop and the practical course.
 
 To do this, use the following command:
 
-```
+```shell
 mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 The installation begins with the following output:
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-virtual-env-1.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-virtual-env-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 and will once again take some time. The installation is complete when the command
 prompt is displayed again.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-virtual-env-2.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-virtual-env-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 After a successful installation, you can delete the installation file _Miniforge3-Linux-x86-64.sh_
 using the command:
 
-```
+```shell
 rm ~/.local/Miniforge3-Linux-x86_64.sh
 ```
 
-### <a id="TeXLive"></a>TeXLive
+(win11-texlive)=
+### TeXLive
 
 For LaTeX, you can download and run the installation script
 using the following three commands:
 
-```
+```shell
 cd ~/.local
 ```
 
-```
+```shell
 curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar xz
 ```
 
-```
+```shell
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
@@ -479,7 +550,7 @@ After the installation, you must inform the system where LaTeX has been installe
 This can be done in the file `~/.bashrc`.
 To do this, execute the following command in the terminal:
 
-```
+```shell
 echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
@@ -487,15 +558,15 @@ Close the terminal and open a new one to proceed with the next steps.
 
 In the new terminal, enter the following commands:
 
-```
+```shell
 tlmgr option autobackup -- -1
 ```
 
-```
+```shell
 tlmgr option repository https://mirror.ctan.org/systems/texlive/tlnet
 ```
 
-```
+```shell
 luaotfload-tool --update --force
 ```
 
@@ -504,7 +575,8 @@ If this installation fails due to insufficient disk space,
 there is [this option](/install/latex_mini/) to install a minimal version of
 TeXLive instead.
 
-### <a id="VSCode"></a>Visual Studio Code (VSCode)
+(_win11-vscode)=
+### Visual Studio Code (VSCode)
 
 #### Installation
 Visual Studio Code (VSCode) is a text editor suitable for writing both program code in 
@@ -515,28 +587,37 @@ The easiest way to find it is to open the Start menu and type `Store` into the s
 The Microsoft Store will appear as the top search result.
 You can open it by clicking on _Open_:
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-msstore_win11.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-msstore_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 By searching for `Visual Studio Code` within the Microsoft Store, 
 you can select the corresponding entry from the list:
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-download-1.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-download-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 On the following page, you can install VSCode by clicking the `Install` button.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-download-2.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-download-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Once installed, you can launch VSCode via the Start menu (just as when searching for the Store).
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-start_win11.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-start_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
+
 
 #### VSCode: WSL Plugin
 
@@ -544,9 +625,12 @@ A useful extension for VSCode facilitates integration with WSL (more on this in 
 You can access the extension search feature by clicking the icon shown in the screenshot on the left-hand sidebar. 
 Search for `WSL` there and click the small `Install` button next to the top search result.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-wsl-plugin_win11.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-wsl-plugin_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
+
 
 #### VSCode: Language
 
@@ -560,24 +644,31 @@ This opens an input window where you can search for settings.
 Here, search for _Configure Display Language_.
 You can select this setting by pressing the `Enter` key.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-language-1.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-language-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In the subsequent selection menu, you can choose your desired language with a `left-click`.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-language-2.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-language-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 The selected language will be downloaded (if necessary) and will become available after restarting VSCode.
 This can be performed in the window that appears next.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-language-3.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-language-3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
-#### <a id="VSCodeTerminal"></a>VSCode: Setting Up the Terminal
+(windows-11-term)=
+#### VSCode: Setting Up the Terminal
 
 You can open a terminal in VSCode using the keyboard shortcut `Ctrl` + `Shift` + `` ` `` 
 or via the menu bar: _Terminal_ → _New Terminal_.
@@ -585,39 +676,48 @@ However, immediately after the initial installation, this terminal defaults
 to the Windows PowerShell. Just like with the Windows Terminal, this terminal also needs to be reconfigured.
 Click the downward-pointing arrow to the right of the `+` sign, and select the option _Select Default Profile_.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-terminal-1.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-terminal-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In the following selection, click on _Ubuntu (WSL)_ once again.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-terminal-2.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-terminal-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Next, you can close the currently open terminal by clicking the trash can icon.
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-terminal-3.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-terminal-3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Now, when a terminal is opened again, e.g., with `Ctrl` + `Shift` + `` ` `` ,
 it should now look like the terminal you have (by now) become accustomed to:
 
-<p align="center">
-  <img alt="" src="/img/vscodium/vscode-terminal-4.png" class="screenshot" />
-</p>
+```{image} /img/vscodium/vscode-terminal-4.png
+:alt:
+:class: screenshot
+:align: center
+```
+
 
 ### PDF Viewer
 
-#### <a id="SumatraPDF"></a>Sumatra PDF
+#### Sumatra PDF
 
 For Windows, you should use Sumatra PDF as your PDF viewer.
 We do not recommend using Acrobat Reader, as it locks the PDF file,
 preventing TeX from overwriting it (you will learn why this is important during the workshop).
 You can find the download at the following link:
 
-[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html){:target="_blank"}
+[Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 
 On the download page, you can then download the `x64` version of Sumatra PDF 
 by `left-clicking` on the highlighted link.
@@ -625,63 +725,79 @@ The filename will be in the format `SumatraPDF-X.X.X-64-install.exe`,
 where the `X` represents the version number, which may differ from the one shown in the screenshot.
 
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-download.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-download.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 The downloaded file will be located in your Downloads folder; you can run it by `double-clicking` on it.
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-install-1.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-install-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Consequently, the following window will open, allowing you to start the installation by `left-clicking` on _Install_.
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-install-2.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-install-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Close the window after installation by clicking the `X`.
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-install-3.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-install-3.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Finally, you should set Sumatra PDF as your default PDF viewer.
 To do this, search for `Default apps` in the Start menu.
 Then, open _Default apps_.
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-standard-app-1_win11.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-standard-app-1_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 In the window that opens, search for _.pdf_ in the search box, and then
 click on the icon at the right end of the search result.
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-standard-app-3_win11.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-standard-app-3_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 This opens a selection menu. In this menu, click on _SumatraPDF_ and
 confirm your choice by clicking `Set default`.
 
-<p align="center">
-  <img alt="" src="/img/sumatra/sumatra-standard-app-4_win11.png" class="screenshot" />
-</p>
+```{image} /img/sumatra/sumatra-standard-app-4_win11.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 You can then close the window as usual by clicking the `X`.
 
-#### <a id="evince"></a>Evince
+
+#### Evince
 
 To open PDF files directly from Windows Terminal easily,
 it is also recommended to install a PDF viewer for WSL.
 To do this, enter the following command into Windows Terminal and confirm the installation by typing `y`:
 
-```
+```shell
 sudo apt install evince
 ```
 
-## <a id="test"></a>Testing
+(win11-tests)=
+## Testing
 
 In the following section, we will verify that the installations were successful,
 so that you can start the workshop with ease.
@@ -692,7 +808,7 @@ To test the Python installation (via Mamba), you should close all open Windows T
 windows and open a new one.
 To use the installed packages, activate the _virtual environment_ using this command:
 
-```
+```shell
 mamba activate toolbox
 ```
 
@@ -701,28 +817,28 @@ Executing this command changes the prompt at the beginning of the prompt from `(
 Now, enter the following commands into Windows Terminal, one by one:
 After entering the first command, the appearance of the command line will change slightly.
 
-```
+```shell
 ipython
 ```
-```
+```ipython
 %matplotlib
 ```
-```
+```ipython
 import matplotlib.pyplot as plt
 ```
-```
+```ipython
 import numpy as np
 ```
-```
+```ipython
 import scipy
 ```
-```
+```ipython
 import sympy
 ```
-```
+```ipython
 import uncertainties
 ```
-```
+```ipython
 plt.plot([1, 2, 4])
 ```
 
@@ -730,30 +846,34 @@ A window containing a coordinate system and a plotted line should appear.
 
 Overall, the terminal should look like this:
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-test-1.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-test-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Errors typically appear as shown here:
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-test-2.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-test-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Close the window displaying the coordinate system, and use the command
-```
+```ipython
 quit
 ```
 to exit the _ipython_ program.
 
 
 When running `%matplotlib`, you may encounter the following error:
-```
+```ipython
 qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
 ```
 This can be resolved by setting an environment variable in the `~/.bashrc` file.
 To do this, execute the following command in a terminal:
-```
+```shell
 echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
 ```
 
@@ -761,12 +881,12 @@ echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
 
 You can test `make` in Windows Terminal by entering the following command:
 
-```
+```shell
 make
 ```
 
 You should see the following output (or its German equivalent):
-```
+```shell
     make: *** No targets specified and no makefile found.  Stop.
 ```
 
@@ -775,13 +895,13 @@ You should see the following output (or its German equivalent):
 The TeXLive installation is also tested using Windows Terminal.
 Enter the following command:
 
-```
+```shell
 luatex
 ```
 
 The following (or similar) output should appear:
 
-```
+```shell
 This is LuaTeX, Version 1.18.0 (TeX Live 2024)
 restricted system commands enabled.
 **
@@ -790,12 +910,12 @@ restricted system commands enabled.
 You can exit this by pressing the key combination `Ctrl+c` (`Ctrl` and `c`).
 Now you can test another program used by LaTeX for bibliographies.
 Test this by entering the command:
-```
+```shell
 biber
 ```
 
 The Biber help text should appear:
-```
+```shell
 Usage:
       biber [options] file[.bcf]
       biber [options] --tool <datasource>
@@ -813,34 +933,38 @@ Usage:
 
 Finally, we will test the program used for viewing package documentation.
 The test command is:
-```
+```shell
 texdoc texlive
 ```
 
 Close the window that opens and exit Windows Terminal with:
-```
+```shell
 exit
 ```
 
-## <a id="update"></a>Updating
+## Updating
 
 ### Mamba
 
 To install updates for Mamba,
 enter the following command into a Windows Terminal:
-```
+```shell
 mamba update -n toolbox --all
 ```
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-update-1.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-update-1.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 Confirm the installation by typing `Y` followed by `Enter`.
 
-<p align="center">
-  <img alt="" src="/img/mamba/mamba-update-2.png" class="screenshot" />
-</p>
+```{image} /img/mamba/mamba-update-2.png
+:alt:
+:class: screenshot
+:align: center
+```
 
 As you have (by now) come to expect, the installation is complete
 once the command prompt reappears in the terminal.
@@ -849,16 +973,16 @@ once the command prompt reappears in the terminal.
 
 To receive updates for Unix tools, (as with the initial installation) 
 enter the following two commands into Windows Terminal, one by one:
-```
+```shell
 sudo apt update
 ```
-```
+```shell
 sudo apt upgrade
 ```
 
 ### TeXLive
 
 Updates for TeXLive are installed by entering the following command into Windows Terminal:
-```
+```shell
 tlmgr update --self --all --reinstall-forcibly-removed
 ```

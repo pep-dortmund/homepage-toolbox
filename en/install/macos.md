@@ -127,7 +127,7 @@ an open-source variant of VSCode.
   On newer versions of macOS, the system may prevent the app from launching.
   in this case, you must first go to System Settings, navigate to "General" ->
   "Security," and click the "Open Anyway" button.
-- In VSCodium, open the command palette with `Shift` + `Cmd` + `P`
+- In VSCodium, open the command palette with {icon}`carbon:mac-shift` `Shift` + {icon}`carbon:mac-command` `Cmd` + `P`
   and type the following:
   ```
   Shell Command: Install 'codium' command in PATH
