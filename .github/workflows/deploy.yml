@@ -44,11 +44,6 @@ jobs:
           name: toolbox-homepage-build
           path: ./_site
 
-      - name: Unpack artifact
-        run: |
-          tar -xvf ./_site/artifact.tar -C ./_site/
-          rm -rf ./_site/artifact.tar
-
       - name: Upload to server
         env:
           DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
