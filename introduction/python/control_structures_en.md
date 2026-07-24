@@ -39,7 +39,7 @@ It is also important that the lines are indented
 as shown in the code block.
 Many programs (like VSC) handle this indentation automatically.
 Otherwise, you can create the indentation yourself
-by pressing the `Tab` key or `Space` four times.
+by pressing the `Tab` key once or `Space` four times.
 
 To begin, let’s take a look at comparisons in Python
 so that we can construct the statements.
