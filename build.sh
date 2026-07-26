@@ -25,12 +25,12 @@ cat >_site/index.html <<'EOF'
 <html lang="de">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; url=/de/main/">
-    <link rel="canonical" href="/de/main/">
+    <meta http-equiv="refresh" content="0; url=/de/">
+    <link rel="canonical" href="/de/">
     <title>Redirecting…</title>
   </head>
   <body>
-    Redirecting to <a href="/de/main/">/de/main/</a>…
+    Redirecting to <a href="/de/">/de/</a>…
   </body>
 </html>
 EOF
