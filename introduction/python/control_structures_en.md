@@ -192,7 +192,7 @@ the first non-indented line following the `while` keyword.
 Another type of loop is the `for` loop.
 It executes the indented lines for all elements of an object.
 Since that can be hard to visualize, let's look at some examples right away.
-In the lesson on [lists](/introduction/variables_en/lists){:target="_blank"}, 
+In the lesson on [lists](/introduction/variables_en/#Lists){:target="_blank"}, 
 we created a list containing various elements. Let's define it again
 in case you no longer have it in your file.
 ```python
