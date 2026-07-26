@@ -32,7 +32,7 @@ Im Anschluss sehen wir auch unseren neuen Ordner `v101` in der Ausgabe von `ls`.
 Nun wechseln wir mit `cd v101`,
 oder `cd` deinem Ordnernamen, in den neu erstellten Ordner.
 Dort benennen wir die `vXXX.tex` in `v101.tex` um;
-```
+```shell
 cd v101
 mv vXXX.tex v101.tex
 ```
@@ -53,7 +53,7 @@ ersetze hier `vXXX` durch `v101` oder den Namen, den du im `mv`-Befehl vergeben 
 Nun kannst du am Code arbeiten,
 zum Beispiel einen Ordner für die aufgenommenen Daten
 und dort Dateien für die Messreihen erstellen.
-```
+```shell
 mkdir data
 touch data/{quader,puppe,feder}.txt
 ```

@@ -250,7 +250,7 @@ Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control-structu
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 
-````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:::{seealso} Klicke hier um den kompletten Code anzuzeigen
 :class: dropdown
 ```python
 """
@@ -336,4 +336,4 @@ print(f"{elements+elements[:2] = }")
 print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
-````
+:::

@@ -131,7 +131,6 @@ Achte also immer auf den weißen Punkt.**
 Für Windows ist dieser Abschnitt an einigen Stellen ausführlicher,
 wenn du ein anderes Betriebssystem hast,
 sind diese Schritte dann für dich nicht notwendig.
-Sie sind mit **Windows:** gekennzeichnet.
 
 Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Datei auszuführen.
 Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann auf
@@ -145,7 +144,7 @@ _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
-````{caution} Windows
+:::{caution} Windows
 Steht am rechten oberen Rand des Terminals `powershell`,
 musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 
@@ -156,7 +155,7 @@ musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 ```
 
 Wiederhole jetzt den Schritt mit `Öffne in integriertem Terminal`/`Open in Integrated Terminal`.
-````
+:::
 
 Schreibe in dein Terminal `ls` und führe den Befehl aus,
 indem du auf `Enter` drückst.
@@ -226,7 +225,7 @@ Weiter geht es in [Lektion 2 - Variablen](/introduction/variables).
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
 
-````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:::{seealso} Klicke hier um den kompletten Code anzuzeigen
 :class: dropdown
 ```python
 """
@@ -242,4 +241,4 @@ print("Lektion 1")
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 ```
-````
+:::

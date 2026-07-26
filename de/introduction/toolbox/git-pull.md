@@ -4,7 +4,7 @@ Bevor du anfängst, an den Dateien zu arbeiten,
 solltest du erst einmal schauen,
 ob jemand anderes Änderungen hochgeladen hat.
 Schreibe dazu
-```
+```shell
 git pull
 ```
 in dein Terminal und führe es mit `Enter` aus.

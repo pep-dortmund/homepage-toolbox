@@ -17,7 +17,7 @@ Oder navigiere mit deinem Dateiexplorer zu dem Ordner
 und nutze die _Öffne Terminal hier_ Funktion
 (per Rechtsklick oder `Strg`-Klick auf MacOS).
 Jetzt kannst du mit
-```
+```shell
 git clone git@github.com:chrbeckm/lab_course_2025_26.git
 ```
 dein Repository lokal klonen.
