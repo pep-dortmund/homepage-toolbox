@@ -575,7 +575,7 @@ gibt es [diese Möglichkeit](/install/latex_mini/), eine minimale Version von
 TeXLive zu installieren.
 
 
-(_win11-vscode)=
+(win11-vscode)=
 ### Visual Studio Code (VSCode)
 
 
