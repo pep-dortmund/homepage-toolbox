@@ -34,8 +34,7 @@ that Windows was installed in *Legacy BIOS* mode;
 in that case, Windows should be reinstalled in UEFI mode.
 
 If you only want to install Linux,
-you can follow the instructions starting at
-[Step 6](#creating-a-bootable-usb-drive-for-linux-installation).
+you can follow the instructions starting at {ref}`bootstick`.
 
 
 ## Create a Full Backup
@@ -109,6 +108,7 @@ where two operating systems access the same files.
 `Right-click on Start → Power Options → Choose what the power buttons do`
 and then untick the box for Fast Boot.
 
+(bootstick)=
 ## Creating a Bootable USB Drive for Linux Installation
 
 1. Download the image for your chosen Linux distribution. For example,

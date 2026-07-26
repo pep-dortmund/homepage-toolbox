@@ -64,5 +64,5 @@ xargs -a tex-packages.txt tlmgr install
 
 This completes the installation of the minimal version.
 Continue with the tests in the guide for
-[Windows 10](/install/windows_10/#test), [Windows 11](/install/windows_11/#test)
-or [Linux](/install/linux/#test).
+{ref}`Windows 10<win10-tests>`, {ref}`Windows 11<win11-tests>`
+or {ref}`Linux<linux-tests>`.

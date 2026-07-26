@@ -575,7 +575,7 @@ If this installation fails due to insufficient disk space,
 there is [this option](/install/latex_mini/) to install a minimal version of
 TeXLive instead.
 
-(_win11-vscode)=
+(win11-vscode)=
 ### Visual Studio Code (VSCode)
 
 #### Installation

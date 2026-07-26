@@ -33,6 +33,7 @@ If you are **only** participating in the LaTeX course, the section {ref}`win10-m
 
 ## Installation
 
+(win10-preparations)=
 ### Preparations
 
 ####  Windows Info: OS Build Number
@@ -116,7 +117,7 @@ Here, the checkbox for `File name extensions` must be ticked
 ### Windows Subsystem for Linux (WSL)
 
 These instructions work only with the corresponding _operating system build_ number;
-see section <a href="#Vorbereitungen">Preparations</a>.
+see section {ref}`win10-preparations`.
 
 #### Installing WSL
 Next, launch a PowerShell console as an administrator.
@@ -668,7 +669,7 @@ Visual Studio Code (VSCode) is a text editor suitable for writing both program c
 Python and documents in LaTeX. Furthermore, it offers a wide range of additional features.
 
 VSCode, like Windows Terminal, can be installed via the Microsoft Store.
-Open Microsoft Store, as in the step for <a href="#WindowsTerminal">Windows Terminal</a>.
+Open Microsoft Store, as in the step for {ref}`win10-terminal`.
 Search for `Visual Studio Code` and select the corresponding entry from the list:
 
 ```{image} /img/vscodium/vscode-download-1.png
