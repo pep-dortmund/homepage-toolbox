@@ -1,4 +1,4 @@
-## VSCodium/VSCode (VSC): Opening folders and terminals
+# VSCodium/VSCode (VSC): Opening folders and terminals
 
 1. Open VSC and go to *File* > *Open Folder*. 
    The keyboard shortcut for your operating system is displayed there as well,

@@ -1,10 +1,4 @@
----
-layout: install
-permalink: /introduction/makefile_en/
-title:
----
-
-## The Structure of the Makefile
+# The Structure of the Makefile
 
 Now, we'll discuss the makefile and explain the rules
 already contained within it, as well as the rest.

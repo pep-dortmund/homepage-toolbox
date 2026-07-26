@@ -1,4 +1,4 @@
-## `git pull`: Downloading changes
+# `git pull`: Downloading changes
 
 Before you start working on the files,
 you should first check

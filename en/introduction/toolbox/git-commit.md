@@ -1,4 +1,4 @@
-## `git`: Uploading your changes
+# `git`: Uploading your changes
 
 When you reach a point where you want to upload your work to GitHub,
 switch to your terminal and first type

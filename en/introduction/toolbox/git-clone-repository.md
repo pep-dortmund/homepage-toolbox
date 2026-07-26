@@ -1,4 +1,4 @@
-## `git`: Cloning a repository
+# `git`: Cloning a repository
 
 To clone a repository, go to the repository's GitHub page
 and click on _<> Code_.

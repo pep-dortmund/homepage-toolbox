@@ -1,4 +1,4 @@
-## `git`: The template repository
+# `git`: The template repository
 
 We've made a template for the lab reports in this practical course.
 This means you don't have to manually copy everything 

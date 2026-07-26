@@ -1,4 +1,4 @@
-## Creating a new folder for an experiment
+# Creating a new folder for an experiment
 
 In this terminal, you are located in the folder containing the file you clicked on.
 You can use the `pwd` terminal command to display the current path.
