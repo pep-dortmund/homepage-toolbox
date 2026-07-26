@@ -1,59 +1,59 @@
-# `git`: Das Template-Repository
+## `git`: The template repository
 
-Für das Praktikum haben wir eine Vorlage für die Protokolle geschrieben.
-Du musst also nicht alles aus den Folien und Notebooks selber herausschreiben für deine Vorlage.
-Um das Template sinnvoll nutzen zu können, brauchst du einen GitHub-Account,
-falls du also keinen hast, kannst du dir
-[hier](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header)
-einen erstellen.
+We've made a template for the lab reports in this practical course.
+This means you don't have to manually copy everything 
+from the slides and notebooks into your report.
+To make effective use of the template, you need a GitHub account.
+If you don't have one yet, you can create one
+[here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header).
 
-In der Nutzung von git ist es einfacher, mit einem ssh-keys als Passwortersatz zu arbeiten.
-Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf)
-findest du eine Anleitung zum Einrichten von ssh-keys als Authentifizierungsmethode bei GitHub.
+When using Git, it's easier to work with SSH keys instead of passwords.
+At the end of the [Git slides](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf),
+you will find instructions on how to set up SSH keys for authentication with GitHub.
 
-Zum Nutzen des Templates folgst du
-[diesem Link zum Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template).
-Dort klickst du auf den grünen Knopf _Use this template_, rechts am Bildrand.
-Im Dialog, der erscheint, wählst du dann _Create a new repository_ aus.
+To use the template, follow
+[this link to the repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template).
+Click the green _Use this template_ button on the right side of the screen.
+In the dialog box that appears, select _Create a new repository_.
 
 ```{image} /img/toolbox/template_0.png
 :alt:
 :align: center
 ```
 
-Auf der folgenden Seite musst du ein paar Sachen eintragen.
+You'll need to enter a few details on the following page.
 
-1. Als _Repository template_ muss _pep-dortmund/toolbox-workshop-protocol-template_ ausgewählt sein.
-2. Bei _Owner_ wird dein GitHub Nutzername stehen, nicht _chrbeckm_, der schreibt nur diese Anleitung.
-3. Im Textfeld unterhalb von _Repository name*_ musst du einen Namen für dein Repository angeben.
-  Wichtig ist hier, dass der Name von dir noch nicht vergeben ist, das zeigt dir GitHub aber auch mit einem grünen Haken an.
-   Hier ist als Beispiel der Name `lab_course_2025_26` vergeben,
-   du kannst aber zum Beispiel auch `anfaengerpraktikum_20xx_xx` wählen und die `x` mit den entsprechenden Jahren ersetzen.
-   Ein guter Name vereinfacht es, das Repository später besser wiederzufinden.
-4. _Public_ oder _Private_: Du kannst wählen, ob dein Repository öffentlich,
-  also von allen Internetnutzenden gesehen werden kann, oder privat ist
-  und nur von dir und eingeladenen GitHub-Nutzenden angesehen werden kann.
-5. Zum Schluss klickst du auf _Create repository_.
+1. Select `pep-dortmund/toolbox-workshop-protocol-template` as the _Repository template_.
+2. The _Owner_ field will display your GitHub username (not `chrbeckm`, that’s just the person writing this guide).
+3. Enter a name for your repository in the text field below _Repository name*_. 
+It's important that the name isn't already taken; GitHub will indicate this with a green checkmark. 
+For example, you could use the name `lab_course_2025_26`,
+or choose something like `beginnerpractical_20xx_xx` and replace the `x`s with the relevant years. 
+A good name makes it easier to locate the repository later.
+4. _Public_ or _Private_: You can choose whether your repository is public,
+meaning it can be viewed by anyone on the internet, or private,
+meaning it can only be viewed by you and invited GitHub users.
+5. Finally, click _Create repository_.
 
 ```{image} /img/toolbox/template_1.png
 :alt:
 :align: center
 ```
 
-Warte kurz, bis dein Repository erstellt wurde,
-dann wirst du automatisch zu deinem Repository weitergeleitet.
+Wait a moment for your repository to be created.
+Then, you will be automatically redirected to your repository.
 
 ```{image} /img/toolbox/template_2.png
 :alt:
 :align: center
 ```
 
-Nach dem Laden sieht dein Repository ähnlich zu dem auf der linken Seite aus.
-Im Hintergrund läuft gerade noch ein Prozess, der einige Dateien aus deinem Repository
-entfernt, die du nicht brauchst, wir brauchen diese aber im Template-Repository.
-Entfernt wurden `.github/workflows` und `environment.yml`.
-Zudem wurde der Inhalt der `README.md` in `notes.md` übertragen,
-sodass du eigene Zeilen in die `README.md` schreiben kannst.
+After loading, your repository will look similar to the one on the left.
+A background process is currently removing some files from your repository
+that you don't need, but which we require in the template repository.
+The files `.github/workflows` and `environment.yml` have been removed.
+Additionally, the content of `README.md` has been moved to `notes.md`,
+allowing you to write your own lines in `README.md`.
 
 ```{image} /img/toolbox/template_3.png
 :alt:

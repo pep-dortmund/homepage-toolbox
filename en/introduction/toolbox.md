@@ -1,17 +1,17 @@
-# Beispielhafte Nutzung der Programme
+# Example workflow with the programs
 
-Auf diesen Seiten erklären wir dir beispielhaft am
-[Template-Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template)
-wie das Arbeiten mit den vorgestellten Programmen ablaufen kann.
-Wenn du nochmal alles durchgehen möchtest, fang am besten oben an.
-Du suchst ein bestimmtes Thema?
-Schau dir an, welche Überschrift zu dem Thema am besten passt.
+On these pages, we use the
+[template repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template)
+to demonstrate how to work with the programs introduced in the workshop.
+If you want to go through everything from the beginning, it's best to start at the top.
+Looking for a specific topic?
+Check which category best matches the subject you're interested in.
 
 
-1. [`git`: Das Template Repository](/introduction/git-template)
-2. [`git`: Ein Repository klonen](/introduction/git-clone-repository)
-3. [VS Codium/Code: Ordner und Terminal öffnen](/introduction/vsc-open)
-4. [`git pull`: Änderungen herunterladen](/introduction/git-pull)
-5. [Einen neuen Ordner für einen Versuch anlegen](/introduction/new-labreport)
+1. [`git`: The template repository](/introduction/git-template)
+2. [`git`: Cloning a repository](/introduction/git-clone-repository)
+3. [VS Codium/Code: Opening folders and the terminal](/introduction/vsc-open)
+4. [`git pull`: Downloading changes](/introduction/git-pull)
+5. [Creating a new folder for an experiment](/introduction/new-labreport)
 6. [Makefile](/introduction/makefile)
-7. [`git`: Die eigenen Änderungen hochladen](/introduction/git-commit)
+7. [`git`: Uploading your changes](/introduction/git-commit)

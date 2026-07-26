@@ -1,23 +1,20 @@
-# Kontrollstrukturen
+# Control structures
 
-Als Kontrollstrukturen schauen wir uns in dieser Lektion
-Fallunterscheidungen und Schleifen an.
+In this lesson, we'll look at conditionals
+and loops as control structures.
 
+## Conditionals
+_If_, _else if_ and _else_ constitute a conditional.
 
-## Fallunterscheidungen
-_Wenn_, _sonst wenn_, _sonst_ ist eine Fallunterscheidung.
+_If_ a certain condition is met, we want specific lines of code to execute. 
+If not, then they shouldn't. We can take this further and say:
+_if_ a case arises, one part of the code should execute,
+_else_ another part should execute _if_ a different case is true.
+We can repeat this process as often as needed.
+Finally, we can collect all the cases
+that might still occur with _else_.
 
-_Wenn_ ein Fall eintritt, wollen wir, dass gewisse Zeilen an Code
-ausgeführt werden, wenn nicht, dann nicht.
-Das Ganze können wir auch weiterführen und sagen,
-_wenn_ ein Fall eintritt, soll ein Teil des Codes ausgeführt werden,
-_sonst_ soll ein anderer Codeteil ausgeführt werden,
-_wenn_ ein anderer Fall wahr ist.
-Das Prozedere können wir so häufig wiederholen, wie wir brauchen.
-Zum Schluss können wir alle Fälle zusammenfassen,
-die _sonst_ noch auftreten können.
-
-Im Code sieht es zum Beispiel so aus (diesen Pseudocode-Block jetzt nicht übernehmen)
+In code, for example, it looks like this (do not copy this pseudocode block).
 ```python
 if statement:
     do this
@@ -26,28 +23,28 @@ elif different statement:  # elif short for else if
 else:
     all statements were wrong, do this
 ```
-Wir sehen hier, dass die drei _keywords_ `if`, `elif` und `else`
-dick geschrieben sind.
-Nach den ersten beiden _keywords_ folgen `statements`,
-die schauen wir uns im nächsten Abschnitt an.
-Wichtig ist, dass am Ende jeder Zeile ein Doppelpunkt `:` steht.
-Mit diesem wird der Teil des Codes eingeleitet, der ausgeführt wird,
-wenn das davorstehende Statement korrekt ist.
-Wichtig ist hier, dass die Zeilen eingerückt sind,
-wie im Codeblock gezeigt.
-Viele Programme, wie z.B. VSC, machen diese Einrückung automatisch,
-ansonsten kannst du mit der `Tab`-Taste oder vier Leerzeichen
-die Einrückung selber setzen.
+Here, we can see that the three keywords `if`, `elif`, and `else`
+are written in bold.
+The first two keywords are followed by statements
+that we'll look at in the next section.
+It's important to have a colon `:` at the end of each line.
+This introduces the part of the code that is executed
+if the previous statement is true.
+It is also important that the lines are indented
+as shown in the code block.
+Many programs (like VSC) handle this indentation automatically.
+Otherwise, you can create the indentation yourself
+by pressing the `Tab` key once or `Space` four times.
 
-Zum Start schauen wir uns deshalb erst einmal Vergleiche in `python` an, um
-die Statements formulieren zu können.
+To begin, let’s take a look at comparisons in Python
+so that we can construct the statements.
 
-
-### Vergleiche
-Am Ende eines Vergleiches wissen wir, ob dieser Richtig oder Falsch ist,
-in `python` heißt es `True` und `False`.
-Probieren wir es direkt aus, die Operatoren kennen wir aus der Mathematik.
-Bis auf _gleich_, da `=` einer Variable einen Wert zuweist, ist _gleich_ `==`.
+### Comparisons
+At the end of a comparison, we know whether it is correct or incorrect.
+In Python, these are represented as `True` and `False`.
+Let's try it out. We're already familiar with the operators from mathematics.
+The exception is "equals": since `=` assigns a value to a variable,
+"equals" is written as `==`.
 ```python
 print(f"{1 < 2 = }")
 print(f"{1 == 2 = }")
@@ -55,219 +52,211 @@ print(f"{1 > 2 = }")
 print(f"{2 < 2 = }")
 print(f"{2 <= 2 = }")
 ```
-Damit können wir schon sehr viel vergleichen, ein Zeichen möchten wir
-dir jetzt noch zeigen: das Ausrufezeichen `!`.
-In `python` verwenden wir es, um _nicht_ nutzen zu können.
-Dazu ein Paar an Beispielen.
+We can already compare a great deal with this, but there's 
+one more important symbol: the exclamation mark `!`.
+In Python, we use it to express "not."
+Here are a few examples.
 ```python
 print(f"{1 != 2 = }")
 print(f"{2 != 2 = }")
 ```
-Du kannst so jetzt auch `<` als `!>` schreiben und andersrum
-`>` als `!<`, das ist nur nicht sinnvoll,
-da es schwieriger zum Lesen ist.
-
+You can now also write `<` as `!>` and vice versa (`>` as `!<`).
+However, it's quite impractical, since it's harder to read.
 
 ### `if`
-Jetzt schreiben wir uns ein kleines Programm, welches uns ausgibt,
-ob eine Zahl größer, kleiner oder gleich einer anderen Zahl ist.
-Definieren wir uns also die Zahl, die wir vergleichen und die Zahl,
-mit der wir sie vergleichen wollen.
-Schreibe die folgenden Code-Blöcke jeweils an das Ende deiner `introduction.py` Datei.
-Führe sie aus, wann immer du das Zwischenergebnis sehen willst, aber auf jeden Fall am Ende.
+Now, let's write a small program that tells us
+whether a number is greater than, less than, or equal to another number.
+So, let's define the number we want to compare and the number
+we want to compare it against.
+Add the following code blocks to the end of your `introduction.py` file.
+Run them whenever you want to see the intermediate result,
+but definitely run everything when you're finished adding the blocks.
 ```python
 nr_to_compare = 4
 compare_to = 3
 ```
-Als Erstes schauen wir uns kleiner an.
-Wir vergleichen, ob `nr_to_compare` kleiner als `compare_to` ist und geben dann aus,
-dass dies so ist, am besten noch mit den Werten.
-Das kann wie folgt aussehen.
+First, let's look at the "less than" case.
+We compare whether `nr_to_compare` is less than `compare_to` and then 
+output the result, ideally including the actual values.
+It could look like this.
 ```python
 if nr_to_compare < compare_to:
     print(f"{nr_to_compare} < {compare_to}")
 ```
-Dafür schreiben wir als Erstes das keyword `if`,
-danach folgt der Vergleich zwischen den beiden Zahlen.
-Am Ende der Zeile kommt ein `:`, um `python` zu zeigen,
-dass der Vergleich zu Ende ist und jetzt eingerückte Zeilen kommen,
-die ausgeführt werden sollen, wenn der Vergleich korrekt ist.
-In diesem Block geben wir die Zahlen mit dem richtigen Vergleichszeichen aus.
-
+To do this, we first write the keyword `if`
+followed by the comparison between the two numbers.
+We put a `:` at the end of the line to indicate to Python
+that there's a comparison, and that the subsequent indented lines
+should be executed if the comparison evaluates to true.
+In this block, we output the numbers along with the correct comparison operator.
 
 ### `elif`
-Nachdem wir den kleiner Vergleich gemacht haben,
-müssen wir auch überprüfen,
-ob `nr_to_compare` gleich `compare_to` ist.
-Dafür müssen wir nicht ein neues `if`-statement aufmachen,
-sondern können mit `elif` weiterschreiben.
-Falls der Vergleich hinter dem `if` richtig wäre,
-würde dieses `elif` übersprungen werden.
+After doing the initial comparison,
+we also need to check
+if `nr_to_compare` is greater than `compare_to`.
+We don't need to start a new `if`statement for this.
+Instead, we can continue with `elif`.
+If the comparison following the `if` were true,
+this `elif` would be skipped.
 ```python
 elif nr_to_compare > compare_to:
     print(f"{nr_to_compare} > {compare_to}")
 ```
-Die Syntax hier ist analog zu `if`, erst kommt das _keyword_
-`elif`, kurz für _else if_, dann ein neuer Vergleich und der `:`
-zum Abschluss der Zeile.
+The syntax here is analogous to `if`: first comes the keyword
+`elif` (short for _else if_), then a new comparison,
+and finally the `:` to end the line.
 
-Ob die Zahlen gleich sind, testen wir mit einem weiteren `elif`.
+We test whether the numbers are equal with another `elif`.
 ```python
 elif nr_to_compare == compare_to:
     print(f"{nr_to_compare} == {compare_to}")
 ```
 
 ### `else`
-Eigentlich müsste mit den vorangegangenen Vergleichen alles abgedeckt sein,
-wir fangen alle anderen Fälle aber trotzdem mit `else` ab.
-Hier gibt es keinen Vergleich hinter `else`,
-daher kommt direkt dahinter der `:`.
-Alle Fälle, die nirgendwo mit einem `if` oder
-`elif` Vergleich übereinstimmen, landen hier.
-Wir geben die Werte aus, um notfalls einfacher Fehler zu finden.
+Technically, the previous comparisons should cover everything,
+but we still handle all other cases using `else`.
+There is no comparison after `else` here,
+so the colon (`:`) follows immediately.
+Any cases that do not match an `if` or
+`elif` comparison end up here.
+We output the values to make it easier to find errors if necessary.
 ```python
 else:
     print(f"Error: {nr_to_compare = }, {compare_to = }")
 ```
 
-Führen wir nun den Code aus, sehen wir, dass `4 > 3`.
-Teste hier mal weitere Werte für `nr_to_compare` und `compare_to`.
-Verhält sich alles so, wie du es erwartest?
+If we run the code now, we see that `4 > 3`.
+Try testing other values for `nr_to_compare` and `compare_to` here.
+Does everything behave the way you expect?
 
-
-## Schleifen
-Nachdem wir gelernt haben, wie wir Code schreiben können,
-der nur ausgeführt wird, wenn bestimmte Bedingungen erfüllt sind,
-geht es jetzt um Code, der wiederholt werden kann.
-Solche Kontrollstrukturen werden Schleifen genannt und wiederholen
-einen gewissen Codeteil wieder und wieder,
-solange eine Bedingung erfüllt ist.
-Es gibt verschiedene Varianten von Schleifen,
-wir zeigen dir hier zwei.
-
+## Loops
+Now that we have learned how to write code
+that only executes when certain conditions are met,
+let's move on to code with repeating elements.
+Such control structures are called loops; they repeat
+a specific section of code over and over again
+as long as a condition is met.
+There are several different types of loops.
+We'll introduce two of them here.
 
 ### `while`
-Die erste Schleifenart, die wir dir hier zeigen, ist die `während`-Schleife.
-Das _keyword_ hier ist `while`, danach folgt, wie bei `if`, ein Statement.
-Solange dieses Statement wahr ist, wird der Code in den nachfolgenden,
-eingerückten Zeilen immer wieder ausgeführt.
+The first type of loop we’ll show you here is the `while` loop.
+The keyword here is `while`, followed (just like with `if`) by a statement.
+As long as this statement is true, the code in the subsequent indented lines
+is executed repeatedly.
 ```python
 # do not include this code block in your introduction.py
 while statement:
     do these lines
 ```
 
-Gehen wir die Funktionsweise einmal anhand des folgenden Beispiels durch.
-Schreibe es in deine `introduction.py` und führe sie wieder aus.
+Let's go through how it works using the following example.
+Write it into your `introduction.py` and run it again.
 ```python
-print("while-loop start")
+print("while loop start")
 i = 0
 while i < 2:
     print(f"{i = }")
     i += 1  # i = i + 1
-print("while-loop done")
+print("while loop done")
 ```
-Gehen wir nun die Zeilen und die Ausgabe durch, um die Funktionsweise
-der Schleife zu verstehen.
-Vor der Schleife geben wir einmal „while-loop start“ aus,
-damit wir in der Ausgabe klar erkennen können,
-wo die Ausgabe der Schleife beginnt.
-In der zweiten Zeile initialisieren wir die Variable `i` mit 0.
-Für Variablen, die als Zähler in Schleifen verwendet werden,
-sind kurze Namen wie `i` oder `j` üblich.
-Zeile 3 lesen wir als, _während i kleiner als drei ist, tue Folgendes_.
-Momentan ist `i = 0` uns damit kleiner als zwei, es werden jetzt die
-eingerückten Zeilen ausgeführt.
-Diese Zeilen beinhalten `i` auszugeben und anschließend
-eins zu `i` zu addieren.
-Dann springen wir wieder hoch zu `while i < 2`.
-Ein Durchlauf der Schleife wird auch **Iteration** genannt.
-Der Wert von `i` ist jetzt 1 und damit weiterhin kleiner als zwei.
-Es wird wieder `i` ausgegeben und eins zu `i` addiert.
-In diesem Moment ist `i = 2`.
-Der Vergleich `i < 2` ist somit `False` und der Block der eingerückten
-Zeilen wird übersprungen. Damit wird „while-loop end“ ausgegeben,
-die erste nicht eingerückte Zeile nach dem `while`-_keyword_.
-
+Let’s go through the lines and the output to understand
+how the loop works.
+Before the loop, we print "while loop start"
+so that we can clearly see in the output
+where the loop's output begins.
+In the second line, we initialize the variable `i` to 0.
+Short names like `i` or `j` are commonly used
+for variables serving as loop counters.
+We read line 3 as: _while i is less than three, do the following_.
+Currently, `i = 0` and is therefore less than two,
+so the indented lines are executed.
+These lines involve printing `i` and then
+adding one to `i`.
+Then we jump back up to `while i < 2`.
+A single pass through the loop is also called an **iteration**.
+The value of `i` is now 1, which is still less than two.
+`i` is printed again, and one is added to `i`.
+At this point, `i = 2`.
+The comparison `i < 2` therefore evaluates to `False`,
+and the block of indented lines is skipped.
+This results in "while loop done" being printed, as this is
+the first non-indented line following the `while` keyword.
 
 ### `for`
-Eine weitere Schleifenart ist die `für`-Schleife.
-Diese führt die eingerückten Zeilen für alle Elemente eines Objekts durch.
-Da das schwer zum Vorstellen ist, schauen wir uns direkt Beispiele an.
-In der Lektion über [Listen](/introduction/variables/#Lists){:target="_blank"} haben wir eine Liste
-mit verschiedenen Elementen erstellt. Definieren wir sie noch einmal,
-falls du sie nicht mehr in deiner Datei hast.
+Another type of loop is the `for` loop.
+It executes the indented lines for all elements of an object.
+Since that can be hard to visualize, let's look at some examples right away.
+In the lesson on [lists](/introduction/variables/#lists), 
+we created a list containing various elements. Let's define it again
+in case you no longer have it in your file.
 ```python
-elements = ['gold', 'titan', 'copper', 'silver']
+elements = ['gold', 'titanium', 'copper', 'silver']
 ```
-Jetzt wollen wir jedes Element einzeln ausgeben.
-Dafür nehmen wir die `for`-Schleife und iterieren
-über unsere Liste `elements`.
-Als Code in der Schleife haben wir eine Zeile mit `print`.
+Now we want to output each element individually.
+To do this, we use a `for` loop and iterate
+over our list `elements`.
+The code inside the loop consists of a single `print` line.
 ```python
 for element in elements:
     print(element)
 ```
-Als Ausgabe erhalten wir die vier Elemente, jeweils eins pro Zeile,
-in der Reihenfolge, wie sie in der Liste stehen.
-Denn `python` führt folgende Befehle aus:
-_Für jedes element in elements, gib den Inhalt der Variable element aus._
-Im ersten Durchlauf der Schleife haben wir die Variable
-`element = elements[0]`, was gleich `element = "gold"` ist.
-Innerhalb der Schleife, der eingerückten Zeilen,
-können wir auf das aktuelle Element mit `element` zugreifen.
+The output consists of the four elements, one per line,
+in the order in which they appear in the list.
+This is because `python` executes the following commands:
+_For each element in elements, output the content of the variable `element`._
+In the first iteration of the loop, the variable is
+`element = elements[0]`, which is equivalent to `element = "gold"`.
+Inside the loop (within the indented lines)
+we can access the current element using `element`.
 
-Schauen wir uns den letzten Punkt in einem weiteren Beispiel an.
+Let's look at the last point in another example.
 ```python
 numbers = [10, -4, 1]
 for x in numbers:
     print(x**2)
 print(numbers)
 ```
-Hier haben wir uns eine Liste an Zahlen definiert
-und lassen uns die Quadrate ausgeben.
-Am Ende geben wir noch einmal die Liste aus und sehen,
-dass diese unverändert ist.
-Das Quadrieren innerhalb der Schleife ändert also nicht
-die Elemente der Liste, da wir dort nur mit `x` arbeiten.
-
+Here, we have defined a list of numbers
+and are outputting the squares of the numbers.
+Finally, we output the list again and see
+that it remains unchanged.
+Squaring within the loop therefore does not
+alter the list's elements, since we are only working with `x` there.
 
 ### `range`
-Dieser Abschnitt gehört eigentlich noch zur `for`-Schleife,
-wir führen hier aber noch die sehr nützliche Funktion `range` ein.
+This section actually still belongs to the `for` loop,
+but here, we'll introduce the very useful `range` function.
 
-Als Erstes schauen wir uns an, was `range` kann.
+First, let's take a look at what `range` can do.
 ```python
 for i in range(3):
     print(i)
 ```
-So bekommen wir sehr einfach die Zahlen zwischen Null und Zwei,
-oder Null und einer anderen Zahl, sodass wir nicht eine Liste
-selber schreiben müssen, falls wir diese Zahlen benötigen.
+This way, we can easily obtain numbers between zero and two
+(or between zero and another number) without having to write out
+a list ourselves when we need these numbers.
 
-Probiere auch folgende ranges aus:
+Try out the following ranges:
 `range(2, 10, 2)` und `range(5, 0, -1)`.
 
-Mit der ersten `range` werden die Zahlen von 2 bis 8 in
-Zweierschritten ausgegeben.
-Denn mit den Argumenten `2`, `10` und `2`, geben wir an,
-dass wir die Zahlen zwischen `2`, eingeschlossen,
-und `10`, nicht mehr eingeschlossen,
-mit einer Schrittweite von `2` bekommen.
+The first `range` outputs the numbers from 2 to 8 in steps of two.
+By using the arguments `2`, `10`, and `2`, we specify
+that we want the numbers between `2` (inclusive)
+and `10` (exclusive) with a step size of `2`.
 
-In der zweiten `range` geben wir analog an,
-dass wir von 5 bis 0 - Schrittweite die Zahlen im Abstand
-von -1 bekommen, also rückwärts.
-Hier muss dann auch der Startwert größer sein als der Endwert,
-sonst wird die Schleife effektiv übersprungen,
-da keine passenden Zahlen existieren.
+Similarly, in the second `range`, we specify that we want numbers from 5 down to 0
+(using a step size of -1), meaning we are counting backwards.
+In this case, the start value must be greater than the end value.
+Otherwise, the loop is effectively skipped,
+as there are no valid numbers.
 
-Weiter geht es in [Lektion 4 - Wörterbücher & eigene Funktionen](/introduction/dicts_and_funcs).
+Let's continue with [Lesson 4 - Dictionaries and Functions](/introduction/dicts_and_funcs).
 
-# Kompletter Code
-Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
+# Complete code
+At the end of each lesson, you will find the complete code for that lesson.
 
-````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:::{seealso} Click here to show the complete code from for this lesson
 :class: dropdown
 ```python
 """
@@ -277,9 +266,9 @@ site: https://toolbox.pep-dortmund.org/introduction/python/
 The included section is: control structures
 """
 
-print("Lektion 3")
+print("Lesson 3")
 
-print("Vergleiche")
+print("Comparisons")
 print(f"{1 < 2 = }")
 print(f"{1 == 2 = }")
 print(f"{1 > 2 = }")
@@ -303,18 +292,18 @@ else:
     print(f"Error: {nr_to_compare = }, {compare_to = }")
 
 print("Loops")
-print("while-loop start")
+print("while loop start")
 i = 0
 while i < 2:
     print(f"{i = }")
     i += 1  # i = i + 1
-print("while-loop done")
+print("while loop done")
 
-elements = ['gold', 'titan', 'copper', 'silver']
+elements = ['gold', 'titanium', 'copper', 'silver']
 for element in elements:
     print(element)
 
-print("for-loop")
+print("for loop")
 numbers = [10, -4, 1]
 for x in numbers:
     print(x**2)
@@ -332,4 +321,4 @@ print("range 2")
 for i in range(5, 0, -1):
     print(i)
 ```
-````
+:::

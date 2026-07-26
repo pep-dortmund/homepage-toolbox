@@ -1,26 +1,25 @@
-# `git`: Ein Repository klonen
+## `git`: Cloning a repository
 
-Wenn du ein Repository klonen möchtest, gehst du auf die GitHub-Seite des Repositories
-und klickst dort auf _<> Code_.
-Wenn du die _ssh-keys_ eingerichtet hast, kannst du jetzt auf _SSH_,
-im Screenshot orange unterstrichen, klicken
-und dann auf die beiden Quadrate rechts neben der Textzeile.
+To clone a repository, go to the repository's GitHub page
+and click on _<> Code_.
+If you have set up your SSH keys, you can now click on _SSH_
+(underlined in orange in the screenshot)
+and then click on the button with two squares to the right of the text line.
 
 ```{image} /img/toolbox/template_4.png
 :alt:
 :align: center
 ```
 
-Öffne nun dein Terminal und navigiere mit `cd` zu dem Ordner,
-wohin du das Repository klonen möchtest.
-Oder navigiere mit deinem Dateiexplorer zu dem Ordner
-und nutze die _Öffne Terminal hier_ Funktion
-(per Rechtsklick oder `Strg`-Klick auf MacOS).
-Jetzt kannst du mit
-```
+Now, open your terminal and use `cd` to navigate to the folder
+where you want to clone the repository.
+Alternatively, navigate to the folder using your file explorer
+and use the "Open terminal here" function
+(via right-click or `Ctrl`-click on macOS).
+You can now clone your repository locally using
+```shell
 git clone git@github.com:chrbeckm/lab_course_2025_26.git
 ```
-dein Repository lokal klonen.
 
-**Wichtig ist, dass du `git@github.com:chrbeckm/lab_course_2025_26.git` mit
-deinem kopierten Link ersetzt.**
+**Important: make sure you replace `git@github.com:chrbeckm/lab_course_2025_26.git` with
+the link you copied.**

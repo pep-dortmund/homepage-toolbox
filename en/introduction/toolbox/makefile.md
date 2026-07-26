@@ -1,83 +1,87 @@
-# Die Struktur des Makefiles
+---
+layout: install
+permalink: /introduction/makefile_en/
+title:
+---
 
-An dieser Stelle wollen wir über das Makefile schreiben und dir die Regeln,
-die schon drin stehen, erklären;
-und auch den Rest.
+## The Structure of the Makefile
+
+Now, we'll discuss the makefile and explain the rules
+already contained within it, as well as the rest.
 
 - ```make
   TEXFILE = vXXX
   ```
-  Wir erstellen hier die Variable `TEXFILE` um darin den Namen der
-  Haupt-`.tex`-Datei zu speichern.
-  Wenn wir die Variable später nutzen wollen, schreiben wir `$(TEXFILE)`.
-  Aus `build/$(TEXFILE).pdf` wird dann `build/vXXX.pdf`.
+  Here, we create the variable `TEXFILE` to store the name of the main `.tex` file.
+  When we want to use the variable later, we write `$(TEXFILE)`.
+  `build/$(TEXFILE).pdf` then becomes `build/vXXX.pdf`.
 - ```make
   all: build/$(TEXFILE).pdf
   ```
-  Es ist üblich, als erstes Ziel das `all` Ziel zu setzen,
-  und in unserem Fall ist es das mit LaTeX erstellte PDF.
-  Auch wenn wir `python`-Skripts im Makefile stehen haben,
-  sind die dort erzeugten Dateien nicht unser Endziel im Praktikum,
-  da wird ein Protokoll abgegeben und nicht nur einzelne Plots.
+  It's common practice to set `all` as the initial target.
+  In our case, that target is the PDF generated using LaTeX. 
+  Even though the makefile includes `python` scripts,
+  the files they produce are not the final objective of the lab course.
+  After all, we're required to submit a report, not just individual plots.
 - ```make
   build/plot.pdf: plot.py ../matplotlibrc ../header-matplotlib.tex | build
     TEXINPUTS=$$(pwd)/..: MATPLOTLIBRC=../matplotlibrc python plot.py
   ```
-  Nun schauen wir uns die erste Regel im Makefile an,
-  sämtliche Regeln folgen diesem Aufbau.
-  Zuerst steht die Zieldatei, dann getrennt durch einen Doppelpunkt `:`,
-  die Dateien, die wir benötigen, um die Zieldatei zu erstellen,
-  und in der nächsten Zeile, eingerückt durch einen Tab,
-  der Befehl, der ausgeführt werden muss, um die Zieldatei zu erstellen.
-  Das `recipe` wird immer ausgeführt, wenn eines der `prerequisites`
-  ein späteres Zugriffsdatum als das `target` hat.
+  Now let's look at the first rule in the makefile.
+  All rules follow this structure. 
+  First comes the target file, then the files needed 
+  to create the target file (separated by a colon),
+  and on the next line, indented by a tab,
+  the command to be executed to create the target file. 
+  The `recipe` is always executed if one of the `prerequisites`
+  has a later access date than the `target`.
   ```make
   target: prerequisites
     recipe
   ```
-  In dieser Regel wird `build/plot.pdf` erstellt.
-  Benötigt dazu werden `plot.py`, das `python`-Skript, welches die Auswertung durchführt,
-  und die beiden Konfigurationsdateien `matplotlibrc` und `header-matplotlib.tex`.
-  Diese ermöglichen dir innerhalb der `matplotlib`-Plots LaTeX zu verwenden,
-  beide liegen im Hauptordner des Repository und daher muss `../` vor ihnen stehen,
-  damit sie gefunden werden.
-  Weiteres zu LaTeX in `matplotlib` findest du in den
-  [Folien zu LaTeX](https://toolbox.pep-dortmund.org/files/archive/current/latex.pdf)
-  im Abschnitt _TeX in matplotlib in TeX_.
-  Zusätzlich solltest du hier auch deine Datendateien hinschreiben,
-  mit relativem Pfad zum Makefile, z.B. `data/quader.txt`.
-  Als Letztes in dieser Zeile steht `| build`, zum Abspeichern
-  benötigt `python` den `build`-Ordner, das Zugriffsdatum von diesem ist egal,
-  deswegen steht es hinter der Pipe `|`, hier wird nur geprüft, ob der Ordner existiert.
+  In this rule, `build/plot.pdf` is created. 
+  This requires `plot.py`, the `python` script that carries out the evaluation, 
+  and the two configuration files `matplotlibrc` and `header-matplotlib.tex`. 
+  These allow you to use LaTeX within the `matplotlib` plots. 
+  Both are in the main folder of the repository and therefore `../` 
+  must be added before the filenames so that they can be found. 
+  You can find more about LaTeX in `matplotlib` in the 
+  [LaTeX slides](https://toolbox.pep-dortmund.org/files/archive/current/latex.pdf)
+  in the _TeX section in matplotlib in TeX_. 
+  In addition, you should also write your data files here, 
+  with a relative path to the makefile, e.g. `data/quader.txt`. 
+  The last thing on this line is `| build`. To save, 
+  `python` needs the `build` folder. The access date of this doesn't matter. 
+  For this reason, it's behind the pipe `|`. 
+  Here, it is only checked whether the folder exists.
 
-  Das `recipe` setzt sich aus verschiedenen Komponenten zusammen.
-  Als Erstes wird `python` der Pfad zu den Konfigurationsdateien mitgeteilt,
-  mit `TEXINPUTS=$$(pwd)/..:` der zu `header-matplotlib.tex`,
-  mit `MATPLOTLIBRC=../matplotlibrc` zur `matplotlibrc`.
-  Der Rest der Zeile ist der Aufruf `python plot.py`.
+  The `recipe` consists of several components. 
+  First, `python` is informed of the paths to the configuration files:
+  `TEXINPUTS=$$(pwd)/..:` points to `header-matplotlib.tex`,
+  and `MATPLOTLIBRC=../matplotlibrc` points to `matplotlibrc`. 
+  The remainder of the line is the command `python plot.py`.
 - ```make
   build/$(TEXFILE).pdf: build/plot.pdf
   ```
-  Diese Zeile ist eine Möglichkeit,
-  einer Datei eine Abhängigkeit zuzuordnen,
-  ohne eine komplette Regel zu schreiben.
-  Innerhalb des Protokolls wird `build/plot.pdf` eingefügt,
-  daher sollte die Datei existieren, bevor wir mit LaTeX
-  das Hauptdokument bauen.
-- Möchtest du ein weiteres `python`-Skript hinzufügen,
-  kannst du folgende Zeilen in dein Makefile schreiben.
-  Die Namen der Dateien sind hier `<fit>`,
-  ersetze diese fünf Zeichen mit deinen eigenen Dateinamen.
+  This line is a way to assign a dependency to a file
+  without writing a full rule. 
+  `build/plot.pdf` is included in the build process,
+  so the file must exist before we build 
+  the main document using LaTeX.
+- If you want to add another `python` script,
+  you can add the following lines to your makefile. 
+  The filenames used here are `<fit>`;
+  replace these five characters with your own filenames.
   ```make
   build/<fit>.pdf: <fit>.py data/<fit>.py ../matplotlibrc ../header-matplotlib.tex | build
     TEXINPUTS=$$(pwd)/..: MATPLOTLIBRC=../matplotlibrc python <fit>.py
   ```
-  Die Zeile `build/$(TEXFILE).pdf: build/plot.pdf`
-  kannst du dann entsprechend erweitern,
-  mit dem Backslash `\` können wir die weitere Datei
-  in eine weitere Zeile schreiben
-  und mit noch mehr Dateien wird die Zeile noch länger
-  und auch unübersichtlicher.
+  You can then extend the line 
+  `build/$(TEXFILE).pdf: build/plot.pdf` accordingly.
+  With the backslash `\`, 
+  the additional file can be placed on a new line.
+  But, with more files, the line becomes longer
+  and harder to read.
   ```make
     build/$(TEXFILE).pdf: build/plot.pdf \
       build/<fit>.pdf
@@ -94,100 +98,95 @@ und auch den Rest.
       --halt-on-error \
     $(TEXFILE).tex
   ```
-  Dies ist die lange LaTeX-Regel.
-  Sie enthält alles, was in den
-  [`make`-Folien](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf)
-  besprochen wird.
-  Die `prerequisites` sind hier anders als für die `python`-Regeln.
-  `| build` haben wir bei der `python`-Regel besprochen,
-  neu ist `FORCE`.
-  Das ist eine niemals erfüllte Abhängigkeit,
-  weiter unten im Makefile sehen wir auch eine Zeile,
-  die nur `FORCE:` beinhaltet.
-  Dadurch wird immer das `recipe` ausgeführt,
-  das ist hier extra so geschrieben,
-  da wir `latexmk` aufrufen und nicht `lualatex`.
-  Du siehst auch, dass wir nirgendwo angegeben haben,
-  welche `.tex`-Dateien zu dieser Regel gehören.
-  Das müssen wir nicht, da `latexmk` das selbstständig macht,
-  wenn es liest, welches die Hauptdatei ist.
-  Gehen wir einmal die einzelnen Zeilen des `recipe` durch:
+  This is the long LaTeX rule. 
+  It includes everything discussed in the
+  [`make` slides](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf). 
+  The `prerequisites` here differ from those for the `python` rules. 
+  We discussed `| build` in the context of the `python` rule,
+  but `FORCE` is new here. 
+  It's a dependency that is never satisfied.
+  Further down in the Makefile, we also see a line
+  containing only `FORCE:`. 
+  This ensures the `recipe` is always executed.
+  This is intentionally written
+  since we are calling `latexmk` rather than `lualatex`. 
+  You will also notice that we haven't specified anywhere
+  which `.tex` files belong to this rule. 
+  We don't need to because `latexmk` handles that automatically
+  once it identifies the main file. 
+  Let's go through the individual lines of the `recipe`:
   - `TEXINPUTS=..: \`:
-    Im Hauptordner des Repository liegt die `header.tex`,
-    die wir nutzen, damit `latexmk` sie findet,
-    erweitern wir den Standardsuchpfad (`:`),
-    der den aktuellen und alle Unterordner beinhaltet,
-    um den Hauptordner.
-    Mit den `\` können wir die Zeile visuell in mehrere
-    einzelne aufteilen, ausgeführt wird von `TEXINPUTS` bis
-    `$(TEXFILE).tex` alles als eine Zeile.
+    The `header.tex` file is located in the repository's main folder.
+    To ensure `latexmk` finds it,
+    we extend the default search path (`:`).
+    which includes the current folder and all subfolders,
+    to also include the main folder. 
+    Using `\` allows us to visually split the line into several
+    separate lines, though everything from `TEXINPUTS` to
+    `$(TEXFILE).tex` is executed as a single line.
   - `BIBINPUTS=..: \`:
-    Auch den Suchpfad für Literaturverzeichnisdateien
-    erweitern wir, da jetzt schon `lit.bib` und `programme.bib`
-    in dem Hauptordner liegen.
-    Denn `latexmk` erkennt auch, wenn du `biber` nutzt und
-    führt alles in der richtigen Reihenfolge aus.
+    We also extend the search path for bibliography files,
+    since `lit.bib` and `programme.bib` are now located
+    in the main folder. 
+    This is because `latexmk` detects when you are using `biber`
+    and executes everything in the correct order.
   - `max_print_line=1048576 \`:
-    Mit dieser Zeile erweitern wir die Anzahl an Zeichen,
-    diebeim Ausführen von LaTeX in eine Zeile geschrieben
-    werden dürfen.
-    Das macht die Ausgabe _schöner_ und nicht so sehr abgehackt.
-  - `latexmk \` startet `latexmk` mit den Argumenten
-    - `--lualatex`: Es wird `lualatex` als TeX-Engine verwendet.
+    With this line, we increase the number of characters
+    allowed on a single line when running LaTeX. 
+    This makes the output look _nicer_ and less choppy.
+  - `latexmk \` starts `latexmk` with the following arguments:
+    - `--lualatex`: Uses `lualatex` as the TeX engine.
     - `--output-directory=build \`:
-      Alle Dateien, die erstellt werden,
-      werden in den `build`-Ordner gespeichert.
-    - `--interaction=nonstopmode \`: Falls Fehler auftreten,
-      wird die interaktive Lösungsstrategie von `lualatex`
-      deaktiviert.
-    - `--halt-on-error \`:Falls Fehler auftreten,
-      stoppt der Prozess.
-    - `$(TEXFILE).tex`: Die Datei, die wir bauen wollen.
+      All generated files are saved in the `build` folder.
+    - `--interaction=nonstopmode \`: If errors occur,
+      `lualatex`'s interactive error-handling mode
+      is disabled.
+    - `--halt-on-error \`: If errors occur,
+      the process is stopped.
+    - `$(TEXFILE).tex`: The file to be built.
 - ```make
   build:
     mkdir -p build
   ```
-  In den Regeln haben wir den `build`-Ordner schon besprochen,
-  hier wird er erstellt.
-  Er hat keine Abhängigkeiten,
-  daher endet die erste Zeile nach dem Doppelpunkt `:`.
-  Die Flag `-p` sorgt dafür, dass keine Fehlermeldung
-  ausgegeben wird, wenn der Ordner schon existiert
-  und dass, wenn wir eine Kette von Ordnern erstellen wollen,
-  z.B. `build/figures`, alle Ordner in der Kette erstellt werden.
+  We have already discussed the `build` folder in the rules.
+  This is where it is created. 
+  It has no dependencies,
+  so the first line ends after the colon `:`. 
+  The `-p` flag ensures that no error message
+  is displayed if the folder already exists.
+  Further, if we want to create a chain of folders
+  (such as `build/figures`), all folders in the chain are created.
 - ```make
   clean:
     rm -rf build
   ```
-  Es ist gute Praxis, einen Befehl zu haben, der das Projekt
-  in den Zustand vor der Ausführung von `make` versetzt.
-  Da alles, was erzeugt wird, im `build`-Ordner gespeichert wird,
-  müssen wir nur diesen löschen.
-  Die Doppel-Flag `-rf` setzen wir,
-  da wir einen Ordner löschen (`-r`)
-  und keine Fehlermeldung ausgegeben haben wollen,
-  falls das zu löschende Objekt nicht existiert (`-f`).
+  It's good practice to have a command that returns the project
+  to the state it was in before `make` was run.
+  Since everything generated is stored in the `build` folder,
+  we only need to delete that folder.
+  We use the `-rf` flags
+  because we are deleting a folder (`-r`)
+  and do not want an error message displayed
+  if the object to be deleted does not exist (`-f`).
 - ```make
   FORCE:
   ```
-  Wie in der LaTeX-Regel beschrieben ist dies ein
-  immer aktuelles `target`.
+  As described in the LaTeX rule, this is an
+  always up-to-date `target`.
 - ```make
   .PHONY: all clean
   ```
-  Dies ist die letzte Regel und wird gesetzt,
-  damit `make` weiß, dass die gelisteten `targets`
-  keine Dateien erzeugen und falls es doch Dateien gibt,
-  die so heißen, immer noch die Regeln ausgeführt werden.
+  This is the final rule and is set so that `make` 
+  knows the listed `targets` do not produce files, 
+  and (even if files with those names do exist) so that
+  the rules will still be executed.
 
+### Running the makefile
 
-### Das Makfile ausführen
-
-Wenn du dein `Makefile` nutzen möchtest, hast du mehrere Möglichkeiten.
-1. `make`: Dieser Befehl sorgt dafür, dass alles ausgeführt wird,
-  damit die aktuellste Version der im `all` `target` genannten `prerequisites`
-  am Ende vorliegt.
-2. `make clean`: So räumst du deinen Versuchsordner wieder auf.
-3. `make build/plot.pdf`: Du arbeitest gerade am Plot oder an einem anderen
-  `python`-Skript und möchtest dir die Ergebnisse ansehen?
-  Dann kannst du als Argument hinter `make` das entsprechende `target` schreiben.
+If you want to use your `Makefile`, you have several options:
+1. `make`: This command ensures that everything runs so that the latest version
+   of the `prerequisites` listed in the `all` `target` is generated.
+2. `make clean`: Use this to clean up your experiment folder.
+3. `make build/plot.pdf`: Are you working on the plot or another `python` script
+   and want to view the results? You can then specify the corresponding `target` 
+   as an argument after `make`.

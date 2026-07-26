@@ -1,33 +1,33 @@
-# Einführung in Python
+# Introduction to Python
 
-In dieser Anleitung möchten wir dir einen Einstieg in `python` geben,
-und dafür direkt die von dir installierten Programme nutzen.
+In this guide, we'll introduce you to `python`
+and use the programs you have already installed to do so.
 
-Wir möchten hier jede*n abholen, daher ist die Anleitung sehr detailliert.
-Und dementsprechend auch länger, du musst nicht alle Lektionen auf einmal durchgehen,
-merk dir in welcher Lektion du warst und steige dort dann wieder ein.
+This guide is intended for all levels, so it's very detailed by design.
+As such, it's also quite long. You don't have to go through everything at once;
+just make a note of where you left off and pick up from there later.
 
-Du hast schon Erfahrungen gesammelt?
-Dann lies dir die Abschnitte in deinem Tempo durch
-und wenn dir alles bekannt ist,
-schau, ob du den zusammengefassten Code am Ende jeder Lektion verstehst.
+Do you already have some experience?
+Then, read through the sections at your own pace.
+And, once you are familiar with the material,
+check if you understand the summarized code at the end of each lesson.
 
-Wenn du einen Fehler in der Anleitung siehst oder dir etwas unklar ist,
-kannst du immer auf das ? klicken, was auftaucht, wenn du auf der Seite herunterscrollst;
-oder auf **Hilfe** in der oberen Leiste.
-Dort findest du alle Informationen, die wir brauchen, um dir weiterzuhelfen.
+When you see an error in the instructions or something is unclear,
+you can always click on the `?` that appears when you scroll down the page;
+or on **Help** in the bar on top.
+There, you will find all the information we need to assist you.
 
-[Lektion 1](/introduction/first_steps) zeigt dir,
-wie du dein erstes `python`-Programm schreibst und ausführst.
+[Lesson 1](/introduction/first_steps) is about
+how to write and run your first `python` program.
 
-In [Lektion 2](/introduction/variables) zeigen wir dir verschiedene Variablen
-und wie du sie in `python` nutzen kannst.
+In [Lesson 2](/introduction/variables) we'll show you some variables
+and how you can use them in `python`.
 
-Mit [Lektion 3](/introduction/control_structures)
-führen wir Kontrollstrukturen ein.
-Mit diesen kannst du deinen Programmablauf steuern
-und Abschnitte wiederholen.
+In [Lesson 3](/introduction/control_structures)
+we'll introduce control structures.
+These allow you to control the flow of your program
+and repeat sections of code
 
-In der abschließenden [Lektion 4](/introduction/dicts_and_funcs)
-bringen wir dir die `python` spezifischen Wörterbücher
-und das Schreiben eigener Funktionen bei.
+In the final [Lesson 4](/introduction/dicts_and_funcs)
+we'll teach you about `python`-specific dictionaries
+and how to write your own functions.

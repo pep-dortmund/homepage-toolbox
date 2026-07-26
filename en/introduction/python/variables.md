@@ -1,87 +1,83 @@
-# Verschiedene Variablentypen
+# Different variable types
 
-Als Nächstes möchten wir das Konzept von Variablen besprechen.
-Variablen sind Objekte, die einen Namen und einen Wert haben.
+Next, we'll discuss the concept of variables.
+Variables are objects with a name and a value.
 
-## Zahlen
-Dem obigen Beispiel von Funktionen der Mathematik treu bleibend, starten wir mit Zahlen.
-Ergänze dazu in deiner `introduction.py` die folgenden Zeilen am Ende der Datei.
+## Numbers
+Sticking with the previous example of mathematical functions, let's start with numbers.
+Add these lines to the end of your `introduction.py` file:
 ```python
 x = 5
 print(x)
 ```
-Es wird eine Variable mit dem Namen `x` erstellt und ihr wird der Wert 5 zugewiesen.
-Dann geben wir mittels `print` die Variable aus.
+Here, a variable called  `x` is created and assigned the value 5.
+Then, we output the variable using `print`.
 
-Wenn dein Terminal am unteren Ende des Fensters noch ist, kannst du einmal in die
-letzte Zeile klicken.
-Mit der Pfeiltaste nach oben kannst du den letzten geschriebenen Befehl aufrufen
-und mit `Enter` erneut ausführen.
-Wenn dein Terminal geschlossen ist, findest du
-[hier](/introduction/first_steps/#Terminal){:target="_blank"}
-die Schritte zum Öffnen.
-Du solltest jetzt folgende Ausgabe sehen:
+If your terminal is still at the bottom of the window, you can click once
+in the last line.
+You can use the up arrow key to recall the last command entered
+and run it again by pressing `Enter`.
+If your terminal is closed, the steps to reopen it can be found
+[here](/introduction/first_steps_en/#terminal).
+You should now see this output:
 ```
 Hello World!
 5
 ```
 
-Nur eine Variable ist aber natürlich nicht alles, daher führen wir jetzt ein paar mehr ein.
-Es ist gute Praxis, den Variablen englische Namen zu geben, mit `print` haben wir schon
-gesehen, dass `python` Funktionen englische Namen haben, das bleibt auch so.
-Ergänze die folgenden Zeilen am Ende deiner `introduction.py`.
+Of course, a single variable isn't everything, so let's introduce a few more.
+Add these lines to the end of your `introduction.py` script.
 ```python
 y = 3
 thisisavariable = 4
 hereIsAnother = 9.81
-this_is_a_multiplicator = 2.1e12
+this_is_a_multiplier = 2.1e12
 ```
-Mit diesen Zeilen erstellen wir vier neue Variablen.
-`y` ist ein Variablenname, den wir auch aus der Mathematik kennen,
-in `python` können wir aber auch andere Bezeichner wählen, wie wir in den beiden anderen Zeilen sehen können.
-Wichtig dafür ist, dass es ein zusammenhängender Name ist, also keine Leerzeichen hat und nicht mit einer Zahl beginnt.
-Es ist immer sinnvoll, einen _sprechenden_ Namen zu wählen, Beispiele für das Praktikum sind
-`nr_of_measurements`, `temperature_gold`, `lengthRod1`.
-In dieser Anleitung werden wir, wenn es sinnvoll ist und wir nicht `a`, `b`, `x` & `y` nehmen, den
-[snake_case](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats){:target="_blank"}
-verwenden, wie z.B. `this_is_a_multiplicator`.
+With these lines, we created four new variables.
+`y` is a variable name we also recognize from mathematics,
+but in `python` we can choose other identifiers as well, as shown in the other two lines.
+The name should be a single, continuous string (meaning it contains no spaces and does not start with a number).
+It is always advisable to choose a _descriptive_ name; examples relevant to the lab course include
+`nr_of_measurements`, `temperature_gold`, and `lengthRod1`.
+In this guide, whenever appropriate (and provided we aren't just using `a`, `b`, `x`, or `y`)we will use
+[snake_case](https://en.wikipedia.org/wiki/Naming_convention_(programming)#Examples_of_multiple-word_identifier_formats), e.g., `this_is_a_multiplier`.
 
-Für Kommazahlen müssen wir den Punkt als Dezimaltrennzeichen nutzen,
-so wie bei `hereIsAnother`.
-Um nicht viel zu viele Nullen tippen zu müssen, können wir die `e`-Schreibweise verwenden.
-Bei dieser geben wir erst die Zahl an und nach dem `e` die Zehnerpotenz.
-Wir haben also
-`this_is_a_multiplier`$$ = 2.1 * 10^{12}$$ definiert.
+For non-integer numbers or those in scientific notation, we use a period as the decimal
+separator, as with `hereIsAnother`.
+To avoid having to type a large number of zeros, we can use `e` notation.
+With this method, we specify the number first, followed by the power of ten after the `e`.
+Thus, we have defined
+`this_is_a_multiplier`$$ = 2.1 * 10^{12}$$ in this way.
 
-Wenn wir uns die Werte von mehreren Variablen ausgeben wollen, kann das unübersichtlich werden.
-Um das besser zu gestalten, nutzen wir `f-strings`, die können deutlich mehr,
-was wir im Workshop auch zeigen, hier beschränken wir uns auf das Grundlegendste.
-Mit der folgenden Schreibweise können wir uns den Namen und Wert einer Variablen ausgeben lassen,
-füge die Zeile ans Ende deiner Datei an und führe sie erneut aus.
+Displaying the values of multiple variables can become cluttered.
+To better show them, we use `f-strings`, which are capable of much more
+(which we'll also demonstrate in the workshop), but here we'll stick
+to the basics.
+The following syntax allows us to display both the name and the value of a variable.
+Add this line to the end of your file and run it again.
 ```python
 print(f"{x = }")
 print(f"{hereIsAnother = }")
 ```
-Wie der Name vorsagt, benötigen wir für `f-strings` ein `f` und einen String.
-Das `f` siehst du in den beiden `print`-Funktionen nach der Klammer auf.
-Strings sind eine Ansammlung von Zeichen, und wir schauen sie uns im Abschnitt
-[Strings](/introduction/variables/#Strings) direkt im Anschluss an.
-Jetzt benötigen wir nur die Information, dass Strings in `python` mit einem `"`
-beginnen und aufhören.
-In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der
-darin enthaltenen Variable auszugeben, das `=` sorgt dafür, dass erst der Name
-und dann der Wert ausgegeben wird.
+As the name suggests, `f-strings` require an `f` and a string.
+You can see the `f` in both `print` functions, right after the opening parentheses.
+Strings are collections of characters, and we will look at them in the section
+[strings](/introduction/variables_en/#strings) immediately afterwards.
+For now, we only need to know that strings in Python begin and end with a `"`
+character.
+In `f-strings`, we use curly braces `{}` to output the value of the variable
+contained within them. The `=` ensures that the name is displayed first,
+followed by the value.
 
+### Arithmetic operations
+As in mathematics, we can use basic arithmetic operations in Python.
+The appropriate symbols are `+`, `-`, `*` and `/`.
+Exponents are written as `**` in Python.
+Modulo and floor division are special features of programming languages,
+and the symbols `%` and `//` are used for these.
 
-### Rechenmethoden
-Wie in der Mathematik können wir auch die Grundrechenarten in `python` nutzen,
-die Symbole sind `+`, `-`, `*`, `/`.
-Exponenten werden in `python` mit `**` geschrieben.
-Eine Besonderheit in Programmiersprachen sind Modulo und Ganzzahldivision,
-für diese werden die Zeichen `%` und `//` verwendet.
-
-Die folgenden Code-Zeilen kannst du wieder ans Ende deiner `introduction.py` kopieren,
-du darfst aber auch gerne eigenes ausprobieren.
+You can copy the following lines of code to the end of your `introduction.py` 
+script again, but feel free to try out your own ideas as well.
 ```python
 print("Rechenmethoden")
 # Addition
@@ -100,9 +96,9 @@ print(f"{5 / 8 = }")
 print(f"{4**2 = }")
 print(f"{2**(-1) = }")
 ```
-Diese Rechenmethoden sind dir sicherlich vertraut,
-für die folgenden beiden schauen wir uns erst den Code und die Ausgabe an
-und besprechen sie dann detaillierter.
+These arithmetic operations should be quite familiar.
+For the next two, we'll look first at the code and the output,
+and then discuss them in more detail.
 ```python
 # Modulo
 print(f"{4 % 1 = }")    # = 0
@@ -110,26 +106,29 @@ print(f"{4 % 2 = }")    # = 0
 print(f"{4 % 3 = }")    # = 1
 print(f"{4 % 4 = }")    # = 0
 print(f"{4 % 5 = }")    # = 4
-# Euclidian division / Division mit Rest
+# Floor division with remainders / Euclidean division
 print(f"{3 // 1 = }")   # = 3
 print(f"{3 // 2 = }")   # = 1
 print(f"{3 // 4 = }")   # = 0
 ```
-Modulo (`%`) gibt an, welcher Rest bei der Division übrig bleibt.
-4 ist ohne Rest durch 1, 2 und 4 teilbar, 3 passt einmal in die 4 und lässt den Rest 1 über.
-Analog passt die 5 keinmal in die 4 und lässt damit den Rest 4 über.
-Die Ganzzahldivision (`//`) gibt an, wie häufig der Divisor komplett in den Dividenden passt.
-Wie bei der „normalen“ Division passt die 1 dreimal in die 3.
-Die 2 nur einmal in die 3 und die 4 gar nicht.
+Modulo (`%`) gives the remainder left over after division.
+4 is divisible by 1, 2, and 4 without a remainder;
+4 divides by 3 once, leaving a remainder of 1.
+Similarly, 4 divides by 5 zero times, leaving a remainder of 4.
+Floor division (`//`) returns the number of times the divisor divides the dividend.
+As with "normal" division, 1 divides 3 three times.
+2 divides 3 only once, and 4 not at all.
 
 
 ## Strings
-Als Strings werden Variablen bezeichnet, die eine Reihe an Zeichen enthalten,
-in den meisten Fällen sind es Buchstaben.
-Das kann wie im _Hello World!_ Beispiel „Hello World!“ sein, aber auch noch ganz viel mehr.
+Strings are variables that contain a sequence of characters.
+In most cases, these are letters.
+This can be something like "Hello World!" (as in the _Hello World!_ example), 
+but it can also be much more.
 
-Vor dem nächsten Beispielcode wollen wir einmal String-Addition erwähnen und es nach dem Beispiel erklären.
-Schreib also wieder diesen Code ans Ende der Datei und führe sie aus.
+Before the next example code, let's have a look at string addition, 
+and we'll explain it after the example.
+Add this code to the end of the file and run it.
 ```python
 print("Strings")
 club_name = "PeP et al. e.V."
@@ -139,128 +138,126 @@ print(event)
 string_addition = club_name + event + year
 print(string_addition)
 ```
-Strings werden in `python` durch Anführungszeichen markiert, wie wörtliche Rede in Texten.
-Die erste Zeile des neuen Ausgabeteils ist der Inhalt der Variablen `event`.
-Die letzte ausgegebene Zeile ist das Ergebnis der String-Addition,
-denn Zeichenketten werden in `python` so addiert, dass sie aneinander angehängt werden.
-Da das Ergebnis nicht so gut aussieht, es fehlen Leerzeichen, fügen wir diese drei Zeilen ans Ende an.
-Was fällt dir an Unterschieden in der Ausgabe auf?
+Strings in `python` are marked with quotation marks, much like direct speech in text.
+The first line of the new output is the content of the variable `event`.
+The last line of output is the result of string addition,
+because in `python`, adding strings together means sticking them together end-to-end.
+Since the result doesn't look quite right (it's missing spaces), 
+we add these three lines at the end.
+What differences do you notice in the output?
 ```python
 string_addition = club_name + " " + event + " " + year
 print(string_addition)
 print(club_name, event, year)
 ```
-Im Gegensatz zur ersten `string_addition` Ausgabe sind jetzt Leerzeichen zwischen
-den einzelnen Variablen. Erreicht haben wir das durch die Leerzeichen-Strings `" "`.
-Wir können also immer Strings kombinieren, egal ob die einen als Variablen kommen
-und die anderen als Strings in der Zeile.
-Die letzte Ausgabe sieht so aus wie die `string_addition` mit Leerzeichen,
-das liegt daran, dass `print` standardmäßig Leerzeichen zwischen die Argumente setzt.
-Die Argumente sind in diesem Fall die drei String-Variablen, getrennt durch Kommata.
-
+Unlike the first `string_addition` output, there are now spaces between
+the individual variables. We did this using the space strings `" "`.
+So, we can always combine strings, regardless of whether they come
+as variables or as strings within the line.
+The final output looks like the `string_addition` with spaces.
+This is because `print` inserts spaces between the arguments by default.
+In this case, the arguments are the three string variables, separated by commas.
 
 ## Lists
-Mit den bisher vorgestellten Variablen können wir einzelne Zahlen oder Zeichenketten
-in unserem Programmcode verwenden.
-Wenn wir nun aber etwas gemessen haben, wird es schon bei wenigen Messwerten lästig,
-für jeden Messwert eine einzelne Variable zu erstellen und zu nutzen.
-Deswegen führen wir hier Listen ein, diese können mehrere Werte speichern.
-Wie bei allen anderen Variablen müssen wir auch einer Liste einen Namen geben,
-wir nehmen hier an, dass wir die Namen von Elementen aus dem Versuch speichern wollen.
-Daher nennen wir sie `elements` und speichern die Namen mehrerer Elemente.
+With the variables introduced so far, we can use individual numbers 
+or strings of characters in our program code.
+However, if we measure something, creating and using a separate variable for each reading
+quickly becomes cumbersome, even with just a few data points.
+For this reason, we have lists. These allow us to store multiple values.
+As with any other variable, we must assign a name to the list. 
+Let's assume here that we want to store the names of elements from an experiment.
+Therefore, we'll call it `elements` and store the names of several elements in it.
 ```python
 elements = ["gold", "silver", "copper"]
 ```
-Dass es sich bei `elements` um eine Liste handelt,
-wird durch die eckigen Klammern `[]` gekennzeichnet.
-Die einzelnen Elemente der Liste werden zwischen die Klammern gesetzt
-und mit Kommata voneinander getrennt.
-Geben wir nun die Liste aus, erhalten wir
+The fact that `elements` is a list
+is indicated by the square brackets `[]`.
+The individual elements of the list are placed between the brackets
+and separated by commas.
+If we now output the list, we get
 ```python
 print(f"{elements = }")
 # elements = ['gold', 'silver', 'copper']
 ```
-
-
-### Indizieren
-Da wir so nur die gesamte Liste ausgeben können, schauen wir uns jetzt an,
-wie wir einzelne Elemente aus der Liste bekommen.
-Dieses nennt man Indizieren und funktioniert, wie das Erstellen der Liste,
-mit eckigen Klammern. Folglich schreiben wir, um das erste Element der Liste zu bekommen
+### Indexing
+Since this only allows us to output the entire list, let's now look at
+how to retrieve individual elements from the list.
+This is called indexing. Just like the command creating the list,
+it uses square brackets. Consequently, to get the first element of the list, we write
 ```python
 print(f"{elements[1] = }")
 ```
-Wenn wir das ausführen, erhalten wir `elements[1] = 'silver'`.
+When we run this, we get `elements[1] = 'silver'`.
 
-Wenn du noch keine Programmiererfahrung hast, ist das sicherlich überraschend.
-Das erste Element der Liste ist doch eigentlich `gold`,
-warum gibt `python` dann `silver` aus?
-In fast allen Programmiersprachen fängt das Zählen bei 0 an,
-somit ist `elements[1]` das zweite Element in unserer „normalen“ Zählweise.
-Für die Liste `elements` können wir die Indizes 0, 1, 2 verwenden,
-aber auch -1, -2 und -3.
-Mit folgendem Code können wir uns das erste und das letzte Element ausgeben lassen.
+If you don't have any programming experience yet, this is surprising.
+The first element of the list is actually `gold`,
+so why does `python` output `silver`?
+In almost all programming languages, counting starts at 0,
+so `elements[1]` is the second element in our "normal" way of counting.
+For the list `elements`, we can use the indices 0, 1, and 2,
+but also -1, -2, and -3.
+We can use the following code to output the first and last elements.
 ```python
 print(f"{elements[0] = }", f"{elements[-3] = }")
 print(f"{elements[2] = }", f"{elements[-1] = }")
 ```
-Aus einer Liste können wir nicht nur einzelne Elemente bekommen,
-sondern auch Teillisten. Dafür schreiben wir nicht nur eine Zahl in die eckigen Klammern,
-sondern `[Anfangsindex:Endindex+1]`.
-Folgende Zeilen geben drei Teillisten aus, schaffst du es vor dem Ausführen
-herauszufinden, was die Ausgabe ist?
+We can retrieve not only individual elements from a list,
+but also slices (or parts) of lists. To do this, instead of just putting a single number
+inside the square brackets, we use `[start_index:end_index+1]`.
+The following lines output three list slices; can you figure out
+what the output will be before running the code?
 ```python
 print(f"{elements[0:2] = }")
 print(f"{elements[-3:-1] = }")
 print(f"{elements[2:] = }")
 ```
-Die erste Zeile gibt uns eine Liste mit den Elementen von Index 0 bis Index 2-1=1 aus.
-Mit der zweiten Zeile erhalten wir die gleiche Teilliste,
-da wir hier die Liste nur mit den negativen Indizes indizieren.
-In der dritten Zeile sehen wir nur eine Zahl um den Doppelpunkt,
-diese Schreibweise verkürzt Indizierungen, wenn wir vom Start oder bis zum Ende
-der Liste gehen wollen. Die ganze Liste bekommen wir auch mittels `elements[:]`.
+The first line outputs a list containing the elements 
+from index 0 up to (but not including) index 2.
+The second line yields the same list slice,
+since we are indexing using negative indices here.
+In the third line, we see only a single number before the colon.
+This notation provides a shorthand for indexing when we want to start from the beginning
+or go to the end of the list. We can also obtain the entire list using `elements[:]`.
 
-
-### Ersetzen und erweitern
-Wie bei den anderen Variablen können wir einzelne Elemente der Liste überschreiben.
-Nehmen wir an, wir sollten im Versuch nicht mit Silber arbeiten, sondern mit Titan.
-Dann können wir den Eintrag ersetzen.
+### Replacing and extending
+As with other variables, we can overwrite individual elements of the list.
+Let's assume that for the experiment, we work with titanium instead of silver.
+In that case, we can replace the entry.
 ```python
-elements[1] = "titan"
+elements[1] = "titanium"
 print(f"{elements = }")
 ```
-Fällt uns ein, dass wir doch noch eine Messung mit Silber gemacht haben,
-können wir die Liste mit der Funktion `.append()` erweitern.
+If we realize that we did perform a measurement with silver after all,
+we can extend the list using the `.append()` function.
 ```python
 elements.append("silver")
 print(f"{elements = }")
 ```
-Wie bei Zahlen und Strings schauen wir uns auch für Listen an, was bei `+` und `*` passiert.
-Mit `+` werden Listen zusammengeführt, die ursprünglichen Listen bleiben aber unverändert.
-`*` vervielfacht Listen, auch ohne die Ursprungsliste zu verändern.
+As with numbers and strings, let's look at what happens with `+` and `*` when using lists.
+`+` combines lists, but the original lists remain unchanged.
+`*` multiplies lists, again without altering the original list.
 ```python
 print(f"{elements+elements[:2] = }")
 print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
 
-Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control_structures).
+Let's move on to [Lesson 3 - Control Structures](/introduction/control_structures).
 
-# Kompletter Code
-Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
+# Complete code
+At the end of each lesson, you will find the complete code for that lesson.
 
-````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:::{seealso} Click here to show the complete code from for this lesson
 :class: dropdown
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
-site: https://toolbox.pep-dortmund.org/introduction/python/
+site: https://toolbox.pep-dortmund.org/introduction/python_en/
 
 The included section is: variables
 """
 
-# Lection: Verschiedene Variablentypen
+# Lection: Different variable types
 print("Lektion 2")
 
 x = 5
@@ -274,7 +271,7 @@ this_is_a_multiplicator = 2.1e12
 print(f"{x = }")
 print(f"{hereIsAnother = }")
 
-print("Rechenmethoden")
+print("Arithmetic operations")
 # Addition
 print(f"{4 + 2 = }")
 print(f"{8 + 4 + 5 = }")
@@ -291,13 +288,13 @@ print(f"{5 / 8 = }")
 print(f"{4**2 = }")
 print(f"{2**(-1) = }")
 
-# Modulo
+# Modulo division
 print(f"{4 % 1 = }")    # = 0
 print(f"{4 % 2 = }")    # = 0
 print(f"{4 % 3 = }")    # = 1
 print(f"{4 % 4 = }")    # = 0
 print(f"{4 % 5 = }")    # = 4
-# Euclidian division / Division mit Rest
+# Eloor division with remainders / Euclidean division
 print(f"{3 // 1 = }")   # = 3
 print(f"{3 // 2 = }")   # = 1
 print(f"{3 // 4 = }")   # = 0
@@ -336,4 +333,4 @@ print(f"{elements+elements[:2] = }")
 print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
-````
+:::

@@ -1,30 +1,30 @@
-# Die ersten Schritte
+# The first steps
 
-Worauf musst du achten, wenn du eine (neue) Programmiersprache lernst?
+What should you keep in mind while learning a (new) programming language?
 
-Für Programmiersprachen gibt es eine Syntax, die vorgibt,
-welche Schlüsselwörter/keywords es gibt und was diese tun.
-Zudem gibt sie vor, wie Code geschrieben werden soll,
-wie bei der Grammatik einer Sprache, geht es um die Reihenfolge
-von Wörtern/Befehlen, die vom Gegenüber, Mensch oder Computer,
-verstanden werden.
-So wie um Zeichen, die Sätze oder den Code strukturieren.
+Programming languages have a syntax that dictates
+which keywords exist and what they do.
+It also suggests how code should be written;
+much like the grammar in a spoken language, it dictates the sequence
+of words or commands that the reader (whether human or computer)
+can understand.
+In addition, it involves the characters used to structure sentences or code.
 
-Im Vergleich zu `C++` oder `Java`, zwei weitverbreiteten Sprachen,
-nutzt `python` weniger Zeichen, um den Code zu strukturieren.
-Ein paar gibt es dennoch, also bereitet eure
-`:`, `{`, `(`, `[`, `]`, `)`, `}`-Tasten vor.
+Compared with `C++` or `Java`, two widely used languages,
+`python` uses fewer characters to structure code.
+There are still a few, however, so get your
+`:`, `{`, `(`, `[`, `]`, `)` and `}` keys ready.
 
-Das erste Programm, das typischerweise in einer neuen Programmiersprache geschrieben wird, ist _Hello World!_
-Das Gleiche wollen wir hier auch machen und `python` beibringen, uns etwas auszugeben.
+The first program typically written in a new programming language is _Hello World!_
+We will do the same here and teach `python` to output something for us.
 
 ## VSCode/VSCodium
-Als Erstes öffnen wir dazu VSCode/VSCodium (VSC ab jetzt).
-Du hast einen Mac? Dann öffne den _Finder_ und tippe VSCodium ein,
-öffne es dann auch.
+To start, open VSCode or VSCodium (from here referred to as VSC).
+Do you have a Mac? Then, open _Finder_, type "VSCodium,"
+and open the application.
 
-Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
-und tippst _VSCode_ ein und klickst auf die VSCode App.
+If you're using Windows, click on the Windows logo at the bottom of the screen,
+type "VSCode," and click on the VSCode app.
 
 ```{image} /img/introduction/VSCode_Open.png
 :alt:
@@ -32,10 +32,10 @@ und tippst _VSCode_ ein und klickst auf die VSCode App.
 :align: center
 ```
 
-Jetzt wollen wir einen Ordner _ToolboxWorkshop_ auf dem Desktop erstellen
-und darin eine Datei _introduction.py_ anlegen.
-In VSC gibt es in der oberen Leiste _File_/_Datei_,
-klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
+Now, create a folder called _ToolboxWorkshop_ on the Desktop
+and create a file named _introduction.py_ inside it.
+In VSC, there's a _File_ menu in the top bar;
+click on it, and then select _Open Folder_.
 
 ```{image} /img/introduction/VSCode_NewDir1.png
 :alt:
@@ -43,8 +43,8 @@ klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
 :align: center
 ```
 
-Es kann sein, dass sich der folgende Dialog in der Mitte von VSC öffnet.
-Klicke dann auf _Show local_ oder das deutsche Äquivalent.
+The following dialog might open in the middle of VSC.
+If it does, click _Show local_.
 
 ```{image} /img/introduction/VSCode_NewDir2.png
 :alt:
@@ -52,9 +52,9 @@ Klicke dann auf _Show local_ oder das deutsche Äquivalent.
 :align: center
 ```
 
-Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop
-und erstelle einen neuen Ordner mit dem Namen `ToolboxWorkshop`.
-In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
+Navigate to the Desktop in the window that appears
+and create a new folder called `ToolboxWorkshop`.
+In Windows, you can use the _New folder_ button for this.
 
 ```{image} /img/introduction/VSCode_NewDir3.png
 :alt:
@@ -62,7 +62,7 @@ In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 :align: center
 ```
 
-Öffne diesen Ordner mit dem Knopf _Öffne Ordner_/_Select Folder_ unten rechts.
+Open this folder with the _Select Folder_ button on the lower right.
 
 ```{image} /img/introduction/VSCode_NewDir4.png
 :alt:
@@ -70,10 +70,10 @@ In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 :align: center
 ```
 
-In VSC kannst du jetzt in der linken Seitenleiste
-eine Datei erstellen, klicke dazu auf das erste Symbol hinter _TOOLBOXWORKSHOP_.
-Gib ihr den Namen `introduction.py`.
-Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
+In VSC, create a file in the left sidebar; to do so,
+click on the first icon to the right of _TOOLBOXWORKSHOP_.
+Rename the file to `introduction.py`.
+When you've entered the name, confirm it by pressing `Enter`.
 
 ```{image} /img/introduction/VSCode_NewFile.png
 :alt:
@@ -81,35 +81,34 @@ Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
 :align: center
 ```
 
-
 ## _Hello World!_
 
-Als erstes `python`-Programm schreiben wir eine Ausgabe von _Hello World!_
-Schreibe dafür in deine `introduction.py`
+For our first `python` program, we will write code to output _Hello World!_
+To do this, write the following line in `introduction.py`:
 ```python
 print("Hello World!")
 ```
 
-An dieser Stelle wird dir auffallen, dass die Farben in deinem VSC
-anders sind als in dem Codeblock. Das ist kein Fehler.
-Die farbliche Gestaltung nennt man _Highlighting_ und ist je nach
-Programm unterschiedlich. Lass dich also nicht davon irritieren,
-wenn die Farben zwischen den Codeblöcken hier und dem Code in VSC
-unterschiedlich sind.
-Wenn du dich an die Farben in VSC gewöhnt hast, ist es sehr praktisch,
-da du so einfacher Strukturen im Code erkennen kannst.
-Und Tippfehler, wenn zum Beispiel `print` nicht mehr farbig hinterlegt
-ist, weil `prnit` getippt wurde.
+You might notice that the colors in VSC
+differ from those in the code block. This is not an error.
+This color scheme is known as _highlighting_, and it varies
+by program. Therefore, it's no issue at all
+if the colors differ between the code blocks here and
+in VSC.
+Once you get used to the colors in VSC, you'll find them quite handy,
+as they make it easier to recognize structures within the code.
+They also help spot typos, for example, if `print` is no longer
+highlighted, because `prnit` was typed instead.
 
-`print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
-Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles Mögliche auszugeben.
-Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[String](/introduction/variables/#Strings){:target="_blank"} "Hello World!"
-Weitere Argumente können durch `,` getrennt, ausgegeben werden,
-z.B. `print("Hello World!", "Hello World!")`.
-Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
-z.B. $$f(x) = x^2$$.
-Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
+`print` is a `python` function used to output various things.
+We will use it frequently in these lessons to display all sorts of output.
+Anything placed within `()` is called an argument;
+in this case, it is the text/[string](/introduction/variables_en/#Strings) "Hello World!"
+Additional arguments can be output by separating them with a comma (`,`);
+for example, `print("Hello World!", "Hello World!")`.
+You can think of a `python` function as behaving like a mathematical function,
+such as $$f(x) = x^2$$.
+The difference is that `python` allows more than just numbers to be used as arguments.
 
 ```{image} /img/introduction/VSCode_HelloWorld.png
 :alt:
@@ -117,25 +116,24 @@ Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 :align: center
 ```
 
-Dein VSC sollte jetzt ähnlich zum folgenden Screenshot aussehen.
-Wichtig ist der weiße Kreis neben dem Dateinamen.
-Dieser bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
-Speichern kannst du mit `Strg` + `s`, oder über _File_ und dann _Datei speichern_/_Save File_.
-Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssystem.
+Your VSC should now look similar to the screenshot below.
+The white circle next to the filename is important.
+It indicates that the changes in the file have not yet been saved.
+You can save using `Ctrl` + `s`, or via _File_ and then _Save File_.
+The keyboard shortcut for saving on your operating system is also displayed there.
 
-**Bevor du eine `python`-Datei ausführst, musst du deine Änderungen speichern,
-sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
-Achte also immer auf den weißen Punkt.**
+**Before you run a `python` file, you must save your changes;
+otherwise, `python` cannot execute your newly written code.
+Always keep an eye out for the white dot.**
 
-## Terminal öffnen und `python` ausführen
-Für Windows ist dieser Abschnitt an einigen Stellen ausführlicher,
-wenn du ein anderes Betriebssystem hast,
-sind diese Schritte dann für dich nicht notwendig.
-Sie sind mit **Windows:** gekennzeichnet.
+## Open the terminal and run `python`
+This section is more detailed in certain parts for Windows;
+if you are using a different operating system,
+these steps are not necessary for you.
 
-Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Datei auszuführen.
-Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann auf
-_Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
+Now, we open the terminal integrated into VSC to run our `python` file.
+To do this, right-click the file name in the list on the left
+and then click _Open in Integrated Terminal_.
 
 ```{image} /img/introduction/VSCode_Terminal0.png
 :alt:
@@ -143,11 +141,11 @@ _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 :align: center
 ```
 
-Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
+The terminal is now open at the bottom of the window.
 
-````{caution} Windows
-Steht am rechten oberen Rand des Terminals `powershell`,
-musst du dein {ref}`Terminal noch einrichten<win11-terminal>`.
+:::{caution} Windows
+If `powershell` appears at the top right of the terminal,
+you still need to [set up your terminal](/install/windows-11/#windows-11-term).
 
 ```{image} /img/introduction/VSCode_Terminal1.png
 :alt:
@@ -155,18 +153,19 @@ musst du dein {ref}`Terminal noch einrichten<win11-terminal>`.
 :align: center
 ```
 
-Wiederhole jetzt den Schritt mit `Öffne in integriertem Terminal`/`Open in Integrated Terminal`.
-````
+Now repeat the step using _Open in Integrated Terminal_.
+:::
 
-Schreibe in dein Terminal `ls` und führe den Befehl aus,
-indem du auf `Enter` drückst.
-`ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
-Es werden dir verschiedene Namen zurückgegeben,
-du solltest in den zurückgegebenen Namen `introduction.py` sehen.
-<!-- find Befehl der in einem sinnvollen Rahmen nach introduction.py sucht und in den Ordner geht? -->
-Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Enter` aus.
-Als Ausgabe siehst du `Hello World!`, also gerade das,
-was wir als Argument in `print` geschrieben haben.
+
+Type `ls` into your terminal and run the command
+by pressing `Enter`.
+`ls` stands for _list_ and displays the files contained in a folder.
+You will see a list of names;
+there should be `introduction.py` among them.
+<!-- A find command that searches for introduction.py within a reasonable scope and navigates to the folder? -->
+Now type `python introduction.py` into your terminal and run it by pressing `Enter`.
+The output will be `Hello World!`, exactly
+what we passed as an argument to `print`.
 
 ```{image} /img/introduction/VSCode_Terminal2.png
 :alt:
@@ -174,72 +173,71 @@ was wir als Argument in `print` geschrieben haben.
 :align: center
 ```
 
-Dein Terminal sollte jetzt ähnlich zu dem im Screenshot aussehen.
-Der grüne Text wird sich unterscheiden.
-Vor dem `@` steht dein Nutzername, nicht `toolbox`,
-dahinter folgt der Name deines Laptops/Rechners.
-In Blau steht hinter dem `:` der Pfad, die Ordner getrennt durch `/`.
-Dies ist der Prompt und kann individuell angepasst werden.
+Your terminal should now look similar to the one in the screenshot.
+The green text will differ.
+Your username appears before the `@` (not `toolbox`),
+followed by the name of your laptop or computer.
+The path appears in blue after the `:`, with folders separated by `/`.
+This is the prompt, and it can be customized.
 
-**Wenn es in Zukunft heißt, führe `python introduction.py` aus,
-ist damit gemeint, dass du im Terminal `python introduction.py` eintippst
-und es mit `Enter` ausführst.
-Du kannst das abkürzen, indem du den zuletzt ausgeführten Befehl mit
-`Pfeil nach oben` und `Enter` wiederholst.**
+**Whenever the instructions say to run `python introduction.py` in the future,
+it means you should type `python introduction.py` into the terminal
+and execute it by pressing `Enter`.
+You can save time by repeating the last command you ran
+using the `Up Arrow` key and `Enter`.**
 
 
-## Kommentare
-In Programmiersprachen sollen Kommentare verwendet werden, um den Code zu erklären.
-Das ist nützlich für dich und andere Leute, die mit deinem Code arbeiten,
-zum Beispiel dein/e Partnerïn im Praktikum.
-Kommentare können auch verwendet werden, um Abschnitten im Code eine Art Überschrift
-zu geben. Für die Praktikumsprotokolle könnten das _Daten einlesen_,
-_Ausgleichsrechnung_ und _grafische Darstellung_ sein.
-Kommentare, die eine Zeile lang sind oder in der Zeile mit dem Code stehen,
-beginnen mit `#`.
-Ab dem `#` wird alles bis zum Ende der Zeile als Kommentar angesehen.
-Längere Kommentare beginnen mit `"""` und enden genau so.
-Unseren aktuellen Code in `introduction.py` können wir somit so kommentieren:
+## Comments
+In programming languages, comments are used to explain the code.
+This is useful for you and for others working with your code,
+such as your lab partner.
+Comments can also be used to provide headings for sections of code.
+For lab reports, these might include _reading in data_, 
+_least-squares fitting_, and _graphical representation_.
+In-line comments (or comments placed on the same line as the code) 
+begin with `#`.
+Longer comments begin with `"""` and end the same way.
+We can therefore add comments to our current code in `introduction.py` as follows:
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
-site: https://toolbox.pep-dortmund.org/introduction/python/
+site: https://toolbox.pep-dortmund.org/introduction/python_en/
 
-The last included section is: Kommentare
+The last included section is: Comments
 """
 
-# Lection: Die ersten Schritte
+# Lesson: The first steps
 
-# Sublection: Hello World!
+# Subsection: Hello World!
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 ```
-Was fällt dir an der Ausgabe auf, wenn du diesen Code nun ausführst?
+What do you notice about the output when you run this code?
 
-Es sollte sich nichts ändern.
-Sämtliche Kommentare werden beim Ausführen ignoriert,
-genauso wie die leeren Zeilen.
-Du kannst also beide nutzen, um deinen Code zu strukturieren.
+Nothing should change.
+All comments are ignored during execution,
+just like the blank lines.
+So, you can use both to structure your code.
 
-Weiter geht es in [Lektion 2 - Variablen](/introduction/variables).
+Let's move on to [Lesson 2 - Variables](/introduction/variables_en).
 
-# Kompletter Code
-Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
+# Complete code
+At the end of each lesson, you will find the complete code for that lesson.
 
-````{seealso} Klicke hier um den kompletten Code anzuzeigen
+:::{seealso} Click here to show the complete code from for this lesson
 :class: dropdown
 ```python
 """
 This file contains the code for the python introduction of the Toolbox Workshop.
 site: https://toolbox.pep-dortmund.org/introduction/python/
 
-The included section is: Kommentare
+The included section is: Comments
 """
 
-# Lection: Die ersten Schritte
-print("Lektion 1")
-# Sublection: Hello World!
+# Lesson: The first steps
+print("Lesson 1")
+# Subsection: Hello World!
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 ```
-````
+:::

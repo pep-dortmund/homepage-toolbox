@@ -1,38 +1,38 @@
-# Einen neuen Ordner für einen Versuch anlegen
+## Creating a new folder for an experiment
 
-In diesem Terminal bist du in dem Ordner, in dem die Datei liegt, auf die du geklickt hast.
-Mit dem Terminal-Befehl `pwd` kannst du dir den aktuellen Pfad anzeigen lassen,
-erhältst du als letzten Ordner in der Ausgabe den Namen deines Repositories,
-bist du im Hauptordner.
-Mit `ls` kannst du dir alle Dateien und Ordner ausgeben lassen,
-die im aktuellen Ordner liegen, das sollten alle aus der linken Seitenleiste sein.
-Alle, bis auf `.gitignore`, mit `ls -a` siehst du auch die `.gitignore` und
-den Ordner `.git`. Dateien und Ordner mit einem Punkt am Anfang des Namens
-werden versteckte Dateien genannt und verstecken sich vor dem einfachen `ls`-Befehl.
+In this terminal, you are located in the folder containing the file you clicked on.
+You can use the `pwd` terminal command to display the current path.
+If the last folder in the output is the name of your repository,
+then you are in the main folder.
+You can use `ls` to list all the files and folders located in the current folder.
+This should include everything shown in the left sidebar except `.gitignore`. 
+Using `ls -a` allows you to see `.gitignore` as well as the `.git` folder. 
+Files and folders with a dot at the beginning of their name
+are known as hidden files and are not shown by the standard `ls` command.
 
-Wir wollen nun eine Auswertung und das Protokoll für den nächsten Versuch anfangen.
-Dazu kopieren `cp` wir den `vXXX`-Ordner in einen neuen Ordner.
-Um die Übersicht zu behalten, nennen wir die Ordner im Schema `v` + Versuchsnummer.
-Du kannst gerne auch noch den Namen des Versuchs dahinter setzen,
-hier wäre das zum Beispiel dann `v101_Das_Traegheitsmoment`.
-Achte darauf, im Namen keine Leerzeichen oder Umlaute zu verwenden.
-Im Folgenden zeigen wir dir alle Befehle für `v101`,
-du kannst es für jeden anderen Versuch analog durchführen,
-ersetze dafür `101` mit der anderen Versuchsnummer.
-Das Kopieren ist im Screenshot die Zeile `cp -r vXXX v101`.
-Wichtig ist hier auch, dass `-r`, da wir einen Ordner kopieren,
-müssen wir es hinter den `cp` Befehl schreiben.
-Im Anschluss sehen wir auch unseren neuen Ordner `v101` in der Ausgabe von `ls`.
+We will now begin the data analysis and log preparation for the next experiment.
+To do this, we copy the `vXXX` folder into a new folder using the `cp` command.
+To keep things organized, we name the folders using the format `v` + experiment number.
+You can also append the name of the experiment.
+Here, this would be `v101_Das_Traegheitsmoment`.
+Make sure not to use spaces or non-English accent markers in the name.
+Below, we'll show you all the commands for `v101`.
+You can follow the same steps for any other experiment
+by simply replacing `101` with the relevant experiment number.
+The copying step is shown in the screenshot as the line `cp -r vXXX v101`.
+The `-r` flag is important here; since we are copying a folder,
+we must include it after the `cp` command.
+Afterwards, we can see our new `v101` folder in the output of the `ls` command.
 
 ```{image} /img/toolbox/VSCode_1.png
 :alt:
 :align: center
 ```
 
-Nun wechseln wir mit `cd v101`,
-oder `cd` deinem Ordnernamen, in den neu erstellten Ordner.
-Dort benennen wir die `vXXX.tex` in `v101.tex` um;
-```
+Now, switch to the newly created folder using `cd v101`
+(or `cd` followed by your folder name).
+There, rename `vXXX.tex` to `v101.tex`.
+```shell
 cd v101
 mv vXXX.tex v101.tex
 ```
@@ -42,28 +42,26 @@ mv vXXX.tex v101.tex
 :align: center
 ```
 
-Als Nächstes ändern wir im _Makefile_ des neu erstellten Ordners
-den Namen der `.tex` Datei.
-Dazu gibt es in der ersten Zeile die Variable `TEXFILE`,
-ersetze hier `vXXX` durch `v101` oder den Namen, den du im `mv`-Befehl vergeben hast.
+Next, we change the name of the `.tex` file in the _makefile_ of the newly created folder. 
+To do this, locate the `TEXFILE` variable in the first line 
+and replace `vXXX` with `v101`—or the name you used in the `mv` command.
 
+## Working on the code
 
-## Arbeiten am Code
-
-Nun kannst du am Code arbeiten,
-zum Beispiel einen Ordner für die aufgenommenen Daten
-und dort Dateien für die Messreihen erstellen.
-```
+Now you can work on the code. For example, you can do this 
+by creating a folder for the recorded data
+and files within it for the measurement series.
+```shell
 mkdir data
 touch data/{quader,puppe,feder}.txt
 ```
 
-Auf das Schreiben des Codes gehen wir hier nicht näher ein,
-du kannst aber jederzeit die Materialien als Nachschlagewerk verwenden.
-Wenn du zwischen dem Schreiben am Code, ihn auch mal ausführen willst,
-kannst du mit `Strg` + `ö` (deutsche Tastatur)/`Strg` + \` (englische Tastatur)
-das Terminal wieder aufrufen und dann mit der Pfeiltaste nach oben
-die letzten Befehle durchgehen und mit `Enter` ausführen.
+We won't go into the details of writing the code here,
+but the provided materials can be used as a reference at any time.
+If you want to run the code while you are working on it,
+you can bring up the terminal again using `Ctrl` + `\` (US keyboard),
+then use the up arrow key to scroll through recent commands 
+and execute them by pressing `Enter`.
 
-**Bevor du mit `python` arbeitest, solltest du die toolbox environment aktivieren;
+**Before working with `python`, you should activate the toolbox environment:
 `mamba activate toolbox`.**

@@ -1,13 +1,13 @@
-# `git pull`: Änderungen herunterladen
+## `git pull`: Downloading changes
 
-Bevor du anfängst, an den Dateien zu arbeiten,
-solltest du erst einmal schauen,
-ob jemand anderes Änderungen hochgeladen hat.
-Schreibe dazu
-```
+Before you start working on the files,
+you should first check
+if someone else has already uploaded changes.
+To do this, type
+```shell
 git pull
 ```
-in dein Terminal und führe es mit `Enter` aus.
-Alle Änderungen, die auf GitHub hochgeladen wurden,
-nachdem du das letzte Mal `git pull` ausgeführt hast,
-werden so heruntergeladen und du kannst mit dem aktuellen Stand arbeiten.
+into your terminal and press `Enter`.
+Any changes uploaded to GitHub
+since the last time you ran `git pull`
+will be downloaded, allowing you to work on the latest version.

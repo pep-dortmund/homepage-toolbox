@@ -3,14 +3,14 @@ This file contains the code for the python introduction of the Toolbox Workshop.
 site: https://toolbox.pep-dortmund.org/introduction/python/
 """
 
-# Lection: Die ersten Schritte
-print("Lektion 1")
+# Lesson: First steps
+print("Lesson 1")
 
 print("Hello World!")  # prints the words Hello World! as an output
 # print("Hello World!") <-- this line will be ignored
 
-# Lection: Verschiedene Variablentypen
-print("\nLektion 2")
+# Lesson: Different variable types
+print("\nLesson 2")
 
 x = 5
 print(x)
@@ -18,12 +18,12 @@ print(x)
 y = 3
 thisisavariable = 4
 hereIsAnother = 9.81
-this_is_a_multiplicator = 2.1e12
+this_is_a_multiplier = 2.1e12
 
 print(f"{x = }")
 print(f"{hereIsAnother = }")
 
-print("\nRechenmethoden")
+print("\nArithmetic methods")
 # Addition
 print(f"{4 + 2 = }")
 print(f"{8 + 4 + 5 = }")
@@ -46,7 +46,7 @@ print(f"{4 % 2 = }")  # = 0
 print(f"{4 % 3 = }")  # = 1
 print(f"{4 % 4 = }")  # = 0
 print(f"{4 % 5 = }")  # = 4
-# Euclidian division / Division mit Rest
+# Euclidean division / floor division
 print(f"{3 // 1 = }")  # = 3
 print(f"{3 // 2 = }")  # = 1
 print(f"{3 // 4 = }")  # = 0
@@ -75,7 +75,7 @@ print(f"{elements[0:2] = }")
 print(f"{elements[-3:-1] = }")
 print(f"{elements[2:] = }")
 
-elements[1] = "titan"
+elements[1] = "titanium"
 print(f"{elements = }")
 
 elements.append("silver")
@@ -85,10 +85,10 @@ print(f"{elements+elements[:2] = }")
 print(f"{elements * 2 = }")
 print(f"{elements = }")
 
-# Lection: Control structures
-print("\nLektion 3")
+# Lesson: Control structures
+print("\nLesson 3")
 
-print("Vergleiche")
+print("Comparisons")
 print(f"{1 < 2 = }")
 print(f"{1 == 2 = }")
 print(f"{1 > 2 = }")
@@ -112,14 +112,14 @@ else:
     print(f"Error: {nr_to_compare = }, {compare_to = }")
 
 print("\nLoops")
-print("while-loop start")
+print("while loop start")
 i = 0
 while i < 2:
     print(f"{i = }")
     i += 1  # i = i + 1
-print("while-loop done")
+print("while loop done")
 
-elements = ["gold", "titan", "copper", "silver"]
+elements = ["gold", "titanium", "copper", "silver"]
 for element in elements:
     print(element)
 
@@ -141,27 +141,27 @@ print("range 2")
 for i in range(5, 0, -1):
     print(i)
 
-# Lection: Dictionaries and own functions
-print("\nLektion 4")
+# Lesson: Dictionaries and functions
+print("\nLesson 4")
 print("Dictionaries")
 
 empty_dict = dict()  # generates an empty dict
 lectures = {
     "Semester 01": [
-        "Physik I",
-        "Einführung in die Programmierung",
-        "Höhere Mathematik I",
+        "Physics I",
+        "Introduction to Programming",
+        "Advanced Mathematics I",
     ]
 }
-# lectures = {"Semester 01": ["Physik I", "Einführung in die Programmierung", "Höhere Mathematik I"]}
-lectures["Semester 02"] = ["Physik II", "Höhere Mathematik II"]
+# lectures = {"Semester 01": ["Physics I", "Introduction to Programming", "Advanced Mathematics I"]}
+lectures["Semester 02"] = ["Physics II", "Advanced Mathematics II"]
 print(f"{lectures = }")
 print(f"{lectures.keys() = }")
 print(f"{lectures.items() = }")
 print(f"{lectures["Semester 02"] = }")
 
 for key in lectures.keys():
-    print(f"Im {key} hörte ich die Vorlesungen")
+    print(f"In {key}, I attended the lectures")
     for lecture in lectures[key]:
         print(f"- {lecture}")
 
@@ -169,7 +169,7 @@ print("\nFunctions")
 
 
 def function_name(argument_0, argument_1, argument_2):
-    # Code to be excecuted
+    # Code to be executed
     # for example
     result = argument_1 * (argument_2 - argument_0)
     return result

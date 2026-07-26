@@ -1,13 +1,13 @@
-# Einführung in Python und in das Toolbox Paket
+# Introduction to Python and the Toolbox suite
 
-Auf diesen Seiten findest du eine Einführung in `python` und das Paket an Programmen,
-das wir im Workshop vorstellen.
+On these pages is an introduction to `python` and the suite of programs
+that we will present in the workshop.
 
-Du bist der Installationsanleitung gefolgt und hast noch keine Programmiererfahrung,
-noch nie mit `python` gearbeitet oder möchtest dein Wissen auffrischen?
-Dann findest du [hier](/introduction/python/) eine interaktive Anleitung zu den ersten Schritten in `python`.
+Have you followed the installation instructions, and do you have no prior programming experience,
+have never worked with `python` or want to refresh your memory?
+Click [here](/introduction/python/) for an interactive guide to getting started with `python`.
 
-Du fragst dich, was die ganzen Programme sollen?
-Wie wir uns das Arbeiten mit diesen vorstellen?
-Auf [dieser Seite](/introduction/toolbox/) haben wir anhand des Protokoll-Templates
-einen beispielhaften Workflow aufgezeichnet.
+Curious what these programs are for?
+Or how we envision working with them?
+On [this page](/introduction/toolbox/) is an example workflow
+using the protocol template.

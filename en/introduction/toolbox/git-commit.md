@@ -1,36 +1,35 @@
-# `git`: Die eigenen Änderungen hochladen
+## `git`: Uploading your changes
 
-Wenn du an einem Punkt bist, den du auf GitHub hochladen möchtest,
-wechselst du auf dein Terminal und tippst als Erstes
-```
+When you reach a point where you want to upload your work to GitHub,
+switch to your terminal and first type
+```shell
 git status
 ```
-Damit erhältst du eine Liste aller Dateien, die du verändert hast.
-Mit
-```
+This gives you a list of all the files you have modified.
+Using
+```shell
 git add <file>
 ```
-kannst du die Dateien in den Staging-Bereich schieben.
-Hast du alle Dateien, die du in einem commit haben möchtest, hinzugefügt,
-packst du den commit mit
-```
+you move the files into the staging area.
+Once you have added all the files you want to include in a commit,
+create the commit using
+```shell
 git commit
 ```
-und schreibst deine commit-Nachricht im sich öffnenden Texteditor.
-Alternativ kannst du mit
+and write your commit message in the text editor that opens.
+Alternatively, you can do everything in the terminal using
+```shell
+git commit -m "<commit message>"
 ```
-git commit -m "<commit Nachricht>"
-```
-alles im Terminal schreiben.
-Bevor du deine Änderungen hochlädst,
-solltest du erst schauen,
-ob während deiner Arbeitszeit Änderungen hochgeladen wurden.
-Also führe erst
-```
+Before uploading your changes,
+you should first check
+whether any changes were uploaded while you were working.
+So, first run
+```shell
 git pull
 ```
-aus und dann,
-nachdem du auch eventuell auftretende merge-Konflikte gelöst hast,
-```
+then, after resolving any merge conflicts
+that might arise, run
+```shell
 git push
 ```
