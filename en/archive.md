@@ -9,7 +9,7 @@ site:
 ## Wintersemester 2026/27
 [//]: <> (Referring to current version.)
 
-<p class="lead">Hier befinden sich die Materialien der aktuellen Veranstaltung.</p>
+Hier befinden sich die Materialien der aktuellen Veranstaltung.
 
 <!-- ### Toolbox -->
 <!---->
@@ -54,7 +54,15 @@ site:
 <!-- [ex4-latex-current]: /files/archive/current/exercises-latex-4.zip -->
 <!---->
 <!---->
-<!-- {button}`LaTeX Vorlage für Protokolle <https://github.com/pep-dortmund/toolbox-workshop-protocol-template>` -->
+<!-- ::::{grid} 1 1 1 1 -->
+<!-- :::{card} -->
+<!-- :header: {icon}`line-md:external-link` $\LaTeX$-Vorlage für Protokolle -->
+<!-- :link: https://github.com/pep-dortmund/toolbox-workshop-protocol-template -->
+<!---->
+<!-- Schau dir unsere $\LaTeX$-Vorlage für Praktikumsprotokolle -->
+<!-- auf {icon}`mdi:github` GitHub an. -->
+<!-- ::: -->
+<!-- :::: -->
 <!---->
 <!---->
 <!-- ::::{grid} 1 1 2 2 -->
@@ -120,7 +128,15 @@ site:
 [ex3-latex-latest]: /files/archive/latest/exercises-latex-3.zip
 [ex4-latex-latest]: /files/archive/latest/exercises-latex-4.zip
 
-{button}`LaTeX Vorlage für Protokolle <https://github.com/pep-dortmund/toolbox-workshop-protocol-template>`
+::::{grid} 1 1 1 1
+:::{card}
+:header: {icon}`line-md:external-link` $\LaTeX$-Vorlage für Protokolle
+:link: https://github.com/pep-dortmund/toolbox-workshop-protocol-template
+
+Schau dir unsere $\LaTeX$-Vorlage für Praktikumsprotokolle
+auf {icon}`mdi:github` GitHub an.
+:::
+::::
 
 ::::{grid} 1 1 2 2
 :::{card}

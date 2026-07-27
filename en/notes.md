@@ -52,9 +52,17 @@ Kurses veröffentlicht.
 <!-- [ex3-latex-current]: /files/archive/current/exercises-latex-3.zip -->
 <!-- [ex4-latex-current]: /files/archive/current/exercises-latex-4.zip -->
 <!---->
-<!-- {button}`LaTeX Vorlage für Protokolle <https://github.com/pep-dortmund/toolbox-workshop-protocol-template>` -->
+<!-- ::::{grid} 1 1 1 1 -->
+<!-- :::{card} -->
+<!-- :header: {icon}`line-md:external-link` $\LaTeX$-Vorlage für Protokolle -->
+<!-- :link: https://github.com/pep-dortmund/toolbox-workshop-protocol-template -->
+<!---->
+<!-- Schau dir unsere $\LaTeX$-Vorlage für Praktikumsprotokolle -->
+<!-- auf {icon}`mdi:github` GitHub an. -->
+<!-- ::: -->
+<!-- :::: -->
 <!---->
 
-## Vergangene Kurse
-
+:::{hint} Vergangene Kurse
 Das Material früherer Jahre ist im [Archiv](/archive/) verfügbar.
+:::
