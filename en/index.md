@@ -49,27 +49,27 @@ bis auf [VSCode](/install/windows-11#win11-vscode) (kostenlos, aber proprietär)
 
 ### 1. Teil: Versuche auswerten
 
-* **Python** ist eine der beliebtesten Programmiersprachen in der Wissenschaft,
+* {icon}`material-icon-theme:python` **Python** ist eine der beliebtesten Programmiersprachen in der Wissenschaft,
   ist einfach zu lernen und bietet zahlreiche Bibliotheken für die Datenauswertung
   und zur Darstellung dieser Daten.
   Die Benutzung einer Programmiersprache zur Versuchsauswertung bietet große Vorteile
   gegenüber Alternativen wie Tabellenkalkulationssoftware.
   Wie die Wiederholbarkeit von Auswertungsschritten und der einfachere Austausch mit anderen.
 
-* **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen
+* {icon}`material-symbols-light:terminal` **Unix/Kommandozeile**: Der Umgang mit der Kommandozeile und mit Unix-artigen
   Betriebssystemen ist eine wichtige Voraussetzung für wissenschaftliches Arbeiten.
   Zum einen, um die Reproduzierbarkeit deiner Ergebnisse noch einfacher zu gestalten,
   zum anderen zur Benutzung von Servern, die du später für die Analyse großer Datensätze
   oder langer numerischer Simulationen nutzen kannst.
   Wir bringen euch die Grundlagen bei.
 
-* **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte
+* {icon}`material-icon-theme:git` **Git:** Reproduzierbarkeit und kollaboratives Arbeiten sind zwei Hauptaspekte
   des guten wissenschaftlichen Arbeitens.
   Git ist das Standardwerkzeug für Versionskontrolle,
   welche es ermöglicht jederzeit zu älteren Versionen zurückzukehren,
   Änderungen nachzuvollziehen und gemeinsam an Projekten zu arbeiten.
 
-* **Make**: Ein Standard-Tool zur automatisierten Ausführung von komplexeren Aufgaben.
+* {icon}`material-icon-theme:makefile` **Make**: Ein Standard-Tool zur automatisierten Ausführung von komplexeren Aufgaben.
   Es kommt häufig vor, dass mehrere Auswertungsschritte in einer bestimmten Reihenfolge
   ausgeführt werden müssen und spätere Schritte von den Ergebnissen vorheriger Schritte abhängen.
   Diese Schritte manuell auszuführen, ist fehleranfällig und nicht einfach zu dokumentieren.
