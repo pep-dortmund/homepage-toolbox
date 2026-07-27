@@ -48,11 +48,11 @@ project:
     - file: links.md
 
     # Current Notebooks
-    - pattern: files/archive/current/*.ipynb
+    - pattern: files/archive/latest/*.ipynb
       hidden: true
 
     # Previous Notebooks
-    - pattern: files/archive/latest/*.ipynb
+    - pattern: files/archive/previous/*.ipynb
       hidden: true
 
   plugins:
