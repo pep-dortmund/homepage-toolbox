@@ -41,10 +41,10 @@ project:
 
     - file: notes.md
       title: Material
+    - file: archive.md
     - file: problem.md
       title: Hilfe
     - file: about.md
-    - file: archive.md
     - file: links.md
 
     # Current Notebooks
