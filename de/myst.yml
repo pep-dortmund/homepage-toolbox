@@ -80,7 +80,7 @@ site:
 
   options:
     folders: true
-    favicon: _static/pep_neg.svg
+    favicon: _static/favicon-32x32.png
     logo: _static/pep_neg.svg
     logo_text: Toolbox Workshop
     logo_url: /de
