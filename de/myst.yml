@@ -71,7 +71,7 @@ site:
       url: /problem
     - title: Mehr
       children:
-        - title: über
+        - title: Über
           url: /about
         - title: Archiv
           url: /archive

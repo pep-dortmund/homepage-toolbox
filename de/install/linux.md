@@ -96,9 +96,11 @@ Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestä
 Damit ist die allgemeine Python-Umgebung installiert.
 
 :::{caution} Wichtig
-Für den folgenden Schritt musst du dein Terminal schließen und ein neues Terminal öffnen.
+Für den folgenden Schritt musst du dein Terminal erst schließen [`$ exit`]
+und dann ein neues Terminal öffnen.
 :::
 
+Dein Prompt sollte jetzt mit `base` beginnen.
 Im Anschluss erstellst du jetzt noch eine spezielle Python-Umgebung für den Toolbox Workshop mittels:
 ```shell
 $ mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy

@@ -51,7 +51,7 @@ so wie bei `hereIsAnother`.
 Um nicht viel zu viele Nullen tippen zu müssen, können wir die `e`-Schreibweise verwenden.
 Bei dieser geben wir erst die Zahl an und nach dem `e` die Zehnerpotenz.
 Wir haben also
-`this_is_a_multiplier`$$ = 2.1 * 10^{12}$$ definiert.
+$$\texttt{this\_is\_a\_multiplier} = 2.1 * 10^{12}$$ definiert.
 
 Wenn wir uns die Werte von mehreren Variablen ausgeben wollen, kann das unübersichtlich werden.
 Um das besser zu gestalten, nutzen wir `f-strings`, die können deutlich mehr,
