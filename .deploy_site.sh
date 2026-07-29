@@ -22,5 +22,5 @@ then
 	# upload site
 	rsync -rq --delete --exclude=".*" ~/out/ $DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_PATH
 else
-	echo "NOT ON MASTER BRANCH, WILL NOT DEPLOY SITE"
+	echo "NOT ON MAIN BRANCH, WILL NOT DEPLOY SITE"
 fi
