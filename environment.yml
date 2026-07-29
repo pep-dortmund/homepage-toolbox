@@ -1,0 +1,8 @@
+name: homepage
+channels:
+    - conda-forge
+dependencies:
+  - python=3.14
+  - jupyter-book
+  - jupyterlab
+  - jupyterlab-myst

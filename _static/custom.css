@@ -1,0 +1,35 @@
+.install-os-cards .myst-card-header .iconify-icon {
+  font-size: 3rem !important;
+  width: 3rem !important;
+  height: 3rem !important;
+  line-height: 1 !important;
+  display: inline-block !important;
+}
+
+.install-os-cards .myst-card-header {
+  text-align: center;
+}
+
+.install-os-cards .myst-card-header p {
+  margin: 0;
+}
+
+.center-card-body .myst-card-body {
+  text-align: center;
+}
+
+.center-card-body .myst-card-body p {
+  text-align: center;
+}
+
+.myst-navbar-end .link .iconify-icon {
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  transform: translateY(3px);
+}

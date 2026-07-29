@@ -1,0 +1,92 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: PeP et al. Toolbox Workshop
+  license:
+    code: MIT
+    content: CC-BY-4.0
+  toc:
+    - file: index.md
+
+    - title: Installation
+      children:
+        - file: install/index.md
+        - file: install/linux.md
+        - file: install/macos.md
+        - file: install/windows-11.md
+        - file: install/windows-10.md
+        - file: install/dualboot.md
+        - file: install/latex_mini.md
+
+    - title: Einstieg
+      children:
+        - file: introduction/index.md
+        - title: Python
+          children:
+            - file: introduction/python.md
+            - file: introduction/python/first_steps.md
+            - file: introduction/python/variables.md
+            - file: introduction/python/control_structures.md
+            - file: introduction/python/dicts_and_funcs.md
+        - title: Toolbox
+          children:
+            - file: introduction/toolbox.md
+            - file: introduction/toolbox/git-template.md
+            - file: introduction/toolbox/git-clone-repository.md
+            - file: introduction/toolbox/vsc-open.md
+            - file: introduction/toolbox/git-pull.md
+            - file: introduction/toolbox/new-labreport.md
+            - file: introduction/toolbox/makefile.md
+            - file: introduction/toolbox/git-commit.md
+
+    - file: notes.md
+      title: Material
+    - file: archive.md
+    - file: problem.md
+      title: Hilfe
+    - file: about.md
+    - file: links.md
+
+    # Current Notebooks
+    - pattern: files/archive/latest/*.ipynb
+      hidden: true
+
+    # Previous Notebooks
+    - pattern: files/archive/previous/*.ipynb
+      hidden: true
+
+  plugins:
+    - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
+    - https://github.com/choldgraf/myst-iconify/releases/latest/download/index.mjs
+
+site:
+  nav:
+    - title: Installation
+      url: /install
+    - title: Einstieg
+      url: /introduction
+    - title: Material
+      url: /notes
+    - title: Hilfe
+      url: /problem
+    - title: Mehr
+      children:
+        - title: Über
+          url: /about
+        - title: Archiv
+          url: /archive
+        - title: Linksammlung
+          url: /links
+
+  options:
+    folders: true
+    favicon: _static/favicon-32x32.png
+    logo: _static/pep_neg.svg
+    logo_text: Toolbox Workshop
+    logo_url: /de
+    style: _static/custom.css
+
+  parts:
+    banner: _parts/banner.md
+    footer: _parts/footer.md
+    navbar_end: _parts/lang_switch_en.md
