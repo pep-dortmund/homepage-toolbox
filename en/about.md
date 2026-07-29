@@ -23,9 +23,8 @@ Mehr zu PeP et al. findest du auf unserer Website:
 ## Die Organisator*innen
 Die Organisator*innen sind dieses Jahr
 
-  - Christian Beckmann
   - Anno Knierim
-  - Sebastian Lütge
+  - Christian Beckmann
 
 Du kannst uns über die folgende Mail-Adresse erreichen:<br/>
 [pep-toolbox.physik@lists.tu-dortmund.de](mailto:pep-toolbox.physik@lists.tu-dortmund.de)

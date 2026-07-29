@@ -17,17 +17,17 @@ you can always click on the `?` that appears when you scroll down the page;
 or on **Help** in the bar on top.
 There, you will find all the information we need to assist you.
 
-[Lesson 1](/introduction/first_steps) is about
+[Lesson 1](/introduction/python/first_steps) is about
 how to write and run your first `python` program.
 
-In [Lesson 2](/introduction/variables) we'll show you some variables
+In [Lesson 2](/introduction/python/variables) we'll show you some variables
 and how you can use them in `python`.
 
-In [Lesson 3](/introduction/control_structures)
+In [Lesson 3](/introduction/python/control_structures)
 we'll introduce control structures.
 These allow you to control the flow of your program
 and repeat sections of code
 
-In the final [Lesson 4](/introduction/dicts_and_funcs)
+In the final [Lesson 4](/introduction/python/dicts_and_funcs)
 we'll teach you about `python`-specific dictionaries
 and how to write your own functions.

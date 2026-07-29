@@ -47,7 +47,7 @@ separator, as with `hereIsAnother`.
 To avoid having to type a large number of zeros, we can use `e` notation.
 With this method, we specify the number first, followed by the power of ten after the `e`.
 Thus, we have defined
-`this_is_a_multiplier`$$ = 2.1 * 10^{12}$$ in this way.
+$$\texttt{this\_is\_a\_multiplier} = 2.1 * 10^{12}$$ in this way.
 
 Displaying the values of multiple variables can become cluttered.
 To better show them, we use `f-strings`, which are capable of much more
