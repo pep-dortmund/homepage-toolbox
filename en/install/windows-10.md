@@ -586,7 +586,7 @@ for both the workshop and the practical course.
 To do this, use the following command:
 
 ```shell
-mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 The installation begins with the following output:
@@ -638,7 +638,7 @@ After the installation, you must inform the system where LaTeX has been installe
 This can be done in the file `~/.bashrc`.
 To do this, execute the following command in the terminal:
 ```shell
-echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 This writes the information in `~/.bashrc`.
 

@@ -586,7 +586,7 @@ wir eine separate Python Installation mit genau den Paketen, die du für den Wor
 Nutze dazu den folgenden Befehl:
 
 ```shell
-mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Die Installation beginnt mit der folgenden Ausgabe

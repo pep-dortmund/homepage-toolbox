@@ -35,7 +35,7 @@ To do this, add the following line to the `~/.bashrc` or `~/.zshrc` file.
 To see which shell is being used, you can enter `echo $SHELL` in a terminal.
 If the output contains _bash_, you can add the path to TeXlive to your `PATH` with:
 ```
-echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 ```
 source ~/.bashrc
