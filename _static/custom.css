@@ -33,3 +33,23 @@
   vertical-align: middle;
   transform: translateY(3px);
 }
+
+.registration-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.registration-card .myst-card-header {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8);
+  border-bottom-color: #1e40af;
+  color: #ffffff;
+}
+
+.registration-card:hover {
+  border-color: #2563eb;
+  box-shadow: 0 10px 25px rgba(37, 99, 235, 0.18);
+  transform: translateY(-2px);
+}
+
+.registration-card:hover .myst-card-header {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+}

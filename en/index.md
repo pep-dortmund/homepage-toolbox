@@ -27,13 +27,18 @@ So haben wir einen Eindruck davon, welche Vorkenntnisse und Interessen bestehen
 und können den Workshop optimal an alle Teilnehmenden anpassen.
 
 
+::::{grid} 1 1 1 1
+:class: registration-card
+:::{card}
+:header: {icon}`line-md:external-link` Zur Anmeldung (Umfrage)
+:link: https://registration.pep-dortmund.org/events/toolbox26/registration/
+
+Melde dich zum Toolbox Workshop an und nimm an der Umfrage teil.
 <!--
 Zur Zeit ist die Umfrage noch nicht freigeschaltet.
 -->
-
-<div class="text-center mb-3">
-<a target="_blank" role="button" class="btn btn-primary" href="https://registration.pep-dortmund.org/events/toolbox26/registration/">Zur Anmeldung (Umfrage)</a>
-</div>
+:::
+::::
 
 ## Themen
 
@@ -87,7 +92,7 @@ bis auf [VSCode](/install/windows-11#win11-vscode) (kostenlos, aber proprietär)
 
 Bitte beachte die folgenden Schritte zur Vorbereitung:
 
-- Die Software vorher auf deinem Laptop [installieren](/install/install/)!
+- Die Software vorher auf deinem Laptop [installieren](/install/)!
   - Bei Problemen können wir gerne per [Mail](/problem/) helfen.
   - Am Donnerstag vor der ersten Woche bieten wir ein begleitetes Installieren eines [Dual-Boot-Systems](/install/dualboot/) an.
   - Ein neuer Laptop soll angeschafft werden? Überlege über ein [US-Tastaturlayout](https://endler.dev/2018/keyboard/).
