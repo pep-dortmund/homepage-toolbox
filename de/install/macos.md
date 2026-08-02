@@ -84,7 +84,7 @@ den Punkt „**Terminal**“ und dann „**Terminal beenden**“.
 Im Anschluss erstellst du jetzt noch einen spezielle Python-Umgebung für den Toolbox Workshop mittels:
 
 ```shell
-mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Diese startest du mit

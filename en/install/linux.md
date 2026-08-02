@@ -104,7 +104,7 @@ For the next step, you must close the current terminal window and open a new one
 
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
 ```shell
-$ mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+$ mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Activate this environment with:
@@ -153,7 +153,7 @@ This is done within the `~/.bashrc` file.
 To do this, execute the following command in the terminal:
 
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2025/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
 
 Close the terminal and open a new one to proceed with the remaining steps.

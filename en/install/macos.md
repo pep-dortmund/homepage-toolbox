@@ -85,7 +85,7 @@ With this, the base Python environment is installed.
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
 
 ```shell
-mamba create -y -n toolbox python=3.13 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
 Activate this environment with:
