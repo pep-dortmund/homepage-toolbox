@@ -780,6 +780,12 @@ it should now look like the terminal you have (by now) become accustomed to:
 :align: center
 ```
 
+You can redirect git to use VSCodium as an editor.
+For this, execute the following command in the newly set up terminal
+```shell
+git config --global core.editor "codium --wait"
+```
+
 ### PDF Viewer
 
 #### Sumatra PDF
