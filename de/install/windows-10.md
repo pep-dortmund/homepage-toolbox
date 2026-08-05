@@ -791,6 +791,11 @@ so sollte dieses nun wie das (mittlerweile) gewohnte Terminal aussehen:
 :align: center
 ```
 
+Um git beizubringen, VSCodium als Editor zu benutzen kannst du in diesem Terminal den Befehl
+```shell
+git config --global core.editor "codium --wait"
+```
+eingeben.
 
 ### PDF-Betrachter
 
