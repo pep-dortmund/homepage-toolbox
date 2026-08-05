@@ -187,7 +187,7 @@ the first non-indented line following the `while` keyword.
 Another type of loop is the `for` loop.
 It executes the indented lines for all elements of an object.
 Since that can be hard to visualize, let's look at some examples right away.
-In the lesson on [lists](/introduction/variables/#lists), 
+In the lesson on [lists](/introduction/python/variables/#lists), 
 we created a list containing various elements. Let's define it again
 in case you no longer have it in your file.
 ```python
@@ -251,7 +251,7 @@ In this case, the start value must be greater than the end value.
 Otherwise, the loop is effectively skipped,
 as there are no valid numbers.
 
-Let's continue with [Lesson 4 - Dictionaries and Functions](/introduction/dicts_and_funcs).
+Let's continue with [Lesson 4 - Dictionaries and Functions](/introduction/python/dicts_and_funcs).
 
 # Complete code
 At the end of each lesson, you will find the complete code for that lesson.

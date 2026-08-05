@@ -76,7 +76,7 @@ Can you modify the code so that the lectures match the ones you attended?
 
 # Writing your own functions
 Finally, we'll show you how to write your own functions.
-We’ve already shown you using [loops](/introduction/control_structures_en/#Loops)
+We’ve already shown you using [loops](/introduction/python/control-structures/#loops)
 how to repeat lines of code in a specific place.
 Functions allow you to reuse parts of your code
 in different places over and over again,
@@ -134,7 +134,7 @@ As you can see, the output is also in `e` notation,
 just like the format used for some of the values ​​we specified.
 
 That concludes the lessons in this introduction to `python`.
-We'll continue with the [Toolbox Workshop](/main/plan).
+We'll continue with the [Toolbox Workshop](/ablaufplan).
 
 # Complete code
 At the end of each lesson, you will find the complete code for that lesson.

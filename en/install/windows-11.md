@@ -388,7 +388,7 @@ if the folder already exists, the command does nothing.
 To install the programs necessary for convenient use of the Python programming language,
 we will use the tool `mamba`.
 
-You can download the installation file _Miniforge3-Linux-x86-64.sh_ 
+You can download the installation file `Miniforge3-Linux-x86-64.sh`
 by entering the following commands into the Windows Terminal:
 
 ```shell
@@ -408,7 +408,7 @@ By running
 ls
 ```
 you can list all the files located in the current path.
-The file _Miniforge3-Linux-x86-64.sh_ should be listed there.
+The file `Miniforge3-Linux-x86-64.sh` should be listed there.
 
 ```{image} /img/mamba/mamba-download.png
 :alt:
