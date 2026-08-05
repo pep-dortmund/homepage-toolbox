@@ -194,7 +194,7 @@ die erste nicht eingerückte Zeile nach dem `while`-_keyword_.
 Eine weitere Schleifenart ist die `für`-Schleife.
 Diese führt die eingerückten Zeilen für alle Elemente eines Objekts durch.
 Da das schwer zum Vorstellen ist, schauen wir uns direkt Beispiele an.
-In der Lektion über [Listen](/introduction/variables/#lists) haben wir eine Liste
+In der Lektion über [Listen](/introduction/python/variables/#lists) haben wir eine Liste
 mit verschiedenen Elementen erstellt. Definieren wir sie noch einmal,
 falls du sie nicht mehr in deiner Datei hast.
 ```python
