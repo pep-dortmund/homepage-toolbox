@@ -56,8 +56,8 @@ project:
       hidden: true
 
   plugins:
-    - https://github.com/jupyter-book/myst-plugins/releases/download/footer-latest/index.mjs
-    - https://github.com/choldgraf/myst-iconify/releases/latest/download/index.mjs
+    - https://github.com/jupyter-book/myst-plugins/releases/download/footer%402026-03-24/index.mjs
+    - https://github.com/myst-contrib/myst-iconify/releases/download/v0.3.0/index.mjs
 
 site:
   nav:
