@@ -104,7 +104,7 @@ ist, weil `prnit` getippt wurde.
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
 Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles Mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[String](/introduction/variables/#strings) "Hello World!"
+in diesem Fall ist es der Text/[String](/introduction/python/variables/#strings) "Hello World!"
 Weitere Argumente können durch `,` getrennt, ausgegeben werden,
 z.B. `print("Hello World!", "Hello World!")`.
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,

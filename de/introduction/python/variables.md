@@ -18,7 +18,7 @@ letzte Zeile klicken.
 Mit der Pfeiltaste nach oben kannst du den letzten geschriebenen Befehl aufrufen
 und mit `Enter` erneut ausführen.
 Wenn dein Terminal geschlossen ist, findest du
-[hier](/introduction/first_steps/#terminal)
+[hier](/introduction/python/first_steps/#terminal-ffnen-und-python-ausf-hren)
 die Schritte zum Öffnen.
 Du solltest jetzt folgende Ausgabe sehen:
 ```
@@ -65,7 +65,7 @@ print(f"{hereIsAnother = }")
 Wie der Name vorsagt, benötigen wir für `f-strings` ein `f` und einen String.
 Das `f` siehst du in den beiden `print`-Funktionen nach der Klammer auf.
 Strings sind eine Ansammlung von Zeichen, und wir schauen sie uns im Abschnitt
-[Strings](/introduction/variables/#strings) direkt im Anschluss an.
+[Strings](/introduction/python/variables/#strings) direkt im Anschluss an.
 Jetzt benötigen wir nur die Information, dass Strings in `python` mit einem `"`
 beginnen und aufhören.
 In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der

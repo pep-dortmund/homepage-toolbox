@@ -100,7 +100,7 @@ Bitte beachte die folgenden Schritte zur Vorbereitung:
   Wenn du einen Laptop von uns ausleihen möchtest, schreibe uns bitte eine E-Mail.
 
 
-## Ablaufplan 2026
+## Ablaufplan
 
 <!-- Es steht noch kein Hörsaal fest. (**t**o **b**e **d**etermined) -->
 An allen Tagen sind wir im Gebäude Bio- und Chemieingenieurwesen

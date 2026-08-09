@@ -103,7 +103,7 @@ highlighted, because `prnit` was typed instead.
 `print` is a `python` function used to output various things.
 We will use it frequently in these lessons to display all sorts of output.
 Anything placed within `()` is called an argument;
-in this case, it is the text/[string](/introduction/variables_en/#Strings) "Hello World!"
+in this case, it is the text/[string](/introduction/python/variables/#strings) "Hello World!"
 Additional arguments can be output by separating them with a comma (`,`);
 for example, `print("Hello World!", "Hello World!")`.
 You can think of a `python` function as behaving like a mathematical function,
@@ -219,7 +219,7 @@ All comments are ignored during execution,
 just like the blank lines.
 So, you can use both to structure your code.
 
-Let's move on to [Lesson 2 - Variables](/introduction/variables_en).
+Let's move on to [Lesson 2 - Variables](/introduction/python/variables).
 
 # Complete code
 At the end of each lesson, you will find the complete code for that lesson.
