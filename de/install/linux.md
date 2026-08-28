@@ -16,7 +16,7 @@ und TeXLive installieren.
 
 :::{caution} Wichtig
   Befehle, die ins Terminal eingegeben werden sollen, starten mit `$`.
-  Gib die Befehle Zeile für Zeile ein, ohne das `$`-Zeichen, und bestätige sie mit Enter.
+  Gib die Befehle Zeile für Zeile ein, ohne das `$`-Zeichen, und bestätige sie mit {kbd}`Enter`.
 :::
 
 Es werden die Installationsschritte für die verbreitetsten Distributionen angegeben.
@@ -62,13 +62,13 @@ und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Sour
 :sync: deb
 Lade die Datei `codium_<VERSION>_amd64.deb` von
 [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) herunter und öffne sie mit
-dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
+dem Software-Center (Doppelklick auf den Download). Klicke auf {gui}`Installieren`.
 :::
 :::{tab-item} Fedora
 :sync: fedora
 Lade die Datei `codium_<VERSION>_el7.x86_64.rpm` von
 [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) herunter und öffne sie mit
-dem Software-Center (Doppelklick auf den Download). Klicke auf `Installieren`.
+dem Software-Center (Doppelklick auf den Download). Klicke auf {gui}`Installieren`.
 :::
 :::{tab-item} Arch Linux
 :sync: arch
@@ -88,10 +88,10 @@ $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 $ bash Miniforge3-$(uname)-$(uname -m).sh -p ~/.local/conda
 ```
 
-Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
-Und dann kannst du sie mit `yes` akzeptieren.
-Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`.
-*Do you wish to update your shell profile to automatically initialize conda?* `yes`.
+Die Lizenzvereinbarung musst du je nach Größe des Terminals mit {kbd}`Enter` bis zum Ende erweitern.
+Und dann kannst du sie mit {gui}`yes` akzeptieren.
+Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit {kbd}`Enter`.
+*Do you wish to update your shell profile to automatically initialize conda?* {gui}`yes`.
 
 Damit ist die allgemeine Python-Umgebung installiert.
 
@@ -145,7 +145,7 @@ $ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | t
 $ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Die Installation startet man mit `I` und `Enter`.
+Die Installation startet man mit {kbd}`I` und {kbd}`Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
 das passiert in der Datei `~/.bashrc`. Führe dazu folgenden Befehl im Terminal aus:
@@ -254,7 +254,7 @@ This is LuaTeX, Version 1.24.0 (TeX Live 2026)
 **
 ```
 
-Mit `Strg` + `c` kannst du den Aufruf beenden.
+Mit {kbd}`Strg` + {kbd}`c` kannst du den Aufruf beenden.
 Als Nächstes testen wir ein Programm für das Literaturverzeichnis,
 ```shell
 $ biber
