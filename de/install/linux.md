@@ -91,7 +91,7 @@ $ bash Miniforge3-$(uname)-$(uname -m).sh -p ~/.local/conda
 Die Lizenzvereinbarung musst du je nach Größe des Terminals mit {kbd}`Enter` bis zum Ende erweitern.
 Und dann kannst du sie mit {gui}`yes` akzeptieren.
 Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit {kbd}`Enter`.
-*Do you wish to update your shell profile to automatically initialize conda?* {gui}`yes`.
+*Do you wish to update your shell profile to automatically initialize conda?* {kbd}`yes`.
 
 Damit ist die allgemeine Python-Umgebung installiert.
 

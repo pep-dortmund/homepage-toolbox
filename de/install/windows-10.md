@@ -36,7 +36,7 @@ Falls du **nur** am LaTeX-Kurs teilnehmen willst, ist der Abschnitt {ref}`win10-
 ####  Windows-Info: Betriebssystembuild-Nummer
 Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell ist.
 Hierfür machst du einen {kbd}`Rechtsklick` auf das Windows-Symbol in der Taskleiste,
-gefolgt von einem {kbd}`Linksklick` auf _System_.
+gefolgt von einem {kbd}`Linksklick` auf {gui}`System`.
 
 ```{image} /img/wsl/win10-buildnumber-1.png
 :alt:
@@ -338,7 +338,7 @@ auf den Pfeil nach unten öffnet sich eine Auswahl.
 :align: center
 ```
 
-In der Auswahl wählst du dann Ubuntu aus (falls {gui}`Ubuntu` mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
+In der Auswahl wählst du dann Ubuntu aus (falls {gui}`Ubuntu` mehrfach auftaucht, den Punkt mit dem Pinguin-Icon {icon}`logos:linux-tux`):
 
 ```{image} /img/windows-terminal/windows-terminal-settings-3.png
 :alt:
@@ -766,7 +766,7 @@ Klicke rechts auf den Pfeil nach unten, neben dem {gui}`+`, und wähle den Punkt
 :align: center
 ```
 
-In der folgenden Auswahl klickst du auf _Ubuntu (WSL)_.
+In der folgenden Auswahl klickst du auf {gui}`Ubuntu (WSL)`.
 
 ```{image} /img/vscodium/vscode-terminal-2.png
 :alt:

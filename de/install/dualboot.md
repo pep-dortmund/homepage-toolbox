@@ -94,14 +94,14 @@ und können in beiden System falsch sein.
 
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
-1. Öffne das Programm {gui}`regedit`; am einfachsten, indem du `regedit` tippst,
+1. Öffne das Programm {gui}`regedit`; am einfachsten, indem du {kbd}`regedit` tippst,
   während das Startmenü offen ist, und auf {gui}`Registrierungs-Editor` klickst.
 
 1. Navigiere auf der linken Seite zu
   {kbd}`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
 
 1. Erstelle per {kbd}`Rechtsklick → neu → DWORD` einen neuen Schlüssel mit dem Namen
-  {gui}`RealTimeIsUniversal` und setze den Wert auf {gui}`1`.
+  {kbd}`RealTimeIsUniversal` und setze den Wert auf {kbd}`1`.
 
 
 ## Fast-Boot deaktivieren

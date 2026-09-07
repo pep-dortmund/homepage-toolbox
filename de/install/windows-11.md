@@ -249,7 +249,7 @@ durch Klicken auf den Pfeil nach unten öffnet sich eine Auswahl.
 :align: center
 ```
 
-Wähle dann in der Auswahl aus (falls {gui}`Ubuntu` mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
+Wähle dann in der Auswahl aus (falls {gui}`Ubuntu` mehrfach auftaucht, den Punkt mit dem Pinguin-Icon {icon}`logos:linux-tux`):
 
 ```{image} /img/windows-terminal/windows-terminal-settings-3.png
 :alt:

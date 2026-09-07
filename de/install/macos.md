@@ -58,7 +58,7 @@ bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
 Die Lizenzvereinbarung musst du je nach Größe des Terminals mit {kbd}`Enter` bis zum Ende erweitern.
-Und dann kannst du sie mit {gui}`yes` akzeptieren.
+Und dann kannst du sie mit {kbd}`yes` akzeptieren.
 Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit {kbd}`Enter`. 
 Nach dem Installationsvorgang sollte eine Nachricht wie
 ```shell
@@ -72,7 +72,7 @@ conda config --set auto_activate_base false
 You can undo this by running `conda init --reverse $SHELL`? [yes|no]
 [no] >>>
 ```
-erscheinen. Diese musst du abermals mit {gui}`yes` bestätigen.
+erscheinen. Diese musst du abermals mit {kbd}`yes` bestätigen.
 
 
 Damit ist die allgemeine Python-Umgebung installiert.
@@ -119,18 +119,18 @@ Deswegen empfehlen wir dir VSCodium, eine Open-Source-Variante von VSCode.
 - Lade die neueste Version der Datei `VsCodium-darwin-<VERSION>.zip` von
   [dieser Webseite](https://github.com/VSCodium/vscodium/releases) herunter.
 - Das Programm „VSCodium.app“ findest du in der ZIP-Datei im Downloadordner
-  und musst sie nach `Programme` verschieben.
+  und musst sie nach {gui}`Programme` verschieben.
 - Als nächsten Schritt öffnest du die App.
   Bei neueren macOS-Versionen verhindert macOS eventuell den Start,
   und du musst zunächst in den Systemeinstellungen unter {gui}`Allgemein`
   und {gui}`Sicherheit` auf den {gui}`Dennoch öffnen`-Knopf klicken.
-- In VSCodium öffnest du mit {kbd}`Shift` + {kbd}`cmd` + {kbd}`p` die Kommando-Palette
+- In VSCodium öffnest du mit {icon}`carbon:mac-shift` {kbd}`Shift` + {icon}`carbon:mac-command` {kbd}`cmd` + {kbd}`p` die Kommando-Palette
   und schreibst dort
   ```
   Shell Command: Install 'codium' command in PATH
   ```
   führst es dann mit {kbd}`Enter` aus.
-  So wird VSCodium nun auch geöffnet, wenn du im Terminal `codium` eingibst.
+  So wird VSCodium nun auch geöffnet, wenn du im Terminal {kbd}`codium` eingibst.
 
 Um git beizubringen, VSCodium zu benutzen, gibst du im Terminal ein:
 

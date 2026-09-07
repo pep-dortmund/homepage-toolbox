@@ -73,8 +73,8 @@ to work with it effectively, we recommend allocating at least 30 GB (or ideally,
 To install Linux on the same hard drive as Windows,
 the first step is to shrink an existing partition on that drive.
 
-To do this, open Disk Management (`Right-click on the Start Menu → Disk Management`),
-select a partition to shrink (e.g., C:\\) and choose `Right-click → Shrink volume...`.
+To do this, open Disk Management ({kbd}`Right-click on the Start Menu → Disk Management`),
+select a partition to shrink (e.g., C:\\) and choose {kbd}`Right-click → Shrink volume...`.
 
 It will take some time while the system calculates
 how much the partition can be reduced.
@@ -89,14 +89,14 @@ and the time may be incorrect in both systems.
 
 To configure Windows to also use UTC, you must edit the Registry.
 
-1. Open the program `regedit`. The easiest way is to type `regedit`
-  while the Start Menu is open, and then click on `Registry Editor`.
+1. Open the program {gui}`regedit`. The easiest way is to type {kbd}`regedit`
+  while the Start Menu is open, and then click on {gui}`Registry Editor`.
 
 1. On the left-hand side, navigate to:
-  `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
+  {kbd}`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
 
-1. Create a new value by `Right-click → New → DWORD` called
-  `RealTimeIsUniversal` and set its value to `1`.
+1. Create a new value by {kbd}`Right-click → New → DWORD` called
+  {kbd}`RealTimeIsUniversal` and set its value to {kbd}`1`.
 
 ## Disable Fast Boot
 
@@ -105,7 +105,7 @@ the process of making the system ready for use.
 However, this is incompatible with a dual-boot setup
 where two operating systems access the same files.
 
-`Right-click on Start → Power Options → Choose what the power buttons do`
+{kbd}`Right-click on Start → Power Options → Choose what the power buttons do`
 and then untick the box for Fast Boot.
 
 (bootstick)=
@@ -124,36 +124,36 @@ and then untick the box for Fast Boot.
 Users with an Acer machine should simultaneously follow
 [these instructions](https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner).
 Specifically, perform a full shutdown, insert the USB stick,
-then power on the computer and press the `F12` key when the Acer logo appears.
-Under `Main`, set the `F12 Boot Menu` option to `enabled`.
+then power on the computer and press the {kbd}`F12` key when the Acer logo appears.
+Under {gui}`Main`, set the {gui}`F12 Boot Menu` option to {gui}`enabled`.
 Proceed through the first 10 steps listed there.
-After exiting the menu, press `F12` again when the Acer logo appears.
+After exiting the menu, press {kbd}`F12` again when the Acer logo appears.
 Use the arrow keys to select the inserted USB stick.
 Then, start the installation process here from step 4.
 At step 10 (here), follow the link again and complete the final 11 steps listed there.
 
 
-1. Hold down `Shift` while clicking `Restart`.
+1. Hold down {kbd}`Shift` while clicking {gui}`Restart`.
 
-1. Select `Use a device`
+1. Select {gui}`Use a device`
 
-1. Select the inserted USB stick, which will likely appear as `UEFI USB Device`.
+1. Select the inserted USB stick, which will likely appear as {gui}`UEFI USB Device`.
   The computer will restart and boot into the Linux installation environment.
 
 1. You should select English as your language, mainly because
   the majority of online documentation is in English.
 
 1. The keyboard layout should match your computer's configuration.
-  Depending on the language, you'll likely want to select `[Language] (eliminate dead keys)`;
-  the `eliminate dead keys` variant ensures that accent marks appear immediately
+  Depending on the language, you'll likely want to select {gui}`[Language] (eliminate dead keys)`;
+  the {gui}`eliminate dead keys` variant ensures that accent marks appear immediately
   when typed, which is particularly helpful for LaTeX.
 
-1. Enable the `Install Third Party Software` option. Additionally, if you are connected to a
+1. Enable the {gui}`Install Third Party Software` option. Additionally, if you are connected to a
   network, select the option to install updates during the installation process.
 
 1. The installer will now scan your hard drive and should detect both Windows
   and the allocated free space. If this scan is successful, select the option
-  `Install alongside Windows 10` (or 11).
+  {gui}`Install alongside Windows 10` (or 11).
 
 1. Select the correct time zone.
 

@@ -35,15 +35,15 @@ If you are **only** participating in the LaTeX course, the section {ref}`win11-m
 
 #### Enabling File Extensions
 
-File extensions (which indicate the file type, e.g., `.pdf` for PDF documents)
+File extensions (which indicate the file type, e.g., {gui}`.pdf` for PDF documents)
 are not enabled by default in Windows. They can and should be enabled.
 
 You can adjust this setting in File Explorer.
-The easiest way to open it is by using the keyboard shortcut `Windows` + `E`
-(`Windows` refers to the Windows logo key, located between
-`Ctrl` and `Alt` in the bottom-left corner of your keyboard).
+The easiest way to open it is by using the keyboard shortcut {kbd}`Windows` + {kbd}`e`
+({kbd}`Windows` refers to the Windows logo key, located between
+{kbd}`Ctrl` and {kbd}`Alt` in the bottom-left corner of your keyboard).
 
-Alternatively, you can open File Explorer by `right-clicking` the Start menu icon and then `left-clicking` on _File Explorer_.
+Alternatively, you can open File Explorer by {kbd}`right-clicking` the Start menu icon and then {kbd}`left-clicking` on {gui}`File Explorer`.
 
 ```{image} /img/explorer/explorer-start_win11.png
 :alt:
@@ -52,7 +52,7 @@ Alternatively, you can open File Explorer by `right-clicking` the Start menu ico
 ```
 
 In the top row, you will see three dots located at the far right. Click on this icon, 
-and then click on the last entry in the list: _Options_.
+and then click on the last entry in the list: {gui}`Options`.
 
 ```{image} /img/explorer/explorer-fileext-1_win11.png
 :alt:
@@ -60,9 +60,9 @@ and then click on the last entry in the list: _Options_.
 :align: center
 ```
 
-In the window that opens, you must first click on the _View_ tab,
-and then untick the box labelled _Hide extensions for known file types_.
-Finally, click `Apply`.
+In the window that opens, you must first click on the {gui}`View` tab,
+and then untick the box labelled {gui}`Hide extensions for known file types`.
+Finally, click {gui}`Apply`.
 
 ```{image} /img/explorer/explorer-fileext-2_win11.png
 :alt:
@@ -74,8 +74,8 @@ Finally, click `Apply`.
 
 #### Installing WSL
 First, you need to launch a PowerShell console as an administrator.
-The easiest way to do this is by `right-clicking` the Start menu icon,
-followed by a `left-click` on _Terminal (Admin)_.
+The easiest way to do this is by {kbd}`right-clicking` the Start menu icon,
+followed by a {kbd}`left-click` on {gui}`Terminal (Admin)`.
 
 ```{image} /img/wsl/win11-powershell-admin.png
 :alt:
@@ -83,8 +83,8 @@ followed by a `left-click` on _Terminal (Admin)_.
 :align: center
 ```
 
-In most cases, the following window will appear. Confirm this by clicking _Yes_.
-These security prompts may appear again later in the process; confirm them with _Yes_.
+In most cases, the following window will appear. Confirm this by clicking {gui}`Yes`.
+These security prompts may appear again later in the process; confirm them with {gui}`Yes`.
 There are no issues if this window does not appear.
 
 ```{image} /img/wsl/win11-admin-warning.jpg
@@ -95,9 +95,9 @@ There are no issues if this window does not appear.
 
 A window will now open, as shown below; this is the PowerShell console.
 To ensure that PowerShell has been opened with administrator privileges,
-you can check the window title; it must begin with _Administrator_:
+you can check the window title; it must begin with {gui}`Administrator`:
 
-You can close the information bar that appears at the top of the window by clicking the `X`.
+You can close the information bar that appears at the top of the window by clicking the {kbd}`X`.
 
 ```{image} /img/wsl/win11-powershell-admin-test.png
 :alt:
@@ -106,7 +106,7 @@ You can close the information bar that appears at the top of the window by click
 ```
 
 Enter the following command into PowerShell. You can also copy
-and paste this command; in PowerShell, pasting is performed with `right-clicking`.
+and paste this command; in PowerShell, pasting is performed with {kbd}`right-clicking`.
 ```powershell
 wsl --install
 ```
@@ -117,7 +117,7 @@ wsl --install
 :align: center
 ```
 
-Press the `Enter` key to confirm your input.
+Press the {kbd}`Enter` key to confirm your input.
 
 This installation may take a few minutes; during this time, several
 stylized progress bars will be displayed. Upon successful completion of this process,
@@ -150,7 +150,7 @@ match your Windows username.
 The username must contain **only** lowercase letters and **no*** spaces.
 :::
 
-Confirm your username by pressing the `Enter` key.
+Confirm your username by pressing the {kbd}`Enter` key.
 
 ```{image} /img/windows-ubuntu/wsl-ubuntu-username_win11.png
 :alt:
@@ -160,9 +160,9 @@ Confirm your username by pressing the `Enter` key.
 
 Next, you will be asked to provide a password for the Linux operating system.
 For security reasons, the password you enter will not be displayed.
-Confirm your password by pressing the `Enter` key.
+Confirm your password by pressing the {kbd}`Enter` key.
 You will then be required to enter the password a second time to ensure there are no typos.
-Confirm this entry as well by pressing the `Enter` key.
+Confirm this entry as well by pressing the {kbd}`Enter` key.
 
 ```{image} /img/windows-ubuntu/wsl-ubuntu-passwd_win11.png
 :alt:
@@ -171,7 +171,7 @@ Confirm this entry as well by pressing the `Enter` key.
 ```
 
 If the second password entry does not match the first,
-you must first confirm your attempt to try again by typing `y` (short for _yes_).
+you must first confirm your attempt to try again by typing {kbd}`y` (short for _yes_).
 
 ```{image} /img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1_win11.png
 :alt:
@@ -212,7 +212,7 @@ Before proceeding to the next section, you can close the terminal window by ente
 ```shell
 exit
 ```
-or by clicking the `X` in the top right corner.
+or by clicking the {gui}`X` in the top right corner.
 
 (win11-terminal)=
 ### Windows Terminal
@@ -220,8 +220,8 @@ or by clicking the `X` in the top right corner.
 We will continue to use Windows Terminal, though this time not as an administrator.
 Additionally, you need to adjust one setting.
 
-You can reopen Windows Terminal by `right-clicking` the Start menu icon
-and then `left-clicking` on _Terminal_.
+You can reopen Windows Terminal by {kbd}`right-clicking` the Start menu icon
+and then {kbd}`left-clicking` on {gui}`Terminal`.
 
 ```{image} /img/windows-terminal/windows-terminal-start_win11.png
 :alt:
@@ -231,7 +231,7 @@ and then `left-clicking` on _Terminal_.
 
 By default, Windows Terminal opens Windows PowerShell (identifiable by the text displayed in the tab).
 To open an Ubuntu command line, first click the downward-pointing arrow at the top of the window; this opens a drop-down menu
-from which you must select `Settings`:
+from which you must select {gui}`Settings`:
 
 ```{image} /img/windows-terminal/windows-terminal-settings-1.png
 :alt:
@@ -240,8 +240,8 @@ from which you must select `Settings`:
 ```
 
 Here, you can configure Windows Terminal to open Ubuntu by default upon startup.
-Under the _Startup_ section in the left-hand column, you will find the setting option
-_Default profile_; clicking the down arrow will open a selection menu.
+Under the {gui}`Startup` section in the left-hand column, you will find the setting option
+{gui}`Default profile`; clicking the down arrow will open a selection menu.
 
 ```{image} /img/windows-terminal/windows-terminal-settings-2.png
 :alt:
@@ -249,7 +249,7 @@ _Default profile_; clicking the down arrow will open a selection menu.
 :align: center
 ```
 
-From the selection menu, choose Ubuntu (if _Ubuntu_ appears multiple times, select the entry with the penguin icon):
+From the selection menu, choose Ubuntu (if {gui}`Ubuntu` appears multiple times, select the entry with the penguin icon {icon}`logos:linux-tux`):
 
 ```{image} /img/windows-terminal/windows-terminal-settings-3.png
 :alt:
@@ -261,7 +261,7 @@ Next, you can close the Terminal window again using
 ```shell
 exit
 ```
-or by clicking the `X` in the top right corner.
+or by clicking the {gui}`X` in the top right corner.
 
 ### Git, Make and more
 
@@ -271,7 +271,7 @@ These commands are presented within a code block like this one:
 ```shell
 Example command
 ```
-In the Terminal, **each code block must be entered individually** and confirmed by pressing `Enter`.
+In the Terminal, **each code block must be entered individually** and confirmed by pressing {kbd}`Enter`.
 :::
 
 To install the programs Git and Make, first open a Windows Terminal
@@ -308,9 +308,9 @@ This is done by entering the command:
 ```shell
 sudo apt upgrade
 ```
-and confirming this command by pressing the `Enter` key.
-Subsequently, you may be prompted to confirm a second time by typing the letter `y` and pressing the
-`Enter` key. (Here, too, the displayed list will likely be significantly longer.)
+and confirming this command by pressing the {kbd}`Enter` key.
+Subsequently, you may be prompted to confirm a second time by typing the letter {kbd}`y` and pressing the
+{kbd}`Enter` key. (Here, too, the displayed list will likely be significantly longer.)
 
 ```{image} /img/unix/unix-3.png
 :alt:
@@ -323,7 +323,7 @@ This is done by entering the command:
 ```shell
 sudo apt install git make curl
 ```
-and then confirming by pressing the `Enter` key.
+and then confirming by pressing the {kbd}`Enter` key.
 This installation process may also take some time to complete.
 
 ```{image} /img/unix/unix-4.png
@@ -344,7 +344,7 @@ The installation is successful (as shown below) if there are no error messages.
 
 A few additional settings still need to be configured for Git.
 To do this, enter the following commands into a Windows Terminal
-(as before) and confirm each one by pressing `Enter`.
+(as before) and confirm each one by pressing {kbd}`Enter`.
 
 :::{caution} Important
 Instead of `John Smith`, you should, of course, use your **own name** and your **own email address**.
@@ -388,7 +388,7 @@ if the folder already exists, the command does nothing.
 To install the programs necessary for convenient use of the Python programming language,
 we will use the tool `mamba`.
 
-You can download the installation file _Miniforge3-Linux-x86-64.sh_ 
+You can download the installation file {gui}`Miniforge3-Linux-x86-64.sh` 
 by entering the following commands into the Windows Terminal:
 
 ```shell
@@ -408,7 +408,7 @@ By running
 ls
 ```
 you can list all the files located in the current path.
-The file _Miniforge3-Linux-x86-64.sh_ should be listed there.
+The file {gui}`Miniforge3-Linux-x86-64.sh` should be listed there.
 
 ```{image} /img/mamba/mamba-download.png
 :alt:
@@ -421,10 +421,10 @@ To install, type or copy the following command into a terminal.
 ```shell
 bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 ```
-As before, this command is executed by pressing the `Enter` key.
+As before, this command is executed by pressing the {kbd}`Enter` key.
 
 Next, you will need to accept the terms of use.
-These are fully displayed by pressing the `Enter` key.
+These are fully displayed by pressing the {kbd}`Enter` key.
 
 ```{image} /img/mamba/mamba-install-1.png
 :alt:
@@ -441,10 +441,10 @@ This is true if you see _`--More--`_ on the last line.
 :align: center
 ```
 
-Press the `Enter` key repeatedly to scroll to the end (see the next screenshot)
+Press the {kbd}`Enter` key repeatedly to scroll to the end (see the next screenshot)
 of the terms of use.
-At the end of the terms of use, you must accept them by typing `yes`
-and then pressing `Enter`.
+At the end of the terms of use, you must accept them by typing {kbd}`yes`
+and then pressing {kbd}`Enter`.
 
 ```{image} /img/mamba/mamba-install-3.png
 :alt:
@@ -452,7 +452,7 @@ and then pressing `Enter`.
 :align: center
 ```
 
-You then start the installation by pressing `Enter` again. 
+You then start the installation by pressing {kbd}`Enter` again. 
 This step may also take a few minutes.
 
 ```{image} /img/mamba/mamba-install-4.png
@@ -462,7 +462,7 @@ This step may also take a few minutes.
 ```
 
 The installation concludes with the following lines:
-Here, you must once again enter `yes` and confirm by pressing `Enter`.
+Here, you must once again enter {kbd}`yes` and confirm by pressing {kbd}`Enter`.
 
 ```{image} /img/mamba/mamba-install-5.png
 :alt:
@@ -482,7 +482,7 @@ When the last line displayed is the command prompt again, the installation is co
 Mamba can only be used after closing the terminal window and opening a new one.
 :::
 
-In the new terminal window, _(base)_ should now appear at the beginning of the command prompt.
+In the new terminal window, `(base)` should now appear at the beginning of the command prompt.
 
 ```{image} /img/mamba/mamba-install-7.png
 :alt:
@@ -519,7 +519,7 @@ prompt is displayed again.
 :align: center
 ```
 
-After a successful installation, you can delete the installation file _Miniforge3-Linux-x86-64.sh_
+After a successful installation, you can delete the installation file {gui}`Miniforge3-Linux-x86-64.sh`
 using the command:
 
 ```shell
@@ -544,7 +544,7 @@ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Start the installation by typing `I` followed by `Enter`.
+Start the installation by typing {kbd}`I` followed by {kbd}`Enter`.
 
 After the installation, you must inform the system where LaTeX has been installed.
 This can be done in the file `~/.bashrc`.
@@ -583,9 +583,9 @@ Visual Studio Code (VSCode) is a text editor suitable for writing both program c
 Python and documents in LaTeX. Furthermore, it offers a wide range of additional features.
 
 You can install VSCode via the Microsoft Store.
-The easiest way to find it is to open the Start menu and type `Store` into the search bar.
+The easiest way to find it is to open the Start menu and type {kbd}`Store` into the search bar.
 The Microsoft Store will appear as the top search result.
-You can open it by clicking on _Open_:
+You can open it by clicking on {gui}`Open`:
 
 ```{image} /img/vscodium/vscode-msstore_win11.png
 :alt:
@@ -593,7 +593,7 @@ You can open it by clicking on _Open_:
 :align: center
 ```
 
-By searching for `Visual Studio Code` within the Microsoft Store, 
+By searching for {kbd}`Visual Studio Code` within the Microsoft Store, 
 you can select the corresponding entry from the list:
 
 ```{image} /img/vscodium/vscode-download-1.png
@@ -602,7 +602,7 @@ you can select the corresponding entry from the list:
 :align: center
 ```
 
-On the following page, you can install VSCode by clicking the `Install` button.
+On the following page, you can install VSCode by clicking the {gui}`Install` button.
 
 ```{image} /img/vscodium/vscode-download-2.png
 :alt:
@@ -623,7 +623,7 @@ Once installed, you can launch VSCode via the Start menu (just as when searching
 
 A useful extension for VSCode facilitates integration with WSL (more on this in the workshop).
 You can access the extension search feature by clicking the icon shown in the screenshot on the left-hand sidebar. 
-Search for `WSL` there and click the small `Install` button next to the top search result.
+Search for {kbd}`WSL` there and click the small {gui}`Install` button next to the top search result.
 
 ```{image} /img/vscodium/vscode-wsl-plugin_win11.png
 :alt:
@@ -638,11 +638,11 @@ To change VSCode's language settings, you can follow the steps below.
 This is **not** necessary if the language is already set to English 
 or if you do not wish to change the language.
 
-To open the language settings, first press the `F1` key.
+To open the language settings, first press the {kbd}`F1` key.
 This opens an input window where you can search for settings.
 
-Here, search for _Configure Display Language_.
-You can select this setting by pressing the `Enter` key.
+Here, search for {kbd}`Configure Display Language`.
+You can select this setting by pressing the {kbd}`Enter` key.
 
 ```{image} /img/vscodium/vscode-language-1.png
 :alt:
@@ -650,7 +650,7 @@ You can select this setting by pressing the `Enter` key.
 :align: center
 ```
 
-In the subsequent selection menu, you can choose your desired language with a `left-click`.
+In the subsequent selection menu, you can choose your desired language with a {kbd}`left-click`.
 
 ```{image} /img/vscodium/vscode-language-2.png
 :alt:
@@ -670,11 +670,11 @@ This can be performed in the window that appears next.
 (windows-11-term)=
 #### VSCode: Setting Up the Terminal
 
-You can open a terminal in VSCode using the keyboard shortcut `Ctrl` + `Shift` + `` ` `` 
-or via the menu bar: _Terminal_ → _New Terminal_.
+You can open a terminal in VSCode using the keyboard shortcut {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`` ` `` 
+or via the menu bar: {gui}`Terminal → New Terminal`.
 However, immediately after the initial installation, this terminal defaults 
 to the Windows PowerShell. Just like with the Windows Terminal, this terminal also needs to be reconfigured.
-Click the downward-pointing arrow to the right of the `+` sign, and select the option _Select Default Profile_.
+Click the downward-pointing arrow to the right of the {gui}`+` sign, and select the option {gui}`Select Default Profile`.
 
 ```{image} /img/vscodium/vscode-terminal-1.png
 :alt:
@@ -682,7 +682,7 @@ Click the downward-pointing arrow to the right of the `+` sign, and select the o
 :align: center
 ```
 
-In the following selection, click on _Ubuntu (WSL)_ once again.
+In the following selection, click on {gui}`Ubuntu (WSL)` once again.
 
 ```{image} /img/vscodium/vscode-terminal-2.png
 :alt:
@@ -698,7 +698,7 @@ Next, you can close the currently open terminal by clicking the trash can icon.
 :align: center
 ```
 
-Now, when a terminal is opened again, e.g., with `Ctrl` + `Shift` + `` ` `` ,
+Now, when a terminal is opened again, e.g., with {kbd}`Ctrl` + {kbd}`Shift` + {kbd}`` ` `` ,
 it should now look like the terminal you have (by now) become accustomed to:
 
 ```{image} /img/vscodium/vscode-terminal-4.png
@@ -725,10 +725,10 @@ You can find the download at the following link:
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 
-On the download page, you can then download the `x64` version of Sumatra PDF 
-by `left-clicking` on the highlighted link.
-The filename will be in the format `SumatraPDF-X.X.X-64-install.exe`,
-where the `X` represents the version number, which may differ from the one shown in the screenshot.
+On the download page, you can then download the {gui}`x64` version of Sumatra PDF 
+by {kbd}`left-clicking` on the highlighted link.
+The filename will be in the format {gui}`SumatraPDF-X.X.X-64-install.exe`,
+where the {gui}`X` represents the version number, which may differ from the one shown in the screenshot.
 
 
 ```{image} /img/sumatra/sumatra-download.png
@@ -737,7 +737,7 @@ where the `X` represents the version number, which may differ from the one shown
 :align: center
 ```
 
-The downloaded file will be located in your Downloads folder; you can run it by `double-clicking` on it.
+The downloaded file will be located in your Downloads folder; you can run it by {kbd}`double-clicking` on it.
 
 ```{image} /img/sumatra/sumatra-install-1.png
 :alt:
@@ -745,7 +745,7 @@ The downloaded file will be located in your Downloads folder; you can run it by 
 :align: center
 ```
 
-Consequently, the following window will open, allowing you to start the installation by `left-clicking` on _Install_.
+Consequently, the following window will open, allowing you to start the installation by {kbd}`left-clicking` on {gui}`Install`.
 
 ```{image} /img/sumatra/sumatra-install-2.png
 :alt:
@@ -753,7 +753,7 @@ Consequently, the following window will open, allowing you to start the installa
 :align: center
 ```
 
-Close the window after installation by clicking the `X`.
+Close the window after installation by clicking the {gui}`X`.
 
 ```{image} /img/sumatra/sumatra-install-3.png
 :alt:
@@ -762,8 +762,8 @@ Close the window after installation by clicking the `X`.
 ```
 
 Finally, you should set Sumatra PDF as your default PDF viewer.
-To do this, search for `Default apps` in the Start menu.
-Then, open _Default apps_.
+To do this, search for {kbd}`Default apps` in the Start menu.
+Then, open {gui}`Default apps`.
 
 ```{image} /img/sumatra/sumatra-standard-app-1_win11.png
 :alt:
@@ -771,7 +771,7 @@ Then, open _Default apps_.
 :align: center
 ```
 
-In the window that opens, search for _.pdf_ in the search box, and then
+In the window that opens, search for {kbd}`.pdf` in the search box, and then
 click on the icon at the right end of the search result.
 
 ```{image} /img/sumatra/sumatra-standard-app-3_win11.png
@@ -780,8 +780,8 @@ click on the icon at the right end of the search result.
 :align: center
 ```
 
-This opens a selection menu. In this menu, click on _SumatraPDF_ and
-confirm your choice by clicking `Set default`.
+This opens a selection menu. In this menu, click on {gui}`SumatraPDF` and
+confirm your choice by clicking {gui}`Set default`.
 
 ```{image} /img/sumatra/sumatra-standard-app-4_win11.png
 :alt:
@@ -789,14 +789,14 @@ confirm your choice by clicking `Set default`.
 :align: center
 ```
 
-You can then close the window as usual by clicking the `X`.
+You can then close the window as usual by clicking the {kbd}`X`.
 
 
 #### Evince
 
 To open PDF files directly from Windows Terminal easily,
 it is also recommended to install a PDF viewer for WSL.
-To do this, enter the following command into Windows Terminal and confirm the installation by typing `y`:
+To do this, enter the following command into Windows Terminal and confirm the installation by typing {kbd}`y`:
 
 ```shell
 sudo apt install evince
@@ -913,7 +913,7 @@ restricted system commands enabled.
 **
 ```
 
-You can exit this by pressing the key combination `Ctrl+c` (`Ctrl` and `c`).
+You can exit this by pressing the key combination {kbd}`Ctrl` + {kbd}`c`.
 Now you can test another program used by LaTeX for bibliographies.
 Test this by entering the command:
 ```shell
@@ -964,7 +964,7 @@ mamba update -n toolbox --all
 :align: center
 ```
 
-Confirm the installation by typing `Y` followed by `Enter`.
+Confirm the installation by typing {kbd}`Y` followed by {kbd}`Enter`.
 
 ```{image} /img/mamba/mamba-update-2.png
 :alt:
