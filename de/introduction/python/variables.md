@@ -15,8 +15,8 @@ Dann geben wir mittels `print` die Variable aus.
 
 Wenn dein Terminal am unteren Ende des Fensters noch ist, kannst du einmal in die
 letzte Zeile klicken.
-Mit der Pfeiltaste nach oben kannst du den letzten geschriebenen Befehl aufrufen
-und mit `Enter` erneut ausführen.
+Mit der Pfeiltaste nach oben {icon}`bi:arrow-up-square` kannst du den letzten geschriebenen Befehl aufrufen
+und mit {kbd}`Enter` erneut ausführen.
 Wenn dein Terminal geschlossen ist, findest du
 [hier](/introduction/first_steps/#terminal)
 die Schritte zum Öffnen.
@@ -48,8 +48,8 @@ verwenden, wie z.B. `this_is_a_multiplicator`.
 
 Für Kommazahlen müssen wir den Punkt als Dezimaltrennzeichen nutzen,
 so wie bei `hereIsAnother`.
-Um nicht viel zu viele Nullen tippen zu müssen, können wir die `e`-Schreibweise verwenden.
-Bei dieser geben wir erst die Zahl an und nach dem `e` die Zehnerpotenz.
+Um nicht viel zu viele Nullen tippen zu müssen, können wir die $e$-Schreibweise verwenden.
+Bei dieser geben wir erst die Zahl an und nach dem $e$ die Zehnerpotenz.
 Wir haben also
 $$\texttt{this\_is\_a\_multiplier} = 2.1 * 10^{12}$$ definiert.
 

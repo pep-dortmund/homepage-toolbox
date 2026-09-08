@@ -16,14 +16,14 @@ Ein paar gibt es dennoch, also bereitet eure
 {kbd}`:`, {kbd}`{`, {kbd}`(`, {kbd}`[`, {kbd}`]`, {kbd}`)`, {kbd}`}`-Tasten vor.
 
 Das erste Programm, das typischerweise in einer neuen Programmiersprache geschrieben wird, ist _Hello World!_
-Das Gleiche wollen wir hier auch machen und `python` beibringen, uns etwas auszugeben.
+Das Gleiche wollen wir hier auch machen und mit `python` etwas ausgeben.
 
 ## VSCode/VSCodium
 Als Erstes öffnen wir dazu VSCode/VSCodium (VSC ab jetzt).
-Du hast einen Mac? Dann öffne den _Finder_ und tippe {kbd}`VSCodium` ein,
+Du hast einen Mac? Dann öffne den {gui}`Finder` und tippe {kbd}`VSCodium` ein,
 öffne es dann auch.
 
-Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
+Nutzt du Windows, klickst du auf das Windows-Logo {icon}`ant-design:windows-filled` am unteren Bildschirmrand
 und tippst {kbd}`VSCode` ein und klickst auf die VSCode App.
 
 ```{image} /img/introduction/VSCode_Open.png
@@ -71,7 +71,7 @@ In Windows kannst du den Knopf {gui}`Neuer Ordner`/{gui}`New folder` dafür nutz
 ```
 
 In VSC kannst du jetzt in der linken Seitenleiste
-eine Datei erstellen, klicke dazu auf das erste Symbol hinter {gui}`TOOLBOXWORKSHOP`.
+eine Datei erstellen, klicke dazu auf das erste Symbol {icon}`ant-design:file-add-outlined` hinter {gui}`TOOLBOXWORKSHOP`.
 Gib ihr den Namen {kbd}`introduction.py`.
 Wenn du den Namen eingegeben hast, kannst du es mit {kbd}`Enter` bestätigen.
 
@@ -123,7 +123,7 @@ Dieser bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
 Speichern kannst du mit {kbd}`Strg` + {kbd}`s`, oder über {gui}`File` und dann {gui}`Datei speichern`/{gui}`Save File`.
 Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssystem.
 
-:::{caution} Wichtig
+:::{tip} Wichtig
 Bevor du eine `python`-Datei ausführst, musst du deine Änderungen speichern,
 sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
 Achte also immer auf den weißen Punkt.
@@ -146,8 +146,8 @@ Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann
 
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
-:::{caution} Windows
-Steht am rechten oberen Rand des Terminals `powershell`,
+:::{attention} Windows
+Steht am rechten oberen Rand des Terminals {icon}`codicon:terminal-powershell` {gui}`powershell`,
 musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 
 ```{image} /img/introduction/VSCode_Terminal1.png
@@ -156,16 +156,16 @@ musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 :align: center
 ```
 
-Wiederhole jetzt den Schritt mit `Öffne in integriertem Terminal`/`Open in Integrated Terminal`.
+Wiederhole jetzt den Schritt mit {gui}`Öffne in integriertem Terminal`/{gui}`Open in Integrated Terminal`.
 :::
 
-Schreibe in dein Terminal `ls` und führe den Befehl aus,
-indem du auf `Enter` drückst.
-`ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
+Schreibe in dein Terminal {kbd}`ls` und führe den Befehl aus,
+indem du auf {kbd}`Enter` drückst.
+{kbd}`ls` ist kurz für `list` und gibt dir aus, welche Dateien in einem Ordner sind.
 Es werden dir verschiedene Namen zurückgegeben,
 du solltest in den zurückgegebenen Namen `introduction.py` sehen.
 <!-- find Befehl der in einem sinnvollen Rahmen nach introduction.py sucht und in den Ordner geht? -->
-Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Enter` aus.
+Schreibe jetzt {kbd}`python introduction.py` in dein Terminal und führe es mit {kbd}`Enter` aus.
 Als Ausgabe siehst du `Hello World!`, also gerade das,
 was wir als Argument in `print` geschrieben haben.
 
@@ -182,17 +182,19 @@ dahinter folgt der Name deines Laptops/Rechners.
 In Blau steht hinter dem `:` der Pfad, die Ordner getrennt durch `/`.
 Dies ist der Prompt und kann individuell angepasst werden.
 
-**Wenn es in Zukunft heißt, führe `python introduction.py` aus,
-ist damit gemeint, dass du im Terminal `python introduction.py` eintippst
-und es mit `Enter` ausführst.
+:::{tip} `python`-Skripte ausführen
+Wenn es in Zukunft heißt, führe {kbd}`python introduction.py` aus,
+ist damit gemeint, dass du im Terminal {kbd}`python introduction.py` eintippst
+und es mit {kbd}`Enter` ausführst.
 Du kannst das abkürzen, indem du den zuletzt ausgeführten Befehl mit
-`Pfeil nach oben` und `Enter` wiederholst.**
+„Pfeil nach oben" {icon}`bi:arrow-up-square` und {kbd}`Enter` wiederholst.
+:::
 
 
 ## Kommentare
 In Programmiersprachen sollen Kommentare verwendet werden, um den Code zu erklären.
 Das ist nützlich für dich und andere Leute, die mit deinem Code arbeiten,
-zum Beispiel dein/e Partnerïn im Praktikum.
+zum Beispiel dein/e Partner/in im Praktikum.
 Kommentare können auch verwendet werden, um Abschnitten im Code eine Art Überschrift
 zu geben. Für die Praktikumsprotokolle könnten das _Daten einlesen_,
 _Ausgleichsrechnung_ und _grafische Darstellung_ sein.
