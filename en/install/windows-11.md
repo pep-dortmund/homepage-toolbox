@@ -40,7 +40,7 @@ are not enabled by default in Windows. They can and should be enabled.
 
 You can adjust this setting in File Explorer.
 The easiest way to open it is by using the keyboard shortcut {kbd}`Windows` + {kbd}`e`
-({kbd}`Windows` refers to the Windows logo key, located between
+({kbd}`Windows` refers to the Windows logo key {icon}`ant-design:windows-filled`, located between
 {kbd}`Ctrl` and {kbd}`Alt` in the bottom-left corner of your keyboard).
 
 Alternatively, you can open File Explorer by {kbd}`right-clicking` the Start menu icon and then {kbd}`left-clicking` on {gui}`File Explorer`.

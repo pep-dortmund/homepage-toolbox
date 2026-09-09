@@ -39,7 +39,7 @@ sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen akt
 
 Diese Einstellung kannst du im Datei-Explorer vornehmen.
 Diesen kannst du am einfachsten mit der Tastenkombination {kbd}`Windows` + {kbd}`e`
-geöffnet werden ({kbd}`Windows` ist die Taste mit dem Windowslogo zwischen
+geöffnet werden ({kbd}`Windows` ist die Taste mit dem Windowslogo {icon}`ant-design:windows-filled` zwischen
 {kbd}`Strg` und {kbd}`Alt` unten links auf der Tastatur).
 
 Alternativ kannst du den Explorer mit einem {kbd}`Rechtsklick` auf das Startmenü-Icon und anschließendem {kbd}`Linksklick` auf {gui}`Explorer` öffnen.

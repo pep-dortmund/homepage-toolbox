@@ -27,8 +27,8 @@ Gib die Befehle Zeile für Zeile ein und bestätige sie mit Enter.
 ### Terminal
 
 - Das Terminal ist in jeder OS X Distribution enthalten.
-- Suche im Spotlight nach „Terminal“.
-- Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`.
+- Suche im Spotlight nach {gui}`Terminal`.
+- Das Programm befindet sich in {gui}`Programme/Dienstprogramme/Terminal.app`.
 
 
 ### Command Line Tools
@@ -41,7 +41,7 @@ xcode-select --install
 ```
 
 und führst den Befehl mit {kbd}`Enter` aus.
-Danach „Installieren“ auswählen und warten. Der Download wiegt etwa 130 MB.
+Danach {gui}`Installieren` auswählen und warten. Der Download wiegt etwa 130 MB.
 
 
 ### Python Installation: Miniforge3
@@ -78,8 +78,8 @@ erscheinen. Diese musst du abermals mit {kbd}`yes` bestätigen.
 Damit ist die allgemeine Python-Umgebung installiert.
 
 :::{caution} Wichtig
-Für den folgenden Schritt musst du ein neues Terminal öffnen. Wähle dazu in der App „Terminal“
-den Punkt „**Terminal**“ und dann „**Terminal beenden**“.
+Für den folgenden Schritt musst du ein neues Terminal öffnen. Wähle dazu in der App **Terminal**
+den Punkt {gui}`Terminal` und dann {gui}`Terminal beenden`.
 :::
 
 Im Anschluss erstellst du jetzt noch einen spezielle Python-Umgebung für den Toolbox Workshop mittels:

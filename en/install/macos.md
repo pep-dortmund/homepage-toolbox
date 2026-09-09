@@ -27,8 +27,8 @@ Enter the commands line by line and confirm each one by pressing Enter.
 ### Terminal
 
 - The terminal is included in every OS X distribution.
-- Search for "Terminal" using Spotlight.
-- The application is located at `/Applications/Utilities/Terminal.app`.
+- Search for {gui}`Terminal` using Spotlight.
+- The application is located at {gui}`/Applications/Utilities/Terminal.app`.
 
 ### Command Line Tools
 
@@ -40,7 +40,7 @@ xcode-select --install
 ```
 
 Execute the command by pressing {kbd}`Enter`.
-Select "Install" and wait. The download size is approximately 130 MB.
+Select {gui}`Install` and wait. The download size is approximately 130 MB.
 
 ### Python Installation: Miniforge3
 
@@ -79,7 +79,7 @@ With this, the base Python environment is installed.
 
 :::{caution} Important
   For the next step, you must open a new terminal window.
-  To do this, select "**Terminal**" in the terminal app and then "**Quit Terminal**".
+  To do this, select {gui}`Terminal` in the terminal app and then {gui}`Quit Terminal`.
 :::
 
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
