@@ -11,7 +11,7 @@ den Ordner `.git`. Dateien und Ordner mit einem Punkt am Anfang des Namens
 werden versteckte Dateien genannt und verstecken sich vor dem einfachen `ls`-Befehl.
 
 Wir wollen nun eine Auswertung und das Protokoll für den nächsten Versuch anfangen.
-Dazu kopieren `cp` wir den `vXXX`-Ordner in einen neuen Ordner.
+Dazu kopieren (`cp`) wir den `vXXX`-Ordner in einen neuen Ordner.
 Um die Übersicht zu behalten, nennen wir die Ordner im Schema `v` + Versuchsnummer.
 Du kannst gerne auch noch den Namen des Versuchs dahinter setzen,
 hier wäre das zum Beispiel dann `v101_Das_Traegheitsmoment`.
@@ -61,9 +61,13 @@ touch data/{quader,puppe,feder}.txt
 Auf das Schreiben des Codes gehen wir hier nicht näher ein,
 du kannst aber jederzeit die Materialien als Nachschlagewerk verwenden.
 Wenn du zwischen dem Schreiben am Code, ihn auch mal ausführen willst,
-kannst du mit `Strg` + `ö` (deutsche Tastatur)/`Strg` + \` (englische Tastatur)
+kannst du mit {kbd}`Strg` + {kbd}`ö` (deutsche Tastatur)/{kbd}`Strg` + {kbd}`` ` `` (englische Tastatur)
 das Terminal wieder aufrufen und dann mit der Pfeiltaste nach oben
-die letzten Befehle durchgehen und mit `Enter` ausführen.
+die letzten Befehle durchgehen und mit {kbd}`Enter` ausführen.
 
-**Bevor du mit `python` arbeitest, solltest du die toolbox environment aktivieren;
-`mamba activate toolbox`.**
+:::{attention} `python`-Umgebung
+Bevor du mit `python` arbeitest, solltest du die toolbox environment aktivieren;
+```shell
+mamba activate toolbox
+```
+:::
