@@ -15,8 +15,8 @@ Then, we output the variable using `print`.
 
 If your terminal is still at the bottom of the window, you can click once
 in the last line.
-You can use the up arrow key to recall the last command entered
-and run it again by pressing `Enter`.
+You can use the up arrow key {icon}`bi:arrow-up-square` to recall the last command entered
+and run it again by pressing {kbd}`Enter`.
 If your terminal is closed, the steps to reopen it can be found
 [here](/introduction/first_steps_en/#terminal).
 You should now see this output:
@@ -44,8 +44,8 @@ In this guide, whenever appropriate (and provided we aren't just using `a`, `b`,
 
 For non-integer numbers or those in scientific notation, we use a period as the decimal
 separator, as with `hereIsAnother`.
-To avoid having to type a large number of zeros, we can use `e` notation.
-With this method, we specify the number first, followed by the power of ten after the `e`.
+To avoid having to type a large number of zeros, we can use $e$ notation.
+With this method, we specify the number first, followed by the power of ten after the $e$.
 Thus, we have defined
 $$\texttt{this\_is\_a\_multiplier} = 2.1 * 10^{12}$$ in this way.
 

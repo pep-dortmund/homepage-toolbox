@@ -123,7 +123,7 @@ Dieser bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
 Speichern kannst du mit {kbd}`Strg` + {kbd}`s`, oder über {gui}`File` und dann {gui}`Datei speichern`/{gui}`Save File`.
 Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssystem.
 
-:::{tip} Wichtig
+:::{tip} Änderungen speichern
 Bevor du eine `python`-Datei ausführst, musst du deine Änderungen speichern,
 sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
 Achte also immer auf den weißen Punkt.

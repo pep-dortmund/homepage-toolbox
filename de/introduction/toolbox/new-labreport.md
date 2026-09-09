@@ -62,7 +62,7 @@ Auf das Schreiben des Codes gehen wir hier nicht näher ein,
 du kannst aber jederzeit die Materialien als Nachschlagewerk verwenden.
 Wenn du zwischen dem Schreiben am Code, ihn auch mal ausführen willst,
 kannst du mit {kbd}`Strg` + {kbd}`ö` (deutsche Tastatur)/{kbd}`Strg` + {kbd}`` ` `` (englische Tastatur)
-das Terminal wieder aufrufen und dann mit der Pfeiltaste nach oben
+das Terminal wieder aufrufen und dann mit der Pfeiltaste nach oben {icon}`bi:arrow-up-square`
 die letzten Befehle durchgehen und mit {kbd}`Enter` ausführen.
 
 :::{attention} `python`-Umgebung
