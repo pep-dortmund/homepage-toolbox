@@ -35,8 +35,8 @@ Falls du **nur** am LaTeX-Kurs teilnehmen willst, ist der Abschnitt {ref}`win10-
 
 ####  Windows-Info: Betriebssystembuild-Nummer
 Zunächst musst du einmal überprüfen, ob deine Windows-Installation aktuell ist.
-Hierfür machst du einen `Rechtsklick` auf das Windows-Symbol in der Taskleiste,
-gefolgt von einem `Linksklick` auf _System_.
+Hierfür machst du einen {kbd}`Rechtsklick` auf das Windows-Symbol in der Taskleiste,
+gefolgt von einem {kbd}`Linksklick` auf {gui}`System`.
 
 ```{image} /img/wsl/win10-buildnumber-1.png
 :alt:
@@ -44,8 +44,8 @@ gefolgt von einem `Linksklick` auf _System_.
 :align: center
 ```
 
-In der Liste am linken Rand lautet der letzte Punkt _Info_ (dieser sollte bereits ausgewählt sein).
-Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer ablesen.
+In der Liste am linken Rand lautet der letzte Punkt {gui}`Info` (dieser sollte bereits ausgewählt sein).
+Hinter dem Wort {gui}`Betriebssystembuild`-Nummer kannst du die entsprechende Nummer ablesen.
 
 ```{image} /img/wsl/win10-buildnumber-2.png
 :alt:
@@ -54,11 +54,11 @@ Hinter dem Wort _Betriebssystembuild_-Nummer kannst du die entsprechende Nummer 
 ```
 
 Die Installation des WSL wurde im Vergleich zu den vergangenen Jahren erheblich vereinfacht.
-Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem _._ mindestens _19041_ sein.
+Um diese Vereinfachungen nutzen zu können, muss die Nummer vor dem {gui}`.` mindestens {gui}`19041` sein.
 
 Sollte deine Nummer niedriger sein, empfehlen wir dir, die Updates für deine Windows-Installation
-zu installieren. Dafür kannst du in dem obigen _Info_-Fenster in der Suchleiste nach „Update“
-suchen und den Punkt _Nach Updates suchen_ auswählen.
+zu installieren. Dafür kannst du in dem obigen {gui}`Info`-Fenster in der Suchleiste nach {kbd}`Update`
+suchen und den Punkt {gui}`Nach Updates suchen` auswählen.
 
 ```{image} /img/wsl/win10-updates-1.png
 :alt:
@@ -66,7 +66,7 @@ suchen und den Punkt _Nach Updates suchen_ auswählen.
 :align: center
 ```
 
-Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates installieren.
+Anschließend kannst du über den Button {gui}`Nach Updates suchen` fehlende Updates installieren.
 
 ```{image} /img/wsl/win10-updates-2.png
 :alt:
@@ -75,24 +75,24 @@ Anschließend kannst du über den Button `Nach Updates suchen` fehlende Updates 
 ```
 
 Überprüfe nach der Installation der Updates und einem Neustart deines PCs noch einmal die
-_Betriebssystembuild_-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
+{gui}`Betriebssystembuild`-Nummer. Sollte diese immer noch nicht passen, melde dich bei uns.
 
 
 #### Dateiendungen einschalten
 
-Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z. B. `.pdf` für PDF-Dokumente)
+Die Endungen einer Datei (die Auskunft über die Art der Datei geben, z. B. {gui}`.pdf` für PDF-Dokumente)
 sind unter Windows nicht standardmäßig aktiviert. Diese können und sollen aktiviert werden.
 
 Diese Einstellung kannst du im Datei-Explorer vornehmen.
-Dieser kann am einfachsten mit der Tastenkombination `Windows` + `E` geöffnet werden
-(`Windows` ist die Taste mit dem Windowslogo zwischen
-`Strg` und `Alt` unten links auf der Tastatur).
+Dieser kann am einfachsten mit der Tastenkombination {kbd}`Windows` + {kbd}`e` geöffnet werden
+({kbd}`Windows` ist die Taste mit dem Windowslogo zwischen
+{kbd}`Strg` und {kbd}`Alt` unten links auf der Tastatur).
 
 Alternativ kann der Explorer in der Suche im Startmenü gefunden werden.
 Nach dem Öffnen des Startmenüs wird automatisch eine Suche gestartet,
 wenn Buchstaben über die Tastatur eingegeben werden.
-Hier musst du `Explorer` eingeben.
-Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
+Hier musst du {kbd}`Explorer` eingeben.
+Durch einen Klick auf {gui}`Öffnen` kann dann ein Explorer-Fenster geöffnet werden.
 
 ```{image} /img/explorer/explorer-start.png
 :alt:
@@ -100,8 +100,8 @@ Durch einen Klick auf _Öffnen_ kann dann ein Explorer-Fenster geöffnet werden.
 :align: center
 ```
 
-In der obersten Zeile gibt es den Punkt `Ansicht`,
-das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden
+In der obersten Zeile gibt es den Punkt {gui}`Ansicht`,
+das Kästchen für den Punkt {gui}`Dateinamenerweiterungen` muss ausgewählt werden
 (ein schwarzer Haken muss im Kästchen zu sehen sein).
 
 ```{image} /img/explorer/explorer-fileext.png
@@ -112,14 +112,14 @@ das Kästchen für den Punkt `Dateinamenerweiterungen` muss ausgewählt werden
 
 ### Windows Subsystem for Linux (WSL)
 
-Diese Anleitung funktioniert nur mit der passenden _Betriebssystembuild_-Nummer,
+Diese Anleitung funktioniert nur mit der passenden {gui}`Betriebssystembuild`-Nummer,
 siehe Abschnitt {ref}`win10-installation-vorbereitungen`.
 
 #### Installation des WSL
 Zunächst musst du eine PowerShell Konsole als Administrator starten.
 Eine Möglichkeit dafür ist das Öffnen des Windows-Startmenüs.
-Durch Tippen des Begriffs „Power“ auf der Tastatur wird automatisch eine Suche gestartet.
-Klicke auf der rechten Seite des Suchfensters den Punkt _Als Administrator ausführen_ an.
+Durch Tippen des Begriffs {kbd}`Power` auf der Tastatur wird automatisch eine Suche gestartet.
+Klicke auf der rechten Seite des Suchfensters den Punkt {gui}`Als Administrator ausführen` an.
 
 ```{image} /img/wsl/win10-powershell-admin.png
 :alt:
@@ -128,9 +128,9 @@ Klicke auf der rechten Seite des Suchfensters den Punkt _Als Administrator ausf�
 ```
 
 In den meisten Fällen wird das folgende Fenster erscheinen.
-Dieses musst du mit _Ja_ bestätigen.
+Dieses musst du mit {gui}`Ja` bestätigen.
 Diese Warnungen können auch im Folgenden noch auftreten,
-auch dann müssen diese mit _Ja_ bestätigt werden.
+auch dann müssen diese mit {gui}`Ja` bestätigt werden.
 Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 ```{image} /img/wsl/win10-admin-warning.png
@@ -141,7 +141,7 @@ Es ist kein Problem, wenn dieses Fenster nicht erscheint.
 
 Nun öffnet sich ein Fenster, wie unten zu sehen; dies ist die PowerShell Konsole.
 Um sicherzugehen, dass du eine PowerShell mit Administrator-Rechten geöffnet hast,
-kannst du den Titel des Fensters überprüfen, dieser muss mit _Administrator:_ beginnen.
+kannst du den Titel des Fensters überprüfen, dieser muss mit {gui}`Administrator:` beginnen.
 
 ```{image} /img/wsl/win10-powershell-admin-test.png
 :alt:
@@ -151,7 +151,7 @@ kannst du den Titel des Fensters überprüfen, dieser muss mit _Administrator:_ 
 
 In die PowerShell gibst du den folgenden Befehl ein.
 Dieser kann auch kopiert und eingefügt werden;
-Einfügen funktioniert in der PowerShell mit einem `Rechtsklick`.
+Einfügen funktioniert in der PowerShell mit einem {kbd}`Rechtsklick`.
 ```powershell
 wsl --install
 ```
@@ -162,7 +162,7 @@ wsl --install
 :align: center
 ```
 
-Durch Drücken der `Enter`-Taste wird die Eingabe bestätigt.
+Durch Drücken der {kbd}`Enter`-Taste wird die Eingabe bestätigt.
 
 Diese Installation kann einige Minuten in Anspruch nehmen, während dieser Zeit werden einige
 stilisierte Ladebalken angezeigt. Nach dem erfolgreichen Abschluss dieses Vorgangs sieht die
@@ -200,7 +200,7 @@ mit deinem Windows-Benutzernamen übereinstimmen.
 Der Benutzername darf **nur** Kleinbuchstaben und **keine** Leerzeichen enthalten.
 :::
 
-Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
+Die Eingabe des Benutzernamens wird mit Drücken der {kbd}`Enter`-Taste bestätigt.
 
 ```{image} /img/windows-ubuntu/wsl-ubuntu-username.png
 :alt:
@@ -210,9 +210,9 @@ Die Eingabe des Benutzernamens wird mit Drücken der `Enter`-Taste bestätigt.
 
 Im Anschluss wird auch nach einem Passwort für das Linux-Betriebssystem gefragt.
 Aus Sicherheitsgründen wird das eingegebene Passwort nicht angezeigt.
-Die Eingabe bestätigst du mit dem Drücken der `Enter`-Taste.
+Die Eingabe bestätigst du mit dem Drücken der {kbd}`Enter`-Taste.
 Im Anschluss musst du das Passwort erneut eingeben, um Tippfehler auszuschließen.
-Auch diese Eingabe wird wieder mit der `Enter`-Taste bestätigt.
+Auch diese Eingabe wird wieder mit der {kbd}`Enter`-Taste bestätigt.
 
 :::{caution} Wichtig
 Merke dir dein Passwort.
@@ -225,7 +225,7 @@ Merke dir dein Passwort.
 ```
 
 Sollte die Eingabe des zweiten Passworts nicht mit dem ersten übereinstimmen,
-so muss ein erneuter Versuch zunächst mit `y` bestätigt werden.
+so muss ein erneuter Versuch zunächst mit {kbd}`y` bestätigt werden.
 
 ```{image} /img/windows-ubuntu/wsl-ubuntu-wrong-passwd-1.png
 :alt:
@@ -264,7 +264,7 @@ Schließe vor dem nächsten Abschnitt dieses Terminal Fensters, indem du den Bef
 ```shell
 exit
 ```
-eingibst (+ `Enter`) oder auf das `X` oben rechts klickst.
+eingibst (+ {kbd}`Enter`) oder auf das {gui}`X` oben rechts klickst.
 
 (win10-terminal)=
 ### Windows Terminal
@@ -280,7 +280,7 @@ Der Microsoft Store kannst du wieder über die Suche im Startmenü finden:
 :align: center
 ```
 
-Suche im Microsoft Store nach `Terminal` und wähle _Windows Terminal_ aus:
+Suche im Microsoft Store nach {gui}`Terminal` und wähle {gui}`Windows Terminal` aus:
 
 ```{image} /img/windows-terminal/windows-terminal-store-2.png
 :alt:
@@ -288,7 +288,7 @@ Suche im Microsoft Store nach `Terminal` und wähle _Windows Terminal_ aus:
 :align: center
 ```
 
-Und im folgenden Fenster `Herunterladen` anklicken:
+Und im folgenden Fenster {gui}`Herunterladen` anklicken:
 
 ```{image} /img/windows-terminal/windows-terminal-store-3.png
 :alt:
@@ -300,7 +300,7 @@ Im Anschluss an die Installation kannst du den Microsoft Store wieder schließen
 
 Das Windows Terminal kann über das Startmenü geöffnet werden. Direkt nach der Installation
 befindet sich das Terminal für gewöhnlich ganz oben in der Liste, ansonsten kannst du
-`Terminal` eingeben. Geöffnet wird das Terminal durch einen Klick auf _Öffnen_ in der
+{kbd}`Terminal` eingeben. Geöffnet wird das Terminal durch einen Klick auf {gui}`Öffnen` in der
 rechten Spalte.
 
 ```{image} /img/windows-terminal/windows-terminal-start.png
@@ -310,7 +310,7 @@ rechten Spalte.
 ```
 
 Beim ersten Öffnen des Windows Terminals erscheint ein Informations-Banner am oberen Fensterrand,
-welches du mit dem `X` am rechten Rand schließen kannst.
+welches du mit dem {gui}`X` am rechten Rand schließen kannst.
 
 ```{image} /img/windows-terminal/windows-terminal-default-terminal.png
 :alt:
@@ -320,7 +320,7 @@ welches du mit dem `X` am rechten Rand schließen kannst.
 
 Standardmäßig wird mit dem Windows Terminal die Windows PowerShell geöffnet (zu erkennen an dem Text in dem Tab).
 Um eine Ubuntu-Kommandozeile zu öffnen, klicke zunächst oben im Fenster auf den Pfeil nach unten, es öffnet sich ein Dropdown-Menü,
-in dem `Einstellungen` angeklickt werden muss:
+in dem {gui}`Einstellungen` angeklickt werden muss:
 
 ```{image} /img/windows-terminal/windows-terminal-settings-1.png
 :alt:
@@ -329,7 +329,7 @@ in dem `Einstellungen` angeklickt werden muss:
 ```
 
 Hier kannst du einstellen, dass sich beim Start von Windows Terminal standardmäßig Ubuntu öffnet.
-Unter _Starten_ in der linken Spalte gibt es den Einstellungspunkt _Standardprofil_, durch Klicken
+Unter {gui}`Starten` in der linken Spalte gibt es den Einstellungspunkt {gui}`Standardprofil`, durch Klicken
 auf den Pfeil nach unten öffnet sich eine Auswahl.
 
 ```{image} /img/windows-terminal/windows-terminal-settings-2.png
@@ -338,7 +338,7 @@ auf den Pfeil nach unten öffnet sich eine Auswahl.
 :align: center
 ```
 
-In der Auswahl wählst du dann Ubuntu aus (falls _Ubuntu_ mehrfach auftaucht, den Punkt mit dem Pinguin-Icon):
+In der Auswahl wählst du dann Ubuntu aus (falls {gui}`Ubuntu` mehrfach auftaucht, den Punkt mit dem Pinguin-Icon {icon}`logos:linux-tux`):
 
 ```{image} /img/windows-terminal/windows-terminal-settings-3.png
 :alt:
@@ -359,7 +359,7 @@ Diese werden in einem Codeblock wie diesem angegeben:
 ```shell
 Beispielbefehl
 ```
-Im Terminal musst du **jeden Codeblock einzeln** eingeben und mit `Enter` bestätigen.
+Im Terminal musst du **jeden Codeblock einzeln** eingeben und mit {kbd}`Enter` bestätigen.
 :::
 
 
@@ -397,8 +397,8 @@ Dies erfolgt durch Eingabe des Befehls
 ```shell
 sudo apt upgrade
 ```
-Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens `y` und Drücken der
-`Enter`-Taste nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
+Anschließend kann eine erneute Bestätigung durch Eingabe des Buchstabens {kbd}`y` und Drücken der
+{kbd}`Enter`-Taste nötig sein. (Auch hier wird die ausgegebene Liste wesentlich länger sein.)
 
 ```{image} /img/unix/unix-3.png
 :alt:
@@ -411,7 +411,7 @@ Dies erfolgt durch die Eingabe des Befehls
 ```shell
 sudo apt install -y git make curl
 ```
-und anschließende Bestätigung mit der `Enter`-Taste.
+und anschließende Bestätigung mit der {kbd}`Enter`-Taste.
 Auch diese Installation kann wieder etwas Zeit in Anspruch nehmen.
 
 ```{image} /img/unix/unix-4.png
@@ -433,7 +433,7 @@ Du erkennst eine erfolgreiche Installation, wie unten gezeigt, daran, dass keine
 
 Für Git musst du noch ein paar Einstellungen vornehmen.
 Schreibe dafür in das Windows Terminal wie zuvor
-die folgenden Befehle und bestätige sie jeweils mit der `Enter`-Taste.
+die folgenden Befehle und bestätige sie jeweils mit der {kbd}`Enter`-Taste.
 
 :::{caution} Wichtig
 Anstelle von `Max Mustermann` solltest du natürlich deinen **eigenen Namen** und auch deine
@@ -468,7 +468,7 @@ Diesen kannst du mit dem folgenden Befehl erstellen:
 mkdir -p ~/.local
 ```
 
-Dieser Befehl erstellt einen Ordner mit dem Namen `.local`, falls dieser nicht schon existiert,
+Dieser Befehl erstellt einen Ordner mit dem Namen {gui}`.local`, falls dieser nicht schon existiert,
 und tut gar nichts, falls dieser Ordner schon existiert.
 
 
@@ -476,9 +476,9 @@ und tut gar nichts, falls dieser Ordner schon existiert.
 ### Python Installation: Miniforge3
 
 Für die Installation der Programme, die nötig sind, um die Programmiersprache Python komfortabel
-nutzen zu können, verwenden wir das Tool `mamba`.
+nutzen zu können, verwenden wir das Tool {gui}`mamba`.
 
-Die Installationsdatei _Miniforge3-Linux-x86-64.sh_ kannst du,
+Die Installationsdatei {gui}`Miniforge3-Linux-x86-64.sh` kannst du,
 durch die Eingabe der folgenden Befehle ins Windows Terminal, herunterladen:
 ```shell
 cd ~/.local
@@ -495,7 +495,7 @@ Der Download kann einige Zeit in Anspruch nehmen.
 ls
 ```
 Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Ordner befinden.
-Die Datei _Miniforge3-Linux-x86-64.sh_ sollte hier aufgeführt sein.
+Die Datei {gui}`Miniforge3-Linux-x86-64.sh` sollte hier aufgeführt sein.
 
 ```{image} /img/mamba/mamba-download.png
 :alt:
@@ -509,10 +509,10 @@ Zum Installieren musst du den folgenden Befehl ausführen.
 bash Miniforge3-Linux-x86_64.sh -p ~/.local/conda
 ```
 
-Wie zuvor wird auch dieser Befehl durch Drücken der `Enter`-Taste bestätigt.
+Wie zuvor wird auch dieser Befehl durch Drücken der {kbd}`Enter`-Taste bestätigt.
 
 Im Folgenden musst du die Benutzungsbestimmungen bestätigen.
-Diese werden zunächst mit der `Enter`-Taste geöffnet
+Diese werden zunächst mit der {kbd}`Enter`-Taste geöffnet
 
 ```{image} /img/mamba/mamba-install-1.png
 :alt:
@@ -529,10 +529,10 @@ ausgegeben wird. Dies erkennst du daran, dass in der letzten Zeile _`--More--`_ 
 :align: center
 ```
 
-Drücke dann mehrfach auf die `Enter`-Taste, um zum Ende (siehe nächsten Screenshot)
+Drücke dann mehrfach auf die {kbd}`Enter`-Taste, um zum Ende (siehe nächsten Screenshot)
 der Benutzungsbestimmung zu gelangen.
-Am Ende der Benutzungsbestimmungen kannst du diese durch die Eingabe von `yes`
-und anschließendem `Enter` akzeptieren.
+Am Ende der Benutzungsbestimmungen kannst du diese durch die Eingabe von {kbd}`yes`
+und anschließendem {kbd}`Enter` akzeptieren.
 
 ```{image} /img/mamba/mamba-install-3.png
 :alt:
@@ -540,7 +540,7 @@ und anschließendem `Enter` akzeptieren.
 :align: center
 ```
 
-Mit einem weiteren `Enter` startest du die Installation,
+Mit einem weiteren {kbd}`Enter` startest du die Installation,
 auch diese kann einige Minuten Zeit brauchen.
 
 ```{image} /img/mamba/mamba-install-4.png
@@ -550,7 +550,7 @@ auch diese kann einige Minuten Zeit brauchen.
 ```
 
 Die Installation endet mit den folgenden Zeilen:
-Hier musst du abermals `yes` eingeben und mit `Enter` bestätigen.
+Hier musst du abermals {kbd}`yes` eingeben und mit {kbd}`Enter` bestätigen.
 
 ```{image} /img/mamba/mamba-install-5.png
 :alt:
@@ -570,7 +570,7 @@ Wenn die letzte Zeile wieder die Eingabezeile ist, ist die Installation beendet.
 Du kannst Mamba erst verwenden, wenn du das aktuelle Terminal Fenster geschlossen und ein neues geöffnet hast
 :::
 
-Im neuen Terminal Fenster sollte nun _(base)_ am Anfang der Eingabezeile stehen.
+Im neuen Terminal Fenster sollte nun `(base)` am Anfang der Eingabezeile stehen.
 
 ```{image} /img/mamba/mamba-install-7.png
 :alt:
@@ -606,7 +606,7 @@ angezeigt wird.
 :align: center
 ```
 
-Nach erfolgreicher Installation kannst du die Installationsdatei _Miniforge3-Linux-x86-64.sh_
+Nach erfolgreicher Installation kannst du die Installationsdatei {gui}`Miniforge3-Linux-x86-64.sh`
 mit dem Befehl
 
 ```shell
@@ -636,7 +636,7 @@ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Die Installation startest du mit `I` und `Enter`.
+Die Installation startest du mit {kbd}`I` und {kbd}`Enter`.
 
 Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wurde,
 das machst du in der Datei `~/.bashrc`.
@@ -650,7 +650,7 @@ Dieser schreibt die Information in `~/.bashrc`.
 
 Schließe jetzt erneut das Terminal und starte ein neues.
 Gib dann in dem neuen Terminal die folgenden Befehle ein,
- um Einstellungen an LaTeX vorzunehmen:
+um Einstellungen an LaTeX vorzunehmen:
 
 ```shell
 tlmgr option autobackup -- -1
@@ -678,7 +678,7 @@ Darüber hinaus hat dieser auch noch viele weitere Funktionen.
 
 VSCode kannst du, wie das Windows Terminal, über den Microsoft Store installieren.
 Öffne dazu den  Microsoft Store, genauso wie im Abschnitt {ref}`win10-terminal`.
-Gib in der Suche `Visual Studio Code` ein und wähle den entsprechenden Punkt aus der Liste aus:
+Gib in der Suche {kbd}`Visual Studio Code` ein und wähle den entsprechenden Punkt aus der Liste aus:
 
 ```{image} /img/vscodium/vscode-download-1.png
 :alt:
@@ -686,7 +686,7 @@ Gib in der Suche `Visual Studio Code` ein und wähle den entsprechenden Punkt au
 :align: center
 ```
 
-Auf der folgenden Seite kannst du VSCode durch einen Klick auf den Button `Installieren` installieren.
+Auf der folgenden Seite kannst du VSCode durch einen Klick auf den Button {gui}`Installieren` installieren.
 
 ```{image} /img/vscodium/vscode-download-2.png
 :alt:
@@ -694,8 +694,8 @@ Auf der folgenden Seite kannst du VSCode durch einen Klick auf den Button `Insta
 :align: center
 ```
 
-Über das Startmenü (wie zuvor wird durch Eingabe von `Visual` automatisch eine Suche begonnen),
-kannst du VSCode durch einen Klick auf `Öffnen` öffnen.
+Über das Startmenü (wie zuvor wird durch Eingabe von {kbd}`Visual` automatisch eine Suche begonnen),
+kannst du VSCode durch einen Klick auf {gui}`Öffnen` öffnen.
 
 ```{image} /img/vscodium/vscode-start.png
 :alt:
@@ -705,8 +705,8 @@ kannst du VSCode durch einen Klick auf `Öffnen` öffnen.
 
 Beim ersten Start von VSCode nach der Installation
 sollte in der rechten unteren Ecke eine Infobox angezeigt,
-in dieser empfehlen wir dir den Button `Install` anzuklicken,
-wenn gefragt wird, ob die `WSL` Erweiterung installiert werden soll.
+in dieser empfehlen wir dir den Button {gui}`Install` anzuklicken,
+wenn gefragt wird, ob die _WSL_ Erweiterung installiert werden soll.
 
 ```{image} /img/vscodium/vscode-prompt-wsl-plugin.png
 :alt:
@@ -723,11 +723,11 @@ Dies ist **nicht** nötig, wenn die Sprache bereits auf Englisch eingestellt ist
 Sprache nicht wünschst.
 
 
-Zum Öffnen der Spracheinstellungen drücke zunächst die Taste `F1`.
+Zum Öffnen der Spracheinstellungen drücke zunächst die Taste {kbd}`F1`.
 Dies öffnet ein Eingabefenster, in dem du nach Einstellungen suchen kannst.
 
-Suche hier nach _Configure Display Language_.
-Die Einstellung kannst du durch das Drücken der `Enter`-Taste auswählen.
+Suche hier nach {kbd}`Configure Display Language`.
+Die Einstellung kannst du durch das Drücken der {kbd}`Enter`-Taste auswählen.
 
 ```{image} /img/vscodium/vscode-language-1.png
 :alt:
@@ -735,7 +735,7 @@ Die Einstellung kannst du durch das Drücken der `Enter`-Taste auswählen.
 :align: center
 ```
 
-Im dann folgenden Auswahlmenü kannst du die gewünschte Sprache mit einem `Linksklick` auswählen.
+Im dann folgenden Auswahlmenü kannst du die gewünschte Sprache mit einem {kbd}`Linksklick` auswählen.
 
 ```{image} /img/vscodium/vscode-language-2.png
 :alt:
@@ -755,10 +755,10 @@ der im folgenden Fenster ausgeführt werden kann.
 
 #### VSCode: Terminal einrichten
 
-Mit der Tastenkombination `Strg` + `Shift` + `ö` oder über die Menüleiste: _Terminal_ → _Neues Terminal_
+Mit der Tastenkombination {kbd}`Strg` + {kbd}`Shift` + {kbd}`ö` oder über die Menüleiste: {gui}`Terminal → Neues Terminal`
 öffnest du ein Terminal in VSCode. Dieses Terminal ist nach der ersten Installation aber
 die Windows Powershell. Wie beim Windows Terminal kannst du auch in diesem das Standardprofil umstellen.
-Klicke rechts auf den Pfeil nach unten, neben dem `+`, und wähle den Punkt _Select Default Profile_ aus.
+Klicke rechts auf den Pfeil nach unten, neben dem {gui}`+`, und wähle den Punkt {gui}`Select Default Profile` aus.
 
 ```{image} /img/vscodium/vscode-terminal-1.png
 :alt:
@@ -766,7 +766,7 @@ Klicke rechts auf den Pfeil nach unten, neben dem `+`, und wähle den Punkt _Sel
 :align: center
 ```
 
-In der folgenden Auswahl klickst du auf _Ubuntu (WSL)_.
+In der folgenden Auswahl klickst du auf {gui}`Ubuntu (WSL)`.
 
 ```{image} /img/vscodium/vscode-terminal-2.png
 :alt:
@@ -782,7 +782,7 @@ Und anschließend kannst du das schon geöffnete Terminal mit einem Klick auf di
 :align: center
 ```
 
-Öffnest du erneut ein Terminal, z. B. mit `Strg` + `Shift` + `ö`,
+Öffnest du erneut ein Terminal, z. B. mit {kbd}`Strg` + {kbd}`Shift` + {kbd}`ö`,
 so sollte dieses nun wie das (mittlerweile) gewohnte Terminal aussehen:
 
 ```{image} /img/vscodium/vscode-terminal-4.png
@@ -808,8 +808,8 @@ Den Download findest du unter dem folgenden Link.
 
 [Sumatra Download](http://www.sumatrapdfreader.org/download-free-pdf-viewer.html)
 
-Auf der Download-Seite kannst du dann die `x64` Version von Sumatra PDF mit einem
-`Linksklick` auf dem hervorgehobenen Link herunterladen.
+Auf der Download-Seite kannst du dann die {gui}`x64` Version von Sumatra PDF mit einem
+{kbd}`Linksklick` auf dem hervorgehobenen Link herunterladen.
 
 ```{image} /img/sumatra/sumatra-download.png
 :alt:
@@ -818,7 +818,7 @@ Auf der Download-Seite kannst du dann die `x64` Version von Sumatra PDF mit eine
 ```
 
 Die heruntergeladene Datei findest du im Downloads-Ordner
-und kannst sie durch einen doppelten `Linksklick` ausführen.
+und kannst sie durch einen doppelten {kbd}`Linksklick` ausführen.
 
 ```{image} /img/sumatra/sumatra-install-1.png
 :alt:
@@ -827,7 +827,7 @@ und kannst sie durch einen doppelten `Linksklick` ausführen.
 ```
 
 Infolgedessen öffnet sich das folgende Fenster,
-in dem du die Installation mit einem `Linksklick` auf _Installieren_ starten kannst.
+in dem du die Installation mit einem {kbd}`Linksklick` auf {gui}`Installieren` starten kannst.
 
 ```{image} /img/sumatra/sumatra-install-2.png
 :alt:
@@ -835,7 +835,7 @@ in dem du die Installation mit einem `Linksklick` auf _Installieren_ starten kan
 :align: center
 ```
 
-Schließe das Fenster nach der Installation mit dem `X`.
+Schließe das Fenster nach der Installation mit dem {gui}`X`.
 
 ```{image} /img/sumatra/sumatra-install-3.png
 :alt:
@@ -844,7 +844,7 @@ Schließe das Fenster nach der Installation mit dem `X`.
 ```
 
 Zuletzt musst du Sumatra PDF noch als Standard PDF-Betrachter einstellen.
-Suche dafür im Startmenü nach `Standard` und öffne _Standard-Apps_.
+Suche dafür im Startmenü nach {kbd}`Standard` und öffne {gui}`Standard-Apps`.
 
 ```{image} /img/sumatra/sumatra-standard-app-1.png
 :alt:
@@ -852,7 +852,7 @@ Suche dafür im Startmenü nach `Standard` und öffne _Standard-Apps_.
 :align: center
 ```
 
-In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Dateityp auswählen_,
+In dem geöffneten Fenster befindet sich unten der Link {gui}`Standard-Apps nach Dateityp auswählen`,
 
 ```{image} /img/sumatra/sumatra-standard-app-2.png
 :alt:
@@ -861,7 +861,7 @@ In dem geöffneten Fenster befindet sich unten der Link _Standard-Apps nach Date
 ```
 
 durch Klicken auf diesen wird ein weiteres Menü geöffnet (das Öffnen kann ein paar Sekunden dauern).
-In diesem musst du bis zu der Zeile nach unten scrollen, in der _.pdf_ in der ersten Spalte steht.
+In diesem musst du bis zu der Zeile nach unten scrollen, in der {gui}`.pdf` in der ersten Spalte steht.
 
 ```{image} /img/sumatra/sumatra-standard-app-3.png
 :alt:
@@ -869,12 +869,12 @@ In diesem musst du bis zu der Zeile nach unten scrollen, in der _.pdf_ in der er
 :align: center
 ```
 
-Ist in der zweiten Spalte bereits _SumatraPDF_ eingetragen, so musst du nichts Weiteres tun und
-kannst das Fenster wie gewöhnlich durch Klicken auf das `X` schließen.
+Ist in der zweiten Spalte bereits {gui}`SumatraPDF` eingetragen, so musst du nichts Weiteres tun und
+kannst das Fenster wie gewöhnlich durch Klicken auf das {gui}`X` schließen.
 
-Ist statt _SumatraPDF_ ein anderes Programm eingetragen (z. B. _Acrobat Reader_ oder _Microsoft Edge_)
+Ist statt {gui}`SumatraPDF` ein anderes Programm eingetragen (z. B. {gui}`Acrobat Reader` oder {gui}`Microsoft Edge`)
 kannst du durch Klicken auf den Programmnamen ein Auswahlmenü öffnen.
-In diesem wählst du dann _SumatraPDF_ aus.
+In diesem wählst du dann {gui}`SumatraPDF` aus.
 
 ```{image} /img/sumatra/sumatra-standard-app-4.png
 :alt:
@@ -912,7 +912,7 @@ musst du zunächst die _virtuelle Umgebung_  mit diesem Befehl aktivieren:
 mamba activate toolbox
 ```
 
-Durch diesen Befehl ändert sich der Beginn der Eingabezeile von _(base)_ zu _(toolbox)_.
+Durch diesen Befehl ändert sich der Beginn der Eingabezeile von `(base)` zu `(toolbox)`.
 
 Gib nun die folgenden Befehle nacheinander in das Windows Terminal ein.
 Nach Eingabe des ersten Befehls wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
@@ -1010,7 +1010,7 @@ restricted system commands enabled.
 **
 ```
 Momentan läuft das Programm `luatex`,
-mit dem Drücken der Tastenkombination `Strg-c` (`Strg` und `c`) kannst du es beenden.
+mit dem Drücken der Tastenkombination {kbd}`Strg` + {kbd}`c` kannst du es beenden.
 Nun testen wir ein weiteres Programm, das von LaTeX verwendet wird.
 Dies erreichst du durch Eingabe des Befehls
 ```shell
@@ -1062,7 +1062,7 @@ mamba update -n toolbox --all
 :align: center
 ```
 
-Auch hier musst du die Installation wieder mit einem `Y` gefolgt von einem `Enter` bestätigen.
+Auch hier musst du die Installation wieder mit einem {kbd}`Y` gefolgt von einem {kbd}`Enter` bestätigen.
 
 ```{image} /img/mamba/mamba-update-2.png
 :alt:

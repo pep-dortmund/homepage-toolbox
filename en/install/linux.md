@@ -17,7 +17,7 @@ as well as TeXLive.
 
 :::{caution} Important
   Commands to be entered into the terminal begin with `$`. Enter the commands
-  line by line (omitting the `$` symbol) and confirm each one by pressing Enter.
+  line by line (omitting the `$` symbol) and confirm each one by pressing {kbd}`Enter`.
 :::
 
 Installation steps are provided for the most common distributions.
@@ -62,13 +62,13 @@ an open-source variant of VSCode.
 :sync: deb
   Download the file `codium_<VERSION>_amd64.deb` from
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) and open it using
-  the Software Center (double-click the downloaded file). Click `Install`.
+  the Software Center (double-click the downloaded file). Click {gui}`Install`.
 :::
 :::{tab-item} Fedora
 :sync: fedora
   Download the file `codium_<VERSION>_el7.x86_64.rpm` from
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) and open it using
-  the Software Center (double-click the downloaded file). Click `Install`.
+  the Software Center (double-click the downloaded file). Click {gui}`Install`.
 :::
 :::{tab-item} Arch Linux
 :sync: arch
@@ -89,12 +89,12 @@ $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 $ bash Miniforge3-$(uname)-$(uname -m).sh -p ~/.local/conda
 ```
 
-Depending on the size of your terminal, you may need to press `Enter` repeatedly
+Depending on the size of your terminal, you may need to press {kbd}`Enter` repeatedly
 to scroll through the entire license agreement.
-Then, you can accept it by typing `yes`.
+Then, you can accept it by typing {kbd}`yes`.
 We specified the installation location in the third command; simply confirm the prompt
-by pressing `Enter`.
-_Do you wish to update your shell profile to automatically initialize conda?_ `yes`.
+by pressing {kbd}`Enter`.
+_Do you wish to update your shell profile to automatically initialize conda?_ {kbd}`yes`.
 
 With this, the base Python environment is installed.
 
@@ -146,7 +146,7 @@ $ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | t
 $ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Start the installation by pressing `I` followed by `Enter`.
+Start the installation by pressing {kbd}`I` followed by {kbd}`Enter`.
 
 After the installation, you have to inform the system where LaTeX has been installed.
 This is done within the `~/.bashrc` file.
@@ -261,7 +261,7 @@ This is LuaTeX, Version 1.24.0 (TeX Live 2026)
 **
 ```
 
-You can terminate the process with `Ctrl` + `c`.
+You can terminate the process with {kbd}`Ctrl` + {kbd}`c`.
 Next, we will test a program for managing bibliographies or references,
 ```shell
 $ biber
