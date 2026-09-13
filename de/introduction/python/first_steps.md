@@ -220,7 +220,7 @@ Sämtliche Kommentare werden beim Ausführen ignoriert,
 genauso wie die leeren Zeilen.
 Du kannst also beide nutzen, um deinen Code zu strukturieren.
 
-Weiter geht es in [Lektion 2 - Variablen](/introduction/variables).
+Weiter geht es in [Lektion 2 - Variablen](/introduction/python/variables).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.

@@ -245,7 +245,7 @@ print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
 
-Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control-structures).
+Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/python/control-structures).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.

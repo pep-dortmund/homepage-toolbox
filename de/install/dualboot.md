@@ -121,7 +121,7 @@ und dann das Häkchen bei Fast-Boot entfernen.
     [Linux Mint](https://www.linuxmint.com/download.php).
 
 1. Installiere das Tool `Rufus`, um das Image auf einen USB-Stick zu schreiben:
-   [rufus.akeo.ie](https://rufus.akeo.ie).
+   [rufus.ie/en](https://rufus.ie/en/).
 
 1. Schreibe mit Rufus das heruntergeladene Image auf den USB-Stick.
 

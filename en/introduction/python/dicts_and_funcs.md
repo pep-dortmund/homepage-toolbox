@@ -134,12 +134,12 @@ As you can see, the output is also in `e` notation,
 just like the format used for some of the values ​​we specified.
 
 That concludes the lessons in this introduction to `python`.
-We'll continue with the [Toolbox Workshop](/ablaufplan).
+We'll continue with the [Toolbox Workshop](/#ablaufplan).
 
 # Complete code
 At the end of each lesson, you will find the complete code for that lesson.
 As this is the last lesson,
-[you'll find all the code here.](/introduction/python/complete_introduction_en.py)
+[you'll find all the code here.](/introduction/python/complete_introduction.py)
 
 :::{seealso} Click here to show the complete code from for this lesson
 :class: dropdown
