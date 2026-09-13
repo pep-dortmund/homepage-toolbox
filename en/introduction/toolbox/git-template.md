@@ -8,7 +8,7 @@ If you don't have one yet, you can create one
 [here](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header).
 
 When using Git, it's easier to work with SSH keys instead of passwords.
-At the end of the [Git slides](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf),
+At the end of the [Git slides](https://toolbox.pep-dortmund.org/files/archive/previous/git.pdf),
 you will find instructions on how to set up SSH keys for authentication with GitHub.
 
 To use the template, follow

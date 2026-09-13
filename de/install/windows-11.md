@@ -409,7 +409,7 @@ Mit
 ls
 ```
 kannst du dir alle Dateien anzeigen, die sich im aktuellen Pfad befinden.
-Die Datei _Miniforge3-Linux-x86-64.sh_ sollte hier aufgeführt sein.
+Die Datei `Miniforge3-Linux-x86-64.sh` sollte hier aufgeführt sein.
 
 ```{image} /img/mamba/mamba-download.png
 :alt:

@@ -115,7 +115,7 @@ and then untick the box for Fast Boot.
     [Linux Mint](https://www.linuxmint.com/download.php).
 
 1. Install the tool `Rufus` to write the image to a USB drive:
-   [rufus.akeo.ie](https://rufus.akeo.ie).
+   [rufus.ie/en](https://rufus.ie/en/).
 
 1. Use Rufus to write the downloaded image to the USB drive.
 

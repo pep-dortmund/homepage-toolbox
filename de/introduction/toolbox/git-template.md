@@ -8,7 +8,7 @@ falls du also keinen hast, kannst du dir
 einen erstellen.
 
 In der Nutzung von git ist es einfacher, mit einem ssh-keys als Passwortersatz zu arbeiten.
-Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf)
+Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/previous/git.pdf)
 findest du eine Anleitung zum Einrichten von ssh-keys als Authentifizierungsmethode bei GitHub.
 
 Zum Nutzen des Templates folgst du

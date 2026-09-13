@@ -495,7 +495,7 @@ Der Download kann einige Zeit in Anspruch nehmen.
 ls
 ```
 Dieser Befehl zeigt alle Dateien an, die sich im aktuellen Ordner befinden.
-Die Datei _Miniforge3-Linux-x86-64.sh_ sollte hier aufgeführt sein.
+Die Datei `Miniforge3-Linux-x86-64.sh` sollte hier aufgeführt sein.
 
 ```{image} /img/mamba/mamba-download.png
 :alt:
@@ -606,7 +606,7 @@ angezeigt wird.
 :align: center
 ```
 
-Nach erfolgreicher Installation kannst du die Installationsdatei _Miniforge3-Linux-x86-64.sh_
+Nach erfolgreicher Installation kannst du die Installationsdatei `Miniforge3-Linux-x86-64.sh`
 mit dem Befehl
 
 ```shell

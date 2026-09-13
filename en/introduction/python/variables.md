@@ -18,7 +18,7 @@ in the last line.
 You can use the up arrow key to recall the last command entered
 and run it again by pressing `Enter`.
 If your terminal is closed, the steps to reopen it can be found
-[here](/introduction/first_steps_en/#terminal).
+[here](/introduction/python/first_steps/#terminal).
 You should now see this output:
 ```
 Hello World!
@@ -62,7 +62,7 @@ print(f"{hereIsAnother = }")
 As the name suggests, `f-strings` require an `f` and a string.
 You can see the `f` in both `print` functions, right after the opening parentheses.
 Strings are collections of characters, and we will look at them in the section
-[strings](/introduction/variables_en/#strings) immediately afterwards.
+[strings](/introduction/python/variables/#strings) immediately afterwards.
 For now, we only need to know that strings in Python begin and end with a `"`
 character.
 In `f-strings`, we use curly braces `{}` to output the value of the variable
@@ -242,7 +242,7 @@ print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
 
-Let's move on to [Lesson 3 - Control Structures](/introduction/control_structures).
+Let's move on to [Lesson 3 - Control Structures](/introduction/python/control-structures).
 
 # Complete code
 At the end of each lesson, you will find the complete code for that lesson.

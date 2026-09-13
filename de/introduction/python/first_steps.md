@@ -104,7 +104,7 @@ ist, weil `prnit` getippt wurde.
 `print` ist eine `python` Funktion, die es ermöglicht, verschiedenes auszugeben.
 Wir werden sie in diesen Einheiten häufiger verwenden, um uns alles Mögliche auszugeben.
 Alles, was innerhalb der `()`-Klammern steht, heißt Argument,
-in diesem Fall ist es der Text/[String](/introduction/variables/#strings) "Hello World!"
+in diesem Fall ist es der Text/[String](/introduction/python/variables/#strings) "Hello World!"
 Weitere Argumente können durch `,` getrennt, ausgegeben werden,
 z.B. `print("Hello World!", "Hello World!")`.
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
@@ -220,7 +220,7 @@ Sämtliche Kommentare werden beim Ausführen ignoriert,
 genauso wie die leeren Zeilen.
 Du kannst also beide nutzen, um deinen Code zu strukturieren.
 
-Weiter geht es in [Lektion 2 - Variablen](/introduction/variables).
+Weiter geht es in [Lektion 2 - Variablen](/introduction/python/variables).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.
