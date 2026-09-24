@@ -119,20 +119,11 @@ $ rm ~/.local/Miniforge3-*.sh
 
 ### TeXLive
 :::::{note} Nur bei Fedora Distributionen
-Installieren der **Perl** dependencies von `latexmk`.
-
-::::{tab-set}
-:::{tab-item} Fedora >= 41
+Installieren der **Perl** dependencies von `latexmk`,
+der Befehl gilt für Fedora >= 41.
 ```shell
 $ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)
 ```
-:::
-:::{tab-item} Fedora <= 40
-```shell
-$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)
-```
-:::
-::::
 :::::
 
 *Ab hier weiter für alle Linux Distributionen:*
