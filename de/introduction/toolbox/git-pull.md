@@ -7,7 +7,7 @@ Schreibe dazu
 ```shell
 git pull
 ```
-in dein Terminal und führe es mit `Enter` aus.
+in dein Terminal und führe es mit {kbd}`Enter` aus.
 Alle Änderungen, die auf GitHub hochgeladen wurden,
 nachdem du das letzte Mal `git pull` ausgeführt hast,
 werden so heruntergeladen und du kannst mit dem aktuellen Stand arbeiten.

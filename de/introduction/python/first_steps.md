@@ -13,18 +13,18 @@ So wie um Zeichen, die Sätze oder den Code strukturieren.
 Im Vergleich zu `C++` oder `Java`, zwei weitverbreiteten Sprachen,
 nutzt `python` weniger Zeichen, um den Code zu strukturieren.
 Ein paar gibt es dennoch, also bereitet eure
-`:`, `{`, `(`, `[`, `]`, `)`, `}`-Tasten vor.
+{kbd}`:`, {kbd}`{`, {kbd}`(`, {kbd}`[`, {kbd}`]`, {kbd}`)`, {kbd}`}`-Tasten vor.
 
 Das erste Programm, das typischerweise in einer neuen Programmiersprache geschrieben wird, ist _Hello World!_
-Das Gleiche wollen wir hier auch machen und `python` beibringen, uns etwas auszugeben.
+Das Gleiche wollen wir hier auch machen und mit `python` etwas ausgeben.
 
 ## VSCode/VSCodium
 Als Erstes öffnen wir dazu VSCode/VSCodium (VSC ab jetzt).
-Du hast einen Mac? Dann öffne den _Finder_ und tippe VSCodium ein,
+Du hast einen Mac? Dann öffne den {gui}`Finder` und tippe {kbd}`VSCodium` ein,
 öffne es dann auch.
 
-Nutzt du Windows, klickst du auf das Windows-Logo am unteren Bildschirmrand
-und tippst _VSCode_ ein und klickst auf die VSCode App.
+Nutzt du Windows, klickst du auf das Windows-Logo {icon}`ant-design:windows-filled` am unteren Bildschirmrand
+und tippst {kbd}`VSCode` ein und klickst auf die VSCode App.
 
 ```{image} /img/introduction/VSCode_Open.png
 :alt:
@@ -34,8 +34,8 @@ und tippst _VSCode_ ein und klickst auf die VSCode App.
 
 Jetzt wollen wir einen Ordner _ToolboxWorkshop_ auf dem Desktop erstellen
 und darin eine Datei _introduction.py_ anlegen.
-In VSC gibt es in der oberen Leiste _File_/_Datei_,
-klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
+In VSC gibt es in der oberen Leiste {gui}`File`/{gui}`Datei`,
+klicke darauf und dann auf {gui}`Öffne Ordner`/{gui}`Open Folder`.
 
 ```{image} /img/introduction/VSCode_NewDir1.png
 :alt:
@@ -44,7 +44,7 @@ klicke darauf und dann auf _Öffne Ordner_/_Open Folder_.
 ```
 
 Es kann sein, dass sich der folgende Dialog in der Mitte von VSC öffnet.
-Klicke dann auf _Show local_ oder das deutsche Äquivalent.
+Klicke dann auf {gui}`Show local` oder das deutsche Äquivalent.
 
 ```{image} /img/introduction/VSCode_NewDir2.png
 :alt:
@@ -53,8 +53,8 @@ Klicke dann auf _Show local_ oder das deutsche Äquivalent.
 ```
 
 Navigiere in dem aufgehenden Fenster auf deinen Schreibtisch/Desktop
-und erstelle einen neuen Ordner mit dem Namen `ToolboxWorkshop`.
-In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
+und erstelle einen neuen Ordner mit dem Namen {kbd}`ToolboxWorkshop`.
+In Windows kannst du den Knopf {gui}`Neuer Ordner`/{gui}`New folder` dafür nutzen.
 
 ```{image} /img/introduction/VSCode_NewDir3.png
 :alt:
@@ -62,7 +62,7 @@ In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 :align: center
 ```
 
-Öffne diesen Ordner mit dem Knopf _Öffne Ordner_/_Select Folder_ unten rechts.
+Öffne diesen Ordner mit dem Knopf {gui}`Öffne Ordner`/{gui}`Select Folder` unten rechts.
 
 ```{image} /img/introduction/VSCode_NewDir4.png
 :alt:
@@ -71,9 +71,9 @@ In Windows kannst du den Knopf _Neuer Ordner_/_New folder_ dafür nutzen.
 ```
 
 In VSC kannst du jetzt in der linken Seitenleiste
-eine Datei erstellen, klicke dazu auf das erste Symbol hinter _TOOLBOXWORKSHOP_.
-Gib ihr den Namen `introduction.py`.
-Wenn du den Namen eingegeben hast, kannst du es mit `Enter` bestätigen.
+eine Datei erstellen, klicke dazu auf das erste Symbol {icon}`ant-design:file-add-outlined` hinter {gui}`TOOLBOXWORKSHOP`.
+Gib ihr den Namen {kbd}`introduction.py`.
+Wenn du den Namen eingegeben hast, kannst du es mit {kbd}`Enter` bestätigen.
 
 ```{image} /img/introduction/VSCode_NewFile.png
 :alt:
@@ -108,7 +108,7 @@ in diesem Fall ist es der Text/[String](/introduction/variables/#strings) "Hello
 Weitere Argumente können durch `,` getrennt, ausgegeben werden,
 z.B. `print("Hello World!", "Hello World!")`.
 Eine `python`-Funktion kannst du dir vorstellen wie eine mathematische Funktion,
-z.B. $$f(x) = x^2$$.
+z.B. $$f(x) = x^2.$$
 Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 
 ```{image} /img/introduction/VSCode_HelloWorld.png
@@ -120,12 +120,14 @@ Nur, dass in `python` nicht nur Zahlen als Argumente verwendet werden können.
 Dein VSC sollte jetzt ähnlich zum folgenden Screenshot aussehen.
 Wichtig ist der weiße Kreis neben dem Dateinamen.
 Dieser bedeutet, dass die Änderungen in der Datei noch nicht gespeichert sind.
-Speichern kannst du mit `Strg` + `s`, oder über _File_ und dann _Datei speichern_/_Save File_.
+Speichern kannst du mit {kbd}`Strg` + {kbd}`s`, oder über {gui}`File` und dann {gui}`Datei speichern`/{gui}`Save File`.
 Hier steht dann auch die Tastenkombination zum Speichern auf deinem Betriebssystem.
 
-**Bevor du eine `python`-Datei ausführst, musst du deine Änderungen speichern,
+:::{tip} Änderungen speichern
+Bevor du eine `python`-Datei ausführst, musst du deine Änderungen speichern,
 sonst kann `python` deinen neu geschriebenen Code nicht ausführen.
-Achte also immer auf den weißen Punkt.**
+Achte also immer auf den weißen Punkt.
+:::
 
 ## Terminal öffnen und `python` ausführen
 Für Windows ist dieser Abschnitt an einigen Stellen ausführlicher,
@@ -134,7 +136,7 @@ sind diese Schritte dann für dich nicht notwendig.
 
 Nun öffnen wir das in VSC integrierte Terminal, um darüber unsere `python`-Datei auszuführen.
 Klicke dazu mit einem Rechtsklick auf den Dateinamen in der Liste links und dann auf
-_Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
+{gui}`Öffne in integriertem Terminal`/{gui}`Open in Integrated Terminal`.
 
 ```{image} /img/introduction/VSCode_Terminal0.png
 :alt:
@@ -144,8 +146,8 @@ _Öffne in integriertem Terminal_/_Open in Integrated Terminal_.
 
 Am unteren Rand des Fensters ist jetzt das Terminal geöffnet.
 
-:::{caution} Windows
-Steht am rechten oberen Rand des Terminals `powershell`,
+:::{attention} Windows
+Steht am rechten oberen Rand des Terminals {icon}`codicon:terminal-powershell` {gui}`powershell`,
 musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 
 ```{image} /img/introduction/VSCode_Terminal1.png
@@ -154,16 +156,16 @@ musst du dein [Terminal noch einrichten](/install/windows-11/#windows-11-term).
 :align: center
 ```
 
-Wiederhole jetzt den Schritt mit `Öffne in integriertem Terminal`/`Open in Integrated Terminal`.
+Wiederhole jetzt den Schritt mit {gui}`Öffne in integriertem Terminal`/{gui}`Open in Integrated Terminal`.
 :::
 
-Schreibe in dein Terminal `ls` und führe den Befehl aus,
-indem du auf `Enter` drückst.
-`ls` ist kurz fürs _list_ und gibt dir aus, welche Dateien in einem Ordner sind.
+Schreibe in dein Terminal {kbd}`ls` und führe den Befehl aus,
+indem du auf {kbd}`Enter` drückst.
+{kbd}`ls` ist kurz für `list` und gibt dir aus, welche Dateien in einem Ordner sind.
 Es werden dir verschiedene Namen zurückgegeben,
 du solltest in den zurückgegebenen Namen `introduction.py` sehen.
 <!-- find Befehl der in einem sinnvollen Rahmen nach introduction.py sucht und in den Ordner geht? -->
-Schreibe jetzt `python introduction.py` in dein Terminal und führe es mit `Enter` aus.
+Schreibe jetzt {kbd}`python introduction.py` in dein Terminal und führe es mit {kbd}`Enter` aus.
 Als Ausgabe siehst du `Hello World!`, also gerade das,
 was wir als Argument in `print` geschrieben haben.
 
@@ -180,17 +182,19 @@ dahinter folgt der Name deines Laptops/Rechners.
 In Blau steht hinter dem `:` der Pfad, die Ordner getrennt durch `/`.
 Dies ist der Prompt und kann individuell angepasst werden.
 
-**Wenn es in Zukunft heißt, führe `python introduction.py` aus,
-ist damit gemeint, dass du im Terminal `python introduction.py` eintippst
-und es mit `Enter` ausführst.
+:::{tip} `python`-Skripte ausführen
+Wenn es in Zukunft heißt, führe {kbd}`python introduction.py` aus,
+ist damit gemeint, dass du im Terminal {kbd}`python introduction.py` eintippst
+und es mit {kbd}`Enter` ausführst.
 Du kannst das abkürzen, indem du den zuletzt ausgeführten Befehl mit
-`Pfeil nach oben` und `Enter` wiederholst.**
+„Pfeil nach oben" {icon}`bi:arrow-up-square` und {kbd}`Enter` wiederholst.
+:::
 
 
 ## Kommentare
 In Programmiersprachen sollen Kommentare verwendet werden, um den Code zu erklären.
 Das ist nützlich für dich und andere Leute, die mit deinem Code arbeiten,
-zum Beispiel dein/e Partnerïn im Praktikum.
+zum Beispiel dein/e Partner/in im Praktikum.
 Kommentare können auch verwendet werden, um Abschnitten im Code eine Art Überschrift
 zu geben. Für die Praktikumsprotokolle könnten das _Daten einlesen_,
 _Ausgleichsrechnung_ und _grafische Darstellung_ sein.

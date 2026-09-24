@@ -13,18 +13,18 @@ In addition, it involves the characters used to structure sentences or code.
 Compared with `C++` or `Java`, two widely used languages,
 `python` uses fewer characters to structure code.
 There are still a few, however, so get your
-`:`, `{`, `(`, `[`, `]`, `)` and `}` keys ready.
+{kbd}`:`, {kbd}`{`, {kbd}`(`, {kbd}`[`, {kbd}`]`, {kbd}`)` and {kbd}`}` keys ready.
 
 The first program typically written in a new programming language is _Hello World!_
 We will do the same here and teach `python` to output something for us.
 
 ## VSCode/VSCodium
 To start, open VSCode or VSCodium (from here referred to as VSC).
-Do you have a Mac? Then, open _Finder_, type "VSCodium,"
+Do you have a Mac? Then, open {gui}`Finder`, type {kbd}`VSCodium`,
 and open the application.
 
-If you're using Windows, click on the Windows logo at the bottom of the screen,
-type "VSCode," and click on the VSCode app.
+If you're using Windows, click on the Windows logo {icon}`ant-design:windows-filled` at the bottom of the screen,
+type {kbd}`VSCode`, and click on the VSCode app.
 
 ```{image} /img/introduction/VSCode_Open.png
 :alt:
@@ -34,8 +34,8 @@ type "VSCode," and click on the VSCode app.
 
 Now, create a folder called _ToolboxWorkshop_ on the Desktop
 and create a file named _introduction.py_ inside it.
-In VSC, there's a _File_ menu in the top bar;
-click on it, and then select _Open Folder_.
+In VSC, there's a {gui}`File` menu in the top bar;
+click on it, and then select {gui}`Open Folder`.
 
 ```{image} /img/introduction/VSCode_NewDir1.png
 :alt:
@@ -44,7 +44,7 @@ click on it, and then select _Open Folder_.
 ```
 
 The following dialog might open in the middle of VSC.
-If it does, click _Show local_.
+If it does, click {gui}`Show local`.
 
 ```{image} /img/introduction/VSCode_NewDir2.png
 :alt:
@@ -53,8 +53,8 @@ If it does, click _Show local_.
 ```
 
 Navigate to the Desktop in the window that appears
-and create a new folder called `ToolboxWorkshop`.
-In Windows, you can use the _New folder_ button for this.
+and create a new folder called {kbd}`ToolboxWorkshop`.
+In Windows, you can use the {gui}`New folder` button for this.
 
 ```{image} /img/introduction/VSCode_NewDir3.png
 :alt:
@@ -62,7 +62,7 @@ In Windows, you can use the _New folder_ button for this.
 :align: center
 ```
 
-Open this folder with the _Select Folder_ button on the lower right.
+Open this folder with the {gui}`Select Folder` button on the lower right.
 
 ```{image} /img/introduction/VSCode_NewDir4.png
 :alt:
@@ -71,9 +71,9 @@ Open this folder with the _Select Folder_ button on the lower right.
 ```
 
 In VSC, create a file in the left sidebar; to do so,
-click on the first icon to the right of _TOOLBOXWORKSHOP_.
-Rename the file to `introduction.py`.
-When you've entered the name, confirm it by pressing `Enter`.
+click on the first icon {icon}`ant-design:file-add-outlined` to the right of {gui}`TOOLBOXWORKSHOP`.
+Rename the file to {kbd}`introduction.py`.
+When you've entered the name, confirm it by pressing {kbd}`Enter`.
 
 ```{image} /img/introduction/VSCode_NewFile.png
 :alt:
@@ -107,7 +107,7 @@ in this case, it is the text/[string](/introduction/variables_en/#Strings) "Hell
 Additional arguments can be output by separating them with a comma (`,`);
 for example, `print("Hello World!", "Hello World!")`.
 You can think of a `python` function as behaving like a mathematical function,
-such as $$f(x) = x^2$$.
+such as $$f(x) = x^2.$$
 The difference is that `python` allows more than just numbers to be used as arguments.
 
 ```{image} /img/introduction/VSCode_HelloWorld.png
@@ -119,12 +119,14 @@ The difference is that `python` allows more than just numbers to be used as argu
 Your VSC should now look similar to the screenshot below.
 The white circle next to the filename is important.
 It indicates that the changes in the file have not yet been saved.
-You can save using `Ctrl` + `s`, or via _File_ and then _Save File_.
+You can save using {kbd}`Ctrl` + {kbd}`s`, or via {gui}`File` and then {gui}`Save File`.
 The keyboard shortcut for saving on your operating system is also displayed there.
 
-**Before you run a `python` file, you must save your changes;
+:::{tip} Saving changes
+Before you run a `python` file, you must save your changes;
 otherwise, `python` cannot execute your newly written code.
-Always keep an eye out for the white dot.**
+Always keep an eye out for the white dot.
+:::
 
 ## Open the terminal and run `python`
 This section is more detailed in certain parts for Windows;
@@ -132,8 +134,8 @@ if you are using a different operating system,
 these steps are not necessary for you.
 
 Now, we open the terminal integrated into VSC to run our `python` file.
-To do this, right-click the file name in the list on the left
-and then click _Open in Integrated Terminal_.
+To do this, {kbd}`right-click` the file name in the list on the left
+and then click {gui}`Open in Integrated Terminal`.
 
 ```{image} /img/introduction/VSCode_Terminal0.png
 :alt:
@@ -143,8 +145,8 @@ and then click _Open in Integrated Terminal_.
 
 The terminal is now open at the bottom of the window.
 
-:::{caution} Windows
-If `powershell` appears at the top right of the terminal,
+:::{attention} Windows
+If {icon}`codicon:terminal-powershell` {gui}`powershell` appears at the top right of the terminal,
 you still need to [set up your terminal](/install/windows-11/#windows-11-term).
 
 ```{image} /img/introduction/VSCode_Terminal1.png
@@ -153,17 +155,17 @@ you still need to [set up your terminal](/install/windows-11/#windows-11-term).
 :align: center
 ```
 
-Now repeat the step using _Open in Integrated Terminal_.
+Now repeat the step using {gui}`Open in Integrated Terminal`.
 :::
 
 
-Type `ls` into your terminal and run the command
-by pressing `Enter`.
-`ls` stands for _list_ and displays the files contained in a folder.
+Type {kbd}`ls` into your terminal and run the command
+by pressing {kbd}`Enter`.
+{kbd}`ls` stands for `list` and displays the files contained in a folder.
 You will see a list of names;
 there should be `introduction.py` among them.
 <!-- A find command that searches for introduction.py within a reasonable scope and navigates to the folder? -->
-Now type `python introduction.py` into your terminal and run it by pressing `Enter`.
+Now type {kbd}`python introduction.py` into your terminal and run it by pressing {kbd}`Enter`.
 The output will be `Hello World!`, exactly
 what we passed as an argument to `print`.
 
@@ -180,11 +182,13 @@ followed by the name of your laptop or computer.
 The path appears in blue after the `:`, with folders separated by `/`.
 This is the prompt, and it can be customized.
 
-**Whenever the instructions say to run `python introduction.py` in the future,
-it means you should type `python introduction.py` into the terminal
-and execute it by pressing `Enter`.
+:::{tip} Running `python`-scripts
+Whenever the instructions say to run `python introduction.py` in the future,
+it means you should type {kbd}`python introduction.py` into the terminal
+and execute it by pressing {kbd}`Enter`.
 You can save time by repeating the last command you ran
-using the `Up Arrow` key and `Enter`.**
+using the {kbd}`Up Arrow` key {icon}`bi:arrow-up-square` and {kbd}`Enter`.
+:::
 
 
 ## Comments

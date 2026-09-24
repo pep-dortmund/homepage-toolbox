@@ -77,8 +77,8 @@ damit arbeiten zu können, empfehlen wir mindestens 30 GB, besser 100 GB.
 Um Linux auf die gleiche Festplatte wie Windows zu installieren,
 musst du als Erstes eine Partition auf dieser Festplatte verkleinern.
 
-Öffne hierzu die Datenträgerverwaltung (`Rechtsklick aufs Startmenü → Datenträgerverwaltung`),
-wähle eine Partition zum Verkleinern aus (zum Beispiel C:\\) mit `Rechtsklick → Volume verkleinern...`.
+Öffne hierzu die Datenträgerverwaltung ({kbd}`Rechtsklick aufs Startmenü → Datenträgerverwaltung`),
+wähle eine Partition zum Verkleinern aus (zum Beispiel C:\\) mit {kbd}`Rechtsklick → Volume verkleinern...`.
 
 Nun wird es einen Moment dauern, während geprüft wird,
 um viel die Partition verkleinert werden kann.
@@ -94,14 +94,14 @@ und können in beiden System falsch sein.
 
 Um Windows ebenfalls auf UTC umzustellen, muss die Registry bearbeitet werden.
 
-1. Öffne das Programm `regedit`; am einfachsten, indem du `regedit` tippst,
-  während das Startmenü offen ist, und auf `Registrierungs-Editor` klickst.
+1. Öffne das Programm {gui}`regedit`; am einfachsten, indem du {kbd}`regedit` tippst,
+  während das Startmenü offen ist, und auf {gui}`Registrierungs-Editor` klickst.
 
 1. Navigiere auf der linken Seite zu
-  `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
+  {kbd}`HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation`
 
-1. Erstelle per `Rechtsklick → neu → DWORD` einen neuen Schlüssel mit dem Namen
-  `RealTimeIsUniversal` und setze den Wert auf `1`.
+1. Erstelle per {kbd}`Rechtsklick → neu → DWORD` einen neuen Schlüssel mit dem Namen
+  {kbd}`RealTimeIsUniversal` und setze den Wert auf {kbd}`1`.
 
 
 ## Fast-Boot deaktivieren
@@ -111,7 +111,7 @@ um beim nächsten Start schneller betriebsbereit zu sein.
 Dies verträgt sich aber nicht mit zwei Betriebssystemen,
 die auf die gleichen Dateisysteme zugreifen.
 
-`Rechtsklick auf Start → Energieoptionen → Auswählen was beim Drücken des Netzschalters geschehen soll`
+{kbd}`Rechtsklick auf Start → Energieoptionen → Auswählen was beim Drücken des Netzschalters geschehen soll`
 und dann das Häkchen bei Fast-Boot entfernen.
 
 (bootstick)=
@@ -120,7 +120,7 @@ und dann das Häkchen bei Fast-Boot entfernen.
 1. Lade das Image deiner ausgewählten Linux Distribution herunter, zum Beispiel
     [Linux Mint](https://www.linuxmint.com/download.php).
 
-1. Installiere das Tool `Rufus`, um das Image auf einen USB-Stick zu schreiben:
+1. Installiere das Tool {gui}`Rufus`, um das Image auf einen USB-Stick zu schreiben:
    [rufus.akeo.ie](https://rufus.akeo.ie).
 
 1. Schreibe mit Rufus das heruntergeladene Image auf den USB-Stick.
@@ -130,36 +130,36 @@ und dann das Häkchen bei Fast-Boot entfernen.
 Personen mit einem Acer-Laptop befolgen bitte gleichzeitig
 [diese Anleitung](https://wiki.ubuntuusers.de/EFI_Problembehebung/#Acer-Rechner).
 Also tatsächlich herunterfahren, den Stick einstecken,
-dann hochfahren und während das Acer-Logo zu sehen ist `F2` drücken.
-Unter dem Punkt `Main` das `F12 Boot Menu` auf `enabled` setzen.
+dann hochfahren und während das Acer-Logo zu sehen ist {kbd}`F2` drücken.
+Unter dem Punkt {gui}`Main` das {gui}`F12 Boot Menu` auf {gui}`enabled` setzen.
 Nun die ersten 10 Punkte durchgehen.
-Nach dem Verlassen des Menüs beim erneuten Anzeigen des Acer-Logos `F12` drücken.
+Nach dem Verlassen des Menüs beim erneuten Anzeigen des Acer-Logos {kbd}`F12` drücken.
 Mit den Pfeiltasten kann jetzt der Stick ausgewählt werden.
 Dann die Installation hier ab 4. starten.
 Bei Punkt 10 (hier) wieder dem Link folgen und die letzten 11 Punkte durchgehen.
 
 
-1. Klicke mit `Shift` auf `Neustarten`.
+1. Klicke mit {kbd}`Shift` auf {gui}`Neustarten`.
 
-1. Wähle `Ein Gerät benutzen`
+1. Wähle {gui}`Ein Gerät benutzen`
 
-1. Wähle den USB-Stick, vermutlich `UEFI USB Device`.
+1. Wähle den USB-Stick, vermutlich {gui}`UEFI USB Device`.
   Der Computer startet neu und bootet in die Linux Installation.
 
 1. Du solltest als Sprache Englisch wählen, aus dem einfachen Grund,
   dass der Großteil der Online-Dokumentation auf Englisch sind.
 
 1. Das Keyboard-Layout sollte zu deinem Laptop passen,
-  also vermutlich `German (eliminate dead keys)`.
-  Die `eliminate dead keys` Variante sorgt dafür, dass Akzente direkt erscheinen,
+  also vermutlich {gui}`German (eliminate dead keys)`.
+  Die {gui}`eliminate dead keys` Variante sorgt dafür, dass Akzente direkt erscheinen,
   was sehr hilfreich für LaTeX ist.
 
-1. Aktiviere die Optionen `Install Third Party Software` und falls du mit einem
+1. Aktiviere die Optionen {gui}`Install Third Party Software` und falls du mit einem
   Netzwerk verbunden bist, installiert Updates während der Installation.
 
 1. Die Installation scannt nun deine Festplatte und sollte Windows und den
   freigegebenen Speicher finden.
-  War dies erfolgreich, wähle die Option `Install along-side Windows 10` oder 11.
+  War dies erfolgreich, wähle die Option {gui}`Install along-side Windows 10` oder 11.
 
 1. Wähle die korrekte Zeitzone
 

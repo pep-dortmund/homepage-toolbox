@@ -7,14 +7,14 @@ falls du also keinen hast, kannst du dir
 [hier](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header)
 einen erstellen.
 
-In der Nutzung von git ist es einfacher, mit einem ssh-keys als Passwortersatz zu arbeiten.
+In der Nutzung von git ist es einfacher, mit einem _ssh-keys_ als Passwortersatz zu arbeiten.
 Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf)
-findest du eine Anleitung zum Einrichten von ssh-keys als Authentifizierungsmethode bei GitHub.
+findest du eine Anleitung zum Einrichten von _ssh-keys_ als Authentifizierungsmethode bei GitHub.
 
 Zum Nutzen des Templates folgst du
 [diesem Link zum Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template).
-Dort klickst du auf den grünen Knopf _Use this template_, rechts am Bildrand.
-Im Dialog, der erscheint, wählst du dann _Create a new repository_ aus.
+Dort klickst du auf den grünen Knopf {gui}`Use this template`, rechts am Bildrand.
+Im Dialog, der erscheint, wählst du dann {gui}`Create a new repository` aus.
 
 ```{image} /img/toolbox/template_0.png
 :alt:
@@ -23,17 +23,17 @@ Im Dialog, der erscheint, wählst du dann _Create a new repository_ aus.
 
 Auf der folgenden Seite musst du ein paar Sachen eintragen.
 
-1. Als _Repository template_ muss _pep-dortmund/toolbox-workshop-protocol-template_ ausgewählt sein.
-2. Bei _Owner_ wird dein GitHub Nutzername stehen, nicht _chrbeckm_, der schreibt nur diese Anleitung.
-3. Im Textfeld unterhalb von _Repository name*_ musst du einen Namen für dein Repository angeben.
+1. Als {gui}`Repository template` muss {gui}`pep-dortmund/toolbox-workshop-protocol-template` ausgewählt sein.
+2. Bei {gui}`Owner` wird dein GitHub Nutzername stehen, nicht {gui}`chrbeckm`, der schreibt nur diese Anleitung.
+3. Im Textfeld unterhalb von {gui}`Repository name*` musst du einen Namen für dein Repository angeben.
   Wichtig ist hier, dass der Name von dir noch nicht vergeben ist, das zeigt dir GitHub aber auch mit einem grünen Haken an.
    Hier ist als Beispiel der Name `lab_course_2025_26` vergeben,
    du kannst aber zum Beispiel auch `anfaengerpraktikum_20xx_xx` wählen und die `x` mit den entsprechenden Jahren ersetzen.
    Ein guter Name vereinfacht es, das Repository später besser wiederzufinden.
-4. _Public_ oder _Private_: Du kannst wählen, ob dein Repository öffentlich,
+1. {gui}`Public` oder {gui}`Private`: Du kannst wählen, ob dein Repository öffentlich,
   also von allen Internetnutzenden gesehen werden kann, oder privat ist
   und nur von dir und eingeladenen GitHub-Nutzenden angesehen werden kann.
-5. Zum Schluss klickst du auf _Create repository_.
+1. Zum Schluss klickst du auf {gui}`Create repository`.
 
 ```{image} /img/toolbox/template_1.png
 :alt:
