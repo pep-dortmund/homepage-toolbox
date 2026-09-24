@@ -29,7 +29,7 @@ jede Eingabe mit einem `sudo` Befehl muss penibel geprüft werden.
 ### Git, Make, curl
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 ```shell
 $ sudo apt update
@@ -58,7 +58,7 @@ Die Binärdateien, die Microsoft bei VSCode zur Verfügung stellt, sind propriet
 und enthalten Tracking Software. Deswegen empfehlen wir VSCodium, eine Open-Source-Variante von VSCode.
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 Lade die Datei `codium_<VERSION>_amd64.deb` von
 [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) herunter und öffne sie mit
@@ -271,7 +271,7 @@ $ texdoc texlive
 
 ### Generell
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 ```shell
 $ sudo apt update

@@ -29,7 +29,7 @@ Thus, any command executed using `sudo` should be scrutinised with the utmost ca
 ### Git, Make, curl
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 ```shell
 $ sudo apt update
@@ -58,7 +58,7 @@ and contain tracking software. For this reason, we recommend VSCodium,
 an open-source variant of VSCode.
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
   Download the file `codium_<VERSION>_amd64.deb` from
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) and open it using
@@ -280,7 +280,7 @@ $ texdoc texlive
 ### General
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 ```shell
 $ sudo apt update
