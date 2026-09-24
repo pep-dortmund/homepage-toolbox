@@ -59,9 +59,13 @@ touch data/{quader,puppe,feder}.txt
 We won't go into the details of writing the code here,
 but the provided materials can be used as a reference at any time.
 If you want to run the code while you are working on it,
-you can bring up the terminal again using `Ctrl` + `\` (US keyboard),
-then use the up arrow key to scroll through recent commands 
-and execute them by pressing `Enter`.
+you can bring up the terminal again using {kbd}`Ctrl` + {kbd}`` ` `` (US keyboard),
+then use the up arrow key {icon}`bi:arrow-up-square` to scroll through recent commands 
+and execute them by pressing {kbd}`Enter`.
 
-**Before working with `python`, you should activate the toolbox environment:
-`mamba activate toolbox`.**
+:::{attention} `python`-environment
+Before working with `python`, you should activate the toolbox environment:
+```shell
+mamba activate toolbox
+```
+:::
