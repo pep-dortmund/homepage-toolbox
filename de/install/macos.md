@@ -27,8 +27,8 @@ Gib die Befehle Zeile für Zeile ein und bestätige sie mit Enter.
 ### Terminal
 
 - Das Terminal ist in jeder OS X Distribution enthalten.
-- Suche im Spotlight nach „Terminal“.
-- Das Programm befindet sich in `Programme/Dienstprogramme/Terminal.app`.
+- Suche im Spotlight nach {gui}`Terminal`.
+- Das Programm befindet sich in {gui}`Programme/Dienstprogramme/Terminal.app`.
 
 
 ### Command Line Tools
@@ -40,8 +40,8 @@ Zur Installation gibst du Folgendes im Terminal ein,
 xcode-select --install
 ```
 
-und führst den Befehl mit `Enter` aus.
-Danach „Installieren“ auswählen und warten. Der Download wiegt etwa 130 MB.
+und führst den Befehl mit {kbd}`Enter` aus.
+Danach {gui}`Installieren` auswählen und warten. Der Download wiegt etwa 130 MB.
 
 
 ### Python Installation: Miniforge3
@@ -57,9 +57,10 @@ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mini
 bash Miniforge3-$(uname)-$(uname -m).sh
 ```
 
-Die Lizenzvereinbarung musst du je nach Größe des Terminals mit `Enter` bis zum Ende erweitern.
-Und dann kannst du sie mit `yes` akzeptieren.
-Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit `Enter`. Nach dem Installationsvorgang sollte eine Nachricht wie
+Die Lizenzvereinbarung musst du je nach Größe des Terminals mit {kbd}`Enter` bis zum Ende erweitern.
+Und dann kannst du sie mit {kbd}`yes` akzeptieren.
+Den Ort der Installation haben wir im dritten Befehl gesetzt, die Abfrage bestätigst du mit {kbd}`Enter`. 
+Nach dem Installationsvorgang sollte eine Nachricht wie
 ```shell
 Do you wish to update your shell profile to automatically initialize conda?
 This will activate conda on startup and change the command prompt when activated.
@@ -71,14 +72,14 @@ conda config --set auto_activate_base false
 You can undo this by running `conda init --reverse $SHELL`? [yes|no]
 [no] >>>
 ```
-erscheinen. Diese musst du abermals mit `yes` bestätigen.
+erscheinen. Diese musst du abermals mit {kbd}`yes` bestätigen.
 
 
 Damit ist die allgemeine Python-Umgebung installiert.
 
 :::{caution} Wichtig
-Für den folgenden Schritt musst du ein neues Terminal öffnen. Wähle dazu in der App „Terminal“
-den Punkt „**Terminal**“ und dann „**Terminal beenden**“.
+Für den folgenden Schritt musst du ein neues Terminal öffnen. Wähle dazu in der App **Terminal**
+den Punkt {gui}`Terminal` und dann {gui}`Terminal beenden`.
 :::
 
 Im Anschluss erstellst du jetzt noch einen spezielle Python-Umgebung für den Toolbox Workshop mittels:
@@ -118,18 +119,18 @@ Deswegen empfehlen wir dir VSCodium, eine Open-Source-Variante von VSCode.
 - Lade die neueste Version der Datei `VsCodium-darwin-<VERSION>.zip` von
   [dieser Webseite](https://github.com/VSCodium/vscodium/releases) herunter.
 - Das Programm „VSCodium.app“ findest du in der ZIP-Datei im Downloadordner
-  und musst sie nach `Programme` verschieben.
+  und musst sie nach {gui}`Programme` verschieben.
 - Als nächsten Schritt öffnest du die App.
   Bei neueren macOS-Versionen verhindert macOS eventuell den Start,
-  und du musst zunächst in den Systemeinstellungen unter „Allgemein“
-  und „Sicherheit“ auf den „Dennoch öffnen“ Button klicken.
-- In VSCodium öffnest du mit `Shift` + `cmd` + `p` die Kommando-Palette
+  und du musst zunächst in den Systemeinstellungen unter {gui}`Allgemein`
+  und {gui}`Sicherheit` auf den {gui}`Dennoch öffnen`-Knopf klicken.
+- In VSCodium öffnest du mit {icon}`carbon:mac-shift` {kbd}`Shift` + {icon}`carbon:mac-command` {kbd}`cmd` + {kbd}`p` die Kommando-Palette
   und schreibst dort
   ```
   Shell Command: Install 'codium' command in PATH
   ```
-  führst es dann mit `Enter` aus.
-  So wird VSCodium nun auch geöffnet, wenn du im Terminal `codium` eingibst.
+  führst es dann mit {kbd}`Enter` aus.
+  So wird VSCodium nun auch geöffnet, wenn du im Terminal {kbd}`codium` eingibst.
 
 Um git beizubringen, VSCodium zu benutzen, gibst du im Terminal ein:
 
@@ -162,7 +163,7 @@ git
 Es sollte die Git-Hilfe erscheinen.
 
 Für git kannst du im Terminal noch etwas einstellen.
-Tippe die folgenden Zeilen **nacheinander** in dein Terminal und bestätige sie mit `Enter`,
+Tippe die folgenden Zeilen **nacheinander** in dein Terminal und bestätige sie mit {kbd}`Enter`,
 aber **<span style="color: crimson;">trage deine eigenen Daten ein!</span>**:
 
 ```shell
@@ -187,7 +188,7 @@ ipython
 ```
 
 `ipython` sollte gestartet sein und du hast statt des `$`-Zeichens einen nummerierten Prompt.
-Jetzt gibst du jeweils den Teil der Zeile nach dem `:` ein und bestätigst mit `Enter`.
+Jetzt gibst du jeweils den Teil der Zeile nach dem `:` ein und führst den Befehl jeweils mit {kbd}`Enter`.
 
 ```ipython
 In [1]: %matplotlib
@@ -237,7 +238,7 @@ restricted system commands enabled.
 **
 ```
 
-Mit `Strg` + `c` kannst du es beenden.
+Mit {kbd}`Strg` + {kbd}`c` kannst du es beenden.
 Dann testen wir als Nächstes
 
 ```shell
