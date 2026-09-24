@@ -102,7 +102,7 @@ und dann ein neues Terminal öffnen.
 
 Dein Prompt sollte jetzt mit `base` beginnen.
 Im Anschluss erstellst du jetzt noch eine spezielle Python-Umgebung für den Toolbox Workshop mittels:
-```shell
+```{code-block} shell
 $ mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
 ```
 
@@ -119,20 +119,11 @@ $ rm ~/.local/Miniforge3-*.sh
 
 ### TeXLive
 :::::{note} Nur bei Fedora Distributionen
-Installieren der **Perl** dependencies von `latexmk`.
-
-::::{tab-set}
-:::{tab-item} Fedora >= 41
+Installieren der **Perl** dependencies von `latexmk`,
+der Befehl gilt für Fedora >= 41.
 ```shell
-$ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)</code></pre>
+$ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)
 ```
-:::
-:::{tab-item} Fedora <= 40
-```shell
-$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)</code></pre>
-```
-:::
-::::
 :::::
 
 *Ab hier weiter für alle Linux Distributionen:*

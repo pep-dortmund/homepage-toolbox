@@ -121,19 +121,10 @@ $ rm ~/.local/Miniforge3-*.sh
 
 :::::{note} For Fedora Distributions Only
 Installing **Perl** dependencies for `latexmk`.
-
-::::{tab-set}
-:::{tab-item} Fedora >= 41
+This command is valid for Fedora >= 41
 ```shell
-$ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)</code></pre>
+$ sudo dnf install -y $(dnf repoquery --providers-of=requires latexmk | grep perl)
 ```
-:::
-:::{tab-item} Fedora <= 40
-```shell
-$ sudo dnf install -y $(dnf repoquery --requires --resolve latexmk | grep perl)</code></pre>
-```
-:::
-::::
 :::::
 
 *Continue here for all Linux distributions:*
