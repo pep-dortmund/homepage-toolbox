@@ -7,9 +7,9 @@ falls du also keinen hast, kannst du dir
 [hier](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2Feducation&source=header)
 einen erstellen.
 
-In der Nutzung von git ist es einfacher, mit einem _ssh-keys_ als Passwortersatz zu arbeiten.
-Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/current/git.pdf)
-findest du eine Anleitung zum Einrichten von _ssh-keys_ als Authentifizierungsmethode bei GitHub.
+In der Nutzung von git ist es einfacher, mit einem _ssh-key_ als Passwortersatz zu arbeiten.
+Am Ende der [git-Folien](https://toolbox.pep-dortmund.org/files/archive/previous/git.pdf)
+findest du eine Anleitung zum Einrichten von _ssh-key_ als Authentifizierungsmethode bei GitHub.
 
 Zum Nutzen des Templates folgst du
 [diesem Link zum Repository](https://github.com/pep-dortmund/toolbox-workshop-protocol-template).
