@@ -103,7 +103,7 @@ und dann ein neues Terminal öffnen.
 Dein Prompt sollte jetzt mit `base` beginnen.
 Im Anschluss erstellst du jetzt noch eine spezielle Python-Umgebung für den Toolbox Workshop mittels:
 ```shell
-$ mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
+$ mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
 ```
 
 Diese startest du mit
@@ -205,28 +205,27 @@ Ebenfalls im Terminal:
 
 ```shell
 $ mamba activate toolbox
-$ ipython
+$ python
 ```
 
-Das Programm `ipython` sollte starten und du bekommst statt des `$` einen
-nummerierten Prompt, gib nun folgende Befehle nacheinander ein.
+`python` sollte starten und du bekommst statt des `$` 
+den Prompt `>>>`, gib nun folgende Befehle nacheinander ein.
 
-```ipython
-In [1]: %matplotlib
-In [2]: import matplotlib.pyplot as plt
-In [3]: import numpy as np
-In [4]: import scipy
-In [5]: import sympy
-In [6]: import uncertainties
-In [7]: plt.plot([1, 2, 4])
+```python
+>>> import numpy
+>>> import matplotlib.pyplot as plt
+>>> import scipy
+>>> import uncertainties
+>>> import sympy
+>>> plt.plot([1, 2, 4])
+>>> plt.show()
 ```
 
 Es sollte ein Fenster mit einem Plot erscheinen, schließe das Fenster
-und beende `ipython` mit
-```ipython
-In [8]: quit
+und beende `python` mit
+```python
+>>> exit()
 ```
-
 
 ### Make
 

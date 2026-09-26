@@ -586,7 +586,7 @@ for both the workshop and the practical course.
 To do this, use the following command:
 
 ```shell
-mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
 ```
 
 The installation begins with the following output:
@@ -902,66 +902,40 @@ Executing this command changes the prompt from `(base)` to `(toolbox)`.
 
 Now, enter the following commands into Windows Terminal, one by one:
 After entering the first command, the appearance of the command line will change slightly.
-At the beginning of the line should be `In [1]:`.
+At the beginning of the line should be `>>>`.
 
 ```shell
-ipython
+python
 ```
-```ipython
-%matplotlib
+```python
+import numpy
 ```
-```ipython
+```python
 import matplotlib.pyplot as plt
 ```
-```ipython
-import numpy as np
-```
-```ipython
+```python
 import scipy
 ```
-```ipython
+```python
 import sympy
 ```
-```ipython
+```python
 import uncertainties
 ```
-```ipython
+```python
 plt.plot([1, 2, 4])
+```
+```python
+plt.show()
 ```
 
 A window containing a coordinate system and a plotted line should appear.
 
-Overall, the terminal should look like this:
-
-```{image} /img/mamba/mamba-test-1.png
-:alt:
-:class: screenshot
-:align: center
-```
-
-Errors typically appear as shown here:
-
-```{image} /img/mamba/mamba-test-2.png
-:alt:
-:class: screenshot
-:align: center
-```
-
 Enter the command
-```ipython
-quit
+```python
+exit()
 ```
-to exit the _ipython_ program.
-
-When running `%matplotlib`, you may encounter the following error:
-```ipython
-qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
-```
-This can be resolved by setting an environment variable in the `~/.bashrc` file.
-To do this, execute the following command in a terminal:
-```ipython
-echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
-```
+to exit _python_.
 
 ### Make
 
