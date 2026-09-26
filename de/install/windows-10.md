@@ -586,7 +586,7 @@ wir eine separate Python Installation mit genau den Paketen, die du für den Wor
 Nutze dazu den folgenden Befehl:
 
 ```shell
-mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
 ```
 
 Die Installation beginnt mit der folgenden Ausgabe
@@ -916,67 +916,45 @@ Durch diesen Befehl ändert sich der Beginn der Eingabezeile von `(base)` zu `(t
 
 Gib nun die folgenden Befehle nacheinander in das Windows Terminal ein.
 Nach Eingabe des ersten Befehls wird sich das Erscheinungsbild der Kommandozeile etwas verändern.
-Am Anfang der Zeile steht jetzt `In [1]:`.
+Am Anfang der Zeile steht jetzt `>>>`.
 
 ```shell
-ipython
+python
 ```
-```ipython
-%matplotlib
+```python
+import numpy
 ```
-```ipython
+```python
 import matplotlib.pyplot as plt
 ```
-```ipython
-import numpy as np
-```
-```ipython
+```python
 import scipy
 ```
-```ipython
+```python
 import sympy
 ```
-```ipython
+```python
 import uncertainties
 ```
-```ipython
+```python
 plt.plot([1, 2, 4])
+```
+```python
+plt.show()
 ```
 
 Es sollte ein Fenster mit einem Koordinatensystem und einer eingezeichneten Linie erscheinen.
 
-Insgesamt sollte das Terminal wie folgt aussehen:
-
-```{image} /img/mamba/mamba-test-1.png
-:alt:
-:class: screenshot
-:align: center
-```
-
-Fehler machen sich z. B. so bemerkbar:
-
-```{image} /img/mamba/mamba-test-2.png
-:alt:
-:class: screenshot
-:align: center
-```
-
 Mit dem Befehl
-```ipython
-quit
+```python
+exit()
 ```
-kannst du das Programm _ipython_ im Anschluss beenden.
+kannst du _python_ im Anschluss beenden.
 
-Beim Ausführen von `%matplotlib` kann es vorkommen, dass der Fehler
-```ipython
-qt.qpa.plugin: Could not find the Qt platform "wayland" in ""
-```
-angezeigt wird. Dieser lässt sich mit einer Umgebungsvariablen in der Datei `~/.bashrc`
-beheben. Führe dazu folgenden Befehl im Terminal aus:
+<!-- Führe dazu folgenden Befehl im Terminal aus:
 ```shell
 echo 'export QT_QPA_PLATFORM=xcb' >> ~/.bashrc
-```
-
+``` -->
 
 ### Make
 

@@ -85,7 +85,7 @@ With this, the base Python environment is installed.
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
 
 ```shell
-mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
 ```
 
 Activate this environment with:
@@ -186,32 +186,32 @@ To test Python, you must first activate the environment installed above within y
 mamba activate toolbox
 ```
 
-Next, you can launch the `ipython` program:
+Next, you can launch `python`:
 
 ```shell
-ipython
+python
 ```
 
-The `ipython` program should launch, and instead of the `$` prompt,
-you will see a numbered prompt. 
-Now, type in the part of each line that appears after the `:`,
+`python` should launch, and instead of the `$` prompt,
+you will see a `>>>` prompt. 
+Now, type in the part of each line that appears after the `>>>`,
 confirming each entry with {kbd}`Enter`:
 
-```ipython
-In [1]: %matplotlib
-In [2]: import matplotlib.pyplot as plt
-In [3]: import numpy as np
-In [4]: import scipy
-In [5]: import sympy
-In [6]: import uncertainties
-In [7]: plt.plot([1, 2, 4])
+```python
+>>> import numpy
+>>> import matplotlib.pyplot as plt
+>>> import scipy
+>>> import uncertainties
+>>> import sympy
+>>> plt.plot([1, 2, 4])
+>>> plt.show()
 ```
 
 A window containing a plot should appear. Close the window
-and exit `ipython` by typing:
+and exit `python` by typing:
 
-```ipython
-In [8]: quit
+```python
+>>> exit()
 ```
 
 ### Make
