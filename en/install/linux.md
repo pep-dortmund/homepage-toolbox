@@ -214,7 +214,7 @@ $ mamba activate toolbox
 $ python
 ```
 
-`python` should launch, and instead of the `$` prompt,
+The _python_ interpreter should launch, and instead of the `$` prompt,
 you will see a `>>>` prompt. Now, enter the following, one by one:
 
 ```python
@@ -228,7 +228,7 @@ you will see a `>>>` prompt. Now, enter the following, one by one:
 ```
 
 A window containing a plot should appear. Close the window
-and exit `python` by typing:
+and exit the _python_ interpreter by typing:
 
 ```python
 >>> exit()

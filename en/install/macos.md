@@ -186,7 +186,7 @@ To test Python, you must first activate the environment installed above within y
 mamba activate toolbox
 ```
 
-Next, you can launch `python`:
+Next, you can launch the _python_ interpreter:
 
 ```shell
 python
@@ -208,7 +208,7 @@ confirming each entry with {kbd}`Enter`:
 ```
 
 A window containing a plot should appear. Close the window
-and exit `python` by typing:
+and exit the _python_ interpreter by typing:
 
 ```python
 >>> exit()

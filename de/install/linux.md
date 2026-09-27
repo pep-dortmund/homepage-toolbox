@@ -208,7 +208,7 @@ $ mamba activate toolbox
 $ python
 ```
 
-`python` sollte starten und du bekommst statt des `$` 
+Der _python_ Interpreter sollte starten und du bekommst statt des `$` 
 den Prompt `>>>`, gib nun folgende Befehle nacheinander ein.
 
 ```python
@@ -222,7 +222,7 @@ den Prompt `>>>`, gib nun folgende Befehle nacheinander ein.
 ```
 
 Es sollte ein Fenster mit einem Plot erscheinen, schließe das Fenster
-und beende `python` mit
+und beende den _python_ Interpreter mit
 ```python
 >>> exit()
 ```

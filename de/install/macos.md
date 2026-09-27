@@ -187,7 +187,8 @@ Danach kannst du `python` starten:
 python
 ```
 
-`python` sollte gestartet sein und du hast statt des `$`-Zeichens `>>>` als Prompt.
+Der _python_ Interpreter sollte gestartet sein 
+und du hast statt des `$`-Zeichens jetzt `>>>` als Prompt.
 Jetzt gibst du jeweils den Teil der Zeile nach den `>>>` ein und führst den Befehl jeweils mit {kbd}`Enter`.
 
 ```python
@@ -200,7 +201,7 @@ Jetzt gibst du jeweils den Teil der Zeile nach den `>>>` ein und führst den Bef
 >>> plt.show()
 ```
 
-Es sollte ein Fenster mit einem Plot erscheinen, dieses kannst du schließen und `python` beenden.
+Es sollte ein Fenster mit einem Plot erscheinen, dieses kannst du schließen und den _python_ Interpreter beenden.
 
 ```python
 >>> exit()

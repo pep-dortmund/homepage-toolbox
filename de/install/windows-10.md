@@ -949,7 +949,7 @@ Mit dem Befehl
 ```python
 exit()
 ```
-kannst du _python_ im Anschluss beenden.
+kannst du den _python_ Interpreter im Anschluss beenden.
 
 <!-- Führe dazu folgenden Befehl im Terminal aus:
 ```shell

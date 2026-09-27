@@ -855,7 +855,7 @@ Enter the command
 ```python
 exit()
 ```
-to exit _python_.
+to exit the _python_ interpreter.
 
 ### Make
 
