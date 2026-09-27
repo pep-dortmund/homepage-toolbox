@@ -10,20 +10,20 @@ site:
 Das Material für den diesjährigen Kurs wird kurz vor oder während des
 Kurses veröffentlicht.
 
-<!-- ### Toolbox -->
-<!---->
-<!-- |       | Materialien  | Aufgaben | Stand | -->
-<!-- |-------|----------------------------------|-----------|-------| -->
-<!-- | Tag 1 | [Intro-Folien][intro-current]<br/>[Python][python-current] | [Download][ex1-current] | 29.09.2025 | -->
+### Toolbox
+
+|       | Materialien  | Aufgaben | Stand |
+|-------|----------------------------------|-----------|-------|
+| Tag 1 | [Intro-Folien][intro-current]<br/>[Python][python-current] | [Download][ex1-current] | 29.09.2025 |
 <!-- | Tag 2 | [Numeric Python][numpy-current]<br/>[matplotlib][matplotlib-current] | [Download][ex2-current] | 30.09.2025 | -->
 <!-- | Tag 3 | [Scientific Python][scipy-current]<br/>[uncertainties][uncertainties-current] | [Download][ex3-current] | 01.10.2025 | -->
 <!-- | Tag 4 | [Unix][unix-current]<br/>[git][git-current] | [Download][ex4-current] | 02.10.2025 | -->
 <!-- | Tag 9 | [Make][make-current] | [Download][ex5-current] | 09.10.2025 | -->
-<!---->
-<!---->
-<!-- [intro-current]: /files/archive/current/intro.pdf -->
-<!-- [python-current]: /files/archive/current/python -->
-<!-- [ex1-current]: /files/archive/current/exercises-toolbox-1.zip -->
+
+
+[intro-current]: /files/archive/current/intro.pdf
+[python-current]: /files/archive/current/python
+[ex1-current]: /files/archive/current/exercises-toolbox-1.zip
 <!-- [numpy-current]: /files/archive/current/numeric-python.ipynb -->
 <!-- [matplotlib-current]: /files/archive/current/matplotlib.ipynb -->
 <!-- [ex2-current]: /files/archive/current/exercises-toolbox-2.zip -->
@@ -35,8 +35,8 @@ Kurses veröffentlicht.
 <!-- [ex4-current]: /files/archive/current/exercises-toolbox-4.zip -->
 <!-- [make-current]: /files/archive/current/make.pdf -->
 <!-- [ex5-current]: /files/archive/current/exercises-toolbox-5.zip -->
-<!---->
-<!---->
+
+
 <!-- ### LaTeX -->
 <!---->
 <!-- |       | Materialien  | Aufgaben | Stand | -->
