@@ -7,7 +7,7 @@ To do this, type
 ```shell
 git pull
 ```
-into your terminal and press `Enter`.
+into your terminal and press {kbd}`Enter`.
 Any changes uploaded to GitHub
 since the last time you ran `git pull`
 will be downloaded, allowing you to work on the latest version.

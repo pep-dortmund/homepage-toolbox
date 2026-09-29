@@ -15,10 +15,10 @@ Dann geben wir mittels `print` die Variable aus.
 
 Wenn dein Terminal am unteren Ende des Fensters noch ist, kannst du einmal in die
 letzte Zeile klicken.
-Mit der Pfeiltaste nach oben kannst du den letzten geschriebenen Befehl aufrufen
-und mit `Enter` erneut ausführen.
+Mit der Pfeiltaste nach oben {icon}`bi:arrow-up-square` kannst du den letzten geschriebenen Befehl aufrufen
+und mit {kbd}`Enter` erneut ausführen.
 Wenn dein Terminal geschlossen ist, findest du
-[hier](/introduction/first_steps/#terminal)
+[hier](/introduction/python/first_steps/#terminal-ffnen-und-python-ausf-hren)
 die Schritte zum Öffnen.
 Du solltest jetzt folgende Ausgabe sehen:
 ```
@@ -48,8 +48,8 @@ verwenden, wie z.B. `this_is_a_multiplicator`.
 
 Für Kommazahlen müssen wir den Punkt als Dezimaltrennzeichen nutzen,
 so wie bei `hereIsAnother`.
-Um nicht viel zu viele Nullen tippen zu müssen, können wir die `e`-Schreibweise verwenden.
-Bei dieser geben wir erst die Zahl an und nach dem `e` die Zehnerpotenz.
+Um nicht viel zu viele Nullen tippen zu müssen, können wir die $e$-Schreibweise verwenden.
+Bei dieser geben wir erst die Zahl an und nach dem $e$ die Zehnerpotenz.
 Wir haben also
 $$\texttt{this\_is\_a\_multiplier} = 2.1 * 10^{12}$$ definiert.
 
@@ -65,7 +65,7 @@ print(f"{hereIsAnother = }")
 Wie der Name vorsagt, benötigen wir für `f-strings` ein `f` und einen String.
 Das `f` siehst du in den beiden `print`-Funktionen nach der Klammer auf.
 Strings sind eine Ansammlung von Zeichen, und wir schauen sie uns im Abschnitt
-[Strings](/introduction/variables/#strings) direkt im Anschluss an.
+[Strings](/introduction/python/variables/#strings) direkt im Anschluss an.
 Jetzt benötigen wir nur die Information, dass Strings in `python` mit einem `"`
 beginnen und aufhören.
 In `f-strings` nutzen wir die geschweiften Klammern `{}`, um uns den Wert der
@@ -245,7 +245,7 @@ print(f"{elements * 2 = }")
 print(f"{elements = }")
 ```
 
-Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/control-structures).
+Weiter geht es in [Lektion 3 - Kontrollstrukturen](/introduction/python/control-structures).
 
 # Kompletter Code
 Am Ende jeder Lektion findest du den kompletten Code der entsprechenden Lektion.

@@ -20,18 +20,23 @@ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | tar
 ```shell
 TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
-Um nicht die volle Version herunterzuladen, sondern die `basic` Version, musst du `S` eingeben und mit `Enter` bestätigen.
-Danach kann das `full-scheme` auf `basic` gewechselt werden, indem du erst `d` und dann `R` eingibst und jeweils mit `Enter` bestätigst.
+Um nicht die volle Version herunterzuladen, sondern die {gui}`basic` Version, musst du {kbd}`S` eingeben und mit {kbd}`Enter` bestätigen.
+Danach kann das {gui}`full-scheme` auf {gui}`basic` gewechselt werden,
+indem du erst {kbd}`d` und dann {kbd}`R` eingibst und jeweils mit {kbd}`Enter` bestätigst.
 
 Anschließend kann, wie bei der vollen Installation,
-das Installieren mit `I` begonnen werden.
+das Installieren mit {kbd}`I` begonnen werden.
 
-Hier wird aber jetzt nur das Programm _tlmgr_ installiert.
+Hier wird aber jetzt nur das Programm `tlmgr` installiert.
 
 Damit das Programm anschließend ausführbar ist,
 musst du den Pfad zu der Konfigurationsdatei deiner Shell hinzugefügen.
 Dafür fügst du die folgende Zeile der Datei `~/.bashrc` oder `~/.zshrc` hinzu.
-Um zu sehen, welche Shell du benutzt, kannst du `echo $SHELL` im Terminal eingeben.
+Um zu sehen, welche Shell du benutzt, kannst du 
+```shell
+echo $SHELL
+```
+im Terminal eingeben.
 Wenn die Ausgabe _bash_ enthält, kannst du mit dem folgenden Befehl den Pfad zu TeXlive zum `PATH` hinzufügen
 ```shell
 echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
@@ -39,7 +44,7 @@ echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bash
 ```shell
 source ~/.bashrc
 ```
-Für andere Terminal-Varianten musst du den `export` in die entsprechende Konfigurationsdatei schreiben.  
+Für andere Terminal-Varianten musst du den {gui}`export` in die entsprechende Konfigurationsdatei schreiben.  
 Dann sollten noch die Update-Optionen angepasst werden:
 ```shell
 tlmgr option autobackup -- -1
@@ -64,4 +69,4 @@ durchgeführt werden.
 
 Damit ist die Installation der kleinen Version abgeschlossen.
 Weiter geht es mit den Tests in der Anleitung für
-[Windows 10](#win10-tests), [Windows 11](#win11-tests) oder [Linux](#linux-tests).
+[Linux](#linux-tests), [Windows 11](#win11-tests) oder [Windows 10](#win10-tests).

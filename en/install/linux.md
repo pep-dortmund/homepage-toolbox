@@ -17,7 +17,7 @@ as well as TeXLive.
 
 :::{caution} Important
   Commands to be entered into the terminal begin with `$`. Enter the commands
-  line by line (omitting the `$` symbol) and confirm each one by pressing Enter.
+  line by line (omitting the `$` symbol) and confirm each one by pressing {kbd}`Enter`.
 :::
 
 Installation steps are provided for the most common distributions.
@@ -29,7 +29,7 @@ Thus, any command executed using `sudo` should be scrutinised with the utmost ca
 ### Git, Make, curl
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 ```shell
 $ sudo apt update
@@ -58,17 +58,17 @@ and contain tracking software. For this reason, we recommend VSCodium,
 an open-source variant of VSCode.
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
   Download the file `codium_<VERSION>_amd64.deb` from
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) and open it using
-  the Software Center (double-click the downloaded file). Click `Install`.
+  the Software Center (double-click the downloaded file). Click {gui}`Install`.
 :::
 :::{tab-item} Fedora
 :sync: fedora
   Download the file `codium_<VERSION>_el7.x86_64.rpm` from
   [github.com/VSCodium/vscodium/releases](https://github.com/VSCodium/vscodium/releases) and open it using
-  the Software Center (double-click the downloaded file). Click `Install`.
+  the Software Center (double-click the downloaded file). Click {gui}`Install`.
 :::
 :::{tab-item} Arch Linux
 :sync: arch
@@ -89,12 +89,12 @@ $ curl -LO "https://github.com/conda-forge/miniforge/releases/latest/download/Mi
 $ bash Miniforge3-$(uname)-$(uname -m).sh -p ~/.local/conda
 ```
 
-Depending on the size of your terminal, you may need to press `Enter` repeatedly
+Depending on the size of your terminal, you may need to press {kbd}`Enter` repeatedly
 to scroll through the entire license agreement.
-Then, you can accept it by typing `yes`.
+Then, you can accept it by typing {kbd}`yes`.
 We specified the installation location in the third command; simply confirm the prompt
-by pressing `Enter`.
-_Do you wish to update your shell profile to automatically initialize conda?_ `yes`.
+by pressing {kbd}`Enter`.
+_Do you wish to update your shell profile to automatically initialize conda?_ {kbd}`yes`.
 
 With this, the base Python environment is installed.
 
@@ -104,7 +104,7 @@ For the next step, you must close the current terminal window and open a new one
 
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
 ```shell
-$ mamba create -y -n toolbox python=3.14 ipython numpy matplotlib scipy uncertainties sympy
+$ mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
 ```
 
 Activate this environment with:
@@ -146,7 +146,7 @@ $ curl -L http://mirror.ctan.org/systems/texlive/tlnet/install-tl-unx.tar.gz | t
 $ TEXLIVE_INSTALL_PREFIX=~/.local/texlive ./install-tl-*/install-tl
 ```
 
-Start the installation by pressing `I` followed by `Enter`.
+Start the installation by pressing {kbd}`I` followed by {kbd}`Enter`.
 
 After the installation, you have to inform the system where LaTeX has been installed.
 This is done within the `~/.bashrc` file.
@@ -211,27 +211,27 @@ Also in a terminal:
 
 ```shell
 $ mamba activate toolbox
-$ ipython
+$ python
 ```
 
-The `ipython` program should launch, and instead of the `$` prompt,
-you will see a numbered prompt. Now, enter the following, one by one:
+The _python_ interpreter should launch, and instead of the `$` prompt,
+you will see a `>>>` prompt. Now, enter the following, one by one:
 
-```ipython
-In [1]: %matplotlib
-In [2]: import matplotlib.pyplot as plt
-In [3]: import numpy as np
-In [4]: import scipy
-In [5]: import sympy
-In [6]: import uncertainties
-In [7]: plt.plot([1, 2, 4])
+```python
+>>> import numpy
+>>> import matplotlib.pyplot as plt
+>>> import scipy
+>>> import uncertainties
+>>> import sympy
+>>> plt.plot([1, 2, 4])
+>>> plt.show()
 ```
 
 A window containing a plot should appear. Close the window
-and exit `ipython` by typing:
+and exit the _python_ interpreter by typing:
 
-```ipython
-In [8]: quit
+```python
+>>> exit()
 ```
 
 ### Make
@@ -261,7 +261,7 @@ This is LuaTeX, Version 1.24.0 (TeX Live 2026)
 **
 ```
 
-You can terminate the process with `Ctrl` + `c`.
+You can terminate the process with {kbd}`Ctrl` + {kbd}`c`.
 Next, we will test a program for managing bibliographies or references,
 ```shell
 $ biber
@@ -280,7 +280,7 @@ $ texdoc texlive
 ### General
 
 ::::{tab-set}
-:::{tab-item} Debian, Ubuntu, Mint
+:::{tab-item} Mint, Debian, Ubuntu
 :sync: deb
 ```shell
 $ sudo apt update

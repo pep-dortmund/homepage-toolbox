@@ -1,7 +1,7 @@
 :::{table}
 | Day | Date       | Time   | Location   | Topic                                              |
 | --- | ---------- | ------ | ---------- | -------------------------------------------------- |
-| Thu | 2026-09-24 | 10-13h | tbd        |  Help with installation and guided switch to Linux |
+| Thu | 2026-09-24 | 10-13h | CP-03-123  |  Help with installation and guided switch to Linux |
 |     |            |        |            |                                                    |
 | Mon | 2026-09-28 | 13-17h | CT ZE HS02 | Python                                             |
 | Tue | 2026-09-29 | 13-17h | CT ZE HS02 | NumPy, matplotlib                                  |

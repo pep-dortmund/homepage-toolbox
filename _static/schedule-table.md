@@ -1,7 +1,7 @@
 :::{table}
 | Tag | Datum      | Zeit      | Raum       | Thema                                           |
 | --- | ---------- | --------- | ---------- | ----------------------------------------------- |
-| Do  | 24.09.2026 | 10-13 Uhr | tbd        | Installationshilfe, betreuter Umstieg auf Linux |
+| Do  | 24.09.2026 | 10-13 Uhr | CP-03-123  | Installationshilfe, betreuter Umstieg auf Linux |
 |     |            |           |            |                                                 |
 | Mo  | 28.09.2026 | 13-17 Uhr | CT ZE HS02 | Python                                          |
 | Di  | 29.09.2026 | 13-17 Uhr | CT ZE HS02 | NumPy, matplotlib                               |

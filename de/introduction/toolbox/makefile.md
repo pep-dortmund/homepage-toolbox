@@ -42,7 +42,7 @@ und auch den Rest.
   beide liegen im Hauptordner des Repository und daher muss `../` vor ihnen stehen,
   damit sie gefunden werden.
   Weiteres zu LaTeX in `matplotlib` findest du in den
-  [Folien zu LaTeX](https://toolbox.pep-dortmund.org/files/archive/current/latex.pdf)
+  [Folien zu LaTeX](https://toolbox.pep-dortmund.org/files/archive/previous/latex.pdf)
   im Abschnitt _TeX in matplotlib in TeX_.
   Zusätzlich solltest du hier auch deine Datendateien hinschreiben,
   mit relativem Pfad zum Makefile, z.B. `data/quader.txt`.
@@ -96,7 +96,8 @@ und auch den Rest.
   ```
   Dies ist die lange LaTeX-Regel.
   Sie enthält alles, was in den
-  [`make`-Folien](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf)
+  [`make`-Folien](https://toolbox.pep-dortmund.org/files/archive/previous/make.pdf)
+  <!-- This Link doesn't work as well. -->
   besprochen wird.
   Die `prerequisites` sind hier anders als für die `python`-Regeln.
   `| build` haben wir bei der `python`-Regel besprochen,

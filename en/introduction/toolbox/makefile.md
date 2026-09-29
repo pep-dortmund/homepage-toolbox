@@ -40,7 +40,7 @@ already contained within it, as well as the rest.
   Both are in the main folder of the repository and therefore `../` 
   must be added before the filenames so that they can be found. 
   You can find more about LaTeX in `matplotlib` in the 
-  [LaTeX slides](https://toolbox.pep-dortmund.org/files/archive/current/latex.pdf)
+  [LaTeX slides](https://toolbox.pep-dortmund.org/files/archive/previous/latex.pdf)
   in the _TeX section in matplotlib in TeX_. 
   In addition, you should also write your data files here, 
   with a relative path to the makefile, e.g. `data/quader.txt`. 
@@ -94,7 +94,7 @@ already contained within it, as well as the rest.
   ```
   This is the long LaTeX rule. 
   It includes everything discussed in the
-  [`make` slides](https://toolbox.pep-dortmund.org/files/archive/current/make.pdf). 
+  [`make` slides](https://toolbox.pep-dortmund.org/files/archive/previous/make.pdf). 
   The `prerequisites` here differ from those for the `python` rules. 
   We discussed `| build` in the context of the `python` rule,
   but `FORCE` is new here. 
