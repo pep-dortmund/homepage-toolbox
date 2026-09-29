@@ -585,9 +585,11 @@ wir eine separate Python Installation mit genau den Paketen, die du für den Wor
 
 Nutze dazu den folgenden Befehl:
 
+:::{substitution}
 ```shell
-mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
+$ mamba create -y -n toolbox python={{ python_version }} numpy matplotlib scipy uncertainties sympy
 ```
+:::
 
 Die Installation beginnt mit der folgenden Ausgabe
 
@@ -642,9 +644,11 @@ Nach der Installation muss dem System mitgeteilt werden, wo LaTeX installiert wu
 das machst du in der Datei `~/.bashrc`.
 Führe dazu folgenden Befehl im Terminal aus:
 
+:::{substitution}
 ```shell
-echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
+:::
 
 Dieser schreibt die Information in `~/.bashrc`.
 
@@ -982,11 +986,14 @@ luatex
 
 Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
+:::{substitution}
 ```shell
-This is LuaTeX, Version 1.24.0 (TeX Live 2026)
-restricted system commands enabled.
+This is LuaTeX, Version {{ luatex_version }} (TeX Live {{ latex_year }})
+ restricted system commands enabled.
 **
 ```
+:::
+
 Momentan läuft das Programm `luatex`,
 mit dem Drücken der Tastenkombination {kbd}`Strg` + {kbd}`c` kannst du es beenden.
 Nun testen wir ein weiteres Programm, das von LaTeX verwendet wird.

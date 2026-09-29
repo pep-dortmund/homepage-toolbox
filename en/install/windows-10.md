@@ -585,9 +585,11 @@ for both the workshop and the practical course.
 
 To do this, use the following command:
 
+:::{substitution}
 ```shell
-mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
+$ mamba create -y -n toolbox python={{ python_version }} numpy matplotlib scipy uncertainties sympy
 ```
+:::
 
 The installation begins with the following output:
 
@@ -637,9 +639,11 @@ Start the installation by typing {kbd}`I` followed by {kbd}`Enter`.
 After the installation, you must inform the system where LaTeX has been installed.
 This can be done in the file `~/.bashrc`.
 To do this, execute the following command in the terminal:
+:::{substitution}
 ```shell
-echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
+:::
 This writes the information in `~/.bashrc`.
 
 Close the terminal and open a new one.
@@ -962,11 +966,13 @@ luatex
 
 The following (or similar) output should appear:
 
+:::{substitution}
 ```shell
-This is LuaTeX, Version 1.24.0 (TeX Live 2026)
-restricted system commands enabled.
+This is LuaTeX, Version {{ luatex_version }} (TeX Live {{ latex_year }})
+ restricted system commands enabled.
 **
 ```
+:::
 The program `luatex` is now running.
 You can exit this by pressing the key combination {kbd}`Ctrl` + {kbd}`c`.
 Now you can test another program used by LaTeX for bibliographies.

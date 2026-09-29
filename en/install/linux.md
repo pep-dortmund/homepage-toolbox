@@ -103,9 +103,12 @@ For the next step, you must close the current terminal window and open a new one
 :::
 
 Next, create a dedicated Python environment specifically for the Toolbox Workshop using:
+
+:::{substitution}
 ```shell
-$ mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
+$ mamba create -y -n toolbox python={{ python_version }} numpy matplotlib scipy uncertainties sympy
 ```
+:::
 
 Activate this environment with:
 ```shell
@@ -152,9 +155,11 @@ After the installation, you have to inform the system where LaTeX has been insta
 This is done within the `~/.bashrc` file.
 To do this, execute the following command in the terminal:
 
+:::{substitution}
+```shell
+$ echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
-$ echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
-```
+:::
 
 Close the terminal and open a new one to proceed with the remaining steps.
 In the new terminal, enter the following commands:
@@ -255,11 +260,13 @@ In a terminal:
 
 The following (or a similar) output should appear:
 
+:::{substitution}
 ```shell
-This is LuaTeX, Version 1.24.0 (TeX Live 2026)
+This is LuaTeX, Version {{ luatex_version }} (TeX Live {{ latex_year }})
  restricted system commands enabled.
 **
 ```
+:::
 
 You can terminate the process with {kbd}`Ctrl` + {kbd}`c`.
 Next, we will test a program for managing bibliographies or references,

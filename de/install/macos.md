@@ -84,9 +84,11 @@ den Punkt {gui}`Terminal` und dann {gui}`Terminal beenden`.
 
 Im Anschluss erstellst du jetzt noch einen spezielle Python-Umgebung für den Toolbox Workshop mittels:
 
+:::{substitution}
 ```shell
-mamba create -y -n toolbox python=3.14 numpy matplotlib scipy uncertainties sympy
+mamba create -y -n toolbox python={{ python_version }} numpy matplotlib scipy uncertainties sympy
 ```
+:::
 
 Diese startest du mit
 ```shell
@@ -233,11 +235,13 @@ luatex
 
 ein. Es sollte folgende oder ähnliche Ausgabe erscheinen:
 
+:::{substitution}
 ```shell
-This is LuaTeX, Version 1.24.0 (TeX Live 2026)
-restricted system commands enabled.
+This is LuaTeX, Version {{ luatex_version }} (TeX Live {{ latex_year }})
+ restricted system commands enabled.
 **
 ```
+:::
 
 Mit {kbd}`Strg` + {kbd}`c` kannst du es beenden.
 Dann testen wir als Nächstes

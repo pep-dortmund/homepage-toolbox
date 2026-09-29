@@ -38,9 +38,11 @@ echo $SHELL
 ```
 in a terminal.
 If the output contains `bash`, you can add the path to TeXlive to your `PATH` with:
+:::{substitution}
 ```shell
-echo 'export PATH="$HOME/.local/texlive/2026/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/x86_64-linux:$PATH"' >> ~/.bashrc
 ```
+:::
 ```shell
 source ~/.bashrc
 ```
