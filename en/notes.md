@@ -16,7 +16,7 @@ Kurses veröffentlicht.
 |-------|----------------------------------|-----------|-------|
 | Tag 1 | [Intro-Folien][intro-latest]<br/>[Python][python-latest] | [Download][ex1-latest] | 29.09.2025 |
 | Tag 2 | [Numeric Python][numpy-latest]<br/>[matplotlib][matplotlib-latest] | [Download][ex2-latest] | 30.09.2025 |
-<!-- | Tag 3 | [Scientific Python][scipy-latest]<br/>[uncertainties][uncertainties-latest] | [Download][ex3-latest] | 01.10.2025 | -->
+| Tag 3 | [Scientific Python][scipy-latest]<br/>[uncertainties][uncertainties-latest] | [Download][ex3-latest] | 01.10.2025 |
 <!-- | Tag 4 | [Unix][unix-latest]<br/>[git][git-latest] | [Download][ex4-latest] | 02.10.2025 | -->
 <!-- | Tag 9 | [Make][make-latest] | [Download][ex5-latest] | 09.10.2025 | -->
 
@@ -27,9 +27,9 @@ Kurses veröffentlicht.
 [numpy-latest]: /files/archive/latest/numeric-python.ipynb
 [matplotlib-latest]: /files/archive/latest/matplotlib.ipynb
 [ex2-latest]: /files/archive/latest/exercises-toolbox-2.zip
-<!-- [scipy-latest]: /files/archive/latest/scientific-python.ipynb -->
-<!-- [uncertainties-latest]: /files/archive/latest/uncertainties.ipynb -->
-<!-- [ex3-latest]: /files/archive/latest/exercises-toolbox-3.zip -->
+[scipy-latest]: /files/archive/latest/scientific-python.ipynb
+[uncertainties-latest]: /files/archive/latest/uncertainties.ipynb
+[ex3-latest]: /files/archive/latest/exercises-toolbox-3.zip
 <!-- [unix-latest]: /files/archive/latest/unix.pdf -->
 <!-- [git-latest]: /files/archive/latest/git.pdf -->
 <!-- [ex4-latest]: /files/archive/latest/exercises-toolbox-4.zip -->
