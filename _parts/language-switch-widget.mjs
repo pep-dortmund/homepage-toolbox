@@ -14,7 +14,7 @@ function render({ model, el }) {
 
   const icon = new Image(24, 24);
   icon.src = `https://api.iconify.design/circle-flags/lang-${language}.svg`;
-  icon.alt = `Switch to ${language === 'de' ? 'German' : 'English'}`;
+  icon.alt = `${language.toUpperCase()}`;
   icon.title = `Switch to ${language === 'de' ? 'German' : 'English'}`;
   icon.display = "inline-flex";
   icon.style.verticalAlign = "center";
