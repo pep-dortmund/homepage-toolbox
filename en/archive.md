@@ -18,7 +18,7 @@ Hier befinden sich die Materialien der aktuellen Veranstaltung.
 | Tag 2 | [Numeric Python][numpy-latest]<br/>[matplotlib][matplotlib-latest] | [Download][ex2-latest] | 29.09.2026 |
 | Tag 3 | [Scientific Python][scipy-latest]<br/>[uncertainties][uncertainties-latest] | [Download][ex3-latest] | 30.09.2026 |
 | Tag 4 | [Unix][unix-latest]<br/>[git][git-latest] | [Download][ex4-latest] | 01.10.2026 |
-<!-- | Tag 9 | [Make][make-latest] | [Download][ex5-latest] | 09.10.2025 | -->
+| Tag 5 | [Make][make-latest] | [Download][ex5-latest] | 02.10.2025 |
 
 
 [intro-latest]: /files/archive/latest/intro.pdf
@@ -33,8 +33,8 @@ Hier befinden sich die Materialien der aktuellen Veranstaltung.
 [unix-latest]: /files/archive/latest/unix.pdf
 [git-latest]: /files/archive/latest/git.pdf
 [ex4-latest]: /files/archive/latest/exercises-toolbox-4.zip
-<!-- [make-latest]: /files/archive/latest/make.pdf -->
-<!-- [ex5-latest]: /files/archive/latest/exercises-toolbox-5.zip -->
+[make-latest]: /files/archive/latest/make.pdf
+[ex5-latest]: /files/archive/latest/exercises-toolbox-5.zip
 
 
 <!-- ### LaTeX -->
