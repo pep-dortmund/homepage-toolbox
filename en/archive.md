@@ -5,24 +5,24 @@ site:
   hide_toc: true
 ---
 
-
 ## Wintersemester 2026/27
-[//]: <> (Referring to latest version.)
 
-Hier befinden sich die Materialien der aktuellen Veranstaltung.
+Das Material für den diesjährigen Kurs wird kurz vor oder während des
+Kurses veröffentlicht.
 
 ### Toolbox
+
 |       | Materialien  | Aufgaben | Stand |
 |-------|----------------------------------|-----------|-------|
 | Tag 1 | [Intro-Folien][intro-latest]<br/>[Python][python-latest] | [Download][ex1-latest] | 28.09.2026 |
 | Tag 2 | [Numeric Python][numpy-latest]<br/>[matplotlib][matplotlib-latest] | [Download][ex2-latest] | 29.09.2026 |
 | Tag 3 | [Scientific Python][scipy-latest]<br/>[uncertainties][uncertainties-latest] | [Download][ex3-latest] | 30.09.2026 |
 | Tag 4 | [Unix][unix-latest]<br/>[git][git-latest] | [Download][ex4-latest] | 01.10.2026 |
-<!-- | Tag 9 | [Make][make-latest] | [Download][ex5-latest] | 09.10.2025 | -->
+| Tag 5 | [Make][make-latest] | [Download][ex5-latest] | 02.10.2025 |
 
 
 [intro-latest]: /files/archive/latest/intro.pdf
-[python-latest]: /files/archive/latest/python.ipynb
+[python-latest]: /files/archive/latest/python
 [ex1-latest]: /files/archive/latest/exercises-toolbox-1.zip
 [numpy-latest]: /files/archive/latest/numeric-python.ipynb
 [matplotlib-latest]: /files/archive/latest/matplotlib.ipynb
@@ -33,21 +33,21 @@ Hier befinden sich die Materialien der aktuellen Veranstaltung.
 [unix-latest]: /files/archive/latest/unix.pdf
 [git-latest]: /files/archive/latest/git.pdf
 [ex4-latest]: /files/archive/latest/exercises-toolbox-4.zip
-<!-- [make-latest]: /files/archive/latest/make.pdf -->
-<!-- [ex5-latest]: /files/archive/latest/exercises-toolbox-5.zip -->
+[make-latest]: /files/archive/latest/make.pdf
+[ex5-latest]: /files/archive/latest/exercises-toolbox-5.zip
 
 
-<!-- ### LaTeX -->
-<!---->
-<!-- |       | Materialien  | Aufgaben | Stand | -->
-<!-- |-------|----------------------------------|-----------|-------| -->
-<!-- | Tag 1 | [Folien][latex-latest] | [Download][ex1-latex-latest] | 06.10.2025 | -->
+### LaTeX
+
+|       | Materialien  | Aufgaben | Stand |
+|-------|----------------------------------|-----------|-------|
+| Tag 1 | [Folien][latex-latest] | [Download][ex1-latex-latest] | 05.10.2026 |
 <!-- | Tag 2 |  | [Download][ex1-latex-latest] | 07.09.2025 | -->
 <!-- | Tag 3 |  | [Download][ex1-latex-latest] | 07.10.2025 | -->
 <!-- | Tag 4 |  | [Download][ex1-latex-latest] | 09.10.2025 | -->
-<!---->
-<!-- [latex-latest]: /files/archive/latest/latex.pdf -->
-<!-- [ex1-latex-latest]: /files/archive/latest/exercises-latex-1.zip -->
+
+[latex-latest]: /files/archive/latest/latex.pdf
+[ex1-latex-latest]: /files/archive/latest/exercises-latex-1.zip
 <!-- [ex2-latex-latest]: /files/archive/latest/exercises-latex-2.zip -->
 <!-- [ex3-latex-latest]: /files/archive/latest/exercises-latex-3.zip -->
 <!-- [ex4-latex-latest]: /files/archive/latest/exercises-latex-4.zip -->
@@ -62,22 +62,6 @@ Hier befinden sich die Materialien der aktuellen Veranstaltung.
 <!-- ::: -->
 <!-- :::: -->
 <!---->
-<!-- ::::{grid} 1 1 2 2 -->
-<!-- :::{card} -->
-<!-- :header: Archiv-Download `.tar.gz` -->
-<!-- :link: /files/archive/latest.tar.gz -->
-<!---->
-<!-- Downloade das komplette Archiv als `.tar.gz` Datei. -->
-<!-- ::: -->
-<!-- :::{card} -->
-<!-- :header: Archiv-Download `.zip` -->
-<!-- :link: /files/archive/latest.zip -->
-<!---->
-<!-- Downloade das komplette Archiv als `.zip` Datei. -->
-<!-- ::: -->
-<!-- :::: -->
-<!---->
-<!-- --- -->
 
 
 ## Wintersemester 2025/26
