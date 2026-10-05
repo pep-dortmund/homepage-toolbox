@@ -7,8 +7,7 @@ site:
 
 ## Wintersemester 2026/27
 
-Das Material für den diesjährigen Kurs wird kurz vor oder während des
-Kurses veröffentlicht.
+Hier befinden sich die Materialien der aktuellen Veranstaltung.
 
 ### Toolbox
 
@@ -22,7 +21,7 @@ Kurses veröffentlicht.
 
 
 [intro-latest]: /files/archive/latest/intro.pdf
-[python-latest]: /files/archive/latest/python
+[python-latest]: /files/archive/latest/python.ipynb
 [ex1-latest]: /files/archive/latest/exercises-toolbox-1.zip
 [numpy-latest]: /files/archive/latest/numeric-python.ipynb
 [matplotlib-latest]: /files/archive/latest/matplotlib.ipynb
