@@ -62,6 +62,22 @@ Kurses veröffentlicht.
 <!-- ::: -->
 <!-- :::: -->
 <!---->
+<!-- ::::{grid} 1 1 2 2 -->
+<!-- :::{card} -->
+<!-- :header: Archiv-Download `.tar.gz` -->
+<!-- :link: /files/archive/latest.tar.gz -->
+<!---->
+<!-- Downloade das komplette Archiv als `.tar.gz` Datei. -->
+<!-- ::: -->
+<!-- :::{card} -->
+<!-- :header: Archiv-Download `.zip` -->
+<!-- :link: /files/archive/latest.zip -->
+<!---->
+<!-- Downloade das komplette Archiv als `.zip` Datei. -->
+<!-- ::: -->
+<!-- :::: -->
+<!---->
+<!-- --- -->
 
 
 ## Wintersemester 2025/26
