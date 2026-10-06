@@ -41,13 +41,13 @@ Hier befinden sich die Materialien der aktuellen Veranstaltung.
 |       | Materialien  | Aufgaben | Stand |
 |-------|----------------------------------|-----------|-------|
 | Tag 1 | [Folien][latex-latest] | [Download][ex1-latex-latest] | 05.10.2026 |
-<!-- | Tag 2 |  | [Download][ex1-latex-latest] | 07.09.2025 | -->
-<!-- | Tag 3 |  | [Download][ex1-latex-latest] | 07.10.2025 | -->
-<!-- | Tag 4 |  | [Download][ex1-latex-latest] | 09.10.2025 | -->
+| Tag 2 |  | [Download][ex2-latex-latest] | 06.10.2026 |
+<!-- | Tag 3 |  | [Download][ex3-latex-latest] | 07.10.2026 | -->
+<!-- | Tag 4 |  | [Download][ex4-latex-latest] | 08.10.2026 | -->
 
 [latex-latest]: /files/archive/latest/latex.pdf
 [ex1-latex-latest]: /files/archive/latest/exercises-latex-1.zip
-<!-- [ex2-latex-latest]: /files/archive/latest/exercises-latex-2.zip -->
+[ex2-latex-latest]: /files/archive/latest/exercises-latex-2.zip
 <!-- [ex3-latex-latest]: /files/archive/latest/exercises-latex-3.zip -->
 <!-- [ex4-latex-latest]: /files/archive/latest/exercises-latex-4.zip -->
 <!---->
