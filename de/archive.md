@@ -51,32 +51,32 @@ Hier befinden sich die Materialien der aktuellen Veranstaltung.
 [ex3-latex-latest]: /files/archive/latest/exercises-latex-3.zip
 [ex4-latex-latest]: /files/archive/latest/exercises-latex-4.zip
 
-<!-- ::::{grid} 1 1 1 1 -->
-<!-- :::{card} -->
-<!-- :header: {icon}`line-md:external-link` $\LaTeX$-Vorlage für Protokolle -->
-<!-- :link: https://github.com/pep-dortmund/toolbox-workshop-protocol-template -->
-<!---->
-<!-- Schau dir unsere $\LaTeX$-Vorlage für Praktikumsprotokolle -->
-<!-- auf {icon}`mdi:github` GitHub an. -->
-<!-- ::: -->
-<!-- :::: -->
-<!---->
-<!-- ::::{grid} 1 1 2 2 -->
-<!-- :::{card} -->
-<!-- :header: Archiv-Download `.tar.gz` -->
-<!-- :link: /files/archive/latest.tar.gz -->
-<!---->
-<!-- Downloade das komplette Archiv als `.tar.gz` Datei. -->
-<!-- ::: -->
-<!-- :::{card} -->
-<!-- :header: Archiv-Download `.zip` -->
-<!-- :link: /files/archive/latest.zip -->
-<!---->
-<!-- Downloade das komplette Archiv als `.zip` Datei. -->
-<!-- ::: -->
-<!-- :::: -->
-<!---->
-<!-- --- -->
+::::{grid} 1 1 1 1
+:::{card}
+:header: {icon}`line-md:external-link` $\LaTeX$-Vorlage für Protokolle
+:link: https://github.com/pep-dortmund/toolbox-workshop-protocol-template
+
+Schau dir unsere $\LaTeX$-Vorlage für Praktikumsprotokolle
+auf {icon}`mdi:github` GitHub an.
+:::
+::::
+
+::::{grid} 1 1 2 2
+:::{card}
+:header: Archiv-Download `.tar.gz`
+:link: /files/archive/latest.tar.gz
+
+Downloade das komplette Archiv als `.tar.gz` Datei.
+:::
+:::{card}
+:header: Archiv-Download `.zip`
+:link: /files/archive/latest.zip
+
+Downloade das komplette Archiv als `.zip` Datei.
+:::
+::::
+
+---
 
 
 ## Wintersemester 2025/26
