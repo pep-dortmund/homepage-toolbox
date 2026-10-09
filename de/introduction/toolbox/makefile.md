@@ -182,7 +182,7 @@ und auch den Rest.
   die so heißen, immer noch die Regeln ausgeführt werden.
 
 
-### Das Makfile ausführen
+### Das Makefile ausführen
 
 Wenn du dein `Makefile` nutzen möchtest, hast du mehrere Möglichkeiten.
 1. `make`: Dieser Befehl sorgt dafür, dass alles ausgeführt wird,

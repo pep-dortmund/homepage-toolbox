@@ -175,7 +175,7 @@ already contained within it, as well as the rest.
   and (even if files with those names do exist) so that
   the rules will still be executed.
 
-### Running the makefile
+### Running the Makefile
 
 If you want to use your `Makefile`, you have several options:
 1. `make`: This command ensures that everything runs so that the latest version
