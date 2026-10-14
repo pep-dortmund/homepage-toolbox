@@ -157,7 +157,7 @@ To do this, execute the following command in the terminal:
 
 :::{substitution}
 ```shell
-$ echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+$ echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/$(uname -m)-linux:$PATH"' >> ~/.bashrc
 ```
 :::
 
