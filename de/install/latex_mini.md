@@ -40,7 +40,7 @@ im Terminal eingeben.
 Wenn die Ausgabe _bash_ enthält, kannst du mit dem folgenden Befehl den Pfad zu TeXlive zum `PATH` hinzufügen
 :::{substitution}
 ```shell
-echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/x86_64-linux:$PATH"' >> ~/.bashrc
+echo 'export PATH="$HOME/.local/texlive/{{ latex_year }}/bin/$(uname -m)-linux:$PATH"' >> ~/.bashrc
 ```
 :::
 ```shell
